@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "tg3-4.4.180plus-geminilake.tgz",
-      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/tg3/releases/tg3-4.4.180plus-geminilake.tgz",
-      "sha256": "293cc4be5cc03ec7a0cbc253f3f16498db05f416fb654f9947b66bfc13c26e28",
+      "name": "tg3-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/tg3/releases/tg3-4.4.180plus-v1000.tgz",
+      "sha256": "eb70113172f63e048ebbed21f775b647f07b12e7c17b8476cda09fc755a1ae22",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "libphy.ko": "",
-    "tg3.ko":""
+    "tg3.ko": ""
   },
 
     "scripts": {

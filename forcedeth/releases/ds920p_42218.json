@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "forcedeth-4.4.180plus-geminilake.tgz",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/forcedeth/releases/forcedeth-4.4.180plus-geminilake.tgz",
+      "sha256": "63db9da59afa4f6fe9ff2ddab08e56d04434014833190f3dea8b6f8a22c02246",
+      "packed": true
+    },
+    {
+      "name": "check-forcedeth.sh",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/forcedeth/src/check-forcedeth.sh",
+      "sha256": "ab5f20d773adba2ca193bfba2caf10b15cac396caeee3653de8da715d925043b",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "forcedeth.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-forcedeth.sh"
+  }
+
+}

@@ -3,10 +3,10 @@
   "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/rpext-index.json",
   "info": {
     "name": "Device tree binary",
-    "description": "Create your own device tree binary",
-    "author_url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/redpill-dtb",
-    "packer_url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/redpill-dtb",
-    "help_url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/redpill-dtb"
+    "description": "Update device tree binary automatically on boot",
+    "author_url": "https://github.com/pocopico/rp-ext/master/dtbpatch",
+    "packer_url": "https://github.com/pocopico/rp-ext/master/dtbpatch/",
+    "help_url": "https://github.com/pocopico/rp-ext/master/dtbpatch/"
   },
   "releases": {
     "ds920p_42951": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json",
@@ -26,9 +26,10 @@
     "ds1621p_42621": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json",
     "ds1621p_42661": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json",
     "ds2422p_42951": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json",
-    "ds2422p_42662": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json",
     "ds2422p_42218": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json",
     "ds2422p_42621": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json",
-    "ds2422p_42661": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json"
+    "ds2422p_42661": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json",
+    "ds2422p_42662": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json",
+    "ds2422p_42962": "https://raw.githubusercontent.com/wjz304/rp-ext/master/dtbpatch/recipes/universal.json"
   }
 }

@@ -3,9 +3,9 @@
 
   "files": [
     {
-      "name": "tg3-4.4.180plus-broadwellnk.tgz",
-      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/tg3/releases/tg3-4.4.180plus-broadwellnk.tgz",
-      "sha256": "e9bc47b0d122044be2452d2695f1316240430b8dabbcad2e29164083ae6af634",
+      "name": "tg3-4.4.180plus-v1000.tgz",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/tg3/releases/tg3-4.4.180plus-v1000.tgz",
+      "sha256": "eb70113172f63e048ebbed21f775b647f07b12e7c17b8476cda09fc755a1ae22",
       "packed": true
     },
     {
@@ -17,8 +17,7 @@
   ],
 
   "kmods": {
-    "libphy.ko": "",
-    "tg3.ko":""
+    "tg3.ko": ""
   },
 
     "scripts": {
