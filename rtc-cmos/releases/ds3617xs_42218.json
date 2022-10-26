@@ -8,6 +8,18 @@
       "sha256": "cbc4dbf6682ccb4fda79632c151e1bf608d84871fd7a856a2f276fe9387f084e",
       "packed": true
     },
+      {
+      "name": "rtcwake.tar.gz",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/rtc-cmos/releases/rtcwake.tar.gz",
+      "sha256": "a77f600ec78d51e01fbae1a52fb811180c234d205b3801d391aa0815b72b129c",
+      "packed": false
+    },
+     {
+      "name": "install-rtcwake.sh",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/rtc-cmos/src/install-rtcwake.sh",
+      "sha256": "46ed4d176026f12f54a7ce6342bb0b3527ab0b191612881bbdc338734e320d17",
+      "packed": false
+    },
     {
       "name": "check-rtc-cmos.sh",
       "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/rtc-cmos/src/check-rtc-cmos.sh",
@@ -17,11 +29,14 @@
   ],
 
   "kmods": {
-    "rtc-cmos.ko": ""
+    "rtc-cmos.ko":""
   },
 
     "scripts": {
-    "on_boot": "check-rtc-cmos.sh"
+    "on_boot": "check-rtc-cmos.sh",
+    "on_os_load": "install-rtcwake.sh"
+
   }
 
 }
+
