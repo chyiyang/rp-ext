@@ -2,12 +2,13 @@
   "mod_version": "v1",
 
   "files": [
-    {
-      "name": "e1000-5.10.55plus-epyc7002.tgz",
-      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/e1000/releases/e1000-5.10.55plus-epyc7002.tgz",
-      "sha256": "853b5dbedb0d1645c72a3fb8e0d3e0b8ceab0d6f97451de95fb506397d92561a",
+   {
+      "name": "e1000-5.10.55plus-epyc.tgz",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/e1000/releases/e1000-5.10.55plus-epyc.tgz",
+      "sha256": "2d07f25eafd2cfbf535f271403ca5165274da3a8ce0f3477bca024e4794c67f5",
       "packed": true
     },
+
     {
       "name": "check-e1000.sh",
       "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/e1000/src/check-e1000.sh",
