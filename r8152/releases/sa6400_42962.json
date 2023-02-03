@@ -5,7 +5,7 @@
     {
       "name": "r8152-5.10.55plus-epyc7002.tgz",
       "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/r8152/releases/r8152-5.10.55plus-epyc7002.tgz",
-      "sha256": "d9402a09fe6349c7ba727c64e225fcc78da38bd32a4d1d90e44fc75181f2e5a7",
+      "sha256": "e17310f5c48151bed45839695dd15bf7698dbf3eb6f6cbf6cfc5f66e2b300997",
       "packed": true
     },
     {
@@ -18,6 +18,7 @@
 
   "kmods": {
     "usbcore.ko": "",
+    "usb-common.ko": "",
     "mii.ko": "",
     "r8152.ko":""
   },
