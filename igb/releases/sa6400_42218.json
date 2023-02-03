@@ -1,0 +1,27 @@
+{
+  "mod_version": "v1",
+
+  "files": [
+    {
+      "name": "igb-5.10.55plus-epyc7002.tgz",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/igb/releases/igb-5.10.55plus-epyc7002.tgz",
+      "sha256": "75a2d365b29c9c30c81b955d062e53aa03950fc8da002841ad58b4dda1562e48",
+      "packed": true
+    },
+    {
+      "name": "check-igb.sh",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/igb/src/check-igb.sh",
+      "sha256": "1c287077390c24764eeb0f1e768232cfd4e26e0cb5b01154464d7181d1c3ebf4",
+      "packed": false
+    }
+  ],
+
+  "kmods": {
+    "igb.ko": ""
+  },
+
+    "scripts": {
+    "on_boot": "check-igb.sh"
+  }
+
+}

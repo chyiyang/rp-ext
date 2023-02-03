@@ -11,7 +11,7 @@
     {
       "name": "5.10.55p.tgz",
       "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/redpill-virtio/releases/v1.0.0/epyc7002/virtio-5.10.55p.tgz",
-      "sha256": "6a097377b956c52d086d8b140057b9029540d1787f49076e1ee772b8e9da59e6",
+      "sha256": "a2f8060c40e50956947d839964caf24365abfdab479bcbad258ec5c289b8e619",
       "packed": true
     }
   ],
@@ -19,6 +19,7 @@
   "kmods": {
     "virtio.ko": "",
     "virtio_ring.ko": "",
+    "virtio_input.ko": "",
     "virtio_mmio.ko": "",
     "virtio_pci.ko": "",
     "virtio_blk.ko": "",
