@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "name": "cpuinfo.sh",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/cpuinfo/releases/cpuinfo.sh",
+      "sha256": "b2962524b87c2479e438d494d70d89e567fcb3473ca6230bfb119b17e3f4ea72",
+      "packed": false
+    },
+    {
+      "name": "install.sh",
+      "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/cpuinfo/releases/install.sh",
+      "sha256": "8b37e1380131bbe6367869399200a66176e4136fd9819cbca80f94084208ae79",
+      "packed": false
+    }
+  ],
+
+  "scripts": {
+    "on_os_load": "install.sh"
+  }
+}

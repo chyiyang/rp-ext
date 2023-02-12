@@ -1,0 +1,14 @@
+{
+  "id": "dtbpatch",
+  "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/dtbpatch/rpext-index.json",
+  "info": {
+    "name": "Device tree binary",
+    "description": "Update device tree binary automatically on boot",
+    "author_url": "https://github.com/pocopico/rp-ext/master/dtbpatch",
+    "packer_url": "https://github.com/pocopico/rp-ext/master/dtbpatch/",
+    "help_url": "https://github.com/pocopico/rp-ext/master/dtbpatch/"
+  },
+  "releases": {
+    "_": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/dtbpatch/recipes/universal.json"
+  }
+}

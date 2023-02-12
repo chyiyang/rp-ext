@@ -1,0 +1,13 @@
+{
+  "id": "boot-wait",
+  "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/boot-wait/rpext-index.json",
+  "info": {
+    "name": "RedPill Bootwait",
+    "description": "Simple extension which stops the execution early waiting for the boot device to appear",
+    "packer_url": "https://github.com/RedPill-TTG/redpill-boot-wait",
+    "help_url": "https://github.com/RedPill-TTG/redpill-boot-wait"
+  },
+  "releases": {
+    "_": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/boot-wait/recipes/universal.json"
+  }
+}

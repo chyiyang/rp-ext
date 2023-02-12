@@ -1,0 +1,14 @@
+{
+  "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/cpuinfo/rpext-index.json",
+  "id": "cpuinfo",
+  "info": {
+    "name": "cpuinfo",
+    "description": "Adds correct CPU Info, from FOXBI",
+    "packer_url": "https://github.com/FOXBI/ch_cpuinfo",
+    "help_url": "https://github.com/FOXBI/ch_cpuinfo"
+  },
+  "releases": {
+    "_": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/cpuinfo/recipes/universal.json",
+    "zendofmodel": "endofurls"
+  }
+}

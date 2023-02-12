@@ -1,0 +1,13 @@
+{
+  "id": "pocopico.early-telnet",
+  "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/early-telnet/rpext-index.json",
+  "info": {
+    "name": "Early telnet start",
+    "description": "Simple extension which starts telnet early at boot",
+    "packer_url": "https://github.com/pocopico/rp-ext/tree/main/early-telnet",
+    "help_url": "https://github.com/pocopico/rp-ext/early-telnet"
+  },
+  "releases": {
+    "_": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/early-telnet/recipes/universal.json"
+  }
+}

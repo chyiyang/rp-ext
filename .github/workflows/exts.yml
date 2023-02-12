@@ -1,0 +1,115 @@
+#
+# Copyright (C) 2022 Ing <https://github.com/wjz304>
+# 
+# This is free software, licensed under the MIT License.
+# See /LICENSE for more information.
+#
+
+name: Exts Check
+
+on:
+  #schedule:
+  #  - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  exts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Initialization environment
+        run : |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          sudo timedatectl set-timezone "Asia/Shanghai"
+
+
+      - name: check addons
+        shell: python
+        run: |
+          # -*- coding: utf-8 -*-
+
+          import os, json, hashlib
+
+          root = '' # os.path.dirname(os.path.abspath(__file__))
+
+          def getjsonfile(file):
+              data = None
+              if os.path.isfile(file):
+                  try:
+                      with open(file, 'r') as f:
+                          data = json.load(f)
+                  except Exception as err:
+                      print(err)
+              return data
+
+          def sha256sum(file):
+              sha256 = ''
+              if os.path.isfile(file):
+                  with open(file, "rb") as f:
+                      sha256=hashlib.sha256(f.read()).hexdigest()
+              return sha256
+
+          def pathstrsub(exp, reglist=[]):
+              ret = exp
+              try:
+                  for re in reglist:
+                      ret = ret.replace(re[0], re[1])
+              except Exception as err:
+                  print(err)
+              return ret
+
+          if __name__ == '__main__':
+
+              reglist=[]
+              reglist.append(['https://raw.githubusercontent.com/wjz304/rp-ext/master/',''])
+              indexFile = 'rpext-index.json'
+              addonDirs = os.listdir(os.path.join(root, 'addons'))
+              addons = {}
+              for addon in addonDirs:
+                  if addon.startswith('.') or os.path.isfile(os.path.join(root, 'addons', addon)):
+                      continue
+                  indexData = getjsonfile(os.path.join(root, 'addons', addon, indexFile))
+                  if indexData != None:
+                      try:
+                          if getjsonfile(os.path.join(root, pathstrsub(indexData["url"], reglist))) == None:
+                              print('file: {} -- may not exists'.format(pathstrsub(indexData["url"], reglist)))
+                          
+                          keys = indexData["releases"].keys()
+                          for key in keys:
+                              if key == 'zendofmodel': continue
+                              releasesData = getjsonfile(os.path.join(root, pathstrsub(indexData["releases"][key], reglist)))
+                              if releasesData != None:
+                                  if "files" in releasesData:
+                                      for file in releasesData["files"]:
+                                          sha256_online = file["sha256"]
+                                          sha256_local = sha256sum(os.path.join(root, pathstrsub( file["url"], reglist)))
+                                          if sha256_online != sha256_local:
+                                              print('file: {} -- key: {} -- error: {} -- really: {}'.format(pathstrsub(indexData["releases"][key], reglist), pathstrsub(file["url"], reglist), sha256_online, sha256_local))
+                              else:
+                                  print('file: {} -- may not exists'.format(pathstrsub(indexData["releases"][key], reglist)))
+
+                              if key in addons.keys():
+                                  addons[key][addon] = { "description": indexData["info"]["description"], "url": indexData["url"] }
+                              else:
+                                  addons[key] = { addon: { "description": indexData["info"]["description"], "url": indexData["url"] } }
+                      except Exception as err:
+                          print(err) 
+
+              if len(addons) > 0:
+                  print('#######################   addons   #######################')
+                  print(json.dumps(addons, indent=4))
+                  with open(os.path.join(root, 'addons.json'), 'w', encoding='utf-8') as f:
+                      f.write(json.dumps(addons, indent=4))
+
+      - name: Check and Push
+        run: |
+          git pull
+          status=$(git status -s | grep -E 'addons.json' | awk '{printf " %s", $2}')
+          if [ -n "${status}" ]; then
+            git add ${status}
+            git commit -m "update $(date +%Y-%m-%d" "%H:%M:%S)"
+            git push -f
+          fi
