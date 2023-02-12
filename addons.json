@@ -1,0 +1,40 @@
+{
+    "_": {
+        "dtbstatic": {
+            "description": "Create your own device tree binary",
+            "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/dtbstatic/rpext-index.json"
+        },
+        "cpuinfo": {
+            "description": "Adds correct CPU Info, from FOXBI",
+            "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/cpuinfo/rpext-index.json"
+        },
+        "misc": {
+            "description": "Misc shell",
+            "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/misc/rpext-index.json"
+        },
+        "eudev": {
+            "description": "Eudev binaries will assist with auto module loading",
+            "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/eudev/rpext-index.json"
+        },
+        "early-telnet": {
+            "description": "Simple extension which starts telnet early at boot",
+            "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/early-telnet/rpext-index.json"
+        },
+        "disks": {
+            "description": "Config disks related setting",
+            "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/disks/rpext-index.json"
+        },
+        "acpid2": {
+            "description": "ACPI Daemon v2 that handles power button events",
+            "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/acpid2/rpext-index.json"
+        },
+        "boot-wait": {
+            "description": "Simple extension which stops the execution early waiting for the boot device to appear",
+            "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/boot-wait/rpext-index.json"
+        },
+        "dtbpatch": {
+            "description": "Update device tree binary automatically on boot",
+            "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/dtbpatch/rpext-index.json"
+        }
+    }
+}
