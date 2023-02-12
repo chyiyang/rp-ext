@@ -1,0 +1,182 @@
+#
+# Copyright (C) 2022 Ing <https://github.com/wjz304>
+# 
+# This is free software, licensed under the MIT License.
+# See /LICENSE for more information.
+#
+
+name: Exts Modules Make
+
+on:
+  #schedule:
+  #  - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  modules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Initialization environment
+        run : |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          sudo timedatectl set-timezone "Asia/Shanghai"
+
+          sudo apt install build-essential libtool pkgconf libzstd-dev liblzma-dev libssl-dev
+          pip install kmodule
+
+      - name: Checkout arpl-modules
+        run: |
+          sudo rm -rf modules 
+          sudo rm -rf arpl-modules
+          git clone https://github.com/fbelavenuto/arpl-modules.git arpl-modules
+
+          MODULESTAG=`curl -skL https://api.github.com/repos/fbelavenuto/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+          echo "MODULESTAG=${MODULESTAG}" >> $GITHUB_ENV
+
+      - name: make modules
+        shell: python
+        run: |
+          # -*- coding: utf-8 -*-
+
+          import os, json, shutil, hashlib, kmodule
+
+          root = '' # os.path.dirname(os.path.abspath(__file__))
+          baseDir = 'modules'
+          baseUrl = 'https://raw.githubusercontent.com/wjz304/rp-ext/master'
+
+          if __name__ == '__main__':
+              #try:
+                  platformDirs = os.listdir(os.path.join(root, 'arpl-modules'))
+                  for platformDir in platformDirs:
+                      if platformDir.startswith('.') or '-' not in platformDir:
+                          continue
+                      if os.path.isfile(os.path.join(root, 'arpl-modules', platformDir)):
+                          continue
+                      platformModules = []
+                      modules = os.listdir(os.path.join(root, 'arpl-modules', platformDir))
+                      for module in modules:
+                          if module.startswith('.') or '.ko' not in module:
+                              continue
+                          if os.path.isdir(os.path.join(root, 'arpl-modules', platformDir, module)):
+                              continue
+                          #(
+                          #    {
+                          #        'filename': '/arpl-modules/apollolake-4.4.180/virtio_input.ko', 
+                          #        'author': 'Gerd Hoffmann <kraxel@redhat.com>', 
+                          #        'description': 'Virtio input device driver', 
+                          #        'license': 'GPL', 
+                          #        'depends': 'virtio,virtio_ring', 
+                          #        'retpoline': 'Y', 
+                          #        'vermagic': '4.4.180+ SMP mod_unload ', 
+                          #        'alias': ('virtio:d00000012v*',)
+                          #    },
+                          #)
+                          info = kmodule.modinfo(os.path.join(root, 'arpl-modules', platformDir, module))[0]
+                          info['filename'] = module[:-3]    # module.replace('.ko', '')
+                          if 'description' not in info.keys(): info['description'] = ''
+
+                          checkshell = '#\n# Checking modules is loaded\n#\n\n'
+                          universal = { "mod_version": "${{ env.MODULESTAG }}", "files": [], "kmods": {}, "scripts": {"on_boot": ""} }
+
+                          kolist = []
+                          binlist = []
+                          if "depends" in info.keys() and info["depends"] != '': 
+                              kolist = [x.strip() + '.ko' for x in info["depends"].split(',') if x.strip() != '']
+                          kolist.append(module)
+
+                          os.makedirs(os.path.join(root, baseDir, info['filename'], platformDir), exist_ok=True)
+
+                          for k in kolist:
+                              if not os.path.exists(os.path.join(root, 'arpl-modules', platformDir, k)): continue
+
+                              shutil.copyfile(os.path.join(root, 'arpl-modules', platformDir, k), os.path.join(root, baseDir, info['filename'], platformDir, k))
+
+                              checkshell += 'echo -n "Loading module {} -> "\n[ `/sbin/lsmod | grep -i {} | wc -l` -gt 0 ] && echo "Module {} loaded succesfully" || echo "Module {} is not loaded"\n'.format(k[:-3],k[:-3],k[:-3],k[:-3])
+
+                              url = os.path.join(baseUrl, baseDir, info['filename'], platformDir, k)
+                              with open(os.path.join(root, 'arpl-modules', platformDir, k), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
+
+                              universal["files"].append({ "name": module, "url": url, "sha256": sha256, "packed": False })
+                              universal["kmods"][k] = ""
+                          
+                          universal["scripts"]["on_boot"] = "check-{}.sh".format(info['filename'])
+                          with open(os.path.join(root, baseDir, info['filename'], platformDir, 'check-{}.sh'.format(info['filename'])), 'w', encoding='utf-8') as f:
+                              f.write(checkshell)
+                          with open(os.path.join(root, baseDir, info['filename'], '{}.json'.format(platformDir)), 'w', encoding='utf-8') as f:
+                              f.write(json.dumps(universal, indent=4))
+
+                          extsindex = {}
+                          if os.path.exists(os.path.join(root, baseDir, info['filename'], 'rpext-index.json')):
+                              with open(os.path.join(root, baseDir, info['filename'], 'rpext-index.json'), 'r', encoding='utf-8') as f:
+                                  extsindex = json.load(f)
+                                  extsindex["releases"][platformDir] = os.path.join(baseUrl, baseDir, info['filename'], '{}.json'.format(platformDir))
+                          else:
+                              extsindex = {
+                                  "id": info['filename'],
+                                  "url": os.path.join(baseUrl, baseDir, info['filename'], platformDir + '.json'), 
+                                  "info": {"name": info['filename'], "description": info['description'], "author_url": baseUrl, "packer_url": baseUrl, "help_url": "<todo>"}, 
+                                  "releases": { platformDir: os.path.join(baseUrl, baseDir, info['filename'], '{}.json'.format(platformDir)) }
+                                  }
+                          with open(os.path.join(root, baseDir, info['filename'], 'rpext-index.json'), 'w', encoding='utf-8') as f:
+                              f.write(json.dumps(extsindex, indent=4))
+
+              #except Exception as err:
+              #    print(err)
+
+      - name: Remove arpl-modules
+        run: |
+          sudo rm -rf arpl-modules
+
+      - name: check modules
+        shell: python
+        run: |
+          # -*- coding: utf-8 -*-
+
+          import os, json
+
+          root = '' # os.path.dirname(os.path.abspath(__file__))
+          
+          def getjsonfile(file):
+              data = None
+              if os.path.isfile(file):
+                  try:
+                      with open(file, 'r') as f:
+                          data = json.load(f)
+                  except Exception as err:
+                      print(err)
+              return data
+
+          if __name__ == '__main__':
+
+              reglist=[]
+              reglist.append(['https://raw.githubusercontent.com/wjz304/rp-ext/master/',''])
+              indexFile = 'rpext-index.json'
+              moduleDirs = os.listdir(os.path.join(root, 'modules'))
+              modules = {}
+              for module in moduleDirs:
+                  if module.startswith('.') or os.path.isfile(os.path.join(root, 'modules', module)):
+                      continue
+                  indexData = getjsonfile(os.path.join(root, 'modules', module, indexFile))
+                  if indexData != None:
+                      platforms = indexData["releases"].keys()
+                      modules[module] = { "description": indexData["info"]["description"], "url": indexData["url"], "platforms": ','.join(platforms) }
+
+              if len(modules) > 0:
+                  print('#######################   modules   #######################')
+                  print(json.dumps(modules, indent=4))
+                  with open(os.path.join(root, 'modules.json'), 'w', encoding='utf-8') as f:
+                      f.write(json.dumps(modules, indent=4))
+
+      - name: Check and Push
+        run: |
+          git pull
+          status=$(git status -s | grep -E 'modules' | awk '{printf " %s", $2}')
+          if [ -n "${status}" ]; then
+            git add ${status}
+            git commit -m "update $(date +%Y-%m-%d" "%H:%M:%S)"
+            git push -f
+          fi
