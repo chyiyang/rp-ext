@@ -64,7 +64,7 @@ jobs:
           if __name__ == '__main__':
 
               reglist=[]
-              reglist.append(['https://raw.githubusercontent.com/wjz304/rp-ext/master/',''])
+              reglist.append(['${{ github.server_url }}/${{ github.repository }}/raw/${{ github.ref_name }}/',''])
               indexFile = 'rpext-index.json'
               addonDirs = os.listdir(os.path.join(root, 'addons'))
               addons = {}
@@ -91,10 +91,10 @@ jobs:
                               else:
                                   print('file: {} -- may not exists'.format(pathstrsub(indexData["releases"][key], reglist)))
 
-                              if key in addons.keys():
-                                  addons[key][addon] = { "description": indexData["info"]["description"], "url": indexData["url"] }
+                              if addon in addons.keys():
+                                  addons[addon]["platforms"] = addons[addon]["platforms"] + ',' + key
                               else:
-                                  addons[key] = { addon: { "description": indexData["info"]["description"], "url": indexData["url"] } }
+                                  addons[addon] = { "description": indexData["info"]["description"], "url": indexData["url"], "platforms": key }
                       except Exception as err:
                           print(err) 
 

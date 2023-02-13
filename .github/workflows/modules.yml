@@ -46,7 +46,7 @@ jobs:
 
           root = '' # os.path.dirname(os.path.abspath(__file__))
           baseDir = 'modules'
-          baseUrl = 'https://raw.githubusercontent.com/wjz304/rp-ext/master'
+          baseUrl = '${{ github.server_url }}/${{ github.repository }}/raw/${{ github.ref_name }}'
 
           if __name__ == '__main__':
               #try:
@@ -56,7 +56,8 @@ jobs:
                           continue
                       if os.path.isfile(os.path.join(root, 'arpl-modules', platformDir)):
                           continue
-                      platformModules = []
+                      platform = platformDir.split('-')[0]
+                      version = platformDir.split('-')[1]
                       modules = os.listdir(os.path.join(root, 'arpl-modules', platformDir))
                       for module in modules:
                           if module.startswith('.') or '.ko' not in module:
@@ -98,7 +99,7 @@ jobs:
                               checkshell += 'echo -n "Loading module {} -> "\n[ `/sbin/lsmod | grep -i {} | wc -l` -gt 0 ] && echo "Module {} loaded succesfully" || echo "Module {} is not loaded"\n'.format(k[:-3],k[:-3],k[:-3],k[:-3])
 
                               url = os.path.join(baseUrl, baseDir, info['filename'], platformDir, k)
-                              with open(os.path.join(root, 'arpl-modules', platformDir, k), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
+                              with open(os.path.join(root, baseDir, info['filename'], platformDir, k), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
 
                               universal["files"].append({ "name": module, "url": url, "sha256": sha256, "packed": False })
                               universal["kmods"][k] = ""
@@ -117,7 +118,7 @@ jobs:
                           else:
                               extsindex = {
                                   "id": info['filename'],
-                                  "url": os.path.join(baseUrl, baseDir, info['filename'], platformDir + '.json'), 
+                                  "url": os.path.join(baseUrl, baseDir, info['filename'], 'rpext-index.json'), 
                                   "info": {"name": info['filename'], "description": info['description'], "author_url": baseUrl, "packer_url": baseUrl, "help_url": "<todo>"}, 
                                   "releases": { platformDir: os.path.join(baseUrl, baseDir, info['filename'], '{}.json'.format(platformDir)) }
                                   }
@@ -153,7 +154,7 @@ jobs:
           if __name__ == '__main__':
 
               reglist=[]
-              reglist.append(['https://raw.githubusercontent.com/wjz304/rp-ext/master/',''])
+              reglist.append(['${{ github.event.repository.url }}/raw/${{ github.event.repository.master_branch }}/',''])
               indexFile = 'rpext-index.json'
               moduleDirs = os.listdir(os.path.join(root, 'modules'))
               modules = {}
