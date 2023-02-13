@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "igc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/broadwellnk-4.4.180/igc.ko",
+            "sha256": "c9180953f7a8dcb078fb8915caed7e887a689cde822b96e2ab2828fd064c3d1c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igc.sh"
+    }
+}

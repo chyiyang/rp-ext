@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "rtc-cmos.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/apollolake-4.4.180/rtc-cmos.ko",
+            "sha256": "4565c4669f315bf048fb3eb4668deafb1cb78eb50aac5dbddf33e8acec09540a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "rtc-cmos.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-rtc-cmos.sh"
+    }
+}

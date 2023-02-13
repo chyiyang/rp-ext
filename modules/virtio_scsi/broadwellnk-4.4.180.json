@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/broadwellnk-4.4.180/virtio.ko",
+            "sha256": "fd09ce7c67a9ff40bb57df6b8b47195287cabc404193daef6999a048b8e3916c",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/broadwellnk-4.4.180/virtio_ring.ko",
+            "sha256": "261b1b57bc76b63c01531cdfd9e6444c2ea5cfecc8120b410053e77a27e0810d",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/broadwellnk-4.4.180/virtio_scsi.ko",
+            "sha256": "08d649b038f06c6cdd46072cf2e595448606205ca816416c210d75291505062e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_scsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_scsi.sh"
+    }
+}

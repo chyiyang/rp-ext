@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/geminilake-4.4.180/mptbase.ko",
+            "sha256": "56be09c706008c55b7572bc0ff2366338e15d0def60b4e948e1eb258ddb9383a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptbase.sh"
+    }
+}

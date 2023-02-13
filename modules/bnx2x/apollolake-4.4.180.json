@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/apollolake-4.4.180/mdio.ko",
+            "sha256": "a3bcbabae3aad985b392374eb149bd498016af672f0383a566928248607a831a",
+            "packed": false
+        },
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/apollolake-4.4.180/bnx2x.ko",
+            "sha256": "d09f6e7f7909677613ce376d516715dcb7708f6c5befde4fc516a1157d3a5cf6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x.sh"
+    }
+}

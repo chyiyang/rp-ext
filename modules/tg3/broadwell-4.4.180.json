@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwell-4.4.180/libphy.ko",
+            "sha256": "55f7a14fe3da3c4ebde12a1d800810f9f705fa9ad15a88b351da4971848be748",
+            "packed": false
+        },
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwell-4.4.180/tg3.ko",
+            "sha256": "380c308b49740e8ffa1e4c5094d4254c7ffa58c2dd726cf326a5c2f9e9009b23",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "tg3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-tg3.sh"
+    }
+}

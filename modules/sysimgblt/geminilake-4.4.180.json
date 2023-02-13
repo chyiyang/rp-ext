@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sysimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/geminilake-4.4.180/sysimgblt.ko",
+            "sha256": "cd074d59c96ebde23deba841b4858edaea1d61b21ae108098c99a47a1737baed",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysimgblt.sh"
+    }
+}

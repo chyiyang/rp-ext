@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "atl1e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/broadwellnk-4.4.180/atl1e.ko",
+            "sha256": "d603ead82f4047c55216b01607667c946e17f928750206a35de551b7f00845b4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atl1e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atl1e.sh"
+    }
+}

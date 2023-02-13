@@ -1,0 +1,21 @@
+{
+    "id": "megaraid_mm",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/rpext-index.json",
+    "info": {
+        "name": "megaraid_mm",
+        "description": "LSI Logic Management Module",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/r1000-4.4.180.json",
+        "bromolow-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/bromolow-3.10.108.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/denverton-4.4.180.json"
+    }
+}

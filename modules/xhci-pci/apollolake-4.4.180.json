@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "xhci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/apollolake-4.4.180/xhci-pci.ko",
+            "sha256": "b83c5bf4ee1c3b33cee3d688620b4524adce2769baa2e95870d6958555ec28de",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "xhci-pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-xhci-pci.sh"
+    }
+}

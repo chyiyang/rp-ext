@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "vgastate.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/r1000-4.4.180/vgastate.ko",
+            "sha256": "4352613178f5ecdf3d7b57d71adb23851b51b8da9a9bdef4074d60b2da5ec818",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vgastate.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vgastate.sh"
+    }
+}

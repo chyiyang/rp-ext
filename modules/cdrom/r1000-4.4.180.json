@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cdrom.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/r1000-4.4.180/cdrom.ko",
+            "sha256": "fb6a5f7da4b21147393ac7f0e3822a340c637b945989d5c662cf48cbd235d793",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cdrom.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cdrom.sh"
+    }
+}

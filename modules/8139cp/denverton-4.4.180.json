@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "8139cp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/denverton-4.4.180/mii.ko",
+            "sha256": "8908593781aeccf061af71fa2042e6462e3f2664a2a352f14258777207f9d8e5",
+            "packed": false
+        },
+        {
+            "name": "8139cp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/denverton-4.4.180/8139cp.ko",
+            "sha256": "a70c1c8c93ca01fa6f3124217eda32ea530f8b7ea8dbb68efdf272f4a16d6764",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "8139cp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-8139cp.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "megaraid_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/bromolow-3.10.108/megaraid_sas.ko",
+            "sha256": "4a15a6cffde601e64a21c6792ecce0a12927ee0c7fcb3bf9f0965a7fc7fa50fe",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_sas.sh"
+    }
+}

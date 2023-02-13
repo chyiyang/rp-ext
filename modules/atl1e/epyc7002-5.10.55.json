@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "atl1e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/epyc7002-5.10.55/atl1e.ko",
+            "sha256": "cf00ca27afdb3a8e9f88785d1de953299cacce982234970ad755a3e043b1da16",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atl1e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atl1e.sh"
+    }
+}

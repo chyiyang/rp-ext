@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_mmio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/broadwell-4.4.180/virtio_mmio.ko",
+            "sha256": "4297fcb84ab7c6d7607915ed090a9d6686bba278df2bf9ef0e72daed59935f62",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_mmio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_mmio.sh"
+    }
+}

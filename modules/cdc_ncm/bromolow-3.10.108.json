@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cdc_ncm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/bromolow-3.10.108/cdc_ncm.ko",
+            "sha256": "9d115e0130108c88bbad3afe28d6311ae3b734d06c53890aa6cb222b33118fc9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cdc_ncm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cdc_ncm.sh"
+    }
+}

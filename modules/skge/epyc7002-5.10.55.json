@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "skge.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/epyc7002-5.10.55/skge.ko",
+            "sha256": "b58d1dce60bde0962c50ca9900dbabd119467b13c8681b9a97b9c19a7a265c85",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "skge.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-skge.sh"
+    }
+}

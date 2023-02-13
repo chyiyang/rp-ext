@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "ixgb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgb/apollolake-4.4.180/ixgb.ko",
+            "sha256": "1d1b47a4e8b3d226aa8857d787d701ab8f6d087febbd47762b5eab8794618e1a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgb.sh"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/apollolake-4.4.180/mptscsih.ko",
+            "sha256": "e8a48b038659b383ca8bc9cf30d9c42ea5e577afdeb0272d5bf428f46f5decf8",
+            "packed": false
+        },
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/apollolake-4.4.180/mptbase.ko",
+            "sha256": "5cdbbc2bcf83073d22c434b444650397772f3855478ecd3928b59e04b7bbf25b",
+            "packed": false
+        },
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/apollolake-4.4.180/scsi_transport_spi.ko",
+            "sha256": "8b0159f8eb88636a765595320f6e97585e2c7988ec25b246aa1452d395bc47e8",
+            "packed": false
+        },
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/apollolake-4.4.180/mptspi.ko",
+            "sha256": "e1c03f57719e2b8dcc0d3b1995adfdf0eb021ce7272bcc3bfa3578a2f899bbac",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptscsih.ko": "",
+        "mptbase.ko": "",
+        "scsi_transport_spi.ko": "",
+        "mptspi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptspi.sh"
+    }
+}

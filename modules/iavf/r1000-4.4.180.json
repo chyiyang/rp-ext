@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "iavf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/r1000-4.4.180/auxiliary.ko",
+            "sha256": "392c1eee5f9f35d8504d76351242c24957ea2a53ef9c1e820f4bab21826894c9",
+            "packed": false
+        },
+        {
+            "name": "iavf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/r1000-4.4.180/iavf.ko",
+            "sha256": "133069cf925d53fd8f083a43ce207dfa586904ff60da6514e42de4c0c81ed07e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": "",
+        "iavf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iavf.sh"
+    }
+}

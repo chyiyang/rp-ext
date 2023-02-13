@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "si2157.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnk-4.4.180/si2157.ko",
+            "sha256": "b2f478fdef0ad11c5c0a145cef317863076090d31a3292bb867603ef0685ed72",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2157.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2157.sh"
+    }
+}

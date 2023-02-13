@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "megaraid_mbox.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/geminilake-4.4.180/megaraid_mm.ko",
+            "sha256": "ecb53de9d053880a6b93b58db9d240e50865110dcca9cbc4685a2426949a70bf",
+            "packed": false
+        },
+        {
+            "name": "megaraid_mbox.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/geminilake-4.4.180/megaraid_mbox.ko",
+            "sha256": "45ec91d09d5a7aba9625c439027c04137442d100de84493a61c58216d48bbca2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_mm.ko": "",
+        "megaraid_mbox.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_mbox.sh"
+    }
+}

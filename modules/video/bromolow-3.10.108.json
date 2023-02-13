@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "video.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/bromolow-3.10.108/video.ko",
+            "sha256": "7671add222f531686b5f40ab4a81a5bbb7633b3dde89e1cb2466a9c4ab91e7c5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "video.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-video.sh"
+    }
+}

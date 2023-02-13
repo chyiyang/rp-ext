@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "iavf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/geminilake-4.4.180/auxiliary.ko",
+            "sha256": "b4663a36902cea08540619edd84da3e262b33e3f10d14a3e4c2a5089dfd661ab",
+            "packed": false
+        },
+        {
+            "name": "iavf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/geminilake-4.4.180/iavf.ko",
+            "sha256": "bd1ef3bfe6223365772206436bd17b333f524cdf5ce66248680c60b61d2e9826",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": "",
+        "iavf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iavf.sh"
+    }
+}

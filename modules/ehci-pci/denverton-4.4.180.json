@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "ehci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/denverton-4.4.180/ehci-hcd.ko",
+            "sha256": "5dc2dd901e26c2d8bedc2ab85d2f32e2a52c7bb900799f1b72f554a857a66e73",
+            "packed": false
+        },
+        {
+            "name": "ehci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/denverton-4.4.180/ehci-pci.ko",
+            "sha256": "135f3482058df6286e6d6264822c16d4be348d5f2b391d7237c7fd0ac80c57b1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ehci-hcd.ko": "",
+        "ehci-pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ehci-pci.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/bromolow-3.10.108/tg3.ko",
+            "sha256": "67f86be5ba0636d6fe009f112629135e79ea1f3298dc1f913262ed15da904bb9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "tg3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-tg3.sh"
+    }
+}

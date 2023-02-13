@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "megaraid_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/geminilake-4.4.180/megaraid_sas.ko",
+            "sha256": "d420e0eafa71ff0ab6f941d510613539eee450607b31beafb6e7b55979f5bca7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_sas.sh"
+    }
+}

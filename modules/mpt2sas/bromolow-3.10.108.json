@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mpt2sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt2sas/bromolow-3.10.108/mpt2sas.ko",
+            "sha256": "7dadc5349377b332926023d7e1495b204dde8aa687266f8420baee50b7aa84e7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mpt2sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mpt2sas.sh"
+    }
+}

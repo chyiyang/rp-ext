@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cxgb4vf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/r1000-4.4.180/cxgb4vf.ko",
+            "sha256": "f7c8bb9dd7995ac80462d44e2ad08a11a59ea139035d823c8ee61e1f5d0d8e6e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb4vf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb4vf.sh"
+    }
+}

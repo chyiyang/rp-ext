@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "xhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/broadwell-4.4.180/xhci-hcd.ko",
+            "sha256": "af132bb670804a52fe5075beb6daf2c5186f39a2a46643ea3f65b16f4aafba6a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "xhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-xhci-hcd.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/broadwellnk-4.4.180/font.ko",
+            "sha256": "470c9b02125c7923440247d98dd972b313866f56bdc441a7d12210cf2e6bd3c9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "font.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-font.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sysfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/apollolake-4.4.180/sysfillrect.ko",
+            "sha256": "ab32c4f5956f11247ccaa405a6c5fb2d3e4874394ddb4a5ac3727452f06b2ee9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysfillrect.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysfillrect.sh"
+    }
+}

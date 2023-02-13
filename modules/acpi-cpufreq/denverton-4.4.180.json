@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "acpi-cpufreq.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/denverton-4.4.180/acpi-cpufreq.ko",
+            "sha256": "e53f93e855b1df24ee8a2696b55c554fe323f66def97f96f57ac1ed6fea3e843",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "acpi-cpufreq.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-acpi-cpufreq.sh"
+    }
+}

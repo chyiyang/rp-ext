@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "hid-generic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/broadwellnk-4.4.180/hid-generic.ko",
+            "sha256": "39655884d45fe54a887aaaf18151a0793c5e30570d879039fb169cdc4f33c46f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hid-generic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hid-generic.sh"
+    }
+}

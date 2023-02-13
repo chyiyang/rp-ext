@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/denverton-4.4.180/mmc_core.ko",
+            "sha256": "e6b67d9d8e7fa46102feffe16647693eeaa0e58d56dce395bb94a79d06f02373",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mmc_core.sh"
+    }
+}

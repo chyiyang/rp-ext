@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/r1000-4.4.180/r8152.ko",
+            "sha256": "0198e8c2a04bc7edf0b59285d464600a315a6331e3a4c981a3487d31615ff2cd",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8152.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8152.sh"
+    }
+}

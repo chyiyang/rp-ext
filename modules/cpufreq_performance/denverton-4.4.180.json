@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cpufreq_performance.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/denverton-4.4.180/cpufreq_performance.ko",
+            "sha256": "d3550a63ceca83b0fba824ac4f7831b5290e178cd76060825592c3770c177078",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_performance.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_performance.sh"
+    }
+}

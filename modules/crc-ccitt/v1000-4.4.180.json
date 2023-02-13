@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "crc-ccitt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/v1000-4.4.180/crc-ccitt.ko",
+            "sha256": "af8004c5e14af0f634029d70f475e2a5846d6ff028ff69ad438aa2502955fbd9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-ccitt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-ccitt.sh"
+    }
+}

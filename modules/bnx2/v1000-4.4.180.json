@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "bnx2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/v1000-4.4.180/bnx2.ko",
+            "sha256": "49b93206e12a59f62051a0ad13dda17038d167e6ca4a5d9f2fa5d85c634d8134",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bnx2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2.sh"
+    }
+}

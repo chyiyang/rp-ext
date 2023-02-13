@@ -1,0 +1,20 @@
+{
+    "id": "i8042",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/rpext-index.json",
+    "info": {
+        "name": "i8042",
+        "description": "i8042 keyboard and mouse controller driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/broadwell-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/r1000-4.4.180.json",
+        "bromolow-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/bromolow-3.10.108.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/denverton-4.4.180.json"
+    }
+}

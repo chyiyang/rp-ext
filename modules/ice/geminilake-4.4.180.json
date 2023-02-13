@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "ice.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/geminilake-4.4.180/auxiliary.ko",
+            "sha256": "b4663a36902cea08540619edd84da3e262b33e3f10d14a3e4c2a5089dfd661ab",
+            "packed": false
+        },
+        {
+            "name": "ice.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/geminilake-4.4.180/ice.ko",
+            "sha256": "9416962965eb05a92111a68c69b3fcece61ea4928de364523d4fd2831c247488",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": "",
+        "ice.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ice.sh"
+    }
+}

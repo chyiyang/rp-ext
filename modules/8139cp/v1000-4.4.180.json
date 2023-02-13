@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "8139cp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/v1000-4.4.180/mii.ko",
+            "sha256": "e7bff4eb1d691aff6734d43e068cdbc0e8cb540e97e98468b59dc4349751d6d2",
+            "packed": false
+        },
+        {
+            "name": "8139cp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/v1000-4.4.180/8139cp.ko",
+            "sha256": "6be93c45e1931b83816fbac870d642e0360cbdb7d1714dda9ee35223818306d2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "8139cp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-8139cp.sh"
+    }
+}

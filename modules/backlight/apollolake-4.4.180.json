@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "backlight.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/backlight/apollolake-4.4.180/backlight.ko",
+            "sha256": "d7bcd4301739daafeddfee8da5100d98356bff176e6a23549d82ff4182cba1e8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "backlight.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-backlight.sh"
+    }
+}

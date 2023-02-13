@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "xhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/apollolake-4.4.180/xhci-hcd.ko",
+            "sha256": "9ad1b3ce24069ebf97f1cd3757374d9c4d47f0880c8a365e73d28a22815cbbb3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "xhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-xhci-hcd.sh"
+    }
+}

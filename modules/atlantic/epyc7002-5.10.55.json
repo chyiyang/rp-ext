@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "atlantic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/epyc7002-5.10.55/atlantic.ko",
+            "sha256": "3a736b62a8c533c1acd9bf4d360c00e44669c3f7490ed0b70be26110425f3cdf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atlantic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atlantic.sh"
+    }
+}

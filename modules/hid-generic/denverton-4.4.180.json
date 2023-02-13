@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "hid-generic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/denverton-4.4.180/hid-generic.ko",
+            "sha256": "8a6baf31585dbc91cebc315b63d2bdf9dee1e549112bd837f33ca1d046cc6f1b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hid-generic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hid-generic.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "etxhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/apollolake-4.4.180/etxhci-hcd.ko",
+            "sha256": "3feb001a595e57fcf37e323a819cceed4b077a3cc63473b99bf9147cc8af919e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "etxhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-etxhci-hcd.sh"
+    }
+}

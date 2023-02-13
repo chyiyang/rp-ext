@@ -1,0 +1,22 @@
+{
+    "id": "cdc_ncm",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/rpext-index.json",
+    "info": {
+        "name": "cdc_ncm",
+        "description": "USB CDC NCM host driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-5.10.55.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/r1000-4.4.180.json",
+        "bromolow-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/bromolow-3.10.108.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/denverton-4.4.180.json"
+    }
+}

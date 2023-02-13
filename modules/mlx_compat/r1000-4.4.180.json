@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx_compat/r1000-4.4.180/mlx_compat.ko",
+            "sha256": "407cb9468ff6397555a33cc8934d31d272ff08b422f2ffcb21d58c723f8922b3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx_compat.sh"
+    }
+}

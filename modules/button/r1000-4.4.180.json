@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "button.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/r1000-4.4.180/button.ko",
+            "sha256": "efbc4e06eadf578b00e5813f99f49b6c2a7af2b0a8fe24c7eba583909fa74e25",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "button.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-button.sh"
+    }
+}

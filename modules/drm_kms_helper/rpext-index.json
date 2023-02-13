@@ -1,0 +1,15 @@
+{
+    "id": "drm_kms_helper",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/rpext-index.json",
+    "info": {
+        "name": "drm_kms_helper",
+        "description": "DRM KMS helper",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180.json"
+    }
+}

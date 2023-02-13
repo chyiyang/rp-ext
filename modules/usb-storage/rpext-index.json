@@ -1,0 +1,14 @@
+{
+    "id": "usb-storage",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-storage/rpext-index.json",
+    "info": {
+        "name": "usb-storage",
+        "description": "USB Mass Storage driver for Linux",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-storage/epyc7002-5.10.55.json"
+    }
+}

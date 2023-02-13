@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/apollolake-4.4.180/font.ko",
+            "sha256": "05ec815df35a8f79ee91ab8b5c9e48b52dd3b6ec059a33d88acb6ef9b740bb9b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "font.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-font.sh"
+    }
+}

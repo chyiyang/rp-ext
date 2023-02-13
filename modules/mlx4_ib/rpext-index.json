@@ -1,0 +1,16 @@
+{
+    "id": "mlx4_ib",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/rpext-index.json",
+    "info": {
+        "name": "mlx4_ib",
+        "description": "Mellanox ConnectX HCA InfiniBand driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/epyc7002-5.10.55.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/broadwellnk-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/broadwell-4.4.180.json"
+    }
+}

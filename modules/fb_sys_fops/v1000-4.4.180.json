@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "fb_sys_fops.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/v1000-4.4.180/fb_sys_fops.ko",
+            "sha256": "d1dc39b6abba8ac01b8f13c144c8889b24da4bd2198131d95eb93c948b7ed09d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb_sys_fops.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fb_sys_fops.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/epyc7002-5.10.55/auxiliary.ko",
+            "sha256": "9ea398a67958ba6ea9499819aabaf239debeca409fdf7fc989fce58d1c5c3ce0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-auxiliary.sh"
+    }
+}

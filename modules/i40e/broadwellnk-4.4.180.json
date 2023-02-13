@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "i40e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwellnk-4.4.180/i40e.ko",
+            "sha256": "4ca593b11c57bcad7d60a63a77b8a4363b296559803fd51e9a0c534f2f342359",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i40e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i40e.sh"
+    }
+}

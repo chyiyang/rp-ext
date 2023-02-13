@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_mmio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/r1000-4.4.180/virtio_mmio.ko",
+            "sha256": "e3aab3353368d942388cfb3d48b3021fb0d22e198b66e3d53f87a5fd5ff2dbfc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_mmio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_mmio.sh"
+    }
+}

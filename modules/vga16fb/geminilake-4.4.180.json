@@ -1,0 +1,52 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.180/cfbfillrect.ko",
+            "sha256": "f737329adf64c1f4905f31ae7ddaedf3ed14a8a89e6ebb89250cbc80f83c8dc5",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.180/cfbimgblt.ko",
+            "sha256": "ab8101be04dff41e29ca1220d701f0ef1808382a41f6b52c0faa96cedf216c7f",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.180/cfbcopyarea.ko",
+            "sha256": "ba9caf7a6d05135492c229a481e55c8681a8fd636b72c7870cf0e78ce55b7e29",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.180/fb.ko",
+            "sha256": "c063a5887130f52018d3e4b2bbeebe12b6e49b9d852ccb32bbf1c7ebf5aa60d8",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.180/vgastate.ko",
+            "sha256": "d167cff1c09b0b3764521fe13124590df1a8e3da4dcc5c0fb0b424166609edfa",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.180/vga16fb.ko",
+            "sha256": "ac8ea6eda88cfc3cf94a606f85b0c780150cfc18509551a1fc47e459845f93b3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbfillrect.ko": "",
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "fb.ko": "",
+        "vgastate.ko": "",
+        "vga16fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vga16fb.sh"
+    }
+}

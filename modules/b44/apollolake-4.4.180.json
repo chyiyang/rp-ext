@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.180/libphy.ko",
+            "sha256": "d5127ec2ae8072d151f8ba5be196c9e33da2053dfb8f1b05f7a7d15babb71882",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.180/mii.ko",
+            "sha256": "ef56f88f4c082272a603d32289cfcb7b73d242baec88ddf7634d1ef938708d14",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.180/b44.ko",
+            "sha256": "f8f357d3130a0047f24c0ce8d552835c90ad83b9927f0e87293a70985667199e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "mii.ko": "",
+        "b44.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-b44.sh"
+    }
+}

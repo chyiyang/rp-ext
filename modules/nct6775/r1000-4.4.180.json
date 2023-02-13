@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/r1000-4.4.180/hwmon-vid.ko",
+            "sha256": "ce85dc9776ba92ab4814dcda3f02d995d0c2a679ba262ae5ed85f84e8adf85ad",
+            "packed": false
+        },
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/r1000-4.4.180/nct6775.ko",
+            "sha256": "3bf1547f58c30558823a612e1c24d1ec23b3cfc0f5dd08160f9cb4018142583e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "nct6775.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nct6775.sh"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_input.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.180/virtio.ko",
+            "sha256": "3bc24d4e7f35045cb5f19fc3357c1973e90ead77f8c07f95ea326b37b3560751",
+            "packed": false
+        },
+        {
+            "name": "virtio_input.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.180/virtio_ring.ko",
+            "sha256": "89efd03228817db9af292e1e94c8a9c15f29c50fa7accddca2cc303b1175fff6",
+            "packed": false
+        },
+        {
+            "name": "virtio_input.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.180/virtio_input.ko",
+            "sha256": "a5c494dbc2afef9a113df0540c266fd5f62b8c85b4828255b00a8ff211b7f9c4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_input.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_input.sh"
+    }
+}

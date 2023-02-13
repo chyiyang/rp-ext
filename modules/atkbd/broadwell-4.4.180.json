@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "atkbd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/broadwell-4.4.180/atkbd.ko",
+            "sha256": "0571a451361d51af555ce0c894c7710417a71a180a5e5d2245d59beb30630186",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atkbd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atkbd.sh"
+    }
+}

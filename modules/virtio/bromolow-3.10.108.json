@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/bromolow-3.10.108/virtio.ko",
+            "sha256": "6f3068544a5484cf61610bf0f86e2a2f4237b225a70967ce58b418084ea70191",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio.sh"
+    }
+}

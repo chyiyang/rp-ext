@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "vub300.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/broadwell-4.4.180/mmc_core.ko",
+            "sha256": "533c0bd9e458a19076d196a71ffa5a6b6c00d803063bdd433cba24a8cdd8c193",
+            "packed": false
+        },
+        {
+            "name": "vub300.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/broadwell-4.4.180/vub300.ko",
+            "sha256": "6a15184dabfb6075f615b26cfe36e481b9ff7e258bcc762769c21992152d3315",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "vub300.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vub300.sh"
+    }
+}

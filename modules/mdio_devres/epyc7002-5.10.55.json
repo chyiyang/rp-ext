@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mdio_devres.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio_devres/epyc7002-5.10.55/mdio_devres.ko",
+            "sha256": "a690d89ed2d0e678ad48b667cde81ec38394e4820808c065e2bb1804bf2dad52",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio_devres.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mdio_devres.sh"
+    }
+}

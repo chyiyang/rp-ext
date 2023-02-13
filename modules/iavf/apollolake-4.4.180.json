@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "iavf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/apollolake-4.4.180/auxiliary.ko",
+            "sha256": "256bff9262f4244dcd870148aaed36215809a9e3b64ae468a2b98bb5f69324e7",
+            "packed": false
+        },
+        {
+            "name": "iavf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/apollolake-4.4.180/iavf.ko",
+            "sha256": "9e7f7bdbb9c61403b94a5b98e480b77fb32dff702c834edb15ef39d3f6699be2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": "",
+        "iavf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iavf.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "e1000e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/broadwell-4.4.180/e1000e.ko",
+            "sha256": "6225f80f8e8ca08b6cc67f1fb8159bbc5f93b9e805cefb1e5594fddb8240bb92",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "e1000e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-e1000e.sh"
+    }
+}

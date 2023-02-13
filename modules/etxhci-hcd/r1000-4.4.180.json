@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "etxhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/r1000-4.4.180/etxhci-hcd.ko",
+            "sha256": "7e99d551fc1c3aedfcf3fbcab5069c6cdbcaf203e0b2163dea5101ace19eee36",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "etxhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-etxhci-hcd.sh"
+    }
+}

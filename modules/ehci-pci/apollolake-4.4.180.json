@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "ehci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.180/ehci-hcd.ko",
+            "sha256": "083d2231ae81735547aaf695f0d69995b9c888ea2bca5552dc14fd2c4173988a",
+            "packed": false
+        },
+        {
+            "name": "ehci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.180/ehci-pci.ko",
+            "sha256": "eb6d82f9d8124549755d7099211a5d8d1d123573eccfccf7bb47825b0b2314da",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ehci-hcd.ko": "",
+        "ehci-pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ehci-pci.sh"
+    }
+}

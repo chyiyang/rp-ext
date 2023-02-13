@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cxgb4vf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/denverton-4.4.180/cxgb4vf.ko",
+            "sha256": "2a22400037c0f236adf78f3508ad3e4baeca3a712ccdbb8ce141408a21c74a2c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb4vf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb4vf.sh"
+    }
+}

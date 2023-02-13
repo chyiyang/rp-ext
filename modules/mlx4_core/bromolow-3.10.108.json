@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/bromolow-3.10.108/mlx_compat.ko",
+            "sha256": "9a097a72faddfca3b461e31573d4bfcb40504ca64ac28bb6000252b89185965e",
+            "packed": false
+        },
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/bromolow-3.10.108/mlx4_core.ko",
+            "sha256": "06a083085b714ede5eba2b983d75977ce34ac9fb91364654e980942e0694131d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": "",
+        "mlx4_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_core.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "be2net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/geminilake-4.4.180/be2net.ko",
+            "sha256": "060ced952c94381e9ecd0c9f3ba2d7fb94201878bd9989868cd2dc1e64850ca4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "be2net.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-be2net.sh"
+    }
+}

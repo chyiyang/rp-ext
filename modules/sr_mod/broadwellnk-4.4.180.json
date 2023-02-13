@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sr_mod.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/broadwellnk-4.4.180/sr_mod.ko",
+            "sha256": "8134e954488ff233733e2375e66242d0e92ce3248d1ef5562f1d7626258c09d2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sr_mod.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sr_mod.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "i2c-algo-bit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/bromolow-3.10.108/i2c-algo-bit.ko",
+            "sha256": "cda9c3e05463e0485d7c1784e7ab06b96c1347894d514ec6362bc17fd9645b00",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i2c-algo-bit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i2c-algo-bit.sh"
+    }
+}

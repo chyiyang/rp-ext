@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mtk-sd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/geminilake-4.4.180/mmc_core.ko",
+            "sha256": "46551bff2c268464d9566c02eeed35ac15628a084a58e82e0b2cba2eb003f878",
+            "packed": false
+        },
+        {
+            "name": "mtk-sd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/geminilake-4.4.180/mtk-sd.ko",
+            "sha256": "07eae733a290a6a259c20ce5040b3cc68cf0385abae9b82eb9810345e38c81af",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "mtk-sd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mtk-sd.sh"
+    }
+}

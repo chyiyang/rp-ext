@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "crc-ccitt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/apollolake-4.4.180/crc-ccitt.ko",
+            "sha256": "4c092bde9323e7a66dced157af8334b1ac6b9967068a1f19dcb47782b4b6aa2f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-ccitt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-ccitt.sh"
+    }
+}

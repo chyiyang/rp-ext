@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/broadwellnk-4.4.180/r8152.ko",
+            "sha256": "59f7e2620b0fbe8345bceb9aa388f4923f8d57052df7d4c5da17764e5b37cf38",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8152.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8152.sh"
+    }
+}

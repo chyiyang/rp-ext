@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "si2157.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/geminilake-4.4.180/si2157.ko",
+            "sha256": "5737e2569cc37ce69796e0f41f0545f82446b44709c73156f5af052446998baf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2157.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2157.sh"
+    }
+}

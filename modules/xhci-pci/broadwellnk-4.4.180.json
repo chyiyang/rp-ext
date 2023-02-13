@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "xhci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/broadwellnk-4.4.180/xhci-pci.ko",
+            "sha256": "6575a6cbeea1b8fa1ffa0397cf841137926a8ce06e0c64d43f5ea709828f1d15",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "xhci-pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-xhci-pci.sh"
+    }
+}

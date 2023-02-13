@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sr_mod.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/denverton-4.4.180/sr_mod.ko",
+            "sha256": "af9489ff69502aa08a7eb79594e708aa924a422bf620256e5ec1a9c9f5ba99d6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sr_mod.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sr_mod.sh"
+    }
+}

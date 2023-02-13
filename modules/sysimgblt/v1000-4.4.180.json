@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sysimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/v1000-4.4.180/sysimgblt.ko",
+            "sha256": "30a09f80d453f1d1b7a499b751793d8dc272ba907a2e67eee51ab8cbfb0f40d9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysimgblt.sh"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "mlxsw_pci",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/rpext-index.json",
+    "info": {
+        "name": "mlxsw_pci",
+        "description": "Mellanox switch PCI interface driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/r1000-4.4.180.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/denverton-4.4.180.json"
+    }
+}

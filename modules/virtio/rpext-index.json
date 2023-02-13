@@ -1,0 +1,22 @@
+{
+    "id": "virtio",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/rpext-index.json",
+    "info": {
+        "name": "virtio",
+        "description": "",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/epyc7002-5.10.55.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/r1000-4.4.180.json",
+        "bromolow-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/bromolow-3.10.108.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/denverton-4.4.180.json"
+    }
+}

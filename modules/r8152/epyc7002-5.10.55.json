@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/usbcore.ko",
+            "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
+            "packed": false
+        },
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/mii.ko",
+            "sha256": "6ff3040f863eea3f36fc41ae1d294dcca98378e7ae9870ea48730d0b394c7792",
+            "packed": false
+        },
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/r8152.ko",
+            "sha256": "1e65d5fa90b4613085ef05994215282c946e45549896ef5b15156f8fc8e4b236",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbcore.ko": "",
+        "mii.ko": "",
+        "r8152.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8152.sh"
+    }
+}

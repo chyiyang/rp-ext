@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mlx4_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-5.10.55/mlx4_core.ko",
+            "sha256": "c8ccd0ff1ddec6eaf6315638de4efc75d42f03f7c9249a92187947edefefc399",
+            "packed": false
+        },
+        {
+            "name": "mlx4_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-5.10.55/mlx4_en.ko",
+            "sha256": "939e528dbdac6d8d93419ffa8ec12606e7f2a51d53d82b9bf6be8e6d7bef22b0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": "",
+        "mlx4_en.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_en.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/v1000-4.4.180/nct6775.ko",
+            "sha256": "a2be3aeb929e7ea40220a6dd52fd0b20e10efea714059e2d177b3cf1d15f541c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "nct6775.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nct6775.sh"
+    }
+}

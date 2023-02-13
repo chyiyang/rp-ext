@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/r1000-4.4.180/mmc_core.ko",
+            "sha256": "c1a00ef2b090e48999081a95a9615146a68e9fa8f5ba4d443ee5f51d4316cd9c",
+            "packed": false
+        },
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/r1000-4.4.180/sdhci.ko",
+            "sha256": "937b124f3452375c1ef8566e3ec2d1d576b787221dffe3e9ab627ef0074ad117",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "sdhci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci.sh"
+    }
+}

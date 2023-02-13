@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/bromolow-3.10.108/virtio.ko",
+            "sha256": "6f3068544a5484cf61610bf0f86e2a2f4237b225a70967ce58b418084ea70191",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/bromolow-3.10.108/virtio_ring.ko",
+            "sha256": "7b824921dca9254829ca931bb2e0691e454a57a164ecfcd8b80888d5914c0fec",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/bromolow-3.10.108/virtio_scsi.ko",
+            "sha256": "97796f991d8dd99833bce806ad467760b9ee71c618b7c23ac208bc5cf80e389a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_scsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_scsi.sh"
+    }
+}

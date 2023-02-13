@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "nvidia.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nvidia/denverton-4.4.180/nvidia.ko",
+            "sha256": "8bd418a3acb24602ad8b02eb8fd102642c99065a42870384b49cccfd3882afa5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "nvidia.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nvidia.sh"
+    }
+}

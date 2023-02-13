@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "atkbd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/v1000-4.4.180/atkbd.ko",
+            "sha256": "ef1c36792a5bf1cad471e47e92ba73d8e3917884ac215a0ad9bb8f4ee12a5f70",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atkbd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atkbd.sh"
+    }
+}

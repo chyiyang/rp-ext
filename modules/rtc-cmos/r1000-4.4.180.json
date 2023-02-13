@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "rtc-cmos.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/r1000-4.4.180/rtc-cmos.ko",
+            "sha256": "43f61665b7dd0ccd82e8b7e41b0693a7e313c73ebbdd8e9fdeac28c12408a221",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "rtc-cmos.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-rtc-cmos.sh"
+    }
+}

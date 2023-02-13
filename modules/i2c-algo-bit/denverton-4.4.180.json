@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "i2c-algo-bit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/denverton-4.4.180/i2c-algo-bit.ko",
+            "sha256": "022168480c3a283c245cca9bd5ac86fd5033ec3d41a895729b83574762c0c1a4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i2c-algo-bit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i2c-algo-bit.sh"
+    }
+}

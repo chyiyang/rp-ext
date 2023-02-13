@@ -1,0 +1,18 @@
+{
+    "id": "libsas",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/rpext-index.json",
+    "info": {
+        "name": "libsas",
+        "description": "SAS Transport Layer",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/apollolake-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/r1000-4.4.180.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/denverton-4.4.180.json"
+    }
+}

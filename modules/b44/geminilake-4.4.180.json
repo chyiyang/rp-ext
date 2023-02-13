@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/geminilake-4.4.180/libphy.ko",
+            "sha256": "0762f8f0463c5927ee939fa17bf15117977095f04eb3f09640146a61a180dc9d",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/geminilake-4.4.180/mii.ko",
+            "sha256": "1a714d47afc00562aafa6667d13a9cc6444687c79655bbda4c3677f7cf3833a3",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/geminilake-4.4.180/b44.ko",
+            "sha256": "45eb804c5b74fbfa2f763f4d4fcdc84fdd56f54701860921e707d47b45ee139e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "mii.ko": "",
+        "b44.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-b44.sh"
+    }
+}

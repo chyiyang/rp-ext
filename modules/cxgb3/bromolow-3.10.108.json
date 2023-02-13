@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cxgb3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.108/mdio.ko",
+            "sha256": "2f2873bed0d690a6b2e3009f5f48cb44602c8679a08019f49a2d9271d14f7e45",
+            "packed": false
+        },
+        {
+            "name": "cxgb3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.108/cxgb3.ko",
+            "sha256": "53cf9be40625bb77a81d81a3cde84b5b387c468c33fd8172b400f0f49895cf02",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "cxgb3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb3.sh"
+    }
+}

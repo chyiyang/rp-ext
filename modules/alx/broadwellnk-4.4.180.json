@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "alx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwellnk-4.4.180/mdio.ko",
+            "sha256": "a7567ea90c5d157bbe72ee12069afff44d45b7fdbad0ba3ecca9194aa0370dc3",
+            "packed": false
+        },
+        {
+            "name": "alx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwellnk-4.4.180/alx.ko",
+            "sha256": "0633433669e72fd8435880b9c0d7a142eebecec2e42e93f9440021d9266e864b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "alx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-alx.sh"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "atlantic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/r1000-4.4.180/crc-itu-t.ko",
+            "sha256": "b8efd417b543341d684d6d0b7cd6b4c6b56b2e2f79ef1192d448a99d1058ae6b",
+            "packed": false
+        },
+        {
+            "name": "atlantic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/r1000-4.4.180/atlantic.ko",
+            "sha256": "3281961ac8e7a2eb6ca67f2d8c30e02cca2cb5bd1ce6ae3dbd73fa7b4780b08e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-itu-t.ko": "",
+        "atlantic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atlantic.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "blk-mq-virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/blk-mq-virtio/epyc7002-5.10.55/blk-mq-virtio.ko",
+            "sha256": "ebe098e32ce807aa0d07879e2020d9caf919059025d2ebd2a5790c81f2e13cc4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "blk-mq-virtio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-blk-mq-virtio.sh"
+    }
+}

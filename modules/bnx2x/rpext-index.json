@@ -1,0 +1,21 @@
+{
+    "id": "bnx2x",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/rpext-index.json",
+    "info": {
+        "name": "bnx2x",
+        "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/epyc7002-5.10.55.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/geminilake-4.4.180.json",
+        "bromolow-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/bromolow-3.10.108.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.180.json"
+    }
+}

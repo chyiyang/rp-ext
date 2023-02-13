@@ -1,0 +1,21 @@
+{
+    "id": "cpufreq_ondemand",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/rpext-index.json",
+    "info": {
+        "name": "cpufreq_ondemand",
+        "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/r1000-4.4.180.json",
+        "bromolow-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/bromolow-3.10.108.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/denverton-4.4.180.json"
+    }
+}

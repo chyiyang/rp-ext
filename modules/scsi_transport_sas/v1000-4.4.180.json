@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/v1000-4.4.180/scsi_transport_sas.ko",
+            "sha256": "3697f8daaab312025cf241dacc1c3accea8607b3e61a0c034e51229e6f519f6d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_sas.sh"
+    }
+}

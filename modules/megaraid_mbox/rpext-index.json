@@ -1,0 +1,21 @@
+{
+    "id": "megaraid_mbox",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/rpext-index.json",
+    "info": {
+        "name": "megaraid_mbox",
+        "description": "LSI Logic MegaRAID Mailbox Driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/r1000-4.4.180.json",
+        "bromolow-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/bromolow-3.10.108.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/denverton-4.4.180.json"
+    }
+}

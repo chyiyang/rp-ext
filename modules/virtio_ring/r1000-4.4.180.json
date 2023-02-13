@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/r1000-4.4.180/virtio_ring.ko",
+            "sha256": "90795b926d4a3a5fc9d9bf9f6772d1ff7a88367b240e51f91a442596c05432e6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_ring.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_ring.sh"
+    }
+}

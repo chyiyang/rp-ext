@@ -1,0 +1,15 @@
+{
+    "id": "iosf_mbi",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iosf_mbi/rpext-index.json",
+    "info": {
+        "name": "iosf_mbi",
+        "description": "IOSF Mailbox Interface accessor",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/iosf_mbi/apollolake-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/iosf_mbi/geminilake-4.4.180.json"
+    }
+}

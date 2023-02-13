@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "i2c-algo-bit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/broadwell-4.4.180/i2c-algo-bit.ko",
+            "sha256": "c6e2be3e5385d86b57857c6d0b75cb55594c4315bd2eae32a85ea622119c4503",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i2c-algo-bit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i2c-algo-bit.sh"
+    }
+}

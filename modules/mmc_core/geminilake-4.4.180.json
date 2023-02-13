@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/geminilake-4.4.180/mmc_core.ko",
+            "sha256": "46551bff2c268464d9566c02eeed35ac15628a084a58e82e0b2cba2eb003f878",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mmc_core.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "i40e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/bromolow-3.10.108/i40e.ko",
+            "sha256": "f0d426a1d57fd17b1fd1b49ad20549d0885ed1c40d8ea73a942c7ec1674318d5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i40e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i40e.sh"
+    }
+}

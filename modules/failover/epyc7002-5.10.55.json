@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "failover.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/failover/epyc7002-5.10.55/failover.ko",
+            "sha256": "44dd92e3634ca5014a63c98b78e6fcda6dfbe4c44add2124a2c101d70df95f6c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "failover.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-failover.sh"
+    }
+}

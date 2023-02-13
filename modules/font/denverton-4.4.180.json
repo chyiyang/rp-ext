@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/denverton-4.4.180/font.ko",
+            "sha256": "4acbc35c4ee3c8ca1573fa8354079c2083dea620d13209a7b280b2495c4195f7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "font.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-font.sh"
+    }
+}

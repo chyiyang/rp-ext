@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/apollolake-4.4.180/virtio.ko",
+            "sha256": "f1d8461aed35ff2b1607b8d40fbbe10a22dade99d0d9e7ee8743bc4069983060",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio.sh"
+    }
+}

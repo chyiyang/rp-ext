@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "uhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/apollolake-4.4.180/uhci-hcd.ko",
+            "sha256": "b06a2ec3f0ec3cdc5cfe8cd890b01eafd7e0c2b482956a65fadf55882261a623",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "uhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-uhci-hcd.sh"
+    }
+}

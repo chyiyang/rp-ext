@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/v1000-4.4.180/fb.ko",
+            "sha256": "7739bf1d136b2be56def7b839fe48a98d0ef6d57cd64c7d7a6552fa8aebea701",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/v1000-4.4.180/softcursor.ko",
+            "sha256": "33921feb0fb4eeaa23a307e41ed0640953a1841cd0952e26eec2a995e4340977",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/v1000-4.4.180/bitblit.ko",
+            "sha256": "74ba7f4e024ada62f179e8e999d2b4a2568dfb3c44a8f46cc1bf6eeca3b9ec63",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "softcursor.ko": "",
+        "bitblit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bitblit.sh"
+    }
+}

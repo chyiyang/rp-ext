@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/apollolake-4.4.180/virtio.ko",
+            "sha256": "f1d8461aed35ff2b1607b8d40fbbe10a22dade99d0d9e7ee8743bc4069983060",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/apollolake-4.4.180/virtio_ring.ko",
+            "sha256": "a9b1612f0bed920c462da8ecc306c1d6037b029b0291d8e85539406b8661572e",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/apollolake-4.4.180/virtio_scsi.ko",
+            "sha256": "57a02bd9bce66b9763ea4edc5d42e71c9d4532b200325006e29ad0edae27a15f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_scsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_scsi.sh"
+    }
+}

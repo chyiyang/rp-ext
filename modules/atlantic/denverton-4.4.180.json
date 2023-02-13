@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "atlantic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/denverton-4.4.180/crc-itu-t.ko",
+            "sha256": "35c4f0cfad8ae95abc6c7a55307fbad3799ad0a43e58cedc643b62d8f5734132",
+            "packed": false
+        },
+        {
+            "name": "atlantic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/denverton-4.4.180/atlantic.ko",
+            "sha256": "f871f2bc1291c00e373b43c0a3745cf28e809a372974b535e7b25bc1ad72e86f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-itu-t.ko": "",
+        "atlantic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atlantic.sh"
+    }
+}

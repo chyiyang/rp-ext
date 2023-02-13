@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sp2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/v1000-4.4.180/dvb-core.ko",
+            "sha256": "802fe1242067bd129efcad1f08d29690a1477cc1021333b6cf2731702777b0ff",
+            "packed": false
+        },
+        {
+            "name": "sp2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/v1000-4.4.180/sp2.ko",
+            "sha256": "688ca67e83623620fef329ff8718cf0b23253d482f176bb8b92eaa111b457bb1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "sp2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sp2.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "atkbd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/apollolake-4.4.180/atkbd.ko",
+            "sha256": "a8a9c0f67419c3a4b3052fdfd7eab24617e3c4947e21478a2a977bfcc6742c61",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atkbd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atkbd.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/epyc7002-5.10.55/bnx2x.ko",
+            "sha256": "bded268629be24796a46902ea547435e0ae4ab1cf377abb2b6486af6a9bb54b3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bnx2x.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x.sh"
+    }
+}

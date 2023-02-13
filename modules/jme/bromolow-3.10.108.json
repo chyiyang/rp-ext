@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "jme.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/bromolow-3.10.108/mii.ko",
+            "sha256": "400795a66245e479484eca5122783c0422f931fa45db26188924a8a8737f06cc",
+            "packed": false
+        },
+        {
+            "name": "jme.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/bromolow-3.10.108/jme.ko",
+            "sha256": "6a3ff9ef26a75b7d87b637daae735bf6f04902701081d57cfab25f05ac317353",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "jme.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-jme.sh"
+    }
+}

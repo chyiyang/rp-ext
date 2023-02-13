@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "uhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/bromolow-3.10.108/uhci-hcd.ko",
+            "sha256": "a3c46419310d5c804333f3668fd4d43d8d2d81a493068f54573ba9264bec2c1d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "uhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-uhci-hcd.sh"
+    }
+}

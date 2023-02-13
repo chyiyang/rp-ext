@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "acpi-cpufreq.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/bromolow-3.10.108/acpi-cpufreq.ko",
+            "sha256": "5ed06cea92820de7462e7a5a1fb0309d19063d181eaf1d529c6e911e3de2738a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "acpi-cpufreq.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-acpi-cpufreq.sh"
+    }
+}

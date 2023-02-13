@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/r1000-4.4.180/dvb-core.ko",
+            "sha256": "e3cc786dba1f2dcf2a9d2bbcc168462b81a9b38d009738b1c1411710ae1507c9",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/r1000-4.4.180/m88ds3103.ko",
+            "sha256": "55ead586671b8da8d9ef99d2a08683e068d62ead64ff6b4ae24d492a1e5381d7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "m88ds3103.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-m88ds3103.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "i2c-algo-bit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/r1000-4.4.180/i2c-algo-bit.ko",
+            "sha256": "8e4e9838317a6f85abadacf363d377d63bb0e49fe417868d801a01655ea1b7c0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i2c-algo-bit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i2c-algo-bit.sh"
+    }
+}

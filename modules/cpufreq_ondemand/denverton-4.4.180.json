@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cpufreq_ondemand.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/denverton-4.4.180/cpufreq_ondemand.ko",
+            "sha256": "1e1f4e3b19cd2703560f131861a62ba46081e0ccb71e2ee66940f2bcd726175c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_ondemand.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_ondemand.sh"
+    }
+}

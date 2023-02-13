@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/v1000-4.4.180/dvb-usb.ko",
+            "sha256": "431f22b2416c7bfbd70127da2a5f1d873f85c9d2d4afd7da02fa1d8f1dc1253f",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/v1000-4.4.180/rc-core.ko",
+            "sha256": "7d3d3387d675f216c22645a737e7b83b9c3c1a2d642e04835ae2898ec3452008",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/v1000-4.4.180/dvb-usb-dib0700.ko",
+            "sha256": "fb038774c2829c58749ac0d902fd558e6f6a37b8908ed6be35c118a23d3d103e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-usb.ko": "",
+        "rc-core.ko": "",
+        "dvb-usb-dib0700.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-usb-dib0700.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/geminilake-4.4.180/libphy.ko",
+            "sha256": "0762f8f0463c5927ee939fa17bf15117977095f04eb3f09640146a61a180dc9d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libphy.sh"
+    }
+}

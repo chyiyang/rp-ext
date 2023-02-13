@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwell-4.4.180/mii.ko",
+            "sha256": "9ad092739154148224a091dbe2303f603bc869b90925d503b9e173b44fd9d5e3",
+            "packed": false
+        },
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwell-4.4.180/r8169.ko",
+            "sha256": "af0b5288eaa4d30a9f3dce83647ab557b64c04d27c633d07a83e5df54ef9c4bf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8169.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169.sh"
+    }
+}

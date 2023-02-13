@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "hid-generic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/geminilake-4.4.180/hid-generic.ko",
+            "sha256": "fa26c7c2e918147940b1b03d8fa521c1a28316c34fc873c44de805e584d5a30c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hid-generic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hid-generic.sh"
+    }
+}

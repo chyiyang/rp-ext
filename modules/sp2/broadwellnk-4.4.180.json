@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sp2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/broadwellnk-4.4.180/dvb-core.ko",
+            "sha256": "2795eb00cc824f4380c542898fec4200a24fb494d9d3b8a4eebd9a4e114bfda1",
+            "packed": false
+        },
+        {
+            "name": "sp2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/broadwellnk-4.4.180/sp2.ko",
+            "sha256": "e7e9267d39832739d9f2819321e83ba432d6d8add07e4ec4a850ce04e97318eb",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "sp2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sp2.sh"
+    }
+}

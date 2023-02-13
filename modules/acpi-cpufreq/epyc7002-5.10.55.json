@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "acpi-cpufreq.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/epyc7002-5.10.55/acpi-cpufreq.ko",
+            "sha256": "93ef46e97763cc1a69f3d1edd2e003bbc82b5be92936dbb5a7b4d78edf3f1ea1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "acpi-cpufreq.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-acpi-cpufreq.sh"
+    }
+}

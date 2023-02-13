@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "xhci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/geminilake-4.4.180/xhci-pci.ko",
+            "sha256": "49a79ef63167dba52b01a7035866a4df3e38eb03ff8e6044a81dd3d75697d4da",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "xhci-pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-xhci-pci.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "qla2xxx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/epyc7002-5.10.55/qla2xxx.ko",
+            "sha256": "09e154cea5b8da8ff4b0a736c8fe98ab51f33f52d505205dd37e28879328f306",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qla2xxx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qla2xxx.sh"
+    }
+}

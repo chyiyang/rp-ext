@@ -1,0 +1,52 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/cfbfillrect.ko",
+            "sha256": "195cae3e3e071afc3fa9634803712dcbab0fb99de8e19b45b57d8804104170e8",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/cfbimgblt.ko",
+            "sha256": "8d9c062874bd19327a64686e305c13a437452221007d20008736c391a6edf262",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/cfbcopyarea.ko",
+            "sha256": "b0e91ef71492978394d81b450d2cd8484d088741fe5f39af6a4570399a2bc587",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/fb.ko",
+            "sha256": "faec69428d7e832c3f2f48bd3c47076483662fab98982bf2aa7252738a0f7692",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/vgastate.ko",
+            "sha256": "c94d0d42fa0a67b3cc16653bb36a60138739455fd926e7d0bcadc1d93f23b828",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/vga16fb.ko",
+            "sha256": "ef69478a1664614fc91c6ff5fbdc6189df4ce836179829006433e14aa225ee2b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbfillrect.ko": "",
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "fb.ko": "",
+        "vgastate.ko": "",
+        "vga16fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vga16fb.sh"
+    }
+}

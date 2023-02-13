@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/apollolake-4.4.180/dvb-usb.ko",
+            "sha256": "9d527da6d1e12efe01eb930a5ff3d8ba7785b21ff593c98c8f5e6aa5d88ebd76",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/apollolake-4.4.180/rc-core.ko",
+            "sha256": "d522d7ea7847a3ddfbad4687543895e6b45c033293cfa7057bc77dcb98e67ba9",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/apollolake-4.4.180/dvb-usb-dib0700.ko",
+            "sha256": "6cdca247cf078ede8a1914482799db0023d132dfc2a355c7d09cefb38024d03f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-usb.ko": "",
+        "rc-core.ko": "",
+        "dvb-usb-dib0700.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-usb-dib0700.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/denverton-4.4.180/intel_auxiliary.ko",
+            "sha256": "ed65edd5f41830efb0a40e09c264d8b3bfc6304beeb3c20b61ea812d1789f042",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-intel_auxiliary.sh"
+    }
+}

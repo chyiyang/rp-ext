@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "vmxnet3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/broadwellnk-4.4.180/vmxnet3.ko",
+            "sha256": "ce7b479bed4aedcaf8b7fe6f60766a57d2f3866ba81547aade8f1174e67e0abb",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vmxnet3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vmxnet3.sh"
+    }
+}

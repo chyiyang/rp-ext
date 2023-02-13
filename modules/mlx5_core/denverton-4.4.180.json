@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mlx5_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/denverton-4.4.180/mlx_compat.ko",
+            "sha256": "ff952201c0847bfe0baf341946354a93bd5ffe79d8cecfbe5452824886a9598c",
+            "packed": false
+        },
+        {
+            "name": "mlx5_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/denverton-4.4.180/mlx5_core.ko",
+            "sha256": "1d8a4e158009503b7371b75c2ac57a9507586132c416da686528eb9d2395d55f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": "",
+        "mlx5_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx5_core.sh"
+    }
+}

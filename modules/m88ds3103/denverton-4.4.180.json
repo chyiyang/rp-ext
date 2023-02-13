@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.180/dvb-core.ko",
+            "sha256": "3d214726b4ea2f707b9413c449d0e64380e12e6d1e3e96801b8ae3ec52695c9f",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.180/m88ds3103.ko",
+            "sha256": "5bbf1953e8df51b483da826c632584b15ecdbecc3af5c9675f8cc0b8462beaa7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "m88ds3103.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-m88ds3103.sh"
+    }
+}

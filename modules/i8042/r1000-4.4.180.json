@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "i8042.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/r1000-4.4.180/i8042.ko",
+            "sha256": "bc637d1e5e608f922aba44d933940b43b7d49c05532caff2e7ba4c7e0aa243d9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i8042.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i8042.sh"
+    }
+}

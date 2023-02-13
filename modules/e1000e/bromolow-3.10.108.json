@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "e1000e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/bromolow-3.10.108/e1000e.ko",
+            "sha256": "512b2e9ce02b57b445b5d53cb7a3ea384235b91390594af778671a973fcec123",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "e1000e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-e1000e.sh"
+    }
+}

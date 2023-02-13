@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "ushc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/v1000-4.4.180/mmc_core.ko",
+            "sha256": "7543ded4e8afad9f4c6baa3cbb63ddb41691aa77b9adc27ad3e876807541d76b",
+            "packed": false
+        },
+        {
+            "name": "ushc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/v1000-4.4.180/ushc.ko",
+            "sha256": "07b9889917a420ab3a58093b5591487c3b6fa3237c1edbb8a243c24400f2e847",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "ushc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ushc.sh"
+    }
+}

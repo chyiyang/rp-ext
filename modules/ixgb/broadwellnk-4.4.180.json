@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "ixgb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgb/broadwellnk-4.4.180/ixgb.ko",
+            "sha256": "eb418c8911a733043b32a270b286f8dec49e0681ad2c14f283daa16715b96f19",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgb.sh"
+    }
+}

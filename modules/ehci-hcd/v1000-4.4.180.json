@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "ehci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/v1000-4.4.180/ehci-hcd.ko",
+            "sha256": "ef6175485ea4a53f7e7567ed2cc656132ae0095388b07d88ac569dc6efd36dbd",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ehci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ehci-hcd.sh"
+    }
+}

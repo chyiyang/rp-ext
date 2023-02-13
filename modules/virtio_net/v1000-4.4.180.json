@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/v1000-4.4.180/virtio.ko",
+            "sha256": "70e2159efa151a73a8834907c080a713dd5201e67880663e349580487ff25ada",
+            "packed": false
+        },
+        {
+            "name": "virtio_net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/v1000-4.4.180/virtio_ring.ko",
+            "sha256": "1dccea235108cd46b13dce869805bb33cdf625e24a3587bfd6686c2749865fe0",
+            "packed": false
+        },
+        {
+            "name": "virtio_net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/v1000-4.4.180/virtio_net.ko",
+            "sha256": "3b8cf5bae19516f52a19a7c46e17fe7eaeeff6e6a74c73ccf9c9983b785d6e9a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_net.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_net.sh"
+    }
+}

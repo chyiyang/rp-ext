@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "jme.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/denverton-4.4.180/mii.ko",
+            "sha256": "8908593781aeccf061af71fa2042e6462e3f2664a2a352f14258777207f9d8e5",
+            "packed": false
+        },
+        {
+            "name": "jme.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/denverton-4.4.180/jme.ko",
+            "sha256": "e1c42806b3dc3611cbcf6d22836318ee01ef9c638c4a705da99de88e3cd9b310",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "jme.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-jme.sh"
+    }
+}

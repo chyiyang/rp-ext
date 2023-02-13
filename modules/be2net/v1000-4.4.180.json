@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "be2net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/v1000-4.4.180/be2net.ko",
+            "sha256": "085d2d1cead82f1f55aaf3ce2c9ad192526da87480c228405c792ac074a04800",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "be2net.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-be2net.sh"
+    }
+}

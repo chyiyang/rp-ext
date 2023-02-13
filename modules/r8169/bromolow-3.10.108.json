@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.108/mii.ko",
+            "sha256": "400795a66245e479484eca5122783c0422f931fa45db26188924a8a8737f06cc",
+            "packed": false
+        },
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.108/r8169.ko",
+            "sha256": "985b9f3c623c7d7643f997abee5f2801f0417b26d2bb0c95e9f798498a802876",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8169.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169.sh"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "id": "ice",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/rpext-index.json",
+    "info": {
+        "name": "ice",
+        "description": "Intel(R) Ethernet Connection E800 Series Linux Driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/r1000-4.4.180.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/denverton-4.4.180.json"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "id": "usbnet",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/rpext-index.json",
+    "info": {
+        "name": "usbnet",
+        "description": "USB network driver framework",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-5.10.55.json"
+    }
+}

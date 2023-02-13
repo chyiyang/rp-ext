@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "alx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/apollolake-4.4.180/mdio.ko",
+            "sha256": "a3bcbabae3aad985b392374eb149bd498016af672f0383a566928248607a831a",
+            "packed": false
+        },
+        {
+            "name": "alx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/apollolake-4.4.180/alx.ko",
+            "sha256": "6c97c3116687df9e42e88cccc866f7ce1301a525837afbe41d7172c8b45dbe4c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "alx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-alx.sh"
+    }
+}

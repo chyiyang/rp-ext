@@ -1,0 +1,21 @@
+{
+    "id": "intel_auxiliary",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/rpext-index.json",
+    "info": {
+        "name": "intel_auxiliary",
+        "description": "Auxiliary Bus Standalone",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/epyc7002-5.10.55.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/r1000-4.4.180.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/denverton-4.4.180.json"
+    }
+}

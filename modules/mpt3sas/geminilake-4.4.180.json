@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mpt3sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/scsi_transport_sas.ko",
+            "sha256": "7a3080a450f64a743652fb392a7c52ec3a10850ca00e21d0e0fa566d6a44b495",
+            "packed": false
+        },
+        {
+            "name": "mpt3sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/raid_class.ko",
+            "sha256": "bb8829ce6f780d4265b2f29520a8cca55164e9fc278ba2199aaeaa03d9a0ba76",
+            "packed": false
+        },
+        {
+            "name": "mpt3sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/mpt3sas.ko",
+            "sha256": "6d4ae4073a07c97520e68c142f59f85fb921d449808be72b5b33951c79d72a5d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": "",
+        "raid_class.ko": "",
+        "mpt3sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mpt3sas.sh"
+    }
+}

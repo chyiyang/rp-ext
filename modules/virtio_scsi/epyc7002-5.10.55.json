@@ -1,0 +1,38 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/epyc7002-5.10.55/virtio.ko",
+            "sha256": "34abfa12f5bba65cf0e892fe6d884084e7210ce1c446372f6510805c8355852b",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/epyc7002-5.10.55/virtio_ring.ko",
+            "sha256": "73720d6c58d377294d10621f1a688cfe3d493a3f4e28ba02901eeef9c98c6a64",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/epyc7002-5.10.55/blk-mq-virtio.ko",
+            "sha256": "ebe098e32ce807aa0d07879e2020d9caf919059025d2ebd2a5790c81f2e13cc4",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/epyc7002-5.10.55/virtio_scsi.ko",
+            "sha256": "445d0995c6bee237200e00a7e7bff45e26c826dfe6ad8dcf4d8655a877c7f2e1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "blk-mq-virtio.ko": "",
+        "virtio_scsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_scsi.sh"
+    }
+}

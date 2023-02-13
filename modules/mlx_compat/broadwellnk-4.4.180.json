@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx_compat/broadwellnk-4.4.180/mlx_compat.ko",
+            "sha256": "c7419259f848c9048292cc912b4562581a1cbf7ece7d55e53132c8cf1f57caee",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx_compat.sh"
+    }
+}

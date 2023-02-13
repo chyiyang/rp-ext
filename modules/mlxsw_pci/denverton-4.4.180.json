@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mlxsw_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/denverton-4.4.180/mlxsw_core.ko",
+            "sha256": "50a2898b303c16040b1b2fb483590b1be4c86cf47fc211e90399b5c878fa6664",
+            "packed": false
+        },
+        {
+            "name": "mlxsw_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/denverton-4.4.180/mlxsw_pci.ko",
+            "sha256": "2d3ab08dc7ecb925a582d9752f0c339c8ebf46e21c1ebcf2b7f8b30c4584e9b3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlxsw_core.ko": "",
+        "mlxsw_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlxsw_pci.sh"
+    }
+}

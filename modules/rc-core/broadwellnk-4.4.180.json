@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "rc-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/broadwellnk-4.4.180/rc-core.ko",
+            "sha256": "25a4b5ffb054d36ab49594a945bc7948f63690eacdfa6695a9b1cf8b961da0b7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "rc-core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-rc-core.sh"
+    }
+}

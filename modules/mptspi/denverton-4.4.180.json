@@ -1,0 +1,38 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/denverton-4.4.180/mptscsih.ko",
+            "sha256": "20de90673dc6546cfcf619fb6992c85bbe8476e45cabfdc37d7fd6caac9ab42e",
+            "packed": false
+        },
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/denverton-4.4.180/mptbase.ko",
+            "sha256": "56c33e0d07b071b6b4883224c8be721bd14601ac0e4753cb80d16734feaf6a9b",
+            "packed": false
+        },
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/denverton-4.4.180/scsi_transport_spi.ko",
+            "sha256": "f949a47e9a153c614c5ee7ffb942780363f3d24912c882b779bc10b515a93456",
+            "packed": false
+        },
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/denverton-4.4.180/mptspi.ko",
+            "sha256": "dabf853ca4cb0ee83eaf8ba99981643e6b3a57f31f501dfd80bd10ae970fb88a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptscsih.ko": "",
+        "mptbase.ko": "",
+        "scsi_transport_spi.ko": "",
+        "mptspi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptspi.sh"
+    }
+}

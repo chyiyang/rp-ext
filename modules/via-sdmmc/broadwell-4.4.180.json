@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "via-sdmmc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/broadwell-4.4.180/mmc_core.ko",
+            "sha256": "533c0bd9e458a19076d196a71ffa5a6b6c00d803063bdd433cba24a8cdd8c193",
+            "packed": false
+        },
+        {
+            "name": "via-sdmmc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/broadwell-4.4.180/via-sdmmc.ko",
+            "sha256": "2af032a53a5d1fbbd03655a7b8171fc9f71b29f2bd3c968c7313a1e2e5a0bb87",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "via-sdmmc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-via-sdmmc.sh"
+    }
+}

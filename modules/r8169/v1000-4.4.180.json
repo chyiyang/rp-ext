@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/v1000-4.4.180/mii.ko",
+            "sha256": "e7bff4eb1d691aff6734d43e068cdbc0e8cb540e97e98468b59dc4349751d6d2",
+            "packed": false
+        },
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/v1000-4.4.180/r8169.ko",
+            "sha256": "08b8ee2ea8d0a68b78d4387015df9a6a3c408ca83d7f8c7643496fc4bfbdfb71",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8169.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169.sh"
+    }
+}

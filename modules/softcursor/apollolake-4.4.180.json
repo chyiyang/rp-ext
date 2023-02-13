@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/apollolake-4.4.180/fb.ko",
+            "sha256": "5bd5ae1ee302f7e0b60db1b0eafc188c95f3de452b33a197262cd0c1dc7fa9d1",
+            "packed": false
+        },
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/apollolake-4.4.180/softcursor.ko",
+            "sha256": "6076b8093bd92200c88a86d6aa440a9f09d3168c2c29071ac1d6173015b22ebe",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "softcursor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-softcursor.sh"
+    }
+}

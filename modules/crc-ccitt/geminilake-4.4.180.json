@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "crc-ccitt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/geminilake-4.4.180/crc-ccitt.ko",
+            "sha256": "0e920d89e9f18462310b98fd31a868c65b742cde00a7d1d34feb5ab87c0af622",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-ccitt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-ccitt.sh"
+    }
+}

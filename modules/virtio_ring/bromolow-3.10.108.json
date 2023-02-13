@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/bromolow-3.10.108/virtio_ring.ko",
+            "sha256": "7b824921dca9254829ca931bb2e0691e454a57a164ecfcd8b80888d5914c0fec",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_ring.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_ring.sh"
+    }
+}

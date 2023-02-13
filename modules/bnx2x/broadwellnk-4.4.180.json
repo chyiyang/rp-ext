@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.180/mdio.ko",
+            "sha256": "a7567ea90c5d157bbe72ee12069afff44d45b7fdbad0ba3ecca9194aa0370dc3",
+            "packed": false
+        },
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.180/bnx2x.ko",
+            "sha256": "66c666ee053c1632c54c2bfe6605b60285df92924cc7701e43a30d5a4cbc07ca",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x.sh"
+    }
+}

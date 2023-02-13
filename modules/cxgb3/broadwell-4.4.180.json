@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cxgb3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-4.4.180/mdio.ko",
+            "sha256": "a7567ea90c5d157bbe72ee12069afff44d45b7fdbad0ba3ecca9194aa0370dc3",
+            "packed": false
+        },
+        {
+            "name": "cxgb3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-4.4.180/cxgb3.ko",
+            "sha256": "d796dfd099e727f609a591593fafcc579eb807b664cf61965d54546fde195c18",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "cxgb3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb3.sh"
+    }
+}

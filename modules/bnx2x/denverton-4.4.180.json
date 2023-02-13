@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.180/mdio.ko",
+            "sha256": "e8d8b6a26d51646810668c7436cf0625782f2362fc7d1693b35b3f6a989bf17f",
+            "packed": false
+        },
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.180/bnx2x.ko",
+            "sha256": "c08b3a79ab7b1c261245ad31c476e485bfbc27268ccd9b872e60856c0dc399cc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x.sh"
+    }
+}

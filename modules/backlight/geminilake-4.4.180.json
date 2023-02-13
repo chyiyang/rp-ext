@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "backlight.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/backlight/geminilake-4.4.180/backlight.ko",
+            "sha256": "0803a4a09edcb26e825f35a4b23e2bb0b6dfa2ee6c076f99a8bc0fc88acf2249",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "backlight.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-backlight.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8125.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/geminilake-4.4.180/r8125.ko",
+            "sha256": "3aa455dd27dd12e390e12a762640c014426a95aa5ae25d95e7dc9f12ab4fee8c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8125.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8125.sh"
+    }
+}

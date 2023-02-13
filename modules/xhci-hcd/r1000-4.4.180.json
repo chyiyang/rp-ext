@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "xhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/r1000-4.4.180/xhci-hcd.ko",
+            "sha256": "d54c9277a94d384a24bb1edfa9848ee636fc5af4b23aa1a90fba54a11fa5d39c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "xhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-xhci-hcd.sh"
+    }
+}

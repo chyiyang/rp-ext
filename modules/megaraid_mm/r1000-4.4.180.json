@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "megaraid_mm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/r1000-4.4.180/megaraid_mm.ko",
+            "sha256": "f28becf4fe9cafbfbd2ac2ef8dce89e9a6100ffe2854a22de1dd2e4fe2524e9b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_mm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_mm.sh"
+    }
+}

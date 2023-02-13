@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "ehci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/v1000-4.4.180/ehci-hcd.ko",
+            "sha256": "ef6175485ea4a53f7e7567ed2cc656132ae0095388b07d88ac569dc6efd36dbd",
+            "packed": false
+        },
+        {
+            "name": "ehci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/v1000-4.4.180/ehci-pci.ko",
+            "sha256": "2cca8b7871ad37fd8b3bb7d54f813fc85e2ade0a3fb6c53fda592f7534e06e6a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ehci-hcd.ko": "",
+        "ehci-pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ehci-pci.sh"
+    }
+}

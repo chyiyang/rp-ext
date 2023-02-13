@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/broadwellnk-4.4.180/fb.ko",
+            "sha256": "8018f25ad840ea3bfdb330eb3706cb12224e55deb544afd1139ef7dcd460ae8a",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/broadwellnk-4.4.180/softcursor.ko",
+            "sha256": "4ddf1a60cbc6ef3745eeee114db9780a867f2e8f5616f2517b47e6ea825d0d3e",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/broadwellnk-4.4.180/bitblit.ko",
+            "sha256": "aa0942701cea152047d0f44a6f9db5127145c98fa336f2b9d385ebdb5bba87f2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "softcursor.ko": "",
+        "bitblit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bitblit.sh"
+    }
+}

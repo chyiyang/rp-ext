@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/epyc7002-5.10.55/mdio.ko",
+            "sha256": "70d02bff7cb719a28c06d1843ab2101d6eae3b7781fef4b933e1c5155847abb3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mdio.sh"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/apollolake-4.4.180/mii.ko",
+            "sha256": "ef56f88f4c082272a603d32289cfcb7b73d242baec88ddf7634d1ef938708d14",
+            "packed": false
+        },
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/apollolake-4.4.180/r8169.ko",
+            "sha256": "2fd5f7390ce672ca949c95b3c584f9487b90a0e0b3f9b9a32292b3750ecbaa8c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8169.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169.sh"
+    }
+}

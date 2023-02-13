@@ -1,0 +1,21 @@
+{
+    "id": "iavf",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/rpext-index.json",
+    "info": {
+        "name": "iavf",
+        "description": "Intel(R) Ethernet Adaptive Virtual Function Driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/epyc7002-5.10.55.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/broadwellnk-4.4.180.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/apollolake-4.4.180.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/broadwell-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/r1000-4.4.180.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/v1000-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/denverton-4.4.180.json"
+    }
+}

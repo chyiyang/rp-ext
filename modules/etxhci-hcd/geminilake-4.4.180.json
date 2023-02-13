@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "etxhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/geminilake-4.4.180/etxhci-hcd.ko",
+            "sha256": "58322109988bdaecb71e02613c139fb68399f5065abfbe843a06c07904728c7e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "etxhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-etxhci-hcd.sh"
+    }
+}

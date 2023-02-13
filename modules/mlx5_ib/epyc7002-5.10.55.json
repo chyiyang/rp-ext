@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mlx5_ib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/epyc7002-5.10.55/mlx5_core.ko",
+            "sha256": "56e23b9a17e45b2c4012380fdfe2d27d0c89e2e38c9e52dc5be5526f3e410c66",
+            "packed": false
+        },
+        {
+            "name": "mlx5_ib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/epyc7002-5.10.55/mlx5_ib.ko",
+            "sha256": "f98648a90f6f400ecddd7e25a856cc6cf2d88f146b0c3d22eb0aae031e538eaf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx5_core.ko": "",
+        "mlx5_ib.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx5_ib.sh"
+    }
+}

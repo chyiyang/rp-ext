@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "si2168.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/geminilake-4.4.180/si2168.ko",
+            "sha256": "81391ca0a3f22cb2a134752828caba31b63142c6f3ecafa203bfb2e545e078e0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2168.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2168.sh"
+    }
+}

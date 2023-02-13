@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "etxhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/denverton-4.4.180/etxhci-hcd.ko",
+            "sha256": "72473ac7ec8b87efc4f676c029629d56748d8993658c128347b17d99a5888005",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "etxhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-etxhci-hcd.sh"
+    }
+}

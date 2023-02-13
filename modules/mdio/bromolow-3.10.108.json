@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/bromolow-3.10.108/mdio.ko",
+            "sha256": "2f2873bed0d690a6b2e3009f5f48cb44602c8679a08019f49a2d9271d14f7e45",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mdio.sh"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "usb-storage.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-storage/epyc7002-5.10.55/usbcore.ko",
+            "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
+            "packed": false
+        },
+        {
+            "name": "usb-storage.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-storage/epyc7002-5.10.55/usb-storage.ko",
+            "sha256": "91e5d3a98efbedeede0bc109bd97f210f790855f563e35a09b8ad79c07de66ab",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbcore.ko": "",
+        "usb-storage.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-usb-storage.sh"
+    }
+}

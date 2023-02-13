@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "hid-generic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/r1000-4.4.180/hid-generic.ko",
+            "sha256": "c86d69b9868b48c577c0b609fd804cb8f403a1f731113044ba2e3bf23d1e2480",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hid-generic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hid-generic.sh"
+    }
+}

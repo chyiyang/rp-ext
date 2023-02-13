@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "i2c-algo-bit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/geminilake-4.4.180/i2c-algo-bit.ko",
+            "sha256": "a5efd908240a291277fcb366204c6b1325c55f6dd023ef1329d8b716b85f3595",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i2c-algo-bit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i2c-algo-bit.sh"
+    }
+}

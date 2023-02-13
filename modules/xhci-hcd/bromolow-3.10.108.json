@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "xhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/bromolow-3.10.108/xhci-hcd.ko",
+            "sha256": "eb2c9e14957c046ac6ef1a1516850c9ab559029d2af639266d781d2f8ba244b9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "xhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-xhci-hcd.sh"
+    }
+}

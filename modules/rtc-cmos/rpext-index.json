@@ -1,0 +1,18 @@
+{
+    "id": "rtc-cmos",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/rpext-index.json",
+    "info": {
+        "name": "rtc-cmos",
+        "description": "Driver for PC-style 'CMOS' RTCs",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/epyc7002-5.10.55.json",
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/apollolake-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/geminilake-4.4.180.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/r1000-4.4.180.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/v1000-4.4.180.json"
+    }
+}

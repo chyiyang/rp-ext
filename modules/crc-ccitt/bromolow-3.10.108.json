@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "crc-ccitt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/bromolow-3.10.108/crc-ccitt.ko",
+            "sha256": "c8c2a6f7f60c74b75f02a48e7d982ce7a4fed47033f27b975baa27155ef34c47",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-ccitt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-ccitt.sh"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sp2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/geminilake-4.4.180/dvb-core.ko",
+            "sha256": "8ab561b1dfa76f7c9453f06d948f812ebdcce7ef067a111da879606a37bf94d3",
+            "packed": false
+        },
+        {
+            "name": "sp2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/geminilake-4.4.180/sp2.ko",
+            "sha256": "a395b4efcf82ee4c770f3e8fb5246f4aee2aa08ae0c3f77427cc03771c25a433",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "sp2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sp2.sh"
+    }
+}

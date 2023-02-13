@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "bnxt_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/v1000-4.4.180/bnxt_en.ko",
+            "sha256": "c2a5e83f1320df2147ae8f36803ceb973b5fad2fad31aa1e640911776c26ec8d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bnxt_en.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnxt_en.sh"
+    }
+}

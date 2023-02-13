@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "e1000e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/geminilake-4.4.180/e1000e.ko",
+            "sha256": "7a5091603b285171311ec10b69a2eb09aa5f0ac02c1df2ece2bf472ead9313b7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "e1000e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-e1000e.sh"
+    }
+}

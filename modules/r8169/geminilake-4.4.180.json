@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/geminilake-4.4.180/mii.ko",
+            "sha256": "1a714d47afc00562aafa6667d13a9cc6444687c79655bbda4c3677f7cf3833a3",
+            "packed": false
+        },
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/geminilake-4.4.180/r8169.ko",
+            "sha256": "d0e2acdd1e8e8bc7ea7d17d95bf22888f5a80783d772b9d0b750c6a5e363b633",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8169.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169.sh"
+    }
+}

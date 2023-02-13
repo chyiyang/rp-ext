@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "acpi-cpufreq.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/apollolake-4.4.180/acpi-cpufreq.ko",
+            "sha256": "c3bc9efee40b986b50c685696ba146acbea027b40db1aacb890aa89757d92c7e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "acpi-cpufreq.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-acpi-cpufreq.sh"
+    }
+}

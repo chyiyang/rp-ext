@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cxgb4.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/bromolow-3.10.108/cxgb4.ko",
+            "sha256": "66be27de4824ce1b9f5e66b811ad3332a9efd900c74a1ce7e7dfe3b429415563",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb4.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb4.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/broadwell-4.4.180/intel_auxiliary.ko",
+            "sha256": "25437f04fc5f266b02961959fc947daf583b589c2b34fce3a9055310068b7342",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-intel_auxiliary.sh"
+    }
+}

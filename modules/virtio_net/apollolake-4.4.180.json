@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.180/virtio.ko",
+            "sha256": "f1d8461aed35ff2b1607b8d40fbbe10a22dade99d0d9e7ee8743bc4069983060",
+            "packed": false
+        },
+        {
+            "name": "virtio_net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.180/virtio_ring.ko",
+            "sha256": "a9b1612f0bed920c462da8ecc306c1d6037b029b0291d8e85539406b8661572e",
+            "packed": false
+        },
+        {
+            "name": "virtio_net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.180/virtio_net.ko",
+            "sha256": "9efad6048e577aa3c3d4434699aa4a968c9fa3028b47bc13e839ca6e9308a24b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_net.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_net.sh"
+    }
+}

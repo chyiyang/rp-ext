@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "hid-generic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/bromolow-3.10.108/hid-generic.ko",
+            "sha256": "451ace346dceccd2b52d79e2ea0a767b8b65417e4e59c3f6fc4f71f44d5caf96",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hid-generic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hid-generic.sh"
+    }
+}

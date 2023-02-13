@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "i40e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/v1000-4.4.180/i40e.ko",
+            "sha256": "c800576c69eff68be2e244889e99d6f69a0f77d02da8de4ca0dddd78cebd9157",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i40e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i40e.sh"
+    }
+}

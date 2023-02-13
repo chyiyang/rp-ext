@@ -1,0 +1,45 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "dvb-usb-dvbsky.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.180/dvb_usb_v2.ko",
+            "sha256": "2053ada3bb6a4f32882423eb537abe989921ebaa1bb217644e813dfa4badbab2",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dvbsky.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.180/dvb-core.ko",
+            "sha256": "3d214726b4ea2f707b9413c449d0e64380e12e6d1e3e96801b8ae3ec52695c9f",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dvbsky.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.180/rc-core.ko",
+            "sha256": "b2e63f68852136a2eda66156277cb37965edbc01c6922ce175b9746ecaf8b42a",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dvbsky.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.180/m88ds3103.ko",
+            "sha256": "5bbf1953e8df51b483da826c632584b15ecdbecc3af5c9675f8cc0b8462beaa7",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dvbsky.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.180/dvb-usb-dvbsky.ko",
+            "sha256": "b5a82ae1770634ecd8fd24f03bb5eac994b850037aa59fe9e472e1c47cb7ed72",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb_usb_v2.ko": "",
+        "dvb-core.ko": "",
+        "rc-core.ko": "",
+        "m88ds3103.ko": "",
+        "dvb-usb-dvbsky.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-usb-dvbsky.sh"
+    }
+}

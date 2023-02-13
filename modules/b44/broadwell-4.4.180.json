@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/broadwell-4.4.180/libphy.ko",
+            "sha256": "55f7a14fe3da3c4ebde12a1d800810f9f705fa9ad15a88b351da4971848be748",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/broadwell-4.4.180/mii.ko",
+            "sha256": "9ad092739154148224a091dbe2303f603bc869b90925d503b9e173b44fd9d5e3",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/broadwell-4.4.180/b44.ko",
+            "sha256": "6c209b53b9b95727ebd05ae8652f2b548457159a1c6ad0b1194e6dd4dcd1b4b5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "mii.ko": "",
+        "b44.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-b44.sh"
+    }
+}

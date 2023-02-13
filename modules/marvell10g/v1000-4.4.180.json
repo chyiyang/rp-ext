@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "marvell10g.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/marvell10g/v1000-4.4.180/marvell10g.ko",
+            "sha256": "5d1501438a1a387159bbecf264dc69000d35f37233a8c158120ae81c06d4f1db",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "marvell10g.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-marvell10g.sh"
+    }
+}

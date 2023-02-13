@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "r8125.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/r1000-4.4.180/r8125.ko",
+            "sha256": "d753c565dbe6b192642cb908fc285cf8bd05512337b1f5f9146d78a848322a4f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8125.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8125.sh"
+    }
+}

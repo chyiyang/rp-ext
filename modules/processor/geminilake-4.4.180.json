@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "processor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/processor/geminilake-4.4.180/processor.ko",
+            "sha256": "f8714250c7c4613f402b82a87f446df85943c04cd3676fccec728faab4649c83",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "processor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-processor.sh"
+    }
+}

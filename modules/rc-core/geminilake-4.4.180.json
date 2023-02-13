@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "rc-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/geminilake-4.4.180/rc-core.ko",
+            "sha256": "50ee24a1e300605d3f3a729ddf55d02737a2a7bf19afd5e75e0a8ca4bb002586",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "rc-core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-rc-core.sh"
+    }
+}

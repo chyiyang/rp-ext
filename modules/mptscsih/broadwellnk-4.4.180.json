@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/broadwellnk-4.4.180/mptbase.ko",
+            "sha256": "3421047e68ecb5ad77e9af9807a1373c6809b3947460cb09ee88a4e72c996238",
+            "packed": false
+        },
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/broadwellnk-4.4.180/mptscsih.ko",
+            "sha256": "316f2f54420b161308c92e95dcd7511da65c4d3ff1e2833f05db81dab2a3f52e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptscsih.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptscsih.sh"
+    }
+}

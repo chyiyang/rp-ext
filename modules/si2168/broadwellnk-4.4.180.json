@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "si2168.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/broadwellnk-4.4.180/si2168.ko",
+            "sha256": "e79924641ef231e928db0fb21b1c9816f58f7c096e68fccf3c916bdccb0946cb",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2168.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2168.sh"
+    }
+}

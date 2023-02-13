@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/denverton-4.4.180/dvb-usb.ko",
+            "sha256": "0c6f28204ca74d70c38577377a8db60cdc738cbb28eef3e1aff333d09ebdb0f7",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/denverton-4.4.180/rc-core.ko",
+            "sha256": "b2e63f68852136a2eda66156277cb37965edbc01c6922ce175b9746ecaf8b42a",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/denverton-4.4.180/dvb-usb-dib0700.ko",
+            "sha256": "c9338c3332b4575dd34f54daeb8cabfabd38b6bb8da0d1daa8e77a0a01657622",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-usb.ko": "",
+        "rc-core.ko": "",
+        "dvb-usb-dib0700.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-usb-dib0700.sh"
+    }
+}

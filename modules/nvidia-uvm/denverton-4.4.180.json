@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "nvidia-uvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nvidia-uvm/denverton-4.4.180/nvidia.ko",
+            "sha256": "8bd418a3acb24602ad8b02eb8fd102642c99065a42870384b49cccfd3882afa5",
+            "packed": false
+        },
+        {
+            "name": "nvidia-uvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nvidia-uvm/denverton-4.4.180/nvidia-uvm.ko",
+            "sha256": "ad2ec96d05017ac698b62e5af4e5e0dc4f1fa8f902b3fa14ceba0074a8040c21",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "nvidia.ko": "",
+        "nvidia-uvm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nvidia-uvm.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/broadwell-4.4.180/mdio.ko",
+            "sha256": "a7567ea90c5d157bbe72ee12069afff44d45b7fdbad0ba3ecca9194aa0370dc3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mdio.sh"
+    }
+}

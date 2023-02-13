@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "xhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/geminilake-4.4.180/xhci-hcd.ko",
+            "sha256": "d1a6fd317ebc52b83d38b4cdfdb362d82d73fef7d6c42f6f80b1b97d92f5f727",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "xhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-xhci-hcd.sh"
+    }
+}

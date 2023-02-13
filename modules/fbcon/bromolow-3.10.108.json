@@ -1,0 +1,38 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "fbcon.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/bromolow-3.10.108/fb.ko",
+            "sha256": "ea0728318d60ffff2b94158d44557f1e08127294c48fd09173ed971393cfbfb8",
+            "packed": false
+        },
+        {
+            "name": "fbcon.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/bromolow-3.10.108/font.ko",
+            "sha256": "ca418a5377005071e53fed6effebe4403b22e9f266ccbde6ac55a2e49995f562",
+            "packed": false
+        },
+        {
+            "name": "fbcon.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/bromolow-3.10.108/bitblit.ko",
+            "sha256": "7171ae9feedd51e9a2f5d7629e9571237ca747ce9049294db1c1acb6fc2460b8",
+            "packed": false
+        },
+        {
+            "name": "fbcon.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/bromolow-3.10.108/fbcon.ko",
+            "sha256": "2746c23de139aeec9039421c577919f5a3af4ca13225bcd7b314548902c5d413",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "font.ko": "",
+        "bitblit.ko": "",
+        "fbcon.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fbcon.sh"
+    }
+}

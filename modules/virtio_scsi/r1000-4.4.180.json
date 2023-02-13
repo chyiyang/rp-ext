@@ -1,0 +1,31 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/r1000-4.4.180/virtio.ko",
+            "sha256": "ecb416e4d52bc161a63b15e981257cb2654dbac6344655ad029f68dcef296146",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/r1000-4.4.180/virtio_ring.ko",
+            "sha256": "90795b926d4a3a5fc9d9bf9f6772d1ff7a88367b240e51f91a442596c05432e6",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/r1000-4.4.180/virtio_scsi.ko",
+            "sha256": "4de40b5237d2d6690d4f79a38150c9c3f31175403e7088233856383e9133e1e2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_scsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_scsi.sh"
+    }
+}

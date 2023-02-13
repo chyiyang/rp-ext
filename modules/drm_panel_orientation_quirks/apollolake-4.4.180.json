@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "drm_panel_orientation_quirks.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_panel_orientation_quirks/apollolake-4.4.180/drm_panel_orientation_quirks.ko",
+            "sha256": "82819a3b4d6d7f53c94bc4dc76fa88cf92976d71fdce286b8a9b2c43a181f79a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "drm_panel_orientation_quirks.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-drm_panel_orientation_quirks.sh"
+    }
+}

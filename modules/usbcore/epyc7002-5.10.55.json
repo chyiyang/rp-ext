@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "usbcore.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbcore/epyc7002-5.10.55/usbcore.ko",
+            "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbcore.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-usbcore.sh"
+    }
+}

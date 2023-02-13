@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/apollolake-4.4.180/mmc_core.ko",
+            "sha256": "f1879a769f58a1f8518effefa9300ea80013f3e09a4b2362fb72475b2b641f35",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mmc_core.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/epyc7002-5.10.55/font.ko",
+            "sha256": "325d3ad698a9ef39fa64a666ad5f59d4574c5e4158d633a10e18cbbb4d3bb0a4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "font.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-font.sh"
+    }
+}

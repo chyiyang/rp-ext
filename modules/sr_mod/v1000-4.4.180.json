@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sr_mod.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/v1000-4.4.180/sr_mod.ko",
+            "sha256": "f8d2b1e8d3897668ced6807e13b8ace5c428acdf7780601ca7a977fffae29a05",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sr_mod.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sr_mod.sh"
+    }
+}

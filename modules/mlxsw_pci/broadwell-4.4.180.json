@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mlxsw_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/broadwell-4.4.180/mlxsw_core.ko",
+            "sha256": "035d172b13b817cef2f0509ad8218b52190d3b1a0619554263a13165de0cbcaf",
+            "packed": false
+        },
+        {
+            "name": "mlxsw_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/broadwell-4.4.180/mlxsw_pci.ko",
+            "sha256": "59c1fbe3ece4f75c0eb23961fdfbeb6fc54ae08a18b56e226b01ca1a00b92a56",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlxsw_core.ko": "",
+        "mlxsw_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlxsw_pci.sh"
+    }
+}

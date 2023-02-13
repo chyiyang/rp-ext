@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "usbip-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbip-core/epyc7002-5.10.55/usb-common.ko",
+            "sha256": "20a4d974ee790ddb2525bc7fefc8eba2175d033be6c269ef8feec6c92dc71450",
+            "packed": false
+        },
+        {
+            "name": "usbip-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbip-core/epyc7002-5.10.55/usbip-core.ko",
+            "sha256": "1b91caeb746ce2845344c675e7b31d198669238f3b83dc4bf93be38c239ca608",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usb-common.ko": "",
+        "usbip-core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-usbip-core.sh"
+    }
+}

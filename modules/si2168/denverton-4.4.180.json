@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "si2168.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/denverton-4.4.180/si2168.ko",
+            "sha256": "213e97d33cb46570fb4f27788c9be1910b97e2c3638f4613227a494b69300a91",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2168.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2168.sh"
+    }
+}

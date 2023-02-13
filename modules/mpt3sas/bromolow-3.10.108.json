@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mpt3sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/bromolow-3.10.108/mpt3sas.ko",
+            "sha256": "4fe3ece0236933bdbbec8b0f3c39a986ba96dad9e464c6a00bd95a23ba5d199d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mpt3sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mpt3sas.sh"
+    }
+}

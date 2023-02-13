@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "iosf_mbi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iosf_mbi/geminilake-4.4.180/iosf_mbi.ko",
+            "sha256": "e7cf0890d5476bd8ba9bf5681de201ba9b14b57c72e2456024ed28be00913358",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "iosf_mbi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iosf_mbi.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "cpufreq_performance.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/bromolow-3.10.108/cpufreq_performance.ko",
+            "sha256": "5a6cd7f185068124f2360f424955a4c84b0e113283e4eca1484400396a5aeeaf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_performance.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_performance.sh"
+    }
+}

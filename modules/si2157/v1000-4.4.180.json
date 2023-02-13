@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "si2157.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/v1000-4.4.180/si2157.ko",
+            "sha256": "13cd490c2293eda896fb1932cf4dfc89b5081cb3357628c9d6e224a2d9fdbc73",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2157.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2157.sh"
+    }
+}

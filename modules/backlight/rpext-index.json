@@ -1,0 +1,15 @@
+{
+    "id": "backlight",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/backlight/rpext-index.json",
+    "info": {
+        "name": "backlight",
+        "description": "Backlight Lowlevel Control Abstraction",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/backlight/apollolake-4.4.180.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/backlight/geminilake-4.4.180.json"
+    }
+}

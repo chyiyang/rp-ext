@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "sr_mod.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/bromolow-3.10.108/sr_mod.ko",
+            "sha256": "c9fcd5a39796b3578ff32108bcaaf4eec2c69370df67e40d862781a3b1344410",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sr_mod.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sr_mod.sh"
+    }
+}

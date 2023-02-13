@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx_compat/denverton-4.4.180/mlx_compat.ko",
+            "sha256": "ff952201c0847bfe0baf341946354a93bd5ffe79d8cecfbe5452824886a9598c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx_compat.sh"
+    }
+}

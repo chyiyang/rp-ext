@@ -1,0 +1,24 @@
+{
+    "mod_version": "v1.65",
+    "files": [
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.180/libphy.ko",
+            "sha256": "cabe9e3258fd2dc74b869cc32d698d3cd014fa8d0efe58597c135f1b73c8af96",
+            "packed": false
+        },
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.180/tg3.ko",
+            "sha256": "71793ed8d12127dc5a3df10e6aac7058100317739a39f11ab2bfe269f2939cdc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "tg3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-tg3.sh"
+    }
+}
