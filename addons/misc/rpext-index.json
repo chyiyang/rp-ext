@@ -1,14 +1,14 @@
 {
   "id": "misc",
-  "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/misc/rpext-index.json",
+  "url": "https://github.com/wjz304/rp-ext/raw/main/addons/misc/rpext-index.json",
   "info": {
     "name": "Misc shell",
     "description": "Misc shell",
     "author_url": "https://raw.githubusercontent.com/wjz304",
-    "packer_url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/misc",
-    "help_url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/misc"
+    "packer_url": "https://github.com/wjz304/rp-ext/raw/main/addons/misc",
+    "help_url": "https://github.com/wjz304/rp-ext/raw/main/addons/misc"
   },
   "releases": {
-    "_": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/misc/recipes/universal.json"
+    "_": "https://github.com/wjz304/rp-ext/raw/main/addons/misc/recipes/universal.json"
   }
 }

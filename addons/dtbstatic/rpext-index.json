@@ -1,6 +1,6 @@
 {
   "id": "redpill-dtb-static",
-  "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/dtbstatic/rpext-index.json",
+  "url": "https://github.com/wjz304/rp-ext/raw/main/addons/dtbstatic/rpext-index.json",
   "info": {
     "name": "Device tree binary",
     "description": "Create your own device tree binary",
@@ -9,6 +9,6 @@
     "help_url": "https://github.com/jumkey/redpill-load/redpill-dtb"
   },
   "releases": {
-    "_": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/dtbstatic/recipes/universal.json"
+    "_": "https://github.com/wjz304/rp-ext/raw/main/addons/dtbstatic/recipes/universal.json"
   }
 }

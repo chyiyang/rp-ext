@@ -1,6 +1,6 @@
 {
   "id": "acpid2",
-  "url": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/acpid2/rpext-index.json",
+  "url": "https://github.com/wjz304/rp-ext/raw/main/addons/acpid2/rpext-index.json",
   "info": {
     "name": "ACPI Daemon v2",
     "description": "ACPI Daemon v2 that handles power button events",
@@ -9,6 +9,6 @@
     "help_url": "https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid"
   },
   "releases": {
-    "_": "https://raw.githubusercontent.com/wjz304/rp-ext/master/addons/acpid2/recipes/universal.json"
+    "_": "https://github.com/wjz304/rp-ext/raw/main/addons/acpid2/recipes/universal.json"
   }
 }
