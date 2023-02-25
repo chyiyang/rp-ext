@@ -67,6 +67,7 @@ jobs:
               reglist.append(['${{ github.server_url }}/${{ github.repository }}/raw/${{ github.ref_name }}/',''])
               indexFile = 'rpext-index.json'
               addonDirs = os.listdir(os.path.join(root, 'addons'))
+              addonDirs.sort()
               addons = {}
               for addon in addonDirs:
                   if addon.startswith('.') or os.path.isfile(os.path.join(root, 'addons', addon)):

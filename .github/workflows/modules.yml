@@ -42,7 +42,7 @@ jobs:
         run: |
           # -*- coding: utf-8 -*-
 
-          import os, json, shutil, hashlib, kmodule
+          import os, json, shutil, hashlib, tarfile, kmodule
 
           root = '' # os.path.dirname(os.path.abspath(__file__))
           baseDir = 'modules'
@@ -59,6 +59,7 @@ jobs:
                       platform = platformDir.split('-')[0]
                       version = platformDir.split('-')[1]
                       modules = os.listdir(os.path.join(root, 'arpl-modules', platformDir))
+                      modules.sort()
                       for module in modules:
                           if module.startswith('.') or '.ko' not in module:
                               continue
@@ -93,20 +94,44 @@ jobs:
 
                           for k in kolist:
                               if not os.path.exists(os.path.join(root, 'arpl-modules', platformDir, k)): continue
-
+                              kinfo = kmodule.modinfo(os.path.join(root, 'arpl-modules', platformDir, k))[0]
+                              if "firmware" in kinfo.keys():
+                                  for fw in kinfo["firmware"].split(','):
+                                      if not os.path.exists(os.path.join(root, 'arpl-modules', "firmware", fw)): continue
+                                      os.makedirs(os.path.dirname(os.path.join(root, baseDir, info['filename'], platformDir, "firmware", fw)), exist_ok=True)
+                                      shutil.copyfile(os.path.join(root, 'arpl-modules', "firmware", fw), os.path.join(root, baseDir, info['filename'], platformDir, "firmware", fw))
                               shutil.copyfile(os.path.join(root, 'arpl-modules', platformDir, k), os.path.join(root, baseDir, info['filename'], platformDir, k))
-
                               checkshell += 'echo -n "Loading module {} -> "\n[ `/sbin/lsmod | grep -i {} | wc -l` -gt 0 ] && echo "Module {} loaded succesfully" || echo "Module {} is not loaded"\n'.format(k[:-3],k[:-3],k[:-3],k[:-3])
-
                               url = os.path.join(baseUrl, baseDir, info['filename'], platformDir, k)
                               with open(os.path.join(root, baseDir, info['filename'], platformDir, k), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
-
-                              universal["files"].append({ "name": module, "url": url, "sha256": sha256, "packed": False })
+                              universal["files"].append({ "name": k, "url": url, "sha256": sha256, "packed": False })
                               universal["kmods"][k] = ""
-                          
-                          universal["scripts"]["on_boot"] = "check-{}.sh".format(info['filename'])
-                          with open(os.path.join(root, baseDir, info['filename'], platformDir, 'check-{}.sh'.format(info['filename'])), 'w', encoding='utf-8') as f:
+
+                          # checkfile
+                          checkfile = "check-{}.sh".format(info['filename'])
+                          with open(os.path.join(root, baseDir, info['filename'], platformDir, checkfile), 'w', encoding='utf-8') as f:
                               f.write(checkshell)
+                          url = os.path.join(baseUrl, baseDir, info['filename'], platformDir, checkfile)
+                          with open(os.path.join(root, baseDir, info['filename'], platformDir, checkfile), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
+                          universal["files"].append({ "name": checkfile, "url": url, "sha256": sha256, "packed": False })
+                          universal["scripts"]["on_boot"] = checkfile
+
+                          # firmware
+                          if os.path.exists(os.path.join(root, baseDir, info['filename'], platformDir, "firmware")):
+                              fwname = "{}_firmware.tag.gz".format(info['filename'])
+                              with tarfile.open(os.path.join(root, baseDir, info['filename'], platformDir, fwname), "w:gz") as tar: 
+                                  tar.add(os.path.join(root, baseDir, info['filename'], platformDir, "firmware"), arcname=os.path.join(root, baseDir, info['filename'], platformDir, "firmware"))
+                              url = os.path.join(baseUrl, baseDir, info['filename'], platformDir, fwname)
+                              with open(os.path.join(root, baseDir, info['filename'], platformDir, fwname), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
+                              universal["files"].append({ "name": fwname, "url": url, "sha256": sha256, "packed": False })
+                              installfile = "install-{}.sh".format(info['filename'])
+                              installshell = '#!/bin/sh\n\ntar -zxvf {} -C /tmpRoot/usr/lib/firmware'.format(fwname)
+                              with open(os.path.join(root, baseDir, info['filename'], platformDir, installfile), 'w', encoding='utf-8') as f:
+                                  f.write(installshell)
+                              url = os.path.join(baseUrl, baseDir, info['filename'], platformDir, installfile)
+                              with open(os.path.join(root, baseDir, info['filename'], platformDir, installfile), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
+                              universal["files"].append({ "name": installfile, "url": url, "sha256": sha256, "packed": False })
+                              universal["scripts"]["on_os_load"] = installfile
                           with open(os.path.join(root, baseDir, info['filename'], '{}.json'.format(platformDir)), 'w', encoding='utf-8') as f:
                               f.write(json.dumps(universal, indent=4))
 
@@ -157,6 +182,7 @@ jobs:
               reglist.append(['${{ github.event.repository.url }}/raw/${{ github.event.repository.master_branch }}/',''])
               indexFile = 'rpext-index.json'
               moduleDirs = os.listdir(os.path.join(root, 'modules'))
+              moduleDirs.sort()
               modules = {}
               for module in moduleDirs:
                   if module.startswith('.') or os.path.isfile(os.path.join(root, 'modules', module)):
