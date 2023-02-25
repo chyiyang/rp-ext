@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/broadwell-4.4.180/mpt3sas.ko",
             "sha256": "1a6b52c5597e69bf3685df65a88d96d55f39915574ab6bc2bf4366e883eaceef",
             "packed": false
+        },
+        {
+            "name": "check-mpt3sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/broadwell-4.4.180/check-mpt3sas.sh",
+            "sha256": "b36795c7b1be9bc0b80d5d05d9d89f30f6346a691ff001517e7fa5c8be2944b5",
+            "packed": false
         }
     ],
     "kmods": {

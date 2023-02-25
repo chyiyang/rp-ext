@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/broadwellnk-4.4.180/rc-core.ko",
             "sha256": "25a4b5ffb054d36ab49594a945bc7948f63690eacdfa6695a9b1cf8b961da0b7",
             "packed": false
+        },
+        {
+            "name": "check-rc-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/broadwellnk-4.4.180/check-rc-core.sh",
+            "sha256": "ad36a84f398935fb3ca9b147865c52387e98c302997adeb6d96a87d9ca870b48",
+            "packed": false
         }
     ],
     "kmods": {

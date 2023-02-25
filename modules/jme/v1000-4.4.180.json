@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "jme.ko",
+            "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/v1000-4.4.180/mii.ko",
             "sha256": "e7bff4eb1d691aff6734d43e068cdbc0e8cb540e97e98468b59dc4349751d6d2",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "jme.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/v1000-4.4.180/jme.ko",
             "sha256": "37f469065f7c895b5ebc86f21460fbca1438772adced2744c9788cdef5ca0c03",
+            "packed": false
+        },
+        {
+            "name": "check-jme.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/v1000-4.4.180/check-jme.sh",
+            "sha256": "6b70bfbac17b78183298ddafdac9480ab51b45d7901c59681072ac1c5f69abff",
             "packed": false
         }
     ],

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgb/broadwellnk-4.4.180/ixgb.ko",
             "sha256": "eb418c8911a733043b32a270b286f8dec49e0681ad2c14f283daa16715b96f19",
             "packed": false
+        },
+        {
+            "name": "check-ixgb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgb/broadwellnk-4.4.180/check-ixgb.sh",
+            "sha256": "8e1c370a1ce31f3215142e986082d63d24467949d284ecd888723f95633846f4",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/broadwell-4.4.180/libphy.ko",
             "sha256": "55f7a14fe3da3c4ebde12a1d800810f9f705fa9ad15a88b351da4971848be748",
             "packed": false
+        },
+        {
+            "name": "check-libphy.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/broadwell-4.4.180/check-libphy.sh",
+            "sha256": "e0a7c579a63a41f7dce62df77c2a7f1878210ee2f739daa862285308c03600ee",
+            "packed": false
         }
     ],
     "kmods": {

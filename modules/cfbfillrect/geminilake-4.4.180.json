@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/geminilake-4.4.180/cfbfillrect.ko",
             "sha256": "f737329adf64c1f4905f31ae7ddaedf3ed14a8a89e6ebb89250cbc80f83c8dc5",
             "packed": false
+        },
+        {
+            "name": "check-cfbfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/geminilake-4.4.180/check-cfbfillrect.sh",
+            "sha256": "0b86d41adb7c23bbecee633781eafeff50852acc9c1652c2c643a0c910c97cdf",
+            "packed": false
         }
     ],
     "kmods": {

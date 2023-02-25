@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/v1000-4.4.180/skge.ko",
             "sha256": "1abce152e24b73b4c827b21717afe11e3cb3a02bcec17c31f49f88ce307c0fd3",
             "packed": false
+        },
+        {
+            "name": "check-skge.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/v1000-4.4.180/check-skge.sh",
+            "sha256": "b721ba024833984da406b996fcbea6f2c6290ffaf7a835b95f8a2abaaf103625",
+            "packed": false
         }
     ],
     "kmods": {

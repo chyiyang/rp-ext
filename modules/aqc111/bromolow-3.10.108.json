@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/bromolow-3.10.108/aqc111.ko",
             "sha256": "e49031453f991d4eed3a1514b2789384f13e12fb78cd1595bc4e90f2d1f58b92",
             "packed": false
+        },
+        {
+            "name": "check-aqc111.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/bromolow-3.10.108/check-aqc111.sh",
+            "sha256": "820f830e232a007720e2b3d1669d0cf8d40d072625dc7adb4972f0d4e2fc0086",
+            "packed": false
         }
     ],
     "kmods": {

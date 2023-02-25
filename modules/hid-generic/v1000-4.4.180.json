@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/v1000-4.4.180/hid-generic.ko",
             "sha256": "c86d69b9868b48c577c0b609fd804cb8f403a1f731113044ba2e3bf23d1e2480",
             "packed": false
+        },
+        {
+            "name": "check-hid-generic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/v1000-4.4.180/check-hid-generic.sh",
+            "sha256": "93a674a776a8a47c794c716c27c7fa5949999312319555839998d04e508744b2",
+            "packed": false
         }
     ],
     "kmods": {

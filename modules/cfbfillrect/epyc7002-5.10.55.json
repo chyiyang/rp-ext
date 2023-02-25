@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/epyc7002-5.10.55/cfbfillrect.ko",
             "sha256": "50fbfad16a8d6a9ef221d6d77cbe322f2071b79126c49204debfd9b9e8c0683d",
             "packed": false
+        },
+        {
+            "name": "check-cfbfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/epyc7002-5.10.55/check-cfbfillrect.sh",
+            "sha256": "0b86d41adb7c23bbecee633781eafeff50852acc9c1652c2c643a0c910c97cdf",
+            "packed": false
         }
     ],
     "kmods": {

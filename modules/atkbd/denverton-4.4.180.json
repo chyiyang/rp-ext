@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/denverton-4.4.180/atkbd.ko",
             "sha256": "1a9358514837620ef29193548c93a14dc27f65f7f1fb8206f5511dc2b612b98d",
             "packed": false
+        },
+        {
+            "name": "check-atkbd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/denverton-4.4.180/check-atkbd.sh",
+            "sha256": "92dee4fcf899033fd10ad3a714b522524e68775b71a16e6174c91d3ad5747207",
+            "packed": false
         }
     ],
     "kmods": {

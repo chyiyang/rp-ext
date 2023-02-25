@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/v1000-4.4.180/fbdev.ko",
             "sha256": "0b120988477eaf7c097f76426b8c86a9d9c6b6e14cd36334246e4b552db3abab",
             "packed": false
+        },
+        {
+            "name": "check-fbdev.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/v1000-4.4.180/check-fbdev.sh",
+            "sha256": "4270278943bfd9f5d9e984f48d64a548528031b0d15fbb7f4b9752573013ce06",
+            "packed": false
         }
     ],
     "kmods": {

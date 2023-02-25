@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/geminilake-4.4.180/scsi_transport_sas.ko",
             "sha256": "7a3080a450f64a743652fb392a7c52ec3a10850ca00e21d0e0fa566d6a44b495",
             "packed": false
+        },
+        {
+            "name": "check-scsi_transport_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/geminilake-4.4.180/check-scsi_transport_sas.sh",
+            "sha256": "2ca154b5d73a837499c4974e4ec1b17bcc2ad61ad8dd3ef421a9a250838c46ea",
+            "packed": false
         }
     ],
     "kmods": {

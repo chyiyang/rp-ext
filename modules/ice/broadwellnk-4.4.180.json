@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "ice.ko",
+            "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwellnk-4.4.180/auxiliary.ko",
             "sha256": "54dcec50f8f6338e507d124f4d12f357b500cdad88a9d9d38f68a920c68bf3a0",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "ice.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwellnk-4.4.180/ice.ko",
             "sha256": "bf2ac33244512c23a5d90ab981eb136f13dfd58245a43608551da737b6552a0f",
+            "packed": false
+        },
+        {
+            "name": "check-ice.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwellnk-4.4.180/check-ice.sh",
+            "sha256": "1f8e01a7316db89bcbb979b8fca887d45586155bed2713d40a504c6e389ede4c",
             "packed": false
         }
     ],

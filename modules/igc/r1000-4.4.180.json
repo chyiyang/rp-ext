@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/r1000-4.4.180/igc.ko",
             "sha256": "63b27813786d5e307dd51ff6dcda5dafce150905406550973f81c6d89f43f2e8",
             "packed": false
+        },
+        {
+            "name": "check-igc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/r1000-4.4.180/check-igc.sh",
+            "sha256": "fd19316541e792dd5d033768708517247568cb548bdb1df371c71f7b2fe57cde",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/geminilake-4.4.180/r8168.ko",
             "sha256": "2fa9b4b5f9014c107d4affdaf05e0a449d8a10d561d279e963e159f32a232dba",
             "packed": false
+        },
+        {
+            "name": "check-r8168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/geminilake-4.4.180/check-r8168.sh",
+            "sha256": "bb91f376d2d2e687e47d6ee7a90407678818f39a7b238e3fef9670b14007f0f5",
+            "packed": false
         }
     ],
     "kmods": {

@@ -2,19 +2,19 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mptspi.ko",
+            "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.108/mptscsih.ko",
             "sha256": "ad62c4fe48ab967f37c0856d2168c9a182c66740235e2b51f3cb032bcb7aab4c",
             "packed": false
         },
         {
-            "name": "mptspi.ko",
+            "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.108/mptbase.ko",
             "sha256": "fcda9730f8473ebadf2435732222b72a4ccc7519ee39c91826aec0ea58af2dd1",
             "packed": false
         },
         {
-            "name": "mptspi.ko",
+            "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.108/scsi_transport_spi.ko",
             "sha256": "a934c19fb0cd01fd912513b33a404f8c01184d03d882ea153e96335dfd8418cb",
             "packed": false
@@ -23,6 +23,12 @@
             "name": "mptspi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.108/mptspi.ko",
             "sha256": "cef52f63dd1ebe11142dc3a05339f009f555cc8721b1b321b79ddafedb131c06",
+            "packed": false
+        },
+        {
+            "name": "check-mptspi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.108/check-mptspi.sh",
+            "sha256": "54872bbf44876aaf8f8672226c6852d9371c9c9d8f0b098214e3e09e0a6dd653",
             "packed": false
         }
     ],

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/bromolow-3.10.108/nct6775.ko",
             "sha256": "a1f3cfe3521c03cb196330cc8a29199c370e4d071aa761c42a4133ffc206c282",
             "packed": false
+        },
+        {
+            "name": "check-nct6775.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/bromolow-3.10.108/check-nct6775.sh",
+            "sha256": "574bfe8c85576c41b1eeba10801361f465b7da09e4538c837157cc1d491b1f88",
+            "packed": false
         }
     ],
     "kmods": {

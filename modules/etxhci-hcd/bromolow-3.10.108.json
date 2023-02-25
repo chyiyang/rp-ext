@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/bromolow-3.10.108/etxhci-hcd.ko",
             "sha256": "28b12140e9380de4f9a870bc20807183c548ace2f5eee7c459223d26aa2e6ddc",
             "packed": false
+        },
+        {
+            "name": "check-etxhci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/bromolow-3.10.108/check-etxhci-hcd.sh",
+            "sha256": "74e7640d8aaf0949744c0fbb471a3fa5cea16324d7449b8046fd207f6a758d73",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/geminilake-4.4.180/xhci-hcd.ko",
             "sha256": "d1a6fd317ebc52b83d38b4cdfdb362d82d73fef7d6c42f6f80b1b97d92f5f727",
             "packed": false
+        },
+        {
+            "name": "check-xhci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/geminilake-4.4.180/check-xhci-hcd.sh",
+            "sha256": "40d859f5e15a65627c0abc6ea511d68c9662c54bb55b98969f041db24dd5723d",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/denverton-4.4.180/vmw_pvscsi.ko",
             "sha256": "80cb4c966f65c083d13864e171ac8fe5e70d316ba489ffb91b0c0e628a826afe",
             "packed": false
+        },
+        {
+            "name": "check-vmw_pvscsi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/denverton-4.4.180/check-vmw_pvscsi.sh",
+            "sha256": "852cec60cd99a2524b4985ea7c000a6654b9630520e3ae397b7acb1ade50409f",
+            "packed": false
         }
     ],
     "kmods": {

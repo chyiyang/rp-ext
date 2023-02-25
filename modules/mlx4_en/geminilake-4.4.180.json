@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mlx4_en.ko",
+            "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/geminilake-4.4.180/mlx4_core.ko",
             "sha256": "4bbeae9606aa86ea1d20cffe9d4dd609b431ba26f8cd348079c3f8a89d3e77f1",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/geminilake-4.4.180/mlx4_en.ko",
             "sha256": "cffe8408625a6ff377747ae1f48db9e8b73850bbd78260f5d0c49320d3d94b88",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/geminilake-4.4.180/check-mlx4_en.sh",
+            "sha256": "6361d25afad0ea2e6fa3fe703113aafac3f3964689bdca30416147005e804925",
             "packed": false
         }
     ],

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/apollolake-4.4.180/megaraid_sas.ko",
             "sha256": "8050fa32ff208706de7afb0db7b8cac2432c2685a8feb40c330eec68642d60e6",
             "packed": false
+        },
+        {
+            "name": "check-megaraid_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/apollolake-4.4.180/check-megaraid_sas.sh",
+            "sha256": "6e7f79b947f82fbdf9c78252a95f5efe7b93cb26cfe15462e4aa13a92a4b4cf3",
+            "packed": false
         }
     ],
     "kmods": {

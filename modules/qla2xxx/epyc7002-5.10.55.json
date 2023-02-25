@@ -6,12 +6,31 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/epyc7002-5.10.55/qla2xxx.ko",
             "sha256": "09e154cea5b8da8ff4b0a736c8fe98ab51f33f52d505205dd37e28879328f306",
             "packed": false
+        },
+        {
+            "name": "check-qla2xxx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/epyc7002-5.10.55/check-qla2xxx.sh",
+            "sha256": "8f26979e41e8b9c0a49687c0ff5b3214fe15d4e6228da3ac024379514f33c898",
+            "packed": false
+        },
+        {
+            "name": "qla2xxx_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/epyc7002-5.10.55/qla2xxx_firmware.tag.gz",
+            "sha256": "c7aa3fcc2688d4066748875faab3bcc8dfe6b948ccd075b496a897c480f8d4db",
+            "packed": false
+        },
+        {
+            "name": "install-qla2xxx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/epyc7002-5.10.55/install-qla2xxx.sh",
+            "sha256": "93f23daaaf56c593b4b14dc4e0e60df8942bf578f28c7e2561125c5b420deb43",
+            "packed": false
         }
     ],
     "kmods": {
         "qla2xxx.ko": ""
     },
     "scripts": {
-        "on_boot": "check-qla2xxx.sh"
+        "on_boot": "check-qla2xxx.sh",
+        "on_os_load": "install-qla2xxx.sh"
     }
 }

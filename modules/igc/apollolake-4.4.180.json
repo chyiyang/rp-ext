@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/apollolake-4.4.180/igc.ko",
             "sha256": "b903fda0341bd87499d8f404200857164fa39b3a224ee67e250cdc8bb2b93c1e",
             "packed": false
+        },
+        {
+            "name": "check-igc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/apollolake-4.4.180/check-igc.sh",
+            "sha256": "fd19316541e792dd5d033768708517247568cb548bdb1df371c71f7b2fe57cde",
+            "packed": false
         }
     ],
     "kmods": {

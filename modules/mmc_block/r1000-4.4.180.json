@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mmc_block.ko",
+            "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/r1000-4.4.180/mmc_core.ko",
             "sha256": "c1a00ef2b090e48999081a95a9615146a68e9fa8f5ba4d443ee5f51d4316cd9c",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mmc_block.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/r1000-4.4.180/mmc_block.ko",
             "sha256": "1e47b1de72f93f44b7c6bd294ef761330ce503d1e6a4b2c62f199713e3b55ffc",
+            "packed": false
+        },
+        {
+            "name": "check-mmc_block.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/r1000-4.4.180/check-mmc_block.sh",
+            "sha256": "79c52aec381ac1892ffa5167722e7bdccc1ea18688f263528a4c1353bc20a9d6",
             "packed": false
         }
     ],

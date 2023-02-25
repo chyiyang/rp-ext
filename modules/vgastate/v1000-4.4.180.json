@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/v1000-4.4.180/vgastate.ko",
             "sha256": "255476319c59dc0254d3406f7fe816f94f68c1732248b411fca0b9f01c8e7be6",
             "packed": false
+        },
+        {
+            "name": "check-vgastate.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/v1000-4.4.180/check-vgastate.sh",
+            "sha256": "a89a3dc8087236516f5295d75516a08378467cf478370b6ae534384213f3adc2",
+            "packed": false
         }
     ],
     "kmods": {

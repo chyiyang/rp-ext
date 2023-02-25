@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/v1000-4.4.180/i2c-algo-bit.ko",
             "sha256": "8e4e9838317a6f85abadacf363d377d63bb0e49fe417868d801a01655ea1b7c0",
             "packed": false
+        },
+        {
+            "name": "check-i2c-algo-bit.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/v1000-4.4.180/check-i2c-algo-bit.sh",
+            "sha256": "f5d6800c83618f072f143c771e4e2f84e95569967c98b2a90ddd065046b900d5",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/v1000-4.4.180/xhci-pci.ko",
             "sha256": "2ee160774fdf596f6da50762329cddb0449a5484faf8e31a9345d6b805174599",
             "packed": false
+        },
+        {
+            "name": "check-xhci-pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/v1000-4.4.180/check-xhci-pci.sh",
+            "sha256": "4737e8cd91d5ea5db247c6e4797046e8eccb3876c8ad7bf7c89261d2177b79e5",
+            "packed": false
         }
     ],
     "kmods": {

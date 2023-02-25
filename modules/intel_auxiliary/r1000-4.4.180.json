@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/r1000-4.4.180/intel_auxiliary.ko",
             "sha256": "03059f3d8e1f307bc9b22f67b1e541703e638b10f06d98d44058090bd5a3d89c",
             "packed": false
+        },
+        {
+            "name": "check-intel_auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/r1000-4.4.180/check-intel_auxiliary.sh",
+            "sha256": "340f4c6b97b0bfd51322b44dc3bd02ddf57f5245c8c0661e0598003dc3d9082d",
+            "packed": false
         }
     ],
     "kmods": {

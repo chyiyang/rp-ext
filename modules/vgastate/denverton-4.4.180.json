@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/denverton-4.4.180/vgastate.ko",
             "sha256": "176e76983ba982e448c33cb4ab55fdbb5160aab5274f1d7282d6a0931a0bda56",
             "packed": false
+        },
+        {
+            "name": "check-vgastate.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/denverton-4.4.180/check-vgastate.sh",
+            "sha256": "a89a3dc8087236516f5295d75516a08378467cf478370b6ae534384213f3adc2",
+            "packed": false
         }
     ],
     "kmods": {

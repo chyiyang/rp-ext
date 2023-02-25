@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/geminilake-4.4.180/thermal.ko",
             "sha256": "fd1f3a13803e3fb26bd362fbc1fbcf0656c5698ba14314baa8b30f18845e4b9d",
             "packed": false
+        },
+        {
+            "name": "check-thermal.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/geminilake-4.4.180/check-thermal.sh",
+            "sha256": "27554357103fcc821c2fb064a04c7fe276f90b091e81e8cd73e277b150c6cac8",
+            "packed": false
         }
     ],
     "kmods": {

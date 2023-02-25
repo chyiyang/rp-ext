@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx_compat/v1000-4.4.180/mlx_compat.ko",
             "sha256": "407cb9468ff6397555a33cc8934d31d272ff08b422f2ffcb21d58c723f8922b3",
             "packed": false
+        },
+        {
+            "name": "check-mlx_compat.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx_compat/v1000-4.4.180/check-mlx_compat.sh",
+            "sha256": "6cc9f755f62ab43e62a50c0457a0aa8b9a6034d8c4de5d45ae484b7b34a54ba9",
+            "packed": false
         }
     ],
     "kmods": {

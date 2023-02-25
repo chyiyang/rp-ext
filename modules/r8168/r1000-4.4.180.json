@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/r1000-4.4.180/r8168.ko",
             "sha256": "e8cd41750b25aa0003d84e1306096f0a341dac69205a928aa01809a1c16b106c",
             "packed": false
+        },
+        {
+            "name": "check-r8168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/r1000-4.4.180/check-r8168.sh",
+            "sha256": "bb91f376d2d2e687e47d6ee7a90407678818f39a7b238e3fef9670b14007f0f5",
+            "packed": false
         }
     ],
     "kmods": {

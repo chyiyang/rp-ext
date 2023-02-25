@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/geminilake-4.4.180/ehci-hcd.ko",
             "sha256": "8cb383c91afa9a0d909268fa5f8855937292041615d46df01e660698035f3c24",
             "packed": false
+        },
+        {
+            "name": "check-ehci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/geminilake-4.4.180/check-ehci-hcd.sh",
+            "sha256": "62ffda1072a2ac674289233daa37592fb9d3f225443f9c3d2970030562aa13cf",
+            "packed": false
         }
     ],
     "kmods": {

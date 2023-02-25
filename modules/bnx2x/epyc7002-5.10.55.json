@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/epyc7002-5.10.55/bnx2x.ko",
             "sha256": "bded268629be24796a46902ea547435e0ae4ab1cf377abb2b6486af6a9bb54b3",
             "packed": false
+        },
+        {
+            "name": "check-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/epyc7002-5.10.55/check-bnx2x.sh",
+            "sha256": "d67b7fe8ecb9e30d871c9f2c95846844d9acc26ec00750b07f95944ff13b6bbe",
+            "packed": false
         }
     ],
     "kmods": {

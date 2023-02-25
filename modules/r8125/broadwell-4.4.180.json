@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/broadwell-4.4.180/r8125.ko",
             "sha256": "b9a09797cc0bd1bce119e7be5dea46842dff8302158b40e3a309a2c425e51401",
             "packed": false
+        },
+        {
+            "name": "check-r8125.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/broadwell-4.4.180/check-r8125.sh",
+            "sha256": "ad839e66ac35297cda943230bc49b80e348b189faf1b728fbd7f4d08b8c97974",
+            "packed": false
         }
     ],
     "kmods": {

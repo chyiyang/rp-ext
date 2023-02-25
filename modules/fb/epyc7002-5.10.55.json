@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/epyc7002-5.10.55/fb.ko",
             "sha256": "b0d38a2f1ac79e8d97698121201ae27b557c3e7772930c5ea804bbe100480fe8",
             "packed": false
+        },
+        {
+            "name": "check-fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/epyc7002-5.10.55/check-fb.sh",
+            "sha256": "7c70443a8a1fb3a5c63752c7519faabeaa8b3da8df27b1c16b774b5f3796ab4e",
+            "packed": false
         }
     ],
     "kmods": {

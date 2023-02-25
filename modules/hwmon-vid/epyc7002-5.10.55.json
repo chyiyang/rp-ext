@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/epyc7002-5.10.55/hwmon-vid.ko",
             "sha256": "d991f8a236e518eb14f43263a30e09a5654abbb1c147b8658ab2532de11feaca",
             "packed": false
+        },
+        {
+            "name": "check-hwmon-vid.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/epyc7002-5.10.55/check-hwmon-vid.sh",
+            "sha256": "dc1dfa3465691f8f7546bdd76605159f3f442b46b1d89576d582dc059bfa967f",
+            "packed": false
         }
     ],
     "kmods": {

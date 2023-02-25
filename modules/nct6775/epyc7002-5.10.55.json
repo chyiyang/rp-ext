@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "nct6775.ko",
+            "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/epyc7002-5.10.55/hwmon-vid.ko",
             "sha256": "d991f8a236e518eb14f43263a30e09a5654abbb1c147b8658ab2532de11feaca",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "nct6775.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/epyc7002-5.10.55/nct6775.ko",
             "sha256": "10b5f5aa2fe9dfb7d844a93c62dfce348d4dc846e762b11ae2c4b0f8374e7135",
+            "packed": false
+        },
+        {
+            "name": "check-nct6775.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/epyc7002-5.10.55/check-nct6775.sh",
+            "sha256": "7a8d3d0ed329a66c22d05d8ba8535152ad1cff6de515edbf6b3ba0320c700f29",
             "packed": false
         }
     ],

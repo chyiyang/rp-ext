@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "via-sdmmc.ko",
+            "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/denverton-4.4.180/mmc_core.ko",
             "sha256": "e6b67d9d8e7fa46102feffe16647693eeaa0e58d56dce395bb94a79d06f02373",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "via-sdmmc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/denverton-4.4.180/via-sdmmc.ko",
             "sha256": "44c6e25e64abd40d7a7347ebd72eed85c9219629471885cd8e9a25b9fd62996b",
+            "packed": false
+        },
+        {
+            "name": "check-via-sdmmc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/denverton-4.4.180/check-via-sdmmc.sh",
+            "sha256": "8588fdfbf4a39fc36a3bad16ef150ce85c090f903b3e9bb57b36b8898d45ad4c",
             "packed": false
         }
     ],

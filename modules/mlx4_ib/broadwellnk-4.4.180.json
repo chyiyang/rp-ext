@@ -2,13 +2,13 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mlx4_ib.ko",
+            "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/broadwellnk-4.4.180/mlx4_core.ko",
             "sha256": "597497227f902c296f57186fd42ceac86e16f5def63a7a000226f87c9b2225cf",
             "packed": false
         },
         {
-            "name": "mlx4_ib.ko",
+            "name": "mlx_compat.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/broadwellnk-4.4.180/mlx_compat.ko",
             "sha256": "c7419259f848c9048292cc912b4562581a1cbf7ece7d55e53132c8cf1f57caee",
             "packed": false
@@ -17,6 +17,12 @@
             "name": "mlx4_ib.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/broadwellnk-4.4.180/mlx4_ib.ko",
             "sha256": "8dc58cece84cb87ff0bb7aca2cbc8a99fa404d1bb88eea8c501d30c1effae207",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_ib.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/broadwellnk-4.4.180/check-mlx4_ib.sh",
+            "sha256": "72db546a216d019f8555bdc9b9ad8fd96f966872562231e3e7e83af719fc83b5",
             "packed": false
         }
     ],

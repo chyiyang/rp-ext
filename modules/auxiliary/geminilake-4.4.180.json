@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/geminilake-4.4.180/auxiliary.ko",
             "sha256": "b4663a36902cea08540619edd84da3e262b33e3f10d14a3e4c2a5089dfd661ab",
             "packed": false
+        },
+        {
+            "name": "check-auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/geminilake-4.4.180/check-auxiliary.sh",
+            "sha256": "08ba59c9839cad5936353c73fd25f08d1b037330b1d96be8eeff634648327ab9",
+            "packed": false
         }
     ],
     "kmods": {

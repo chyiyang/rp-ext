@@ -2,13 +2,13 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "r8153_ecm.ko",
+            "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-5.10.55/usbnet.ko",
             "sha256": "bc59cad48d6e5f90658c470411feae1f2abcc847f38ec166bd3a9525ebc82464",
             "packed": false
         },
         {
-            "name": "r8153_ecm.ko",
+            "name": "usbcore.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-5.10.55/usbcore.ko",
             "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
             "packed": false
@@ -17,6 +17,12 @@
             "name": "r8153_ecm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-5.10.55/r8153_ecm.ko",
             "sha256": "179aeb0084237c5c678562867613acfb15e0da462b0f581c1978b422dffc3eee",
+            "packed": false
+        },
+        {
+            "name": "check-r8153_ecm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-5.10.55/check-r8153_ecm.sh",
+            "sha256": "f376b289af755b60dd19d147f555b5b0741e4d1b4e34bf3cb2bbc67ba1867490",
             "packed": false
         }
     ],

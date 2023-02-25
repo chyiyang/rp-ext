@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/apollolake-4.4.180/i8042.ko",
             "sha256": "fddce9fdf1f7100f3cb43722811e24b17817166202ac76babb87f75df4454001",
             "packed": false
+        },
+        {
+            "name": "check-i8042.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/apollolake-4.4.180/check-i8042.sh",
+            "sha256": "bc4b1c866facfac5c4e2e7096fcddf865d4b61cce7ff33c4ca3ba8d7903bd8cc",
+            "packed": false
         }
     ],
     "kmods": {

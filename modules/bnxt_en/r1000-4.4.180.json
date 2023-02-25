@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/r1000-4.4.180/bnxt_en.ko",
             "sha256": "c4bf2980de74424cdad1df02f601b729ba3897ed58d62f759881561022963bff",
             "packed": false
+        },
+        {
+            "name": "check-bnxt_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/r1000-4.4.180/check-bnxt_en.sh",
+            "sha256": "82220deef0ac8eb57c12a4c2c8942a511cefce62a5b67a242b49c44cdd8e58de",
+            "packed": false
         }
     ],
     "kmods": {

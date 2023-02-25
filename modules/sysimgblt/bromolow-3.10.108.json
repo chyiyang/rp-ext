@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/bromolow-3.10.108/sysimgblt.ko",
             "sha256": "1c56b32843eee64baffb72392066b5406cd2415c938a0ecc1694a1d9e8838eb7",
             "packed": false
+        },
+        {
+            "name": "check-sysimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/bromolow-3.10.108/check-sysimgblt.sh",
+            "sha256": "6e434e9c2f70f49151c273adab3db1ae61fd5f47545f53a7ca760ca6fd282cc5",
+            "packed": false
         }
     ],
     "kmods": {

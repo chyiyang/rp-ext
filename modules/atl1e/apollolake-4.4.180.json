@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/apollolake-4.4.180/atl1e.ko",
             "sha256": "33215c461b2b3fa234b93d8526fcd57783748f4fa64d7c04a74cfdfd669f672a",
             "packed": false
+        },
+        {
+            "name": "check-atl1e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/apollolake-4.4.180/check-atl1e.sh",
+            "sha256": "1d058b4ba5716679d60b13b43e823c82c655927b498a724b5f09c06ff2ae6d63",
+            "packed": false
         }
     ],
     "kmods": {

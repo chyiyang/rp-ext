@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/broadwell-4.4.180/mlxsw_core.ko",
             "sha256": "035d172b13b817cef2f0509ad8218b52190d3b1a0619554263a13165de0cbcaf",
             "packed": false
+        },
+        {
+            "name": "check-mlxsw_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/broadwell-4.4.180/check-mlxsw_core.sh",
+            "sha256": "e85abca39e52828fb041902093b46360b1417393b8a563e2e4dc0a5860d77c2e",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/r1000-4.4.180/atl1e.ko",
             "sha256": "12718d506a71ecf17031fda79b5d1ff62cea5c236ea426c6b8e3e3e30b8d9f06",
             "packed": false
+        },
+        {
+            "name": "check-atl1e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/r1000-4.4.180/check-atl1e.sh",
+            "sha256": "1d058b4ba5716679d60b13b43e823c82c655927b498a724b5f09c06ff2ae6d63",
+            "packed": false
         }
     ],
     "kmods": {

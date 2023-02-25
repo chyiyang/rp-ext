@@ -6,12 +6,31 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/v1000-4.4.180/cxgb4.ko",
             "sha256": "66bf3e2d44ef92edef847b26d6b0581941c2133ce160c836cf7cc7501b3d0a8d",
             "packed": false
+        },
+        {
+            "name": "check-cxgb4.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/v1000-4.4.180/check-cxgb4.sh",
+            "sha256": "7131e1c44a73ea6454de1db1571e116619bc0b040822d750e33197899ecd3afe",
+            "packed": false
+        },
+        {
+            "name": "cxgb4_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/v1000-4.4.180/cxgb4_firmware.tag.gz",
+            "sha256": "1fd2647dc32b25fc2cd2516bac4639dd1a8d3e78cc1bf3abea67254b382df7e9",
+            "packed": false
+        },
+        {
+            "name": "install-cxgb4.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/v1000-4.4.180/install-cxgb4.sh",
+            "sha256": "1ecca0440aee8408d1bdc03605075a93198ac94f281f17a9fa33c0051d9e04fc",
+            "packed": false
         }
     ],
     "kmods": {
         "cxgb4.ko": ""
     },
     "scripts": {
-        "on_boot": "check-cxgb4.sh"
+        "on_boot": "check-cxgb4.sh",
+        "on_os_load": "install-cxgb4.sh"
     }
 }

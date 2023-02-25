@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/r1000-4.4.180/cfbfillrect.ko",
             "sha256": "450a4a4d4f153659b0e962f0f0f3841802a658ceb10589867574a15192f4c751",
             "packed": false
+        },
+        {
+            "name": "check-cfbfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/r1000-4.4.180/check-cfbfillrect.sh",
+            "sha256": "0b86d41adb7c23bbecee633781eafeff50852acc9c1652c2c643a0c910c97cdf",
+            "packed": false
         }
     ],
     "kmods": {

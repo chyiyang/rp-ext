@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/v1000-4.4.180/ixgbe.ko",
             "sha256": "83ce271b11ff4ebb0c476caf5aa1ad128a747cb535b955eb6d4a98def6851dd0",
             "packed": false
+        },
+        {
+            "name": "check-ixgbe.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/v1000-4.4.180/check-ixgbe.sh",
+            "sha256": "68d8052404ec39e03a01e9284fec0430673b3ced0b5263ea708852b61ee63d9a",
+            "packed": false
         }
     ],
     "kmods": {

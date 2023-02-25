@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/v1000-4.4.180/cxgb4vf.ko",
             "sha256": "1d38eaa7ca36a4127e8d60caaa102097a856c917528c8828b043ac0044cef401",
             "packed": false
+        },
+        {
+            "name": "check-cxgb4vf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/v1000-4.4.180/check-cxgb4vf.sh",
+            "sha256": "0db2cf6824fd17ce2202deb305df782cb27dce9ef7f8f49a2f63e18877bd9d72",
+            "packed": false
         }
     ],
     "kmods": {

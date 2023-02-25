@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/apollolake-4.4.180/sky2.ko",
             "sha256": "4ca4852b7ded05f30a69b68b4f83bb8c006be622f16535897cd1ac08edd10627",
             "packed": false
+        },
+        {
+            "name": "check-sky2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/apollolake-4.4.180/check-sky2.sh",
+            "sha256": "248a91777a29890d02953dbe261532a8908b889059b90b4a7d114621853b28cf",
+            "packed": false
         }
     ],
     "kmods": {

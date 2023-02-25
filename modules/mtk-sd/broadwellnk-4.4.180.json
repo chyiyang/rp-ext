@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mtk-sd.ko",
+            "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/broadwellnk-4.4.180/mmc_core.ko",
             "sha256": "077a38249df9f668cdce811853d45c3146bba8d510e7be386509d03cb52385ef",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mtk-sd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/broadwellnk-4.4.180/mtk-sd.ko",
             "sha256": "398ff7fdfa45622fb4d859f395b1382df330cffd2a0188637cfa7d698dc902ea",
+            "packed": false
+        },
+        {
+            "name": "check-mtk-sd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/broadwellnk-4.4.180/check-mtk-sd.sh",
+            "sha256": "8d9101dabd8e50cc9df8f6d66bc0cea96c45d6c8f9ed7bd80747276697a3aa75",
             "packed": false
         }
     ],

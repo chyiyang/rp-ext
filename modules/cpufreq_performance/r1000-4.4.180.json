@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/r1000-4.4.180/cpufreq_performance.ko",
             "sha256": "43cde5cb048f0a551420984487591aca834a6cd5f126eb619c83dc5b2380d26f",
             "packed": false
+        },
+        {
+            "name": "check-cpufreq_performance.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/r1000-4.4.180/check-cpufreq_performance.sh",
+            "sha256": "219d078494f2dd89d3df22ef6d8aba4b7012f76799b53c7871d8dc154a3dd0d0",
+            "packed": false
         }
     ],
     "kmods": {

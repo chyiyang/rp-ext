@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/epyc7002-5.10.55/be2net.ko",
             "sha256": "7610dedfe6dd5196ec24d942378f40ab7f43cb709f1735bd5aa22dcb28fdb6de",
             "packed": false
+        },
+        {
+            "name": "check-be2net.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/epyc7002-5.10.55/check-be2net.sh",
+            "sha256": "f819a067c8d382088eedd35569aa1d9808ca89c8717dde9f4ae22e9bc9806e89",
+            "packed": false
         }
     ],
     "kmods": {

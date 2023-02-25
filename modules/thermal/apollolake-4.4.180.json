@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/apollolake-4.4.180/thermal.ko",
             "sha256": "71232a131d5b6d9d031c2e9c21341ba5935c1170e6f0ad73519490c232ad7ddd",
             "packed": false
+        },
+        {
+            "name": "check-thermal.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/apollolake-4.4.180/check-thermal.sh",
+            "sha256": "27554357103fcc821c2fb064a04c7fe276f90b091e81e8cd73e277b150c6cac8",
+            "packed": false
         }
     ],
     "kmods": {

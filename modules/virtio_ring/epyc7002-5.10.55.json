@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/epyc7002-5.10.55/virtio_ring.ko",
             "sha256": "73720d6c58d377294d10621f1a688cfe3d493a3f4e28ba02901eeef9c98c6a64",
             "packed": false
+        },
+        {
+            "name": "check-virtio_ring.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/epyc7002-5.10.55/check-virtio_ring.sh",
+            "sha256": "f908b532cc1cec2216ca39369fec8bf7aab959478284995650bae26c53e9e113",
+            "packed": false
         }
     ],
     "kmods": {

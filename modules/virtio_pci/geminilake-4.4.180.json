@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/geminilake-4.4.180/virtio_pci.ko",
             "sha256": "d1875dd95bcf76bdadf31bcfc22408408d679d609a09ef3848909f46b08c7458",
             "packed": false
+        },
+        {
+            "name": "check-virtio_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/geminilake-4.4.180/check-virtio_pci.sh",
+            "sha256": "40d2420952755855b0d9f71b9a8e2de85176b04e3d185f7a0d70718b8c39a3d9",
+            "packed": false
         }
     ],
     "kmods": {

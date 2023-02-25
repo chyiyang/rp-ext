@@ -6,12 +6,31 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/v1000-4.4.180/si2168.ko",
             "sha256": "2e43896ffdaeab0fe498aac046415dbd3462fb2e95b59271712f7e46d3a1e57e",
             "packed": false
+        },
+        {
+            "name": "check-si2168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/v1000-4.4.180/check-si2168.sh",
+            "sha256": "22864991560196372ae3ac0b48a247f23c6e5815e744c170c7cce19b55b7cca0",
+            "packed": false
+        },
+        {
+            "name": "si2168_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/v1000-4.4.180/si2168_firmware.tag.gz",
+            "sha256": "def4e0eaeaa4777c24f80d0d75d30ffac1aef20b0dfafbe70c8ecd8d270c0d84",
+            "packed": false
+        },
+        {
+            "name": "install-si2168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/v1000-4.4.180/install-si2168.sh",
+            "sha256": "e204981d60f442843516dd99b7f7e12c2bf4c8c27382b3b3555e534a70f35cc4",
+            "packed": false
         }
     ],
     "kmods": {
         "si2168.ko": ""
     },
     "scripts": {
-        "on_boot": "check-si2168.sh"
+        "on_boot": "check-si2168.sh",
+        "on_os_load": "install-si2168.sh"
     }
 }

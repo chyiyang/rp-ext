@@ -6,12 +6,31 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/broadwellnk-4.4.180/si2168.ko",
             "sha256": "e79924641ef231e928db0fb21b1c9816f58f7c096e68fccf3c916bdccb0946cb",
             "packed": false
+        },
+        {
+            "name": "check-si2168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/broadwellnk-4.4.180/check-si2168.sh",
+            "sha256": "22864991560196372ae3ac0b48a247f23c6e5815e744c170c7cce19b55b7cca0",
+            "packed": false
+        },
+        {
+            "name": "si2168_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/broadwellnk-4.4.180/si2168_firmware.tag.gz",
+            "sha256": "c7a1a8197050110f1778b9a8d81d6d455adc50963c0034606eb4a103b8c07d66",
+            "packed": false
+        },
+        {
+            "name": "install-si2168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/broadwellnk-4.4.180/install-si2168.sh",
+            "sha256": "e204981d60f442843516dd99b7f7e12c2bf4c8c27382b3b3555e534a70f35cc4",
+            "packed": false
         }
     ],
     "kmods": {
         "si2168.ko": ""
     },
     "scripts": {
-        "on_boot": "check-si2168.sh"
+        "on_boot": "check-si2168.sh",
+        "on_os_load": "install-si2168.sh"
     }
 }

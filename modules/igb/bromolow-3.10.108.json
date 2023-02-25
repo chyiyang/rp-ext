@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/bromolow-3.10.108/igb.ko",
             "sha256": "c59472133d9de5ba75be8f961dff2b5d489a585378de653d9800fd77520d5814",
             "packed": false
+        },
+        {
+            "name": "check-igb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/bromolow-3.10.108/check-igb.sh",
+            "sha256": "1c4a88c3f5e404267f48ff289d97df0dcfb97c53aea9462cb701d8642e314319",
+            "packed": false
         }
     ],
     "kmods": {

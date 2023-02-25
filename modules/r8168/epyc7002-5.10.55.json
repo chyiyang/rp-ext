@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/epyc7002-5.10.55/r8168.ko",
             "sha256": "00f40854a478ef0556a3ec1780f06cdbacb76ffe2469e690058221b39f95fe56",
             "packed": false
+        },
+        {
+            "name": "check-r8168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/epyc7002-5.10.55/check-r8168.sh",
+            "sha256": "bb91f376d2d2e687e47d6ee7a90407678818f39a7b238e3fef9670b14007f0f5",
+            "packed": false
         }
     ],
     "kmods": {

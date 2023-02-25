@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/geminilake-4.4.180/i2c-algo-bit.ko",
             "sha256": "a5efd908240a291277fcb366204c6b1325c55f6dd023ef1329d8b716b85f3595",
             "packed": false
+        },
+        {
+            "name": "check-i2c-algo-bit.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/geminilake-4.4.180/check-i2c-algo-bit.sh",
+            "sha256": "f5d6800c83618f072f143c771e4e2f84e95569967c98b2a90ddd065046b900d5",
+            "packed": false
         }
     ],
     "kmods": {

@@ -2,25 +2,25 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "efifb.ko",
+            "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.108/cfbimgblt.ko",
             "sha256": "5ec57dd7e325cda1c49346530c257dbe7384630c9c77ca278c682ac497a36729",
             "packed": false
         },
         {
-            "name": "efifb.ko",
+            "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.108/cfbcopyarea.ko",
             "sha256": "24d38ac8cb4df28ac241b2a74db7877464987d17c81a5f632ce3fa7d1ac633e5",
             "packed": false
         },
         {
-            "name": "efifb.ko",
+            "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.108/cfbfillrect.ko",
             "sha256": "9e097c0513a92dfb66f27b7e6c29c6e3d2514ee6809a1ca95821faee23f72b15",
             "packed": false
         },
         {
-            "name": "efifb.ko",
+            "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.108/fb.ko",
             "sha256": "ea0728318d60ffff2b94158d44557f1e08127294c48fd09173ed971393cfbfb8",
             "packed": false
@@ -29,6 +29,12 @@
             "name": "efifb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.108/efifb.ko",
             "sha256": "996ed5aa811ec1e68fedc29142cfc5f1138542a3cb3e6bd769cd696f8898ef04",
+            "packed": false
+        },
+        {
+            "name": "check-efifb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.108/check-efifb.sh",
+            "sha256": "3c79b757f76602dd9faa98ec886039153624ddbbb0ed1260238a0761529b46f8",
             "packed": false
         }
     ],

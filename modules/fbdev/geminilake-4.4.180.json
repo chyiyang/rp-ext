@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/geminilake-4.4.180/fbdev.ko",
             "sha256": "c7b7a81d6234d321bae94da8d9485df95f5be4130900bc65010688dd55759ec3",
             "packed": false
+        },
+        {
+            "name": "check-fbdev.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/geminilake-4.4.180/check-fbdev.sh",
+            "sha256": "4270278943bfd9f5d9e984f48d64a548528031b0d15fbb7f4b9752573013ce06",
+            "packed": false
         }
     ],
     "kmods": {

@@ -2,31 +2,31 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "vga16fb.ko",
+            "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.180/cfbfillrect.ko",
             "sha256": "bbda6b33a8bcd3919982ff099712182ce65a9af7547ac8ab35ee70be21242542",
             "packed": false
         },
         {
-            "name": "vga16fb.ko",
+            "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.180/cfbimgblt.ko",
             "sha256": "0d0c2949bcfaefbd87b79e8a1f12d331bdaf3b9ab61f1bf0c88cee16ef63f2c3",
             "packed": false
         },
         {
-            "name": "vga16fb.ko",
+            "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.180/cfbcopyarea.ko",
             "sha256": "62544f488328be7a1514b724d82fcd7e9cdeebb93d1ad079060278978b1dc120",
             "packed": false
         },
         {
-            "name": "vga16fb.ko",
+            "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.180/fb.ko",
             "sha256": "7739bf1d136b2be56def7b839fe48a98d0ef6d57cd64c7d7a6552fa8aebea701",
             "packed": false
         },
         {
-            "name": "vga16fb.ko",
+            "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.180/vgastate.ko",
             "sha256": "255476319c59dc0254d3406f7fe816f94f68c1732248b411fca0b9f01c8e7be6",
             "packed": false
@@ -35,6 +35,12 @@
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.180/vga16fb.ko",
             "sha256": "fe5b9a62582ea44b731d8c9f5f35515aa6f52280ff71320132d7a3466a4c50a5",
+            "packed": false
+        },
+        {
+            "name": "check-vga16fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.180/check-vga16fb.sh",
+            "sha256": "43101342a089e1cda5b314c9f71cdde6ecc77e90832b918af86edd1b8ab3a9ed",
             "packed": false
         }
     ],

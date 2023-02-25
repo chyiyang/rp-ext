@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/v1000-4.4.180/mlxsw_core.ko",
             "sha256": "3f0ef0b3b402ef47038949bb90cbf2b4f5d68b10bbcef6daf3fe8d1ae7e5db80",
             "packed": false
+        },
+        {
+            "name": "check-mlxsw_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/v1000-4.4.180/check-mlxsw_core.sh",
+            "sha256": "e85abca39e52828fb041902093b46360b1417393b8a563e2e4dc0a5860d77c2e",
+            "packed": false
         }
     ],
     "kmods": {

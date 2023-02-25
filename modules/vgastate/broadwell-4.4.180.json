@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/broadwell-4.4.180/vgastate.ko",
             "sha256": "c94d0d42fa0a67b3cc16653bb36a60138739455fd926e7d0bcadc1d93f23b828",
             "packed": false
+        },
+        {
+            "name": "check-vgastate.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/broadwell-4.4.180/check-vgastate.sh",
+            "sha256": "a89a3dc8087236516f5295d75516a08378467cf478370b6ae534384213f3adc2",
+            "packed": false
         }
     ],
     "kmods": {

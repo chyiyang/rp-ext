@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/geminilake-4.4.180/atl1e.ko",
             "sha256": "79000b616eec0e721c7c32cdab2faf2a341eb62c88f959e0bd21abfbbf28018e",
             "packed": false
+        },
+        {
+            "name": "check-atl1e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/geminilake-4.4.180/check-atl1e.sh",
+            "sha256": "1d058b4ba5716679d60b13b43e823c82c655927b498a724b5f09c06ff2ae6d63",
+            "packed": false
         }
     ],
     "kmods": {

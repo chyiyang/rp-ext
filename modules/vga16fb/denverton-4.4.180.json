@@ -2,31 +2,31 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "vga16fb.ko",
+            "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/denverton-4.4.180/cfbfillrect.ko",
             "sha256": "a41686921513d84e708fc17939b24650db6397bcfa9cb0dd72572e66691c6735",
             "packed": false
         },
         {
-            "name": "vga16fb.ko",
+            "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/denverton-4.4.180/cfbimgblt.ko",
             "sha256": "bbcf44bacc34d6c1b1b4336e9b23858242e4d48430868e658e194f107badb4c1",
             "packed": false
         },
         {
-            "name": "vga16fb.ko",
+            "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/denverton-4.4.180/cfbcopyarea.ko",
             "sha256": "6117bedc63c1b8eb88b42e66da850a2e9eb638948c27cf9ed9c716c86e42bd06",
             "packed": false
         },
         {
-            "name": "vga16fb.ko",
+            "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/denverton-4.4.180/fb.ko",
             "sha256": "8791a2dd23ba996c04d5cf6ac78299b1404c86552c740c6803334f747a3a5767",
             "packed": false
         },
         {
-            "name": "vga16fb.ko",
+            "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/denverton-4.4.180/vgastate.ko",
             "sha256": "176e76983ba982e448c33cb4ab55fdbb5160aab5274f1d7282d6a0931a0bda56",
             "packed": false
@@ -35,6 +35,12 @@
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/denverton-4.4.180/vga16fb.ko",
             "sha256": "7f967dcde5928e64c0d4eac5ae7d447a33d20b77946fbb131407f55a32c4a327",
+            "packed": false
+        },
+        {
+            "name": "check-vga16fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/denverton-4.4.180/check-vga16fb.sh",
+            "sha256": "43101342a089e1cda5b314c9f71cdde6ecc77e90832b918af86edd1b8ab3a9ed",
             "packed": false
         }
     ],

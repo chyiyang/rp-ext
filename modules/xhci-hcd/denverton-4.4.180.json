@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/denverton-4.4.180/xhci-hcd.ko",
             "sha256": "93c7f3705c11042ae1464010807629083d87bdeb68ba6470918dbb9ad47f3f3f",
             "packed": false
+        },
+        {
+            "name": "check-xhci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/denverton-4.4.180/check-xhci-hcd.sh",
+            "sha256": "40d859f5e15a65627c0abc6ea511d68c9662c54bb55b98969f041db24dd5723d",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/broadwellnk-4.4.180/virtio.ko",
             "sha256": "fd09ce7c67a9ff40bb57df6b8b47195287cabc404193daef6999a048b8e3916c",
             "packed": false
+        },
+        {
+            "name": "check-virtio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/broadwellnk-4.4.180/check-virtio.sh",
+            "sha256": "ce75807c104d55cea61ddfb1b25fd5af8bf9a511f77ecb8cc9a81b25da9de23f",
+            "packed": false
         }
     ],
     "kmods": {

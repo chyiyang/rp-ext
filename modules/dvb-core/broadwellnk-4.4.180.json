@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/broadwellnk-4.4.180/dvb-core.ko",
             "sha256": "2795eb00cc824f4380c542898fec4200a24fb494d9d3b8a4eebd9a4e114bfda1",
             "packed": false
+        },
+        {
+            "name": "check-dvb-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/broadwellnk-4.4.180/check-dvb-core.sh",
+            "sha256": "e4f53a32c44074e44e88f1811d25aaa054cca3b314004fa07fbcf8b3d799ae2e",
+            "packed": false
         }
     ],
     "kmods": {

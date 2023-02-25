@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/v1000-4.4.180/fb_sys_fops.ko",
             "sha256": "d1dc39b6abba8ac01b8f13c144c8889b24da4bd2198131d95eb93c948b7ed09d",
             "packed": false
+        },
+        {
+            "name": "check-fb_sys_fops.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/v1000-4.4.180/check-fb_sys_fops.sh",
+            "sha256": "21554be458e04a9ae791de487bfdb8f9a42e62597cc0657e637ceb6bc8fa3a1b",
+            "packed": false
         }
     ],
     "kmods": {

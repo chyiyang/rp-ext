@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/epyc7002-5.10.55/rtc-cmos.ko",
             "sha256": "d2314bae404e4ad280adcdce772b6e63fc09612f8d1dac1868c959cdfc5a80b2",
             "packed": false
+        },
+        {
+            "name": "check-rtc-cmos.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/epyc7002-5.10.55/check-rtc-cmos.sh",
+            "sha256": "56d177ed8ee2782dc3274d51687d8a94ad875cf97015d4940df7ef503d9df132",
+            "packed": false
         }
     ],
     "kmods": {

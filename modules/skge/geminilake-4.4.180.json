@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/geminilake-4.4.180/skge.ko",
             "sha256": "a9493391581103272ab51ca9ab2838c7c420b5fa9971ae74b7d2a9948b297211",
             "packed": false
+        },
+        {
+            "name": "check-skge.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/geminilake-4.4.180/check-skge.sh",
+            "sha256": "b721ba024833984da406b996fcbea6f2c6290ffaf7a835b95f8a2abaaf103625",
+            "packed": false
         }
     ],
     "kmods": {

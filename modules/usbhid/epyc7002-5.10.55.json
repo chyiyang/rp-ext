@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "usbhid.ko",
+            "name": "usbcore.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbhid/epyc7002-5.10.55/usbcore.ko",
             "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "usbhid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbhid/epyc7002-5.10.55/usbhid.ko",
             "sha256": "415c38d69abf7a73fa7a869ee8815ad593e98dfbb7327bafc94094f9df8dc8d4",
+            "packed": false
+        },
+        {
+            "name": "check-usbhid.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbhid/epyc7002-5.10.55/check-usbhid.sh",
+            "sha256": "aaf9ccaf6625d8185a5502b903f1f38e5b5b8ad935ccb56cfec0594579f1f4bb",
             "packed": false
         }
     ],

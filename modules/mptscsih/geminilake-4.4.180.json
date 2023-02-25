@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mptscsih.ko",
+            "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/geminilake-4.4.180/mptbase.ko",
             "sha256": "56be09c706008c55b7572bc0ff2366338e15d0def60b4e948e1eb258ddb9383a",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/geminilake-4.4.180/mptscsih.ko",
             "sha256": "a03a904f171d7b30d4465874324309df977c660a1127c7d3b96b69b819462e5b",
+            "packed": false
+        },
+        {
+            "name": "check-mptscsih.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/geminilake-4.4.180/check-mptscsih.sh",
+            "sha256": "0a4a6406087f02da148de74eb23e349c299d63a3a28d11d259242ef0bb8e3f40",
             "packed": false
         }
     ],

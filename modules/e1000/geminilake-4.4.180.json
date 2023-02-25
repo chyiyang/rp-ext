@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/geminilake-4.4.180/e1000.ko",
             "sha256": "bacc7fd781ef5c54369d047a9a1ea53ae904c3f6066f03dd40cab40bf3be74ba",
             "packed": false
+        },
+        {
+            "name": "check-e1000.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/geminilake-4.4.180/check-e1000.sh",
+            "sha256": "0573c8065d281b1eb67939392090857956cb7b848ebb2f1781d769d39e1cc26b",
+            "packed": false
         }
     ],
     "kmods": {

@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "softcursor.ko",
+            "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/broadwell-4.4.180/fb.ko",
             "sha256": "faec69428d7e832c3f2f48bd3c47076483662fab98982bf2aa7252738a0f7692",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/broadwell-4.4.180/softcursor.ko",
             "sha256": "d4cb36f67ac9825c6f2b5d2d4bace2f7cd024c34753fbcafbd02523557258fea",
+            "packed": false
+        },
+        {
+            "name": "check-softcursor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/broadwell-4.4.180/check-softcursor.sh",
+            "sha256": "3022eaa57a7ccca216d7f4f2f63861650e6a183ad2ee080c4d7de7ed5a4f62a6",
             "packed": false
         }
     ],

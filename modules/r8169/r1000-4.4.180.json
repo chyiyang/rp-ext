@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "r8169.ko",
+            "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/r1000-4.4.180/mii.ko",
             "sha256": "e7a24ea8ba6beb0e0d8bdadf7153c42d5cef9f5b4298023061417e6fe314f8be",
             "packed": false
@@ -12,6 +12,24 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/r1000-4.4.180/r8169.ko",
             "sha256": "a47f9c6074b5a2709ee274e7ad7a99301adc21787232bafaecd70b0f6b89c6aa",
             "packed": false
+        },
+        {
+            "name": "check-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/r1000-4.4.180/check-r8169.sh",
+            "sha256": "cf7731f05a383d5b6b27b0d706b20cc9aedf3d2c2b4e3c3d026980d32bd20d50",
+            "packed": false
+        },
+        {
+            "name": "r8169_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/r1000-4.4.180/r8169_firmware.tag.gz",
+            "sha256": "e017a7ab63fadee333765859818755918761654b52e7654b95c61900820fdad1",
+            "packed": false
+        },
+        {
+            "name": "install-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/r1000-4.4.180/install-r8169.sh",
+            "sha256": "204148a30c10ee18f3a46d8555779e0781b3a438134b0e4612a9d9eaf2b5d9dc",
+            "packed": false
         }
     ],
     "kmods": {
@@ -19,6 +37,7 @@
         "r8169.ko": ""
     },
     "scripts": {
-        "on_boot": "check-r8169.sh"
+        "on_boot": "check-r8169.sh",
+        "on_os_load": "install-r8169.sh"
     }
 }

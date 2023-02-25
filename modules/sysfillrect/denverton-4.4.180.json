@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/denverton-4.4.180/sysfillrect.ko",
             "sha256": "9c30650eff813a3ffda918c0ffda24a0bc9a15ac09d5229ce2781de4976dfdee",
             "packed": false
+        },
+        {
+            "name": "check-sysfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/denverton-4.4.180/check-sysfillrect.sh",
+            "sha256": "16c3ac381db586a83f71f5f70acc563c9f4b5d35219c551c021ff63626d014cd",
+            "packed": false
         }
     ],
     "kmods": {

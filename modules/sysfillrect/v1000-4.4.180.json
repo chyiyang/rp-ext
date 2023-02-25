@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/v1000-4.4.180/sysfillrect.ko",
             "sha256": "9b189fe2ce5dc32f871a5f9b9cfd77521a980ffd51234f48b3372c9d1cb196d2",
             "packed": false
+        },
+        {
+            "name": "check-sysfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/v1000-4.4.180/check-sysfillrect.sh",
+            "sha256": "16c3ac381db586a83f71f5f70acc563c9f4b5d35219c551c021ff63626d014cd",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/apollolake-4.4.180/sysfillrect.ko",
             "sha256": "ab32c4f5956f11247ccaa405a6c5fb2d3e4874394ddb4a5ac3727452f06b2ee9",
             "packed": false
+        },
+        {
+            "name": "check-sysfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/apollolake-4.4.180/check-sysfillrect.sh",
+            "sha256": "16c3ac381db586a83f71f5f70acc563c9f4b5d35219c551c021ff63626d014cd",
+            "packed": false
         }
     ],
     "kmods": {

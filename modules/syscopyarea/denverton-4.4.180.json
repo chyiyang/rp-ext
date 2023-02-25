@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/denverton-4.4.180/syscopyarea.ko",
             "sha256": "d85a90bf02ca222c8cd8eee9c2a88615d7c19248b90ef4f76fca9e4568b53157",
             "packed": false
+        },
+        {
+            "name": "check-syscopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/denverton-4.4.180/check-syscopyarea.sh",
+            "sha256": "a5f708a2c29c0f9ff958ad432f221f8b3824f9f91f5d3564a18a204a94a86466",
+            "packed": false
         }
     ],
     "kmods": {

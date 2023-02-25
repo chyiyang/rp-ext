@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "megaraid_mbox.ko",
+            "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/r1000-4.4.180/megaraid_mm.ko",
             "sha256": "f28becf4fe9cafbfbd2ac2ef8dce89e9a6100ffe2854a22de1dd2e4fe2524e9b",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/r1000-4.4.180/megaraid_mbox.ko",
             "sha256": "acbcd6d58ba41763480a90f17ad4b2c13a39be04fe30b8765f1eb0d7cdd152d4",
+            "packed": false
+        },
+        {
+            "name": "check-megaraid_mbox.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/r1000-4.4.180/check-megaraid_mbox.sh",
+            "sha256": "27115b3b3cbb92deb74e803926374180cc269427cbfa2e3ce5aa39fab58a6017",
             "packed": false
         }
     ],

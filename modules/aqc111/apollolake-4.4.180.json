@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/apollolake-4.4.180/aqc111.ko",
             "sha256": "554032175ce76e2a5387742bb7a7e186877ddbc57f05cd44b52733de04a7b26b",
             "packed": false
+        },
+        {
+            "name": "check-aqc111.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/apollolake-4.4.180/check-aqc111.sh",
+            "sha256": "820f830e232a007720e2b3d1669d0cf8d40d072625dc7adb4972f0d4e2fc0086",
+            "packed": false
         }
     ],
     "kmods": {

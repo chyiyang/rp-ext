@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/broadwellnk-4.4.180/fb.ko",
             "sha256": "8018f25ad840ea3bfdb330eb3706cb12224e55deb544afd1139ef7dcd460ae8a",
             "packed": false
+        },
+        {
+            "name": "check-fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/broadwellnk-4.4.180/check-fb.sh",
+            "sha256": "7c70443a8a1fb3a5c63752c7519faabeaa8b3da8df27b1c16b774b5f3796ab4e",
+            "packed": false
         }
     ],
     "kmods": {

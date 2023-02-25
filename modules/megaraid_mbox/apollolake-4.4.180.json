@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "megaraid_mbox.ko",
+            "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/apollolake-4.4.180/megaraid_mm.ko",
             "sha256": "d5b19ca6f601b10422ef566c0da4510e02f16d8f1e9805156b2fb0e5efa959c5",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/apollolake-4.4.180/megaraid_mbox.ko",
             "sha256": "13f1237911ac9b6806669cfd445d2ae7d5851447a918139ac141dd9fc9897de4",
+            "packed": false
+        },
+        {
+            "name": "check-megaraid_mbox.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/apollolake-4.4.180/check-megaraid_mbox.sh",
+            "sha256": "27115b3b3cbb92deb74e803926374180cc269427cbfa2e3ce5aa39fab58a6017",
             "packed": false
         }
     ],

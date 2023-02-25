@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "igb.ko",
+            "name": "i2c-algo-bit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/r1000-4.4.180/i2c-algo-bit.ko",
             "sha256": "8e4e9838317a6f85abadacf363d377d63bb0e49fe417868d801a01655ea1b7c0",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "igb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/r1000-4.4.180/igb.ko",
             "sha256": "af10ac38d01e4954183a040d407bdf59d066eef4e7152019b35fce4fec15ee4b",
+            "packed": false
+        },
+        {
+            "name": "check-igb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/r1000-4.4.180/check-igb.sh",
+            "sha256": "f0bba10644e468acf09dfb76ddf49f5b9e4f017a1ec6e6b8dc33502a3abd020f",
             "packed": false
         }
     ],

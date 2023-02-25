@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/apollolake-4.4.180/cpufreq_ondemand.ko",
             "sha256": "b84231f1ae0c3e6f77a9b3321d4738a54a60dde40b340b7bba3cf4ba1edc01c8",
             "packed": false
+        },
+        {
+            "name": "check-cpufreq_ondemand.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/apollolake-4.4.180/check-cpufreq_ondemand.sh",
+            "sha256": "6cdb9623f12a60079097fadc58714845b80454df1362642df3baab873711cf30",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/apollolake-4.4.180/virtio_mmio.ko",
             "sha256": "61254c226e4728e034e273c12952c64c73359a336c6c6df6b2136f9997949cf4",
             "packed": false
+        },
+        {
+            "name": "check-virtio_mmio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/apollolake-4.4.180/check-virtio_mmio.sh",
+            "sha256": "fe666c966daadd6e3b0a26d88ff9a8aab42efba8977ecf47dee2832e2b5a7008",
+            "packed": false
         }
     ],
     "kmods": {

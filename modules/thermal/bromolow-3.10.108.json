@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/bromolow-3.10.108/thermal.ko",
             "sha256": "9660e8631712c48e357a74ea7b2ebee0c2d0ed73ae2fb175db82e4cad185356c",
             "packed": false
+        },
+        {
+            "name": "check-thermal.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/bromolow-3.10.108/check-thermal.sh",
+            "sha256": "27554357103fcc821c2fb064a04c7fe276f90b091e81e8cd73e277b150c6cac8",
+            "packed": false
         }
     ],
     "kmods": {

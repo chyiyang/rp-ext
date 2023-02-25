@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mptscsih.ko",
+            "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/v1000-4.4.180/mptbase.ko",
             "sha256": "57e763a158a9a163027d42a114757e25f403d441863e0de21f06bf4068ffd811",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/v1000-4.4.180/mptscsih.ko",
             "sha256": "a8d055ac979b5e06e0a1a11604db1df733c3591098519e08e259112d3b6a8006",
+            "packed": false
+        },
+        {
+            "name": "check-mptscsih.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/v1000-4.4.180/check-mptscsih.sh",
+            "sha256": "0a4a6406087f02da148de74eb23e349c299d63a3a28d11d259242ef0bb8e3f40",
             "packed": false
         }
     ],

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/geminilake-4.4.180/raid_class.ko",
             "sha256": "bb8829ce6f780d4265b2f29520a8cca55164e9fc278ba2199aaeaa03d9a0ba76",
             "packed": false
+        },
+        {
+            "name": "check-raid_class.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/geminilake-4.4.180/check-raid_class.sh",
+            "sha256": "274ddd31d73014e173b2f5d01a502ea55686f59adf1edc143661f7a078b36247",
+            "packed": false
         }
     ],
     "kmods": {

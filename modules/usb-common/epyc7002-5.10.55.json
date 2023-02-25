@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-common/epyc7002-5.10.55/usb-common.ko",
             "sha256": "20a4d974ee790ddb2525bc7fefc8eba2175d033be6c269ef8feec6c92dc71450",
             "packed": false
+        },
+        {
+            "name": "check-usb-common.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-common/epyc7002-5.10.55/check-usb-common.sh",
+            "sha256": "6ea74a8ad82f348eecd80c454f52c131a9c34343f81da15fd37cd5d1fca528cb",
+            "packed": false
         }
     ],
     "kmods": {

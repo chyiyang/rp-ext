@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/bromolow-3.10.108/i40e.ko",
             "sha256": "f0d426a1d57fd17b1fd1b49ad20549d0885ed1c40d8ea73a942c7ec1674318d5",
             "packed": false
+        },
+        {
+            "name": "check-i40e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/bromolow-3.10.108/check-i40e.sh",
+            "sha256": "65615619e160a47fc2b8e3e109294d8023cd1353d5f5cc69f9963ec302ec5025",
+            "packed": false
         }
     ],
     "kmods": {

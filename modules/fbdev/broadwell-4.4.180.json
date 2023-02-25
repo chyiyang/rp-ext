@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/broadwell-4.4.180/fbdev.ko",
             "sha256": "ea2bf4c82a980b6e60d9ca76335ce19aee3c45d9fa60e8b2e9cb5eceb5f64fc5",
             "packed": false
+        },
+        {
+            "name": "check-fbdev.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/broadwell-4.4.180/check-fbdev.sh",
+            "sha256": "4270278943bfd9f5d9e984f48d64a548528031b0d15fbb7f4b9752573013ce06",
+            "packed": false
         }
     ],
     "kmods": {

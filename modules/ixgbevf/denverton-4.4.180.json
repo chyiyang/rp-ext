@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/denverton-4.4.180/ixgbevf.ko",
             "sha256": "9bc19c379c168f3876de50433bb29e4a863d827d16ca2b2d6aca7fd20a4581eb",
             "packed": false
+        },
+        {
+            "name": "check-ixgbevf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/denverton-4.4.180/check-ixgbevf.sh",
+            "sha256": "a8a5443603b575f28127041b9c8e916ee5ff90564c4bff89507a7cf9c7ae21a7",
+            "packed": false
         }
     ],
     "kmods": {

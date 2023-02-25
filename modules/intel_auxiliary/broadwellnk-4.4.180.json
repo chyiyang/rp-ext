@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/broadwellnk-4.4.180/intel_auxiliary.ko",
             "sha256": "90ca3044f5d6ecdbdcfaf35a1936970fdcf6629a5c0e73f0d0a9eb317445db7d",
             "packed": false
+        },
+        {
+            "name": "check-intel_auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/broadwellnk-4.4.180/check-intel_auxiliary.sh",
+            "sha256": "340f4c6b97b0bfd51322b44dc3bd02ddf57f5245c8c0661e0598003dc3d9082d",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/broadwellnk-4.4.180/syscopyarea.ko",
             "sha256": "167faf02ed109cc8edc670dfb1b80193dcbea2d08def51d4611adf6918bb58cc",
             "packed": false
+        },
+        {
+            "name": "check-syscopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/broadwellnk-4.4.180/check-syscopyarea.sh",
+            "sha256": "a5f708a2c29c0f9ff958ad432f221f8b3824f9f91f5d3564a18a204a94a86466",
+            "packed": false
         }
     ],
     "kmods": {

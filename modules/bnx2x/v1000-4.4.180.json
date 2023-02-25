@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "bnx2x.ko",
+            "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/v1000-4.4.180/mdio.ko",
             "sha256": "686d6c393b7ebc1c8ac6f4940f478d6a102c3d4b7497b8c30bd81fd7aeb022ac",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "bnx2x.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/v1000-4.4.180/bnx2x.ko",
             "sha256": "62fda842de9a0ff0aca0d9437082796e56376a8b428e4abeb0652b498dd7b4a9",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/v1000-4.4.180/check-bnx2x.sh",
+            "sha256": "894f1a67227bd977798597d06677aa27249b89b29dfa29ac0909b2d85eb43938",
             "packed": false
         }
     ],

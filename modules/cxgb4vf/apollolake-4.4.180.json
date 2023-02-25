@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/apollolake-4.4.180/cxgb4vf.ko",
             "sha256": "4f4144a059cda8b6b117712bd0d54e1e26cee50ff48e8672fd99d0ba9c9afdb2",
             "packed": false
+        },
+        {
+            "name": "check-cxgb4vf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/apollolake-4.4.180/check-cxgb4vf.sh",
+            "sha256": "0db2cf6824fd17ce2202deb305df782cb27dce9ef7f8f49a2f63e18877bd9d72",
+            "packed": false
         }
     ],
     "kmods": {

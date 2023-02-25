@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/v1000-4.4.180/igbvf.ko",
             "sha256": "e2ddaf400db2bf3355555d40f1483db6f941a2a7f7af35dccc5cbe2ce69b616f",
             "packed": false
+        },
+        {
+            "name": "check-igbvf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/v1000-4.4.180/check-igbvf.sh",
+            "sha256": "8b50ab19e33adb53893d3bb56c6cc16e4c9933439f4f123be38b6fdcbfe22748",
+            "packed": false
         }
     ],
     "kmods": {

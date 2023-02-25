@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/geminilake-4.4.180/cxgb4vf.ko",
             "sha256": "04a769c0f592258fbd8d7b1c106fce11ad842b01a38a29a54639ed08cc3e0d39",
             "packed": false
+        },
+        {
+            "name": "check-cxgb4vf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/geminilake-4.4.180/check-cxgb4vf.sh",
+            "sha256": "0db2cf6824fd17ce2202deb305df782cb27dce9ef7f8f49a2f63e18877bd9d72",
+            "packed": false
         }
     ],
     "kmods": {

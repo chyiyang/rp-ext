@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwell-4.4.180/i40e.ko",
             "sha256": "4ca593b11c57bcad7d60a63a77b8a4363b296559803fd51e9a0c534f2f342359",
             "packed": false
+        },
+        {
+            "name": "check-i40e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwell-4.4.180/check-i40e.sh",
+            "sha256": "65615619e160a47fc2b8e3e109294d8023cd1353d5f5cc69f9963ec302ec5025",
+            "packed": false
         }
     ],
     "kmods": {

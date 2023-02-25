@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/broadwell-4.4.180/thermal.ko",
             "sha256": "e4a2ff0114057a0301b033c52531b86190ada265976d4a580e083facc7a29f4b",
             "packed": false
+        },
+        {
+            "name": "check-thermal.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/broadwell-4.4.180/check-thermal.sh",
+            "sha256": "27554357103fcc821c2fb064a04c7fe276f90b091e81e8cd73e277b150c6cac8",
+            "packed": false
         }
     ],
     "kmods": {

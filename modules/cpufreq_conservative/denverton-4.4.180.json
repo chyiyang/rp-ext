@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/denverton-4.4.180/cpufreq_conservative.ko",
             "sha256": "5e65b109b7668f02ee5159ce818d50a6134021704694962df543552d1972d873",
             "packed": false
+        },
+        {
+            "name": "check-cpufreq_conservative.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/denverton-4.4.180/check-cpufreq_conservative.sh",
+            "sha256": "a37ee2961fc001c9fd74bada1e46dfd72627fbb9ff6653cfddfc9724d9026094",
+            "packed": false
         }
     ],
     "kmods": {

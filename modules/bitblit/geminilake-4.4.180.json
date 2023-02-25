@@ -2,13 +2,13 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "bitblit.ko",
+            "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/geminilake-4.4.180/fb.ko",
             "sha256": "c063a5887130f52018d3e4b2bbeebe12b6e49b9d852ccb32bbf1c7ebf5aa60d8",
             "packed": false
         },
         {
-            "name": "bitblit.ko",
+            "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/geminilake-4.4.180/softcursor.ko",
             "sha256": "b0e1b228012c62a86a2299d769b52533fff5505f9b88590cf2c13dc4338c0537",
             "packed": false
@@ -17,6 +17,12 @@
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/geminilake-4.4.180/bitblit.ko",
             "sha256": "017d96a51237cbd8fdcddcbaa26707367fb64c374c8755db52088952a2cc8060",
+            "packed": false
+        },
+        {
+            "name": "check-bitblit.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/geminilake-4.4.180/check-bitblit.sh",
+            "sha256": "380ca5e65efa1295e23b26069005aede37560a05bd9ad0124b2cadc47751e6c6",
             "packed": false
         }
     ],

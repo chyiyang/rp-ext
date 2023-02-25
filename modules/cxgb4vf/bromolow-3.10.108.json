@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/bromolow-3.10.108/cxgb4vf.ko",
             "sha256": "c0a02b515c6681e818a3d7809d7e5ef41132bf0da1aa412d3bddf4bc47e7d232",
             "packed": false
+        },
+        {
+            "name": "check-cxgb4vf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/bromolow-3.10.108/check-cxgb4vf.sh",
+            "sha256": "0db2cf6824fd17ce2202deb305df782cb27dce9ef7f8f49a2f63e18877bd9d72",
+            "packed": false
         }
     ],
     "kmods": {

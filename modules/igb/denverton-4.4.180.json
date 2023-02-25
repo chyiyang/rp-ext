@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/denverton-4.4.180/igb.ko",
             "sha256": "7cadb8d72c89d1bd2b03a862e54d9befdaa3de17f3aec976f1ac4cc8711b2913",
             "packed": false
+        },
+        {
+            "name": "check-igb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/denverton-4.4.180/check-igb.sh",
+            "sha256": "1c4a88c3f5e404267f48ff289d97df0dcfb97c53aea9462cb701d8642e314319",
+            "packed": false
         }
     ],
     "kmods": {

@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "atlantic_v2.ko",
+            "name": "crc-itu-t.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic_v2/broadwell-4.4.180/crc-itu-t.ko",
             "sha256": "d3797d96f483fcc8242e7328ecab3cb4c1a421cb49b1a4561e4c3f0597cff793",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "atlantic_v2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic_v2/broadwell-4.4.180/atlantic_v2.ko",
             "sha256": "0777c08d53d20ef1278306c34a62ed4d0f6165bebb8549b0bc70acf4cdf4857b",
+            "packed": false
+        },
+        {
+            "name": "check-atlantic_v2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic_v2/broadwell-4.4.180/check-atlantic_v2.sh",
+            "sha256": "32bb44be74edcf75b7e9d0766b54fb1600a6e2d842b19382ebc96bf7797deb77",
             "packed": false
         }
     ],

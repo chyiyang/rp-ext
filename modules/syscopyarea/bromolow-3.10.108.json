@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/bromolow-3.10.108/syscopyarea.ko",
             "sha256": "8f98010f1f1aa65c39ce1951b282456ad0d32d1ac76ac8b82d14bb9c2498825d",
             "packed": false
+        },
+        {
+            "name": "check-syscopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/bromolow-3.10.108/check-syscopyarea.sh",
+            "sha256": "a5f708a2c29c0f9ff958ad432f221f8b3824f9f91f5d3564a18a204a94a86466",
+            "packed": false
         }
     ],
     "kmods": {

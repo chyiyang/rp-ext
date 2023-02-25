@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "alx.ko",
+            "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/bromolow-3.10.108/mdio.ko",
             "sha256": "2f2873bed0d690a6b2e3009f5f48cb44602c8679a08019f49a2d9271d14f7e45",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "alx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/bromolow-3.10.108/alx.ko",
             "sha256": "fbcf048634939eda0336ded85d39c03855ca37106e5c8afc8224128586fe1fbd",
+            "packed": false
+        },
+        {
+            "name": "check-alx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/bromolow-3.10.108/check-alx.sh",
+            "sha256": "a4b215c493c0a804ce78f9b0a9db1abb2a0f0814ac579d42324323cebbe50b14",
             "packed": false
         }
     ],

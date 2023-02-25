@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/broadwell-4.4.180/auxiliary.ko",
             "sha256": "2717eacb0215a961742f4f585f6d8a56db754e6e4fdb02b1b4fcfc023615e641",
             "packed": false
+        },
+        {
+            "name": "check-auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/broadwell-4.4.180/check-auxiliary.sh",
+            "sha256": "08ba59c9839cad5936353c73fd25f08d1b037330b1d96be8eeff634648327ab9",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/bromolow-3.10.108/acpi-cpufreq.ko",
             "sha256": "5ed06cea92820de7462e7a5a1fb0309d19063d181eaf1d529c6e911e3de2738a",
             "packed": false
+        },
+        {
+            "name": "check-acpi-cpufreq.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/bromolow-3.10.108/check-acpi-cpufreq.sh",
+            "sha256": "3795a441fee268be76cc78c970cc679baaddd2850ff3fb6046afe3a1390a477f",
+            "packed": false
         }
     ],
     "kmods": {

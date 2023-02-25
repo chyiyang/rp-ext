@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mlxsw_pci.ko",
+            "name": "mlxsw_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/r1000-4.4.180/mlxsw_core.ko",
             "sha256": "bd206886f76314aded31647346bbb40f24cf2a178bb5809059f90bb2438c6948",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mlxsw_pci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/r1000-4.4.180/mlxsw_pci.ko",
             "sha256": "b19c950adfde63ed3f40f748147f73a8cb131de537e83016aed130efc2098aff",
+            "packed": false
+        },
+        {
+            "name": "check-mlxsw_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/r1000-4.4.180/check-mlxsw_pci.sh",
+            "sha256": "bbad6cc70a92eeba8283578797e3155e5deedcb14858136de7523375328b2ce9",
             "packed": false
         }
     ],

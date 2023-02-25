@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/epyc7002-5.10.55/igbvf.ko",
             "sha256": "d1f3caf96d4fba7b83a6f7345e031b2ff2fd97237d5b23862ddf939801330601",
             "packed": false
+        },
+        {
+            "name": "check-igbvf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/epyc7002-5.10.55/check-igbvf.sh",
+            "sha256": "8b50ab19e33adb53893d3bb56c6cc16e4c9933439f4f123be38b6fdcbfe22748",
+            "packed": false
         }
     ],
     "kmods": {

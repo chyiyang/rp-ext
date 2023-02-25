@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mmc_block.ko",
+            "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/broadwell-4.4.180/mmc_core.ko",
             "sha256": "533c0bd9e458a19076d196a71ffa5a6b6c00d803063bdd433cba24a8cdd8c193",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mmc_block.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/broadwell-4.4.180/mmc_block.ko",
             "sha256": "0d9ddbbcf3d73ea25d0d0828fa52564c43a09feea85fd71aebcabd77f49fcc89",
+            "packed": false
+        },
+        {
+            "name": "check-mmc_block.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/broadwell-4.4.180/check-mmc_block.sh",
+            "sha256": "79c52aec381ac1892ffa5167722e7bdccc1ea18688f263528a4c1353bc20a9d6",
             "packed": false
         }
     ],

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/denverton-4.4.180/atl1c.ko",
             "sha256": "1ac8f89cc3806176591684b69645ea482b963b9a2cc25df81e11f69876b0771c",
             "packed": false
+        },
+        {
+            "name": "check-atl1c.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/denverton-4.4.180/check-atl1c.sh",
+            "sha256": "e7307770c4b19a5a89a72685de892667edc87e38cb37694a9672f6e284230063",
+            "packed": false
         }
     ],
     "kmods": {

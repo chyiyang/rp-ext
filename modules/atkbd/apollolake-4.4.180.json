@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/apollolake-4.4.180/atkbd.ko",
             "sha256": "a8a9c0f67419c3a4b3052fdfd7eab24617e3c4947e21478a2a977bfcc6742c61",
             "packed": false
+        },
+        {
+            "name": "check-atkbd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/apollolake-4.4.180/check-atkbd.sh",
+            "sha256": "92dee4fcf899033fd10ad3a714b522524e68775b71a16e6174c91d3ad5747207",
+            "packed": false
         }
     ],
     "kmods": {

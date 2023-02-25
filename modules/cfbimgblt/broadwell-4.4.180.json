@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/broadwell-4.4.180/cfbimgblt.ko",
             "sha256": "8d9c062874bd19327a64686e305c13a437452221007d20008736c391a6edf262",
             "packed": false
+        },
+        {
+            "name": "check-cfbimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/broadwell-4.4.180/check-cfbimgblt.sh",
+            "sha256": "57478f226b996ff5259eaa62bff2497ade7b9e6f5998dbbba9442b02ff0695ad",
+            "packed": false
         }
     ],
     "kmods": {

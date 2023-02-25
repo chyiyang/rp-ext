@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/bromolow-3.10.108/i8042.ko",
             "sha256": "54c6f5ddb6ce194f2f5f7e475ed96d70dd8cee04173de7e50960f36e34150f06",
             "packed": false
+        },
+        {
+            "name": "check-i8042.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/bromolow-3.10.108/check-i8042.sh",
+            "sha256": "bc4b1c866facfac5c4e2e7096fcddf865d4b61cce7ff33c4ca3ba8d7903bd8cc",
+            "packed": false
         }
     ],
     "kmods": {

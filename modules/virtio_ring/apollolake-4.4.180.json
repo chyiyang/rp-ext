@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/apollolake-4.4.180/virtio_ring.ko",
             "sha256": "a9b1612f0bed920c462da8ecc306c1d6037b029b0291d8e85539406b8661572e",
             "packed": false
+        },
+        {
+            "name": "check-virtio_ring.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/apollolake-4.4.180/check-virtio_ring.sh",
+            "sha256": "f908b532cc1cec2216ca39369fec8bf7aab959478284995650bae26c53e9e113",
+            "packed": false
         }
     ],
     "kmods": {

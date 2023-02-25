@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/denverton-4.4.180/cdrom.ko",
             "sha256": "3e4a101b6b09318ec98c97abe040536d92670b608ea194d3f6a154e0afa3fe65",
             "packed": false
+        },
+        {
+            "name": "check-cdrom.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/denverton-4.4.180/check-cdrom.sh",
+            "sha256": "6873fe11968fd7299c24c5520c413224c3507fac49e100aafea81843acccb65e",
+            "packed": false
         }
     ],
     "kmods": {

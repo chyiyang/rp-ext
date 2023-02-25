@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/broadwell-4.4.180/vmxnet3.ko",
             "sha256": "ff1d15006398ea3002aef5f1dfb4ad28562f584f70468d70b1c6e8b1dd8dedbf",
             "packed": false
+        },
+        {
+            "name": "check-vmxnet3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/broadwell-4.4.180/check-vmxnet3.sh",
+            "sha256": "ffa24196bcbcabcf150fe9decc495448aa88e96b8121a8017eebf6ce0c2ecfd5",
+            "packed": false
         }
     ],
     "kmods": {

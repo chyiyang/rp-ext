@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/broadwellnk-4.4.180/vesafb.ko",
             "sha256": "7e5dc62c8281aaae274ae6576f3df457c9cb9fa957cf51bc52703f6cd9434cfd",
             "packed": false
+        },
+        {
+            "name": "check-vesafb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/broadwellnk-4.4.180/check-vesafb.sh",
+            "sha256": "48af516ea72cc59726e6a3b1eb9805054005ac4deea0d1589d598db2aa1e6126",
+            "packed": false
         }
     ],
     "kmods": {

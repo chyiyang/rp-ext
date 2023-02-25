@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "via-sdmmc.ko",
+            "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/r1000-4.4.180/mmc_core.ko",
             "sha256": "c1a00ef2b090e48999081a95a9615146a68e9fa8f5ba4d443ee5f51d4316cd9c",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "via-sdmmc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/r1000-4.4.180/via-sdmmc.ko",
             "sha256": "c73f48de31e9252d81e63b79aa89a5f4d21ae8a7084c88f20736c87a9ac0ea5b",
+            "packed": false
+        },
+        {
+            "name": "check-via-sdmmc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/r1000-4.4.180/check-via-sdmmc.sh",
+            "sha256": "8588fdfbf4a39fc36a3bad16ef150ce85c090f903b3e9bb57b36b8898d45ad4c",
             "packed": false
         }
     ],

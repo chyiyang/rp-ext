@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/r1000-4.4.180/uhci-hcd.ko",
             "sha256": "bd047f2b2ffc938a8fc43b32c2fded0d138d4803b4af4b76a1874e8d5cca186e",
             "packed": false
+        },
+        {
+            "name": "check-uhci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/r1000-4.4.180/check-uhci-hcd.sh",
+            "sha256": "532a4b87866f79e4865aa69a41bd45d99d6891ea88f402e585c747df554abf05",
+            "packed": false
         }
     ],
     "kmods": {

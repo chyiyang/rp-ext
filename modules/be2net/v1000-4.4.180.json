@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/v1000-4.4.180/be2net.ko",
             "sha256": "085d2d1cead82f1f55aaf3ce2c9ad192526da87480c228405c792ac074a04800",
             "packed": false
+        },
+        {
+            "name": "check-be2net.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/v1000-4.4.180/check-be2net.sh",
+            "sha256": "f819a067c8d382088eedd35569aa1d9808ca89c8717dde9f4ae22e9bc9806e89",
+            "packed": false
         }
     ],
     "kmods": {

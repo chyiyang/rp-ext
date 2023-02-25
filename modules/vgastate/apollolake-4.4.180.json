@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/apollolake-4.4.180/vgastate.ko",
             "sha256": "0bad00ca36d0e7a15e1820caa5a36031c2de435c90df4ca5066ea5f29ecb0b00",
             "packed": false
+        },
+        {
+            "name": "check-vgastate.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/apollolake-4.4.180/check-vgastate.sh",
+            "sha256": "a89a3dc8087236516f5295d75516a08378467cf478370b6ae534384213f3adc2",
+            "packed": false
         }
     ],
     "kmods": {

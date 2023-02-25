@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/broadwell-4.4.180/etxhci-hcd.ko",
             "sha256": "2b5f99963c84965e48c81fb10ec4b5d258172d4387ab1b03700de3b368a0b252",
             "packed": false
+        },
+        {
+            "name": "check-etxhci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/broadwell-4.4.180/check-etxhci-hcd.sh",
+            "sha256": "74e7640d8aaf0949744c0fbb471a3fa5cea16324d7449b8046fd207f6a758d73",
+            "packed": false
         }
     ],
     "kmods": {

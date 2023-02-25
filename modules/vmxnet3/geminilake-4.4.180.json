@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/geminilake-4.4.180/vmxnet3.ko",
             "sha256": "a8787857f5bfe39fcbd357274dc06980e8499f3447b83201991d578ad5b577e8",
             "packed": false
+        },
+        {
+            "name": "check-vmxnet3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/geminilake-4.4.180/check-vmxnet3.sh",
+            "sha256": "ffa24196bcbcabcf150fe9decc495448aa88e96b8121a8017eebf6ce0c2ecfd5",
+            "packed": false
         }
     ],
     "kmods": {

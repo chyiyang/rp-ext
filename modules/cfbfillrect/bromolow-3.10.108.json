@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/bromolow-3.10.108/cfbfillrect.ko",
             "sha256": "9e097c0513a92dfb66f27b7e6c29c6e3d2514ee6809a1ca95821faee23f72b15",
             "packed": false
+        },
+        {
+            "name": "check-cfbfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/bromolow-3.10.108/check-cfbfillrect.sh",
+            "sha256": "0b86d41adb7c23bbecee633781eafeff50852acc9c1652c2c643a0c910c97cdf",
+            "packed": false
         }
     ],
     "kmods": {

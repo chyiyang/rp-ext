@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/v1000-4.4.180/virtio_ring.ko",
             "sha256": "1dccea235108cd46b13dce869805bb33cdf625e24a3587bfd6686c2749865fe0",
             "packed": false
+        },
+        {
+            "name": "check-virtio_ring.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/v1000-4.4.180/check-virtio_ring.sh",
+            "sha256": "f908b532cc1cec2216ca39369fec8bf7aab959478284995650bae26c53e9e113",
+            "packed": false
         }
     ],
     "kmods": {

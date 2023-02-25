@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/broadwellnk-4.4.180/cpufreq_performance.ko",
             "sha256": "3abf2372ae87086e75cd5603924cbb9dfa5fa6a4b474606ffa9fa6c3113803f9",
             "packed": false
+        },
+        {
+            "name": "check-cpufreq_performance.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/broadwellnk-4.4.180/check-cpufreq_performance.sh",
+            "sha256": "219d078494f2dd89d3df22ef6d8aba4b7012f76799b53c7871d8dc154a3dd0d0",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/epyc7002-5.10.55/scsi_transport_sas.ko",
             "sha256": "757f7b1769b71527bc5e9b618c0fea08744b194c3ab4a1232da42dd00e40c519",
             "packed": false
+        },
+        {
+            "name": "check-scsi_transport_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/epyc7002-5.10.55/check-scsi_transport_sas.sh",
+            "sha256": "2ca154b5d73a837499c4974e4ec1b17bcc2ad61ad8dd3ef421a9a250838c46ea",
+            "packed": false
         }
     ],
     "kmods": {

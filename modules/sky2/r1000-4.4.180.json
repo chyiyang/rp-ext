@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/r1000-4.4.180/sky2.ko",
             "sha256": "d7c6e590260570349593147c84e4e753d78c3bbe10ef0ca6fd06e4201d4882b4",
             "packed": false
+        },
+        {
+            "name": "check-sky2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/r1000-4.4.180/check-sky2.sh",
+            "sha256": "248a91777a29890d02953dbe261532a8908b889059b90b4a7d114621853b28cf",
+            "packed": false
         }
     ],
     "kmods": {

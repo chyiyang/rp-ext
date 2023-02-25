@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "sdhci.ko",
+            "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwellnk-4.4.180/mmc_core.ko",
             "sha256": "077a38249df9f668cdce811853d45c3146bba8d510e7be386509d03cb52385ef",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "sdhci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwellnk-4.4.180/sdhci.ko",
             "sha256": "bb55432b0e984a2c615c82a90ef55d3421dcbebe93231520ee1733cd0495fbe7",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwellnk-4.4.180/check-sdhci.sh",
+            "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
             "packed": false
         }
     ],

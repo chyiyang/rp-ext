@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "alx.ko",
+            "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwell-4.4.180/mdio.ko",
             "sha256": "a7567ea90c5d157bbe72ee12069afff44d45b7fdbad0ba3ecca9194aa0370dc3",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "alx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwell-4.4.180/alx.ko",
             "sha256": "b0f6db932c064ffbb5f304fd4813006bb009caf0e78b0ee485d2151293c327ed",
+            "packed": false
+        },
+        {
+            "name": "check-alx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwell-4.4.180/check-alx.sh",
+            "sha256": "a4b215c493c0a804ce78f9b0a9db1abb2a0f0814ac579d42324323cebbe50b14",
             "packed": false
         }
     ],

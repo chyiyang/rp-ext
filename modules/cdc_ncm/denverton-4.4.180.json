@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/denverton-4.4.180/cdc_ncm.ko",
             "sha256": "2a8d6439f14caae009f80a5a3f2f8e3c07484226d2a0b60bcc37beee191f7e70",
             "packed": false
+        },
+        {
+            "name": "check-cdc_ncm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/denverton-4.4.180/check-cdc_ncm.sh",
+            "sha256": "5aa9e241fe601e29b86344ef49f874b8ba969597b8a50def4268475afe426ee8",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/epyc7002-5.10.55/xhci-pci.ko",
             "sha256": "002247959427e1f38050ead28dda6441fa746b8c318a3131d06d2f8ae4f0f268",
             "packed": false
+        },
+        {
+            "name": "check-xhci-pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/epyc7002-5.10.55/check-xhci-pci.sh",
+            "sha256": "4737e8cd91d5ea5db247c6e4797046e8eccb3876c8ad7bf7c89261d2177b79e5",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/epyc7002-5.10.55/mlx4_core.ko",
             "sha256": "c8ccd0ff1ddec6eaf6315638de4efc75d42f03f7c9249a92187947edefefc399",
             "packed": false
+        },
+        {
+            "name": "check-mlx4_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/epyc7002-5.10.55/check-mlx4_core.sh",
+            "sha256": "367f1580112fdba6dec1599aea341c4ea8f645d59ae80889973e904158b89547",
+            "packed": false
         }
     ],
     "kmods": {

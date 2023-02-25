@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt2sas/bromolow-3.10.108/mpt2sas.ko",
             "sha256": "7dadc5349377b332926023d7e1495b204dde8aa687266f8420baee50b7aa84e7",
             "packed": false
+        },
+        {
+            "name": "check-mpt2sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt2sas/bromolow-3.10.108/check-mpt2sas.sh",
+            "sha256": "2a65d1403560a3a068eddd5cee4e723864b932dd2e9b256bbb2131f3ef8fa25c",
+            "packed": false
         }
     ],
     "kmods": {

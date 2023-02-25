@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "r8169.ko",
+            "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnk-4.4.180/mii.ko",
             "sha256": "2e3e3ffe095fd2a9dc749d9b4b8e9bcc45cebfe35db6c70f0c58743a7e5f97c6",
             "packed": false
@@ -12,6 +12,24 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnk-4.4.180/r8169.ko",
             "sha256": "fd96e479e644d70e41f1fe3efa81b0231d1396565098272349fd4c0725a7f395",
             "packed": false
+        },
+        {
+            "name": "check-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnk-4.4.180/check-r8169.sh",
+            "sha256": "cf7731f05a383d5b6b27b0d706b20cc9aedf3d2c2b4e3c3d026980d32bd20d50",
+            "packed": false
+        },
+        {
+            "name": "r8169_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnk-4.4.180/r8169_firmware.tag.gz",
+            "sha256": "2f7c7f604780772c781c37d02a7be0a7dc32190d815d10060864f61f72c0e4b2",
+            "packed": false
+        },
+        {
+            "name": "install-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnk-4.4.180/install-r8169.sh",
+            "sha256": "204148a30c10ee18f3a46d8555779e0781b3a438134b0e4612a9d9eaf2b5d9dc",
+            "packed": false
         }
     ],
     "kmods": {
@@ -19,6 +37,7 @@
         "r8169.ko": ""
     },
     "scripts": {
-        "on_boot": "check-r8169.sh"
+        "on_boot": "check-r8169.sh",
+        "on_os_load": "install-r8169.sh"
     }
 }

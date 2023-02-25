@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/broadwellnk-4.4.180/r8152.ko",
             "sha256": "59f7e2620b0fbe8345bceb9aa388f4923f8d57052df7d4c5da17764e5b37cf38",
             "packed": false
+        },
+        {
+            "name": "check-r8152.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/broadwellnk-4.4.180/check-r8152.sh",
+            "sha256": "33164c7e249a7e6809a7d4fc7bebca8a98057ea5539466cc5876b80dec38b875",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/v1000-4.4.180/i40e.ko",
             "sha256": "c800576c69eff68be2e244889e99d6f69a0f77d02da8de4ca0dddd78cebd9157",
             "packed": false
+        },
+        {
+            "name": "check-i40e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/v1000-4.4.180/check-i40e.sh",
+            "sha256": "65615619e160a47fc2b8e3e109294d8023cd1353d5f5cc69f9963ec302ec5025",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,12 +6,31 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/apollolake-4.4.180/si2157.ko",
             "sha256": "773f53373bf765bee07ebc51a19972422920ddecca12cd3775a401a4bb8e8a7c",
             "packed": false
+        },
+        {
+            "name": "check-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/apollolake-4.4.180/check-si2157.sh",
+            "sha256": "37f452b575b1c12ca6a7a2528328bc7af04450726df5cfcd244b73e8402c5261",
+            "packed": false
+        },
+        {
+            "name": "si2157_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/apollolake-4.4.180/si2157_firmware.tag.gz",
+            "sha256": "1acce3d061e982e94ba4feb65477be0f34d8e35f1f8ccfc21fd2d2e2324a31a7",
+            "packed": false
+        },
+        {
+            "name": "install-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/apollolake-4.4.180/install-si2157.sh",
+            "sha256": "6d494f475cd5de151fc775756abba4fcf16908f807cc507e78a3ab20fb04f11d",
+            "packed": false
         }
     ],
     "kmods": {
         "si2157.ko": ""
     },
     "scripts": {
-        "on_boot": "check-si2157.sh"
+        "on_boot": "check-si2157.sh",
+        "on_os_load": "install-si2157.sh"
     }
 }

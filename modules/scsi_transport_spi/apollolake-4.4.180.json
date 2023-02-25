@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/apollolake-4.4.180/scsi_transport_spi.ko",
             "sha256": "8b0159f8eb88636a765595320f6e97585e2c7988ec25b246aa1452d395bc47e8",
             "packed": false
+        },
+        {
+            "name": "check-scsi_transport_spi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/apollolake-4.4.180/check-scsi_transport_spi.sh",
+            "sha256": "4653c27de9a84db6f07bdcfe8389efdae21baea245ab20ceff727200ae539879",
+            "packed": false
         }
     ],
     "kmods": {

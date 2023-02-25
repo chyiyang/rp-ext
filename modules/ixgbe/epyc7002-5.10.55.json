@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/epyc7002-5.10.55/ixgbe.ko",
             "sha256": "a43deb443210c72e0071a7722b3fd44df58943a94c96ca655ed962ceb5088306",
             "packed": false
+        },
+        {
+            "name": "check-ixgbe.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/epyc7002-5.10.55/check-ixgbe.sh",
+            "sha256": "68d8052404ec39e03a01e9284fec0430673b3ced0b5263ea708852b61ee63d9a",
+            "packed": false
         }
     ],
     "kmods": {

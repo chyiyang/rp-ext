@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/epyc7002-5.10.55/igc.ko",
             "sha256": "507f705a4c9eddbb48b1043fde3bbc9de0b4244e7b0d14900a907fe1acc56a32",
             "packed": false
+        },
+        {
+            "name": "check-igc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/epyc7002-5.10.55/check-igc.sh",
+            "sha256": "fd19316541e792dd5d033768708517247568cb548bdb1df371c71f7b2fe57cde",
+            "packed": false
         }
     ],
     "kmods": {

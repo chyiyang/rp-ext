@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/apollolake-4.4.180/ixgbevf.ko",
             "sha256": "8815379e8c4c1f4e120c45d461e9de78a095d97e704140cb258cd02229482155",
             "packed": false
+        },
+        {
+            "name": "check-ixgbevf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/apollolake-4.4.180/check-ixgbevf.sh",
+            "sha256": "a8a5443603b575f28127041b9c8e916ee5ff90564c4bff89507a7cf9c7ae21a7",
+            "packed": false
         }
     ],
     "kmods": {

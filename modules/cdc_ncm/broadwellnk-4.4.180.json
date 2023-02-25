@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/broadwellnk-4.4.180/cdc_ncm.ko",
             "sha256": "ac0a414f07209c5ca90db2e2ad2e434867cbf4057fb6d60a6ed4d9cc9001564b",
             "packed": false
+        },
+        {
+            "name": "check-cdc_ncm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/broadwellnk-4.4.180/check-cdc_ncm.sh",
+            "sha256": "5aa9e241fe601e29b86344ef49f874b8ba969597b8a50def4268475afe426ee8",
+            "packed": false
         }
     ],
     "kmods": {

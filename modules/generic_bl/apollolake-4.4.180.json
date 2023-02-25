@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "generic_bl.ko",
+            "name": "backlight.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/generic_bl/apollolake-4.4.180/backlight.ko",
             "sha256": "d7bcd4301739daafeddfee8da5100d98356bff176e6a23549d82ff4182cba1e8",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "generic_bl.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/generic_bl/apollolake-4.4.180/generic_bl.ko",
             "sha256": "0d0db536dbcdbf0b852f21d9275198220d06f13c094e4be9b03b4afbc1646e94",
+            "packed": false
+        },
+        {
+            "name": "check-generic_bl.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/generic_bl/apollolake-4.4.180/check-generic_bl.sh",
+            "sha256": "e4d70982ac2d99c88e9ded82b072e736354ce88727f65b5c42a2118bb59a10a8",
             "packed": false
         }
     ],

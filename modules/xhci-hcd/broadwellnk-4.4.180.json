@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/broadwellnk-4.4.180/xhci-hcd.ko",
             "sha256": "af132bb670804a52fe5075beb6daf2c5186f39a2a46643ea3f65b16f4aafba6a",
             "packed": false
+        },
+        {
+            "name": "check-xhci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/broadwellnk-4.4.180/check-xhci-hcd.sh",
+            "sha256": "40d859f5e15a65627c0abc6ea511d68c9662c54bb55b98969f041db24dd5723d",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/geminilake-4.4.180/libphy.ko",
             "sha256": "0762f8f0463c5927ee939fa17bf15117977095f04eb3f09640146a61a180dc9d",
             "packed": false
+        },
+        {
+            "name": "check-libphy.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/geminilake-4.4.180/check-libphy.sh",
+            "sha256": "e0a7c579a63a41f7dce62df77c2a7f1878210ee2f739daa862285308c03600ee",
+            "packed": false
         }
     ],
     "kmods": {

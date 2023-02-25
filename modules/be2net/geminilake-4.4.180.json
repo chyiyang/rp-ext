@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/geminilake-4.4.180/be2net.ko",
             "sha256": "060ced952c94381e9ecd0c9f3ba2d7fb94201878bd9989868cd2dc1e64850ca4",
             "packed": false
+        },
+        {
+            "name": "check-be2net.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/geminilake-4.4.180/check-be2net.sh",
+            "sha256": "f819a067c8d382088eedd35569aa1d9808ca89c8717dde9f4ae22e9bc9806e89",
+            "packed": false
         }
     ],
     "kmods": {

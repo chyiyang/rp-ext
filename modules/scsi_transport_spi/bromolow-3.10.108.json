@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/bromolow-3.10.108/scsi_transport_spi.ko",
             "sha256": "a934c19fb0cd01fd912513b33a404f8c01184d03d882ea153e96335dfd8418cb",
             "packed": false
+        },
+        {
+            "name": "check-scsi_transport_spi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/bromolow-3.10.108/check-scsi_transport_spi.sh",
+            "sha256": "4653c27de9a84db6f07bdcfe8389efdae21baea245ab20ceff727200ae539879",
+            "packed": false
         }
     ],
     "kmods": {

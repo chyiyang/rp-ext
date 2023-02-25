@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mptlan.ko",
+            "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptlan/apollolake-4.4.180/mptbase.ko",
             "sha256": "5cdbbc2bcf83073d22c434b444650397772f3855478ecd3928b59e04b7bbf25b",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mptlan.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptlan/apollolake-4.4.180/mptlan.ko",
             "sha256": "e1acf5b7cb60e40067e73b3aab522da7b7f33d52f0a139f803d6508b72b72f99",
+            "packed": false
+        },
+        {
+            "name": "check-mptlan.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptlan/apollolake-4.4.180/check-mptlan.sh",
+            "sha256": "395f4ad660431aaec662e73c7bba81c2f750cc52d35eb1149428843192927df6",
             "packed": false
         }
     ],

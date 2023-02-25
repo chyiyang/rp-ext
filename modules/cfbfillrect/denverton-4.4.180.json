@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/denverton-4.4.180/cfbfillrect.ko",
             "sha256": "a41686921513d84e708fc17939b24650db6397bcfa9cb0dd72572e66691c6735",
             "packed": false
+        },
+        {
+            "name": "check-cfbfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/denverton-4.4.180/check-cfbfillrect.sh",
+            "sha256": "0b86d41adb7c23bbecee633781eafeff50852acc9c1652c2c643a0c910c97cdf",
+            "packed": false
         }
     ],
     "kmods": {

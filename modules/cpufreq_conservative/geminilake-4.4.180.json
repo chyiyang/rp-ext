@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/geminilake-4.4.180/cpufreq_conservative.ko",
             "sha256": "ce18e20cbe5097ca42ec9e5bc7235781a1ab663b78c71ba09ebfc9cedf8dd40e",
             "packed": false
+        },
+        {
+            "name": "check-cpufreq_conservative.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/geminilake-4.4.180/check-cpufreq_conservative.sh",
+            "sha256": "a37ee2961fc001c9fd74bada1e46dfd72627fbb9ff6653cfddfc9724d9026094",
+            "packed": false
         }
     ],
     "kmods": {

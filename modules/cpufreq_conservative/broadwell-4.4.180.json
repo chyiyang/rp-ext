@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/broadwell-4.4.180/cpufreq_conservative.ko",
             "sha256": "59c004fd4221555e2ead24945372f031eeae0febdd19e0d3399184ac5dea9946",
             "packed": false
+        },
+        {
+            "name": "check-cpufreq_conservative.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/broadwell-4.4.180/check-cpufreq_conservative.sh",
+            "sha256": "a37ee2961fc001c9fd74bada1e46dfd72627fbb9ff6653cfddfc9724d9026094",
+            "packed": false
         }
     ],
     "kmods": {

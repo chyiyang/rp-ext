@@ -2,19 +2,19 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mptsas.ko",
+            "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.180/mptscsih.ko",
             "sha256": "20de90673dc6546cfcf619fb6992c85bbe8476e45cabfdc37d7fd6caac9ab42e",
             "packed": false
         },
         {
-            "name": "mptsas.ko",
+            "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.180/mptbase.ko",
             "sha256": "56c33e0d07b071b6b4883224c8be721bd14601ac0e4753cb80d16734feaf6a9b",
             "packed": false
         },
         {
-            "name": "mptsas.ko",
+            "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.180/scsi_transport_sas.ko",
             "sha256": "4db1bcfc875fe605026d286ca6ff4e9324a21004b68f3b4b967e88f54fbc0a36",
             "packed": false
@@ -23,6 +23,12 @@
             "name": "mptsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.180/mptsas.ko",
             "sha256": "ef72adfd13c7c474e6c677bbcf079b13bada713e6553432a341174eecb347a78",
+            "packed": false
+        },
+        {
+            "name": "check-mptsas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.180/check-mptsas.sh",
+            "sha256": "adf9571262e64da53b8d83ffe40a58e6df0368a3cb62eb5f6465a668d60dfff9",
             "packed": false
         }
     ],

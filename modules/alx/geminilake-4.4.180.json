@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "alx.ko",
+            "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/geminilake-4.4.180/mdio.ko",
             "sha256": "17c4337ea6b0be001d6520eff4c9d8b2f9c22af8abe450969b1d13dd1219272f",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "alx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/geminilake-4.4.180/alx.ko",
             "sha256": "27c9efd9ebf6129448fc588e24be7ecaa444d94e70f7d562231727de0400db1f",
+            "packed": false
+        },
+        {
+            "name": "check-alx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/geminilake-4.4.180/check-alx.sh",
+            "sha256": "a4b215c493c0a804ce78f9b0a9db1abb2a0f0814ac579d42324323cebbe50b14",
             "packed": false
         }
     ],

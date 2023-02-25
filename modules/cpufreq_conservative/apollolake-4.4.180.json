@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/apollolake-4.4.180/cpufreq_conservative.ko",
             "sha256": "459ad48ef22529d2e014631e44205b55bee24f083afe0d748ec433f5e12b854f",
             "packed": false
+        },
+        {
+            "name": "check-cpufreq_conservative.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/apollolake-4.4.180/check-cpufreq_conservative.sh",
+            "sha256": "a37ee2961fc001c9fd74bada1e46dfd72627fbb9ff6653cfddfc9724d9026094",
+            "packed": false
         }
     ],
     "kmods": {

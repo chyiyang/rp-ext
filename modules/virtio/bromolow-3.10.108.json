@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/bromolow-3.10.108/virtio.ko",
             "sha256": "6f3068544a5484cf61610bf0f86e2a2f4237b225a70967ce58b418084ea70191",
             "packed": false
+        },
+        {
+            "name": "check-virtio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/bromolow-3.10.108/check-virtio.sh",
+            "sha256": "ce75807c104d55cea61ddfb1b25fd5af8bf9a511f77ecb8cc9a81b25da9de23f",
+            "packed": false
         }
     ],
     "kmods": {

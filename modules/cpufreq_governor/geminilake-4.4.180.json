@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/geminilake-4.4.180/cpufreq_governor.ko",
             "sha256": "caf121e07a0fefb68cd955701f2d4917f3e600176fe65a21d4caa6bba2eb6190",
             "packed": false
+        },
+        {
+            "name": "check-cpufreq_governor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/geminilake-4.4.180/check-cpufreq_governor.sh",
+            "sha256": "6826297513ee68f253a5bfce76ef862c3b950804823d70e8c59788e7c4a876db",
+            "packed": false
         }
     ],
     "kmods": {

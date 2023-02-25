@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/geminilake-4.4.180/cdrom.ko",
             "sha256": "8d1ed70a778e5e3e9c5d6525f8aefa2551d8220eed7e9a0e31a9b50e9a78490d",
             "packed": false
+        },
+        {
+            "name": "check-cdrom.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/geminilake-4.4.180/check-cdrom.sh",
+            "sha256": "6873fe11968fd7299c24c5520c413224c3507fac49e100aafea81843acccb65e",
+            "packed": false
         }
     ],
     "kmods": {

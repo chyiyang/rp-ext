@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "bnx2x.ko",
+            "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/bromolow-3.10.108/mdio.ko",
             "sha256": "2f2873bed0d690a6b2e3009f5f48cb44602c8679a08019f49a2d9271d14f7e45",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "bnx2x.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/bromolow-3.10.108/bnx2x.ko",
             "sha256": "6e10559a9878666624dd2bd427fb210ee0b0b452d7bfddb043601f86ad6a7f94",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/bromolow-3.10.108/check-bnx2x.sh",
+            "sha256": "894f1a67227bd977798597d06677aa27249b89b29dfa29ac0909b2d85eb43938",
             "packed": false
         }
     ],

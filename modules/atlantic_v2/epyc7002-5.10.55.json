@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic_v2/epyc7002-5.10.55/atlantic_v2.ko",
             "sha256": "2b8cc0074ea4b35497fdc77af10e8aa1b94a51d7b8113a5288af88315e6e73ed",
             "packed": false
+        },
+        {
+            "name": "check-atlantic_v2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic_v2/epyc7002-5.10.55/check-atlantic_v2.sh",
+            "sha256": "fb2ae3404b1f0a83bce16595faa5293e81e25f95e6a696e379770ff5f116df78",
+            "packed": false
         }
     ],
     "kmods": {

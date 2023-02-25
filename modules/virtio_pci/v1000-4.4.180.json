@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/v1000-4.4.180/virtio_pci.ko",
             "sha256": "2b74748320c43cbe8022a9d7f9376eb2003de2e3cc215617d43626dd29cf1a02",
             "packed": false
+        },
+        {
+            "name": "check-virtio_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/v1000-4.4.180/check-virtio_pci.sh",
+            "sha256": "40d2420952755855b0d9f71b9a8e2de85176b04e3d185f7a0d70718b8c39a3d9",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/bromolow-3.10.108/fb.ko",
             "sha256": "ea0728318d60ffff2b94158d44557f1e08127294c48fd09173ed971393cfbfb8",
             "packed": false
+        },
+        {
+            "name": "check-fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/bromolow-3.10.108/check-fb.sh",
+            "sha256": "7c70443a8a1fb3a5c63752c7519faabeaa8b3da8df27b1c16b774b5f3796ab4e",
+            "packed": false
         }
     ],
     "kmods": {

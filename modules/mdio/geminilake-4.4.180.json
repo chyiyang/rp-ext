@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/geminilake-4.4.180/mdio.ko",
             "sha256": "17c4337ea6b0be001d6520eff4c9d8b2f9c22af8abe450969b1d13dd1219272f",
             "packed": false
+        },
+        {
+            "name": "check-mdio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/geminilake-4.4.180/check-mdio.sh",
+            "sha256": "567ed3584acd22ef06d1a8a2071e3eadc7a3a30a865a16c4b0a0dee00253a11e",
+            "packed": false
         }
     ],
     "kmods": {

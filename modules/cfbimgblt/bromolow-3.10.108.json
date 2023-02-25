@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/bromolow-3.10.108/cfbimgblt.ko",
             "sha256": "5ec57dd7e325cda1c49346530c257dbe7384630c9c77ca278c682ac497a36729",
             "packed": false
+        },
+        {
+            "name": "check-cfbimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/bromolow-3.10.108/check-cfbimgblt.sh",
+            "sha256": "57478f226b996ff5259eaa62bff2497ade7b9e6f5998dbbba9442b02ff0695ad",
+            "packed": false
         }
     ],
     "kmods": {

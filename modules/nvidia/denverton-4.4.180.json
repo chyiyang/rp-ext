@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nvidia/denverton-4.4.180/nvidia.ko",
             "sha256": "8bd418a3acb24602ad8b02eb8fd102642c99065a42870384b49cccfd3882afa5",
             "packed": false
+        },
+        {
+            "name": "check-nvidia.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nvidia/denverton-4.4.180/check-nvidia.sh",
+            "sha256": "09fbd0fe0ed542a5b3581bdd62324e35d146525b2ca170f4645a0f4b24c59e7e",
+            "packed": false
         }
     ],
     "kmods": {

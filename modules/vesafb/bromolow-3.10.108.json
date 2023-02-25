@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/bromolow-3.10.108/vesafb.ko",
             "sha256": "fe32b48f434165ae617cd57a6f9e542283ae81c1ff079fcf24fc5cce28e139e1",
             "packed": false
+        },
+        {
+            "name": "check-vesafb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/bromolow-3.10.108/check-vesafb.sh",
+            "sha256": "48af516ea72cc59726e6a3b1eb9805054005ac4deea0d1589d598db2aa1e6126",
+            "packed": false
         }
     ],
     "kmods": {

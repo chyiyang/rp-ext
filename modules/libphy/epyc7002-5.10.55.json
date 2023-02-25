@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/epyc7002-5.10.55/libphy.ko",
             "sha256": "9161d428dbaa4821de436309c4b6c642555209fdc8c1c6139a0042b114e94bc1",
             "packed": false
+        },
+        {
+            "name": "check-libphy.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/epyc7002-5.10.55/check-libphy.sh",
+            "sha256": "e0a7c579a63a41f7dce62df77c2a7f1878210ee2f739daa862285308c03600ee",
+            "packed": false
         }
     ],
     "kmods": {

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/bromolow-3.10.108/mpt3sas.ko",
             "sha256": "4fe3ece0236933bdbbec8b0f3c39a986ba96dad9e464c6a00bd95a23ba5d199d",
             "packed": false
+        },
+        {
+            "name": "check-mpt3sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/bromolow-3.10.108/check-mpt3sas.sh",
+            "sha256": "b36795c7b1be9bc0b80d5d05d9d89f30f6346a691ff001517e7fa5c8be2944b5",
+            "packed": false
         }
     ],
     "kmods": {

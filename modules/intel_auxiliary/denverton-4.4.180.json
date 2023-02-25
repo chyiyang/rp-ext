@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/denverton-4.4.180/intel_auxiliary.ko",
             "sha256": "ed65edd5f41830efb0a40e09c264d8b3bfc6304beeb3c20b61ea812d1789f042",
             "packed": false
+        },
+        {
+            "name": "check-intel_auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/denverton-4.4.180/check-intel_auxiliary.sh",
+            "sha256": "340f4c6b97b0bfd51322b44dc3bd02ddf57f5245c8c0661e0598003dc3d9082d",
+            "packed": false
         }
     ],
     "kmods": {

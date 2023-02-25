@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/v1000-4.4.180/rc-core.ko",
             "sha256": "7d3d3387d675f216c22645a737e7b83b9c3c1a2d642e04835ae2898ec3452008",
             "packed": false
+        },
+        {
+            "name": "check-rc-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/v1000-4.4.180/check-rc-core.sh",
+            "sha256": "ad36a84f398935fb3ca9b147865c52387e98c302997adeb6d96a87d9ca870b48",
+            "packed": false
         }
     ],
     "kmods": {

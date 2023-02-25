@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/apollolake-4.4.180/mlxsw_core.ko",
             "sha256": "60dd247fa1b27e0d5f845f1afb65bba6c731e669a88748f22932c6551584863a",
             "packed": false
+        },
+        {
+            "name": "check-mlxsw_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/apollolake-4.4.180/check-mlxsw_core.sh",
+            "sha256": "e85abca39e52828fb041902093b46360b1417393b8a563e2e4dc0a5860d77c2e",
+            "packed": false
         }
     ],
     "kmods": {

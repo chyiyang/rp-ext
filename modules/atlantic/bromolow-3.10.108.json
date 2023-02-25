@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "atlantic.ko",
+            "name": "crc-itu-t.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/bromolow-3.10.108/crc-itu-t.ko",
             "sha256": "eb954fd4b344ae12791be47f28bf9b878ca397c2b6b6036da5e350e89a2d973f",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "atlantic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/bromolow-3.10.108/atlantic.ko",
             "sha256": "49008bd04fc00be284e79a4d03287c88b439096a8a783e71efc163dabae5f7a7",
+            "packed": false
+        },
+        {
+            "name": "check-atlantic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/bromolow-3.10.108/check-atlantic.sh",
+            "sha256": "a2b5534ccdf7f6656b59f6513feb0c0107fc28b2e4c6a00fa04eb19574a81c49",
             "packed": false
         }
     ],

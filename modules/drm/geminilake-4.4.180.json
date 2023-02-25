@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "drm.ko",
+            "name": "drm_panel_orientation_quirks.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm/geminilake-4.4.180/drm_panel_orientation_quirks.ko",
             "sha256": "c75c48a0e023d4762b66ddc4272659987ff99ae1ac840c96c12ee1abd7dba53f",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "drm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm/geminilake-4.4.180/drm.ko",
             "sha256": "7877250b1e6c6697f7bacff839137f3ed116cd9ca5557dd370ea4c0ed61dd7fa",
+            "packed": false
+        },
+        {
+            "name": "check-drm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm/geminilake-4.4.180/check-drm.sh",
+            "sha256": "00e42023c7987bbf8d72b2459c3fcb6b110c62de8880420cfc9529b88eaf0164",
             "packed": false
         }
     ],

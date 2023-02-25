@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/apollolake-4.4.180/cdc_ncm.ko",
             "sha256": "cdf327a8f3841f9eb1fd9a74a20f31e40a4342cc7c1f4a86d445a0177d588df0",
             "packed": false
+        },
+        {
+            "name": "check-cdc_ncm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/apollolake-4.4.180/check-cdc_ncm.sh",
+            "sha256": "5aa9e241fe601e29b86344ef49f874b8ba969597b8a50def4268475afe426ee8",
+            "packed": false
         }
     ],
     "kmods": {

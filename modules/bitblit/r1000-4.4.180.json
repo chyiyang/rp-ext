@@ -2,13 +2,13 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "bitblit.ko",
+            "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/r1000-4.4.180/fb.ko",
             "sha256": "d4e1f4aa2f6b9632978f455e57dade41635635ce18deaccc7b18e495f54f61f4",
             "packed": false
         },
         {
-            "name": "bitblit.ko",
+            "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/r1000-4.4.180/softcursor.ko",
             "sha256": "6008c2684289d3e687c92b3ab357caecc865fb176570a1db33cb22640526661d",
             "packed": false
@@ -17,6 +17,12 @@
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/r1000-4.4.180/bitblit.ko",
             "sha256": "ed3db7a35b19e3f5edb6f65c86ba317f7390fd7a2cb17dc38292c45a756621ed",
+            "packed": false
+        },
+        {
+            "name": "check-bitblit.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/r1000-4.4.180/check-bitblit.sh",
+            "sha256": "380ca5e65efa1295e23b26069005aede37560a05bd9ad0124b2cadc47751e6c6",
             "packed": false
         }
     ],

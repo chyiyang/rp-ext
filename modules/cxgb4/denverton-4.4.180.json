@@ -6,12 +6,31 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/denverton-4.4.180/cxgb4.ko",
             "sha256": "e099ba8f4291c234b94ab6a8d5c39914bb2628b3419334d6d62f3f5a5585f5df",
             "packed": false
+        },
+        {
+            "name": "check-cxgb4.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/denverton-4.4.180/check-cxgb4.sh",
+            "sha256": "7131e1c44a73ea6454de1db1571e116619bc0b040822d750e33197899ecd3afe",
+            "packed": false
+        },
+        {
+            "name": "cxgb4_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/denverton-4.4.180/cxgb4_firmware.tag.gz",
+            "sha256": "56d20450ca42f258d97467e7c288e7db428325d348881c8f5569ccef57f22ad9",
+            "packed": false
+        },
+        {
+            "name": "install-cxgb4.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/denverton-4.4.180/install-cxgb4.sh",
+            "sha256": "1ecca0440aee8408d1bdc03605075a93198ac94f281f17a9fa33c0051d9e04fc",
+            "packed": false
         }
     ],
     "kmods": {
         "cxgb4.ko": ""
     },
     "scripts": {
-        "on_boot": "check-cxgb4.sh"
+        "on_boot": "check-cxgb4.sh",
+        "on_os_load": "install-cxgb4.sh"
     }
 }

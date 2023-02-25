@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/denverton-4.4.180/rc-core.ko",
             "sha256": "b2e63f68852136a2eda66156277cb37965edbc01c6922ce175b9746ecaf8b42a",
             "packed": false
+        },
+        {
+            "name": "check-rc-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/denverton-4.4.180/check-rc-core.sh",
+            "sha256": "ad36a84f398935fb3ca9b147865c52387e98c302997adeb6d96a87d9ca870b48",
+            "packed": false
         }
     ],
     "kmods": {

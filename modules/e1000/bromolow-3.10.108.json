@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/bromolow-3.10.108/e1000.ko",
             "sha256": "37c79142015ff7ac841bd399f1d943ec3813e1c643ddcee441a98bbba656cf65",
             "packed": false
+        },
+        {
+            "name": "check-e1000.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/bromolow-3.10.108/check-e1000.sh",
+            "sha256": "0573c8065d281b1eb67939392090857956cb7b848ebb2f1781d769d39e1cc26b",
+            "packed": false
         }
     ],
     "kmods": {

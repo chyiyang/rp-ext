@@ -2,13 +2,13 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mptsas.ko",
+            "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/bromolow-3.10.108/mptscsih.ko",
             "sha256": "ad62c4fe48ab967f37c0856d2168c9a182c66740235e2b51f3cb032bcb7aab4c",
             "packed": false
         },
         {
-            "name": "mptsas.ko",
+            "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/bromolow-3.10.108/mptbase.ko",
             "sha256": "fcda9730f8473ebadf2435732222b72a4ccc7519ee39c91826aec0ea58af2dd1",
             "packed": false
@@ -17,6 +17,12 @@
             "name": "mptsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/bromolow-3.10.108/mptsas.ko",
             "sha256": "682a3101d93bae00fedbc86ec15c0b7e9c00900acfddad31c3155124daf6780f",
+            "packed": false
+        },
+        {
+            "name": "check-mptsas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/bromolow-3.10.108/check-mptsas.sh",
+            "sha256": "a3c1072cbcb0cba85438cc00d8b94a75be61ec91eaac787e5ae22512895949ee",
             "packed": false
         }
     ],

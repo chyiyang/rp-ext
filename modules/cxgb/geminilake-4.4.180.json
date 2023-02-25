@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "cxgb.ko",
+            "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/geminilake-4.4.180/mdio.ko",
             "sha256": "17c4337ea6b0be001d6520eff4c9d8b2f9c22af8abe450969b1d13dd1219272f",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "cxgb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/geminilake-4.4.180/cxgb.ko",
             "sha256": "f59772cc0548515498a0616c72a562382cc220286ce692f2d01ce1169078cfe3",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/geminilake-4.4.180/check-cxgb.sh",
+            "sha256": "9943aedbaaf1e5194a758b510259c88662c94d5b073c4cdd96dc97e699028cb2",
             "packed": false
         }
     ],

@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/broadwell-4.4.180/atl1c.ko",
             "sha256": "2f14a9e4f8f76555d896ecab22e14c34c85a6591969917159d1a873fe6ac5803",
             "packed": false
+        },
+        {
+            "name": "check-atl1c.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/broadwell-4.4.180/check-atl1c.sh",
+            "sha256": "e7307770c4b19a5a89a72685de892667edc87e38cb37694a9672f6e284230063",
+            "packed": false
         }
     ],
     "kmods": {

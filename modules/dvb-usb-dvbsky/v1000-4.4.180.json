@@ -2,25 +2,25 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "dvb-usb-dvbsky.ko",
+            "name": "dvb_usb_v2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.180/dvb_usb_v2.ko",
             "sha256": "8f0c530efce1a1ea0b3ef5be3f5a9cf9b28b83f53201d7e49db1c34e180101f6",
             "packed": false
         },
         {
-            "name": "dvb-usb-dvbsky.ko",
+            "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.180/dvb-core.ko",
             "sha256": "802fe1242067bd129efcad1f08d29690a1477cc1021333b6cf2731702777b0ff",
             "packed": false
         },
         {
-            "name": "dvb-usb-dvbsky.ko",
+            "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.180/rc-core.ko",
             "sha256": "7d3d3387d675f216c22645a737e7b83b9c3c1a2d642e04835ae2898ec3452008",
             "packed": false
         },
         {
-            "name": "dvb-usb-dvbsky.ko",
+            "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.180/m88ds3103.ko",
             "sha256": "cc08a39dbc45bf4d3b46789e5154ba08cb80c24429071d58c97136b37c953f35",
             "packed": false
@@ -29,6 +29,24 @@
             "name": "dvb-usb-dvbsky.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.180/dvb-usb-dvbsky.ko",
             "sha256": "f89a857885d2fb6dd8786bed1ae9c6cb9bb1e8f7d95f48fa9b767e913c04acfb",
+            "packed": false
+        },
+        {
+            "name": "check-dvb-usb-dvbsky.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.180/check-dvb-usb-dvbsky.sh",
+            "sha256": "b251022128b8d4fbf488fa9c5fe4b87a6c918cf0280e3e4338ecaa6b2d9b32c3",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dvbsky_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.180/dvb-usb-dvbsky_firmware.tag.gz",
+            "sha256": "90c4d40f49d980e015fbe11a0a656da1fbc7d1a88882cac7f290e006978a81df",
+            "packed": false
+        },
+        {
+            "name": "install-dvb-usb-dvbsky.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.180/install-dvb-usb-dvbsky.sh",
+            "sha256": "1641d3b4fed829dd705a862a2e0a5c8b5d2c440217e9db85060e97c75af23fa0",
             "packed": false
         }
     ],
@@ -40,6 +58,7 @@
         "dvb-usb-dvbsky.ko": ""
     },
     "scripts": {
-        "on_boot": "check-dvb-usb-dvbsky.sh"
+        "on_boot": "check-dvb-usb-dvbsky.sh",
+        "on_os_load": "install-dvb-usb-dvbsky.sh"
     }
 }

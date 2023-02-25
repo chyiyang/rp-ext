@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/bromolow-3.10.108/fbdev.ko",
             "sha256": "d3ab2485825ecf3444212629f74563bbaca39eab1bb635d12daa0907fcee7db5",
             "packed": false
+        },
+        {
+            "name": "check-fbdev.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/bromolow-3.10.108/check-fbdev.sh",
+            "sha256": "4270278943bfd9f5d9e984f48d64a548528031b0d15fbb7f4b9752573013ce06",
+            "packed": false
         }
     ],
     "kmods": {

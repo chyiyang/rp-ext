@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/v1000-4.4.180/vesafb.ko",
             "sha256": "3a2a3d9e23f38f8bcf50e4a6259f2ae94451c5d15777a7b7bdb5b60bd4818bc4",
             "packed": false
+        },
+        {
+            "name": "check-vesafb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/v1000-4.4.180/check-vesafb.sh",
+            "sha256": "48af516ea72cc59726e6a3b1eb9805054005ac4deea0d1589d598db2aa1e6126",
+            "packed": false
         }
     ],
     "kmods": {

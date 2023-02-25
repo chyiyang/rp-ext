@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/v1000-4.4.180/vmw_pvscsi.ko",
             "sha256": "5298483eb3ca92ff967b1836158fd855f4166ecb697d6ca0b6aec88a3859b945",
             "packed": false
+        },
+        {
+            "name": "check-vmw_pvscsi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/v1000-4.4.180/check-vmw_pvscsi.sh",
+            "sha256": "852cec60cd99a2524b4985ea7c000a6654b9630520e3ae397b7acb1ade50409f",
+            "packed": false
         }
     ],
     "kmods": {

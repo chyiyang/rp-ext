@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/blk-mq-virtio/epyc7002-5.10.55/blk-mq-virtio.ko",
             "sha256": "ebe098e32ce807aa0d07879e2020d9caf919059025d2ebd2a5790c81f2e13cc4",
             "packed": false
+        },
+        {
+            "name": "check-blk-mq-virtio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/blk-mq-virtio/epyc7002-5.10.55/check-blk-mq-virtio.sh",
+            "sha256": "56ee7fb5490882cc621b0d6500146cb440b5b85f61f42bca1cc10da48f23dcc8",
+            "packed": false
         }
     ],
     "kmods": {

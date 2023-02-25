@@ -6,12 +6,31 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/geminilake-4.4.180/cxgb4.ko",
             "sha256": "4642b89bbc9666c89e2d35261bf9446250306943a6c53dcc429c3fcae3d879d6",
             "packed": false
+        },
+        {
+            "name": "check-cxgb4.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/geminilake-4.4.180/check-cxgb4.sh",
+            "sha256": "7131e1c44a73ea6454de1db1571e116619bc0b040822d750e33197899ecd3afe",
+            "packed": false
+        },
+        {
+            "name": "cxgb4_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/geminilake-4.4.180/cxgb4_firmware.tag.gz",
+            "sha256": "4bde494a1a224c0eef68c351e8035c156d63e9be664cd091c478ed68766ad5ce",
+            "packed": false
+        },
+        {
+            "name": "install-cxgb4.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/geminilake-4.4.180/install-cxgb4.sh",
+            "sha256": "1ecca0440aee8408d1bdc03605075a93198ac94f281f17a9fa33c0051d9e04fc",
+            "packed": false
         }
     ],
     "kmods": {
         "cxgb4.ko": ""
     },
     "scripts": {
-        "on_boot": "check-cxgb4.sh"
+        "on_boot": "check-cxgb4.sh",
+        "on_os_load": "install-cxgb4.sh"
     }
 }

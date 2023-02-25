@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/denverton-4.4.180/sky2.ko",
             "sha256": "7c2d1cf293ea5c21058b8d029e7dd47aa81f44b276fe9c252a8fcca5c7db1079",
             "packed": false
+        },
+        {
+            "name": "check-sky2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/denverton-4.4.180/check-sky2.sh",
+            "sha256": "248a91777a29890d02953dbe261532a8908b889059b90b4a7d114621853b28cf",
+            "packed": false
         }
     ],
     "kmods": {

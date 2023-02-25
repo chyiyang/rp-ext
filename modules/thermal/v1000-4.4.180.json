@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/v1000-4.4.180/thermal.ko",
             "sha256": "1df383272ed96416a78fb139753e03180a380075ad74f2a006d869923460b6dd",
             "packed": false
+        },
+        {
+            "name": "check-thermal.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/v1000-4.4.180/check-thermal.sh",
+            "sha256": "27554357103fcc821c2fb064a04c7fe276f90b091e81e8cd73e277b150c6cac8",
+            "packed": false
         }
     ],
     "kmods": {

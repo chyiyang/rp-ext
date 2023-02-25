@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/r1000-4.4.180/ehci-hcd.ko",
             "sha256": "ef6175485ea4a53f7e7567ed2cc656132ae0095388b07d88ac569dc6efd36dbd",
             "packed": false
+        },
+        {
+            "name": "check-ehci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/r1000-4.4.180/check-ehci-hcd.sh",
+            "sha256": "62ffda1072a2ac674289233daa37592fb9d3f225443f9c3d2970030562aa13cf",
+            "packed": false
         }
     ],
     "kmods": {

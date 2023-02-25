@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/amd-xgbe/v1000-4.4.180/amd-xgbe.ko",
             "sha256": "840273d8d224207c925bec69c9398dce1b17408128998838962d2af92187288f",
             "packed": false
+        },
+        {
+            "name": "check-amd-xgbe.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/amd-xgbe/v1000-4.4.180/check-amd-xgbe.sh",
+            "sha256": "a54d260d2ba89f1518fe9532572f84fefb2df3ff7318368a0be60f048fd68074",
+            "packed": false
         }
     ],
     "kmods": {

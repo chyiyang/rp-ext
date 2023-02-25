@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/epyc7002-5.10.55/ixgbevf.ko",
             "sha256": "aa364d6ac6edb3fbcf0499f50d655ade3d77f842fe869cfffd60f8c78fa4dc13",
             "packed": false
+        },
+        {
+            "name": "check-ixgbevf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/epyc7002-5.10.55/check-ixgbevf.sh",
+            "sha256": "a8a5443603b575f28127041b9c8e916ee5ff90564c4bff89507a7cf9c7ae21a7",
+            "packed": false
         }
     ],
     "kmods": {

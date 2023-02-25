@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/apollolake-4.4.180/scsi_transport_sas.ko",
             "sha256": "50bccd26293d9700a0d6fcad9ae91106d8a9414581c23f6bf756f28420952f59",
             "packed": false
+        },
+        {
+            "name": "check-scsi_transport_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/apollolake-4.4.180/check-scsi_transport_sas.sh",
+            "sha256": "2ca154b5d73a837499c4974e4ec1b17bcc2ad61ad8dd3ef421a9a250838c46ea",
+            "packed": false
         }
     ],
     "kmods": {

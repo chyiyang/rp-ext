@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "softcursor.ko",
+            "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/r1000-4.4.180/fb.ko",
             "sha256": "d4e1f4aa2f6b9632978f455e57dade41635635ce18deaccc7b18e495f54f61f4",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/r1000-4.4.180/softcursor.ko",
             "sha256": "6008c2684289d3e687c92b3ab357caecc865fb176570a1db33cb22640526661d",
+            "packed": false
+        },
+        {
+            "name": "check-softcursor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/r1000-4.4.180/check-softcursor.sh",
+            "sha256": "3022eaa57a7ccca216d7f4f2f63861650e6a183ad2ee080c4d7de7ed5a4f62a6",
             "packed": false
         }
     ],

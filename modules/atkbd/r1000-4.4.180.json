@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/r1000-4.4.180/atkbd.ko",
             "sha256": "7d73761c147bbc724c56318b1a74fbead12d0a9331f69d1edf0489b8355eafd5",
             "packed": false
+        },
+        {
+            "name": "check-atkbd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/r1000-4.4.180/check-atkbd.sh",
+            "sha256": "92dee4fcf899033fd10ad3a714b522524e68775b71a16e6174c91d3ad5747207",
+            "packed": false
         }
     ],
     "kmods": {

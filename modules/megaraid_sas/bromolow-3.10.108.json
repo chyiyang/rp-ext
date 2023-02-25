@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/bromolow-3.10.108/megaraid_sas.ko",
             "sha256": "4a15a6cffde601e64a21c6792ecce0a12927ee0c7fcb3bf9f0965a7fc7fa50fe",
             "packed": false
+        },
+        {
+            "name": "check-megaraid_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/bromolow-3.10.108/check-megaraid_sas.sh",
+            "sha256": "6e7f79b947f82fbdf9c78252a95f5efe7b93cb26cfe15462e4aa13a92a4b4cf3",
+            "packed": false
         }
     ],
     "kmods": {

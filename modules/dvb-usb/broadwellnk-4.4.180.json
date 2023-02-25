@@ -2,13 +2,13 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "dvb-usb.ko",
+            "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwellnk-4.4.180/rc-core.ko",
             "sha256": "25a4b5ffb054d36ab49594a945bc7948f63690eacdfa6695a9b1cf8b961da0b7",
             "packed": false
         },
         {
-            "name": "dvb-usb.ko",
+            "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwellnk-4.4.180/dvb-core.ko",
             "sha256": "2795eb00cc824f4380c542898fec4200a24fb494d9d3b8a4eebd9a4e114bfda1",
             "packed": false
@@ -17,6 +17,12 @@
             "name": "dvb-usb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwellnk-4.4.180/dvb-usb.ko",
             "sha256": "960b6e03dcac81c09ffb63b18e350c5defb45e377c49fb7687e805e7b61d2930",
+            "packed": false
+        },
+        {
+            "name": "check-dvb-usb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwellnk-4.4.180/check-dvb-usb.sh",
+            "sha256": "cebb64c5d5f41e9d294489a06951552bfa038b60baf79d80f6641ff6589bbf85",
             "packed": false
         }
     ],

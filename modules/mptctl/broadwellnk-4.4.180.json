@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mptctl.ko",
+            "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/broadwellnk-4.4.180/mptbase.ko",
             "sha256": "3421047e68ecb5ad77e9af9807a1373c6809b3947460cb09ee88a4e72c996238",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mptctl.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/broadwellnk-4.4.180/mptctl.ko",
             "sha256": "9d32d607ce0f0d09a4fd63dc0661030591233c8753d0ed19d48e3ac9549eb6a3",
+            "packed": false
+        },
+        {
+            "name": "check-mptctl.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/broadwellnk-4.4.180/check-mptctl.sh",
+            "sha256": "f043798995e78f581e0bdaa99ee51f4695794e78daad01868ac0e012a2fa82fe",
             "packed": false
         }
     ],

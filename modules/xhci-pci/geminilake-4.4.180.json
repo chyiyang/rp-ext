@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/geminilake-4.4.180/xhci-pci.ko",
             "sha256": "49a79ef63167dba52b01a7035866a4df3e38eb03ff8e6044a81dd3d75697d4da",
             "packed": false
+        },
+        {
+            "name": "check-xhci-pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/geminilake-4.4.180/check-xhci-pci.sh",
+            "sha256": "4737e8cd91d5ea5db247c6e4797046e8eccb3876c8ad7bf7c89261d2177b79e5",
+            "packed": false
         }
     ],
     "kmods": {

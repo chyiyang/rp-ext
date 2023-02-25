@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/broadwell-4.4.180/sysfillrect.ko",
             "sha256": "738014e47f5e4361e1ba3d927b9a0929dcc6c0cf60c248a932b8124fe610eb18",
             "packed": false
+        },
+        {
+            "name": "check-sysfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/broadwell-4.4.180/check-sysfillrect.sh",
+            "sha256": "16c3ac381db586a83f71f5f70acc563c9f4b5d35219c551c021ff63626d014cd",
+            "packed": false
         }
     ],
     "kmods": {

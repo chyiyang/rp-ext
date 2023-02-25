@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "ice.ko",
+            "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/v1000-4.4.180/auxiliary.ko",
             "sha256": "41c93fe855426abda37bd6e5a55fc23586b65e19f7cd06c3769729d5c58560d5",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "ice.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/v1000-4.4.180/ice.ko",
             "sha256": "abd6075229a1fc127109ec07310cf0574d7c92930396b7fac10916d52613d176",
+            "packed": false
+        },
+        {
+            "name": "check-ice.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/v1000-4.4.180/check-ice.sh",
+            "sha256": "1f8e01a7316db89bcbb979b8fca887d45586155bed2713d40a504c6e389ede4c",
             "packed": false
         }
     ],

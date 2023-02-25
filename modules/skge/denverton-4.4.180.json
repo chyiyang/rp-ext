@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/denverton-4.4.180/skge.ko",
             "sha256": "a178b2bffbace33b1f224f7387efefa8270b5eeb24458700e3003bb0b5acc458",
             "packed": false
+        },
+        {
+            "name": "check-skge.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/denverton-4.4.180/check-skge.sh",
+            "sha256": "b721ba024833984da406b996fcbea6f2c6290ffaf7a835b95f8a2abaaf103625",
+            "packed": false
         }
     ],
     "kmods": {

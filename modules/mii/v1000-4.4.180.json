@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/v1000-4.4.180/mii.ko",
             "sha256": "e7bff4eb1d691aff6734d43e068cdbc0e8cb540e97e98468b59dc4349751d6d2",
             "packed": false
+        },
+        {
+            "name": "check-mii.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/v1000-4.4.180/check-mii.sh",
+            "sha256": "3c172adce5984094e281a5b39030ef2c5bb78034a5377b3c1deadd038037a33c",
+            "packed": false
         }
     ],
     "kmods": {

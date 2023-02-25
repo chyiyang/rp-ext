@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/bromolow-3.10.108/crc-itu-t.ko",
             "sha256": "eb954fd4b344ae12791be47f28bf9b878ca397c2b6b6036da5e350e89a2d973f",
             "packed": false
+        },
+        {
+            "name": "check-crc-itu-t.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/bromolow-3.10.108/check-crc-itu-t.sh",
+            "sha256": "41dfe6680f175a93dc96e1bc8a72f3a193b8a64c058b8d3edaf612ba3b420a38",
+            "packed": false
         }
     ],
     "kmods": {

@@ -2,25 +2,25 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "efifb.ko",
+            "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.180/cfbimgblt.ko",
             "sha256": "bbcf44bacc34d6c1b1b4336e9b23858242e4d48430868e658e194f107badb4c1",
             "packed": false
         },
         {
-            "name": "efifb.ko",
+            "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.180/cfbcopyarea.ko",
             "sha256": "6117bedc63c1b8eb88b42e66da850a2e9eb638948c27cf9ed9c716c86e42bd06",
             "packed": false
         },
         {
-            "name": "efifb.ko",
+            "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.180/cfbfillrect.ko",
             "sha256": "a41686921513d84e708fc17939b24650db6397bcfa9cb0dd72572e66691c6735",
             "packed": false
         },
         {
-            "name": "efifb.ko",
+            "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.180/fb.ko",
             "sha256": "8791a2dd23ba996c04d5cf6ac78299b1404c86552c740c6803334f747a3a5767",
             "packed": false
@@ -29,6 +29,12 @@
             "name": "efifb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.180/efifb.ko",
             "sha256": "4ae6720c92c1c39a0ea489ab60a624e48284a07197ed3f6f6ec5376d72a39f2a",
+            "packed": false
+        },
+        {
+            "name": "check-efifb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.180/check-efifb.sh",
+            "sha256": "3c79b757f76602dd9faa98ec886039153624ddbbb0ed1260238a0761529b46f8",
             "packed": false
         }
     ],

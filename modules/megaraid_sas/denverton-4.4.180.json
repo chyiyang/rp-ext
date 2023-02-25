@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/denverton-4.4.180/megaraid_sas.ko",
             "sha256": "20c467b8ecd3dfd00ccb0fce456506b3e349a5164f4b57ffdde142ed19f23641",
             "packed": false
+        },
+        {
+            "name": "check-megaraid_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/denverton-4.4.180/check-megaraid_sas.sh",
+            "sha256": "6e7f79b947f82fbdf9c78252a95f5efe7b93cb26cfe15462e4aa13a92a4b4cf3",
+            "packed": false
         }
     ],
     "kmods": {

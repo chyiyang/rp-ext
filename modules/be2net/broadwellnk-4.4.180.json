@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/broadwellnk-4.4.180/be2net.ko",
             "sha256": "f12bb32c1d5ec65a997d6b500fe3b2b5e6e196076333dfa3fc0aa8a4016387c1",
             "packed": false
+        },
+        {
+            "name": "check-be2net.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/broadwellnk-4.4.180/check-be2net.sh",
+            "sha256": "f819a067c8d382088eedd35569aa1d9808ca89c8717dde9f4ae22e9bc9806e89",
+            "packed": false
         }
     ],
     "kmods": {

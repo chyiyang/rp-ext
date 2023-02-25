@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/bromolow-3.10.108/vmxnet3.ko",
             "sha256": "1e17ee6dec80df9fa5590b31db663f3be74c226c4a49d390bec21b306dff637f",
             "packed": false
+        },
+        {
+            "name": "check-vmxnet3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/bromolow-3.10.108/check-vmxnet3.sh",
+            "sha256": "ffa24196bcbcabcf150fe9decc495448aa88e96b8121a8017eebf6ce0c2ecfd5",
+            "packed": false
         }
     ],
     "kmods": {

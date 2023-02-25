@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/broadwellnk-4.4.180/igbvf.ko",
             "sha256": "507e2e01a6d0847a7ec6ab3c9e268145ecf547e1edb3a13d29fc3dc9eca0ad0e",
             "packed": false
+        },
+        {
+            "name": "check-igbvf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/broadwellnk-4.4.180/check-igbvf.sh",
+            "sha256": "8b50ab19e33adb53893d3bb56c6cc16e4c9933439f4f123be38b6fdcbfe22748",
+            "packed": false
         }
     ],
     "kmods": {

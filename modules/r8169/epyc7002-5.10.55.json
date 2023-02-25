@@ -2,13 +2,13 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "r8169.ko",
+            "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-5.10.55/libphy.ko",
             "sha256": "9161d428dbaa4821de436309c4b6c642555209fdc8c1c6139a0042b114e94bc1",
             "packed": false
         },
         {
-            "name": "r8169.ko",
+            "name": "mdio_devres.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-5.10.55/mdio_devres.ko",
             "sha256": "a690d89ed2d0e678ad48b667cde81ec38394e4820808c065e2bb1804bf2dad52",
             "packed": false
@@ -18,6 +18,24 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-5.10.55/r8169.ko",
             "sha256": "9194fa8206a03da9189fb36fb4f44c44dc6251cb8ebd5f591afc9259294aba92",
             "packed": false
+        },
+        {
+            "name": "check-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-5.10.55/check-r8169.sh",
+            "sha256": "19c16cc1b2f00555d4e20b1ccc8c8302260d7c55492b3b4a1e1758f12ce6d766",
+            "packed": false
+        },
+        {
+            "name": "r8169_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-5.10.55/r8169_firmware.tag.gz",
+            "sha256": "168eb08e557e09b866590124b9ee013d7bb0ec4415b0b8ced5f64b292df97b5b",
+            "packed": false
+        },
+        {
+            "name": "install-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-5.10.55/install-r8169.sh",
+            "sha256": "204148a30c10ee18f3a46d8555779e0781b3a438134b0e4612a9d9eaf2b5d9dc",
+            "packed": false
         }
     ],
     "kmods": {
@@ -26,6 +44,7 @@
         "r8169.ko": ""
     },
     "scripts": {
-        "on_boot": "check-r8169.sh"
+        "on_boot": "check-r8169.sh",
+        "on_os_load": "install-r8169.sh"
     }
 }

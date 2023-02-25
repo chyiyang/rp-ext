@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/r1000-4.4.180/syscopyarea.ko",
             "sha256": "f3c8b0d88c4a58c36e566613e0f8a5a264348c715954b82b365dc3ec721b48c7",
             "packed": false
+        },
+        {
+            "name": "check-syscopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/r1000-4.4.180/check-syscopyarea.sh",
+            "sha256": "a5f708a2c29c0f9ff958ad432f221f8b3824f9f91f5d3564a18a204a94a86466",
+            "packed": false
         }
     ],
     "kmods": {

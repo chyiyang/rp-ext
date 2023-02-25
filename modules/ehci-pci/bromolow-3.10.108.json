@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "ehci-pci.ko",
+            "name": "ehci-hcd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/bromolow-3.10.108/ehci-hcd.ko",
             "sha256": "6edf91b5cc3fb69b4e4c8815ee208157a7f32f4f65eb2418ea04415193f7d145",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "ehci-pci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/bromolow-3.10.108/ehci-pci.ko",
             "sha256": "37ebeda224345940030056666d064e88366029a7380013a71b1957786eec36ce",
+            "packed": false
+        },
+        {
+            "name": "check-ehci-pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/bromolow-3.10.108/check-ehci-pci.sh",
+            "sha256": "3b6c212f8b0ea7bee398f97ed6d1cb73d5f4e08f8c986dae9064146d9b1ee907",
             "packed": false
         }
     ],

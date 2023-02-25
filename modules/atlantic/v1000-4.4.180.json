@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "atlantic.ko",
+            "name": "crc-itu-t.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/v1000-4.4.180/crc-itu-t.ko",
             "sha256": "b8efd417b543341d684d6d0b7cd6b4c6b56b2e2f79ef1192d448a99d1058ae6b",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "atlantic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/v1000-4.4.180/atlantic.ko",
             "sha256": "8cb982f9687fb550b1ae639ea39185a9db11f1a7534d64425eeada1231166a12",
+            "packed": false
+        },
+        {
+            "name": "check-atlantic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/v1000-4.4.180/check-atlantic.sh",
+            "sha256": "a2b5534ccdf7f6656b59f6513feb0c0107fc28b2e4c6a00fa04eb19574a81c49",
             "packed": false
         }
     ],

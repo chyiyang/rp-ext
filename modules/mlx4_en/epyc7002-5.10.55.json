@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "mlx4_en.ko",
+            "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-5.10.55/mlx4_core.ko",
             "sha256": "c8ccd0ff1ddec6eaf6315638de4efc75d42f03f7c9249a92187947edefefc399",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-5.10.55/mlx4_en.ko",
             "sha256": "939e528dbdac6d8d93419ffa8ec12606e7f2a51d53d82b9bf6be8e6d7bef22b0",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-5.10.55/check-mlx4_en.sh",
+            "sha256": "6361d25afad0ea2e6fa3fe703113aafac3f3964689bdca30416147005e804925",
             "packed": false
         }
     ],

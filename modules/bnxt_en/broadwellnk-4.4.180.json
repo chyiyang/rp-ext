@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/broadwellnk-4.4.180/bnxt_en.ko",
             "sha256": "c8418d17c70c6a71da19342012477b7bf810d27101a19bbecd51e14d59403756",
             "packed": false
+        },
+        {
+            "name": "check-bnxt_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/broadwellnk-4.4.180/check-bnxt_en.sh",
+            "sha256": "82220deef0ac8eb57c12a4c2c8942a511cefce62a5b67a242b49c44cdd8e58de",
+            "packed": false
         }
     ],
     "kmods": {

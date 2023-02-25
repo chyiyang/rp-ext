@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/bromolow-3.10.108/cpufreq_conservative.ko",
             "sha256": "2bd49a21f95ba686c0af614b81528ed2fc7b4a09695641ad4222d4a2e70548f5",
             "packed": false
+        },
+        {
+            "name": "check-cpufreq_conservative.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/bromolow-3.10.108/check-cpufreq_conservative.sh",
+            "sha256": "a37ee2961fc001c9fd74bada1e46dfd72627fbb9ff6653cfddfc9724d9026094",
+            "packed": false
         }
     ],
     "kmods": {

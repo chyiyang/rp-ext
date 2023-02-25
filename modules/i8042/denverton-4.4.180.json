@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/denverton-4.4.180/i8042.ko",
             "sha256": "04ab7a9d310d242579236714320067bec0ea51f7078db21b5be3358ead4f23b5",
             "packed": false
+        },
+        {
+            "name": "check-i8042.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/denverton-4.4.180/check-i8042.sh",
+            "sha256": "bc4b1c866facfac5c4e2e7096fcddf865d4b61cce7ff33c4ca3ba8d7903bd8cc",
+            "packed": false
         }
     ],
     "kmods": {

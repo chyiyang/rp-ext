@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/apollolake-4.4.180/sr_mod.ko",
             "sha256": "83e4be750c9fe17d2025069214b30274f743d56e85f4e375bb8056b117092e54",
             "packed": false
+        },
+        {
+            "name": "check-sr_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/apollolake-4.4.180/check-sr_mod.sh",
+            "sha256": "7cab760dd466126be79b4f5cccba60bbc8e28a3df0f754b8cf3f87ff780c0526",
+            "packed": false
         }
     ],
     "kmods": {

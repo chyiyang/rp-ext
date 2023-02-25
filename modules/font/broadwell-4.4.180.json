@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/broadwell-4.4.180/font.ko",
             "sha256": "40052b460e6497a4b07c2428f5bce35d533e73a161d452f86899b5736df1e8c0",
             "packed": false
+        },
+        {
+            "name": "check-font.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/broadwell-4.4.180/check-font.sh",
+            "sha256": "90487a747cba1cf9414dad04b1ed34a0ecdfbe7604be0603d9e99f68579ba66d",
+            "packed": false
         }
     ],
     "kmods": {

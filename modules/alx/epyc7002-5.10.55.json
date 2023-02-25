@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/epyc7002-5.10.55/alx.ko",
             "sha256": "493625daca604470e5067794c3b15d5b6324f24f80c65a025900fb77a69bfff2",
             "packed": false
+        },
+        {
+            "name": "check-alx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/epyc7002-5.10.55/check-alx.sh",
+            "sha256": "e39ae61fd5c15d099decd8322987712fcc339ce0bd2bddebfedf71a325ecaff2",
+            "packed": false
         }
     ],
     "kmods": {

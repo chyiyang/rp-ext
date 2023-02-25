@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/apollolake-4.4.180/hid-generic.ko",
             "sha256": "b47e7d8cb2d79008cb2a57870bd76535cae0b51f67251e594476679ac5465bfd",
             "packed": false
+        },
+        {
+            "name": "check-hid-generic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/apollolake-4.4.180/check-hid-generic.sh",
+            "sha256": "93a674a776a8a47c794c716c27c7fa5949999312319555839998d04e508744b2",
+            "packed": false
         }
     ],
     "kmods": {

@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "sdhci.ko",
+            "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/denverton-4.4.180/mmc_core.ko",
             "sha256": "e6b67d9d8e7fa46102feffe16647693eeaa0e58d56dce395bb94a79d06f02373",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "sdhci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/denverton-4.4.180/sdhci.ko",
             "sha256": "f97ee3417a174d2c9cd6e5839740308aaefda65afc30a2fac61bd46e4516c47d",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/denverton-4.4.180/check-sdhci.sh",
+            "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
             "packed": false
         }
     ],

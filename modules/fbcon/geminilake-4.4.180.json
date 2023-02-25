@@ -2,19 +2,19 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "fbcon.ko",
+            "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/geminilake-4.4.180/fb.ko",
             "sha256": "c063a5887130f52018d3e4b2bbeebe12b6e49b9d852ccb32bbf1c7ebf5aa60d8",
             "packed": false
         },
         {
-            "name": "fbcon.ko",
+            "name": "font.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/geminilake-4.4.180/font.ko",
             "sha256": "5893133a6dd5836ff2144212451302b5d320ba04bacb511fffb86395a26d5712",
             "packed": false
         },
         {
-            "name": "fbcon.ko",
+            "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/geminilake-4.4.180/bitblit.ko",
             "sha256": "017d96a51237cbd8fdcddcbaa26707367fb64c374c8755db52088952a2cc8060",
             "packed": false
@@ -23,6 +23,12 @@
             "name": "fbcon.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/geminilake-4.4.180/fbcon.ko",
             "sha256": "701c91df3d3ac5f5b5b8bc9f3f47c7255dfb1bfcf7cb60622278b7fd93b24fe0",
+            "packed": false
+        },
+        {
+            "name": "check-fbcon.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/geminilake-4.4.180/check-fbcon.sh",
+            "sha256": "6defb205e12ccc8f1cc937241f6e21d378d3cc387003a2b34a0c3b2153d573da",
             "packed": false
         }
     ],

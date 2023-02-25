@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/bromolow-3.10.108/sysfillrect.ko",
             "sha256": "c20d12448244123d224b08e2b325c814d3640f3753a3d584dfcbafb4d82ee4db",
             "packed": false
+        },
+        {
+            "name": "check-sysfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/bromolow-3.10.108/check-sysfillrect.sh",
+            "sha256": "16c3ac381db586a83f71f5f70acc563c9f4b5d35219c551c021ff63626d014cd",
+            "packed": false
         }
     ],
     "kmods": {

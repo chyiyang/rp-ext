@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "via-sdmmc.ko",
+            "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/apollolake-4.4.180/mmc_core.ko",
             "sha256": "f1879a769f58a1f8518effefa9300ea80013f3e09a4b2362fb72475b2b641f35",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "via-sdmmc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/apollolake-4.4.180/via-sdmmc.ko",
             "sha256": "07ae5f3e38ae6631668bd21350bf696c0491405302c0f1339ef7af9949056ec0",
+            "packed": false
+        },
+        {
+            "name": "check-via-sdmmc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/apollolake-4.4.180/check-via-sdmmc.sh",
+            "sha256": "8588fdfbf4a39fc36a3bad16ef150ce85c090f903b3e9bb57b36b8898d45ad4c",
             "packed": false
         }
     ],

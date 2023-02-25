@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/apollolake-4.4.180/r8152.ko",
             "sha256": "684c235483cc70d1574d547a480c1f0e5fd000f9fb1dd571a75cc044f992b44d",
             "packed": false
+        },
+        {
+            "name": "check-r8152.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/apollolake-4.4.180/check-r8152.sh",
+            "sha256": "33164c7e249a7e6809a7d4fc7bebca8a98057ea5539466cc5876b80dec38b875",
+            "packed": false
         }
     ],
     "kmods": {

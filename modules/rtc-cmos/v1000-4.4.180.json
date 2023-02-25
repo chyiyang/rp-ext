@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/v1000-4.4.180/rtc-cmos.ko",
             "sha256": "6946bd479a568881138b92ac3a9e46453fc5eb59bffbf7e9649d84aace6cc239",
             "packed": false
+        },
+        {
+            "name": "check-rtc-cmos.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/v1000-4.4.180/check-rtc-cmos.sh",
+            "sha256": "56d177ed8ee2782dc3274d51687d8a94ad875cf97015d4940df7ef503d9df132",
+            "packed": false
         }
     ],
     "kmods": {

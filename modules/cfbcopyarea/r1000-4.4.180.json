@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/r1000-4.4.180/cfbcopyarea.ko",
             "sha256": "5e626b61aa69f27cfdf9cc370fe0bdc5f3770e3763dd4f1514701ccc6ddaa219",
             "packed": false
+        },
+        {
+            "name": "check-cfbcopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/r1000-4.4.180/check-cfbcopyarea.sh",
+            "sha256": "c50aa3f95afa3bfa1f1f5e8b72b28a1e23d5b0d9e4bd334580350b1e1fe970d8",
+            "packed": false
         }
     ],
     "kmods": {

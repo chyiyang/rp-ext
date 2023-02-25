@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/r1000-4.4.180/scsi_transport_spi.ko",
             "sha256": "d7d1e30d96c77369f824ee3490785587af7dbe431b976adacf5405fbf81148a8",
             "packed": false
+        },
+        {
+            "name": "check-scsi_transport_spi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/r1000-4.4.180/check-scsi_transport_spi.sh",
+            "sha256": "4653c27de9a84db6f07bdcfe8389efdae21baea245ab20ceff727200ae539879",
+            "packed": false
         }
     ],
     "kmods": {

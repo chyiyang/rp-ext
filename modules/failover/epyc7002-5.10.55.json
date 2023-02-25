@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/failover/epyc7002-5.10.55/failover.ko",
             "sha256": "44dd92e3634ca5014a63c98b78e6fcda6dfbe4c44add2124a2c101d70df95f6c",
             "packed": false
+        },
+        {
+            "name": "check-failover.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/failover/epyc7002-5.10.55/check-failover.sh",
+            "sha256": "a461dd2146aa7d5860ca6a121d4569befab88981b189a48a970e1e833ef948b2",
+            "packed": false
         }
     ],
     "kmods": {

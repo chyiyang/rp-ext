@@ -6,12 +6,31 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/v1000-4.4.180/si2157.ko",
             "sha256": "13cd490c2293eda896fb1932cf4dfc89b5081cb3357628c9d6e224a2d9fdbc73",
             "packed": false
+        },
+        {
+            "name": "check-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/v1000-4.4.180/check-si2157.sh",
+            "sha256": "37f452b575b1c12ca6a7a2528328bc7af04450726df5cfcd244b73e8402c5261",
+            "packed": false
+        },
+        {
+            "name": "si2157_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/v1000-4.4.180/si2157_firmware.tag.gz",
+            "sha256": "348e7d762c238bb240a22e1e0fd87d2e88196d3c430df47403bf13d62e06daf0",
+            "packed": false
+        },
+        {
+            "name": "install-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/v1000-4.4.180/install-si2157.sh",
+            "sha256": "6d494f475cd5de151fc775756abba4fcf16908f807cc507e78a3ab20fb04f11d",
+            "packed": false
         }
     ],
     "kmods": {
         "si2157.ko": ""
     },
     "scripts": {
-        "on_boot": "check-si2157.sh"
+        "on_boot": "check-si2157.sh",
+        "on_os_load": "install-si2157.sh"
     }
 }

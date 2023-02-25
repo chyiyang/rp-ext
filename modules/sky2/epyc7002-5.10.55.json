@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/epyc7002-5.10.55/sky2.ko",
             "sha256": "9cc965c3776293e3f499a47fcfe32e682c81038ff80ba74943a111653f9ac672",
             "packed": false
+        },
+        {
+            "name": "check-sky2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/epyc7002-5.10.55/check-sky2.sh",
+            "sha256": "248a91777a29890d02953dbe261532a8908b889059b90b4a7d114621853b28cf",
+            "packed": false
         }
     ],
     "kmods": {

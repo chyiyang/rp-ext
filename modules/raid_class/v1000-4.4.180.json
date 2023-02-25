@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/v1000-4.4.180/raid_class.ko",
             "sha256": "69fb495c0a77cc0cfef1f85fb16987b899818dbee60825a7a7ffcd2aa9bfe3dd",
             "packed": false
+        },
+        {
+            "name": "check-raid_class.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/v1000-4.4.180/check-raid_class.sh",
+            "sha256": "274ddd31d73014e173b2f5d01a502ea55686f59adf1edc143661f7a078b36247",
+            "packed": false
         }
     ],
     "kmods": {

@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "ehci-hcd.ko",
+            "name": "usbcore.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/epyc7002-5.10.55/usbcore.ko",
             "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "ehci-hcd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/epyc7002-5.10.55/ehci-hcd.ko",
             "sha256": "992a950e238f4ca45123fd818f2f466e95bda414076bb3d9eaf2fc0c4bd85c4d",
+            "packed": false
+        },
+        {
+            "name": "check-ehci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/epyc7002-5.10.55/check-ehci-hcd.sh",
+            "sha256": "f893c3f33f3b14da2f066c5e61715fc847ec684793e6d04687ebe184c9c8e5f9",
             "packed": false
         }
     ],

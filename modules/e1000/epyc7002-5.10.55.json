@@ -6,6 +6,12 @@
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/epyc7002-5.10.55/e1000.ko",
             "sha256": "ac6499b19ff32ad998eb5b55b0633abf17c0ee767a0c1f5b3f59f26401a4f561",
             "packed": false
+        },
+        {
+            "name": "check-e1000.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/epyc7002-5.10.55/check-e1000.sh",
+            "sha256": "0573c8065d281b1eb67939392090857956cb7b848ebb2f1781d769d39e1cc26b",
+            "packed": false
         }
     ],
     "kmods": {

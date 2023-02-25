@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "megaraid_mbox.ko",
+            "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/denverton-4.4.180/megaraid_mm.ko",
             "sha256": "5f8de1d4c04c5c5dd4987eff964b0d86593c329088a2725ef7e1992b3ab3636d",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/denverton-4.4.180/megaraid_mbox.ko",
             "sha256": "a8654cb7596168b09d2547e6894c1eae013ece753acacc59bd002f7d5aee4951",
+            "packed": false
+        },
+        {
+            "name": "check-megaraid_mbox.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/denverton-4.4.180/check-megaraid_mbox.sh",
+            "sha256": "27115b3b3cbb92deb74e803926374180cc269427cbfa2e3ce5aa39fab58a6017",
             "packed": false
         }
     ],

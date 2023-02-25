@@ -2,7 +2,7 @@
     "mod_version": "v1.66",
     "files": [
         {
-            "name": "8139cp.ko",
+            "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/r1000-4.4.180/mii.ko",
             "sha256": "e7a24ea8ba6beb0e0d8bdadf7153c42d5cef9f5b4298023061417e6fe314f8be",
             "packed": false
@@ -11,6 +11,12 @@
             "name": "8139cp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/r1000-4.4.180/8139cp.ko",
             "sha256": "078ffa62ad98fbcc1b0789ac6434d75e87c744b329af018402e9c4634daf1c33",
+            "packed": false
+        },
+        {
+            "name": "check-8139cp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/r1000-4.4.180/check-8139cp.sh",
+            "sha256": "592c74f1557f0276c7b6a98410938b4b17af4f1fe5b03534b416f509bb4295c2",
             "packed": false
         }
     ],
