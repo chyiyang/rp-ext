@@ -3,14 +3,14 @@
     "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/rpext-index.json",
     "info": {
         "name": "mlx5_ib",
-        "description": "Mellanox 5th generation network adapters (ConnectX series) IB driver",
+        "description": "Mellanox Connect-IB HCA IB driver",
         "author_url": "https://github.com/wjz304/rp-ext/raw/main",
         "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
         "help_url": "<todo>"
     },
     "releases": {
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/broadwell-4.4.180.json",
         "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/epyc7002-5.10.55.json",
-        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/broadwellnk-4.4.180.json",
-        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/broadwell-4.4.180.json"
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/broadwellnk-4.4.180.json"
     }
 }

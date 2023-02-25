@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.66",
+    "files": [
+        {
+            "name": "aqc111.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/denverton-4.4.180/aqc111.ko",
+            "sha256": "f90619c2a9fbc7850989bb7cd37b7d61eb7146c0bf392ee0981b579ba62ac9db",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "aqc111.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aqc111.sh"
+    }
+}

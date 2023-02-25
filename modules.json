@@ -1,598 +1,323 @@
 {
-    "raid_class": {
-        "description": "RAID device class",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
+    "vga16fb": {
+        "description": "Legacy VGA framebuffer device driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "virtio_input": {
+        "description": "Virtio input device driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
     "cxgb4": {
         "description": "Chelsio T4/T5/T6 Network Driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "tg3": {
-        "description": "Broadcom Tigon3 ethernet driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,bromolow-3.10.108,denverton-4.4.180"
-    },
-    "i2c-algo-bit": {
-        "description": "I2C-Bus bit-banging algorithm",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "ixgb": {
-        "description": "Intel(R) PRO/10GbE Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgb/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "uhci-hcd": {
-        "description": "USB Universal Host Controller Interface driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "amd-xgbe": {
-        "description": "AMD 10 Gigabit Ethernet Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/amd-xgbe/rpext-index.json",
-        "platforms": "v1000-4.4.180"
-    },
-    "virtio_mmio": {
-        "description": "Platform bus driver for memory mapped virtio devices",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mpt3sas": {
-        "description": "LSI MPT Fusion SAS 3.0 Device Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "e1000e": {
-        "description": "Intel(R) PRO/1000 Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "ice": {
-        "description": "Intel(R) Ethernet Connection E800 Series Linux Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "etxhci-hcd": {
-        "description": "'eXtensible' Host Controller (xHC) Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "hid-generic": {
-        "description": "HID generic driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mlx4_en": {
-        "description": "Mellanox ConnectX HCA Ethernet driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "sky2": {
-        "description": "Marvell Yukon 2 Gigabit Ethernet driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "cdrom": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "qla2xxx": {
-        "description": "QLogic Fibre Channel HBA Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwell-4.4.180"
-    },
-    "usbhid": {
-        "description": "USB HID core driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbhid/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "virtio_net": {
-        "description": "Virtio network driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "atlantic": {
-        "description": "Marvell (Aquantia) Corporation(R) Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,broadwell-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mptscsih": {
-        "description": "Fusion MPT SCSI Host driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "i40e": {
-        "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mlx4_core": {
-        "description": "Mellanox ConnectX HCA low-level driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mtk-sd": {
-        "description": "MediaTek SD/MMC Card Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "xhci-hcd": {
-        "description": "'eXtensible' Host Controller (xHC) Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mmc_core": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "fbcon": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "libsas": {
+        "description": "SAS Transport Layer",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/rpext-index.json",
+        "platforms": "geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180"
     },
     "blk-mq-virtio": {
         "description": "",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/blk-mq-virtio/rpext-index.json",
         "platforms": "epyc7002-5.10.55"
     },
-    "b44": {
-        "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180"
-    },
-    "megaraid_sas": {
-        "description": "Avago MegaRAID SAS Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "fb_sys_fops": {
-        "description": "Generic file read (fb in system RAM)",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "atkbd": {
-        "description": "AT and PS/2 keyboard driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "virtio_blk": {
-        "description": "Virtio block driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_blk/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "mptctl": {
-        "description": "Fusion MPT misc device (ioctl) driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "sdhci": {
-        "description": "Secure Digital Host Controller Interface core driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "libsas": {
-        "description": "SAS Transport Layer",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "crc-itu-t": {
-        "description": "CRC ITU-T V.41 calculations",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "bnx2": {
-        "description": "QLogic BCM5706/5708/5709/5716 Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "cpufreq_conservative": {
-        "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "aqc111": {
-        "description": "Aquantia AQtion USB to 5/2.5GbE Controllers",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "alx": {
-        "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "usbip-host": {
-        "description": "USB/IP Host Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbip-host/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "backlight": {
-        "description": "Backlight Lowlevel Control Abstraction",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/backlight/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180"
-    },
-    "mlx5_core": {
-        "description": "Mellanox 5th generation network adapters (ConnectX series) core driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mlx4_ib": {
-        "description": "Mellanox ConnectX HCA InfiniBand driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,broadwell-4.4.180"
-    },
-    "cfbcopyarea": {
-        "description": "Generic software accelerated copyarea",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "nct6775": {
-        "description": "Driver for NCT6775F and compatible chips",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "crc-ccitt": {
-        "description": "CRC-CCITT calculations",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "iosf_mbi": {
-        "description": "IOSF Mailbox Interface accessor",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iosf_mbi/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180"
-    },
-    "cfbimgblt": {
-        "description": "Generic software accelerated imaging drawing",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "r8125": {
-        "description": "Realtek RTL8125 2.5Gigabit Ethernet driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mii": {
-        "description": "MII hardware support library",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "dvb-usb": {
-        "description": "A library module containing commonly used USB and DVB function USB DVB devices",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "cxgb3": {
-        "description": "Chelsio T3 Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "i8042": {
-        "description": "i8042 keyboard and mouse controller driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "nvidia-uvm": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nvidia-uvm/rpext-index.json",
-        "platforms": "denverton-4.4.180"
-    },
-    "xhci-pci": {
-        "description": "xHCI PCI Host Controller Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "virtio_pci": {
-        "description": "virtio-pci",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "igc": {
-        "description": "Intel(R) 2.5G Ethernet Linux Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "rc-core": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mdio_devres": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio_devres/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "mpt2sas": {
-        "description": "LSI MPT Fusion SAS 2.0 Device Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt2sas/rpext-index.json",
-        "platforms": "bromolow-3.10.108"
-    },
-    "cxgb": {
-        "description": "Chelsio 10Gb Ethernet Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "ixgbe": {
-        "description": "Intel(R) 10GbE PCI Express Linux Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "cpufreq_ondemand": {
-        "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mmc_block": {
-        "description": "Multimedia Card (MMC) block device driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "atl1e": {
-        "description": "Atheros 1000M Ethernet Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "libphy": {
-        "description": "PHY library",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180"
-    },
-    "processor": {
-        "description": "ACPI Processor Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/processor/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "sr_mod": {
-        "description": "SCSI cdrom (sr) driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "drm_panel_orientation_quirks": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_panel_orientation_quirks/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180"
-    },
-    "vga16fb": {
-        "description": "Legacy VGA framebuffer device driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "fbdev": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "vmxnet3": {
-        "description": "VMware vmxnet3 virtual NIC driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mptsas": {
-        "description": "Fusion MPT SAS Host driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "fb": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "e1000": {
-        "description": "Intel(R) PRO/1000 Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "scsi_transport_sas": {
-        "description": "SAS Transport Attributes",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,apollolake-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "ushc": {
-        "description": "USB SD Host Controller driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "generic_bl": {
-        "description": "Generic Backlight Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/generic_bl/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180"
-    },
-    "via-sdmmc": {
-        "description": "VIA SD/MMC Card Interface driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "skge": {
-        "description": "SysKonnect Gigabit Ethernet driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mlx_compat": {
-        "description": "Kernel backport module",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx_compat/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,broadwell-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "hwmon-vid": {
-        "description": "hwmon-vid driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,apollolake-4.4.180,geminilake-4.4.180,r1000-4.4.180,denverton-4.4.180"
-    },
-    "si2168": {
-        "description": "Silicon Labs Si2168 DVB-T/T2/C demodulator driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "intel_auxiliary": {
-        "description": "Auxiliary Bus Standalone",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "thermal": {
-        "description": "ACPI Thermal Zone Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "igbvf": {
+        "description": "Intel(R) Gigabit Virtual Function Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
     "nvidia": {
         "description": "",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nvidia/rpext-index.json",
         "platforms": "denverton-4.4.180"
     },
+    "iavf": {
+        "description": "Intel(R) Ethernet Adaptive Virtual Function Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "net_failover": {
+        "description": "Failover driver for Paravirtual drivers",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/rpext-index.json",
+        "platforms": "epyc7002-5.10.55"
+    },
+    "atlantic": {
+        "description": "Marvell (Aquantia) Corporation(R) Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "font": {
+        "description": "Console Fonts",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "cfbfillrect": {
+        "description": "Generic software accelerated fill rectangle",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "megaraid_mbox": {
+        "description": "LSI Logic MegaRAID Mailbox Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mptsas": {
+        "description": "Fusion MPT SAS Host driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "virtio_scsi": {
+        "description": "Virtio SCSI HBA driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "tg3": {
+        "description": "Broadcom Tigon3 ethernet driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mlx_compat": {
+        "description": "Kernel backport module",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx_compat/rpext-index.json",
+        "platforms": "broadwell-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,broadwellnk-4.4.180"
+    },
+    "bnxt_en": {
+        "description": "Broadcom BCM573xx network driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "amd-xgbe": {
+        "description": "AMD 10 Gigabit Ethernet Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/amd-xgbe/rpext-index.json",
+        "platforms": "v1000-4.4.180"
+    },
+    "backlight": {
+        "description": "Backlight Lowlevel Control Abstraction",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/backlight/rpext-index.json",
+        "platforms": "geminilake-4.4.180,apollolake-4.4.180"
+    },
     "failover": {
         "description": "Generic failover infrastructure/interface",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/failover/rpext-index.json",
         "platforms": "epyc7002-5.10.55"
     },
-    "mlx5_ib": {
-        "description": "Mellanox 5th generation network adapters (ConnectX series) IB driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,broadwell-4.4.180"
+    "atl1c": {
+        "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "drm_kms_helper": {
-        "description": "DRM KMS helper",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180"
+    "ixgb": {
+        "description": "Intel(R) PRO/10GbE Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgb/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "bnxt_en": {
-        "description": "Broadcom BCM573xx network driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
+    "hwmon-vid": {
+        "description": "hwmon-vid driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/rpext-index.json",
+        "platforms": "geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,apollolake-4.4.180"
     },
-    "dvb-usb-dib0700": {
-        "description": "Driver for devices based on DiBcom DiB0700 - USB bridge",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
+    "atlantic_v2": {
+        "description": "Marvell (Aquantia) Corporation(R) Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic_v2/rpext-index.json",
+        "platforms": "broadwell-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,broadwellnk-4.4.180"
     },
-    "video": {
-        "description": "ACPI Video Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180,bromolow-3.10.108"
+    "xhci-pci": {
+        "description": "xHCI PCI Host Controller Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-pci/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "ixgbevf": {
-        "description": "Intel(R) 10 Gigabit Virtual Function Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "megaraid_mm": {
-        "description": "LSI Logic Management Module",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "cpufreq_governor": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180,denverton-4.4.180"
-    },
-    "virtio_input": {
-        "description": "Virtio input device driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mdio": {
-        "description": "Generic support for MDIO-compatible transceivers",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "rtc-cmos": {
-        "description": "Driver for PC-style 'CMOS' RTCs",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,apollolake-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180"
-    },
-    "r8153_ecm": {
-        "description": "Realtek USB ECM device",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "mptbase": {
-        "description": "Fusion MPT base driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "cfbcopyarea": {
+        "description": "Generic software accelerated copyarea",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
     "r8168": {
         "description": "RealTek RTL-8168 Gigabit Ethernet driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "mptspi": {
-        "description": "Fusion MPT SPI Host driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "mpt3sas": {
+        "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "efifb": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "intel_auxiliary": {
+        "description": "Auxiliary Bus Standalone",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "ehci-hcd": {
-        "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "fb_sys_fops": {
+        "description": "Generic file read (fb in system RAM)",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "m88ds3103": {
-        "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
+    "igc": {
+        "description": "Intel(R) 2.5G Ethernet Linux Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "sysfillrect": {
-        "description": "Generic fill rectangle (sys-to-sys)",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "mlx4_ib": {
+        "description": "Mellanox ConnectX HCA InfiniBand driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/rpext-index.json",
+        "platforms": "broadwell-4.4.180,epyc7002-5.10.55,broadwellnk-4.4.180"
     },
-    "r8169": {
-        "description": "RealTek RTL-8169 Gigabit Ethernet driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "i915": {
-        "description": "Intel Graphics",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180"
-    },
-    "si2157": {
-        "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "usb-common": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-common/rpext-index.json",
+    "usbip-host": {
+        "description": "USB/IP Host Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbip-host/rpext-index.json",
         "platforms": "epyc7002-5.10.55"
-    },
-    "mlxsw_pci": {
-        "description": "Mellanox switch PCI interface driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "r8152": {
-        "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "virtio_scsi": {
-        "description": "Virtio SCSI HBA driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "jme": {
-        "description": "JMicron JMC2x0 PCI Express Ethernet driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "ehci-pci": {
-        "description": "EHCI PCI platform driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "mptlan": {
-        "description": "Fusion MPT LAN driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptlan/rpext-index.json",
-        "platforms": "apollolake-4.4.180"
     },
     "vmw_pvscsi": {
         "description": "VMware PVSCSI driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mdio_devres": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio_devres/rpext-index.json",
+        "platforms": "epyc7002-5.10.55"
+    },
+    "m88ds3103": {
+        "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mii": {
+        "description": "MII hardware support library",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "igb": {
+        "description": "Intel(R) Gigabit Ethernet Linux Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "uhci-hcd": {
+        "description": "USB Universal Host Controller Interface driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "virtio": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "r8125": {
+        "description": "Realtek RTL8125 2.5Gigabit Ethernet driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "dvb-usb-dib0700": {
+        "description": "Driver for devices based on DiBcom DiB0700 - USB bridge",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "aqc111": {
+        "description": "Aquantia AQtion USB to 5/2.5GbE Controllers",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "cpufreq_ondemand": {
+        "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "ehci-pci": {
+        "description": "EHCI PCI platform driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/rpext-index.json",
+        "platforms": "geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "auxiliary": {
+        "description": "Auxiliary Bus Standalone",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "fbdev": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "ushc": {
+        "description": "USB SD Host Controller driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "sky2": {
+        "description": "Marvell Yukon 2 Gigabit Ethernet driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "alx": {
+        "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "rc-core": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "cxgb4vf": {
+        "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "ixgbe": {
+        "description": "Intel(R) 10GbE PCI Express Linux Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mpt2sas": {
+        "description": "LSI MPT Fusion SAS 2.0 Device Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt2sas/rpext-index.json",
+        "platforms": "bromolow-3.10.108"
+    },
+    "ixgbevf": {
+        "description": "Intel(R) 10 Gigabit Virtual Function Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "e1000": {
+        "description": "Intel(R) PRO/1000 Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mlx5_ib": {
+        "description": "Mellanox Connect-IB HCA IB driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/rpext-index.json",
+        "platforms": "broadwell-4.4.180,epyc7002-5.10.55,broadwellnk-4.4.180"
+    },
+    "bnx2x": {
+        "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mlx4_en": {
+        "description": "Mellanox ConnectX HCA Ethernet driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "cdrom": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "megaraid_sas": {
+        "description": "Avago MegaRAID SAS Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "usbhid": {
+        "description": "USB HID core driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbhid/rpext-index.json",
+        "platforms": "epyc7002-5.10.55"
+    },
+    "ehci-hcd": {
+        "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/rpext-index.json",
+        "platforms": "geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
     "usbcore": {
         "description": "",
@@ -602,201 +327,476 @@
     "button": {
         "description": "ACPI Button Driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "syscopyarea": {
-        "description": "Generic copyarea (sys-to-sys)",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "cdc_ncm": {
-        "description": "USB CDC NCM host driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "megaraid_mbox": {
-        "description": "LSI Logic MegaRAID Mailbox Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "bitblit": {
-        "description": "Bit Blitting Operation",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "dvb-usb-dvbsky": {
-        "description": "Driver for DVBSky USB",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "vgastate": {
-        "description": "VGA State Save/Restore",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "auxiliary": {
-        "description": "Auxiliary Bus Standalone",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "dvb-core": {
-        "description": "DVB Core Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "usbserial": {
-        "description": "USB Serial Driver core",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbserial/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "cxgb4vf": {
-        "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "scsi_transport_spi": {
-        "description": "SPI Transport Attributes",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "8139cp": {
-        "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "igbvf": {
-        "description": "Intel(R) Gigabit Virtual Function Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "atlantic_v2": {
-        "description": "Marvell (Aquantia) Corporation(R) Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic_v2/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,broadwell-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "iavf": {
-        "description": "Intel(R) Ethernet Adaptive Virtual Function Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "marvell10g": {
-        "description": "Marvell Alaska X 10Gigabit Ethernet PHY driver (MV88X3310)",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/marvell10g/rpext-index.json",
-        "platforms": "v1000-4.4.180"
-    },
-    "usbip-core": {
-        "description": "USB/IP Core",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbip-core/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "acpi-cpufreq": {
-        "description": "ACPI Processor P-States Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "sysimgblt": {
-        "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "virtio_ring": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "softcursor": {
-        "description": "Generic software cursor",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "bnx2x": {
-        "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "dvb_usb_v2": {
-        "description": "DVB USB common",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "usb-storage": {
-        "description": "USB Mass Storage driver for Linux",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-storage/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "igb": {
-        "description": "Intel(R) Gigabit Ethernet Linux Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "font": {
-        "description": "Console Fonts",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "sp2": {
-        "description": "CIMaX SP2/HF CI driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
-    },
-    "cpufreq_performance": {
-        "description": "CPUfreq policy governor 'performance'",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
-    },
-    "net_failover": {
-        "description": "Failover driver for Paravirtual drivers",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/rpext-index.json",
-        "platforms": "epyc7002-5.10.55"
-    },
-    "ts2020": {
-        "description": "Montage Technology TS2020 - Silicon tuner driver module",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
     "vub300": {
         "description": "VUB300 USB to SD/MMC/SDIO adapter driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "be2net": {
-        "description": "Emulex OneConnect NIC Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "hid-generic": {
+        "description": "HID generic driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hid-generic/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "sdhci": {
+        "description": "Secure Digital Host Controller Interface core driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "sr_mod": {
+        "description": "SCSI cdrom (sr) driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "dvb_usb_v2": {
+        "description": "DVB USB common",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "bitblit": {
+        "description": "Bit Blitting Operation",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "drm_panel_orientation_quirks": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_panel_orientation_quirks/rpext-index.json",
+        "platforms": "geminilake-4.4.180,apollolake-4.4.180"
+    },
+    "scsi_transport_spi": {
+        "description": "SPI Transport Attributes",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "thermal": {
+        "description": "ACPI Thermal Zone Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "fbcon": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "xhci-hcd": {
+        "description": "'eXtensible' Host Controller (xHC) Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/xhci-hcd/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mmc_block": {
+        "description": "Multimedia Card (MMC) block device driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mdio": {
+        "description": "Generic support for MDIO-compatible transceivers",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "iosf_mbi": {
+        "description": "IOSF Mailbox Interface accessor",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iosf_mbi/rpext-index.json",
+        "platforms": "geminilake-4.4.180,apollolake-4.4.180"
     },
     "usbnet": {
         "description": "USB network driver framework",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/rpext-index.json",
         "platforms": "epyc7002-5.10.55"
     },
-    "virtio": {
+    "r8153_ecm": {
+        "description": "Realtek USB ECM device",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/rpext-index.json",
+        "platforms": "epyc7002-5.10.55"
+    },
+    "sysimgblt": {
+        "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "usbip-core": {
+        "description": "USB/IP Core",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbip-core/rpext-index.json",
+        "platforms": "epyc7002-5.10.55"
+    },
+    "8139cp": {
+        "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "i40e": {
+        "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "processor": {
+        "description": "ACPI Processor Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/processor/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "megaraid_mm": {
+        "description": "LSI Logic Management Module",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "libphy": {
+        "description": "PHY library",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,epyc7002-5.10.55,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mlx5_core": {
+        "description": "Mellanox Connect-IB, ConnectX-4, ConnectX-5 core driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "usbserial": {
+        "description": "USB Serial Driver core",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbserial/rpext-index.json",
+        "platforms": "epyc7002-5.10.55"
+    },
+    "generic_bl": {
+        "description": "Generic Backlight Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/generic_bl/rpext-index.json",
+        "platforms": "geminilake-4.4.180,apollolake-4.4.180"
+    },
+    "etxhci-hcd": {
+        "description": "'eXtensible' Host Controller (xHC) Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/etxhci-hcd/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "video": {
+        "description": "ACPI Video Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/rpext-index.json",
+        "platforms": "geminilake-4.4.180,bromolow-3.10.108,apollolake-4.4.180"
+    },
+    "b44": {
+        "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "i8042": {
+        "description": "i8042 keyboard and mouse controller driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/rpext-index.json",
+        "platforms": "broadwell-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "rtc-cmos": {
+        "description": "Driver for PC-style 'CMOS' RTCs",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/rpext-index.json",
+        "platforms": "geminilake-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180"
+    },
+    "si2168": {
+        "description": "Silicon Labs Si2168 DVB-T/T2/C demodulator driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "skge": {
+        "description": "SysKonnect Gigabit Ethernet driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "via-sdmmc": {
+        "description": "VIA SD/MMC Card Interface driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "cxgb": {
+        "description": "Chelsio 10Gb Ethernet Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "ice": {
+        "description": "Intel(R) Ethernet Connection E800 Series Linux Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "i2c-algo-bit": {
+        "description": "I2C-Bus bit-banging algorithm",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i2c-algo-bit/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "e1000e": {
+        "description": "Intel(R) PRO/1000 Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "cpufreq_governor": {
         "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/rpext-index.json",
+        "platforms": "geminilake-4.4.180,denverton-4.4.180,apollolake-4.4.180"
     },
-    "drm": {
-        "description": "DRM panel infrastructure",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm/rpext-index.json",
-        "platforms": "apollolake-4.4.180,geminilake-4.4.180"
+    "marvell10g": {
+        "description": "Marvell Alaska X 10Gigabit Ethernet PHY driver (MV88X3310)",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/marvell10g/rpext-index.json",
+        "platforms": "v1000-4.4.180"
     },
-    "mlxsw_core": {
-        "description": "Mellanox switch device core driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/rpext-index.json",
-        "platforms": "broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,v1000-4.4.180,denverton-4.4.180"
+    "cfbimgblt": {
+        "description": "Generic software accelerated imaging drawing",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "cfbfillrect": {
-        "description": "Generic software accelerated fill rectangle",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "atl1e": {
+        "description": "Atheros 1000M Ethernet Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "virtio_mmio": {
+        "description": "Platform bus driver for memory mapped virtio devices",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "acpi-cpufreq": {
+        "description": "ACPI Processor P-States Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "cpufreq_performance": {
+        "description": "CPUfreq policy governor 'performance'",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "bnx2": {
+        "description": "QLogic BCM5706/5708/5709/5716 Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/rpext-index.json",
+        "platforms": "geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "syscopyarea": {
+        "description": "Generic copyarea (sys-to-sys)",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "vgastate": {
+        "description": "VGA State Save/Restore",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mlxsw_pci": {
+        "description": "Mellanox switch PCI interface driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "usb-storage": {
+        "description": "USB Mass Storage driver for Linux",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-storage/rpext-index.json",
+        "platforms": "epyc7002-5.10.55"
+    },
+    "efifb": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "nvidia-uvm": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nvidia-uvm/rpext-index.json",
+        "platforms": "denverton-4.4.180"
+    },
+    "r8169": {
+        "description": "RealTek RTL-8169 Gigabit Ethernet driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mtk-sd": {
+        "description": "MediaTek SD/MMC Card Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
     "vesafb": {
         "description": "",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     },
-    "atl1c": {
-        "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/rpext-index.json",
-        "platforms": "epyc7002-5.10.55,broadwellnk-4.4.180,apollolake-4.4.180,broadwell-4.4.180,geminilake-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,denverton-4.4.180"
+    "dvb-usb-dvbsky": {
+        "description": "Driver for DVBSky USB",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "dvb-usb": {
+        "description": "A library module containing commonly used USB and DVB function USB DVB devices",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mmc_core": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "be2net": {
+        "description": "Emulex OneConnect NIC Driver 11.1.38.64",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "virtio_pci": {
+        "description": "virtio-pci",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "drm": {
+        "description": "DRM panel infrastructure",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm/rpext-index.json",
+        "platforms": "geminilake-4.4.180,apollolake-4.4.180"
+    },
+    "virtio_ring": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "r8152": {
+        "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "raid_class": {
+        "description": "RAID device class",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/rpext-index.json",
+        "platforms": "geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180"
+    },
+    "cxgb3": {
+        "description": "Chelsio T3 Network Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mptspi": {
+        "description": "Fusion MPT SPI Host driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "crc-ccitt": {
+        "description": "CRC-CCITT calculations",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "virtio_net": {
+        "description": "Virtio network driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "drm_kms_helper": {
+        "description": "DRM KMS helper",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/rpext-index.json",
+        "platforms": "geminilake-4.4.180,apollolake-4.4.180"
+    },
+    "vmxnet3": {
+        "description": "VMware vmxnet3 virtual NIC driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "sp2": {
+        "description": "CIMaX SP2/HF CI driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "usb-common": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-common/rpext-index.json",
+        "platforms": "epyc7002-5.10.55"
+    },
+    "cpufreq_conservative": {
+        "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "si2157": {
+        "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "qla2xxx": {
+        "description": "QLogic Fibre Channel HBA Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/rpext-index.json",
+        "platforms": "broadwell-4.4.180,epyc7002-5.10.55"
+    },
+    "crc-itu-t": {
+        "description": "CRC ITU-T V.41 calculations",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mptbase": {
+        "description": "Fusion MPT base driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mptscsih": {
+        "description": "Fusion MPT SCSI Host driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "sysfillrect": {
+        "description": "Generic fill rectangle (sys-to-sys)",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "jme": {
+        "description": "JMicron JMC2x0 PCI Express Ethernet driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "virtio_blk": {
+        "description": "Virtio block driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_blk/rpext-index.json",
+        "platforms": "epyc7002-5.10.55"
+    },
+    "mlx4_core": {
+        "description": "Mellanox ConnectX HCA low-level driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "cdc_ncm": {
+        "description": "USB CDC NCM host driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "nct6775": {
+        "description": "Driver for NCT6775F and compatible chips",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mptlan": {
+        "description": "Fusion MPT LAN driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptlan/rpext-index.json",
+        "platforms": "apollolake-4.4.180"
+    },
+    "i915": {
+        "description": "Intel Graphics",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/rpext-index.json",
+        "platforms": "geminilake-4.4.180,apollolake-4.4.180"
+    },
+    "mlxsw_core": {
+        "description": "Mellanox switch device core driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "fb": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "ts2020": {
+        "description": "Montage Technology TS2020 - Silicon tuner driver module",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "atkbd": {
+        "description": "AT and PS/2 keyboard driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/rpext-index.json",
+        "platforms": "broadwell-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "softcursor": {
+        "description": "Generic software cursor",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "mptctl": {
+        "description": "Fusion MPT misc device (ioctl) driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,bromolow-3.10.108,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
+    },
+    "scsi_transport_sas": {
+        "description": "SAS Transport Attributes",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/rpext-index.json",
+        "platforms": "geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,epyc7002-5.10.55,v1000-4.4.180,apollolake-4.4.180"
+    },
+    "dvb-core": {
+        "description": "DVB Core Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/rpext-index.json",
+        "platforms": "broadwell-4.4.180,geminilake-4.4.180,denverton-4.4.180,r1000-4.4.180,v1000-4.4.180,apollolake-4.4.180,broadwellnk-4.4.180"
     }
 }

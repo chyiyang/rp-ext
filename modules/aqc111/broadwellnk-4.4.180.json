@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.66",
+    "files": [
+        {
+            "name": "aqc111.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/broadwellnk-4.4.180/aqc111.ko",
+            "sha256": "0eed0da0cea5953f60247c0b03764a1bc008b3138136d77769c75de5aa53f167",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "aqc111.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aqc111.sh"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "mod_version": "v1.66",
+    "files": [
+        {
+            "name": "aqc111.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/v1000-4.4.180/aqc111.ko",
+            "sha256": "3ad5f4e644c5979288b1a0851bd6091caf0d3a752ab33746eced152fffe0538c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "aqc111.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aqc111.sh"
+    }
+}

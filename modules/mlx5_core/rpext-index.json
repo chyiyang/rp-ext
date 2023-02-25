@@ -3,20 +3,20 @@
     "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/rpext-index.json",
     "info": {
         "name": "mlx5_core",
-        "description": "Mellanox 5th generation network adapters (ConnectX series) core driver",
+        "description": "Mellanox Connect-IB, ConnectX-4, ConnectX-5 core driver",
         "author_url": "https://github.com/wjz304/rp-ext/raw/main",
         "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
         "help_url": "<todo>"
     },
     "releases": {
-        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/epyc7002-5.10.55.json",
-        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwellnk-4.4.180.json",
-        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/apollolake-4.4.180.json",
         "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwell-4.4.180.json",
         "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/geminilake-4.4.180.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/denverton-4.4.180.json",
         "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/r1000-4.4.180.json",
         "bromolow-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/bromolow-3.10.108.json",
+        "epyc7002-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/epyc7002-5.10.55.json",
         "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/v1000-4.4.180.json",
-        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/denverton-4.4.180.json"
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/apollolake-4.4.180.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwellnk-4.4.180.json"
     }
 }
