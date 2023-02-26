@@ -39,9 +39,19 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/eudev/rpext-index.json",
         "platforms": "_"
     },
+    "lsiutil": {
+        "description": "A tool for working with some LSI RAID controller",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/lsiutil/rpext-index.json",
+        "platforms": "_"
+    },
     "misc": {
         "description": "Misc shell",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/misc/rpext-index.json",
+        "platforms": "_"
+    },
+    "powersched": {
+        "description": "Utility to configure RTC according to DSM power schedule",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/powersched/rpext-index.json",
         "platforms": "_"
     }
 }
