@@ -142,7 +142,7 @@ jobs:
                                   extsindex["releases"][platformDir] = os.path.join(baseUrl, baseDir, info['filename'], '{}.json'.format(platformDir))
                           else:
                               extsindex = {
-                                  "id": info['filename'],
+                                  "id": "ing.{}".format(info['filename']),
                                   "url": os.path.join(baseUrl, baseDir, info['filename'], 'rpext-index.json'), 
                                   "info": {"name": info['filename'], "description": info['description'], "author_url": baseUrl, "packer_url": baseUrl, "help_url": "<todo>"}, 
                                   "releases": { platformDir: os.path.join(baseUrl, baseDir, info['filename'], '{}.json'.format(platformDir)) }
