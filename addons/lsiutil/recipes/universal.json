@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "name": "lsiutil",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/lsiutil/releases/lsiutil",
+      "sha256": "7acfceae651ed41034356e1da95092dd0c5f3b4d0b63cb7410f7900900ae1778",
+      "packed": false
+    },
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/lsiutil/releases/install.sh",
+      "sha256": "eab86e8277bc218bb2ba69410dd4e21ac483dfee46632683c46bd10f7a41ea20",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh"
+  }
+}

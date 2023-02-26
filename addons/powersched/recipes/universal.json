@@ -1,0 +1,20 @@
+{
+"files": [
+    {
+      "name": "powersched",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/powersched/releases/powersched",
+      "sha256": "7e1dc0c2228fd92cb5cd0f5eb9472e0696a79cfdf09f86cc96ab42ca58750e75",
+      "packed": false
+    },
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/powersched/releases/install.sh",
+      "sha256": "9365aea2e2991b1d645d8e63151b5cc145e713e9e25f33780cb76d5d41b3a9f0",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh"
+  }
+}
+
