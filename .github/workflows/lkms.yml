@@ -1,0 +1,77 @@
+#
+# Copyright (C) 2022 Ing <https://github.com/wjz304>
+# 
+# This is free software, licensed under the MIT License.
+# See /LICENSE for more information.
+#
+
+name: Exts Lkms Check
+
+on:
+  #schedule:
+  #  - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  lkms:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Initialization environment
+        run : |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          sudo timedatectl set-timezone "Asia/Shanghai"
+
+
+      - name: check lkms
+        shell: python
+        run: |
+          # -*- coding: utf-8 -*-
+
+          import os, json, hashlib
+
+          root = '' # os.path.dirname(os.path.abspath(__file__))
+          baseDir = 'lkms'
+          baseUrl = '${{ github.server_url }}/${{ github.repository }}/raw/${{ github.ref_name }}'
+
+          def sha256sum(file):
+              sha256 = ''
+              if os.path.isfile(file):
+                  with open(file, "rb") as f:
+                      sha256=hashlib.sha256(f.read()).hexdigest()
+              return sha256
+
+          if __name__ == '__main__':
+              lkms = {}
+              try:
+                  lkmDirs = os.listdir(os.path.join(root, baseDir))
+                  for lkm in lkmDirs:
+                      if lkm.startswith('.') or '-' not in lkm:
+                          continue
+                      if not os.path.isfile(os.path.join(root, baseDir, lkm)):
+                          continue
+                      url = os.path.join(baseUrl, baseDir, lkm)
+                      with open(os.path.join(root, baseDir, lkm), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
+                      lkms[lkm] = { "url": url, "sha256": sha256 }
+
+              except Exception as err:
+                  print(err) 
+
+              if len(lkms) > 0:
+                  print('#######################    lkms    #######################')
+                  print(json.dumps(lkms, indent=4))
+                  with open(os.path.join(root, 'lkms.json'), 'w', encoding='utf-8') as f:
+                      f.write(json.dumps(lkms, indent=4))
+
+      - name: Check and Push
+        run: |
+          git pull
+          status=$(git status -s | grep -E 'lkms.json' | awk '{printf " %s", $2}')
+          if [ -n "${status}" ]; then
+            git add ${status}
+            git commit -m "update $(date +%Y-%m-%d" "%H:%M:%S)"
+            git push -f
+          fi
