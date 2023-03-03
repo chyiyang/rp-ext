@@ -93,9 +93,9 @@ jobs:
                                   print('file: {} -- may not exists'.format(pathstrsub(indexData["releases"][key], reglist)))
 
                               if addon in addons.keys():
-                                  addons[addon]["platforms"] = addons[addon]["platforms"] + ',' + key
+                                  addons[addon]["platforms"].append(key)
                               else:
-                                  addons[addon] = { "description": indexData["info"]["description"], "url": indexData["url"], "platforms": key }
+                                  addons[addon] = { "description": indexData["info"]["description"], "url": indexData["url"], "platforms": [ key ] }
                       except Exception as err:
                           print(err) 
 

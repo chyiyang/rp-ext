@@ -153,9 +153,6 @@ jobs:
               #except Exception as err:
               #    print(err)
 
-      - name: Remove arpl-modules
-        run: |
-          sudo rm -rf arpl-modules
 
       - name: check modules
         shell: python
@@ -189,14 +186,35 @@ jobs:
                       continue
                   indexData = getjsonfile(os.path.join(root, 'modules', module, indexFile))
                   if indexData != None:
-                      platforms = indexData["releases"].keys()
-                      modules[module] = { "description": indexData["info"]["description"], "url": indexData["url"], "platforms": ','.join(platforms) }
+                      platforms = list(indexData["releases"].keys())
+                      modules[module] = { "description": indexData["info"]["description"], "url": indexData["url"], "platforms": platforms }
 
               if len(modules) > 0:
                   print('#######################   modules   #######################')
                   print(json.dumps(modules, indent=4))
                   with open(os.path.join(root, 'modules.json'), 'w', encoding='utf-8') as f:
                       f.write(json.dumps(modules, indent=4))
+
+              modulesplatforms = {}
+              for module in modules.keys():
+                  moduledict = modules[module]
+                  platforms = modules[module]['platforms']
+                  del moduledict['platforms']
+
+                  for platform in platforms:
+                      if platform not in modulesplatforms.keys():
+                          modulesplatforms[platform] = {}
+                      modulesplatforms[platform][module] = moduledict
+
+              if len(modulesplatforms) > 0:
+                  print('###################   modulesplatforms   ###################')
+                  print(json.dumps(modules, indent=4))
+                  with open(os.path.join(root, 'modulesplatforms.json'), 'w', encoding='utf-8') as f:
+                      f.write(json.dumps(modulesplatforms, indent=4))
+
+      - name: Remove arpl-modules
+        run: |
+          sudo rm -rf arpl-modules
 
       - name: Check and Push
         run: |
