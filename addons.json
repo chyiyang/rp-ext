@@ -2,56 +2,78 @@
     "acpid2": {
         "description": "ACPI Daemon v2 that handles power button events",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/acpid2/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "boot-wait": {
         "description": "Simple extension which stops the execution early waiting for the boot device to appear",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/boot-wait/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "cpuinfo": {
         "description": "Adds correct CPU Info, from FOXBI",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/cpuinfo/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "disks": {
         "description": "Config disks related setting",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/disks/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "dtbpatch": {
         "description": "Update device tree binary automatically on boot",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/dtbpatch/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "dtbstatic": {
         "description": "Create your own device tree binary",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/dtbstatic/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "early-telnet": {
         "description": "Simple extension which starts telnet early at boot",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/early-telnet/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "eudev": {
         "description": "Eudev binaries will assist with auto module loading",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/eudev/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "lsiutil": {
         "description": "A tool for working with some LSI RAID controller",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/lsiutil/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "misc": {
         "description": "Misc shell",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/misc/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     },
     "powersched": {
         "description": "Utility to configure RTC according to DSM power schedule",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/powersched/rpext-index.json",
-        "platforms": "_"
+        "platforms": [
+            "_"
+        ]
     }
 }
