@@ -1,5 +1,5 @@
 {
-    "mod_version": "v1.66",
+    "mod_version": "v1.68",
     "files": [
         {
             "name": "qla2xxx.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qla2xxx_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/broadwell-4.4.180/qla2xxx_firmware.tag.gz",
-            "sha256": "63fc2665a3a3520b5368e71cb4280f0cb135f7bed90d85a204524cea6d0428a5",
+            "sha256": "5b79b304b6f2fd976c64e1ef53e383e28c1caa8c0e52ee6262458e9b926aa064",
             "packed": false
         },
         {

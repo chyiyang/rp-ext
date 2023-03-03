@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "it87.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/broadwell-4.4.180/it87.ko",
+            "sha256": "704dc08596ac3a5daec622cf78330459bd1992eb6f77ebb8f012b4ad197004b1",
+            "packed": false
+        },
+        {
+            "name": "check-it87.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/broadwell-4.4.180/check-it87.sh",
+            "sha256": "5d594213be652f25f2d9c5c9766201eeaafd0f6e38d789c4d1591b7bb0fb8211",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "it87.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-it87.sh"
+    }
+}

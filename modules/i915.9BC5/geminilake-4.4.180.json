@@ -1,0 +1,92 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "drm_kms_helper.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/drm_kms_helper.ko",
+            "sha256": "580ada909d195a881b9136e9774f4007f8b59965b4b46c5d0cd2b219bd174a9e",
+            "packed": false
+        },
+        {
+            "name": "drm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/drm.ko",
+            "sha256": "7877250b1e6c6697f7bacff839137f3ed116cd9ca5557dd370ea4c0ed61dd7fa",
+            "packed": false
+        },
+        {
+            "name": "iosf_mbi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/iosf_mbi.ko",
+            "sha256": "e7cf0890d5476bd8ba9bf5681de201ba9b14b57c72e2456024ed28be00913358",
+            "packed": false
+        },
+        {
+            "name": "backlight.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/backlight.ko",
+            "sha256": "0803a4a09edcb26e825f35a4b23e2bb0b6dfa2ee6c076f99a8bc0fc88acf2249",
+            "packed": false
+        },
+        {
+            "name": "video.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/video.ko",
+            "sha256": "e7b0ca000cfd21b87964cb1e4ddaec35271f589302169027c7a3416b7d6c1203",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/fb.ko",
+            "sha256": "c063a5887130f52018d3e4b2bbeebe12b6e49b9d852ccb32bbf1c7ebf5aa60d8",
+            "packed": false
+        },
+        {
+            "name": "button.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/button.ko",
+            "sha256": "40f6a6c40827784ac8736a82dbdfd7bd667ae1ef5d8048f47f2c7286931ba5b8",
+            "packed": false
+        },
+        {
+            "name": "i2c-algo-bit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/i2c-algo-bit.ko",
+            "sha256": "a5efd908240a291277fcb366204c6b1325c55f6dd023ef1329d8b716b85f3595",
+            "packed": false
+        },
+        {
+            "name": "i915.9BC5.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/i915.9BC5.ko",
+            "sha256": "f207ec579d6c33f3e872ab9085b40e40f2036f19029ec24c5853778b11ae2f36",
+            "packed": false
+        },
+        {
+            "name": "check-i915.9BC5.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/check-i915.9BC5.sh",
+            "sha256": "48085dab921bb4484e029263a9dd4996d58b888e40fcd9df85665baac76ea1ba",
+            "packed": false
+        },
+        {
+            "name": "i915.9BC5_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/i915.9BC5_firmware.tag.gz",
+            "sha256": "fafb9235d55fbc1e9f58f37667329959f55905aac50efc2b46203a17658fd7e1",
+            "packed": false
+        },
+        {
+            "name": "install-i915.9BC5.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/install-i915.9BC5.sh",
+            "sha256": "84f77887bbe5deceafd2a9548a1dd25345c3fb52f738bcfceb165f8dcb8a8e58",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "drm_kms_helper.ko": "",
+        "drm.ko": "",
+        "iosf_mbi.ko": "",
+        "backlight.ko": "",
+        "video.ko": "",
+        "fb.ko": "",
+        "button.ko": "",
+        "i2c-algo-bit.ko": "",
+        "i915.9BC5.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i915.9BC5.sh",
+        "on_os_load": "install-i915.9BC5.sh"
+    }
+}
