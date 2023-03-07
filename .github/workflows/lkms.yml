@@ -48,6 +48,7 @@ jobs:
               lkms = {}
               try:
                   lkmDirs = os.listdir(os.path.join(root, baseDir))
+                  lkmDirs.sort()
                   for lkm in lkmDirs:
                       if lkm.startswith('.') or '-' not in lkm:
                           continue

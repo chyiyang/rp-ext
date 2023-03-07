@@ -1,39 +1,75 @@
 {
+    "rp-purley-4.4.180-dev.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-purley-4.4.180-dev.ko.gz",
+        "sha256": "f5a623ee24142c0989114867401ec20932a375dba39744a95b62d9434b97692e"
+    },
     "rp-v1000-4.4.180-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-v1000-4.4.180-dev.ko.gz",
-        "sha256": "bf92ff7d8e2c1571a18d56ee3a72aa6db188191abebec8d4b199dfd45b7715d0"
+        "sha256": "dcba0ca3ab2b69a324d4f45f2dbc02e711d8cb444bd6e5b288b08be1bddde0e3"
+    },
+    "rp-apollolake-4.4.180-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-apollolake-4.4.180-test.ko.gz",
+        "sha256": "9f9da960ef5a93fbc71893ad90a8ae5db5ed1966cbc854ae920cf29ae12c7492"
     },
     "rp-bromolow-3.10.105-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-bromolow-3.10.105-dev.ko.gz",
         "sha256": "4b2968252cc1ddde2646314f45aa51abec2a8bf15e729a40ff0aeade59a9f262"
     },
+    "rp-bromolow-3.10.108-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-bromolow-3.10.108-test.ko.gz",
+        "sha256": "d678882804e27d7aaff7827eb27cd66800dec61e21cd1f10906d5097413d851d"
+    },
+    "rp-geminilake-4.4.180-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-geminilake-4.4.180-test.ko.gz",
+        "sha256": "f65325e647f520197fc91c070d9689ba85efb85ca72b6713d9c4a6dfdff5c077"
+    },
+    "rp-broadwell-4.4.180-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-broadwell-4.4.180-test.ko.gz",
+        "sha256": "fe78e603cdff87589383dc8bbef6f95b4b9029d432675354532e5c96ba72b3c8"
+    },
+    "rp-r1000-4.4.180-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-r1000-4.4.180-test.ko.gz",
+        "sha256": "044782f92bf13d2ce03f3050ad240a279fa3774dedf44ae349056a3f5b4f0b70"
+    },
     "rp-broadwellnk-4.4.180-prod.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-broadwellnk-4.4.180-prod.ko.gz",
-        "sha256": "375f9bc007f360675c58a7ef28897cb1149a20f7df1a886dc8d6c1d3f559724f"
+        "sha256": "fb2960ec1d4e94184b841313bc8c162905795243482ca4021bb4c82c1c6bd169"
     },
     "rp-v1000-4.4.180-prod.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-v1000-4.4.180-prod.ko.gz",
-        "sha256": "139dc6f766b604f7ce262e0de5b17efd051dff98942a271a352996e984e3fc31"
+        "sha256": "52ec3b4f2c1655ae0004284cc75b77eb81190194fdca431153bf6f3cd187c3f7"
     },
     "rp-r1000-4.4.180-prod.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-r1000-4.4.180-prod.ko.gz",
-        "sha256": "4bbc54178dde75e9d55d879179699852ae9ed6b8e5663907f9914747a4443d5f"
+        "sha256": "dd06ec5bae1af4807b393c779215ad6b1651dba23e2574f142ec7fae60b729b5"
     },
     "rp-bromolow-3.10.108-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-bromolow-3.10.108-dev.ko.gz",
-        "sha256": "694ed733bf3156f9b54f21853aa1cce6459a71689cefd7f8bc4103e8ea3a04dc"
+        "sha256": "2bf62636884a43a38eb7ff8ac9e19ec41dbe6acd635cf86a5c9a67f04ab1c967"
     },
     "rp-geminilake-4.4.180-prod.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-geminilake-4.4.180-prod.ko.gz",
-        "sha256": "707d6b9c098a4f72013b342b76e4b99f34295e374b90b49f3268bf78baa923be"
+        "sha256": "dc2da56f717baa07c2fd4d9b7e3529a3b21be4854fb1b2d50c41d626cae22a18"
     },
     "rp-broadwell-4.4.180-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-broadwell-4.4.180-dev.ko.gz",
-        "sha256": "0f60277be4240eebe04fa586f1fba3b7c0fa9bed77a4a57cc0ce8d9d351973ce"
+        "sha256": "63aec45594e64440324fe5fddeee0a975df781b665b126c910d5d10da42dd116"
+    },
+    "rp-epyc7002-5.10.55-dev.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-epyc7002-5.10.55-dev.ko.gz",
+        "sha256": "138be5a51001c5287e960bc973b748c33ab922f20c704fa3dc4ab9154034df12"
     },
     "rp-apollolake-4.4.180-prod.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-apollolake-4.4.180-prod.ko.gz",
-        "sha256": "bf2ba38e40c592cb9b82ab518060b75f3857cf25916a2db4007e8fb7b4f84e4f"
+        "sha256": "1a1196c5ee6d4845a29d600b8346636a2128203781bcefe5e00b0060e29a8a61"
+    },
+    "rp-epyc7002-5.10.55-prod.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-epyc7002-5.10.55-prod.ko.gz",
+        "sha256": "68be04e47fb3e50aec2ca389fe953da24b4590adb3bcda272711097db861019e"
+    },
+    "rp-purley-4.4.180-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-purley-4.4.180-test.ko.gz",
+        "sha256": "138f40aa50e7069573f2dca3a713fb0befe4dc433eef075dec6b1ca16ace55db"
     },
     "rp-apollolake-4.4.59-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-apollolake-4.4.59-dev.ko.gz",
@@ -41,34 +77,54 @@
     },
     "rp-apollolake-4.4.180-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-apollolake-4.4.180-dev.ko.gz",
-        "sha256": "b9cda0b36926306946983cddcad9bd60485ebfd5ceee3c5f0b28a4e1fa9e507f"
+        "sha256": "17b50d2c2c5d6cdeaa953e973e2eb9337dc1b78647549edc1683dcb38d6f42a6"
+    },
+    "rp-purley-4.4.180-prod.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-purley-4.4.180-prod.ko.gz",
+        "sha256": "ce41a8e7f99b490c10266d13fbf01e41954b28080793213a5c1f1fade9800e35"
+    },
+    "rp-epyc7002-5.10.55-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-epyc7002-5.10.55-test.ko.gz",
+        "sha256": "603c9c0e87420662baf0665d3b38daaf180853109c4129deb0550a96b2630a0c"
     },
     "rp-broadwellnk-4.4.180-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-broadwellnk-4.4.180-dev.ko.gz",
-        "sha256": "26d9b7027fa165a3e263b7d6358b76a90f01b737ee016059b04e5959f4c51674"
+        "sha256": "ebd87fab2be1a91f70aa88a4f6f9bda4afaffd4cdac34d5e12c2329863eef18e"
+    },
+    "rp-v1000-4.4.180-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-v1000-4.4.180-test.ko.gz",
+        "sha256": "86768d01ecda8bd8a368af391339ae11e5d6af2df6a28bf5738fe5ae21d3f202"
     },
     "rp-denverton-4.4.180-prod.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-denverton-4.4.180-prod.ko.gz",
-        "sha256": "51af140fe54431fd3ebe5550d5cd8716091fca17ac49535743f39a0207919d82"
+        "sha256": "8811e571741fac80f6bf0f2ad12272008f3f5068b3764f3c8321b51581a1c863"
     },
     "rp-denverton-4.4.180-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-denverton-4.4.180-dev.ko.gz",
-        "sha256": "b994511312fbbb64147ad4b40e6f0824e6db936368711c36ceb60bb4cda3956d"
+        "sha256": "ec0ad4b56c6debe518cec8b8307aa5ee5a22f8a9775a9ac4e03c7c3f1eb7b10d"
     },
     "rp-broadwell-4.4.180-prod.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-broadwell-4.4.180-prod.ko.gz",
-        "sha256": "58b153df53a90e4b6f048b5bed9efd6e29498a141898434de106ce17faa693c1"
+        "sha256": "7c539d1ff9ed9960f59d2e8ad622e80bd66292b551d6253233103a8b058374f1"
+    },
+    "rp-denverton-4.4.180-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-denverton-4.4.180-test.ko.gz",
+        "sha256": "978273ec2baaba5a7980aa750db11db6226e5e8ef586a7ab98dccb82ea7b4c75"
+    },
+    "rp-broadwellnk-4.4.180-test.ko.gz": {
+        "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-broadwellnk-4.4.180-test.ko.gz",
+        "sha256": "e19f24dd718e9e29171d1bd9e886e8537da2d626d37d8e283e3d5f6b3dbfad96"
     },
     "rp-bromolow-3.10.108-prod.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-bromolow-3.10.108-prod.ko.gz",
-        "sha256": "aad6ec20026be2e228fb32332bc63c72ae164a332b85ba75cf665ffe6da82115"
+        "sha256": "51b807bb51686d853595b299c1883e54f436dd699ed364123a7cee438e1bf16b"
     },
     "rp-r1000-4.4.180-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-r1000-4.4.180-dev.ko.gz",
-        "sha256": "5f4ca478f23823086bde830f59bdce91bff05b89ae46e74447453edcddf11166"
+        "sha256": "83e8466604e24b67bf1095b58316564260106d451e9066e49d937352d823fd5b"
     },
     "rp-geminilake-4.4.180-dev.ko.gz": {
         "url": "https://github.com/wjz304/rp-ext/raw/main/lkms/rp-geminilake-4.4.180-dev.ko.gz",
-        "sha256": "eefc1e6dfda9e14beaa48ec6b2f3494837ec8508b5bcd8c131da04366490d2f4"
+        "sha256": "6d0dcf9177d243c95adb50bb0574ffe82d1feb5e62ba19505906064b05d9aab3"
     }
 }
