@@ -200,8 +200,8 @@ jobs:
         run: |
           for i in `ls arpl-modules | grep ".*-.*"`
           do
-            if [ -d "arpl-modules/${i}" -a -d "modulesplatforms/${i}" ]; then
-              rm -rf "modulesplatforms/${i}"
+            if [ -d "arpl-modules/${i}" ]; then
+              [ -d "modulesplatforms/${i}" ] && rm -rf "modulesplatforms/${i}"
               mv arpl-modules/${i} modulesplatforms/${i}
             fi
           done
