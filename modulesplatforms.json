@@ -1,4 +1,432 @@
 {
+    "apollolake-4.4.180": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "acpi-cpufreq": {
+            "description": "ACPI Processor P-States Driver"
+        },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
+        "aqc111": {
+            "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "atkbd": {
+            "description": "AT and PS/2 keyboard driver"
+        },
+        "atl1c": {
+            "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "atlantic": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
+        },
+        "be2net": {
+            "description": "Emulex OneConnect NIC Driver 10.6.0.3"
+        },
+        "bitblit": {
+            "description": "Bit Blitting Operation"
+        },
+        "bnx2": {
+            "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
+        "bnxt_en": {
+            "description": "Broadcom BCM573xx network driver"
+        },
+        "button": {
+            "description": "ACPI Button Driver"
+        },
+        "cdc_ncm": {
+            "description": "USB CDC NCM host driver"
+        },
+        "cdrom": {
+            "description": ""
+        },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
+        "cpufreq_conservative": {
+            "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
+        },
+        "cpufreq_governor": {
+            "description": ""
+        },
+        "cpufreq_ondemand": {
+            "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "crc-ccitt": {
+            "description": "CRC-CCITT calculations"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
+        "cxgb": {
+            "description": "Chelsio 10Gb Ethernet Driver"
+        },
+        "cxgb3": {
+            "description": "Chelsio T3 Network Driver"
+        },
+        "cxgb4": {
+            "description": "Chelsio T4/T5/T6 Network Driver"
+        },
+        "cxgb4vf": {
+            "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "drm": {
+            "description": "DRM panel infrastructure"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
+        "drm_panel_orientation_quirks": {
+            "description": ""
+        },
+        "dvb-core": {
+            "description": "DVB Core Driver"
+        },
+        "dvb-usb-dib0700": {
+            "description": "Driver for devices based on DiBcom DiB0700 - USB bridge"
+        },
+        "dvb-usb-dvbsky": {
+            "description": "Driver for DVBSky USB"
+        },
+        "dvb-usb": {
+            "description": "A library module containing commonly used USB and DVB function USB DVB devices"
+        },
+        "dvb_usb_v2": {
+            "description": "DVB USB common"
+        },
+        "e1000": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "e1000e": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "efifb": {
+            "description": ""
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
+        "etxhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "fb": {
+            "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
+        },
+        "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
+            "description": ""
+        },
+        "font": {
+            "description": "Console Fonts"
+        },
+        "generic_bl": {
+            "description": "Generic Backlight Driver"
+        },
+        "hid-generic": {
+            "description": "HID generic driver"
+        },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
+        "i2c-algo-bit": {
+            "description": "I2C-Bus bit-banging algorithm"
+        },
+        "i40e": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
+        },
+        "i8042": {
+            "description": "i8042 keyboard and mouse controller driver"
+        },
+        "i915.3E98": {
+            "description": "Intel Graphics"
+        },
+        "i915.9BC5": {
+            "description": "Intel Graphics"
+        },
+        "i915.9BC8": {
+            "description": "Intel Graphics"
+        },
+        "i915.9CA8": {
+            "description": "Intel Graphics"
+        },
+        "i915": {
+            "description": "Intel Graphics"
+        },
+        "iavf": {
+            "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
+        },
+        "ice": {
+            "description": "Intel(R) Ethernet Connection E800 Series Linux Driver"
+        },
+        "igb": {
+            "description": "Intel(R) Gigabit Ethernet Linux Driver"
+        },
+        "igbvf": {
+            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+        },
+        "igc": {
+            "description": "Intel(R) 2.5G Ethernet Linux Driver"
+        },
+        "intel_auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "iosf_mbi": {
+            "description": "IOSF Mailbox Interface accessor"
+        },
+        "it87": {
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
+        },
+        "ixgb": {
+            "description": "Intel(R) PRO/10GbE Network Driver"
+        },
+        "ixgbe": {
+            "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
+        },
+        "ixgbevf": {
+            "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "jc42": {
+            "description": "JC42 driver"
+        },
+        "jme": {
+            "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libphy": {
+            "description": "PHY library"
+        },
+        "libsas": {
+            "description": "SAS Transport Layer"
+        },
+        "m88ds3103": {
+            "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
+        "megaraid_mbox": {
+            "description": "LSI Logic MegaRAID Mailbox Driver"
+        },
+        "megaraid_mm": {
+            "description": "LSI Logic Management Module"
+        },
+        "megaraid_sas": {
+            "description": "Avago MegaRAID SAS Driver"
+        },
+        "mii": {
+            "description": "MII hardware support library"
+        },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
+        "mlx4_en": {
+            "description": "Mellanox ConnectX HCA Ethernet driver"
+        },
+        "mlx5_core": {
+            "description": "Mellanox Connect-IB, ConnectX-4 core driver"
+        },
+        "mlxsw_core": {
+            "description": "Mellanox switch device core driver"
+        },
+        "mlxsw_pci": {
+            "description": "Mellanox switch PCI interface driver"
+        },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
+        "mpt3sas": {
+            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+        },
+        "mptbase": {
+            "description": "Fusion MPT base driver"
+        },
+        "mptctl": {
+            "description": "Fusion MPT misc device (ioctl) driver"
+        },
+        "mptlan": {
+            "description": "Fusion MPT LAN driver"
+        },
+        "mptsas": {
+            "description": "Fusion MPT SAS Host driver"
+        },
+        "mptscsih": {
+            "description": "Fusion MPT SCSI Host driver"
+        },
+        "mptspi": {
+            "description": "Fusion MPT SPI Host driver"
+        },
+        "mtk-sd": {
+            "description": "MediaTek SD/MMC Card Driver"
+        },
+        "nct6775": {
+            "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
+        "r8152": {
+            "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
+        "raid_class": {
+            "description": "RAID device class"
+        },
+        "rc-core": {
+            "description": ""
+        },
+        "rtc-cmos": {
+            "description": "Driver for PC-style 'CMOS' RTCs"
+        },
+        "scsi_transport_sas": {
+            "description": "SAS Transport Attributes"
+        },
+        "scsi_transport_spi": {
+            "description": "SPI Transport Attributes"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "si2157": {
+            "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
+        },
+        "si2168": {
+            "description": "Silicon Labs Si2168 DVB-T/T2/C demodulator driver"
+        },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
+        "softcursor": {
+            "description": "Generic software cursor"
+        },
+        "sp2": {
+            "description": "CIMaX SP2/HF CI driver"
+        },
+        "sr_mod": {
+            "description": "SCSI cdrom (sr) driver"
+        },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
+        "thermal": {
+            "description": "ACPI Thermal Zone Driver"
+        },
+        "ts2020": {
+            "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
+        },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
+        "vesafb": {
+            "description": ""
+        },
+        "vga16fb": {
+            "description": "Legacy VGA framebuffer device driver"
+        },
+        "vgastate": {
+            "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
+        },
+        "video": {
+            "description": "ACPI Video Driver"
+        },
+        "virtio": {
+            "description": ""
+        },
+        "virtio_input": {
+            "description": "Virtio input device driver"
+        },
+        "virtio_mmio": {
+            "description": "Platform bus driver for memory mapped virtio devices"
+        },
+        "virtio_net": {
+            "description": "Virtio network driver"
+        },
+        "virtio_pci": {
+            "description": "virtio-pci"
+        },
+        "virtio_ring": {
+            "description": ""
+        },
+        "virtio_scsi": {
+            "description": "Virtio SCSI HBA driver"
+        },
+        "vmw_pvscsi": {
+            "description": "VMware PVSCSI driver"
+        },
+        "vmxnet3": {
+            "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
+        },
+        "xhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "xhci-pci": {
+            "description": "xHCI PCI Host Controller Driver"
+        }
+    },
     "apollolake-4.4.59": {
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
@@ -641,6 +1069,766 @@
             "description": "VMware vmxnet3 virtual NIC driver"
         }
     },
+    "broadwell-4.4.180": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "acpi-cpufreq": {
+            "description": "ACPI Processor P-States Driver"
+        },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
+        "aqc111": {
+            "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "atkbd": {
+            "description": "AT and PS/2 keyboard driver"
+        },
+        "atl1c": {
+            "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "atlantic": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "atlantic_v2": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
+        "be2net": {
+            "description": "Emulex OneConnect NIC Driver 11.1.38.64"
+        },
+        "bitblit": {
+            "description": "Bit Blitting Operation"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
+        "bnxt_en": {
+            "description": "Broadcom BCM573xx network driver"
+        },
+        "button": {
+            "description": "ACPI Button Driver"
+        },
+        "cdc_ncm": {
+            "description": "USB CDC NCM host driver"
+        },
+        "cdrom": {
+            "description": ""
+        },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
+        "cpufreq_conservative": {
+            "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
+        },
+        "cpufreq_ondemand": {
+            "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "crc-ccitt": {
+            "description": "CRC-CCITT calculations"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
+        "cxgb": {
+            "description": "Chelsio 10Gb Ethernet Driver"
+        },
+        "cxgb3": {
+            "description": "Chelsio T3 Network Driver"
+        },
+        "cxgb4": {
+            "description": "Chelsio T4/T5/T6 Network Driver"
+        },
+        "cxgb4vf": {
+            "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dvb-core": {
+            "description": "DVB Core Driver"
+        },
+        "dvb-usb-dib0700": {
+            "description": "Driver for devices based on DiBcom DiB0700 - USB bridge"
+        },
+        "dvb-usb-dvbsky": {
+            "description": "Driver for DVBSky USB"
+        },
+        "dvb-usb": {
+            "description": "A library module containing commonly used USB and DVB function USB DVB devices"
+        },
+        "dvb_usb_v2": {
+            "description": "DVB USB common"
+        },
+        "e1000": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "e1000e": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "efifb": {
+            "description": ""
+        },
+        "etxhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "fb": {
+            "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
+        },
+        "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
+            "description": ""
+        },
+        "font": {
+            "description": "Console Fonts"
+        },
+        "hid-generic": {
+            "description": "HID generic driver"
+        },
+        "i2c-algo-bit": {
+            "description": "I2C-Bus bit-banging algorithm"
+        },
+        "i40e": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
+        },
+        "i8042": {
+            "description": "i8042 keyboard and mouse controller driver"
+        },
+        "iavf": {
+            "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
+        },
+        "ice": {
+            "description": "Intel(R) Ethernet Connection E800 Series Linux Driver"
+        },
+        "igb": {
+            "description": "Intel(R) Gigabit Ethernet Linux Driver"
+        },
+        "igbvf": {
+            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+        },
+        "igc": {
+            "description": "Intel(R) 2.5G Ethernet Linux Driver"
+        },
+        "intel_auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "it87": {
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
+        },
+        "ixgb": {
+            "description": "Intel(R) PRO/10GbE Network Driver"
+        },
+        "ixgbe": {
+            "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
+        },
+        "ixgbevf": {
+            "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "jc42": {
+            "description": "JC42 driver"
+        },
+        "jme": {
+            "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libphy": {
+            "description": "PHY library"
+        },
+        "m88ds3103": {
+            "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
+        "megaraid_mbox": {
+            "description": "LSI Logic MegaRAID Mailbox Driver"
+        },
+        "megaraid_mm": {
+            "description": "LSI Logic Management Module"
+        },
+        "megaraid_sas": {
+            "description": "Avago MegaRAID SAS Driver"
+        },
+        "mii": {
+            "description": "MII hardware support library"
+        },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
+        "mlx4_en": {
+            "description": "Mellanox ConnectX HCA Ethernet driver"
+        },
+        "mlx4_ib": {
+            "description": "Mellanox ConnectX HCA InfiniBand driver"
+        },
+        "mlx5_core": {
+            "description": "Mellanox Connect-IB, ConnectX-4, ConnectX-5 core driver"
+        },
+        "mlx5_ib": {
+            "description": "Mellanox Connect-IB HCA IB driver"
+        },
+        "mlx_compat": {
+            "description": "Kernel backport module"
+        },
+        "mlxsw_core": {
+            "description": "Mellanox switch device core driver"
+        },
+        "mlxsw_pci": {
+            "description": "Mellanox switch PCI interface driver"
+        },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
+        "mpt3sas": {
+            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+        },
+        "mptbase": {
+            "description": "Fusion MPT base driver"
+        },
+        "mptctl": {
+            "description": "Fusion MPT misc device (ioctl) driver"
+        },
+        "mptsas": {
+            "description": "Fusion MPT SAS Host driver"
+        },
+        "mptscsih": {
+            "description": "Fusion MPT SCSI Host driver"
+        },
+        "mptspi": {
+            "description": "Fusion MPT SPI Host driver"
+        },
+        "mtk-sd": {
+            "description": "MediaTek SD/MMC Card Driver"
+        },
+        "nct6775": {
+            "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
+        "qla2xxx": {
+            "description": "QLogic Fibre Channel HBA Driver"
+        },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
+        "r8152": {
+            "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
+        "rc-core": {
+            "description": ""
+        },
+        "scsi_transport_spi": {
+            "description": "SPI Transport Attributes"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "si2157": {
+            "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
+        },
+        "si2168": {
+            "description": "Silicon Labs Si2168 DVB-T/T2/C demodulator driver"
+        },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
+        "softcursor": {
+            "description": "Generic software cursor"
+        },
+        "sp2": {
+            "description": "CIMaX SP2/HF CI driver"
+        },
+        "sr_mod": {
+            "description": "SCSI cdrom (sr) driver"
+        },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
+        "thermal": {
+            "description": "ACPI Thermal Zone Driver"
+        },
+        "ts2020": {
+            "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
+        },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
+        "vesafb": {
+            "description": ""
+        },
+        "vga16fb": {
+            "description": "Legacy VGA framebuffer device driver"
+        },
+        "vgastate": {
+            "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
+        },
+        "virtio": {
+            "description": ""
+        },
+        "virtio_input": {
+            "description": "Virtio input device driver"
+        },
+        "virtio_mmio": {
+            "description": "Platform bus driver for memory mapped virtio devices"
+        },
+        "virtio_net": {
+            "description": "Virtio network driver"
+        },
+        "virtio_pci": {
+            "description": "virtio-pci"
+        },
+        "virtio_ring": {
+            "description": ""
+        },
+        "virtio_scsi": {
+            "description": "Virtio SCSI HBA driver"
+        },
+        "vmw_pvscsi": {
+            "description": "VMware PVSCSI driver"
+        },
+        "vmxnet3": {
+            "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
+        },
+        "xhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "xhci-pci": {
+            "description": "xHCI PCI Host Controller Driver"
+        }
+    },
+    "broadwellnk-4.4.180": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "acpi-cpufreq": {
+            "description": "ACPI Processor P-States Driver"
+        },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
+        "aqc111": {
+            "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "atkbd": {
+            "description": "AT and PS/2 keyboard driver"
+        },
+        "atl1c": {
+            "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "atlantic": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "atlantic_v2": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
+        "be2net": {
+            "description": "Emulex OneConnect NIC Driver 11.1.38.64"
+        },
+        "bitblit": {
+            "description": "Bit Blitting Operation"
+        },
+        "bnx2": {
+            "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
+        "bnxt_en": {
+            "description": "Broadcom BCM573xx network driver"
+        },
+        "button": {
+            "description": "ACPI Button Driver"
+        },
+        "cdc_ncm": {
+            "description": "USB CDC NCM host driver"
+        },
+        "cdrom": {
+            "description": ""
+        },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
+        "cpufreq_conservative": {
+            "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
+        },
+        "cpufreq_ondemand": {
+            "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "crc-ccitt": {
+            "description": "CRC-CCITT calculations"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
+        "cxgb": {
+            "description": "Chelsio 10Gb Ethernet Driver"
+        },
+        "cxgb3": {
+            "description": "Chelsio T3 Network Driver"
+        },
+        "cxgb4": {
+            "description": "Chelsio T4/T5/T6 Network Driver"
+        },
+        "cxgb4vf": {
+            "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dvb-core": {
+            "description": "DVB Core Driver"
+        },
+        "dvb-usb-dib0700": {
+            "description": "Driver for devices based on DiBcom DiB0700 - USB bridge"
+        },
+        "dvb-usb-dvbsky": {
+            "description": "Driver for DVBSky USB"
+        },
+        "dvb-usb": {
+            "description": "A library module containing commonly used USB and DVB function USB DVB devices"
+        },
+        "dvb_usb_v2": {
+            "description": "DVB USB common"
+        },
+        "e1000": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "e1000e": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "efifb": {
+            "description": ""
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
+        "etxhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "fb": {
+            "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
+        },
+        "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
+            "description": ""
+        },
+        "font": {
+            "description": "Console Fonts"
+        },
+        "hid-generic": {
+            "description": "HID generic driver"
+        },
+        "i2c-algo-bit": {
+            "description": "I2C-Bus bit-banging algorithm"
+        },
+        "i40e": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
+        },
+        "i8042": {
+            "description": "i8042 keyboard and mouse controller driver"
+        },
+        "iavf": {
+            "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
+        },
+        "ice": {
+            "description": "Intel(R) Ethernet Connection E800 Series Linux Driver"
+        },
+        "igb": {
+            "description": "Intel(R) Gigabit Ethernet Linux Driver"
+        },
+        "igbvf": {
+            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+        },
+        "igc": {
+            "description": "Intel(R) 2.5G Ethernet Linux Driver"
+        },
+        "intel_auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "it87": {
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
+        },
+        "ixgb": {
+            "description": "Intel(R) PRO/10GbE Network Driver"
+        },
+        "ixgbe": {
+            "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
+        },
+        "ixgbevf": {
+            "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "jc42": {
+            "description": "JC42 driver"
+        },
+        "jme": {
+            "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libphy": {
+            "description": "PHY library"
+        },
+        "m88ds3103": {
+            "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
+        "megaraid_mbox": {
+            "description": "LSI Logic MegaRAID Mailbox Driver"
+        },
+        "megaraid_mm": {
+            "description": "LSI Logic Management Module"
+        },
+        "megaraid_sas": {
+            "description": "Avago MegaRAID SAS Driver"
+        },
+        "mii": {
+            "description": "MII hardware support library"
+        },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
+        "mlx4_en": {
+            "description": "Mellanox ConnectX HCA Ethernet driver"
+        },
+        "mlx4_ib": {
+            "description": "Mellanox ConnectX HCA InfiniBand driver"
+        },
+        "mlx5_core": {
+            "description": "Mellanox Connect-IB, ConnectX-4, ConnectX-5 core driver"
+        },
+        "mlx5_ib": {
+            "description": "Mellanox Connect-IB HCA IB driver"
+        },
+        "mlx_compat": {
+            "description": "Kernel backport module"
+        },
+        "mlxsw_core": {
+            "description": "Mellanox switch device core driver"
+        },
+        "mlxsw_pci": {
+            "description": "Mellanox switch PCI interface driver"
+        },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
+        "mpt3sas": {
+            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+        },
+        "mptbase": {
+            "description": "Fusion MPT base driver"
+        },
+        "mptctl": {
+            "description": "Fusion MPT misc device (ioctl) driver"
+        },
+        "mptsas": {
+            "description": "Fusion MPT SAS Host driver"
+        },
+        "mptscsih": {
+            "description": "Fusion MPT SCSI Host driver"
+        },
+        "mptspi": {
+            "description": "Fusion MPT SPI Host driver"
+        },
+        "mtk-sd": {
+            "description": "MediaTek SD/MMC Card Driver"
+        },
+        "nct6775": {
+            "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
+        "r8152": {
+            "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
+        "rc-core": {
+            "description": ""
+        },
+        "scsi_transport_spi": {
+            "description": "SPI Transport Attributes"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "si2157": {
+            "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
+        },
+        "si2168": {
+            "description": "Silicon Labs Si2168 DVB-T/T2/C demodulator driver"
+        },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
+        "softcursor": {
+            "description": "Generic software cursor"
+        },
+        "sp2": {
+            "description": "CIMaX SP2/HF CI driver"
+        },
+        "sr_mod": {
+            "description": "SCSI cdrom (sr) driver"
+        },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
+        "thermal": {
+            "description": "ACPI Thermal Zone Driver"
+        },
+        "ts2020": {
+            "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
+        },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
+        "vesafb": {
+            "description": ""
+        },
+        "vga16fb": {
+            "description": "Legacy VGA framebuffer device driver"
+        },
+        "vgastate": {
+            "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
+        },
+        "virtio": {
+            "description": ""
+        },
+        "virtio_input": {
+            "description": "Virtio input device driver"
+        },
+        "virtio_mmio": {
+            "description": "Platform bus driver for memory mapped virtio devices"
+        },
+        "virtio_net": {
+            "description": "Virtio network driver"
+        },
+        "virtio_pci": {
+            "description": "virtio-pci"
+        },
+        "virtio_ring": {
+            "description": ""
+        },
+        "virtio_scsi": {
+            "description": "Virtio SCSI HBA driver"
+        },
+        "vmw_pvscsi": {
+            "description": "VMware PVSCSI driver"
+        },
+        "vmxnet3": {
+            "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
+        },
+        "xhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "xhci-pci": {
+            "description": "xHCI PCI Host Controller Driver"
+        }
+    },
     "broadwellnk-4.4.59": {
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
@@ -1155,6 +2343,667 @@
             "description": "VMware vmxnet3 virtual NIC driver"
         }
     },
+    "bromolow-3.10.108": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "acpi-cpufreq": {
+            "description": "ACPI Processor P-States Driver"
+        },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
+        "aqc111": {
+            "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "atl1c": {
+            "description": "Qualcom Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "atlantic": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "atlantic_v2": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "be2net": {
+            "description": "Emulex OneConnect NIC Driver 11.1.38.64"
+        },
+        "bitblit": {
+            "description": "Bit Blitting Operation"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
+        "button": {
+            "description": "ACPI Button Driver"
+        },
+        "cdc_ncm": {
+            "description": "USB CDC NCM host driver"
+        },
+        "cdrom": {
+            "description": ""
+        },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
+        "cpufreq_conservative": {
+            "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
+        },
+        "cpufreq_ondemand": {
+            "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "crc-ccitt": {
+            "description": "CRC-CCITT calculations"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
+        "cxgb": {
+            "description": "Chelsio 10Gb Ethernet Driver"
+        },
+        "cxgb3": {
+            "description": "Chelsio T3 Network Driver"
+        },
+        "cxgb4": {
+            "description": "Chelsio T4/T5 Network Driver"
+        },
+        "cxgb4vf": {
+            "description": "Chelsio T4/T5 Virtual Function (VF) Network Driver"
+        },
+        "e1000": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "e1000e": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "efifb": {
+            "description": ""
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
+        "etxhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "fb": {
+            "description": ""
+        },
+        "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
+            "description": ""
+        },
+        "font": {
+            "description": "Console Fonts"
+        },
+        "hid-generic": {
+            "description": "HID generic driver"
+        },
+        "i2c-algo-bit": {
+            "description": "I2C-Bus bit-banging algorithm"
+        },
+        "i40e": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
+        },
+        "i8042": {
+            "description": "i8042 keyboard and mouse controller driver"
+        },
+        "igb": {
+            "description": "Intel(R) Gigabit Ethernet Linux Driver"
+        },
+        "ixgbe": {
+            "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
+        },
+        "jme": {
+            "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
+        "megaraid_mbox": {
+            "description": "LSI Logic MegaRAID Mailbox Driver"
+        },
+        "megaraid_mm": {
+            "description": "LSI Logic Management Module"
+        },
+        "megaraid_sas": {
+            "description": "LSI MegaRAID SAS Driver"
+        },
+        "mii": {
+            "description": "MII hardware support library"
+        },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
+        "mlx4_en": {
+            "description": "Mellanox ConnectX HCA Ethernet driver"
+        },
+        "mlx5_core": {
+            "description": "Mellanox Connect-IB, ConnectX-4, ConnectX-5 core driver"
+        },
+        "mlx_compat": {
+            "description": "Kernel backport module"
+        },
+        "mpt2sas": {
+            "description": "LSI MPT Fusion SAS 2.0 Device Driver"
+        },
+        "mpt3sas": {
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
+        },
+        "mptbase": {
+            "description": "Fusion MPT base driver"
+        },
+        "mptctl": {
+            "description": "Fusion MPT misc device (ioctl) driver"
+        },
+        "mptsas": {
+            "description": "Fusion MPT SAS Host driver"
+        },
+        "mptscsih": {
+            "description": "Fusion MPT SCSI Host driver"
+        },
+        "mptspi": {
+            "description": "Fusion MPT SPI Host driver"
+        },
+        "nct6775": {
+            "description": "NCT6775F/NCT6776F/NCT6779D driver"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
+        "r8152": {
+            "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
+        "scsi_transport_spi": {
+            "description": "SPI Transport Attributes"
+        },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
+        "softcursor": {
+            "description": "Generic software cursor"
+        },
+        "sr_mod": {
+            "description": "SCSI cdrom (sr) driver"
+        },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
+        "thermal": {
+            "description": "ACPI Thermal Zone Driver"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
+        },
+        "vesafb": {
+            "description": ""
+        },
+        "vga16fb": {
+            "description": "Legacy VGA framebuffer device driver"
+        },
+        "vgastate": {
+            "description": "VGA State Save/Restore"
+        },
+        "video": {
+            "description": "ACPI Video Driver"
+        },
+        "virtio": {
+            "description": ""
+        },
+        "virtio_mmio": {
+            "description": "Platform bus driver for memory mapped virtio devices"
+        },
+        "virtio_net": {
+            "description": "Virtio network driver"
+        },
+        "virtio_pci": {
+            "description": "virtio-pci"
+        },
+        "virtio_ring": {
+            "description": ""
+        },
+        "virtio_scsi": {
+            "description": "Virtio SCSI HBA driver"
+        },
+        "vmw_pvscsi": {
+            "description": "VMware PVSCSI driver"
+        },
+        "vmxnet3": {
+            "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "xhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        }
+    },
+    "denverton-4.4.180": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "acpi-cpufreq": {
+            "description": "ACPI Processor P-States Driver"
+        },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
+        "aqc111": {
+            "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "atkbd": {
+            "description": "AT and PS/2 keyboard driver"
+        },
+        "atl1c": {
+            "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "atlantic": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "atlantic_v2": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
+        "be2net": {
+            "description": "Emulex OneConnect NIC Driver 11.1.38.64"
+        },
+        "bitblit": {
+            "description": "Bit Blitting Operation"
+        },
+        "bnx2": {
+            "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
+        "bnxt_en": {
+            "description": "Broadcom BCM573xx network driver"
+        },
+        "button": {
+            "description": "ACPI Button Driver"
+        },
+        "cdc_ncm": {
+            "description": "USB CDC NCM host driver"
+        },
+        "cdrom": {
+            "description": ""
+        },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
+        "cpufreq_conservative": {
+            "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
+        },
+        "cpufreq_governor": {
+            "description": ""
+        },
+        "cpufreq_ondemand": {
+            "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "crc-ccitt": {
+            "description": "CRC-CCITT calculations"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
+        "cxgb": {
+            "description": "Chelsio 10Gb Ethernet Driver"
+        },
+        "cxgb3": {
+            "description": "Chelsio T3 Network Driver"
+        },
+        "cxgb4": {
+            "description": "Chelsio T4/T5/T6 Network Driver"
+        },
+        "cxgb4vf": {
+            "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dvb-core": {
+            "description": "DVB Core Driver"
+        },
+        "dvb-usb-dib0700": {
+            "description": "Driver for devices based on DiBcom DiB0700 - USB bridge"
+        },
+        "dvb-usb-dvbsky": {
+            "description": "Driver for DVBSky USB"
+        },
+        "dvb-usb": {
+            "description": "A library module containing commonly used USB and DVB function USB DVB devices"
+        },
+        "dvb_usb_v2": {
+            "description": "DVB USB common"
+        },
+        "e1000": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "e1000e": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "efifb": {
+            "description": ""
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
+        "etxhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "fb": {
+            "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
+        },
+        "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
+            "description": ""
+        },
+        "font": {
+            "description": "Console Fonts"
+        },
+        "hid-generic": {
+            "description": "HID generic driver"
+        },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
+        "i2c-algo-bit": {
+            "description": "I2C-Bus bit-banging algorithm"
+        },
+        "i40e": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
+        },
+        "i8042": {
+            "description": "i8042 keyboard and mouse controller driver"
+        },
+        "iavf": {
+            "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
+        },
+        "ice": {
+            "description": "Intel(R) Ethernet Connection E800 Series Linux Driver"
+        },
+        "igb": {
+            "description": "Intel(R) Gigabit Ethernet Linux Driver"
+        },
+        "igbvf": {
+            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+        },
+        "igc": {
+            "description": "Intel(R) 2.5G Ethernet Linux Driver"
+        },
+        "intel_auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "it87": {
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
+        },
+        "ixgb": {
+            "description": "Intel(R) PRO/10GbE Network Driver"
+        },
+        "ixgbe": {
+            "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
+        },
+        "ixgbevf": {
+            "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "jc42": {
+            "description": "JC42 driver"
+        },
+        "jme": {
+            "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libphy": {
+            "description": "PHY library"
+        },
+        "libsas": {
+            "description": "SAS Transport Layer"
+        },
+        "m88ds3103": {
+            "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
+        "megaraid_mbox": {
+            "description": "LSI Logic MegaRAID Mailbox Driver"
+        },
+        "megaraid_mm": {
+            "description": "LSI Logic Management Module"
+        },
+        "megaraid_sas": {
+            "description": "Avago MegaRAID SAS Driver"
+        },
+        "mii": {
+            "description": "MII hardware support library"
+        },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
+        "mlx4_en": {
+            "description": "Mellanox ConnectX HCA Ethernet driver"
+        },
+        "mlx5_core": {
+            "description": "Mellanox Connect-IB, ConnectX-4, ConnectX-5 core driver"
+        },
+        "mlx_compat": {
+            "description": "Kernel backport module"
+        },
+        "mlxsw_core": {
+            "description": "Mellanox switch device core driver"
+        },
+        "mlxsw_pci": {
+            "description": "Mellanox switch PCI interface driver"
+        },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
+        "mpt3sas": {
+            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+        },
+        "mptbase": {
+            "description": "Fusion MPT base driver"
+        },
+        "mptctl": {
+            "description": "Fusion MPT misc device (ioctl) driver"
+        },
+        "mptsas": {
+            "description": "Fusion MPT SAS Host driver"
+        },
+        "mptscsih": {
+            "description": "Fusion MPT SCSI Host driver"
+        },
+        "mptspi": {
+            "description": "Fusion MPT SPI Host driver"
+        },
+        "mtk-sd": {
+            "description": "MediaTek SD/MMC Card Driver"
+        },
+        "nct6775": {
+            "description": "Driver for NCT6775F and compatible chips"
+        },
+        "nvidia-uvm": {
+            "description": ""
+        },
+        "nvidia": {
+            "description": ""
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
+        "r8152": {
+            "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
+        "raid_class": {
+            "description": "RAID device class"
+        },
+        "rc-core": {
+            "description": ""
+        },
+        "scsi_transport_sas": {
+            "description": "SAS Transport Attributes"
+        },
+        "scsi_transport_spi": {
+            "description": "SPI Transport Attributes"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "si2157": {
+            "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
+        },
+        "si2168": {
+            "description": "Silicon Labs Si2168 DVB-T/T2/C demodulator driver"
+        },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
+        "softcursor": {
+            "description": "Generic software cursor"
+        },
+        "sp2": {
+            "description": "CIMaX SP2/HF CI driver"
+        },
+        "sr_mod": {
+            "description": "SCSI cdrom (sr) driver"
+        },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
+        "thermal": {
+            "description": "ACPI Thermal Zone Driver"
+        },
+        "ts2020": {
+            "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
+        },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
+        "vesafb": {
+            "description": ""
+        },
+        "vga16fb": {
+            "description": "Legacy VGA framebuffer device driver"
+        },
+        "vgastate": {
+            "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
+        },
+        "virtio": {
+            "description": ""
+        },
+        "virtio_input": {
+            "description": "Virtio input device driver"
+        },
+        "virtio_mmio": {
+            "description": "Platform bus driver for memory mapped virtio devices"
+        },
+        "virtio_net": {
+            "description": "Virtio network driver"
+        },
+        "virtio_pci": {
+            "description": "virtio-pci"
+        },
+        "virtio_ring": {
+            "description": ""
+        },
+        "virtio_scsi": {
+            "description": "Virtio SCSI HBA driver"
+        },
+        "vmw_pvscsi": {
+            "description": "VMware PVSCSI driver"
+        },
+        "vmxnet3": {
+            "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
+        },
+        "xhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "xhci-pci": {
+            "description": "xHCI PCI Host Controller Driver"
+        }
+    },
     "denverton-4.4.59": {
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
@@ -1485,6 +3334,1421 @@
         },
         "vub300": {
             "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
+        }
+    },
+    "epyc7002-5.10.55": {
+        "acpi-cpufreq": {
+            "description": "ACPI Processor P-States Driver"
+        },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
+        "aqc111": {
+            "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "atl1c": {
+            "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "atlantic": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "atlantic_v2": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "be2net": {
+            "description": "Emulex OneConnect NIC Driver"
+        },
+        "blk-mq-virtio": {
+            "description": ""
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
+        "cdc_ncm": {
+            "description": "USB CDC NCM host driver"
+        },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
+        "e1000": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "e1000e": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
+        "failover": {
+            "description": "Generic failover infrastructure/interface"
+        },
+        "fb": {
+            "description": ""
+        },
+        "font": {
+            "description": "Console Fonts"
+        },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
+        "i2c-algo-bit": {
+            "description": "I2C-Bus bit-banging algorithm"
+        },
+        "i40e": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
+        },
+        "iavf": {
+            "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
+        },
+        "igb": {
+            "description": "Intel(R) Gigabit Ethernet Linux Driver"
+        },
+        "igbvf": {
+            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+        },
+        "igc": {
+            "description": "Intel(R) 2.5G Ethernet Linux Driver"
+        },
+        "intel_auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "ixgb": {
+            "description": "Intel(R) PRO/10GbE Network Driver"
+        },
+        "ixgbe": {
+            "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
+        },
+        "ixgbevf": {
+            "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "libphy": {
+            "description": "PHY library"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
+        "mdio_devres": {
+            "description": ""
+        },
+        "mii": {
+            "description": "MII hardware support library"
+        },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
+        "mlx4_en": {
+            "description": "Mellanox ConnectX HCA Ethernet driver"
+        },
+        "mlx4_ib": {
+            "description": "Mellanox ConnectX HCA InfiniBand driver"
+        },
+        "mlx5_core": {
+            "description": "Mellanox 5th generation network adapters (ConnectX series) core driver"
+        },
+        "mlx5_ib": {
+            "description": "Mellanox 5th generation network adapters (ConnectX series) IB driver"
+        },
+        "mpt3sas": {
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
+        },
+        "nct6775": {
+            "description": "Driver for NCT6775F and compatible chips"
+        },
+        "net_failover": {
+            "description": "Failover driver for Paravirtual drivers"
+        },
+        "qla2xxx": {
+            "description": "QLogic Fibre Channel HBA Driver"
+        },
+        "r8152": {
+            "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
+        "rtc-cmos": {
+            "description": "Driver for PC-style 'CMOS' RTCs"
+        },
+        "scsi_transport_sas": {
+            "description": "SAS Transport Attributes"
+        },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
+        "thermal": {
+            "description": "ACPI Thermal Zone Driver"
+        },
+        "usb-common": {
+            "description": ""
+        },
+        "usb-storage": {
+            "description": "USB Mass Storage driver for Linux"
+        },
+        "usbcore": {
+            "description": ""
+        },
+        "usbhid": {
+            "description": "USB HID core driver"
+        },
+        "usbip-core": {
+            "description": "USB/IP Core"
+        },
+        "usbip-host": {
+            "description": "USB/IP Host Driver"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
+        },
+        "usbserial": {
+            "description": "USB Serial Driver core"
+        },
+        "vesafb": {
+            "description": ""
+        },
+        "virtio": {
+            "description": ""
+        },
+        "virtio_blk": {
+            "description": "Virtio block driver"
+        },
+        "virtio_input": {
+            "description": "Virtio input device driver"
+        },
+        "virtio_mmio": {
+            "description": "Platform bus driver for memory mapped virtio devices"
+        },
+        "virtio_net": {
+            "description": "Virtio network driver"
+        },
+        "virtio_pci": {
+            "description": "virtio-pci"
+        },
+        "virtio_ring": {
+            "description": ""
+        },
+        "virtio_scsi": {
+            "description": "Virtio SCSI HBA driver"
+        },
+        "vmw_pvscsi": {
+            "description": "VMware PVSCSI driver"
+        },
+        "vmxnet3": {
+            "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "xhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "xhci-pci": {
+            "description": "xHCI PCI Host Controller Driver"
+        }
+    },
+    "geminilake-4.4.180": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "acpi-cpufreq": {
+            "description": "ACPI Processor P-States Driver"
+        },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
+        "aqc111": {
+            "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "atl1c": {
+            "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "atlantic": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
+        },
+        "be2net": {
+            "description": "Emulex OneConnect NIC Driver 10.6.0.3"
+        },
+        "bitblit": {
+            "description": "Bit Blitting Operation"
+        },
+        "bnx2": {
+            "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
+        "bnxt_en": {
+            "description": "Broadcom BCM573xx network driver"
+        },
+        "button": {
+            "description": "ACPI Button Driver"
+        },
+        "cdc_ncm": {
+            "description": "USB CDC NCM host driver"
+        },
+        "cdrom": {
+            "description": ""
+        },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
+        "cpufreq_conservative": {
+            "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
+        },
+        "cpufreq_governor": {
+            "description": ""
+        },
+        "cpufreq_ondemand": {
+            "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "crc-ccitt": {
+            "description": "CRC-CCITT calculations"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
+        "cxgb": {
+            "description": "Chelsio 10Gb Ethernet Driver"
+        },
+        "cxgb3": {
+            "description": "Chelsio T3 Network Driver"
+        },
+        "cxgb4": {
+            "description": "Chelsio T4/T5/T6 Network Driver"
+        },
+        "cxgb4vf": {
+            "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "drm": {
+            "description": "DRM panel infrastructure"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
+        "drm_panel_orientation_quirks": {
+            "description": ""
+        },
+        "dvb-core": {
+            "description": "DVB Core Driver"
+        },
+        "dvb-usb-dib0700": {
+            "description": "Driver for devices based on DiBcom DiB0700 - USB bridge"
+        },
+        "dvb-usb-dvbsky": {
+            "description": "Driver for DVBSky USB"
+        },
+        "dvb-usb": {
+            "description": "A library module containing commonly used USB and DVB function USB DVB devices"
+        },
+        "dvb_usb_v2": {
+            "description": "DVB USB common"
+        },
+        "e1000": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "e1000e": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "efifb": {
+            "description": ""
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
+        "etxhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "fb": {
+            "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
+        },
+        "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
+            "description": ""
+        },
+        "font": {
+            "description": "Console Fonts"
+        },
+        "generic_bl": {
+            "description": "Generic Backlight Driver"
+        },
+        "hid-generic": {
+            "description": "HID generic driver"
+        },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
+        "i2c-algo-bit": {
+            "description": "I2C-Bus bit-banging algorithm"
+        },
+        "i40e": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
+        },
+        "i915.3E98": {
+            "description": "Intel Graphics"
+        },
+        "i915.9BA8+9BC8": {
+            "description": "Intel Graphics"
+        },
+        "i915.9BC5": {
+            "description": "Intel Graphics"
+        },
+        "i915": {
+            "description": "Intel Graphics"
+        },
+        "iavf": {
+            "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
+        },
+        "ice": {
+            "description": "Intel(R) Ethernet Connection E800 Series Linux Driver"
+        },
+        "igb": {
+            "description": "Intel(R) Gigabit Ethernet Network Driver"
+        },
+        "igbvf": {
+            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+        },
+        "igc": {
+            "description": "Intel(R) 2.5G Ethernet Linux Driver"
+        },
+        "intel_auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "iosf_mbi": {
+            "description": "IOSF Mailbox Interface accessor"
+        },
+        "it87": {
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
+        },
+        "ixgb": {
+            "description": "Intel(R) PRO/10GbE Network Driver"
+        },
+        "ixgbe": {
+            "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
+        },
+        "ixgbevf": {
+            "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "jc42": {
+            "description": "JC42 driver"
+        },
+        "jme": {
+            "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libphy": {
+            "description": "PHY library"
+        },
+        "libsas": {
+            "description": "SAS Transport Layer"
+        },
+        "m88ds3103": {
+            "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
+        "megaraid_mbox": {
+            "description": "LSI Logic MegaRAID Mailbox Driver"
+        },
+        "megaraid_mm": {
+            "description": "LSI Logic Management Module"
+        },
+        "megaraid_sas": {
+            "description": "Avago MegaRAID SAS Driver"
+        },
+        "mii": {
+            "description": "MII hardware support library"
+        },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
+        "mlx4_en": {
+            "description": "Mellanox ConnectX HCA Ethernet driver"
+        },
+        "mlx5_core": {
+            "description": "Mellanox Connect-IB, ConnectX-4 core driver"
+        },
+        "mlxsw_core": {
+            "description": "Mellanox switch device core driver"
+        },
+        "mlxsw_pci": {
+            "description": "Mellanox switch PCI interface driver"
+        },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
+        "mpt3sas": {
+            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+        },
+        "mptbase": {
+            "description": "Fusion MPT base driver"
+        },
+        "mptctl": {
+            "description": "Fusion MPT misc device (ioctl) driver"
+        },
+        "mptsas": {
+            "description": "Fusion MPT SAS Host driver"
+        },
+        "mptscsih": {
+            "description": "Fusion MPT SCSI Host driver"
+        },
+        "mptspi": {
+            "description": "Fusion MPT SPI Host driver"
+        },
+        "mtk-sd": {
+            "description": "MediaTek SD/MMC Card Driver"
+        },
+        "nct6775": {
+            "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
+        "r8152": {
+            "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
+        "raid_class": {
+            "description": "RAID device class"
+        },
+        "rc-core": {
+            "description": ""
+        },
+        "rtc-cmos": {
+            "description": "Driver for PC-style 'CMOS' RTCs"
+        },
+        "scsi_transport_sas": {
+            "description": "SAS Transport Attributes"
+        },
+        "scsi_transport_spi": {
+            "description": "SPI Transport Attributes"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "si2157": {
+            "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
+        },
+        "si2168": {
+            "description": "Silicon Labs Si2168 DVB-T/T2/C demodulator driver"
+        },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
+        "softcursor": {
+            "description": "Generic software cursor"
+        },
+        "sp2": {
+            "description": "CIMaX SP2/HF CI driver"
+        },
+        "sr_mod": {
+            "description": "SCSI cdrom (sr) driver"
+        },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
+        "thermal": {
+            "description": "ACPI Thermal Zone Driver"
+        },
+        "ts2020": {
+            "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
+        },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
+        "vesafb": {
+            "description": ""
+        },
+        "vga16fb": {
+            "description": "Legacy VGA framebuffer device driver"
+        },
+        "vgastate": {
+            "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
+        },
+        "video": {
+            "description": "ACPI Video Driver"
+        },
+        "virtio": {
+            "description": ""
+        },
+        "virtio_input": {
+            "description": "Virtio input device driver"
+        },
+        "virtio_mmio": {
+            "description": "Platform bus driver for memory mapped virtio devices"
+        },
+        "virtio_net": {
+            "description": "Virtio network driver"
+        },
+        "virtio_pci": {
+            "description": "virtio-pci"
+        },
+        "virtio_ring": {
+            "description": ""
+        },
+        "virtio_scsi": {
+            "description": "Virtio SCSI HBA driver"
+        },
+        "vmw_pvscsi": {
+            "description": "VMware PVSCSI driver"
+        },
+        "vmxnet3": {
+            "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
+        },
+        "xhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "xhci-pci": {
+            "description": "xHCI PCI Host Controller Driver"
+        }
+    },
+    "r1000-4.4.180": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "acpi-cpufreq": {
+            "description": "ACPI Processor P-States Driver"
+        },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
+        "aqc111": {
+            "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "atkbd": {
+            "description": "AT and PS/2 keyboard driver"
+        },
+        "atl1c": {
+            "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "atlantic": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "atlantic_v2": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "be2net": {
+            "description": "Emulex OneConnect NIC Driver 10.6.0.3"
+        },
+        "bitblit": {
+            "description": "Bit Blitting Operation"
+        },
+        "bnx2": {
+            "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnxt_en": {
+            "description": "Broadcom BCM573xx network driver"
+        },
+        "button": {
+            "description": "ACPI Button Driver"
+        },
+        "cdc_ncm": {
+            "description": "USB CDC NCM host driver"
+        },
+        "cdrom": {
+            "description": ""
+        },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
+        "cpufreq_conservative": {
+            "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
+        },
+        "cpufreq_ondemand": {
+            "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "crc-ccitt": {
+            "description": "CRC-CCITT calculations"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
+        "cxgb": {
+            "description": "Chelsio 10Gb Ethernet Driver"
+        },
+        "cxgb3": {
+            "description": "Chelsio T3 Network Driver"
+        },
+        "cxgb4": {
+            "description": "Chelsio T4/T5/T6 Network Driver"
+        },
+        "cxgb4vf": {
+            "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dvb-core": {
+            "description": "DVB Core Driver"
+        },
+        "dvb-usb-dib0700": {
+            "description": "Driver for devices based on DiBcom DiB0700 - USB bridge"
+        },
+        "dvb-usb-dvbsky": {
+            "description": "Driver for DVBSky USB"
+        },
+        "dvb-usb": {
+            "description": "A library module containing commonly used USB and DVB function USB DVB devices"
+        },
+        "dvb_usb_v2": {
+            "description": "DVB USB common"
+        },
+        "e1000": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "e1000e": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "efifb": {
+            "description": ""
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
+        "etxhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "fb": {
+            "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
+        },
+        "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
+            "description": ""
+        },
+        "font": {
+            "description": "Console Fonts"
+        },
+        "hid-generic": {
+            "description": "HID generic driver"
+        },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
+        "i2c-algo-bit": {
+            "description": "I2C-Bus bit-banging algorithm"
+        },
+        "i40e": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
+        },
+        "i8042": {
+            "description": "i8042 keyboard and mouse controller driver"
+        },
+        "iavf": {
+            "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
+        },
+        "ice": {
+            "description": "Intel(R) Ethernet Connection E800 Series Linux Driver"
+        },
+        "igb": {
+            "description": "Intel(R) Gigabit Ethernet Network Driver"
+        },
+        "igbvf": {
+            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+        },
+        "igc": {
+            "description": "Intel(R) 2.5G Ethernet Linux Driver"
+        },
+        "intel_auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "it87": {
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
+        },
+        "ixgb": {
+            "description": "Intel(R) PRO/10GbE Network Driver"
+        },
+        "ixgbe": {
+            "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
+        },
+        "ixgbevf": {
+            "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "jc42": {
+            "description": "JC42 driver"
+        },
+        "jme": {
+            "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libsas": {
+            "description": "SAS Transport Layer"
+        },
+        "m88ds3103": {
+            "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
+        "megaraid_mbox": {
+            "description": "LSI Logic MegaRAID Mailbox Driver"
+        },
+        "megaraid_mm": {
+            "description": "LSI Logic Management Module"
+        },
+        "megaraid_sas": {
+            "description": "Avago MegaRAID SAS Driver"
+        },
+        "mii": {
+            "description": "MII hardware support library"
+        },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
+        "mlx4_en": {
+            "description": "Mellanox ConnectX HCA Ethernet driver"
+        },
+        "mlx5_core": {
+            "description": "Mellanox Connect-IB, ConnectX-4, ConnectX-5 core driver"
+        },
+        "mlx_compat": {
+            "description": "Kernel backport module"
+        },
+        "mlxsw_core": {
+            "description": "Mellanox switch device core driver"
+        },
+        "mlxsw_pci": {
+            "description": "Mellanox switch PCI interface driver"
+        },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
+        "mpt3sas": {
+            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+        },
+        "mptbase": {
+            "description": "Fusion MPT base driver"
+        },
+        "mptctl": {
+            "description": "Fusion MPT misc device (ioctl) driver"
+        },
+        "mptsas": {
+            "description": "Fusion MPT SAS Host driver"
+        },
+        "mptscsih": {
+            "description": "Fusion MPT SCSI Host driver"
+        },
+        "mptspi": {
+            "description": "Fusion MPT SPI Host driver"
+        },
+        "mtk-sd": {
+            "description": "MediaTek SD/MMC Card Driver"
+        },
+        "nct6775": {
+            "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
+        "r8152": {
+            "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
+        "raid_class": {
+            "description": "RAID device class"
+        },
+        "rc-core": {
+            "description": ""
+        },
+        "rtc-cmos": {
+            "description": "Driver for PC-style 'CMOS' RTCs"
+        },
+        "scsi_transport_sas": {
+            "description": "SAS Transport Attributes"
+        },
+        "scsi_transport_spi": {
+            "description": "SPI Transport Attributes"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "si2157": {
+            "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
+        },
+        "si2168": {
+            "description": "Silicon Labs Si2168 DVB-T/T2/C demodulator driver"
+        },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
+        "softcursor": {
+            "description": "Generic software cursor"
+        },
+        "sp2": {
+            "description": "CIMaX SP2/HF CI driver"
+        },
+        "sr_mod": {
+            "description": "SCSI cdrom (sr) driver"
+        },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "thermal": {
+            "description": "ACPI Thermal Zone Driver"
+        },
+        "ts2020": {
+            "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
+        },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
+        "vesafb": {
+            "description": ""
+        },
+        "vga16fb": {
+            "description": "Legacy VGA framebuffer device driver"
+        },
+        "vgastate": {
+            "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
+        },
+        "virtio": {
+            "description": ""
+        },
+        "virtio_input": {
+            "description": "Virtio input device driver"
+        },
+        "virtio_mmio": {
+            "description": "Platform bus driver for memory mapped virtio devices"
+        },
+        "virtio_net": {
+            "description": "Virtio network driver"
+        },
+        "virtio_pci": {
+            "description": "virtio-pci"
+        },
+        "virtio_ring": {
+            "description": ""
+        },
+        "virtio_scsi": {
+            "description": "Virtio SCSI HBA driver"
+        },
+        "vmw_pvscsi": {
+            "description": "VMware PVSCSI driver"
+        },
+        "vmxnet3": {
+            "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
+        },
+        "xhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "xhci-pci": {
+            "description": "xHCI PCI Host Controller Driver"
+        }
+    },
+    "v1000-4.4.180": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "acpi-cpufreq": {
+            "description": "ACPI Processor P-States Driver"
+        },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
+        "amd-xgbe": {
+            "description": "AMD 10 Gigabit Ethernet Driver"
+        },
+        "aqc111": {
+            "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "atkbd": {
+            "description": "AT and PS/2 keyboard driver"
+        },
+        "atl1c": {
+            "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "atlantic": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "atlantic_v2": {
+            "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "be2net": {
+            "description": "Emulex OneConnect NIC Driver 10.6.0.3"
+        },
+        "bitblit": {
+            "description": "Bit Blitting Operation"
+        },
+        "bnx2": {
+            "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
+        "bnxt_en": {
+            "description": "Broadcom BCM573xx network driver"
+        },
+        "button": {
+            "description": "ACPI Button Driver"
+        },
+        "cdc_ncm": {
+            "description": "USB CDC NCM host driver"
+        },
+        "cdrom": {
+            "description": ""
+        },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
+        "cpufreq_conservative": {
+            "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
+        },
+        "cpufreq_ondemand": {
+            "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "crc-ccitt": {
+            "description": "CRC-CCITT calculations"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
+        "cxgb": {
+            "description": "Chelsio 10Gb Ethernet Driver"
+        },
+        "cxgb3": {
+            "description": "Chelsio T3 Network Driver"
+        },
+        "cxgb4": {
+            "description": "Chelsio T4/T5/T6 Network Driver"
+        },
+        "cxgb4vf": {
+            "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dvb-core": {
+            "description": "DVB Core Driver"
+        },
+        "dvb-usb-dib0700": {
+            "description": "Driver for devices based on DiBcom DiB0700 - USB bridge"
+        },
+        "dvb-usb-dvbsky": {
+            "description": "Driver for DVBSky USB"
+        },
+        "dvb-usb": {
+            "description": "A library module containing commonly used USB and DVB function USB DVB devices"
+        },
+        "dvb_usb_v2": {
+            "description": "DVB USB common"
+        },
+        "e1000": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "e1000e": {
+            "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "efifb": {
+            "description": ""
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
+        "etxhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "fb": {
+            "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
+        },
+        "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
+            "description": ""
+        },
+        "font": {
+            "description": "Console Fonts"
+        },
+        "hid-generic": {
+            "description": "HID generic driver"
+        },
+        "i2c-algo-bit": {
+            "description": "I2C-Bus bit-banging algorithm"
+        },
+        "i40e": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
+        },
+        "i8042": {
+            "description": "i8042 keyboard and mouse controller driver"
+        },
+        "iavf": {
+            "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
+        },
+        "ice": {
+            "description": "Intel(R) Ethernet Connection E800 Series Linux Driver"
+        },
+        "igb": {
+            "description": "Intel(R) Gigabit Ethernet Network Driver"
+        },
+        "igbvf": {
+            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+        },
+        "igc": {
+            "description": "Intel(R) 2.5G Ethernet Linux Driver"
+        },
+        "intel_auxiliary": {
+            "description": "Auxiliary Bus Standalone"
+        },
+        "it87": {
+            "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
+        },
+        "ixgb": {
+            "description": "Intel(R) PRO/10GbE Network Driver"
+        },
+        "ixgbe": {
+            "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
+        },
+        "ixgbevf": {
+            "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "jc42": {
+            "description": "JC42 driver"
+        },
+        "jme": {
+            "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libsas": {
+            "description": "SAS Transport Layer"
+        },
+        "m88ds3103": {
+            "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "marvell10g": {
+            "description": "Marvell Alaska X 10Gigabit Ethernet PHY driver (MV88X3310)"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
+        "megaraid_mbox": {
+            "description": "LSI Logic MegaRAID Mailbox Driver"
+        },
+        "megaraid_mm": {
+            "description": "LSI Logic Management Module"
+        },
+        "megaraid_sas": {
+            "description": "Avago MegaRAID SAS Driver"
+        },
+        "mii": {
+            "description": "MII hardware support library"
+        },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
+        "mlx4_en": {
+            "description": "Mellanox ConnectX HCA Ethernet driver"
+        },
+        "mlx5_core": {
+            "description": "Mellanox Connect-IB, ConnectX-4, ConnectX-5 core driver"
+        },
+        "mlx_compat": {
+            "description": "Kernel backport module"
+        },
+        "mlxsw_core": {
+            "description": "Mellanox switch device core driver"
+        },
+        "mlxsw_pci": {
+            "description": "Mellanox switch PCI interface driver"
+        },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
+        "mpt3sas": {
+            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+        },
+        "mptbase": {
+            "description": "Fusion MPT base driver"
+        },
+        "mptctl": {
+            "description": "Fusion MPT misc device (ioctl) driver"
+        },
+        "mptsas": {
+            "description": "Fusion MPT SAS Host driver"
+        },
+        "mptscsih": {
+            "description": "Fusion MPT SCSI Host driver"
+        },
+        "mptspi": {
+            "description": "Fusion MPT SPI Host driver"
+        },
+        "mtk-sd": {
+            "description": "MediaTek SD/MMC Card Driver"
+        },
+        "nct6775": {
+            "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
+        "r8152": {
+            "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
+        "raid_class": {
+            "description": "RAID device class"
+        },
+        "rc-core": {
+            "description": ""
+        },
+        "rtc-cmos": {
+            "description": "Driver for PC-style 'CMOS' RTCs"
+        },
+        "scsi_transport_sas": {
+            "description": "SAS Transport Attributes"
+        },
+        "scsi_transport_spi": {
+            "description": "SPI Transport Attributes"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "si2157": {
+            "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
+        },
+        "si2168": {
+            "description": "Silicon Labs Si2168 DVB-T/T2/C demodulator driver"
+        },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
+        "softcursor": {
+            "description": "Generic software cursor"
+        },
+        "sp2": {
+            "description": "CIMaX SP2/HF CI driver"
+        },
+        "sr_mod": {
+            "description": "SCSI cdrom (sr) driver"
+        },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "thermal": {
+            "description": "ACPI Thermal Zone Driver"
+        },
+        "ts2020": {
+            "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
+        },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
+        "vesafb": {
+            "description": ""
+        },
+        "vga16fb": {
+            "description": "Legacy VGA framebuffer device driver"
+        },
+        "vgastate": {
+            "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
+        },
+        "virtio": {
+            "description": ""
+        },
+        "virtio_input": {
+            "description": "Virtio input device driver"
+        },
+        "virtio_mmio": {
+            "description": "Platform bus driver for memory mapped virtio devices"
+        },
+        "virtio_net": {
+            "description": "Virtio network driver"
+        },
+        "virtio_pci": {
+            "description": "virtio-pci"
+        },
+        "virtio_ring": {
+            "description": ""
+        },
+        "virtio_scsi": {
+            "description": "Virtio SCSI HBA driver"
+        },
+        "vmw_pvscsi": {
+            "description": "VMware PVSCSI driver"
+        },
+        "vmxnet3": {
+            "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
+        },
+        "xhci-hcd": {
+            "description": "'eXtensible' Host Controller (xHC) Driver"
+        },
+        "xhci-pci": {
+            "description": "xHCI PCI Host Controller Driver"
         }
     }
 }
