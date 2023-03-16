@@ -37,6 +37,71 @@ jobs:
           MODULESTAG=`curl -skL https://api.github.com/repos/fbelavenuto/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
           echo "MODULESTAG=${MODULESTAG}" >> $GITHUB_ENV
 
+      - name: make modulesplatforms
+        run: |
+          for i in `ls arpl-modules | grep ".*-.*"`
+          do
+            if [ -d "arpl-modules/${i}" ]; then
+              [ -d "modulesplatforms/${i}" ] && rm -rf "modulesplatforms/${i}"
+              mv arpl-modules/${i} modulesplatforms/${i}
+            fi
+          done
+          sudo rm -rf arpl-modules
+
+      - name: check modulesplatforms
+        shell: python
+        run: |
+          # -*- coding: utf-8 -*-
+
+          import os, json, shutil, hashlib, tarfile, kmodule
+
+          root = '' # os.path.dirname(os.path.abspath(__file__))
+
+          if __name__ == '__main__':
+              modulesplatforms = {}
+              platformDirs = os.listdir(os.path.join(root, 'modulesplatforms'))
+              platformDirs.sort()
+              for platformDir in platformDirs:
+                  if platformDir.startswith('.') or '-' not in platformDir:
+                      continue
+                  if os.path.isfile(os.path.join(root, 'modulesplatforms', platformDir)):
+                      continue
+                  platform = platformDir.split('-')[0]
+                  version = platformDir.split('-')[1]
+                  modules = os.listdir(os.path.join(root, 'modulesplatforms', platformDir))
+                  modules.sort()
+                  for module in modules:
+                      if module.startswith('.') or '.ko' not in module:
+                          continue
+                      if os.path.isdir(os.path.join(root, 'modulesplatforms', platformDir, module)):
+                          continue
+                      #(
+                      #    {
+                      #        'filename': '/modulesplatforms/apollolake-4.4.180/virtio_input.ko', 
+                      #        'author': 'Gerd Hoffmann <kraxel@redhat.com>', 
+                      #        'description': 'Virtio input device driver', 
+                      #        'license': 'GPL', 
+                      #        'depends': 'virtio,virtio_ring', 
+                      #        'retpoline': 'Y', 
+                      #        'vermagic': '4.4.180+ SMP mod_unload ', 
+                      #        'alias': ('virtio:d00000012v*',)
+                      #    },
+                      #)
+                      info = kmodule.modinfo(os.path.join(root, 'modulesplatforms', platformDir, module))[0]
+                      info['filename'] = module[:-3]    # module.replace('.ko', '')
+                      if 'description' not in info.keys(): info['description'] = ''
+
+                      if platformDir not in modulesplatforms.keys():
+                          modulesplatforms[platformDir] = {}
+                      modulesplatforms[platformDir][info['filename']] = {}
+                      modulesplatforms[platformDir][info['filename']]["description"] = info['description']
+
+              if len(modulesplatforms) > 0:
+                  print('###################   modulesplatforms   ###################')
+                  print(json.dumps(modules, indent=4))
+                  with open(os.path.join(root, 'modulesplatforms.json'), 'w', encoding='utf-8') as f:
+                      f.write(json.dumps(modulesplatforms, indent=4))
+
       - name: make modules
         shell: python
         run: |
@@ -196,70 +261,7 @@ jobs:
                   with open(os.path.join(root, 'modules.json'), 'w', encoding='utf-8') as f:
                       f.write(json.dumps(modules, indent=4))
 
-      - name: make modulesplatforms
-        run: |
-          for i in `ls arpl-modules | grep ".*-.*"`
-          do
-            if [ -d "arpl-modules/${i}" ]; then
-              [ -d "modulesplatforms/${i}" ] && rm -rf "modulesplatforms/${i}"
-              mv arpl-modules/${i} modulesplatforms/${i}
-            fi
-          done
-          sudo rm -rf arpl-modules
 
-      - name: check modulesplatforms
-        shell: python
-        run: |
-          # -*- coding: utf-8 -*-
-
-          import os, json, shutil, hashlib, tarfile, kmodule
-
-          root = '' # os.path.dirname(os.path.abspath(__file__))
-
-          if __name__ == '__main__':
-              modulesplatforms = {}
-              platformDirs = os.listdir(os.path.join(root, 'modulesplatforms'))
-              platformDirs.sort()
-              for platformDir in platformDirs:
-                  if platformDir.startswith('.') or '-' not in platformDir:
-                      continue
-                  if os.path.isfile(os.path.join(root, 'modulesplatforms', platformDir)):
-                      continue
-                  platform = platformDir.split('-')[0]
-                  version = platformDir.split('-')[1]
-                  modules = os.listdir(os.path.join(root, 'modulesplatforms', platformDir))
-                  modules.sort()
-                  for module in modules:
-                      if module.startswith('.') or '.ko' not in module:
-                          continue
-                      if os.path.isdir(os.path.join(root, 'modulesplatforms', platformDir, module)):
-                          continue
-                      #(
-                      #    {
-                      #        'filename': '/modulesplatforms/apollolake-4.4.180/virtio_input.ko', 
-                      #        'author': 'Gerd Hoffmann <kraxel@redhat.com>', 
-                      #        'description': 'Virtio input device driver', 
-                      #        'license': 'GPL', 
-                      #        'depends': 'virtio,virtio_ring', 
-                      #        'retpoline': 'Y', 
-                      #        'vermagic': '4.4.180+ SMP mod_unload ', 
-                      #        'alias': ('virtio:d00000012v*',)
-                      #    },
-                      #)
-                      info = kmodule.modinfo(os.path.join(root, 'modulesplatforms', platformDir, module))[0]
-                      info['filename'] = module[:-3]    # module.replace('.ko', '')
-                      if 'description' not in info.keys(): info['description'] = ''
-
-                      if platformDir not in modulesplatforms.keys():
-                          modulesplatforms[platformDir] = {}
-                      modulesplatforms[platformDir][info['filename']] = {}
-                      modulesplatforms[platformDir][info['filename']]["description"] = info['description']
-
-              if len(modulesplatforms) > 0:
-                  print('###################   modulesplatforms   ###################')
-                  print(json.dumps(modules, indent=4))
-                  with open(os.path.join(root, 'modulesplatforms.json'), 'w', encoding='utf-8') as f:
-                      f.write(json.dumps(modulesplatforms, indent=4))
 
       - name: Check and Push
         run: |
