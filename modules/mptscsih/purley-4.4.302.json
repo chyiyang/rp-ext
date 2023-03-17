@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/purley-4.4.302/mptbase.ko",
+            "sha256": "bfda7c7059515b745d746836e5c4e8f281cd17b4ed0fedf7d1ddc62767ff289e",
+            "packed": false
+        },
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/purley-4.4.302/mptscsih.ko",
+            "sha256": "2a84ecde9b1f7f1e92ff411aa207c71b6bb54a1a01900c8c3f2828b68d4e3c4d",
+            "packed": false
+        },
+        {
+            "name": "check-mptscsih.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/purley-4.4.302/check-mptscsih.sh",
+            "sha256": "0a4a6406087f02da148de74eb23e349c299d63a3a28d11d259242ef0bb8e3f40",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptscsih.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptscsih.sh"
+    }
+}

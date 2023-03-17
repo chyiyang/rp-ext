@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/r1000-4.4.302/scsi_transport_sas.ko",
+            "sha256": "7cbf14f614bf043d40674b55b1b765d077e76e9ce453e7d6ab9fe0658565aa44",
+            "packed": false
+        },
+        {
+            "name": "check-scsi_transport_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/r1000-4.4.302/check-scsi_transport_sas.sh",
+            "sha256": "2ca154b5d73a837499c4974e4ec1b17bcc2ad61ad8dd3ef421a9a250838c46ea",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_sas.sh"
+    }
+}

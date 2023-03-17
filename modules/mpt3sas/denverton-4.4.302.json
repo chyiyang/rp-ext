@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/denverton-4.4.302/scsi_transport_sas.ko",
+            "sha256": "adfdd89010ca1ec6900d846250b89056594f42050063c3e507e483235af548b8",
+            "packed": false
+        },
+        {
+            "name": "raid_class.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/denverton-4.4.302/raid_class.ko",
+            "sha256": "3ca04eb146aa2f1510d5862a308125a21e01c6daa6ba244fc8c14cddf7003c1a",
+            "packed": false
+        },
+        {
+            "name": "mpt3sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/denverton-4.4.302/mpt3sas.ko",
+            "sha256": "20896b6aa480a18d8e4936c3a1b615149511a66fc3eeecc4aeea4106ab5929fc",
+            "packed": false
+        },
+        {
+            "name": "check-mpt3sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/denverton-4.4.302/check-mpt3sas.sh",
+            "sha256": "e3f268587711d6166c9fadd283eb7ae7e1359fed3d183688be1827ac66cc429b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": "",
+        "raid_class.ko": "",
+        "mpt3sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mpt3sas.sh"
+    }
+}

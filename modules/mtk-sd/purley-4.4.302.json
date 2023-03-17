@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/purley-4.4.302/mmc_core.ko",
+            "sha256": "d18f89566fef6fb46a79fd709f2bac86a9ed718fb8776c7072b61461065ace6f",
+            "packed": false
+        },
+        {
+            "name": "mtk-sd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/purley-4.4.302/mtk-sd.ko",
+            "sha256": "77213b269c9f6e273a26d5288144aa055035d90ae65b9fbfeb609ce6b2f17609",
+            "packed": false
+        },
+        {
+            "name": "check-mtk-sd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/purley-4.4.302/check-mtk-sd.sh",
+            "sha256": "8d9101dabd8e50cc9df8f6d66bc0cea96c45d6c8f9ed7bd80747276697a3aa75",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "mtk-sd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mtk-sd.sh"
+    }
+}

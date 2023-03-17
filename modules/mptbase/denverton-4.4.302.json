@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/denverton-4.4.302/mptbase.ko",
+            "sha256": "f91fb8d2eaeba6bb119ac7373b96ea706c8ed75c463ec552541d255d23785bb8",
+            "packed": false
+        },
+        {
+            "name": "check-mptbase.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/denverton-4.4.302/check-mptbase.sh",
+            "sha256": "63ed6ea5a888f9f5f4de108f242234a964e7839b2e4e8a7bb867faec6a154ec3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptbase.sh"
+    }
+}

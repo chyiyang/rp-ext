@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "it87.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/denverton-4.4.302/it87.ko",
+            "sha256": "2c79b64eab0deacb23c0df17fc37629b847fc608aec3a79a87884c8e849ce2ee",
+            "packed": false
+        },
+        {
+            "name": "check-it87.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/denverton-4.4.302/check-it87.sh",
+            "sha256": "5d594213be652f25f2d9c5c9766201eeaafd0f6e38d789c4d1591b7bb0fb8211",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "it87.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-it87.sh"
+    }
+}

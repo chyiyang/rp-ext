@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/apollolake-4.4.302/hwmon-vid.ko",
+            "sha256": "91ee7461553b143c3833f213c1484eb2f1475a4f783993f44c17803867d4ae97",
+            "packed": false
+        },
+        {
+            "name": "it87.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/apollolake-4.4.302/it87.ko",
+            "sha256": "4c38f58270a3d33c0419113d0b1c811e8033452645b522894cbb7e54da621f86",
+            "packed": false
+        },
+        {
+            "name": "check-it87.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/apollolake-4.4.302/check-it87.sh",
+            "sha256": "1004a80d1d45346a0bacfa41f4610b3d30134a121bada97e0be2be1073c7c38b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "it87.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-it87.sh"
+    }
+}

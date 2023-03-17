@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/apollolake-4.4.59/mlx4_core.ko",
+            "sha256": "72bf621c1237f479604be45ed10f4592d777c7c04aa1b502d19c6e5f437458d7",
+            "packed": false
+        },
+        {
+            "name": "mlx4_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/apollolake-4.4.59/mlx4_en.ko",
+            "sha256": "0e7b6c7722dd48711cc5a4786c40be81555a5f6caf319e697d132874592e4a90",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/apollolake-4.4.59/check-mlx4_en.sh",
+            "sha256": "6361d25afad0ea2e6fa3fe703113aafac3f3964689bdca30416147005e804925",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": "",
+        "mlx4_en.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_en.sh"
+    }
+}

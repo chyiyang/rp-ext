@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/denverton-4.4.59/cfbcopyarea.ko",
+            "sha256": "1ca7badfe5643086696ab7e1d7801430ba99f5c4e3f354072032cad886a94676",
+            "packed": false
+        },
+        {
+            "name": "check-cfbcopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/denverton-4.4.59/check-cfbcopyarea.sh",
+            "sha256": "c50aa3f95afa3bfa1f1f5e8b72b28a1e23d5b0d9e4bd334580350b1e1fe970d8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbcopyarea.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbcopyarea.sh"
+    }
+}

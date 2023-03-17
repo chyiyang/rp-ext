@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/apollolake-4.4.59/mptbase.ko",
+            "sha256": "6757151d2c6a61f7ea4d8d5110be5e6d3be7bacb98276bdb6b706c550afeaf63",
+            "packed": false
+        },
+        {
+            "name": "check-mptbase.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/apollolake-4.4.59/check-mptbase.sh",
+            "sha256": "63ed6ea5a888f9f5f4de108f242234a964e7839b2e4e8a7bb867faec6a154ec3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptbase.sh"
+    }
+}

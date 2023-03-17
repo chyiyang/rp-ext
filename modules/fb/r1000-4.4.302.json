@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/r1000-4.4.302/fb.ko",
+            "sha256": "54037395fc0374a273cc0178e909cba81a4551bc1eb92e4b90b09a546dc22100",
+            "packed": false
+        },
+        {
+            "name": "check-fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/r1000-4.4.302/check-fb.sh",
+            "sha256": "7c70443a8a1fb3a5c63752c7519faabeaa8b3da8df27b1c16b774b5f3796ab4e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fb.sh"
+    }
+}

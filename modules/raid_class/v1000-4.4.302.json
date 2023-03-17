@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "raid_class.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/v1000-4.4.302/raid_class.ko",
+            "sha256": "9f284fa5302d9ec85158f8b7916c7dcf758cb97262ea11d551c7fb6065e637d6",
+            "packed": false
+        },
+        {
+            "name": "check-raid_class.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/v1000-4.4.302/check-raid_class.sh",
+            "sha256": "274ddd31d73014e173b2f5d01a502ea55686f59adf1edc143661f7a078b36247",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "raid_class.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-raid_class.sh"
+    }
+}

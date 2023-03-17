@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "megaraid_mm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/purley-4.4.302/megaraid_mm.ko",
+            "sha256": "0319f82cba194cdfd4f1fd40e85b944a08abf3bd72bb9e190f71b6c19cb49b45",
+            "packed": false
+        },
+        {
+            "name": "megaraid_mbox.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/purley-4.4.302/megaraid_mbox.ko",
+            "sha256": "a5391dea68b41d8a7b62dbea3561708951d657ec90dd7142b6fa83140f3fa0ea",
+            "packed": false
+        },
+        {
+            "name": "check-megaraid_mbox.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/purley-4.4.302/check-megaraid_mbox.sh",
+            "sha256": "27115b3b3cbb92deb74e803926374180cc269427cbfa2e3ce5aa39fab58a6017",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_mm.ko": "",
+        "megaraid_mbox.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_mbox.sh"
+    }
+}

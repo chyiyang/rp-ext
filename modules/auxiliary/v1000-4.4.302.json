@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/v1000-4.4.302/auxiliary.ko",
+            "sha256": "9bc36fc15098131d8488bcec02bf82aa9d68f230633a471ffc382d9872b32a66",
+            "packed": false
+        },
+        {
+            "name": "check-auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/v1000-4.4.302/check-auxiliary.sh",
+            "sha256": "08ba59c9839cad5936353c73fd25f08d1b037330b1d96be8eeff634648327ab9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-auxiliary.sh"
+    }
+}

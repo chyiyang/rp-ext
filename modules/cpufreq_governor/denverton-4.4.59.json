@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cpufreq_governor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/denverton-4.4.59/cpufreq_governor.ko",
+            "sha256": "4d64aab5b3a0809b146c32d60166b9beee4588c093dbdf367aab1e33e2d1c7ea",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_governor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/denverton-4.4.59/check-cpufreq_governor.sh",
+            "sha256": "6826297513ee68f253a5bfce76ef862c3b950804823d70e8c59788e7c4a876db",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_governor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_governor.sh"
+    }
+}

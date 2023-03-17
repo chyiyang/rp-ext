@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/purley-4.4.302/libphy.ko",
+            "sha256": "ea45db4e9ab1581931bbdd007db94f84584a1c2b564676343be69a5d82851022",
+            "packed": false
+        },
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/purley-4.4.302/tg3.ko",
+            "sha256": "33583b0cab058e341331ccd0cf3b49695ffa053c2d0abeee7b4df4b4a048e9ad",
+            "packed": false
+        },
+        {
+            "name": "check-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/purley-4.4.302/check-tg3.sh",
+            "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
+            "packed": false
+        },
+        {
+            "name": "tg3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/purley-4.4.302/tg3_firmware.tag.gz",
+            "sha256": "aae5925f847ec4882f23050e00954107686b68dc974c2830692ac587a2eb2450",
+            "packed": false
+        },
+        {
+            "name": "install-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/purley-4.4.302/install-tg3.sh",
+            "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "tg3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-tg3.sh",
+        "on_os_load": "install-tg3.sh"
+    }
+}

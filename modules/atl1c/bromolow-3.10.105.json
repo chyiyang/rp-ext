@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "atl1c.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/bromolow-3.10.105/atl1c.ko",
+            "sha256": "f452a32834adc8e1f69a0d6f8c8299100f8f854eb0a9070b8d3e2592350a8d8a",
+            "packed": false
+        },
+        {
+            "name": "check-atl1c.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/bromolow-3.10.105/check-atl1c.sh",
+            "sha256": "e7307770c4b19a5a89a72685de892667edc87e38cb37694a9672f6e284230063",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atl1c.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atl1c.sh"
+    }
+}

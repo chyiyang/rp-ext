@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "scsi_transport_spi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/broadwell-4.4.302/scsi_transport_spi.ko",
+            "sha256": "fd40f49fe2867119a282f0804aa7159ec66b45388d96c64388521166708b9fe2",
+            "packed": false
+        },
+        {
+            "name": "check-scsi_transport_spi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/broadwell-4.4.302/check-scsi_transport_spi.sh",
+            "sha256": "4653c27de9a84db6f07bdcfe8389efdae21baea245ab20ceff727200ae539879",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_spi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_spi.sh"
+    }
+}

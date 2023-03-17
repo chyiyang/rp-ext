@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "atl1e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/v1000-4.4.302/atl1e.ko",
+            "sha256": "0f373ad04d914888e76f276cfacffe67a0b1cd5e42dbb2f20e46227872575c68",
+            "packed": false
+        },
+        {
+            "name": "check-atl1e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/v1000-4.4.302/check-atl1e.sh",
+            "sha256": "1d058b4ba5716679d60b13b43e823c82c655927b498a724b5f09c06ff2ae6d63",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atl1e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atl1e.sh"
+    }
+}

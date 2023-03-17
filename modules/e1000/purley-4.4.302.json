@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "e1000.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/purley-4.4.302/e1000.ko",
+            "sha256": "b4044a42be2c3435d1675ba5775520c781fca7e2582e6a3314529a20f7f18252",
+            "packed": false
+        },
+        {
+            "name": "check-e1000.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/purley-4.4.302/check-e1000.sh",
+            "sha256": "0573c8065d281b1eb67939392090857956cb7b848ebb2f1781d769d39e1cc26b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "e1000.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-e1000.sh"
+    }
+}

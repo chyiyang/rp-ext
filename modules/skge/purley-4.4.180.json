@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "skge.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/purley-4.4.180/skge.ko",
+            "sha256": "034c313964f51bacb51d5749fc23e7813dc0a43c44f0e970c1b444fb180c6ed6",
+            "packed": false
+        },
+        {
+            "name": "check-skge.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/purley-4.4.180/check-skge.sh",
+            "sha256": "b721ba024833984da406b996fcbea6f2c6290ffaf7a835b95f8a2abaaf103625",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "skge.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-skge.sh"
+    }
+}

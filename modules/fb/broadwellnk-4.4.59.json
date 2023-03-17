@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/broadwellnk-4.4.59/fb.ko",
+            "sha256": "63ca6b22f9db4cd37c497c8cad92322d0df11a3c0a201774d295d3b185e924b9",
+            "packed": false
+        },
+        {
+            "name": "check-fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/broadwellnk-4.4.59/check-fb.sh",
+            "sha256": "7c70443a8a1fb3a5c63752c7519faabeaa8b3da8df27b1c16b774b5f3796ab4e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fb.sh"
+    }
+}

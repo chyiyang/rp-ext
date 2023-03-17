@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/bromolow-3.10.105/mptbase.ko",
+            "sha256": "659192d839cad8c4a95ece658a30794b12700ebd92e0aa1df500d3f1857ded88",
+            "packed": false
+        },
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/bromolow-3.10.105/mptscsih.ko",
+            "sha256": "1370fa38ac9fe1fbdea5b007693ef662294ea72af59e30198c665afaf27bc067",
+            "packed": false
+        },
+        {
+            "name": "check-mptscsih.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/bromolow-3.10.105/check-mptscsih.sh",
+            "sha256": "0a4a6406087f02da148de74eb23e349c299d63a3a28d11d259242ef0bb8e3f40",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptscsih.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptscsih.sh"
+    }
+}

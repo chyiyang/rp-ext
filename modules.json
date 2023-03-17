@@ -4,13 +4,27 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "acpi-cpufreq": {
@@ -18,14 +32,26 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "alx": {
@@ -33,14 +59,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "amd-xgbe": {
@@ -55,14 +95,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "atkbd": {
@@ -70,11 +125,20 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "atl1c": {
@@ -82,14 +146,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "atl1e": {
@@ -97,14 +175,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "atlantic": {
@@ -112,14 +204,26 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "atlantic_v2": {
@@ -140,13 +244,25 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "b44": {
@@ -154,10 +270,20 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
-            "geminilake-4.4.180"
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302"
         ]
     },
     "backlight": {
@@ -173,14 +299,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "bromolow-3.10.108",
             "denverton-4.4.180",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "bitblit": {
@@ -188,13 +324,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "blk-mq-virtio": {
@@ -209,11 +360,22 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "bnx2x": {
@@ -221,12 +383,17 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
             "broadwellnk-4.4.180",
             "bromolow-3.10.108",
             "denverton-4.4.180",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "v1000-4.4.180"
         ]
     },
@@ -235,12 +402,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "button": {
@@ -248,13 +427,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cdc_ncm": {
@@ -262,14 +456,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cdrom": {
@@ -277,13 +486,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cfbcopyarea": {
@@ -291,14 +515,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cfbfillrect": {
@@ -306,14 +540,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cfbimgblt": {
@@ -321,14 +565,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cpufreq_conservative": {
@@ -336,13 +590,27 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cpufreq_governor": {
@@ -350,8 +618,15 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "denverton-4.4.180",
-            "geminilake-4.4.180"
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302"
         ]
     },
     "cpufreq_ondemand": {
@@ -359,13 +634,27 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cpufreq_performance": {
@@ -415,13 +704,27 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cxgb3": {
@@ -429,13 +732,27 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cxgb4": {
@@ -443,13 +760,27 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "cxgb4vf": {
@@ -457,13 +788,27 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "drm": {
@@ -495,12 +840,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "dvb-usb": {
@@ -508,12 +865,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "dvb-usb-dib0700": {
@@ -521,12 +890,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "dvb-usb-dvbsky": {
@@ -534,12 +915,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "dvb_usb_v2": {
@@ -547,12 +940,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "e1000": {
@@ -560,14 +965,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "e1000e": {
@@ -575,14 +995,26 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "efifb": {
@@ -590,13 +1022,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "ehci-hcd": {
@@ -653,14 +1100,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "fb_sys_fops": {
@@ -669,11 +1126,18 @@
         "platforms": [
             "apollolake-4.4.180",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "fbcon": {
@@ -681,13 +1145,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "fbdev": {
@@ -695,13 +1174,23 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "font": {
@@ -709,14 +1198,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "generic_bl": {
@@ -746,10 +1250,16 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "denverton-4.4.180",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
-            "r1000-4.4.180"
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "r1000-4.4.180",
+            "r1000-4.4.302"
         ]
     },
     "i2c-algo-bit": {
@@ -772,14 +1282,26 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "i8042": {
@@ -787,12 +1309,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "i915": {
@@ -845,13 +1379,25 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "ice": {
@@ -859,12 +1405,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "igb": {
@@ -872,14 +1430,26 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "igbvf": {
@@ -887,13 +1457,25 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "igc": {
@@ -901,13 +1483,25 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "intel_auxiliary": {
@@ -915,13 +1509,25 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "iosf_mbi": {
@@ -937,12 +1543,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "ixgb": {
@@ -950,13 +1568,25 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgb/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "ixgbe": {
@@ -964,14 +1594,26 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "ixgbevf": {
@@ -979,13 +1621,25 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "jc42": {
@@ -993,12 +1647,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jc42/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "jme": {
@@ -1006,13 +1672,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "libphy": {
@@ -1020,11 +1701,21 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
-            "geminilake-4.4.180"
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302"
         ]
     },
     "libsas": {
@@ -1032,10 +1723,19 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "m88ds3103": {
@@ -1043,12 +1743,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "marvell10g": {
@@ -1063,12 +1775,17 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
             "broadwellnk-4.4.180",
             "bromolow-3.10.108",
             "denverton-4.4.180",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
             "v1000-4.4.180"
         ]
@@ -1085,13 +1802,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "megaraid_mm": {
@@ -1099,13 +1831,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "megaraid_sas": {
@@ -1113,13 +1860,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mii": {
@@ -1127,14 +1889,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mlx4_core": {
@@ -1142,14 +1919,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mlx4_en": {
@@ -1157,14 +1948,26 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mlx4_ib": {
@@ -1181,14 +1984,26 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mlx5_ib": {
@@ -1217,12 +2032,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mlxsw_pci": {
@@ -1230,12 +2057,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mmc_block": {
@@ -1243,12 +2082,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mmc_core": {
@@ -1256,12 +2107,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mpt2sas": {
@@ -1276,14 +2139,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mptbase": {
@@ -1291,13 +2168,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mptctl": {
@@ -1305,13 +2197,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mptlan": {
@@ -1326,13 +2233,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mptscsih": {
@@ -1340,13 +2262,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mptspi": {
@@ -1354,13 +2291,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "mtk-sd": {
@@ -1368,12 +2320,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "nct6775": {
@@ -1381,14 +2345,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "net_failover": {
@@ -1439,12 +2418,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "r8152": {
@@ -1452,14 +2443,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "r8153_ecm": {
@@ -1474,13 +2480,25 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "r8169": {
@@ -1488,14 +2506,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "raid_class": {
@@ -1503,10 +2535,19 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "rc-core": {
@@ -1514,12 +2555,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "rtc-cmos": {
@@ -1527,10 +2580,17 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "scsi_transport_sas": {
@@ -1538,11 +2598,20 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "scsi_transport_spi": {
@@ -1550,13 +2619,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "sdhci": {
@@ -1564,12 +2648,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "si2157": {
@@ -1577,12 +2673,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "si2168": {
@@ -1590,12 +2698,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "skge": {
@@ -1603,14 +2723,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "sky2": {
@@ -1618,14 +2752,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "softcursor": {
@@ -1633,13 +2781,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "sp2": {
@@ -1647,12 +2810,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "sr_mod": {
@@ -1660,13 +2835,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "syscopyarea": {
@@ -1674,13 +2864,23 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "sysfillrect": {
@@ -1688,13 +2888,23 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "sysimgblt": {
@@ -1702,13 +2912,23 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "tg3": {
@@ -1716,12 +2936,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
-            "geminilake-4.4.180"
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302"
         ]
     },
     "thermal": {
@@ -1729,14 +2961,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "ts2020": {
@@ -1744,12 +2991,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "uhci-hcd": {
@@ -1827,12 +3086,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "vesafb": {
@@ -1840,14 +3111,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "vga16fb": {
@@ -1855,13 +3141,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "vgastate": {
@@ -1869,13 +3170,28 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "via-sdmmc": {
@@ -1883,12 +3199,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "video": {
@@ -1896,6 +3224,9 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "geminilake-4.4.180"
         ]
@@ -1905,14 +3236,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "virtio_blk": {
@@ -1927,13 +3273,25 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "virtio_mmio": {
@@ -1941,14 +3299,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "virtio_net": {
@@ -1956,14 +3329,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "virtio_pci": {
@@ -1971,14 +3359,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "virtio_ring": {
@@ -1986,14 +3389,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "virtio_scsi": {
@@ -2001,14 +3419,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "vmw_pvscsi": {
@@ -2016,14 +3449,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "vmxnet3": {
@@ -2031,14 +3479,29 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
             "bromolow-3.10.108",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "epyc7002-5.10.55",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "vub300": {
@@ -2046,12 +3509,24 @@
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
+            "broadwell-4.4.302",
             "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
             "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
             "r1000-4.4.180",
-            "v1000-4.4.180"
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
         ]
     },
     "xhci-hcd": {

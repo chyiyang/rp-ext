@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cxgb4vf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/denverton-4.4.302/cxgb4vf.ko",
+            "sha256": "f434d76e917831739bd84cd07b1a08561197b92e5d7a8a557184bc31381f0e00",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb4vf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/denverton-4.4.302/check-cxgb4vf.sh",
+            "sha256": "0db2cf6824fd17ce2202deb305df782cb27dce9ef7f8f49a2f63e18877bd9d72",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb4vf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb4vf.sh"
+    }
+}

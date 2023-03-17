@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/bromolow-3.10.105/mptbase.ko",
+            "sha256": "659192d839cad8c4a95ece658a30794b12700ebd92e0aa1df500d3f1857ded88",
+            "packed": false
+        },
+        {
+            "name": "mptctl.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/bromolow-3.10.105/mptctl.ko",
+            "sha256": "bce5e588d99878b60af8194f627578abcf57e2e0cae14ab193a33786fcc4629b",
+            "packed": false
+        },
+        {
+            "name": "check-mptctl.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/bromolow-3.10.105/check-mptctl.sh",
+            "sha256": "f043798995e78f581e0bdaa99ee51f4695794e78daad01868ac0e012a2fa82fe",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptctl.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptctl.sh"
+    }
+}

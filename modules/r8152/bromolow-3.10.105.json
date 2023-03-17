@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/bromolow-3.10.105/mii.ko",
+            "sha256": "b300ef20a8f6e5b33bd04de69ecc2d155867dcda36e8a906bc545d97619c8429",
+            "packed": false
+        },
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/bromolow-3.10.105/r8152.ko",
+            "sha256": "78a73a4e082c03b9a59bc82e279c492483727c40709f10601479249f0c42e51e",
+            "packed": false
+        },
+        {
+            "name": "check-r8152.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/bromolow-3.10.105/check-r8152.sh",
+            "sha256": "d82a02c667a4f6c360b34efe596c03b3780ff1548fb10e372dd2798c57c497b1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8152.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8152.sh"
+    }
+}

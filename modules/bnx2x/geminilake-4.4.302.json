@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/geminilake-4.4.302/mdio.ko",
+            "sha256": "0f40732ba36620821bd3ec4d651ae3308c2c26b9fc0c4ccaa9db857cdfc4aa72",
+            "packed": false
+        },
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/geminilake-4.4.302/bnx2x.ko",
+            "sha256": "8b5bdc735b5db0a554e60a4192bc7daf4921c6938e93a9d1d2ddbb5d3c1e173b",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/geminilake-4.4.302/check-bnx2x.sh",
+            "sha256": "894f1a67227bd977798597d06677aa27249b89b29dfa29ac0909b2d85eb43938",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/geminilake-4.4.302/bnx2x_firmware.tag.gz",
+            "sha256": "45da392b99afec8ebdc7c4a52d78496b12b880bf4d8d7aa29cba8623bda4b2f1",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/geminilake-4.4.302/install-bnx2x.sh",
+            "sha256": "2a23cd3c00964e187b8c16f313f268f8567f359daab85ddfe267858c8270e64d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x.sh",
+        "on_os_load": "install-bnx2x.sh"
+    }
+}

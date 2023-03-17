@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlxsw_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/apollolake-4.4.59/mlxsw_core.ko",
+            "sha256": "3660300245d1cbad0e380de6a85e07fc4c334cdfc808477c32b69982298e67a4",
+            "packed": false
+        },
+        {
+            "name": "check-mlxsw_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/apollolake-4.4.59/check-mlxsw_core.sh",
+            "sha256": "e85abca39e52828fb041902093b46360b1417393b8a563e2e4dc0a5860d77c2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlxsw_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlxsw_core.sh"
+    }
+}

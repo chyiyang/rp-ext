@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/geminilake-4.4.302/scsi_transport_sas.ko",
+            "sha256": "e826f278419fe82de7c55349f6ee0e476044c697040e126a7b966613d3723549",
+            "packed": false
+        },
+        {
+            "name": "libsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/geminilake-4.4.302/libsas.ko",
+            "sha256": "fc16bc47acc3655a0b90195e2c5258bbb03704245ad7cad43b33723500d53830",
+            "packed": false
+        },
+        {
+            "name": "check-libsas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/geminilake-4.4.302/check-libsas.sh",
+            "sha256": "951e495246d59d8cd295ab94474a45907cedfc730cedc0152164b0195ed1a5f2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": "",
+        "libsas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libsas.sh"
+    }
+}

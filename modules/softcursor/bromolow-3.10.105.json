@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/bromolow-3.10.105/fb.ko",
+            "sha256": "3be572238bd9b86919996f46d87f58db1fd3b9fdda9dd5aa2cd9b3ecc9cd2717",
+            "packed": false
+        },
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/bromolow-3.10.105/softcursor.ko",
+            "sha256": "8aa45a8f72662abff5349477ee0fa414f91b396049370e013d54c68004db38b2",
+            "packed": false
+        },
+        {
+            "name": "check-softcursor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/bromolow-3.10.105/check-softcursor.sh",
+            "sha256": "3022eaa57a7ccca216d7f4f2f63861650e6a183ad2ee080c4d7de7ed5a4f62a6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "softcursor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-softcursor.sh"
+    }
+}

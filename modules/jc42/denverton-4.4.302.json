@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "jc42.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jc42/denverton-4.4.302/jc42.ko",
+            "sha256": "1172f83dbeacc5f2ca351f07f6a6de43c2256582ea561301f9c50fe656a7d65e",
+            "packed": false
+        },
+        {
+            "name": "check-jc42.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jc42/denverton-4.4.302/check-jc42.sh",
+            "sha256": "dd85d18ef39d400aea640e6459871292378ff1ad0216bc132d5732c6a51bb469",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "jc42.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-jc42.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "igc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/apollolake-4.4.59/igc.ko",
+            "sha256": "61593982e6104c5a219c8e6cb36932b52ffc6518d6f021152036a6109d2a040e",
+            "packed": false
+        },
+        {
+            "name": "check-igc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/apollolake-4.4.59/check-igc.sh",
+            "sha256": "fd19316541e792dd5d033768708517247568cb548bdb1df371c71f7b2fe57cde",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igc.sh"
+    }
+}

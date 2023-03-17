@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vgastate.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.302/vgastate.ko",
+            "sha256": "a449f74d08a7b5de422facc949120a402d78f49223d590dac19b0d2a3a7be333",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.302/vga16fb.ko",
+            "sha256": "3a5e35fc7708bb8870bba5d4c59c8e6357368e5d73de1beb9b0b24f5c076b2e3",
+            "packed": false
+        },
+        {
+            "name": "check-vga16fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.302/check-vga16fb.sh",
+            "sha256": "2cb2c797b01e457b8ae219847ca939adfe97f74a02dab73dc05c76ae17ca6148",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vgastate.ko": "",
+        "vga16fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vga16fb.sh"
+    }
+}

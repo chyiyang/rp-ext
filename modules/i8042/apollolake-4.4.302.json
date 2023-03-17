@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "i8042.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/apollolake-4.4.302/i8042.ko",
+            "sha256": "0c3ef51323549ef35d9d25887cf8c36f067596a17a11b377e29e2586f0f7fc2d",
+            "packed": false
+        },
+        {
+            "name": "check-i8042.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/apollolake-4.4.302/check-i8042.sh",
+            "sha256": "bc4b1c866facfac5c4e2e7096fcddf865d4b61cce7ff33c4ca3ba8d7903bd8cc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i8042.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i8042.sh"
+    }
+}

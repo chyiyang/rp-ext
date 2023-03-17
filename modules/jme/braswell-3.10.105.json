@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/braswell-3.10.105/mii.ko",
+            "sha256": "5355cb9ef54015fbfbf2b8f8a6550ecab0d7842463da03ab22d05034313bedc8",
+            "packed": false
+        },
+        {
+            "name": "jme.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/braswell-3.10.105/jme.ko",
+            "sha256": "362230ae835c99f50e02dd16f3031bd0bdc8527265241614981f4ebb995cdcd9",
+            "packed": false
+        },
+        {
+            "name": "check-jme.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/braswell-3.10.105/check-jme.sh",
+            "sha256": "6b70bfbac17b78183298ddafdac9480ab51b45d7901c59681072ac1c5f69abff",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "jme.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-jme.sh"
+    }
+}

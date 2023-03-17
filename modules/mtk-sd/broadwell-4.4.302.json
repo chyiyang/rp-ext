@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/broadwell-4.4.302/mmc_core.ko",
+            "sha256": "2d5680038d240f51a335a8070fbd9e8be0f6ff19993f5ab869694d24b5448c1e",
+            "packed": false
+        },
+        {
+            "name": "mtk-sd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/broadwell-4.4.302/mtk-sd.ko",
+            "sha256": "1a922bc0419a11c3021cb27135378733586752c793d45ebd8306fd4c6ff8c197",
+            "packed": false
+        },
+        {
+            "name": "check-mtk-sd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/broadwell-4.4.302/check-mtk-sd.sh",
+            "sha256": "8d9101dabd8e50cc9df8f6d66bc0cea96c45d6c8f9ed7bd80747276697a3aa75",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "mtk-sd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mtk-sd.sh"
+    }
+}

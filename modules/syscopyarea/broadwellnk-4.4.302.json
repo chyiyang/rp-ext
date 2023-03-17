@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "syscopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/broadwellnk-4.4.302/syscopyarea.ko",
+            "sha256": "cf6abc3a0edf46a5cab23f19e3f92c2d708348d170c1cefb1d45cc15e1bf7551",
+            "packed": false
+        },
+        {
+            "name": "check-syscopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/broadwellnk-4.4.302/check-syscopyarea.sh",
+            "sha256": "a5f708a2c29c0f9ff958ad432f221f8b3824f9f91f5d3564a18a204a94a86466",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "syscopyarea.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-syscopyarea.sh"
+    }
+}

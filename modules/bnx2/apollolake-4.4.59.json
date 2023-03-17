@@ -1,0 +1,36 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "bnx2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/apollolake-4.4.59/bnx2.ko",
+            "sha256": "33ec45b523092470e3f3463ee3179fdafa6f256ef7d1ca0d57431d247cdc0059",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/apollolake-4.4.59/check-bnx2.sh",
+            "sha256": "cca195ab1d7eeb36aa46bdc27162449a6540140fb5e5eb628571bf6dd079330e",
+            "packed": false
+        },
+        {
+            "name": "bnx2_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/apollolake-4.4.59/bnx2_firmware.tag.gz",
+            "sha256": "9cc9211d69140d5b509ac42d5162542fc0001ce3fb6f1014c4957e468f6c714b",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/apollolake-4.4.59/install-bnx2.sh",
+            "sha256": "3ecece005015bedd95c4e9539407e686dcbe01588f4ad5a00ec77762cc61f63a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bnx2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2.sh",
+        "on_os_load": "install-bnx2.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/purley-4.4.302/mmc_core.ko",
+            "sha256": "d18f89566fef6fb46a79fd709f2bac86a9ed718fb8776c7072b61461065ace6f",
+            "packed": false
+        },
+        {
+            "name": "mmc_block.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/purley-4.4.302/mmc_block.ko",
+            "sha256": "297f0ea74db7859d7858f9a6d4336c1eb9a0b3b505fab6d627776ae221a8926a",
+            "packed": false
+        },
+        {
+            "name": "check-mmc_block.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/purley-4.4.302/check-mmc_block.sh",
+            "sha256": "79c52aec381ac1892ffa5167722e7bdccc1ea18688f263528a4c1353bc20a9d6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "mmc_block.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mmc_block.sh"
+    }
+}

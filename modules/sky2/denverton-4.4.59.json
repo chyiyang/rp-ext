@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "sky2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/denverton-4.4.59/sky2.ko",
+            "sha256": "8ec5d1dd75f95e7a5c5bae98451425470140b915cfbccd6dc2029eb48a2f7d3e",
+            "packed": false
+        },
+        {
+            "name": "check-sky2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/denverton-4.4.59/check-sky2.sh",
+            "sha256": "248a91777a29890d02953dbe261532a8908b889059b90b4a7d114621853b28cf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sky2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sky2.sh"
+    }
+}

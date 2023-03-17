@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cdrom.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/broadwellnk-4.4.59/cdrom.ko",
+            "sha256": "1accad6784e3dc18da68e8cfda39e6f8c7a969776e67e8d497bb9d90b14b24d7",
+            "packed": false
+        },
+        {
+            "name": "check-cdrom.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/broadwellnk-4.4.59/check-cdrom.sh",
+            "sha256": "6873fe11968fd7299c24c5520c413224c3507fac49e100aafea81843acccb65e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cdrom.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cdrom.sh"
+    }
+}

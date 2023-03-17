@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "igbvf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/apollolake-4.4.302/igbvf.ko",
+            "sha256": "d0c4c517ede5d9d30edda06d58bca82ecd3b8b490a46019bafe1916fc41be6cd",
+            "packed": false
+        },
+        {
+            "name": "check-igbvf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/apollolake-4.4.302/check-igbvf.sh",
+            "sha256": "8b50ab19e33adb53893d3bb56c6cc16e4c9933439f4f123be38b6fdcbfe22748",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igbvf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igbvf.sh"
+    }
+}

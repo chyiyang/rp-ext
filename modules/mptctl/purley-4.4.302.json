@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/purley-4.4.302/mptbase.ko",
+            "sha256": "bfda7c7059515b745d746836e5c4e8f281cd17b4ed0fedf7d1ddc62767ff289e",
+            "packed": false
+        },
+        {
+            "name": "mptctl.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/purley-4.4.302/mptctl.ko",
+            "sha256": "10f2bf894e6168f2eef6d58549fd32f71e24d177e1682428abac0916c60b9fdd",
+            "packed": false
+        },
+        {
+            "name": "check-mptctl.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/purley-4.4.302/check-mptctl.sh",
+            "sha256": "f043798995e78f581e0bdaa99ee51f4695794e78daad01868ac0e012a2fa82fe",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptctl.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptctl.sh"
+    }
+}

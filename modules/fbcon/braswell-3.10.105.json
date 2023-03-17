@@ -1,0 +1,44 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/braswell-3.10.105/fb.ko",
+            "sha256": "cfafa195210301ff944abb68a1a80d752db36a1f29aecd436fd29a7449d25659",
+            "packed": false
+        },
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/braswell-3.10.105/font.ko",
+            "sha256": "9f89a63123a5c6a99558f16de888f6f392fbb468d92eb8fe52e07b082425f38a",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/braswell-3.10.105/bitblit.ko",
+            "sha256": "deeda1f01df8c0bd7ff6c14e1bf588b911f419a039c2b36103e3823a9fec6432",
+            "packed": false
+        },
+        {
+            "name": "fbcon.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/braswell-3.10.105/fbcon.ko",
+            "sha256": "75ecf2b1c9fed297a2aba6d05a40a52f458578e71be401b525fe0716bb026515",
+            "packed": false
+        },
+        {
+            "name": "check-fbcon.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/braswell-3.10.105/check-fbcon.sh",
+            "sha256": "6defb205e12ccc8f1cc937241f6e21d378d3cc387003a2b34a0c3b2153d573da",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "font.ko": "",
+        "bitblit.ko": "",
+        "fbcon.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fbcon.sh"
+    }
+}

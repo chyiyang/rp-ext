@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "syscopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/denverton-4.4.302/syscopyarea.ko",
+            "sha256": "90acd3c87b50ed0fdb67e21ad1244f3b0fec2e9113f8497c42e6d32444c289f4",
+            "packed": false
+        },
+        {
+            "name": "check-syscopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/denverton-4.4.302/check-syscopyarea.sh",
+            "sha256": "a5f708a2c29c0f9ff958ad432f221f8b3824f9f91f5d3564a18a204a94a86466",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "syscopyarea.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-syscopyarea.sh"
+    }
+}

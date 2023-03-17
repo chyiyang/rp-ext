@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/broadwellnk-4.4.59/mmc_core.ko",
+            "sha256": "2d73c0a23e29579f8f87a73a82ceda2f601b1c7cbcf116a8d22e8c7858ef5396",
+            "packed": false
+        },
+        {
+            "name": "mmc_block.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/broadwellnk-4.4.59/mmc_block.ko",
+            "sha256": "336ea707a50c0e60bd2da81178252cbd88b9e38912cf28b133047d85671ee6f6",
+            "packed": false
+        },
+        {
+            "name": "check-mmc_block.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/broadwellnk-4.4.59/check-mmc_block.sh",
+            "sha256": "79c52aec381ac1892ffa5167722e7bdccc1ea18688f263528a4c1353bc20a9d6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "mmc_block.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mmc_block.sh"
+    }
+}

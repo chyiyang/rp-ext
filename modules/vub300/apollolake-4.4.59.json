@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/apollolake-4.4.59/mmc_core.ko",
+            "sha256": "313d9b9bdda390e5f845442cc6729736fee2030576c5f063995602acd2bb4d64",
+            "packed": false
+        },
+        {
+            "name": "vub300.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/apollolake-4.4.59/vub300.ko",
+            "sha256": "70434347835d9d19d18691715b6c6436a9587e118e891110434fd1b11d5480db",
+            "packed": false
+        },
+        {
+            "name": "check-vub300.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/apollolake-4.4.59/check-vub300.sh",
+            "sha256": "e1e98de619ef4e70ec723d5f4ac415010970656ddf6575258837c37377f371a5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "vub300.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vub300.sh"
+    }
+}

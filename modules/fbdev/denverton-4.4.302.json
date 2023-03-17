@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fbdev.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/denverton-4.4.302/fbdev.ko",
+            "sha256": "ed8ed2be22f245533ac3481c47081d444ce832a630b1e50a8babe51efad5588f",
+            "packed": false
+        },
+        {
+            "name": "check-fbdev.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/denverton-4.4.302/check-fbdev.sh",
+            "sha256": "4270278943bfd9f5d9e984f48d64a548528031b0d15fbb7f4b9752573013ce06",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fbdev.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fbdev.sh"
+    }
+}

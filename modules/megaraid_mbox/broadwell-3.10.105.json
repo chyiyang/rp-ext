@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "megaraid_mm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/broadwell-3.10.105/megaraid_mm.ko",
+            "sha256": "997eb3ce792d79dbd89be497f5c8d632bccf39d2e2ab894974baa4e7281e17ce",
+            "packed": false
+        },
+        {
+            "name": "megaraid_mbox.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/broadwell-3.10.105/megaraid_mbox.ko",
+            "sha256": "eecda8344abdf6ebfc0fdd24ccaf0fafe4c0a8b9d559851f41dd6354ae602a5f",
+            "packed": false
+        },
+        {
+            "name": "check-megaraid_mbox.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/broadwell-3.10.105/check-megaraid_mbox.sh",
+            "sha256": "27115b3b3cbb92deb74e803926374180cc269427cbfa2e3ce5aa39fab58a6017",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_mm.ko": "",
+        "megaraid_mbox.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_mbox.sh"
+    }
+}

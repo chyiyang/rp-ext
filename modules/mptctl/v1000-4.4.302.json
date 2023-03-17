@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/v1000-4.4.302/mptbase.ko",
+            "sha256": "e66fe07865f5bbb9ea317565239a9023c736a6be88b22b154387d19f04490616",
+            "packed": false
+        },
+        {
+            "name": "mptctl.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/v1000-4.4.302/mptctl.ko",
+            "sha256": "7814f77775ec8bf704cad162617ffa85049af3c6987fa67fa3d3de549142bc8d",
+            "packed": false
+        },
+        {
+            "name": "check-mptctl.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/v1000-4.4.302/check-mptctl.sh",
+            "sha256": "f043798995e78f581e0bdaa99ee51f4695794e78daad01868ac0e012a2fa82fe",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptctl.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptctl.sh"
+    }
+}

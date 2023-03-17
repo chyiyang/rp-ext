@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwell-4.4.302/auxiliary.ko",
+            "sha256": "b274ead5b84bc6a03106ebd6f43ef44a92d3aacd22e19a6614087cd9b2644b9d",
+            "packed": false
+        },
+        {
+            "name": "ice.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwell-4.4.302/ice.ko",
+            "sha256": "076272db0bd68309c72a0a30901c9b56dec3c3458d94565ca9d4b60f8256b5eb",
+            "packed": false
+        },
+        {
+            "name": "check-ice.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwell-4.4.302/check-ice.sh",
+            "sha256": "1f8e01a7316db89bcbb979b8fca887d45586155bed2713d40a504c6e389ede4c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": "",
+        "ice.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ice.sh"
+    }
+}

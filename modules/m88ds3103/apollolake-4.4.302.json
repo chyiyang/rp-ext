@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/apollolake-4.4.302/dvb-core.ko",
+            "sha256": "fb156c8452281bd0924e755d0f224ea048ae326e7a7bcb787177268ff7e991da",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/apollolake-4.4.302/m88ds3103.ko",
+            "sha256": "13c10ed71332a41df8efc237167f169f1bc0c3a46f4d09a8d36c9f190a75e2af",
+            "packed": false
+        },
+        {
+            "name": "check-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/apollolake-4.4.302/check-m88ds3103.sh",
+            "sha256": "ff8a9b8ea9181629bff836fa27c7a1f32e71a920bf5586a0f8723231fb67141a",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/apollolake-4.4.302/m88ds3103_firmware.tag.gz",
+            "sha256": "bebcccfbc8dae1ebb888c79d5cc39f5228bb515fc53a8ab03703df02ee90c0d8",
+            "packed": false
+        },
+        {
+            "name": "install-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/apollolake-4.4.302/install-m88ds3103.sh",
+            "sha256": "114a49d9e59e0382f8b53d74a9ab40e15509db0c57cf1a8ade48d08199a65652",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "m88ds3103.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-m88ds3103.sh",
+        "on_os_load": "install-m88ds3103.sh"
+    }
+}

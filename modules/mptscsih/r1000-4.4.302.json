@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/r1000-4.4.302/mptbase.ko",
+            "sha256": "72392d538446ff728445d4777697e893a55974c994dbd11c5c1c1197561cf1a9",
+            "packed": false
+        },
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/r1000-4.4.302/mptscsih.ko",
+            "sha256": "854e94a0f207ae8254a6db922c9b5b38338e2b7af6256bf47d8d00a11b382510",
+            "packed": false
+        },
+        {
+            "name": "check-mptscsih.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/r1000-4.4.302/check-mptscsih.sh",
+            "sha256": "0a4a6406087f02da148de74eb23e349c299d63a3a28d11d259242ef0bb8e3f40",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptscsih.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptscsih.sh"
+    }
+}

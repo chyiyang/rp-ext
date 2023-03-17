@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fbdev.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/bromolow-3.10.105/fbdev.ko",
+            "sha256": "8284e968a2cb46251f61dfcd5b3b67cfc350b277c8c5441f445c4dbdf3ebf3c0",
+            "packed": false
+        },
+        {
+            "name": "check-fbdev.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/bromolow-3.10.105/check-fbdev.sh",
+            "sha256": "4270278943bfd9f5d9e984f48d64a548528031b0d15fbb7f4b9752573013ce06",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fbdev.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fbdev.sh"
+    }
+}

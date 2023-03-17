@@ -1,0 +1,36 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cxgb3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-4.4.302/cxgb3.ko",
+            "sha256": "bbdc65ce3579cf0b73ccecb9a69bdc004f3a40f0baaa66f66055c6161f0751c6",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-4.4.302/check-cxgb3.sh",
+            "sha256": "f701cea7da479fa7017043e49ad36efc4c1e4cbe80b7de25536cd5025026964a",
+            "packed": false
+        },
+        {
+            "name": "cxgb3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-4.4.302/cxgb3_firmware.tag.gz",
+            "sha256": "d6156e3e6b564d69fb05a27e345dbfd47238551ea4088f5037013d1c0e9c62b9",
+            "packed": false
+        },
+        {
+            "name": "install-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-4.4.302/install-cxgb3.sh",
+            "sha256": "b8f7d4ca1a16e30f28298ab84f755b834c68dac29674a2b8a9b49ade6fc18893",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb3.sh",
+        "on_os_load": "install-cxgb3.sh"
+    }
+}

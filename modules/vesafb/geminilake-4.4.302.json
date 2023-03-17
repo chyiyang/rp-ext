@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vesafb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/geminilake-4.4.302/vesafb.ko",
+            "sha256": "64cd2b63ecfd9a47c7ce5182f5aad926ba7ff60bed0b2586efa7ccb7fbb9810b",
+            "packed": false
+        },
+        {
+            "name": "check-vesafb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/geminilake-4.4.302/check-vesafb.sh",
+            "sha256": "48af516ea72cc59726e6a3b1eb9805054005ac4deea0d1589d598db2aa1e6126",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vesafb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vesafb.sh"
+    }
+}

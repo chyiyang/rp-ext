@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/purley-4.4.180/dvb-core.ko",
+            "sha256": "fd3fbb6c4fe6ad0d28ecd978dfca9451e1d5f8164001ac553a6e724e90573b2e",
+            "packed": false
+        },
+        {
+            "name": "sp2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/purley-4.4.180/sp2.ko",
+            "sha256": "8823005507126ebb000d8339194f6c3fcfc7a876f84915bbe30396bdc641990e",
+            "packed": false
+        },
+        {
+            "name": "check-sp2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/purley-4.4.180/check-sp2.sh",
+            "sha256": "09fd225efbfe2671ea0dd994fad801d4e8c018de90d7716ec36c8ca8e67ed010",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "sp2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sp2.sh"
+    }
+}

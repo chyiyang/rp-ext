@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/purley-4.4.180/mmc_core.ko",
+            "sha256": "cd98b13594061bf79f5c7a923d4986e86e0f82ee5ddd2ae6a826b505ca45ac96",
+            "packed": false
+        },
+        {
+            "name": "ushc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/purley-4.4.180/ushc.ko",
+            "sha256": "415caae154bb9ef61d33cf7fe68b11c2f61dff1ec13ca6ec0f6752c6cbb217f2",
+            "packed": false
+        },
+        {
+            "name": "check-ushc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/purley-4.4.180/check-ushc.sh",
+            "sha256": "df8943c799b85680c9286c825292b9b0ddc8b2552f0732ba30d896f30d9b3fb4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "ushc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ushc.sh"
+    }
+}

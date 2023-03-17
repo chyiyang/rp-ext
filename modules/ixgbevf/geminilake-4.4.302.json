@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ixgbevf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/geminilake-4.4.302/ixgbevf.ko",
+            "sha256": "5f45ecf5d993dd0a7956b38fe26c7dd8af371b28c06e3f521af0e439d805ce21",
+            "packed": false
+        },
+        {
+            "name": "check-ixgbevf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/geminilake-4.4.302/check-ixgbevf.sh",
+            "sha256": "a8a5443603b575f28127041b9c8e916ee5ff90564c4bff89507a7cf9c7ae21a7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgbevf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgbevf.sh"
+    }
+}

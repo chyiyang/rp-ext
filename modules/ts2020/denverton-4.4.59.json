@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ts2020.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/denverton-4.4.59/ts2020.ko",
+            "sha256": "13eedb031e925713a79a755e7652339a4b0e25dc71191f9aea1cf8d028e72a2d",
+            "packed": false
+        },
+        {
+            "name": "check-ts2020.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/denverton-4.4.59/check-ts2020.sh",
+            "sha256": "2fd70948fe1bbf0399771c9cbab684455b4ae2b5f8f94bd534e6f20fda6677b8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ts2020.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ts2020.sh"
+    }
+}

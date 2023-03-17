@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/r1000-4.4.302/mptbase.ko",
+            "sha256": "72392d538446ff728445d4777697e893a55974c994dbd11c5c1c1197561cf1a9",
+            "packed": false
+        },
+        {
+            "name": "check-mptbase.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/r1000-4.4.302/check-mptbase.sh",
+            "sha256": "63ed6ea5a888f9f5f4de108f242234a964e7839b2e4e8a7bb867faec6a154ec3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptbase.sh"
+    }
+}

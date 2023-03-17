@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwellnk-4.4.59/intel_auxiliary.ko",
+            "sha256": "19ee14f4eb3f6c1c736c6b6b7fda2a434744aa73569a788a53c5a0518c309c3c",
+            "packed": false
+        },
+        {
+            "name": "i40e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwellnk-4.4.59/i40e.ko",
+            "sha256": "a2e3ac7989cabb99fd3c613f07ee193d9ca2f9cd273843a0a88a2c16d4b49150",
+            "packed": false
+        },
+        {
+            "name": "check-i40e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwellnk-4.4.59/check-i40e.sh",
+            "sha256": "95b60e623484ba6d9671bc6de51787bd0784d5b82c0f465f41323cd1f8b7301c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": "",
+        "i40e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i40e.sh"
+    }
+}

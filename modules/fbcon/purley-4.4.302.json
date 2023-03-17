@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/purley-4.4.302/font.ko",
+            "sha256": "3513f589400a96e627595e02603f7a829267716cd889be2a08315cadaa599020",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/purley-4.4.302/bitblit.ko",
+            "sha256": "bd29ea8d9dd125e89e364653be98089d78a5c6f39e47575eed6370adab63598f",
+            "packed": false
+        },
+        {
+            "name": "fbcon.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/purley-4.4.302/fbcon.ko",
+            "sha256": "4fbd1d43e73611d4d1c593f28785fbd3d6bd6749160fa5e6cb651abaf98e598f",
+            "packed": false
+        },
+        {
+            "name": "check-fbcon.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/purley-4.4.302/check-fbcon.sh",
+            "sha256": "6f9a6a99256b25c537bc7202f603e9ae1261c507370dc21e71a06b42113ad91e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "font.ko": "",
+        "bitblit.ko": "",
+        "fbcon.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fbcon.sh"
+    }
+}

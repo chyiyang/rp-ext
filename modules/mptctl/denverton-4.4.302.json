@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/denverton-4.4.302/mptbase.ko",
+            "sha256": "f91fb8d2eaeba6bb119ac7373b96ea706c8ed75c463ec552541d255d23785bb8",
+            "packed": false
+        },
+        {
+            "name": "mptctl.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/denverton-4.4.302/mptctl.ko",
+            "sha256": "f532c5a206a48a388341ac5f9ab69b9fc9b10c42f7ebee4c6d370c0026da7637",
+            "packed": false
+        },
+        {
+            "name": "check-mptctl.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/denverton-4.4.302/check-mptctl.sh",
+            "sha256": "f043798995e78f581e0bdaa99ee51f4695794e78daad01868ac0e012a2fa82fe",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptctl.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptctl.sh"
+    }
+}

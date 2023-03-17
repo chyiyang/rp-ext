@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "bnxt_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/purley-4.4.180/bnxt_en.ko",
+            "sha256": "c231d8a582d8e99280b1b73e37fb36a319ae4bcaca568bb7a6757c4fc31d06f2",
+            "packed": false
+        },
+        {
+            "name": "check-bnxt_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnxt_en/purley-4.4.180/check-bnxt_en.sh",
+            "sha256": "82220deef0ac8eb57c12a4c2c8942a511cefce62a5b67a242b49c44cdd8e58de",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bnxt_en.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnxt_en.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.180/mlx4_core.ko",
+            "sha256": "081519201747d81d27033db0fb0afd0335fbd3c032bba03a019a8bcb6cdd9a30",
+            "packed": false
+        },
+        {
+            "name": "mlx4_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.180/mlx4_en.ko",
+            "sha256": "426c21c70a5c02a71197d3caf8da64445706a6873264237ab86364af9fc72fac",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.180/check-mlx4_en.sh",
+            "sha256": "6361d25afad0ea2e6fa3fe703113aafac3f3964689bdca30416147005e804925",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": "",
+        "mlx4_en.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_en.sh"
+    }
+}

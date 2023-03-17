@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "aqc111.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/apollolake-4.4.59/aqc111.ko",
+            "sha256": "71ea39a0841245c53ae4da229ad4c72d420cdcc8e84854075e0cf32ba4730273",
+            "packed": false
+        },
+        {
+            "name": "check-aqc111.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/apollolake-4.4.59/check-aqc111.sh",
+            "sha256": "820f830e232a007720e2b3d1669d0cf8d40d072625dc7adb4972f0d4e2fc0086",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "aqc111.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aqc111.sh"
+    }
+}

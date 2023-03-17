@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.59/scsi_transport_sas.ko",
+            "sha256": "a869c91ce14eb7dcedd7cec0e4ab01203d96415c8f99532a4febb43cafb52587",
+            "packed": false
+        },
+        {
+            "name": "raid_class.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.59/raid_class.ko",
+            "sha256": "b7d8bad43a982ee1da91be39a11406c68e753fce73eb77966fc6c9a621853c29",
+            "packed": false
+        },
+        {
+            "name": "mpt3sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.59/mpt3sas.ko",
+            "sha256": "a6005746e307a6998bfbee94e9f26897daab660a3d98ed8e686ce56948e8efad",
+            "packed": false
+        },
+        {
+            "name": "check-mpt3sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.59/check-mpt3sas.sh",
+            "sha256": "e3f268587711d6166c9fadd283eb7ae7e1359fed3d183688be1827ac66cc429b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": "",
+        "raid_class.ko": "",
+        "mpt3sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mpt3sas.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vgastate.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/denverton-4.4.59/vgastate.ko",
+            "sha256": "31c4e98ca6b1a38a4002ebd026697b797155ec8b43a66ab1f2495ab5106f3cf3",
+            "packed": false
+        },
+        {
+            "name": "check-vgastate.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/denverton-4.4.59/check-vgastate.sh",
+            "sha256": "a89a3dc8087236516f5295d75516a08378467cf478370b6ae534384213f3adc2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vgastate.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vgastate.sh"
+    }
+}

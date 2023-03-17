@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "thermal.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/purley-4.4.180/thermal.ko",
+            "sha256": "2da2eaa629527c2c244e0868d9d364868c61067ec90a1f52b3f4c1431015ee41",
+            "packed": false
+        },
+        {
+            "name": "check-thermal.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/purley-4.4.180/check-thermal.sh",
+            "sha256": "27554357103fcc821c2fb064a04c7fe276f90b091e81e8cd73e277b150c6cac8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "thermal.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-thermal.sh"
+    }
+}

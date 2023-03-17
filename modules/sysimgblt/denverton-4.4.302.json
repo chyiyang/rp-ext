@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "sysimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/denverton-4.4.302/sysimgblt.ko",
+            "sha256": "624b4c3cbb119031b1717f56e0bbc2f188791c4ae9ec0ded35fbb348158d62ec",
+            "packed": false
+        },
+        {
+            "name": "check-sysimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/denverton-4.4.302/check-sysimgblt.sh",
+            "sha256": "6e434e9c2f70f49151c273adab3db1ae61fd5f47545f53a7ca760ca6fd282cc5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysimgblt.sh"
+    }
+}

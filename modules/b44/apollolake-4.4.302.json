@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.302/libphy.ko",
+            "sha256": "8dda28fe1354fdb919d3614ec7630ab5d9c828e0bb08b5e7739507e43871bb43",
+            "packed": false
+        },
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.302/mii.ko",
+            "sha256": "858d78fce1625ba3a8f2cae50117a7bbc042ce86e8eb0b109209d6a3fb1807cf",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.302/b44.ko",
+            "sha256": "69faf36262df37a41c111e958c45cc2223ca2f4d1e3f19e8bbd9779cf39864f5",
+            "packed": false
+        },
+        {
+            "name": "check-b44.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.302/check-b44.sh",
+            "sha256": "22c041d3a2421185130dac8a7332ec49091be831fe49df27f374e9e3a9b4dfd3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "mii.ko": "",
+        "b44.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-b44.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "igbvf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/denverton-4.4.302/igbvf.ko",
+            "sha256": "9d8540e65b281207509c1ed1ded0793e16029746cf2e2989ebd061d8ca334404",
+            "packed": false
+        },
+        {
+            "name": "check-igbvf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/denverton-4.4.302/check-igbvf.sh",
+            "sha256": "8b50ab19e33adb53893d3bb56c6cc16e4c9933439f4f123be38b6fdcbfe22748",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igbvf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igbvf.sh"
+    }
+}

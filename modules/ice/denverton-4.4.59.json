@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/denverton-4.4.59/auxiliary.ko",
+            "sha256": "9be9fe0ca2686fd0ddf7517ea30252a889244f9473d829622e32807ebe0836b9",
+            "packed": false
+        },
+        {
+            "name": "ice.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/denverton-4.4.59/ice.ko",
+            "sha256": "18fbe50a2f44a075599d747fcbe73441ad2a375f8406201e0eb8a4314b80a547",
+            "packed": false
+        },
+        {
+            "name": "check-ice.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/denverton-4.4.59/check-ice.sh",
+            "sha256": "1f8e01a7316db89bcbb979b8fca887d45586155bed2713d40a504c6e389ede4c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": "",
+        "ice.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ice.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/broadwellnk-4.4.302/cfbfillrect.ko",
+            "sha256": "b5939c863c5d8bc9d515a7cbd9084ebd9662e16e8b30f60ec74d68e6f7090aaf",
+            "packed": false
+        },
+        {
+            "name": "check-cfbfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/broadwellnk-4.4.302/check-cfbfillrect.sh",
+            "sha256": "0b86d41adb7c23bbecee633781eafeff50852acc9c1652c2c643a0c910c97cdf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbfillrect.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbfillrect.sh"
+    }
+}

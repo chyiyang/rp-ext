@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/denverton-4.4.302/auxiliary.ko",
+            "sha256": "95a4834151278e831ce9ff66dcd3879778ba9aaa53ca3c355d39a903b3f35fd4",
+            "packed": false
+        },
+        {
+            "name": "iavf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/denverton-4.4.302/iavf.ko",
+            "sha256": "3e2a485b51622858b941254fa5a5fa235094b407acaa26f2d3986324c7bc483d",
+            "packed": false
+        },
+        {
+            "name": "check-iavf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/denverton-4.4.302/check-iavf.sh",
+            "sha256": "fe36696c5c2caacf73ddc82805cc6651a729098eec09944d52dae343553dc58a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": "",
+        "iavf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iavf.sh"
+    }
+}

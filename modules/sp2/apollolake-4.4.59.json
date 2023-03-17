@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/apollolake-4.4.59/dvb-core.ko",
+            "sha256": "66f322567cce312541a464d77308e93a929fe69f21679648f59be8d1d40822b8",
+            "packed": false
+        },
+        {
+            "name": "sp2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/apollolake-4.4.59/sp2.ko",
+            "sha256": "e17cf089d855dd233c6692f24ad332d296f4c7073f9c3f4aa90fdce3b5835fbc",
+            "packed": false
+        },
+        {
+            "name": "check-sp2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/apollolake-4.4.59/check-sp2.sh",
+            "sha256": "09fd225efbfe2671ea0dd994fad801d4e8c018de90d7716ec36c8ca8e67ed010",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "sp2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sp2.sh"
+    }
+}

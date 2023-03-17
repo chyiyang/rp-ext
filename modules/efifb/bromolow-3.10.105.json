@@ -1,0 +1,51 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/cfbimgblt.ko",
+            "sha256": "985e38fc1aa4431d2325f71bb3d65df0451ead41c969ac2954d3a7360026edeb",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/cfbcopyarea.ko",
+            "sha256": "7c0d8fa47ceae3c0cebe47aa59c5576d20d83953f58ce97193263a0db8c03293",
+            "packed": false
+        },
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/cfbfillrect.ko",
+            "sha256": "ab70ab7b27bbb08d0c56add87ef35eebe42cd9064f3a674e6eaf86a8c6948e4c",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/fb.ko",
+            "sha256": "3be572238bd9b86919996f46d87f58db1fd3b9fdda9dd5aa2cd9b3ecc9cd2717",
+            "packed": false
+        },
+        {
+            "name": "efifb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/efifb.ko",
+            "sha256": "464b5de1791d8d285071bb0f6b04d8bd3cfd501b11081ffe3aafa9d726267bda",
+            "packed": false
+        },
+        {
+            "name": "check-efifb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/check-efifb.sh",
+            "sha256": "3c79b757f76602dd9faa98ec886039153624ddbbb0ed1260238a0761529b46f8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "cfbfillrect.ko": "",
+        "fb.ko": "",
+        "efifb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-efifb.sh"
+    }
+}

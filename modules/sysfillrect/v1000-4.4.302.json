@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "sysfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/v1000-4.4.302/sysfillrect.ko",
+            "sha256": "5c35b4536070f0e83500d302898027a0c7c7863730f74316ad4c224e0bd0f824",
+            "packed": false
+        },
+        {
+            "name": "check-sysfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/v1000-4.4.302/check-sysfillrect.sh",
+            "sha256": "16c3ac381db586a83f71f5f70acc563c9f4b5d35219c551c021ff63626d014cd",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysfillrect.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysfillrect.sh"
+    }
+}

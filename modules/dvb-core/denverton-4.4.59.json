@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/denverton-4.4.59/dvb-core.ko",
+            "sha256": "50ef2f5595a27f0914fab428a0529846ff6e9d53edbaa6346bc4e57872fb9268",
+            "packed": false
+        },
+        {
+            "name": "check-dvb-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/denverton-4.4.59/check-dvb-core.sh",
+            "sha256": "e4f53a32c44074e44e88f1811d25aaa054cca3b314004fa07fbcf8b3d799ae2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-core.sh"
+    }
+}

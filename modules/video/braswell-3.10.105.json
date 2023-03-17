@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "video.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/braswell-3.10.105/video.ko",
+            "sha256": "316660353f8825e757b685eebffc2f23ae8a4cc699df5549151c9a848bfea845",
+            "packed": false
+        },
+        {
+            "name": "check-video.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/braswell-3.10.105/check-video.sh",
+            "sha256": "b062fd7a54c84102e6d5d7c55f4e516928d738542f8aef19e81b66e5c0ec304b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "video.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-video.sh"
+    }
+}

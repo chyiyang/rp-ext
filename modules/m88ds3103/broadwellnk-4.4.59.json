@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/broadwellnk-4.4.59/dvb-core.ko",
+            "sha256": "6a08a67f15b42f2081216592a4dc0d2edcdde4ba69bd56218ea2fe81cf19b800",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/broadwellnk-4.4.59/m88ds3103.ko",
+            "sha256": "5b56b8d5d0abc643de36512e25eb3d0adbf408ce6137eb87fa0ba91b536dc85d",
+            "packed": false
+        },
+        {
+            "name": "check-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/broadwellnk-4.4.59/check-m88ds3103.sh",
+            "sha256": "ff8a9b8ea9181629bff836fa27c7a1f32e71a920bf5586a0f8723231fb67141a",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/broadwellnk-4.4.59/m88ds3103_firmware.tag.gz",
+            "sha256": "ea07938c1d4274764c6a1f0befef41fcc099ffb695c7114741062b4c64ef1bfb",
+            "packed": false
+        },
+        {
+            "name": "install-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/broadwellnk-4.4.59/install-m88ds3103.sh",
+            "sha256": "114a49d9e59e0382f8b53d74a9ab40e15509db0c57cf1a8ade48d08199a65652",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "m88ds3103.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-m88ds3103.sh",
+        "on_os_load": "install-m88ds3103.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "button.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/apollolake-4.4.302/button.ko",
+            "sha256": "9912df6b826478cd8a9868063ab24dbd9cbfa228467102d379a523cf8d77fd28",
+            "packed": false
+        },
+        {
+            "name": "check-button.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/apollolake-4.4.302/check-button.sh",
+            "sha256": "14244275d85059b56446bc0ba7d1a46ea60f1f92b3b7ea53d154281ba3317e2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "button.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-button.sh"
+    }
+}

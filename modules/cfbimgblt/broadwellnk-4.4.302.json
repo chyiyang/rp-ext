@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/broadwellnk-4.4.302/cfbimgblt.ko",
+            "sha256": "0da3ea6604d261aa26b0e0d92d85e1e6dcc81a2ad49411d9ce3f5ae76968ff94",
+            "packed": false
+        },
+        {
+            "name": "check-cfbimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/broadwellnk-4.4.302/check-cfbimgblt.sh",
+            "sha256": "57478f226b996ff5259eaa62bff2497ade7b9e6f5998dbbba9442b02ff0695ad",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbimgblt.sh"
+    }
+}

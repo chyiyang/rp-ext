@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ixgbe.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/broadwellnk-4.4.59/ixgbe.ko",
+            "sha256": "20b0b19cd07a6bf4301cd9c97725a5710e0f7d839520edaccca7ddaa6ff675b3",
+            "packed": false
+        },
+        {
+            "name": "check-ixgbe.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/broadwellnk-4.4.59/check-ixgbe.sh",
+            "sha256": "68d8052404ec39e03a01e9284fec0430673b3ced0b5263ea708852b61ee63d9a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgbe.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgbe.sh"
+    }
+}

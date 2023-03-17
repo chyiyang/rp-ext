@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vmw_pvscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/bromolow-3.10.105/vmw_pvscsi.ko",
+            "sha256": "c4b9e71c8fc1801241a38f16a07e4a9d43c5860fb174c9cc9df87416403ccef1",
+            "packed": false
+        },
+        {
+            "name": "check-vmw_pvscsi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/bromolow-3.10.105/check-vmw_pvscsi.sh",
+            "sha256": "852cec60cd99a2524b4985ea7c000a6654b9630520e3ae397b7acb1ade50409f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vmw_pvscsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vmw_pvscsi.sh"
+    }
+}

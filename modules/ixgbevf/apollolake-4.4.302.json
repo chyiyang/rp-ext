@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ixgbevf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/apollolake-4.4.302/ixgbevf.ko",
+            "sha256": "9af9ccc9d2c93d2ac0078c45fa5a7cd8becdbd56fd718db9d7c37dce21b22639",
+            "packed": false
+        },
+        {
+            "name": "check-ixgbevf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/apollolake-4.4.302/check-ixgbevf.sh",
+            "sha256": "a8a5443603b575f28127041b9c8e916ee5ff90564c4bff89507a7cf9c7ae21a7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgbevf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgbevf.sh"
+    }
+}

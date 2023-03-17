@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "e1000.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/broadwellnk-4.4.59/e1000.ko",
+            "sha256": "65d3228752e932ca3d12ee92c318741a56fbe064ff8b5d9144f595d9453e2ed0",
+            "packed": false
+        },
+        {
+            "name": "check-e1000.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/broadwellnk-4.4.59/check-e1000.sh",
+            "sha256": "0573c8065d281b1eb67939392090857956cb7b848ebb2f1781d769d39e1cc26b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "e1000.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-e1000.sh"
+    }
+}

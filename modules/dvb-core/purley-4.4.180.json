@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/purley-4.4.180/dvb-core.ko",
+            "sha256": "fd3fbb6c4fe6ad0d28ecd978dfca9451e1d5f8164001ac553a6e724e90573b2e",
+            "packed": false
+        },
+        {
+            "name": "check-dvb-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/purley-4.4.180/check-dvb-core.sh",
+            "sha256": "e4f53a32c44074e44e88f1811d25aaa054cca3b314004fa07fbcf8b3d799ae2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-core.sh"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/bromolow-3.10.105/softcursor.ko",
+            "sha256": "8aa45a8f72662abff5349477ee0fa414f91b396049370e013d54c68004db38b2",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/bromolow-3.10.105/fb.ko",
+            "sha256": "3be572238bd9b86919996f46d87f58db1fd3b9fdda9dd5aa2cd9b3ecc9cd2717",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/bromolow-3.10.105/bitblit.ko",
+            "sha256": "7d9263052f90f24113e3b158d69134091a32c8c186a9bcd82f4efa3bfe80bdc6",
+            "packed": false
+        },
+        {
+            "name": "check-bitblit.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/bromolow-3.10.105/check-bitblit.sh",
+            "sha256": "e0d32ae7ecdfbbfe5df281e0d1878b82ae0c2ad4533539a44c842b8e14978cdd",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "softcursor.ko": "",
+        "fb.ko": "",
+        "bitblit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bitblit.sh"
+    }
+}

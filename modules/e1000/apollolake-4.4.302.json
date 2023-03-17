@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "e1000.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/apollolake-4.4.302/e1000.ko",
+            "sha256": "f6200a8c710fc32eb998da1a2cf5d02d4172833f484aa300d9d6b2aea15307ef",
+            "packed": false
+        },
+        {
+            "name": "check-e1000.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000/apollolake-4.4.302/check-e1000.sh",
+            "sha256": "0573c8065d281b1eb67939392090857956cb7b848ebb2f1781d769d39e1cc26b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "e1000.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-e1000.sh"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cxgb4.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/purley-4.4.302/cxgb4.ko",
+            "sha256": "1745c48b4ddb6c9a233764d5036518bbe0d98f10812fae22358a649b420b18f4",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb4.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/purley-4.4.302/check-cxgb4.sh",
+            "sha256": "7131e1c44a73ea6454de1db1571e116619bc0b040822d750e33197899ecd3afe",
+            "packed": false
+        },
+        {
+            "name": "cxgb4_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/purley-4.4.302/cxgb4_firmware.tag.gz",
+            "sha256": "ad51cec4815bd7cdb46c26de3068642739dd50a34634040f1fc58b2705d6a591",
+            "packed": false
+        },
+        {
+            "name": "install-cxgb4.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/purley-4.4.302/install-cxgb4.sh",
+            "sha256": "1ecca0440aee8408d1bdc03605075a93198ac94f281f17a9fa33c0051d9e04fc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb4.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb4.sh",
+        "on_os_load": "install-cxgb4.sh"
+    }
+}

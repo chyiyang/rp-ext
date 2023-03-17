@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "igc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/v1000-4.4.302/igc.ko",
+            "sha256": "456955a907916ec74d1e5e04d6d8e9b9e168fc8165c131560353f771efabe0d5",
+            "packed": false
+        },
+        {
+            "name": "check-igc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/v1000-4.4.302/check-igc.sh",
+            "sha256": "fd19316541e792dd5d033768708517247568cb548bdb1df371c71f7b2fe57cde",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igc.sh"
+    }
+}

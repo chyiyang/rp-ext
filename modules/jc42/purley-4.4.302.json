@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "jc42.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jc42/purley-4.4.302/jc42.ko",
+            "sha256": "810ef62b6e5ab2a4b8306dff65bf5260c12f74f76086c107a4e1b2f324f830bb",
+            "packed": false
+        },
+        {
+            "name": "check-jc42.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jc42/purley-4.4.302/check-jc42.sh",
+            "sha256": "dd85d18ef39d400aea640e6459871292378ff1ad0216bc132d5732c6a51bb469",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "jc42.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-jc42.sh"
+    }
+}

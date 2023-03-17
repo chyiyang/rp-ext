@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vesafb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/purley-4.4.180/vesafb.ko",
+            "sha256": "cc155a7b9a7a03c89f404323caa8c01f7691dabc20bfe884325fa117161f34b8",
+            "packed": false
+        },
+        {
+            "name": "check-vesafb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/purley-4.4.180/check-vesafb.sh",
+            "sha256": "48af516ea72cc59726e6a3b1eb9805054005ac4deea0d1589d598db2aa1e6126",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vesafb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vesafb.sh"
+    }
+}

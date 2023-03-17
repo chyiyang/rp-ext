@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/r1000-4.4.302/mlx4_core.ko",
+            "sha256": "662eb9ab11e81dc3ee3dd8b8b84241063d4c058499b73b63f02438fa5fde5dcf",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/r1000-4.4.302/check-mlx4_core.sh",
+            "sha256": "367f1580112fdba6dec1599aea341c4ea8f645d59ae80889973e904158b89547",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_core.sh"
+    }
+}

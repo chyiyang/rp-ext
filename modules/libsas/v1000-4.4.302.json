@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/v1000-4.4.302/scsi_transport_sas.ko",
+            "sha256": "c2d08d1cb1bb74824a56e3fde8036965d42c81a34fd810e6ade9304f89506e97",
+            "packed": false
+        },
+        {
+            "name": "libsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/v1000-4.4.302/libsas.ko",
+            "sha256": "b40924414c8642d8c12ec14bffc4b03cf0dd1b8c86160309e83435cae1be9f6e",
+            "packed": false
+        },
+        {
+            "name": "check-libsas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/v1000-4.4.302/check-libsas.sh",
+            "sha256": "951e495246d59d8cd295ab94474a45907cedfc730cedc0152164b0195ed1a5f2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": "",
+        "libsas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libsas.sh"
+    }
+}

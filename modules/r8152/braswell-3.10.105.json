@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/braswell-3.10.105/mii.ko",
+            "sha256": "5355cb9ef54015fbfbf2b8f8a6550ecab0d7842463da03ab22d05034313bedc8",
+            "packed": false
+        },
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/braswell-3.10.105/r8152.ko",
+            "sha256": "07e32f662c4a9d1aa490da58e176828ba63c655c015ac7f87cd66e7f7c5d5a64",
+            "packed": false
+        },
+        {
+            "name": "check-r8152.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/braswell-3.10.105/check-r8152.sh",
+            "sha256": "d82a02c667a4f6c360b34efe596c03b3780ff1548fb10e372dd2798c57c497b1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8152.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8152.sh"
+    }
+}

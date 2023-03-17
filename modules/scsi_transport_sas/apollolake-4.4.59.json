@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/apollolake-4.4.59/scsi_transport_sas.ko",
+            "sha256": "a869c91ce14eb7dcedd7cec0e4ab01203d96415c8f99532a4febb43cafb52587",
+            "packed": false
+        },
+        {
+            "name": "check-scsi_transport_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/apollolake-4.4.59/check-scsi_transport_sas.sh",
+            "sha256": "2ca154b5d73a837499c4974e4ec1b17bcc2ad61ad8dd3ef421a9a250838c46ea",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_sas.sh"
+    }
+}

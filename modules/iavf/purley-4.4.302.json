@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/purley-4.4.302/auxiliary.ko",
+            "sha256": "ea4970cde0b50473bc5d4e13890c603ed6dc3112c5b6ec5beb5663a5a17ca924",
+            "packed": false
+        },
+        {
+            "name": "iavf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/purley-4.4.302/iavf.ko",
+            "sha256": "50dfa65d8dc43995262bd0067ab5f84194bea16a4f1aa2a9012e6bfa9e86a3b9",
+            "packed": false
+        },
+        {
+            "name": "check-iavf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/purley-4.4.302/check-iavf.sh",
+            "sha256": "fe36696c5c2caacf73ddc82805cc6651a729098eec09944d52dae343553dc58a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": "",
+        "iavf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iavf.sh"
+    }
+}

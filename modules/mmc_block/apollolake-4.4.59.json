@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/apollolake-4.4.59/mmc_core.ko",
+            "sha256": "313d9b9bdda390e5f845442cc6729736fee2030576c5f063995602acd2bb4d64",
+            "packed": false
+        },
+        {
+            "name": "mmc_block.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/apollolake-4.4.59/mmc_block.ko",
+            "sha256": "a98855a25fc628e98853bb27dd111649d0ca45b0619cbeaa466af6a8cef7b048",
+            "packed": false
+        },
+        {
+            "name": "check-mmc_block.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/apollolake-4.4.59/check-mmc_block.sh",
+            "sha256": "79c52aec381ac1892ffa5167722e7bdccc1ea18688f263528a4c1353bc20a9d6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "mmc_block.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mmc_block.sh"
+    }
+}

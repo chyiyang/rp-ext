@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/purley-4.4.302/r8152.ko",
+            "sha256": "c6773946924f05a66c3a9415b9c078a19c9af3e48b161caf7ac1fca717ca2bbd",
+            "packed": false
+        },
+        {
+            "name": "check-r8152.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/purley-4.4.302/check-r8152.sh",
+            "sha256": "33164c7e249a7e6809a7d4fc7bebca8a98057ea5539466cc5876b80dec38b875",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8152.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8152.sh"
+    }
+}

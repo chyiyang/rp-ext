@@ -1,0 +1,44 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/v1000-4.4.302/mptscsih.ko",
+            "sha256": "3469a34677df75ef705d648def437198edcc8764d502dade48f96317f9dc223c",
+            "packed": false
+        },
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/v1000-4.4.302/mptbase.ko",
+            "sha256": "e66fe07865f5bbb9ea317565239a9023c736a6be88b22b154387d19f04490616",
+            "packed": false
+        },
+        {
+            "name": "scsi_transport_spi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/v1000-4.4.302/scsi_transport_spi.ko",
+            "sha256": "52978cb503380dffb04ef1cd6af20a41b3e912dd00bce94d29fa991c199cc166",
+            "packed": false
+        },
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/v1000-4.4.302/mptspi.ko",
+            "sha256": "7ce25cbe57afbde1f803774fff7fdf99183a09a1e9dd9e896ab105989c0bf472",
+            "packed": false
+        },
+        {
+            "name": "check-mptspi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/v1000-4.4.302/check-mptspi.sh",
+            "sha256": "54872bbf44876aaf8f8672226c6852d9371c9c9d8f0b098214e3e09e0a6dd653",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptscsih.ko": "",
+        "mptbase.ko": "",
+        "scsi_transport_spi.ko": "",
+        "mptspi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptspi.sh"
+    }
+}

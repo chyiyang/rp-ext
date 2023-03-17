@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/broadwellnk-4.4.59/fb.ko",
+            "sha256": "63ca6b22f9db4cd37c497c8cad92322d0df11a3c0a201774d295d3b185e924b9",
+            "packed": false
+        },
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/broadwellnk-4.4.59/softcursor.ko",
+            "sha256": "862c9ff0bb3cae1cafd801cf48a66395364d0b7a6cd7ab1db1f41d356fcaf7da",
+            "packed": false
+        },
+        {
+            "name": "check-softcursor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/broadwellnk-4.4.59/check-softcursor.sh",
+            "sha256": "3022eaa57a7ccca216d7f4f2f63861650e6a183ad2ee080c4d7de7ed5a4f62a6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "softcursor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-softcursor.sh"
+    }
+}

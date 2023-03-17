@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vmw_pvscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/broadwellnk-4.4.302/vmw_pvscsi.ko",
+            "sha256": "4f853e9370a3a0026c89c035d1221447eb80edbad787c2ec769ce870373fad9e",
+            "packed": false
+        },
+        {
+            "name": "check-vmw_pvscsi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/broadwellnk-4.4.302/check-vmw_pvscsi.sh",
+            "sha256": "852cec60cd99a2524b4985ea7c000a6654b9630520e3ae397b7acb1ade50409f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vmw_pvscsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vmw_pvscsi.sh"
+    }
+}

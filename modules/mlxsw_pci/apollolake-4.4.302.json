@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlxsw_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/apollolake-4.4.302/mlxsw_core.ko",
+            "sha256": "8cf9efe9eaea2fc6136064f4790b8eb419e2191213ad0a4679d6c379710a03b4",
+            "packed": false
+        },
+        {
+            "name": "mlxsw_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/apollolake-4.4.302/mlxsw_pci.ko",
+            "sha256": "e56fbc1f3ea9ffe0fcf168a2883fb4f24d71098d848b2b105acfd9021b9d3a3e",
+            "packed": false
+        },
+        {
+            "name": "check-mlxsw_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/apollolake-4.4.302/check-mlxsw_pci.sh",
+            "sha256": "bbad6cc70a92eeba8283578797e3155e5deedcb14858136de7523375328b2ce9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlxsw_core.ko": "",
+        "mlxsw_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlxsw_pci.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "efifb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/apollolake-4.4.59/efifb.ko",
+            "sha256": "24dd60f7f2f560df57bd1a7ffa04728365e740c1d22d11dd80d039a4192d031a",
+            "packed": false
+        },
+        {
+            "name": "check-efifb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/apollolake-4.4.59/check-efifb.sh",
+            "sha256": "38eaf511b3353b5e332a747f7bf8c54053e5c9d6d8b7cd72a89977d210b79a03",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "efifb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-efifb.sh"
+    }
+}

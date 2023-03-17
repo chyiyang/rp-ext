@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fbdev.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/broadwellnk-4.4.59/fbdev.ko",
+            "sha256": "5174c2ce397f6965c8b48d40530ca34054238c02b4c7cd2084bc321994156fce",
+            "packed": false
+        },
+        {
+            "name": "check-fbdev.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbdev/broadwellnk-4.4.59/check-fbdev.sh",
+            "sha256": "4270278943bfd9f5d9e984f48d64a548528031b0d15fbb7f4b9752573013ce06",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fbdev.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fbdev.sh"
+    }
+}

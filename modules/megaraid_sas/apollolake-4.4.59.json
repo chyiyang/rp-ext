@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "megaraid_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/apollolake-4.4.59/megaraid_sas.ko",
+            "sha256": "fe1b870555e138ad6dea9cefc1aebcb3c43c5aa17c3b088d01f3431e522946af",
+            "packed": false
+        },
+        {
+            "name": "check-megaraid_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/apollolake-4.4.59/check-megaraid_sas.sh",
+            "sha256": "6e7f79b947f82fbdf9c78252a95f5efe7b93cb26cfe15462e4aa13a92a4b4cf3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_sas.sh"
+    }
+}

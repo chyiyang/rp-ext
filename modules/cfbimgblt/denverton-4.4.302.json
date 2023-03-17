@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/denverton-4.4.302/cfbimgblt.ko",
+            "sha256": "07feb014525e4b889c4c2c4cec4948f7bea51463edcdd2ffe9d46713962de570",
+            "packed": false
+        },
+        {
+            "name": "check-cfbimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/denverton-4.4.302/check-cfbimgblt.sh",
+            "sha256": "57478f226b996ff5259eaa62bff2497ade7b9e6f5998dbbba9442b02ff0695ad",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbimgblt.sh"
+    }
+}

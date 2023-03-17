@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/apollolake-4.4.59/mptbase.ko",
+            "sha256": "6757151d2c6a61f7ea4d8d5110be5e6d3be7bacb98276bdb6b706c550afeaf63",
+            "packed": false
+        },
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/apollolake-4.4.59/mptscsih.ko",
+            "sha256": "66858d48f01dbf78eb9237f01b47937c08f65fb60694fb0173399826b2dda3d7",
+            "packed": false
+        },
+        {
+            "name": "check-mptscsih.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/apollolake-4.4.59/check-mptscsih.sh",
+            "sha256": "0a4a6406087f02da148de74eb23e349c299d63a3a28d11d259242ef0bb8e3f40",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptscsih.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptscsih.sh"
+    }
+}

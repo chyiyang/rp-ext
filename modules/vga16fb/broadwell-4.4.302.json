@@ -1,0 +1,58 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.302/cfbfillrect.ko",
+            "sha256": "b5939c863c5d8bc9d515a7cbd9084ebd9662e16e8b30f60ec74d68e6f7090aaf",
+            "packed": false
+        },
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.302/cfbimgblt.ko",
+            "sha256": "0da3ea6604d261aa26b0e0d92d85e1e6dcc81a2ad49411d9ce3f5ae76968ff94",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.302/cfbcopyarea.ko",
+            "sha256": "89f2ca80e5b7a30c9754137a566035b14c48c53f6d46259237b087bfbc16b90d",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.302/fb.ko",
+            "sha256": "25f53bb18fa8f4c366838d7b6dd53ffacdfe3b60e2c7d1544fa9cc0a388e3d2f",
+            "packed": false
+        },
+        {
+            "name": "vgastate.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.302/vgastate.ko",
+            "sha256": "a8005ab21258bd65366cc7fcc30b299260d39eca300f33bf47a1ee9d99cba7dd",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.302/vga16fb.ko",
+            "sha256": "1d655749deb9a1e118747e1dc55bf5e2420bb27c50c28f151e6ffa2251e17ef3",
+            "packed": false
+        },
+        {
+            "name": "check-vga16fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.302/check-vga16fb.sh",
+            "sha256": "43101342a089e1cda5b314c9f71cdde6ecc77e90832b918af86edd1b8ab3a9ed",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbfillrect.ko": "",
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "fb.ko": "",
+        "vgastate.ko": "",
+        "vga16fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vga16fb.sh"
+    }
+}

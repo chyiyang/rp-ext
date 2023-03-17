@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/geminilake-4.4.302/mii.ko",
+            "sha256": "ae4934bf54ad6d214a25ccbfbbb887fb35b12ea471e021253e53f2dec8c0b135",
+            "packed": false
+        },
+        {
+            "name": "jme.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/geminilake-4.4.302/jme.ko",
+            "sha256": "25a7296cd21a088973f9d6e4b5c672da5724ef3c64d36e0354a61a2d0592b397",
+            "packed": false
+        },
+        {
+            "name": "check-jme.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/geminilake-4.4.302/check-jme.sh",
+            "sha256": "6b70bfbac17b78183298ddafdac9480ab51b45d7901c59681072ac1c5f69abff",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "jme.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-jme.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/denverton-4.4.59/mlx4_core.ko",
+            "sha256": "cb3e5e142aaf0d78b455332cb7a10d577d7e28c3b8bb2490c344185852cfad11",
+            "packed": false
+        },
+        {
+            "name": "mlx4_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/denverton-4.4.59/mlx4_en.ko",
+            "sha256": "29ebd13a8e709527b4b66d8920c49893c370ed142a848debe717dbd84783129e",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/denverton-4.4.59/check-mlx4_en.sh",
+            "sha256": "6361d25afad0ea2e6fa3fe703113aafac3f3964689bdca30416147005e804925",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": "",
+        "mlx4_en.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_en.sh"
+    }
+}

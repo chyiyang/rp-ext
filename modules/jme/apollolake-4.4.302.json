@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/apollolake-4.4.302/mii.ko",
+            "sha256": "858d78fce1625ba3a8f2cae50117a7bbc042ce86e8eb0b109209d6a3fb1807cf",
+            "packed": false
+        },
+        {
+            "name": "jme.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/apollolake-4.4.302/jme.ko",
+            "sha256": "77ef42ee1100c2061a701b2dab3ed37937801c05f2a5a789e88861e05a4fb88d",
+            "packed": false
+        },
+        {
+            "name": "check-jme.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/apollolake-4.4.302/check-jme.sh",
+            "sha256": "6b70bfbac17b78183298ddafdac9480ab51b45d7901c59681072ac1c5f69abff",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "jme.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-jme.sh"
+    }
+}

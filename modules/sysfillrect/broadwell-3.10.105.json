@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "sysfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/broadwell-3.10.105/sysfillrect.ko",
+            "sha256": "5257c2e56841ee015459c39d5e7800dcca5f0c731b56ce5b05ff4abe162055d4",
+            "packed": false
+        },
+        {
+            "name": "check-sysfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/broadwell-3.10.105/check-sysfillrect.sh",
+            "sha256": "16c3ac381db586a83f71f5f70acc563c9f4b5d35219c551c021ff63626d014cd",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysfillrect.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysfillrect.sh"
+    }
+}

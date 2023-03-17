@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/broadwellnk-4.4.59/mii.ko",
+            "sha256": "4273600efe53e6c20b0f21f495eefef8fa758b1395e0f5eba5ec8d59a2332150",
+            "packed": false
+        },
+        {
+            "name": "jme.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/broadwellnk-4.4.59/jme.ko",
+            "sha256": "eb22ebe33f181eba9cb276747142d37988e80bacf5ef0699ceb98f855256aeb8",
+            "packed": false
+        },
+        {
+            "name": "check-jme.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/broadwellnk-4.4.59/check-jme.sh",
+            "sha256": "6b70bfbac17b78183298ddafdac9480ab51b45d7901c59681072ac1c5f69abff",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "jme.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-jme.sh"
+    }
+}

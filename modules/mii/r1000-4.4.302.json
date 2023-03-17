@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/r1000-4.4.302/mii.ko",
+            "sha256": "6d1d5875a98afa07c998ff24aeb288652c6ba77d013f08f33bafe71e228943bf",
+            "packed": false
+        },
+        {
+            "name": "check-mii.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/r1000-4.4.302/check-mii.sh",
+            "sha256": "3c172adce5984094e281a5b39030ef2c5bb78034a5377b3c1deadd038037a33c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mii.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "r8168.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/broadwellnk-4.4.302/r8168.ko",
+            "sha256": "60a21e6d0056ba9a3b52bac037e52855ff5d94fc4cafd98c1c9b712be7696c45",
+            "packed": false
+        },
+        {
+            "name": "check-r8168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/broadwellnk-4.4.302/check-r8168.sh",
+            "sha256": "bb91f376d2d2e687e47d6ee7a90407678818f39a7b238e3fef9670b14007f0f5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8168.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8168.sh"
+    }
+}

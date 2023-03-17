@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/geminilake-4.4.302/softcursor.ko",
+            "sha256": "d9be5db8175e6a111553adbe3c1ccd1c9c3e96f194acdc28a41b98485ea861e9",
+            "packed": false
+        },
+        {
+            "name": "check-softcursor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/geminilake-4.4.302/check-softcursor.sh",
+            "sha256": "764b6a4307d05ea5909067546b2e9804738e0e38f40eb04d39e47fd70935488c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "softcursor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-softcursor.sh"
+    }
+}

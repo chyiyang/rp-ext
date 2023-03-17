@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cpufreq_ondemand.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/r1000-4.4.302/cpufreq_ondemand.ko",
+            "sha256": "bdd02a11b9c2592ce5227b43b5dac4ac13393163fa2c61d2625ded82374a2273",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_ondemand.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/r1000-4.4.302/check-cpufreq_ondemand.sh",
+            "sha256": "6cdb9623f12a60079097fadc58714845b80454df1362642df3baab873711cf30",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_ondemand.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_ondemand.sh"
+    }
+}

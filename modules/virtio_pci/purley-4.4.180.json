@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/purley-4.4.180/virtio_pci.ko",
+            "sha256": "a0976a0674d2eed89dc3497a4839e9afa5e81d768e5d2b0410a3e43748dec2b7",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/purley-4.4.180/check-virtio_pci.sh",
+            "sha256": "40d2420952755855b0d9f71b9a8e2de85176b04e3d185f7a0d70718b8c39a3d9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_pci.sh"
+    }
+}

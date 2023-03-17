@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "megaraid_mm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/purley-4.4.302/megaraid_mm.ko",
+            "sha256": "0319f82cba194cdfd4f1fd40e85b944a08abf3bd72bb9e190f71b6c19cb49b45",
+            "packed": false
+        },
+        {
+            "name": "check-megaraid_mm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mm/purley-4.4.302/check-megaraid_mm.sh",
+            "sha256": "6c6613a65e0465cec207b058cd9dae1a064d49b89ee91fa0caad5a9261a2a2c5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_mm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_mm.sh"
+    }
+}

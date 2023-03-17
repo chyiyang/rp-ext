@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/r1000-4.4.302/hwmon-vid.ko",
+            "sha256": "8fc714e39cd9ec03cffca6be7116355bd080beb23c26bed0f626a2da3e99833e",
+            "packed": false
+        },
+        {
+            "name": "it87.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/r1000-4.4.302/it87.ko",
+            "sha256": "a6005d4cfd584b6d59491db67dc39acb8b44b085219060bde65f980061489276",
+            "packed": false
+        },
+        {
+            "name": "check-it87.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/r1000-4.4.302/check-it87.sh",
+            "sha256": "1004a80d1d45346a0bacfa41f4610b3d30134a121bada97e0be2be1073c7c38b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "it87.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-it87.sh"
+    }
+}

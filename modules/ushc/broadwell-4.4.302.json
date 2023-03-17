@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/broadwell-4.4.302/mmc_core.ko",
+            "sha256": "2d5680038d240f51a335a8070fbd9e8be0f6ff19993f5ab869694d24b5448c1e",
+            "packed": false
+        },
+        {
+            "name": "ushc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/broadwell-4.4.302/ushc.ko",
+            "sha256": "792e4aba66e9182cff4a9a5958860139ccafa7b0578ed16e9db3ad2ef4601262",
+            "packed": false
+        },
+        {
+            "name": "check-ushc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/broadwell-4.4.302/check-ushc.sh",
+            "sha256": "df8943c799b85680c9286c825292b9b0ddc8b2552f0732ba30d896f30d9b3fb4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "ushc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ushc.sh"
+    }
+}

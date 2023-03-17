@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/apollolake-4.4.302/dvb-core.ko",
+            "sha256": "fb156c8452281bd0924e755d0f224ea048ae326e7a7bcb787177268ff7e991da",
+            "packed": false
+        },
+        {
+            "name": "check-dvb-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/apollolake-4.4.302/check-dvb-core.sh",
+            "sha256": "e4f53a32c44074e44e88f1811d25aaa054cca3b314004fa07fbcf8b3d799ae2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-core.sh"
+    }
+}

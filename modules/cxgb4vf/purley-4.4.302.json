@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cxgb4vf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/purley-4.4.302/cxgb4vf.ko",
+            "sha256": "4bd39a98b01b167d71613e60cef626391220af74dffa577eadb923bddf8f631f",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb4vf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/purley-4.4.302/check-cxgb4vf.sh",
+            "sha256": "0db2cf6824fd17ce2202deb305df782cb27dce9ef7f8f49a2f63e18877bd9d72",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb4vf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb4vf.sh"
+    }
+}

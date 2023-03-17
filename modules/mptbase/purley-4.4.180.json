@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/purley-4.4.180/mptbase.ko",
+            "sha256": "224eec0f6b39e85e9b072daf4078d506b41d330fdf9e630caac09b0149bab15d",
+            "packed": false
+        },
+        {
+            "name": "check-mptbase.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/purley-4.4.180/check-mptbase.sh",
+            "sha256": "63ed6ea5a888f9f5f4de108f242234a964e7839b2e4e8a7bb867faec6a154ec3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptbase.sh"
+    }
+}

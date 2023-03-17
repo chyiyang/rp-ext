@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/purley-4.4.180/mdio.ko",
+            "sha256": "9181e6e28cd920fd075ffef6d0037fc6671280d2b773621b344b709ef70fad0d",
+            "packed": false
+        },
+        {
+            "name": "alx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/purley-4.4.180/alx.ko",
+            "sha256": "1da531b6271ea1fc9b0b83a69fe085ad3dc212ac2d4cef9fdace4494ef17291f",
+            "packed": false
+        },
+        {
+            "name": "check-alx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/purley-4.4.180/check-alx.sh",
+            "sha256": "a4b215c493c0a804ce78f9b0a9db1abb2a0f0814ac579d42324323cebbe50b14",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "alx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-alx.sh"
+    }
+}

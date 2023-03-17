@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vmxnet3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/denverton-4.4.302/vmxnet3.ko",
+            "sha256": "3bac5c59134d7dc15d595ed6c7d100244c06f64cd63e7d8b27fbf02eebc3f0fb",
+            "packed": false
+        },
+        {
+            "name": "check-vmxnet3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/denverton-4.4.302/check-vmxnet3.sh",
+            "sha256": "ffa24196bcbcabcf150fe9decc495448aa88e96b8121a8017eebf6ce0c2ecfd5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vmxnet3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vmxnet3.sh"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/denverton-4.4.59/fb.ko",
+            "sha256": "f692c4d3fb36dd68ee2cd68efddecf6b75ab42c02669d86ca88ea4ad0443193e",
+            "packed": false
+        },
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/denverton-4.4.59/font.ko",
+            "sha256": "f7d1cfdc984418372c92f9dfa6cc0b77e392ca5442c3d35fcf91014c196c926c",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/denverton-4.4.59/bitblit.ko",
+            "sha256": "69469084754e3c7f96887af673fef4f9f42731521df39a484f5cfc0607f883f6",
+            "packed": false
+        },
+        {
+            "name": "fbcon.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/denverton-4.4.59/fbcon.ko",
+            "sha256": "ef484c9d98976c03d750fdaa6d6dd4cef289197704e21696c741c1d95e81875a",
+            "packed": false
+        },
+        {
+            "name": "check-fbcon.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/denverton-4.4.59/check-fbcon.sh",
+            "sha256": "6defb205e12ccc8f1cc937241f6e21d378d3cc387003a2b34a0c3b2153d573da",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "font.ko": "",
+        "bitblit.ko": "",
+        "fbcon.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fbcon.sh"
+    }
+}

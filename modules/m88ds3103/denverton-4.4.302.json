@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.302/dvb-core.ko",
+            "sha256": "7e8f74ac32263811d848f63c5d3b6fb47fe9603fced24536eb294a4b4440c7ae",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.302/m88ds3103.ko",
+            "sha256": "4edc02dcb1f341cabc652a4e9b3672b0d909f686aa296e7f35a7b02c702126c0",
+            "packed": false
+        },
+        {
+            "name": "check-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.302/check-m88ds3103.sh",
+            "sha256": "ff8a9b8ea9181629bff836fa27c7a1f32e71a920bf5586a0f8723231fb67141a",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.302/m88ds3103_firmware.tag.gz",
+            "sha256": "6ff91746660b8201b81e73660bc2b993b50d7349bd7b5c796ff50e379de4bd79",
+            "packed": false
+        },
+        {
+            "name": "install-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.302/install-m88ds3103.sh",
+            "sha256": "114a49d9e59e0382f8b53d74a9ab40e15509db0c57cf1a8ade48d08199a65652",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "m88ds3103.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-m88ds3103.sh",
+        "on_os_load": "install-m88ds3103.sh"
+    }
+}

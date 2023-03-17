@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "rc-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/purley-4.4.180/rc-core.ko",
+            "sha256": "2a99ad5d20e8dcca2e4687ed75cdb874ce0854847f77f564e3fa02d050749f7f",
+            "packed": false
+        },
+        {
+            "name": "check-rc-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/purley-4.4.180/check-rc-core.sh",
+            "sha256": "ad36a84f398935fb3ca9b147865c52387e98c302997adeb6d96a87d9ca870b48",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "rc-core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-rc-core.sh"
+    }
+}

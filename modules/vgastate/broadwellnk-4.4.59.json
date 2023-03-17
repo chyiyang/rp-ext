@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vgastate.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/broadwellnk-4.4.59/vgastate.ko",
+            "sha256": "137e7e60c5df2edb12db8323dee3ac39dbc4038e6497309bb84da5c0cf14974a",
+            "packed": false
+        },
+        {
+            "name": "check-vgastate.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/broadwellnk-4.4.59/check-vgastate.sh",
+            "sha256": "a89a3dc8087236516f5295d75516a08378467cf478370b6ae534384213f3adc2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vgastate.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vgastate.sh"
+    }
+}

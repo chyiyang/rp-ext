@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cpufreq_ondemand.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/purley-4.4.180/cpufreq_ondemand.ko",
+            "sha256": "5da98ed728d8429d6ad71803f3f063c9d998071eaa459cc8335cf42ba916ca2f",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_ondemand.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/purley-4.4.180/check-cpufreq_ondemand.sh",
+            "sha256": "6cdb9623f12a60079097fadc58714845b80454df1362642df3baab873711cf30",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_ondemand.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_ondemand.sh"
+    }
+}

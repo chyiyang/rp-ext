@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.59/libphy.ko",
+            "sha256": "fc2368a0097e33d57c4f17e03ab882f6b58adf0bc8854447e4a397efa56ea957",
+            "packed": false
+        },
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.59/tg3.ko",
+            "sha256": "51da7961db1f9cfeaaec2d6b544674c5c43a2591a6e856153b190ef96529d398",
+            "packed": false
+        },
+        {
+            "name": "check-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.59/check-tg3.sh",
+            "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
+            "packed": false
+        },
+        {
+            "name": "tg3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.59/tg3_firmware.tag.gz",
+            "sha256": "03b1da5658df58423e553f708f08675121ab16e3bcabf4df784a69ae7aa0f940",
+            "packed": false
+        },
+        {
+            "name": "install-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.59/install-tg3.sh",
+            "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "tg3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-tg3.sh",
+        "on_os_load": "install-tg3.sh"
+    }
+}

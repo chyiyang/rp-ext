@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/braswell-3.10.105/mptbase.ko",
+            "sha256": "460baff370cee4f7bfa149bf6273cd3dbbdca772c8b5ed0b9320c8783703faf4",
+            "packed": false
+        },
+        {
+            "name": "check-mptbase.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptbase/braswell-3.10.105/check-mptbase.sh",
+            "sha256": "63ed6ea5a888f9f5f4de108f242234a964e7839b2e4e8a7bb867faec6a154ec3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptbase.sh"
+    }
+}

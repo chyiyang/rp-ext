@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "thermal.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/denverton-4.4.59/thermal.ko",
+            "sha256": "2e35afb74b6866bd7dae9b6a8557b11afaf370096dbc04857515a493d4bce259",
+            "packed": false
+        },
+        {
+            "name": "check-thermal.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/denverton-4.4.59/check-thermal.sh",
+            "sha256": "27554357103fcc821c2fb064a04c7fe276f90b091e81e8cd73e277b150c6cac8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "thermal.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-thermal.sh"
+    }
+}

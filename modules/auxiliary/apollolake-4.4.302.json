@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/apollolake-4.4.302/auxiliary.ko",
+            "sha256": "baf1a94f7ba0f13ca5cca090de19e08ecd71b2ab87abc2c7be7b3093740b122f",
+            "packed": false
+        },
+        {
+            "name": "check-auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/apollolake-4.4.302/check-auxiliary.sh",
+            "sha256": "08ba59c9839cad5936353c73fd25f08d1b037330b1d96be8eeff634648327ab9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-auxiliary.sh"
+    }
+}

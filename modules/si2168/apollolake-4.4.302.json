@@ -1,0 +1,36 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "si2168.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/apollolake-4.4.302/si2168.ko",
+            "sha256": "351da240322663b6aaf7b766ee093b330823a992393a96ac4f0ba5689a146b0c",
+            "packed": false
+        },
+        {
+            "name": "check-si2168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/apollolake-4.4.302/check-si2168.sh",
+            "sha256": "22864991560196372ae3ac0b48a247f23c6e5815e744c170c7cce19b55b7cca0",
+            "packed": false
+        },
+        {
+            "name": "si2168_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/apollolake-4.4.302/si2168_firmware.tag.gz",
+            "sha256": "b31204b49fe6da285bcff400f95091d6bb4e62d729bd6c00a40edfc45606d62b",
+            "packed": false
+        },
+        {
+            "name": "install-si2168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/apollolake-4.4.302/install-si2168.sh",
+            "sha256": "e204981d60f442843516dd99b7f7e12c2bf4c8c27382b3b3555e534a70f35cc4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2168.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2168.sh",
+        "on_os_load": "install-si2168.sh"
+    }
+}

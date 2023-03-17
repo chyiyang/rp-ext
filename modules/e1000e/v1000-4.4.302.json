@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "e1000e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/v1000-4.4.302/e1000e.ko",
+            "sha256": "20a8633a086395e1fb0d14857448c21c63519ae996c4e6ee41783516a137f89a",
+            "packed": false
+        },
+        {
+            "name": "check-e1000e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/v1000-4.4.302/check-e1000e.sh",
+            "sha256": "a2fc006622f93c31d51837a7b8b870592bc7831b340248962d6778ede33792a4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "e1000e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-e1000e.sh"
+    }
+}

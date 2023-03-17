@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "atl1c.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/v1000-4.4.302/atl1c.ko",
+            "sha256": "849a8b0bfc18352072c3044905533c23afe51837b443e8cb1b3f099bf2a96f50",
+            "packed": false
+        },
+        {
+            "name": "check-atl1c.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/v1000-4.4.302/check-atl1c.sh",
+            "sha256": "e7307770c4b19a5a89a72685de892667edc87e38cb37694a9672f6e284230063",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atl1c.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atl1c.sh"
+    }
+}

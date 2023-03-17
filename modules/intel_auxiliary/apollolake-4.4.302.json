@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/apollolake-4.4.302/intel_auxiliary.ko",
+            "sha256": "9b571855362f98e1e1d8097bdf38b63a488081c0deb620076b478099bc001b1b",
+            "packed": false
+        },
+        {
+            "name": "check-intel_auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/apollolake-4.4.302/check-intel_auxiliary.sh",
+            "sha256": "340f4c6b97b0bfd51322b44dc3bd02ddf57f5245c8c0661e0598003dc3d9082d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-intel_auxiliary.sh"
+    }
+}

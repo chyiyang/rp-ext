@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "igb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/broadwell-4.4.302/igb.ko",
+            "sha256": "2cc223fb0a52e4a57ad455f52a33cc1c9449767a2b05a863d763ebc8c6b8b727",
+            "packed": false
+        },
+        {
+            "name": "check-igb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/broadwell-4.4.302/check-igb.sh",
+            "sha256": "1c4a88c3f5e404267f48ff289d97df0dcfb97c53aea9462cb701d8642e314319",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igb.sh"
+    }
+}

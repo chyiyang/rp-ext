@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "i8042.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/broadwell-3.10.105/i8042.ko",
+            "sha256": "0608ec66d8c93ac3d86bf6d6a6d60ccb2939ba8ecf76cd11597043728a44a8d1",
+            "packed": false
+        },
+        {
+            "name": "check-i8042.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/broadwell-3.10.105/check-i8042.sh",
+            "sha256": "bc4b1c866facfac5c4e2e7096fcddf865d4b61cce7ff33c4ca3ba8d7903bd8cc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i8042.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i8042.sh"
+    }
+}

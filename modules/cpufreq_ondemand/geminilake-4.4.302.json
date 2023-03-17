@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cpufreq_ondemand.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/geminilake-4.4.302/cpufreq_ondemand.ko",
+            "sha256": "7cc81834ec277aa29d4b9b93dcca3d189011693cf8a446cfb7b1ea68be47982b",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_ondemand.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_ondemand/geminilake-4.4.302/check-cpufreq_ondemand.sh",
+            "sha256": "6cdb9623f12a60079097fadc58714845b80454df1362642df3baab873711cf30",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_ondemand.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_ondemand.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "alx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/denverton-4.4.59/alx.ko",
+            "sha256": "772c7448b9f08e8294d4a85ac4092bce5a1720ecb03ba76566f5345ccfa1e406",
+            "packed": false
+        },
+        {
+            "name": "check-alx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/denverton-4.4.59/check-alx.sh",
+            "sha256": "e39ae61fd5c15d099decd8322987712fcc339ce0bd2bddebfedf71a325ecaff2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "alx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-alx.sh"
+    }
+}

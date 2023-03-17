@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cxgb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/broadwellnk-4.4.59/cxgb.ko",
+            "sha256": "89c2e6f967d2a4d618910faa88c02443a5c971bae65cdbd2d45af9c82a7b6cbd",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/broadwellnk-4.4.59/check-cxgb.sh",
+            "sha256": "1c90ad0de292e391684fd27b62f1ec330d7846cb21fef962b35c7b328e51e595",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb.sh"
+    }
+}

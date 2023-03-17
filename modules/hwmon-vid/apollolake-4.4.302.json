@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/apollolake-4.4.302/hwmon-vid.ko",
+            "sha256": "91ee7461553b143c3833f213c1484eb2f1475a4f783993f44c17803867d4ae97",
+            "packed": false
+        },
+        {
+            "name": "check-hwmon-vid.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/apollolake-4.4.302/check-hwmon-vid.sh",
+            "sha256": "dc1dfa3465691f8f7546bdd76605159f3f442b46b1d89576d582dc059bfa967f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hwmon-vid.sh"
+    }
+}

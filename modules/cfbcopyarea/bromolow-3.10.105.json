@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/bromolow-3.10.105/cfbcopyarea.ko",
+            "sha256": "7c0d8fa47ceae3c0cebe47aa59c5576d20d83953f58ce97193263a0db8c03293",
+            "packed": false
+        },
+        {
+            "name": "check-cfbcopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/bromolow-3.10.105/check-cfbcopyarea.sh",
+            "sha256": "c50aa3f95afa3bfa1f1f5e8b72b28a1e23d5b0d9e4bd334580350b1e1fe970d8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbcopyarea.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbcopyarea.sh"
+    }
+}

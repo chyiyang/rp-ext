@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "sysfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/denverton-4.4.59/sysfillrect.ko",
+            "sha256": "7deca76ec5909bf4b6bbe34b84d613d6a3ea7fe94a0a29b457f2d759417250ee",
+            "packed": false
+        },
+        {
+            "name": "check-sysfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/denverton-4.4.59/check-sysfillrect.sh",
+            "sha256": "16c3ac381db586a83f71f5f70acc563c9f4b5d35219c551c021ff63626d014cd",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysfillrect.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysfillrect.sh"
+    }
+}

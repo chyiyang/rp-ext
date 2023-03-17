@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "igb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/r1000-4.4.302/igb.ko",
+            "sha256": "4aa9280c86d6c9e82803b50f8023b42895af9673d34b5f8667cb9386605102a4",
+            "packed": false
+        },
+        {
+            "name": "check-igb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/r1000-4.4.302/check-igb.sh",
+            "sha256": "1c4a88c3f5e404267f48ff289d97df0dcfb97c53aea9462cb701d8642e314319",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igb.sh"
+    }
+}

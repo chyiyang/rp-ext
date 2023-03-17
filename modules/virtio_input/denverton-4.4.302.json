@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio.ko",
+            "sha256": "0442c882c136574b09a17a22535cc54057a8d2e1edda455450d7d9148b1bf2c7",
+            "packed": false
+        },
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio_ring.ko",
+            "sha256": "d0021ad7582adf73a0cfe12a49144417939977f124a67e26360f457d0bd96fa9",
+            "packed": false
+        },
+        {
+            "name": "virtio_input.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio_input.ko",
+            "sha256": "75f20ef07a6507e59c1bd73a6854117ab10b0818f205cae2dea2d580a3d0b365",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_input.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/check-virtio_input.sh",
+            "sha256": "f83496c28dfba446107625ddd7b4868d5cbbfe4bdb620641bc87c8c37bb015d7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_input.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_input.sh"
+    }
+}

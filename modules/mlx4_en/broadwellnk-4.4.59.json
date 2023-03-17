@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/broadwellnk-4.4.59/mlx4_core.ko",
+            "sha256": "19465e9b8e3ca47dbcac6d0788d494960af939183130f2730944606b40c10463",
+            "packed": false
+        },
+        {
+            "name": "mlx4_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/broadwellnk-4.4.59/mlx4_en.ko",
+            "sha256": "c78829daf24e34ce8e0b6252b875506a11b722df9cb5f0006d9e9f84a936bb84",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/broadwellnk-4.4.59/check-mlx4_en.sh",
+            "sha256": "6361d25afad0ea2e6fa3fe703113aafac3f3964689bdca30416147005e804925",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": "",
+        "mlx4_en.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_en.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/purley-4.4.302/hwmon-vid.ko",
+            "sha256": "4f2b8ab96b4396808c49f7c2daa3126db17aac266a06914d5519318502da6d50",
+            "packed": false
+        },
+        {
+            "name": "check-hwmon-vid.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/purley-4.4.302/check-hwmon-vid.sh",
+            "sha256": "dc1dfa3465691f8f7546bdd76605159f3f442b46b1d89576d582dc059bfa967f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hwmon-vid.sh"
+    }
+}

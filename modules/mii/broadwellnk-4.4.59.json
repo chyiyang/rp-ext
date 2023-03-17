@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/broadwellnk-4.4.59/mii.ko",
+            "sha256": "4273600efe53e6c20b0f21f495eefef8fa758b1395e0f5eba5ec8d59a2332150",
+            "packed": false
+        },
+        {
+            "name": "check-mii.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/broadwellnk-4.4.59/check-mii.sh",
+            "sha256": "3c172adce5984094e281a5b39030ef2c5bb78034a5377b3c1deadd038037a33c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mii.sh"
+    }
+}

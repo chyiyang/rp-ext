@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/denverton-4.4.302/libphy.ko",
+            "sha256": "9a51549e5b88425c3eae17f16bf0c7f3c93c98d88a6d8e5c4574de962432720b",
+            "packed": false
+        },
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/denverton-4.4.302/mii.ko",
+            "sha256": "2c47f125f92a92a00429c2f585f50150e8633ceb27fe2293b071fcbec8493545",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/denverton-4.4.302/b44.ko",
+            "sha256": "4dbcedd8c6ae25323b1f2379bf1122ccfff03137a9fcb3bfe54538c54f262569",
+            "packed": false
+        },
+        {
+            "name": "check-b44.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/denverton-4.4.302/check-b44.sh",
+            "sha256": "22c041d3a2421185130dac8a7332ec49091be831fe49df27f374e9e3a9b4dfd3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "mii.ko": "",
+        "b44.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-b44.sh"
+    }
+}

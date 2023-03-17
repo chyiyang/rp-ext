@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "video.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/broadwell-3.10.105/video.ko",
+            "sha256": "86eacb14efe1c53b9836d5852dd8abc0ced439c680a169afdf1e70f1fc17db23",
+            "packed": false
+        },
+        {
+            "name": "check-video.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/broadwell-3.10.105/check-video.sh",
+            "sha256": "b062fd7a54c84102e6d5d7c55f4e516928d738542f8aef19e81b66e5c0ec304b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "video.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-video.sh"
+    }
+}

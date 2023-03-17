@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/denverton-4.4.59/dvb-core.ko",
+            "sha256": "50ef2f5595a27f0914fab428a0529846ff6e9d53edbaa6346bc4e57872fb9268",
+            "packed": false
+        },
+        {
+            "name": "sp2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/denverton-4.4.59/sp2.ko",
+            "sha256": "51b7fd9b219e25cf1ff69b527a11b35f09546f756321d7e9f43cb820243895b6",
+            "packed": false
+        },
+        {
+            "name": "check-sp2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/denverton-4.4.59/check-sp2.sh",
+            "sha256": "09fd225efbfe2671ea0dd994fad801d4e8c018de90d7716ec36c8ca8e67ed010",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "sp2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sp2.sh"
+    }
+}

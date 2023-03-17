@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/denverton-4.4.302/fb.ko",
+            "sha256": "9ab5039ef84c56d9fb68548b0d81e17ef5ce95a227958fd6fde1ad76588ad261",
+            "packed": false
+        },
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/denverton-4.4.302/softcursor.ko",
+            "sha256": "c8d8032f49aa29206de07306c73345ef933fcba1af32583e1346a39343cf50af",
+            "packed": false
+        },
+        {
+            "name": "check-softcursor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/denverton-4.4.302/check-softcursor.sh",
+            "sha256": "3022eaa57a7ccca216d7f4f2f63861650e6a183ad2ee080c4d7de7ed5a4f62a6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "softcursor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-softcursor.sh"
+    }
+}

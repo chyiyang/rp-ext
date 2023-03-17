@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ixgbevf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/purley-4.4.180/ixgbevf.ko",
+            "sha256": "ad7b2fd6049943703e29b5b36c5465d35913bee7232091836280cc8a715b6552",
+            "packed": false
+        },
+        {
+            "name": "check-ixgbevf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/purley-4.4.180/check-ixgbevf.sh",
+            "sha256": "a8a5443603b575f28127041b9c8e916ee5ff90564c4bff89507a7cf9c7ae21a7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgbevf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgbevf.sh"
+    }
+}

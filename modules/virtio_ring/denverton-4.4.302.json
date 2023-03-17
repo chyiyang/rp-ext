@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/denverton-4.4.302/virtio_ring.ko",
+            "sha256": "d0021ad7582adf73a0cfe12a49144417939977f124a67e26360f457d0bd96fa9",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_ring.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/denverton-4.4.302/check-virtio_ring.sh",
+            "sha256": "f908b532cc1cec2216ca39369fec8bf7aab959478284995650bae26c53e9e113",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_ring.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_ring.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vmw_pvscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/apollolake-4.4.59/vmw_pvscsi.ko",
+            "sha256": "a13a9eea43657c66b56f809ef3cea8fcf064290dc8731261a29c4c3149734776",
+            "packed": false
+        },
+        {
+            "name": "check-vmw_pvscsi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/apollolake-4.4.59/check-vmw_pvscsi.sh",
+            "sha256": "852cec60cd99a2524b4985ea7c000a6654b9630520e3ae397b7acb1ade50409f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vmw_pvscsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vmw_pvscsi.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/apollolake-4.4.59/mmc_core.ko",
+            "sha256": "313d9b9bdda390e5f845442cc6729736fee2030576c5f063995602acd2bb4d64",
+            "packed": false
+        },
+        {
+            "name": "ushc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/apollolake-4.4.59/ushc.ko",
+            "sha256": "97bce2ea4a1a0b211f1f35f13baed6c585abb7b10007d914f2b65a64ae6de94a",
+            "packed": false
+        },
+        {
+            "name": "check-ushc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/apollolake-4.4.59/check-ushc.sh",
+            "sha256": "df8943c799b85680c9286c825292b9b0ddc8b2552f0732ba30d896f30d9b3fb4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "ushc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ushc.sh"
+    }
+}

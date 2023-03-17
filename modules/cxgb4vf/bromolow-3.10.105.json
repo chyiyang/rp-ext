@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cxgb4vf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/bromolow-3.10.105/cxgb4vf.ko",
+            "sha256": "933219e3b66fbe5556de70ace815a400a1e766a63c0a73a498e269807338cac1",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb4vf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4vf/bromolow-3.10.105/check-cxgb4vf.sh",
+            "sha256": "0db2cf6824fd17ce2202deb305df782cb27dce9ef7f8f49a2f63e18877bd9d72",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb4vf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb4vf.sh"
+    }
+}

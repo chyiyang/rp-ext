@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.59/font.ko",
+            "sha256": "c7215acd80b4b8a1a02d075ea7b4ca9ddbbb5095ca140739236419faa77ebe0e",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.59/bitblit.ko",
+            "sha256": "ce66910bbd6085d92131bf10e56aff17fc7a3d7222ca18a5a9a7f1e1a3995fcc",
+            "packed": false
+        },
+        {
+            "name": "fbcon.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.59/fbcon.ko",
+            "sha256": "c28bcef24bc5581835a4fd3d85408afb456127ed0cdea835303f75163c96c3ee",
+            "packed": false
+        },
+        {
+            "name": "check-fbcon.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.59/check-fbcon.sh",
+            "sha256": "6f9a6a99256b25c537bc7202f603e9ae1261c507370dc21e71a06b42113ad91e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "font.ko": "",
+        "bitblit.ko": "",
+        "fbcon.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fbcon.sh"
+    }
+}

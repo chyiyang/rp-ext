@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "atlantic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/purley-4.4.180/atlantic.ko",
+            "sha256": "fb235be552be2954a923eb5a6b833948422b6cd6ffdf0590152d9fed7822c1d7",
+            "packed": false
+        },
+        {
+            "name": "check-atlantic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/purley-4.4.180/check-atlantic.sh",
+            "sha256": "ff18bed51b50c402e1ec2aa26d7f54e870513b21d6e226f901bd9216d6fafe78",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atlantic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atlantic.sh"
+    }
+}

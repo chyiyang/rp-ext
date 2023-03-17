@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "alx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/v1000-4.4.302/alx.ko",
+            "sha256": "18326145406b99450f43c376bb291d99ec9498f320716c200f5552bfd66f7691",
+            "packed": false
+        },
+        {
+            "name": "check-alx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/v1000-4.4.302/check-alx.sh",
+            "sha256": "e39ae61fd5c15d099decd8322987712fcc339ce0bd2bddebfedf71a325ecaff2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "alx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-alx.sh"
+    }
+}

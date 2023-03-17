@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/apollolake-4.4.302/softcursor.ko",
+            "sha256": "2b465e4c2b4ec70b3207773ab14d6b034b752849902133c4c8c96976d07228d7",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/apollolake-4.4.302/bitblit.ko",
+            "sha256": "1e80a27157cd573031abc7f933993b817ec7aa1a4c743d58e857206ac75ca980",
+            "packed": false
+        },
+        {
+            "name": "check-bitblit.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/apollolake-4.4.302/check-bitblit.sh",
+            "sha256": "ebde6d58f31e146aa5a3111641f686efa4b4f237c218aed1d30b12b9b5298787",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "softcursor.ko": "",
+        "bitblit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bitblit.sh"
+    }
+}

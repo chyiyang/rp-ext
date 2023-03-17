@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cxgb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/bromolow-3.10.105/cxgb.ko",
+            "sha256": "f9e437585a819a0bf30f2f805a0e44356b93f85bba598e06ac3551e5ddde0ce5",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/bromolow-3.10.105/check-cxgb.sh",
+            "sha256": "1c90ad0de292e391684fd27b62f1ec330d7846cb21fef962b35c7b328e51e595",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cpufreq_governor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/purley-4.4.302/cpufreq_governor.ko",
+            "sha256": "9f5a292624e60239cc2fb17c07c789502d3cf2f92d7c2f808e13744bd3e4ad10",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_governor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/purley-4.4.302/check-cpufreq_governor.sh",
+            "sha256": "6826297513ee68f253a5bfce76ef862c3b950804823d70e8c59788e7c4a876db",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_governor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_governor.sh"
+    }
+}

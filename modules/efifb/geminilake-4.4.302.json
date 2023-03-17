@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "efifb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/geminilake-4.4.302/efifb.ko",
+            "sha256": "fb2acb0f7f577634cbe213eaa817f96d0dad3f3398ff3b95fc2d4f7fec80f1f2",
+            "packed": false
+        },
+        {
+            "name": "check-efifb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/geminilake-4.4.302/check-efifb.sh",
+            "sha256": "38eaf511b3353b5e332a747f7bf8c54053e5c9d6d8b7cd72a89977d210b79a03",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "efifb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-efifb.sh"
+    }
+}

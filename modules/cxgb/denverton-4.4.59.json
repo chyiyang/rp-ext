@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cxgb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/denverton-4.4.59/cxgb.ko",
+            "sha256": "fa0f9df8cf40af56373d11dade961a92640237bde7b71660dc3af3fca746fddb",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/denverton-4.4.59/check-cxgb.sh",
+            "sha256": "1c90ad0de292e391684fd27b62f1ec330d7846cb21fef962b35c7b328e51e595",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb.sh"
+    }
+}

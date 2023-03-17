@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "jc42.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jc42/apollolake-4.4.302/jc42.ko",
+            "sha256": "4de9bd59d66c06702febad96eee627df433d8b5d5dd255cdfd212e0ffe42fb06",
+            "packed": false
+        },
+        {
+            "name": "check-jc42.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jc42/apollolake-4.4.302/check-jc42.sh",
+            "sha256": "dd85d18ef39d400aea640e6459871292378ff1ad0216bc132d5732c6a51bb469",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "jc42.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-jc42.sh"
+    }
+}

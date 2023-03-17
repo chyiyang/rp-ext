@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/broadwell-4.4.302/libphy.ko",
+            "sha256": "8b8cca6b8a10e3d96bf9861066637712f15bdf95ed2baf950f4e16a4b69d1584",
+            "packed": false
+        },
+        {
+            "name": "check-libphy.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/broadwell-4.4.302/check-libphy.sh",
+            "sha256": "e0a7c579a63a41f7dce62df77c2a7f1878210ee2f739daa862285308c03600ee",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libphy.sh"
+    }
+}

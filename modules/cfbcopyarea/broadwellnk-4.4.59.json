@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/broadwellnk-4.4.59/cfbcopyarea.ko",
+            "sha256": "5d90762c300d04910d77308ce5310f3e448a8c547fca03759324df5e30172f78",
+            "packed": false
+        },
+        {
+            "name": "check-cfbcopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/broadwellnk-4.4.59/check-cfbcopyarea.sh",
+            "sha256": "c50aa3f95afa3bfa1f1f5e8b72b28a1e23d5b0d9e4bd334580350b1e1fe970d8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbcopyarea.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbcopyarea.sh"
+    }
+}

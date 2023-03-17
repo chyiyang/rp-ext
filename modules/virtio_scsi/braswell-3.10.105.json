@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/braswell-3.10.105/virtio.ko",
+            "sha256": "1749759adc1fd0b96ec0d90bbefbdb19e0785fef3c2dba5a68d10c9365df572b",
+            "packed": false
+        },
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/braswell-3.10.105/virtio_ring.ko",
+            "sha256": "20a40292415c68f98e5adef9c7ce0a5c8320b64b82daa7b62281a9c973acebc9",
+            "packed": false
+        },
+        {
+            "name": "virtio_scsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/braswell-3.10.105/virtio_scsi.ko",
+            "sha256": "ba229a0353f466d09b1da8934587e8496044cd8299907ce8f5dd0551c3c5d08b",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_scsi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/braswell-3.10.105/check-virtio_scsi.sh",
+            "sha256": "5b4c24e6f92a2377f6d992cff786b8918fe2931854a9a5b95ad1d0ee9b109f15",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_scsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_scsi.sh"
+    }
+}

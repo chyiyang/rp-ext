@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "scsi_transport_spi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/bromolow-3.10.105/scsi_transport_spi.ko",
+            "sha256": "79c5d203f7ce9fa1741ff2b391d13296ef66d835ac7281b4b4855acdaac8cc3f",
+            "packed": false
+        },
+        {
+            "name": "check-scsi_transport_spi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/bromolow-3.10.105/check-scsi_transport_spi.sh",
+            "sha256": "4653c27de9a84db6f07bdcfe8389efdae21baea245ab20ceff727200ae539879",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_spi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_spi.sh"
+    }
+}

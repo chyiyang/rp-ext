@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ixgbe.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/purley-4.4.180/ixgbe.ko",
+            "sha256": "f4641fa1eb1676a4aa7ceeb7ec18c8888d85296d7ab92f2c8ecf6f64d4f74598",
+            "packed": false
+        },
+        {
+            "name": "check-ixgbe.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/purley-4.4.180/check-ixgbe.sh",
+            "sha256": "68d8052404ec39e03a01e9284fec0430673b3ced0b5263ea708852b61ee63d9a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgbe.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgbe.sh"
+    }
+}

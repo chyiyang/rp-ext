@@ -1,0 +1,36 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "si2168.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/denverton-4.4.302/si2168.ko",
+            "sha256": "e4107ac2ac9885cbb1db3de65009c177a2ccedb3e8b7ad4d1d19181e3bac2528",
+            "packed": false
+        },
+        {
+            "name": "check-si2168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/denverton-4.4.302/check-si2168.sh",
+            "sha256": "22864991560196372ae3ac0b48a247f23c6e5815e744c170c7cce19b55b7cca0",
+            "packed": false
+        },
+        {
+            "name": "si2168_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/denverton-4.4.302/si2168_firmware.tag.gz",
+            "sha256": "1865da51f5ffe7a7ae898c0dcbc21910b7b161f2bc01c885bd5fe4711efa54e6",
+            "packed": false
+        },
+        {
+            "name": "install-si2168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/denverton-4.4.302/install-si2168.sh",
+            "sha256": "e204981d60f442843516dd99b7f7e12c2bf4c8c27382b3b3555e534a70f35cc4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2168.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2168.sh",
+        "on_os_load": "install-si2168.sh"
+    }
+}

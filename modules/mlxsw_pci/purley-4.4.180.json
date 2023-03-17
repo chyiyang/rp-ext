@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlxsw_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/purley-4.4.180/mlxsw_core.ko",
+            "sha256": "b99d700a4fb0f017c8b74ab8e1df4cd1973468f7e42883011c4a2529fcb376b1",
+            "packed": false
+        },
+        {
+            "name": "mlxsw_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/purley-4.4.180/mlxsw_pci.ko",
+            "sha256": "9d9b6f71879a5eb51322f39a371669b81e259e97143ca01281522a2e6f1630be",
+            "packed": false
+        },
+        {
+            "name": "check-mlxsw_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/purley-4.4.180/check-mlxsw_pci.sh",
+            "sha256": "bbad6cc70a92eeba8283578797e3155e5deedcb14858136de7523375328b2ce9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlxsw_core.ko": "",
+        "mlxsw_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlxsw_pci.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vesafb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/r1000-4.4.302/vesafb.ko",
+            "sha256": "b3b8dbb47514d50b5d22152e25bf521367f180ebdf82df19c90c56327dd6b91d",
+            "packed": false
+        },
+        {
+            "name": "check-vesafb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/r1000-4.4.302/check-vesafb.sh",
+            "sha256": "48af516ea72cc59726e6a3b1eb9805054005ac4deea0d1589d598db2aa1e6126",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vesafb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vesafb.sh"
+    }
+}

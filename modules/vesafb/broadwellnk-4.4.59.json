@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vesafb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/broadwellnk-4.4.59/vesafb.ko",
+            "sha256": "eb1df812abc3bffabeae0a01f35ad041106e173dfc74a078e6feb424844f3505",
+            "packed": false
+        },
+        {
+            "name": "check-vesafb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vesafb/broadwellnk-4.4.59/check-vesafb.sh",
+            "sha256": "48af516ea72cc59726e6a3b1eb9805054005ac4deea0d1589d598db2aa1e6126",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vesafb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vesafb.sh"
+    }
+}

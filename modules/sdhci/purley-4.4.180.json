@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/purley-4.4.180/mmc_core.ko",
+            "sha256": "cd98b13594061bf79f5c7a923d4986e86e0f82ee5ddd2ae6a826b505ca45ac96",
+            "packed": false
+        },
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/purley-4.4.180/sdhci.ko",
+            "sha256": "b827506353d2657cbf70f76d12ecd7bb2766a1d6540d9cd7b4e5ab372edf5db1",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/purley-4.4.180/check-sdhci.sh",
+            "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "sdhci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci.sh"
+    }
+}

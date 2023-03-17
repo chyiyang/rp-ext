@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/purley-4.4.180/auxiliary.ko",
+            "sha256": "19f6aa7c7ca06d854aee4ec7ee13e454e632b281711fad719936017a54a3e83d",
+            "packed": false
+        },
+        {
+            "name": "check-auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/purley-4.4.180/check-auxiliary.sh",
+            "sha256": "08ba59c9839cad5936353c73fd25f08d1b037330b1d96be8eeff634648327ab9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-auxiliary.sh"
+    }
+}

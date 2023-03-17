@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/purley-4.4.180/mmc_core.ko",
+            "sha256": "cd98b13594061bf79f5c7a923d4986e86e0f82ee5ddd2ae6a826b505ca45ac96",
+            "packed": false
+        },
+        {
+            "name": "vub300.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/purley-4.4.180/vub300.ko",
+            "sha256": "dae201de9047df169f3a8fea6adc0e78d9af7bd5f0dc954211b96acac1f2b52c",
+            "packed": false
+        },
+        {
+            "name": "check-vub300.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/purley-4.4.180/check-vub300.sh",
+            "sha256": "e1e98de619ef4e70ec723d5f4ac415010970656ddf6575258837c37377f371a5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "vub300.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vub300.sh"
+    }
+}

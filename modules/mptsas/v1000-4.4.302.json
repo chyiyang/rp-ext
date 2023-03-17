@@ -1,0 +1,44 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.302/mptscsih.ko",
+            "sha256": "3469a34677df75ef705d648def437198edcc8764d502dade48f96317f9dc223c",
+            "packed": false
+        },
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.302/mptbase.ko",
+            "sha256": "e66fe07865f5bbb9ea317565239a9023c736a6be88b22b154387d19f04490616",
+            "packed": false
+        },
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.302/scsi_transport_sas.ko",
+            "sha256": "c2d08d1cb1bb74824a56e3fde8036965d42c81a34fd810e6ade9304f89506e97",
+            "packed": false
+        },
+        {
+            "name": "mptsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.302/mptsas.ko",
+            "sha256": "c92a9a3cb69f09798552b02d5314117f9e4474b36111718730298537878001f3",
+            "packed": false
+        },
+        {
+            "name": "check-mptsas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.302/check-mptsas.sh",
+            "sha256": "adf9571262e64da53b8d83ffe40a58e6df0368a3cb62eb5f6465a668d60dfff9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptscsih.ko": "",
+        "mptbase.ko": "",
+        "scsi_transport_sas.ko": "",
+        "mptsas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptsas.sh"
+    }
+}

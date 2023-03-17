@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ixgbevf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/v1000-4.4.302/ixgbevf.ko",
+            "sha256": "e588e2513e0bf600a6344bfddd48e6179e44df6ddfa0f83c03a46c22298dff84",
+            "packed": false
+        },
+        {
+            "name": "check-ixgbevf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbevf/v1000-4.4.302/check-ixgbevf.sh",
+            "sha256": "a8a5443603b575f28127041b9c8e916ee5ff90564c4bff89507a7cf9c7ae21a7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgbevf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgbevf.sh"
+    }
+}

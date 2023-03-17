@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "thermal.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/broadwellnk-4.4.59/thermal.ko",
+            "sha256": "d80cb212a9f2b6adeb6d5dad28fe3827f031417fcae056436dc7d4a92a9515f2",
+            "packed": false
+        },
+        {
+            "name": "check-thermal.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/broadwellnk-4.4.59/check-thermal.sh",
+            "sha256": "27554357103fcc821c2fb064a04c7fe276f90b091e81e8cd73e277b150c6cac8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "thermal.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-thermal.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "scsi_transport_spi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/denverton-4.4.59/scsi_transport_spi.ko",
+            "sha256": "d335081a3bc41cdda7abd65063193ef8eb6d72b033242406642f882734154b07",
+            "packed": false
+        },
+        {
+            "name": "check-scsi_transport_spi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/denverton-4.4.59/check-scsi_transport_spi.sh",
+            "sha256": "4653c27de9a84db6f07bdcfe8389efdae21baea245ab20ceff727200ae539879",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_spi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_spi.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "thermal.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/braswell-3.10.105/thermal.ko",
+            "sha256": "d5ba8f76198793bccdd98c8e8c66691103203d07efbdb99b2f32bafa7e2bee2f",
+            "packed": false
+        },
+        {
+            "name": "check-thermal.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/braswell-3.10.105/check-thermal.sh",
+            "sha256": "27554357103fcc821c2fb064a04c7fe276f90b091e81e8cd73e277b150c6cac8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "thermal.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-thermal.sh"
+    }
+}

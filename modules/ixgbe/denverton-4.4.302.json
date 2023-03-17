@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ixgbe.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/denverton-4.4.302/ixgbe.ko",
+            "sha256": "0572eb3095daea6ae7d0aa8aaaa160b910ba96b4ef2399773b7a9076a46bf73a",
+            "packed": false
+        },
+        {
+            "name": "check-ixgbe.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/denverton-4.4.302/check-ixgbe.sh",
+            "sha256": "68d8052404ec39e03a01e9284fec0430673b3ced0b5263ea708852b61ee63d9a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgbe.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgbe.sh"
+    }
+}

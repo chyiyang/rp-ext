@@ -1,0 +1,64 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb_usb_v2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnk-4.4.59/dvb_usb_v2.ko",
+            "sha256": "8435aa68d20d3bc560d3da81db304a23ed933f0bc1e447c08d606a16d17db907",
+            "packed": false
+        },
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnk-4.4.59/dvb-core.ko",
+            "sha256": "6a08a67f15b42f2081216592a4dc0d2edcdde4ba69bd56218ea2fe81cf19b800",
+            "packed": false
+        },
+        {
+            "name": "rc-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnk-4.4.59/rc-core.ko",
+            "sha256": "29d55a27e7975d60f308fc957e5aa1cf33a6cca5ec8dcfec1f3511465fdca6a0",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnk-4.4.59/m88ds3103.ko",
+            "sha256": "5b56b8d5d0abc643de36512e25eb3d0adbf408ce6137eb87fa0ba91b536dc85d",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dvbsky.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnk-4.4.59/dvb-usb-dvbsky.ko",
+            "sha256": "433a2c931e7c730be551792af0d7475ff961632cfc273a76fcd00f10306d0422",
+            "packed": false
+        },
+        {
+            "name": "check-dvb-usb-dvbsky.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnk-4.4.59/check-dvb-usb-dvbsky.sh",
+            "sha256": "b251022128b8d4fbf488fa9c5fe4b87a6c918cf0280e3e4338ecaa6b2d9b32c3",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dvbsky_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnk-4.4.59/dvb-usb-dvbsky_firmware.tag.gz",
+            "sha256": "3be3b86ba02adf58d77769bc339879724858ae9b1e5a20451d71e21c169f925c",
+            "packed": false
+        },
+        {
+            "name": "install-dvb-usb-dvbsky.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnk-4.4.59/install-dvb-usb-dvbsky.sh",
+            "sha256": "1641d3b4fed829dd705a862a2e0a5c8b5d2c440217e9db85060e97c75af23fa0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb_usb_v2.ko": "",
+        "dvb-core.ko": "",
+        "rc-core.ko": "",
+        "m88ds3103.ko": "",
+        "dvb-usb-dvbsky.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-usb-dvbsky.sh",
+        "on_os_load": "install-dvb-usb-dvbsky.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "igc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/broadwell-4.4.302/igc.ko",
+            "sha256": "98ae178f5c4ee6a1bbdf96b058d2104a8bcd6c53e681223dbd58bd442671f6e7",
+            "packed": false
+        },
+        {
+            "name": "check-igc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igc/broadwell-4.4.302/check-igc.sh",
+            "sha256": "fd19316541e792dd5d033768708517247568cb548bdb1df371c71f7b2fe57cde",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igc.sh"
+    }
+}

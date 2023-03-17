@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/apollolake-4.4.302/mmc_core.ko",
+            "sha256": "f0e7ebb92274a474720d7bd0999168e8aa2cd842a324b1bb7fa972e18d7f0427",
+            "packed": false
+        },
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/apollolake-4.4.302/sdhci.ko",
+            "sha256": "779cc0554619f561025998991707ed0faa8b2124159ff6eade51a0beb2169dea",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/apollolake-4.4.302/check-sdhci.sh",
+            "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "sdhci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci.sh"
+    }
+}

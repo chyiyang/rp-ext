@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/apollolake-4.4.59/mdio.ko",
+            "sha256": "515d90231f61a816b629f1f915af6c57b4a497b3112e60f1faad46399dce4fef",
+            "packed": false
+        },
+        {
+            "name": "cxgb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/apollolake-4.4.59/cxgb.ko",
+            "sha256": "889bf42ed8bf507489c4e8d0a58825b402c6778de02ff683fce4e4f1e794e327",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/apollolake-4.4.59/check-cxgb.sh",
+            "sha256": "9943aedbaaf1e5194a758b510259c88662c94d5b073c4cdd96dc97e699028cb2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "cxgb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb.sh"
+    }
+}

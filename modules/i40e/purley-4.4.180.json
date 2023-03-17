@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/purley-4.4.180/intel_auxiliary.ko",
+            "sha256": "f051813bbc37589ac7585872988ba8802c1b88d1d924a2fc6db0b6633ae1f408",
+            "packed": false
+        },
+        {
+            "name": "i40e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/purley-4.4.180/i40e.ko",
+            "sha256": "3df854be018d9aeaaa84fc0c11530de175264b5794f8ea68baed2e6ce2a8d5fb",
+            "packed": false
+        },
+        {
+            "name": "check-i40e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/purley-4.4.180/check-i40e.sh",
+            "sha256": "95b60e623484ba6d9671bc6de51787bd0784d5b82c0f465f41323cd1f8b7301c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": "",
+        "i40e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i40e.sh"
+    }
+}

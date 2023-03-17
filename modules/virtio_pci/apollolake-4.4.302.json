@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/apollolake-4.4.302/virtio_pci.ko",
+            "sha256": "4fabf5b6aeac631bb3908cd7ba744ef00af5e417a81d11dd4009270bdad8be26",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/apollolake-4.4.302/check-virtio_pci.sh",
+            "sha256": "40d2420952755855b0d9f71b9a8e2de85176b04e3d185f7a0d70718b8c39a3d9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_pci.sh"
+    }
+}

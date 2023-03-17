@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/geminilake-4.4.302/mdio.ko",
+            "sha256": "0f40732ba36620821bd3ec4d651ae3308c2c26b9fc0c4ccaa9db857cdfc4aa72",
+            "packed": false
+        },
+        {
+            "name": "cxgb3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/geminilake-4.4.302/cxgb3.ko",
+            "sha256": "f532800667bd763ca8f5d59f54ea9dfae1114a0dc7c4fd5921e83aed0d739ed3",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/geminilake-4.4.302/check-cxgb3.sh",
+            "sha256": "027e543cf8b835b88abe7c6904ab386046c9a559aa977d6382009ce8e25fd260",
+            "packed": false
+        },
+        {
+            "name": "cxgb3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/geminilake-4.4.302/cxgb3_firmware.tag.gz",
+            "sha256": "c1db2962707ef653675b99c0cd30906b1afa131223b210fc219e3054ca2995bc",
+            "packed": false
+        },
+        {
+            "name": "install-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/geminilake-4.4.302/install-cxgb3.sh",
+            "sha256": "b8f7d4ca1a16e30f28298ab84f755b834c68dac29674a2b8a9b49ade6fc18893",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "cxgb3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb3.sh",
+        "on_os_load": "install-cxgb3.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mpt3sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/broadwell-3.10.105/mpt3sas.ko",
+            "sha256": "2c5376c7feeceb47be1d1328ef6e76d9a12baff7bb296742e9ca633bc9d56b79",
+            "packed": false
+        },
+        {
+            "name": "check-mpt3sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/broadwell-3.10.105/check-mpt3sas.sh",
+            "sha256": "b36795c7b1be9bc0b80d5d05d9d89f30f6346a691ff001517e7fa5c8be2944b5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mpt3sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mpt3sas.sh"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb_usb_v2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/purley-4.4.302/dvb_usb_v2.ko",
+            "sha256": "27bd43847e594829e248cad6e765aff2abe6a143b5811c788ae0cfe24f510829",
+            "packed": false
+        },
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/purley-4.4.302/dvb-core.ko",
+            "sha256": "ae922d5f62fb256b07724a6c183fa104287a4f76a4eeb69080e303987429089e",
+            "packed": false
+        },
+        {
+            "name": "rc-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/purley-4.4.302/rc-core.ko",
+            "sha256": "f57f40b8c88952e9c8c93456d964332466ed572969aeced214619fb4c2c39f87",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/purley-4.4.302/m88ds3103.ko",
+            "sha256": "86a1ab8a54e8fd384fcb3bd56dc1624d736892a1bb44b3970b44e09443c35542",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dvbsky.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/purley-4.4.302/dvb-usb-dvbsky.ko",
+            "sha256": "664b11709ddee0c1cdd776d8372e753921769e7f7e2073b09cb8584450a95f1c",
+            "packed": false
+        },
+        {
+            "name": "check-dvb-usb-dvbsky.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/purley-4.4.302/check-dvb-usb-dvbsky.sh",
+            "sha256": "b251022128b8d4fbf488fa9c5fe4b87a6c918cf0280e3e4338ecaa6b2d9b32c3",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dvbsky_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/purley-4.4.302/dvb-usb-dvbsky_firmware.tag.gz",
+            "sha256": "37c70c7e0fe95139fb2a9741f3d4f5627969e23ddee9b879f9906474b75fae7c",
+            "packed": false
+        },
+        {
+            "name": "install-dvb-usb-dvbsky.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/purley-4.4.302/install-dvb-usb-dvbsky.sh",
+            "sha256": "1641d3b4fed829dd705a862a2e0a5c8b5d2c440217e9db85060e97c75af23fa0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb_usb_v2.ko": "",
+        "dvb-core.ko": "",
+        "rc-core.ko": "",
+        "m88ds3103.ko": "",
+        "dvb-usb-dvbsky.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-usb-dvbsky.sh",
+        "on_os_load": "install-dvb-usb-dvbsky.sh"
+    }
+}

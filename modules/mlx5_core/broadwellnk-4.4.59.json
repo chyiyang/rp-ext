@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlx5_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwellnk-4.4.59/mlx5_core.ko",
+            "sha256": "d0fd581b832daa9936b0487a70d7ccf6e4897503ece81d14ab61dbe60a523022",
+            "packed": false
+        },
+        {
+            "name": "check-mlx5_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwellnk-4.4.59/check-mlx5_core.sh",
+            "sha256": "52b5812885e0973eb0854f7a47154d62a5d75a086c99c0843db04c2417620861",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx5_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx5_core.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/denverton-4.4.59/nct6775.ko",
+            "sha256": "8e6bd6ae74b94355644ca35d804a0cc0d261f5ef0c0f66824101e0a6bd681f6e",
+            "packed": false
+        },
+        {
+            "name": "check-nct6775.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/denverton-4.4.59/check-nct6775.sh",
+            "sha256": "574bfe8c85576c41b1eeba10801361f465b7da09e4538c837157cc1d491b1f88",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "nct6775.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nct6775.sh"
+    }
+}

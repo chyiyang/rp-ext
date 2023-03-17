@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mlxsw_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/broadwellnk-4.4.302/mlxsw_core.ko",
+            "sha256": "47af001b54dea5ddb0e730280390cdde9fecb2527f69e18d9da607a171db479d",
+            "packed": false
+        },
+        {
+            "name": "check-mlxsw_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/broadwellnk-4.4.302/check-mlxsw_core.sh",
+            "sha256": "e85abca39e52828fb041902093b46360b1417393b8a563e2e4dc0a5860d77c2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlxsw_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlxsw_core.sh"
+    }
+}

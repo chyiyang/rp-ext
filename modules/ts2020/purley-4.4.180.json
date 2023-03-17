@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ts2020.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/purley-4.4.180/ts2020.ko",
+            "sha256": "14769d53065b70a6150203052d96f16d8513a14a88d9ad5fbac6467ac0a1b1aa",
+            "packed": false
+        },
+        {
+            "name": "check-ts2020.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/purley-4.4.180/check-ts2020.sh",
+            "sha256": "2fd70948fe1bbf0399771c9cbab684455b4ae2b5f8f94bd534e6f20fda6677b8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ts2020.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ts2020.sh"
+    }
+}

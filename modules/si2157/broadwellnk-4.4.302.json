@@ -1,0 +1,36 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "si2157.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnk-4.4.302/si2157.ko",
+            "sha256": "dbab9729e465db825b5a995b064e68e2f081a44521ebbab9f0f4f949267d5328",
+            "packed": false
+        },
+        {
+            "name": "check-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnk-4.4.302/check-si2157.sh",
+            "sha256": "37f452b575b1c12ca6a7a2528328bc7af04450726df5cfcd244b73e8402c5261",
+            "packed": false
+        },
+        {
+            "name": "si2157_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnk-4.4.302/si2157_firmware.tag.gz",
+            "sha256": "9428a0601802de2a7fd6f6bdc3fa9fbda6b09323c88582f8fe08114504dffc9a",
+            "packed": false
+        },
+        {
+            "name": "install-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnk-4.4.302/install-si2157.sh",
+            "sha256": "6d494f475cd5de151fc775756abba4fcf16908f807cc507e78a3ab20fb04f11d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2157.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2157.sh",
+        "on_os_load": "install-si2157.sh"
+    }
+}

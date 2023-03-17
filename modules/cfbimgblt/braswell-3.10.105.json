@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/braswell-3.10.105/cfbimgblt.ko",
+            "sha256": "aaafa412ab86c4d90b6658f894c3cd2a2c97a55a50f1c81a49373151cbf44010",
+            "packed": false
+        },
+        {
+            "name": "check-cfbimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/braswell-3.10.105/check-cfbimgblt.sh",
+            "sha256": "57478f226b996ff5259eaa62bff2497ade7b9e6f5998dbbba9442b02ff0695ad",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbimgblt.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/braswell-3.10.105/fb.ko",
+            "sha256": "cfafa195210301ff944abb68a1a80d752db36a1f29aecd436fd29a7449d25659",
+            "packed": false
+        },
+        {
+            "name": "check-fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/braswell-3.10.105/check-fb.sh",
+            "sha256": "7c70443a8a1fb3a5c63752c7519faabeaa8b3da8df27b1c16b774b5f3796ab4e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fb.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/geminilake-4.4.302/hwmon-vid.ko",
+            "sha256": "66076addd41dc881c8d422e38bf39152de3f58f61c33628c787c813a3691bd46",
+            "packed": false
+        },
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/geminilake-4.4.302/nct6775.ko",
+            "sha256": "33878c2acc54a7018ff6306ddf20dabdd1a726dfe555558a4c5f36ba9cdb0eab",
+            "packed": false
+        },
+        {
+            "name": "check-nct6775.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/geminilake-4.4.302/check-nct6775.sh",
+            "sha256": "7a8d3d0ed329a66c22d05d8ba8535152ad1cff6de515edbf6b3ba0320c700f29",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "nct6775.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nct6775.sh"
+    }
+}

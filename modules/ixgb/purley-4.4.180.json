@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ixgb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgb/purley-4.4.180/ixgb.ko",
+            "sha256": "767083effc87a53ae01ef1716ea08ae10bc536c38d6560f87260f5cc3e572b5d",
+            "packed": false
+        },
+        {
+            "name": "check-ixgb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgb/purley-4.4.180/check-ixgb.sh",
+            "sha256": "8e1c370a1ce31f3215142e986082d63d24467949d284ecd888723f95633846f4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgb.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "sysimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/bromolow-3.10.105/sysimgblt.ko",
+            "sha256": "77540066969cc1ab0cc822162c0de8b09c2c3bb5271d538c26e2e961492abdad",
+            "packed": false
+        },
+        {
+            "name": "check-sysimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/bromolow-3.10.105/check-sysimgblt.sh",
+            "sha256": "6e434e9c2f70f49151c273adab3db1ae61fd5f47545f53a7ca760ca6fd282cc5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysimgblt.sh"
+    }
+}

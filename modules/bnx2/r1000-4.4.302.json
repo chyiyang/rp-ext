@@ -1,0 +1,36 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "bnx2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/r1000-4.4.302/bnx2.ko",
+            "sha256": "1ba1a62778e36eca5f1e12a06642c4a8a44a1d6ecbc62d2ed3279c87c6c4575a",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/r1000-4.4.302/check-bnx2.sh",
+            "sha256": "cca195ab1d7eeb36aa46bdc27162449a6540140fb5e5eb628571bf6dd079330e",
+            "packed": false
+        },
+        {
+            "name": "bnx2_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/r1000-4.4.302/bnx2_firmware.tag.gz",
+            "sha256": "20eadaa1b32031cb3c13cc5370a3687815a67d57f0a6e00dad6753ed16a0e4ac",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/r1000-4.4.302/install-bnx2.sh",
+            "sha256": "3ecece005015bedd95c4e9539407e686dcbe01588f4ad5a00ec77762cc61f63a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bnx2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2.sh",
+        "on_os_load": "install-bnx2.sh"
+    }
+}

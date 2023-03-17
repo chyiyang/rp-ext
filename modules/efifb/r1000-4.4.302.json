@@ -1,0 +1,51 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/r1000-4.4.302/cfbimgblt.ko",
+            "sha256": "33f67a1b0ea55f79e96d8d9a349f3b4ccd41799e10eb06f1560353fd09a0aaf5",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/r1000-4.4.302/cfbcopyarea.ko",
+            "sha256": "af1854c683a2c9fc032c255181d855fa6639935c9543a05fa40114f7ea72d1c1",
+            "packed": false
+        },
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/r1000-4.4.302/cfbfillrect.ko",
+            "sha256": "857e932a5c7a537e07b61d6e501048179f693a2066d3ecb37d0cfaf3645551b3",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/r1000-4.4.302/fb.ko",
+            "sha256": "54037395fc0374a273cc0178e909cba81a4551bc1eb92e4b90b09a546dc22100",
+            "packed": false
+        },
+        {
+            "name": "efifb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/r1000-4.4.302/efifb.ko",
+            "sha256": "ae64dea7a77b9a463c346d851ee77f601ded02280e9000a1c1a018ea691a6f4b",
+            "packed": false
+        },
+        {
+            "name": "check-efifb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/r1000-4.4.302/check-efifb.sh",
+            "sha256": "3c79b757f76602dd9faa98ec886039153624ddbbb0ed1260238a0761529b46f8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "cfbfillrect.ko": "",
+        "fb.ko": "",
+        "efifb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-efifb.sh"
+    }
+}

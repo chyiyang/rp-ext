@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "r8125.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/denverton-4.4.59/r8125.ko",
+            "sha256": "9bfb12917d6ec2937136a03e9bc382ed594d652565fca31f3ed3ad197c45ecb5",
+            "packed": false
+        },
+        {
+            "name": "check-r8125.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/denverton-4.4.59/check-r8125.sh",
+            "sha256": "ad839e66ac35297cda943230bc49b80e348b189faf1b728fbd7f4d08b8c97974",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8125.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8125.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "syscopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/braswell-3.10.105/syscopyarea.ko",
+            "sha256": "cc4fe8239e32c9d95d82ce6f8b830fccaa29ba164d147e23eda1a0b6fea79e07",
+            "packed": false
+        },
+        {
+            "name": "check-syscopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/braswell-3.10.105/check-syscopyarea.sh",
+            "sha256": "a5f708a2c29c0f9ff958ad432f221f8b3824f9f91f5d3564a18a204a94a86466",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "syscopyarea.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-syscopyarea.sh"
+    }
+}

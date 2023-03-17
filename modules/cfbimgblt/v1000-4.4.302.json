@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/v1000-4.4.302/cfbimgblt.ko",
+            "sha256": "33f67a1b0ea55f79e96d8d9a349f3b4ccd41799e10eb06f1560353fd09a0aaf5",
+            "packed": false
+        },
+        {
+            "name": "check-cfbimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbimgblt/v1000-4.4.302/check-cfbimgblt.sh",
+            "sha256": "57478f226b996ff5259eaa62bff2497ade7b9e6f5998dbbba9442b02ff0695ad",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbimgblt.sh"
+    }
+}

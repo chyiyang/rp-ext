@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio_mmio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/geminilake-4.4.302/virtio_mmio.ko",
+            "sha256": "97e9f8ebfce0b5042be9b6a71f82459dcc3ea530b8d148fc9c00742248981f10",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_mmio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/geminilake-4.4.302/check-virtio_mmio.sh",
+            "sha256": "fe666c966daadd6e3b0a26d88ff9a8aab42efba8977ecf47dee2832e2b5a7008",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_mmio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_mmio.sh"
+    }
+}

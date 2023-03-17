@@ -1,0 +1,37 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/purley-4.4.180/virtio.ko",
+            "sha256": "25a2ca4b871785f84e46d406513403f80cd14f89494b048de7bdd4118b387066",
+            "packed": false
+        },
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/purley-4.4.180/virtio_ring.ko",
+            "sha256": "d26a3d7fb93a1bfdb0d468de6582a471df688f856878cec73a576f0ce264495e",
+            "packed": false
+        },
+        {
+            "name": "virtio_net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/purley-4.4.180/virtio_net.ko",
+            "sha256": "74cb66ecb47e0b6de9e85718a895c1aaeec74a3683d698520abcfd846aa54995",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_net.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/purley-4.4.180/check-virtio_net.sh",
+            "sha256": "9ec892e6c3857de6019948cca232e2d23ea640a4e9bdedfd1cbbcfd1e52aedf0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
+        "virtio_net.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_net.sh"
+    }
+}

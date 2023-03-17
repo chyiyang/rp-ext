@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "atl1c.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/denverton-4.4.302/atl1c.ko",
+            "sha256": "e3a2f28a43a4cf4da20c2292fcce379f9395f01c632c2b71f094c78316bbeee5",
+            "packed": false
+        },
+        {
+            "name": "check-atl1c.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1c/denverton-4.4.302/check-atl1c.sh",
+            "sha256": "e7307770c4b19a5a89a72685de892667edc87e38cb37694a9672f6e284230063",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atl1c.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atl1c.sh"
+    }
+}

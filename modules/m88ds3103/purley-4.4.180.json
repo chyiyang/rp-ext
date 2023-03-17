@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.180/dvb-core.ko",
+            "sha256": "fd3fbb6c4fe6ad0d28ecd978dfca9451e1d5f8164001ac553a6e724e90573b2e",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.180/m88ds3103.ko",
+            "sha256": "1d2ab78a74947bf34db246cd58098703b8133bb99620e1b9b842b43ef8b9cab5",
+            "packed": false
+        },
+        {
+            "name": "check-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.180/check-m88ds3103.sh",
+            "sha256": "ff8a9b8ea9181629bff836fa27c7a1f32e71a920bf5586a0f8723231fb67141a",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.180/m88ds3103_firmware.tag.gz",
+            "sha256": "04f52904703ba9e48c27a3e2ab6e6d0200a5aea6adf466520a1d3891e462c58c",
+            "packed": false
+        },
+        {
+            "name": "install-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.180/install-m88ds3103.sh",
+            "sha256": "114a49d9e59e0382f8b53d74a9ab40e15509db0c57cf1a8ade48d08199a65652",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "m88ds3103.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-m88ds3103.sh",
+        "on_os_load": "install-m88ds3103.sh"
+    }
+}

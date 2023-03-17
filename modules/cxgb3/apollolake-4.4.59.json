@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.59/mdio.ko",
+            "sha256": "515d90231f61a816b629f1f915af6c57b4a497b3112e60f1faad46399dce4fef",
+            "packed": false
+        },
+        {
+            "name": "cxgb3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.59/cxgb3.ko",
+            "sha256": "f9fccc7ba78a09e027a73128b6c9c05f50d40ba7cf4b7f616aa12fa5f45d45cf",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.59/check-cxgb3.sh",
+            "sha256": "027e543cf8b835b88abe7c6904ab386046c9a559aa977d6382009ce8e25fd260",
+            "packed": false
+        },
+        {
+            "name": "cxgb3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.59/cxgb3_firmware.tag.gz",
+            "sha256": "1904f07bd7f0352b8f9ce97a314528937361124691e92c9c071f5c04cfa49baa",
+            "packed": false
+        },
+        {
+            "name": "install-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.59/install-cxgb3.sh",
+            "sha256": "b8f7d4ca1a16e30f28298ab84f755b834c68dac29674a2b8a9b49ade6fc18893",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "cxgb3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb3.sh",
+        "on_os_load": "install-cxgb3.sh"
+    }
+}

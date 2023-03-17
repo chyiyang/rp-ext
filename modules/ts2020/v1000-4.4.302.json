@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "ts2020.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/v1000-4.4.302/ts2020.ko",
+            "sha256": "ab500f09310b9e50260abc7c3f28017c37d6f325bd28f29a7f072aed60ca794e",
+            "packed": false
+        },
+        {
+            "name": "check-ts2020.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/v1000-4.4.302/check-ts2020.sh",
+            "sha256": "2fd70948fe1bbf0399771c9cbab684455b4ae2b5f8f94bd534e6f20fda6677b8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ts2020.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ts2020.sh"
+    }
+}

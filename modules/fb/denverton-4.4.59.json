@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/denverton-4.4.59/fb.ko",
+            "sha256": "f692c4d3fb36dd68ee2cd68efddecf6b75ab42c02669d86ca88ea4ad0443193e",
+            "packed": false
+        },
+        {
+            "name": "check-fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb/denverton-4.4.59/check-fb.sh",
+            "sha256": "7c70443a8a1fb3a5c63752c7519faabeaa8b3da8df27b1c16b774b5f3796ab4e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fb.sh"
+    }
+}

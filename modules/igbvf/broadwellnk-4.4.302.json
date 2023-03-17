@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "igbvf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/broadwellnk-4.4.302/igbvf.ko",
+            "sha256": "91f0cd3d830444ca2951f63bf392655c2438bfa485eb2dc079fa2369a833c0ac",
+            "packed": false
+        },
+        {
+            "name": "check-igbvf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/broadwellnk-4.4.302/check-igbvf.sh",
+            "sha256": "8b50ab19e33adb53893d3bb56c6cc16e4c9933439f4f123be38b6fdcbfe22748",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igbvf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igbvf.sh"
+    }
+}

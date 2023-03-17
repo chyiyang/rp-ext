@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "button.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/purley-4.4.180/button.ko",
+            "sha256": "8ae3e3042f27b8fac5e92e6bb07d18cd17a3439ef3db798756958679be1ca64c",
+            "packed": false
+        },
+        {
+            "name": "check-button.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/purley-4.4.180/check-button.sh",
+            "sha256": "14244275d85059b56446bc0ba7d1a46ea60f1f92b3b7ea53d154281ba3317e2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "button.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-button.sh"
+    }
+}

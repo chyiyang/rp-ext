@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "atlantic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/r1000-4.4.302/atlantic.ko",
+            "sha256": "30e46a8373c5f4d35c69f55c1b70efe4c42b83a45e2b422c9ca1b0dfb614344a",
+            "packed": false
+        },
+        {
+            "name": "check-atlantic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/r1000-4.4.302/check-atlantic.sh",
+            "sha256": "ff18bed51b50c402e1ec2aa26d7f54e870513b21d6e226f901bd9216d6fafe78",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atlantic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atlantic.sh"
+    }
+}

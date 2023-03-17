@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/bromolow-3.10.105/virtio_pci.ko",
+            "sha256": "8bcb6613a9d314d1876a4e0e22c9b8b70c74c533ec64811124a51b12ac58ed1c",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/bromolow-3.10.105/check-virtio_pci.sh",
+            "sha256": "40d2420952755855b0d9f71b9a8e2de85176b04e3d185f7a0d70718b8c39a3d9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_pci.sh"
+    }
+}

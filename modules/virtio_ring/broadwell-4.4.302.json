@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/broadwell-4.4.302/virtio_ring.ko",
+            "sha256": "30d7da1ca3c6f343996e34cd8f3d49ce318507757481be24b34cdc253b1b3f2e",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_ring.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/broadwell-4.4.302/check-virtio_ring.sh",
+            "sha256": "f908b532cc1cec2216ca39369fec8bf7aab959478284995650bae26c53e9e113",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_ring.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_ring.sh"
+    }
+}

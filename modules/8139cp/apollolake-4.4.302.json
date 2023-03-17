@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/apollolake-4.4.302/mii.ko",
+            "sha256": "858d78fce1625ba3a8f2cae50117a7bbc042ce86e8eb0b109209d6a3fb1807cf",
+            "packed": false
+        },
+        {
+            "name": "8139cp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/apollolake-4.4.302/8139cp.ko",
+            "sha256": "71e912eff87e119ad5538bddbb907fc8259f1c9b3f269b953d1524655607a043",
+            "packed": false
+        },
+        {
+            "name": "check-8139cp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/apollolake-4.4.302/check-8139cp.sh",
+            "sha256": "592c74f1557f0276c7b6a98410938b4b17af4f1fe5b03534b416f509bb4295c2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "8139cp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-8139cp.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cdc_ncm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/v1000-4.4.302/cdc_ncm.ko",
+            "sha256": "1437a0fca3f7b91e574e698a09a50f6f9db4a9f475395fa6118b67b1379838b9",
+            "packed": false
+        },
+        {
+            "name": "check-cdc_ncm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/v1000-4.4.302/check-cdc_ncm.sh",
+            "sha256": "5aa9e241fe601e29b86344ef49f874b8ba969597b8a50def4268475afe426ee8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cdc_ncm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cdc_ncm.sh"
+    }
+}

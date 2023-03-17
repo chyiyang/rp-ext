@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vgastate.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/vgastate.ko",
+            "sha256": "101f557c73994f68175206de9eed42eb7d59caebe754328056b85c96d3636324",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/vga16fb.ko",
+            "sha256": "c4ded1f1aa255e34973a3c9bed2a8ce7b056fd439a9c8a48439071932dd9ae5f",
+            "packed": false
+        },
+        {
+            "name": "check-vga16fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/check-vga16fb.sh",
+            "sha256": "2cb2c797b01e457b8ae219847ca939adfe97f74a02dab73dc05c76ae17ca6148",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vgastate.ko": "",
+        "vga16fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vga16fb.sh"
+    }
+}

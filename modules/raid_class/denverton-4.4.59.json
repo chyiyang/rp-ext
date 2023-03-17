@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "raid_class.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/denverton-4.4.59/raid_class.ko",
+            "sha256": "fcd66bfd7c1392769aacd1660c9fc236a4bc63975c77793719a7f24e1a1c4a6f",
+            "packed": false
+        },
+        {
+            "name": "check-raid_class.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/denverton-4.4.59/check-raid_class.sh",
+            "sha256": "274ddd31d73014e173b2f5d01a502ea55686f59adf1edc143661f7a078b36247",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "raid_class.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-raid_class.sh"
+    }
+}

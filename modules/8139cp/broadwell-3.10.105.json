@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/broadwell-3.10.105/mii.ko",
+            "sha256": "60c42eb04ddbbbe289d0ce988576913dc22c9c349050c36cfa0d5c63ca72c9df",
+            "packed": false
+        },
+        {
+            "name": "8139cp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/broadwell-3.10.105/8139cp.ko",
+            "sha256": "e2d6ac52926be7dfe2a9d39e398d8f8b47212384b7ec2f461a1fd4223c9c79d6",
+            "packed": false
+        },
+        {
+            "name": "check-8139cp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/broadwell-3.10.105/check-8139cp.sh",
+            "sha256": "592c74f1557f0276c7b6a98410938b4b17af4f1fe5b03534b416f509bb4295c2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "8139cp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-8139cp.sh"
+    }
+}

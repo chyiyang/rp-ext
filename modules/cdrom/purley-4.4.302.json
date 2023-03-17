@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cdrom.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/purley-4.4.302/cdrom.ko",
+            "sha256": "5c2b265d3d0f7685007701e7daab2dfda55d1ab53147af7fcd12018431bfb3ad",
+            "packed": false
+        },
+        {
+            "name": "check-cdrom.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/purley-4.4.302/check-cdrom.sh",
+            "sha256": "6873fe11968fd7299c24c5520c413224c3507fac49e100aafea81843acccb65e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cdrom.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cdrom.sh"
+    }
+}

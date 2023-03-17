@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/purley-4.4.302/hwmon-vid.ko",
+            "sha256": "4f2b8ab96b4396808c49f7c2daa3126db17aac266a06914d5519318502da6d50",
+            "packed": false
+        },
+        {
+            "name": "it87.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/purley-4.4.302/it87.ko",
+            "sha256": "4aac2fdb05f7ce49009dd736d40112820b8d5a088759905cacb20938f03e669a",
+            "packed": false
+        },
+        {
+            "name": "check-it87.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/purley-4.4.302/check-it87.sh",
+            "sha256": "1004a80d1d45346a0bacfa41f4610b3d30134a121bada97e0be2be1073c7c38b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "it87.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-it87.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/braswell-3.10.105/nct6775.ko",
+            "sha256": "d73e7ca69c9d8e41d688ec9d008670d1c7aded45ffbcdd167c0aa75cdf7dd748",
+            "packed": false
+        },
+        {
+            "name": "check-nct6775.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/braswell-3.10.105/check-nct6775.sh",
+            "sha256": "574bfe8c85576c41b1eeba10801361f465b7da09e4538c837157cc1d491b1f88",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "nct6775.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nct6775.sh"
+    }
+}

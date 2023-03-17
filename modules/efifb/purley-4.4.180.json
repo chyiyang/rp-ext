@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "efifb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.180/efifb.ko",
+            "sha256": "1ac1e306df77ce6b71095c17c8b9fb6ce4d6b3b01ee15039fab1531d0e52673d",
+            "packed": false
+        },
+        {
+            "name": "check-efifb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.180/check-efifb.sh",
+            "sha256": "38eaf511b3353b5e332a747f7bf8c54053e5c9d6d8b7cd72a89977d210b79a03",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "efifb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-efifb.sh"
+    }
+}

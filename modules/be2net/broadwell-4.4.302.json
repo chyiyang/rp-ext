@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "be2net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/broadwell-4.4.302/be2net.ko",
+            "sha256": "ab792967a1a1253fd2895cbe61b0ba0b87b496c3672c071d8d5e2f945a7c3bf7",
+            "packed": false
+        },
+        {
+            "name": "check-be2net.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/broadwell-4.4.302/check-be2net.sh",
+            "sha256": "f819a067c8d382088eedd35569aa1d9808ca89c8717dde9f4ae22e9bc9806e89",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "be2net.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-be2net.sh"
+    }
+}

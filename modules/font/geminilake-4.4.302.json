@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/geminilake-4.4.302/font.ko",
+            "sha256": "45f25c12634003a9fd13ed0d02ae27f5565688e208f69658a5e32503eb661b5f",
+            "packed": false
+        },
+        {
+            "name": "check-font.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/geminilake-4.4.302/check-font.sh",
+            "sha256": "90487a747cba1cf9414dad04b1ed34a0ecdfbe7604be0603d9e99f68579ba66d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "font.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-font.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vgastate.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/apollolake-4.4.302/vgastate.ko",
+            "sha256": "19e99d77b5bc52f76f8bf3495c2506a5d6739ef4dbe257c0627858ca818ba2a3",
+            "packed": false
+        },
+        {
+            "name": "vga16fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/apollolake-4.4.302/vga16fb.ko",
+            "sha256": "2bd4064b1dc6afef51fe0c24dc2c173eeab1c1decd49b063abc835985c30c013",
+            "packed": false
+        },
+        {
+            "name": "check-vga16fb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/apollolake-4.4.302/check-vga16fb.sh",
+            "sha256": "2cb2c797b01e457b8ae219847ca939adfe97f74a02dab73dc05c76ae17ca6148",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vgastate.ko": "",
+        "vga16fb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vga16fb.sh"
+    }
+}

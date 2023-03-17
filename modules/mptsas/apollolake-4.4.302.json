@@ -1,0 +1,44 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/apollolake-4.4.302/mptscsih.ko",
+            "sha256": "bb094fce8ea0f4092778f0240a739492591698b37bf9b179668853adbd7cc9a6",
+            "packed": false
+        },
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/apollolake-4.4.302/mptbase.ko",
+            "sha256": "6448582288ec417d205d28d51ae42cc9d0e2e0d0f806177e1b3c32cbbbdf5b85",
+            "packed": false
+        },
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/apollolake-4.4.302/scsi_transport_sas.ko",
+            "sha256": "099a2b85abcdc351d5ff3ab41a0f6fc38a91232f460d3f842158d6fe65c9162f",
+            "packed": false
+        },
+        {
+            "name": "mptsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/apollolake-4.4.302/mptsas.ko",
+            "sha256": "2f8218405790e03d4f94cc185fcea02768a5040a51d035232585ab69c7a7bcc5",
+            "packed": false
+        },
+        {
+            "name": "check-mptsas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/apollolake-4.4.302/check-mptsas.sh",
+            "sha256": "adf9571262e64da53b8d83ffe40a58e6df0368a3cb62eb5f6465a668d60dfff9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptscsih.ko": "",
+        "mptbase.ko": "",
+        "scsi_transport_sas.ko": "",
+        "mptsas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptsas.sh"
+    }
+}

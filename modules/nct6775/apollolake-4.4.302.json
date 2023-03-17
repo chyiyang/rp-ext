@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/apollolake-4.4.302/hwmon-vid.ko",
+            "sha256": "91ee7461553b143c3833f213c1484eb2f1475a4f783993f44c17803867d4ae97",
+            "packed": false
+        },
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/apollolake-4.4.302/nct6775.ko",
+            "sha256": "9975acd3656b738dd7292a4cbec40b928ffa2111f37324196abae4f9903e4b40",
+            "packed": false
+        },
+        {
+            "name": "check-nct6775.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/apollolake-4.4.302/check-nct6775.sh",
+            "sha256": "7a8d3d0ed329a66c22d05d8ba8535152ad1cff6de515edbf6b3ba0320c700f29",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "nct6775.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nct6775.sh"
+    }
+}

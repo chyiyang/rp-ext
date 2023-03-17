@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.302/libphy.ko",
+            "sha256": "2f5e9985dca9469b800a7fe6486371c345e895048ea05bc62f33a2939781c73e",
+            "packed": false
+        },
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.302/tg3.ko",
+            "sha256": "9c3e6e8a4f1a60fdad400467970c1e1805e7fdd7ca52e75cd56029e7486a1959",
+            "packed": false
+        },
+        {
+            "name": "check-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.302/check-tg3.sh",
+            "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
+            "packed": false
+        },
+        {
+            "name": "tg3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.302/tg3_firmware.tag.gz",
+            "sha256": "489482c4e380e9618d50c8ef745c7896fcec001dd059c5026ef2280217457c92",
+            "packed": false
+        },
+        {
+            "name": "install-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.302/install-tg3.sh",
+            "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "tg3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-tg3.sh",
+        "on_os_load": "install-tg3.sh"
+    }
+}

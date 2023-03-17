@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/denverton-4.4.59/intel_auxiliary.ko",
+            "sha256": "6dffed6cbb6750b5687e5bdee7d18fcd437f8f109c2025586082190c8fa5308f",
+            "packed": false
+        },
+        {
+            "name": "i40e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/denverton-4.4.59/i40e.ko",
+            "sha256": "547fc01d1cb967a6bbe5d09eafb5c1e7010fa4e8b0e7ef33063a7167eea16a2b",
+            "packed": false
+        },
+        {
+            "name": "check-i40e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/denverton-4.4.59/check-i40e.sh",
+            "sha256": "95b60e623484ba6d9671bc6de51787bd0784d5b82c0f465f41323cd1f8b7301c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": "",
+        "i40e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i40e.sh"
+    }
+}

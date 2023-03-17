@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/denverton-4.4.302/cfbfillrect.ko",
+            "sha256": "245193db00d94a02bc082e0d9b6c3f7679fb8a38a8cee4b3ee18e35ea46f0cbd",
+            "packed": false
+        },
+        {
+            "name": "check-cfbfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/denverton-4.4.302/check-cfbfillrect.sh",
+            "sha256": "0b86d41adb7c23bbecee633781eafeff50852acc9c1652c2c643a0c910c97cdf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbfillrect.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbfillrect.sh"
+    }
+}

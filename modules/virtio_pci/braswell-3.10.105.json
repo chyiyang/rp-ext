@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "virtio_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/braswell-3.10.105/virtio_pci.ko",
+            "sha256": "2487b65b3e06daefe3cc726447f54f2a8b1f66fd3c133a66a7fd74d7a4aec1d4",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/braswell-3.10.105/check-virtio_pci.sh",
+            "sha256": "40d2420952755855b0d9f71b9a8e2de85176b04e3d185f7a0d70718b8c39a3d9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_pci.sh"
+    }
+}

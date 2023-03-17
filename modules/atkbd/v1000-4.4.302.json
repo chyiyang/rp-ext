@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "atkbd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/v1000-4.4.302/atkbd.ko",
+            "sha256": "eb0db40278ca499f195de82f8105129956023ce4f58c22b463d6f637fb1df0be",
+            "packed": false
+        },
+        {
+            "name": "check-atkbd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/v1000-4.4.302/check-atkbd.sh",
+            "sha256": "92dee4fcf899033fd10ad3a714b522524e68775b71a16e6174c91d3ad5747207",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atkbd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atkbd.sh"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellnk-4.4.302/libphy.ko",
+            "sha256": "8b8cca6b8a10e3d96bf9861066637712f15bdf95ed2baf950f4e16a4b69d1584",
+            "packed": false
+        },
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellnk-4.4.302/tg3.ko",
+            "sha256": "8cbd76b6fdaa3e6ccfadc3b468a8d5713de7391c91bf9a713a8f965e79804f97",
+            "packed": false
+        },
+        {
+            "name": "check-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellnk-4.4.302/check-tg3.sh",
+            "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
+            "packed": false
+        },
+        {
+            "name": "tg3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellnk-4.4.302/tg3_firmware.tag.gz",
+            "sha256": "e5655f109bbef0c85ab504cccb3b2ce02d49b41253d7520ed07a23caa5e35075",
+            "packed": false
+        },
+        {
+            "name": "install-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellnk-4.4.302/install-tg3.sh",
+            "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "tg3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-tg3.sh",
+        "on_os_load": "install-tg3.sh"
+    }
+}

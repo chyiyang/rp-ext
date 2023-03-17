@@ -1,0 +1,44 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.302/mptscsih.ko",
+            "sha256": "2a84ecde9b1f7f1e92ff411aa207c71b6bb54a1a01900c8c3f2828b68d4e3c4d",
+            "packed": false
+        },
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.302/mptbase.ko",
+            "sha256": "bfda7c7059515b745d746836e5c4e8f281cd17b4ed0fedf7d1ddc62767ff289e",
+            "packed": false
+        },
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.302/scsi_transport_sas.ko",
+            "sha256": "967a913724db8a3fb93f4c5b29725d8739dc4875ad2a510e037cf76cac290e14",
+            "packed": false
+        },
+        {
+            "name": "mptsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.302/mptsas.ko",
+            "sha256": "38295c51ab49a972fbdc40930996e9b0ee1e8b7a1e930df2a4258e641f0cf050",
+            "packed": false
+        },
+        {
+            "name": "check-mptsas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.302/check-mptsas.sh",
+            "sha256": "adf9571262e64da53b8d83ffe40a58e6df0368a3cb62eb5f6465a668d60dfff9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptscsih.ko": "",
+        "mptbase.ko": "",
+        "scsi_transport_sas.ko": "",
+        "mptsas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptsas.sh"
+    }
+}

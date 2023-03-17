@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "vmxnet3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/apollolake-4.4.302/vmxnet3.ko",
+            "sha256": "97d139c4742dc2ebbdcbc1d1bdcbb67626fce41490b03b9088e4cf5d983b19d0",
+            "packed": false
+        },
+        {
+            "name": "check-vmxnet3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/apollolake-4.4.302/check-vmxnet3.sh",
+            "sha256": "ffa24196bcbcabcf150fe9decc495448aa88e96b8121a8017eebf6ce0c2ecfd5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vmxnet3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vmxnet3.sh"
+    }
+}

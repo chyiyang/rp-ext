@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "fb_sys_fops.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/broadwellnk-4.4.59/fb_sys_fops.ko",
+            "sha256": "cb05c9ea1d35b4c346d7f67b718738a872110b22955291667f50a47dad3ba021",
+            "packed": false
+        },
+        {
+            "name": "check-fb_sys_fops.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/broadwellnk-4.4.59/check-fb_sys_fops.sh",
+            "sha256": "21554be458e04a9ae791de487bfdb8f9a42e62597cc0657e637ceb6bc8fa3a1b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb_sys_fops.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fb_sys_fops.sh"
+    }
+}

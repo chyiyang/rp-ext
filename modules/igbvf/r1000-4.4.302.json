@@ -1,0 +1,23 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "igbvf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/r1000-4.4.302/igbvf.ko",
+            "sha256": "c4348ee45a4a3d616f92108b0f8a840cb3ac582081c59bdda7698bf6f92362bc",
+            "packed": false
+        },
+        {
+            "name": "check-igbvf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igbvf/r1000-4.4.302/check-igbvf.sh",
+            "sha256": "8b50ab19e33adb53893d3bb56c6cc16e4c9933439f4f123be38b6fdcbfe22748",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igbvf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igbvf.sh"
+    }
+}

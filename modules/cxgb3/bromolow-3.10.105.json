@@ -1,0 +1,36 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "cxgb3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.105/cxgb3.ko",
+            "sha256": "40aaa89cd8e8450a2c58a50bb679da4eb27e5304c4c6b6c051aaaf4619bab373",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.105/check-cxgb3.sh",
+            "sha256": "f701cea7da479fa7017043e49ad36efc4c1e4cbe80b7de25536cd5025026964a",
+            "packed": false
+        },
+        {
+            "name": "cxgb3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.105/cxgb3_firmware.tag.gz",
+            "sha256": "20f19f75233bec4138ee3e238f4849386356001bd4d2b6896d162a679fb0a7bb",
+            "packed": false
+        },
+        {
+            "name": "install-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.105/install-cxgb3.sh",
+            "sha256": "b8f7d4ca1a16e30f28298ab84f755b834c68dac29674a2b8a9b49ade6fc18893",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cxgb3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb3.sh",
+        "on_os_load": "install-cxgb3.sh"
+    }
+}

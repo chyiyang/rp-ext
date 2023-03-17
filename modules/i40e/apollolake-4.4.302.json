@@ -1,0 +1,30 @@
+{
+    "mod_version": "v1.68",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/apollolake-4.4.302/intel_auxiliary.ko",
+            "sha256": "9b571855362f98e1e1d8097bdf38b63a488081c0deb620076b478099bc001b1b",
+            "packed": false
+        },
+        {
+            "name": "i40e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/apollolake-4.4.302/i40e.ko",
+            "sha256": "a16de3300120bb17bdbd3d98868efc2dbbfe6200ccffcf27fc1ddc9ba61e1a1f",
+            "packed": false
+        },
+        {
+            "name": "check-i40e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/apollolake-4.4.302/check-i40e.sh",
+            "sha256": "95b60e623484ba6d9671bc6de51787bd0784d5b82c0f465f41323cd1f8b7301c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": "",
+        "i40e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i40e.sh"
+    }
+}
