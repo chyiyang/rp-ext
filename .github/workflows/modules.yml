@@ -11,7 +11,11 @@ on:
   #schedule:
   #  - cron: '0 0 * * *'
   workflow_dispatch:
-
+    inputs:
+      arpl: 
+        description: 'update from arpl'
+        default: false
+        type: boolean
 jobs:
   modules:
     runs-on: ubuntu-latest
@@ -29,16 +33,14 @@ jobs:
           pip install kmodule
 
       - name: Checkout arpl-modules
+        if: inputs.arpl == true
         run: |
-          sudo rm -rf modules 
           sudo rm -rf arpl-modules
           git clone https://github.com/fbelavenuto/arpl-modules.git arpl-modules
 
           MODULESTAG=`curl -skL https://api.github.com/repos/fbelavenuto/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
           echo "MODULESTAG=${MODULESTAG}" >> $GITHUB_ENV
 
-      - name: make modulesplatforms
-        run: |
           for i in `ls arpl-modules | grep ".*-.*"`
           do
             if [ -d "arpl-modules/${i}" ]; then
@@ -46,6 +48,11 @@ jobs:
               mv arpl-modules/${i} modulesplatforms/${i}
             fi
           done
+          if [ -d "arpl-modules/firmware" ]; then
+            [ -d "modulesplatforms/firmware" ] && rm -rf "modulesplatforms/firmware"
+            mv arpl-modules/firmware modulesplatforms/firmware
+          fi
+
           sudo rm -rf arpl-modules
 
       - name: check modulesplatforms
@@ -102,6 +109,21 @@ jobs:
                   with open(os.path.join(root, 'modulesplatforms.json'), 'w', encoding='utf-8') as f:
                       f.write(json.dumps(modulesplatforms, indent=4))
 
+      - name: tar modulesplatforms
+        run: |
+          for D in `ls -d ${{ github.workspace }}/modulesplatforms/*-*/`; do
+            [ -f "${D::-1}.tgz" ] && rm -f "${D::-1}.tgz"
+            tar caf "${D::-1}.tgz" -C "${D}" .
+          done
+
+          D="${{ github.workspace }}/modulesplatforms/firmware/"
+          [ -f "${D::-1}.tgz" ] && rm -f "${D::-1}.tgz"
+          tar caf "${D::-1}.tgz" -C "${D}" .
+
+      - name: rm modules
+        run: |
+          sudo rm -rf modules 
+
       - name: make modules
         shell: python
         run: |
@@ -115,25 +137,25 @@ jobs:
 
           if __name__ == '__main__':
               #try:
-                  platformDirs = os.listdir(os.path.join(root, 'arpl-modules'))
+                  platformDirs = os.listdir(os.path.join(root, 'modulesplatforms'))
                   platformDirs.sort()
                   for platformDir in platformDirs:
                       if platformDir.startswith('.') or '-' not in platformDir:
                           continue
-                      if os.path.isfile(os.path.join(root, 'arpl-modules', platformDir)):
+                      if os.path.isfile(os.path.join(root, 'modulesplatforms', platformDir)):
                           continue
                       platform = platformDir.split('-')[0]
                       version = platformDir.split('-')[1]
-                      modules = os.listdir(os.path.join(root, 'arpl-modules', platformDir))
+                      modules = os.listdir(os.path.join(root, 'modulesplatforms', platformDir))
                       modules.sort()
                       for module in modules:
                           if module.startswith('.') or '.ko' not in module:
                               continue
-                          if os.path.isdir(os.path.join(root, 'arpl-modules', platformDir, module)):
+                          if os.path.isdir(os.path.join(root, 'modulesplatforms', platformDir, module)):
                               continue
                           #(
                           #    {
-                          #        'filename': '/arpl-modules/apollolake-4.4.180/virtio_input.ko', 
+                          #        'filename': '/modulesplatforms/apollolake-4.4.180/virtio_input.ko', 
                           #        'author': 'Gerd Hoffmann <kraxel@redhat.com>', 
                           #        'description': 'Virtio input device driver', 
                           #        'license': 'GPL', 
@@ -143,7 +165,7 @@ jobs:
                           #        'alias': ('virtio:d00000012v*',)
                           #    },
                           #)
-                          info = kmodule.modinfo(os.path.join(root, 'arpl-modules', platformDir, module))[0]
+                          info = kmodule.modinfo(os.path.join(root, 'modulesplatforms', platformDir, module))[0]
                           info['filename'] = module[:-3]    # module.replace('.ko', '')
                           if 'description' not in info.keys(): info['description'] = ''
 
@@ -159,14 +181,14 @@ jobs:
                           os.makedirs(os.path.join(root, baseDir, info['filename'], platformDir), exist_ok=True)
 
                           for k in kolist:
-                              if not os.path.exists(os.path.join(root, 'arpl-modules', platformDir, k)): continue
-                              kinfo = kmodule.modinfo(os.path.join(root, 'arpl-modules', platformDir, k))[0]
+                              if not os.path.exists(os.path.join(root, 'modulesplatforms', platformDir, k)): continue
+                              kinfo = kmodule.modinfo(os.path.join(root, 'modulesplatforms', platformDir, k))[0]
                               if "firmware" in kinfo.keys():
                                   for fw in kinfo["firmware"].split(','):
-                                      if not os.path.exists(os.path.join(root, 'arpl-modules', "firmware", fw)): continue
+                                      if not os.path.exists(os.path.join(root, 'modulesplatforms', "firmware", fw)): continue
                                       os.makedirs(os.path.dirname(os.path.join(root, baseDir, info['filename'], platformDir, "firmware", fw)), exist_ok=True)
-                                      shutil.copyfile(os.path.join(root, 'arpl-modules', "firmware", fw), os.path.join(root, baseDir, info['filename'], platformDir, "firmware", fw))
-                              shutil.copyfile(os.path.join(root, 'arpl-modules', platformDir, k), os.path.join(root, baseDir, info['filename'], platformDir, k))
+                                      shutil.copyfile(os.path.join(root, 'modulesplatforms', "firmware", fw), os.path.join(root, baseDir, info['filename'], platformDir, "firmware", fw))
+                              shutil.copyfile(os.path.join(root, 'modulesplatforms', platformDir, k), os.path.join(root, baseDir, info['filename'], platformDir, k))
                               checkshell += 'echo -n "Loading module {} -> "\n[ `/sbin/lsmod | grep -i {} | wc -l` -gt 0 ] && echo "Module {} loaded succesfully" || echo "Module {} is not loaded"\n'.format(k[:-3],k[:-3],k[:-3],k[:-3])
                               url = os.path.join(baseUrl, baseDir, info['filename'], platformDir, k)
                               with open(os.path.join(root, baseDir, info['filename'], platformDir, k), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
