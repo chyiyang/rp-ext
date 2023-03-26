@@ -16,6 +16,10 @@ on:
         description: 'update from arpl'
         default: false
         type: boolean
+      poco: 
+        description: 'update from poco'
+        default: false
+        type: boolean
 jobs:
   modules:
     runs-on: ubuntu-latest
@@ -189,7 +193,7 @@ jobs:
                                       os.makedirs(os.path.dirname(os.path.join(root, baseDir, info['filename'], platformDir, "firmware", fw)), exist_ok=True)
                                       shutil.copyfile(os.path.join(root, 'modulesplatforms', "firmware", fw), os.path.join(root, baseDir, info['filename'], platformDir, "firmware", fw))
                               shutil.copyfile(os.path.join(root, 'modulesplatforms', platformDir, k), os.path.join(root, baseDir, info['filename'], platformDir, k))
-                              checkshell += 'echo -n "Loading module {} -> "\n[ `/sbin/lsmod | grep -i {} | wc -l` -gt 0 ] && echo "Module {} loaded succesfully" || echo "Module {} is not loaded"\n'.format(k[:-3],k[:-3],k[:-3],k[:-3])
+                              checkshell += 'echo -n "Loading module {} -> "\n[ `/sbin/lsmod | grep -i {} | wc -l` -gt 0 ] && echo "Module {} loaded succesfully" || echo "Module {} is not loaded"\n'.format(k[:-3],k[:-3].split('.')[0],k[:-3],k[:-3])
                               url = os.path.join(baseUrl, baseDir, info['filename'], platformDir, k)
                               with open(os.path.join(root, baseDir, info['filename'], platformDir, k), "rb") as f: sha256 = hashlib.sha256(f.read()).hexdigest()
                               universal["files"].append({ "name": k, "url": url, "sha256": sha256, "packed": False })
