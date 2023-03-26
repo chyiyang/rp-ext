@@ -1,5 +1,5 @@
 {
-    "mod_version": "v1.68",
+    "mod_version": "",
     "files": [
         {
             "name": "drm_kms_helper.ko",
@@ -58,13 +58,13 @@
         {
             "name": "check-i915.9BC5.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/apollolake-4.4.180/check-i915.9BC5.sh",
-            "sha256": "48085dab921bb4484e029263a9dd4996d58b888e40fcd9df85665baac76ea1ba",
+            "sha256": "881c795468c641fa6f011160c11481ccff0d3a28b99a25c3288f8c84b7c2154c",
             "packed": false
         },
         {
             "name": "i915.9BC5_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/apollolake-4.4.180/i915.9BC5_firmware.tag.gz",
-            "sha256": "06895243956b2afa0678dd2511f7738365378a45619e7d69569591cbdc2db96b",
+            "sha256": "4d2775c473ce18edc027ffd1a323a4b69eb290cc1c537b57ff04d6aac52dc6e7",
             "packed": false
         },
         {

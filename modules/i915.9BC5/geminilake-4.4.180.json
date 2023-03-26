@@ -1,5 +1,5 @@
 {
-    "mod_version": "v1.68",
+    "mod_version": "",
     "files": [
         {
             "name": "drm_kms_helper.ko",
@@ -58,13 +58,13 @@
         {
             "name": "check-i915.9BC5.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/check-i915.9BC5.sh",
-            "sha256": "48085dab921bb4484e029263a9dd4996d58b888e40fcd9df85665baac76ea1ba",
+            "sha256": "881c795468c641fa6f011160c11481ccff0d3a28b99a25c3288f8c84b7c2154c",
             "packed": false
         },
         {
             "name": "i915.9BC5_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.9BC5/geminilake-4.4.180/i915.9BC5_firmware.tag.gz",
-            "sha256": "6d51ec817094d9974f2368ace107a50e8a95620a9bcb52135966321d18d08d0d",
+            "sha256": "7dd6b2afaf7e1a307e55bc0daa71f576af806da8c2d6dfef9778b305d47fedd2",
             "packed": false
         },
         {

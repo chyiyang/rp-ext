@@ -1,5 +1,5 @@
 {
-    "mod_version": "v1.68",
+    "mod_version": "",
     "files": [
         {
             "name": "usbcore.ko",
@@ -28,7 +28,7 @@
         {
             "name": "r8152_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/r8152_firmware.tag.gz",
-            "sha256": "c87b9f89bc671cd067446d7fd60e6fc164d389423651af9b187836b6d03d6cfb",
+            "sha256": "9679d52b82d7dc4e876c9e5762f95401b8d14d7eb411d934007bb32d5164c95d",
             "packed": false
         },
         {

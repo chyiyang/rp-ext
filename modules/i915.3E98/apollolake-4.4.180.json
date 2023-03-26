@@ -1,5 +1,5 @@
 {
-    "mod_version": "v1.68",
+    "mod_version": "",
     "files": [
         {
             "name": "drm_kms_helper.ko",
@@ -58,13 +58,13 @@
         {
             "name": "check-i915.3E98.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.3E98/apollolake-4.4.180/check-i915.3E98.sh",
-            "sha256": "32e749accdfc40e4c8c5894113e2ae90a504e301d13def32cfc6f7c40f25d3c9",
+            "sha256": "513d6f5308c3d17d7cec345b6c32c84fbe5925758055719d244d25fe81e8f49c",
             "packed": false
         },
         {
             "name": "i915.3E98_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.3E98/apollolake-4.4.180/i915.3E98_firmware.tag.gz",
-            "sha256": "3e2ce39d435067f08e2617c8b41c369d4e7726f47c0159e595d9266ac3109abf",
+            "sha256": "07b4a01827e0bfcc350cf9b7f25dfbd5a44c3de7fda51c903a6506b6523de577",
             "packed": false
         },
         {

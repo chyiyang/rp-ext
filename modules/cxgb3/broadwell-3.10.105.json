@@ -1,5 +1,5 @@
 {
-    "mod_version": "v1.68",
+    "mod_version": "",
     "files": [
         {
             "name": "cxgb3.ko",
@@ -16,7 +16,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-3.10.105/cxgb3_firmware.tag.gz",
-            "sha256": "1555582b66697e2927eeb92faff804ee963725cf10851ce3cc1969444732ab7b",
+            "sha256": "8f9aafdf5c7484ca4f1256738bb6fa2acaf026093215eae3ae40793a21abf908",
             "packed": false
         },
         {

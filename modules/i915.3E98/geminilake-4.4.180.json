@@ -1,5 +1,5 @@
 {
-    "mod_version": "v1.68",
+    "mod_version": "",
     "files": [
         {
             "name": "drm_kms_helper.ko",
@@ -58,13 +58,13 @@
         {
             "name": "check-i915.3E98.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.3E98/geminilake-4.4.180/check-i915.3E98.sh",
-            "sha256": "32e749accdfc40e4c8c5894113e2ae90a504e301d13def32cfc6f7c40f25d3c9",
+            "sha256": "513d6f5308c3d17d7cec345b6c32c84fbe5925758055719d244d25fe81e8f49c",
             "packed": false
         },
         {
             "name": "i915.3E98_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915.3E98/geminilake-4.4.180/i915.3E98_firmware.tag.gz",
-            "sha256": "6e4d12eb68d7ca815dc8d2369d4704c5e4462e6f57f575bf5a1c99316ee86d66",
+            "sha256": "14673c637a57ac8730fec51d65255486291b32d2cad7e67cd8fff72c3e35d92f",
             "packed": false
         },
         {
