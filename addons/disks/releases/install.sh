@@ -147,7 +147,7 @@ function nvmePorts() {
 #
 function dtModel() {
   DEST="/addons/model.dts"
-  UNIQUE=$((`_get_conf_kv unique`))
+  UNIQUE=`_get_conf_kv unique`
   if [ ! -f "${DEST}" ]; then  # Users can put their own dts.
     echo "/dts-v1/;"                                                 > ${DEST}
     echo "/ {"                                                      >> ${DEST}
@@ -241,8 +241,7 @@ function nondtModel() {
   echo "usbportcfg=${USBPORTCFG}"
 }
 
-#
-IS_DT=$((`_get_conf_kv SupportPortMappingV2`))
+
 if [ "$HASBOOTED" = "no" ]; then
   echo "disks - early"
   # fix executable flag
@@ -254,10 +253,12 @@ if [ "$HASBOOTED" = "no" ]; then
   chmod +x /usr/bin/sed
   
   echo "Adjust disks related configs automatically - patches"
+  IS_DT=`_get_conf_kv supportportmappingv2`
   [ "${IS_DT}" = "yes" ] && dtModel || nondtModel
 
 elif [ "$HASBOOTED" = "yes" ]; then
   echo "Adjust disks related configs automatically - late"
+  IS_DT=`_get_conf_kv supportportmappingv2`
   if [ "${IS_DT}" = "yes" ]; then
     echo "dtbpatch - late"
     # copy utilities 
