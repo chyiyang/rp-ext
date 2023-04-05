@@ -1,0 +1,30 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/braswell-3.10.108/mptbase.ko",
+            "sha256": "19e3e8807bbb13e7b66df2ec451cf712a0bdd2238431e1034522636c05410a14",
+            "packed": false
+        },
+        {
+            "name": "mptctl.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/braswell-3.10.108/mptctl.ko",
+            "sha256": "5164b1d83df84173e439643318d2fba69edf87ad0cda2794acc4e6cd82c294a9",
+            "packed": false
+        },
+        {
+            "name": "check-mptctl.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/braswell-3.10.108/check-mptctl.sh",
+            "sha256": "f043798995e78f581e0bdaa99ee51f4695794e78daad01868ac0e012a2fa82fe",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptctl.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptctl.sh"
+    }
+}

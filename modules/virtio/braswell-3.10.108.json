@@ -1,0 +1,23 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/braswell-3.10.108/virtio.ko",
+            "sha256": "0b9610375bcecd39f5e48523fae3da96d579065d5201b638ce8a812514e63d0e",
+            "packed": false
+        },
+        {
+            "name": "check-virtio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/braswell-3.10.108/check-virtio.sh",
+            "sha256": "ce75807c104d55cea61ddfb1b25fd5af8bf9a511f77ecb8cc9a81b25da9de23f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio.sh"
+    }
+}

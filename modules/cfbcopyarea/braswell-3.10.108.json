@@ -1,0 +1,23 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/braswell-3.10.108/cfbcopyarea.ko",
+            "sha256": "283d5c81a6820cc364e057c915cb1084c51889a3232274f923745f6a1bf5d963",
+            "packed": false
+        },
+        {
+            "name": "check-cfbcopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/braswell-3.10.108/check-cfbcopyarea.sh",
+            "sha256": "c50aa3f95afa3bfa1f1f5e8b72b28a1e23d5b0d9e4bd334580350b1e1fe970d8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbcopyarea.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbcopyarea.sh"
+    }
+}

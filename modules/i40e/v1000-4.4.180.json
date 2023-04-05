@@ -2,19 +2,26 @@
     "mod_version": "",
     "files": [
         {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/v1000-4.4.180/intel_auxiliary.ko",
+            "sha256": "3b17c44e2ab7efdb6c5c157704d8dee10908fb008b3292997b31da772d752a63",
+            "packed": false
+        },
+        {
             "name": "i40e.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/v1000-4.4.180/i40e.ko",
-            "sha256": "c800576c69eff68be2e244889e99d6f69a0f77d02da8de4ca0dddd78cebd9157",
+            "sha256": "c5694d51749ea624d68104222bfef8a53f0742da814f91d3e40fbac6db7cd60b",
             "packed": false
         },
         {
             "name": "check-i40e.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/v1000-4.4.180/check-i40e.sh",
-            "sha256": "65615619e160a47fc2b8e3e109294d8023cd1353d5f5cc69f9963ec302ec5025",
+            "sha256": "95b60e623484ba6d9671bc6de51787bd0784d5b82c0f465f41323cd1f8b7301c",
             "packed": false
         }
     ],
     "kmods": {
+        "intel_auxiliary.ko": "",
         "i40e.ko": ""
     },
     "scripts": {

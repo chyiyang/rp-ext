@@ -4,19 +4,19 @@
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/v1000-4.4.180/virtio.ko",
-            "sha256": "70e2159efa151a73a8834907c080a713dd5201e67880663e349580487ff25ada",
+            "sha256": "ccf63ec3e10b003f016e304f4197ec8682b775fb4ac813b99bcef248b926717e",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/v1000-4.4.180/virtio_ring.ko",
-            "sha256": "1dccea235108cd46b13dce869805bb33cdf625e24a3587bfd6686c2749865fe0",
+            "sha256": "128bf7408e399408f5545d0eb0130aacc6a11354c450feb62385ad8d3fcf2831",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/v1000-4.4.180/virtio_net.ko",
-            "sha256": "3b8cf5bae19516f52a19a7c46e17fe7eaeeff6e6a74c73ccf9c9983b785d6e9a",
+            "sha256": "300ea88edfba02a9a6368ab78de9c7c09cf67e794fea163e843b7b4f3ab6c244",
             "packed": false
         },
         {

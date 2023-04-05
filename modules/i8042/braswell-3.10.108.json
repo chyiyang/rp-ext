@@ -1,0 +1,23 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "i8042.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/braswell-3.10.108/i8042.ko",
+            "sha256": "2cd5ab5f06f6e202bdd26c756122d07bdb668094b2b625e18d3fedde32add2c1",
+            "packed": false
+        },
+        {
+            "name": "check-i8042.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/braswell-3.10.108/check-i8042.sh",
+            "sha256": "bc4b1c866facfac5c4e2e7096fcddf865d4b61cce7ff33c4ca3ba8d7903bd8cc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i8042.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i8042.sh"
+    }
+}

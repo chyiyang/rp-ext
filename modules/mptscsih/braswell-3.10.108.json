@@ -1,0 +1,30 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/braswell-3.10.108/mptbase.ko",
+            "sha256": "19e3e8807bbb13e7b66df2ec451cf712a0bdd2238431e1034522636c05410a14",
+            "packed": false
+        },
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/braswell-3.10.108/mptscsih.ko",
+            "sha256": "d9fc4d1400817acfd8be330f9194d08c5f50f0498bad10f9e9dbf913c79600c3",
+            "packed": false
+        },
+        {
+            "name": "check-mptscsih.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/braswell-3.10.108/check-mptscsih.sh",
+            "sha256": "0a4a6406087f02da148de74eb23e349c299d63a3a28d11d259242ef0bb8e3f40",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptscsih.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptscsih.sh"
+    }
+}

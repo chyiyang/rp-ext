@@ -1,0 +1,51 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/braswell-3.10.108/cfbimgblt.ko",
+            "sha256": "f83dabae75318cad53325daf0cc1ff556785c298e38e61567471aabaae257f54",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/braswell-3.10.108/cfbcopyarea.ko",
+            "sha256": "283d5c81a6820cc364e057c915cb1084c51889a3232274f923745f6a1bf5d963",
+            "packed": false
+        },
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/braswell-3.10.108/cfbfillrect.ko",
+            "sha256": "6d7b95c879d6092e1ca8e1e463589d97eeefaef1f891d5e2c63ce34c66539671",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/braswell-3.10.108/fb.ko",
+            "sha256": "3be17d481e22479d0b5a046814d714600e0101abe2a9e505cf6319161a716c04",
+            "packed": false
+        },
+        {
+            "name": "efifb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/braswell-3.10.108/efifb.ko",
+            "sha256": "cc9921cbfb63cf21b36a62246f6256ea113d90201f5f1d1a353fcfae9d9bb43a",
+            "packed": false
+        },
+        {
+            "name": "check-efifb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/braswell-3.10.108/check-efifb.sh",
+            "sha256": "3c79b757f76602dd9faa98ec886039153624ddbbb0ed1260238a0761529b46f8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "cfbfillrect.ko": "",
+        "fb.ko": "",
+        "efifb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-efifb.sh"
+    }
+}

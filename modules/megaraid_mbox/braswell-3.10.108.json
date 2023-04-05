@@ -1,0 +1,30 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "megaraid_mm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/braswell-3.10.108/megaraid_mm.ko",
+            "sha256": "12d23ca487da5b130ad96bd4ae166c1d01cc342a706b0fa39bb2747d676098aa",
+            "packed": false
+        },
+        {
+            "name": "megaraid_mbox.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/braswell-3.10.108/megaraid_mbox.ko",
+            "sha256": "530d6353f53468ce911fcf1054af28d6e8ec4b1b558cb69238a0a58c02c8fc0a",
+            "packed": false
+        },
+        {
+            "name": "check-megaraid_mbox.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/braswell-3.10.108/check-megaraid_mbox.sh",
+            "sha256": "27115b3b3cbb92deb74e803926374180cc269427cbfa2e3ce5aa39fab58a6017",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_mm.ko": "",
+        "megaraid_mbox.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_mbox.sh"
+    }
+}

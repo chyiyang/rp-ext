@@ -1,0 +1,30 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/braswell-3.10.108/fb.ko",
+            "sha256": "3be17d481e22479d0b5a046814d714600e0101abe2a9e505cf6319161a716c04",
+            "packed": false
+        },
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/braswell-3.10.108/softcursor.ko",
+            "sha256": "d5e4d89143fe0f3a976d378373b1e710a8f8db7f9a9db363660b110801dbd7de",
+            "packed": false
+        },
+        {
+            "name": "check-softcursor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/braswell-3.10.108/check-softcursor.sh",
+            "sha256": "3022eaa57a7ccca216d7f4f2f63861650e6a183ad2ee080c4d7de7ed5a4f62a6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "softcursor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-softcursor.sh"
+    }
+}

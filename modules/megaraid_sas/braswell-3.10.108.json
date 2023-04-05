@@ -1,0 +1,23 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "megaraid_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/braswell-3.10.108/megaraid_sas.ko",
+            "sha256": "f34674d9f8cd3ab800646fa9a492a84ec6cf1832cc88674cec8fcb5f4cf74ef2",
+            "packed": false
+        },
+        {
+            "name": "check-megaraid_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_sas/braswell-3.10.108/check-megaraid_sas.sh",
+            "sha256": "6e7f79b947f82fbdf9c78252a95f5efe7b93cb26cfe15462e4aa13a92a4b4cf3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "megaraid_sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-megaraid_sas.sh"
+    }
+}

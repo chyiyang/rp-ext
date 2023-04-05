@@ -1,0 +1,23 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "button.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/braswell-3.10.108/button.ko",
+            "sha256": "c4095bc851d744e773b256bb634f88453b805c6c5bd7f8c6b0b52ba4bf094655",
+            "packed": false
+        },
+        {
+            "name": "check-button.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/braswell-3.10.108/check-button.sh",
+            "sha256": "14244275d85059b56446bc0ba7d1a46ea60f1f92b3b7ea53d154281ba3317e2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "button.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-button.sh"
+    }
+}

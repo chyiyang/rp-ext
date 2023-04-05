@@ -4,19 +4,19 @@
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_blk/epyc7002-5.10.55/virtio.ko",
-            "sha256": "34abfa12f5bba65cf0e892fe6d884084e7210ce1c446372f6510805c8355852b",
+            "sha256": "4c1c02c837c5f035762f5aafda003e0d664b2c4c9b3635b5f9c57a02029f243c",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_blk/epyc7002-5.10.55/virtio_ring.ko",
-            "sha256": "73720d6c58d377294d10621f1a688cfe3d493a3f4e28ba02901eeef9c98c6a64",
+            "sha256": "8f5741e03475b57a50aba4c9af4321224af4eb72477c8a2da9986a99c7b162d2",
             "packed": false
         },
         {
             "name": "blk-mq-virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_blk/epyc7002-5.10.55/blk-mq-virtio.ko",
-            "sha256": "ebe098e32ce807aa0d07879e2020d9caf919059025d2ebd2a5790c81f2e13cc4",
+            "sha256": "bf7602ebffee6bb58d61db6a5f3df8fd0ca6f089bbae81fb938188c880ec09c0",
             "packed": false
         },
         {

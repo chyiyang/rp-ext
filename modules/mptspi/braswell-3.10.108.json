@@ -1,0 +1,44 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/braswell-3.10.108/mptscsih.ko",
+            "sha256": "d9fc4d1400817acfd8be330f9194d08c5f50f0498bad10f9e9dbf913c79600c3",
+            "packed": false
+        },
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/braswell-3.10.108/mptbase.ko",
+            "sha256": "19e3e8807bbb13e7b66df2ec451cf712a0bdd2238431e1034522636c05410a14",
+            "packed": false
+        },
+        {
+            "name": "scsi_transport_spi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/braswell-3.10.108/scsi_transport_spi.ko",
+            "sha256": "07bd4895cb2c31ded5c28a28bb1a8dce070ac46b5b04f096588949211c7fa9b5",
+            "packed": false
+        },
+        {
+            "name": "mptspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/braswell-3.10.108/mptspi.ko",
+            "sha256": "7a64115903770a54c4a5d787682c81051c2b1d783c92aa8649364494dd2f47be",
+            "packed": false
+        },
+        {
+            "name": "check-mptspi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/braswell-3.10.108/check-mptspi.sh",
+            "sha256": "54872bbf44876aaf8f8672226c6852d9371c9c9d8f0b098214e3e09e0a6dd653",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptscsih.ko": "",
+        "mptbase.ko": "",
+        "scsi_transport_spi.ko": "",
+        "mptspi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptspi.sh"
+    }
+}

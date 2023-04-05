@@ -4,38 +4,38 @@
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-5.10.55/virtio.ko",
-            "sha256": "34abfa12f5bba65cf0e892fe6d884084e7210ce1c446372f6510805c8355852b",
-            "packed": false
-        },
-        {
-            "name": "net_failover.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-5.10.55/net_failover.ko",
-            "sha256": "c706ff53d882116e45c303e7cde4d1ee072bd3b7eea937452ab35b2e4d9fb0c0",
+            "sha256": "4c1c02c837c5f035762f5aafda003e0d664b2c4c9b3635b5f9c57a02029f243c",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-5.10.55/virtio_ring.ko",
-            "sha256": "73720d6c58d377294d10621f1a688cfe3d493a3f4e28ba02901eeef9c98c6a64",
+            "sha256": "8f5741e03475b57a50aba4c9af4321224af4eb72477c8a2da9986a99c7b162d2",
+            "packed": false
+        },
+        {
+            "name": "net_failover.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-5.10.55/net_failover.ko",
+            "sha256": "77e1f09be0727c558bdab899abe5afa196e574f0d4dd125691a6a03ac210a5ae",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-5.10.55/virtio_net.ko",
-            "sha256": "d10b67ce9ed099f6513a100b0e22ae10267faf0703f54650a300525ba62391d6",
+            "sha256": "536ac9c5a4d40b376e5a86f1a8e4b0535e175643feb127859355fa684eca2afe",
             "packed": false
         },
         {
             "name": "check-virtio_net.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-5.10.55/check-virtio_net.sh",
-            "sha256": "63b65caf909db2f9e176396e7fda1cc8c0c58c79f2333e125d47f49484ff5486",
+            "sha256": "a8a46b3e65fe26004337360437b6d7122ab21ab4e5dd9b49c76b6c5b12d085b4",
             "packed": false
         }
     ],
     "kmods": {
         "virtio.ko": "",
-        "net_failover.ko": "",
         "virtio_ring.ko": "",
+        "net_failover.ko": "",
         "virtio_net.ko": ""
     },
     "scripts": {

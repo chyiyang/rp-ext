@@ -2,26 +2,19 @@
     "mod_version": "",
     "files": [
         {
-            "name": "mlx_compat.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/broadwell-4.4.180/mlx_compat.ko",
-            "sha256": "c7419259f848c9048292cc912b4562581a1cbf7ece7d55e53132c8cf1f57caee",
-            "packed": false
-        },
-        {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/broadwell-4.4.180/mlx4_core.ko",
-            "sha256": "597497227f902c296f57186fd42ceac86e16f5def63a7a000226f87c9b2225cf",
+            "sha256": "96df7fcb929a9b88d7600ddf0ddaac0a24acb79b87737f4eb370c1428d2a987d",
             "packed": false
         },
         {
             "name": "check-mlx4_core.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/broadwell-4.4.180/check-mlx4_core.sh",
-            "sha256": "8c7bc860e460d814bfb1ef471af69b2605a9ad8fb71523a52605911e31823d5c",
+            "sha256": "367f1580112fdba6dec1599aea341c4ea8f645d59ae80889973e904158b89547",
             "packed": false
         }
     ],
     "kmods": {
-        "mlx_compat.ko": "",
         "mlx4_core.ko": ""
     },
     "scripts": {

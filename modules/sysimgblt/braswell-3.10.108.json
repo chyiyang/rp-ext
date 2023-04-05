@@ -1,0 +1,23 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "sysimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/braswell-3.10.108/sysimgblt.ko",
+            "sha256": "2fc579184087aeb0a8664a239a4116e1fbb010e843d2f84741684ddec786ccbb",
+            "packed": false
+        },
+        {
+            "name": "check-sysimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/braswell-3.10.108/check-sysimgblt.sh",
+            "sha256": "6e434e9c2f70f49151c273adab3db1ae61fd5f47545f53a7ca760ca6fd282cc5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysimgblt.sh"
+    }
+}

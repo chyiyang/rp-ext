@@ -2,26 +2,19 @@
     "mod_version": "",
     "files": [
         {
-            "name": "mlx_compat.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/denverton-4.4.180/mlx_compat.ko",
-            "sha256": "ff952201c0847bfe0baf341946354a93bd5ffe79d8cecfbe5452824886a9598c",
-            "packed": false
-        },
-        {
             "name": "mlx5_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/denverton-4.4.180/mlx5_core.ko",
-            "sha256": "1d8a4e158009503b7371b75c2ac57a9507586132c416da686528eb9d2395d55f",
+            "sha256": "a31b9e50b1c6ddb768752b3634f861b5c5c5d2e538f7f24b8dc5becd950eadb9",
             "packed": false
         },
         {
             "name": "check-mlx5_core.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/denverton-4.4.180/check-mlx5_core.sh",
-            "sha256": "fd1a09be97c3added2e9478c232a5845eb275256db15ccb3db7e07c7220d651e",
+            "sha256": "52b5812885e0973eb0854f7a47154d62a5d75a086c99c0843db04c2417620861",
             "packed": false
         }
     ],
     "kmods": {
-        "mlx_compat.ko": "",
         "mlx5_core.ko": ""
     },
     "scripts": {

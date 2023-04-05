@@ -1,0 +1,23 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "cdrom.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/braswell-3.10.108/cdrom.ko",
+            "sha256": "6675f263cc994ec676af40e50b42a95602e2f68b465c310c5d378b2afc302af0",
+            "packed": false
+        },
+        {
+            "name": "check-cdrom.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdrom/braswell-3.10.108/check-cdrom.sh",
+            "sha256": "6873fe11968fd7299c24c5520c413224c3507fac49e100aafea81843acccb65e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cdrom.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cdrom.sh"
+    }
+}

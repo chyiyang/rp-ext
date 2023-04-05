@@ -2,26 +2,19 @@
     "mod_version": "",
     "files": [
         {
-            "name": "i2c-algo-bit.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/geminilake-4.4.180/i2c-algo-bit.ko",
-            "sha256": "a5efd908240a291277fcb366204c6b1325c55f6dd023ef1329d8b716b85f3595",
-            "packed": false
-        },
-        {
             "name": "igb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/geminilake-4.4.180/igb.ko",
-            "sha256": "8ea6a81e58f8cdbeda61fe14aa5b1f2448608769b5b2231befd4af79f451dd4d",
+            "sha256": "a8f442e15950cb6d818a63847c6a5498ad9111c8a5ad70742a9af87bde3d0258",
             "packed": false
         },
         {
             "name": "check-igb.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/geminilake-4.4.180/check-igb.sh",
-            "sha256": "f0bba10644e468acf09dfb76ddf49f5b9e4f017a1ec6e6b8dc33502a3abd020f",
+            "sha256": "1c4a88c3f5e404267f48ff289d97df0dcfb97c53aea9462cb701d8642e314319",
             "packed": false
         }
     ],
     "kmods": {
-        "i2c-algo-bit.ko": "",
         "igb.ko": ""
     },
     "scripts": {

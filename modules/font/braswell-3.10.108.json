@@ -1,0 +1,23 @@
+{
+    "mod_version": "",
+    "files": [
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/braswell-3.10.108/font.ko",
+            "sha256": "25fe33dae95ccd1a3e4ffac2ef251f9a1899bcf1f02785cf28be0a6d34c4a205",
+            "packed": false
+        },
+        {
+            "name": "check-font.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/braswell-3.10.108/check-font.sh",
+            "sha256": "90487a747cba1cf9414dad04b1ed34a0ecdfbe7604be0603d9e99f68579ba66d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "font.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-font.sh"
+    }
+}
