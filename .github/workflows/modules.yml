@@ -48,13 +48,13 @@ jobs:
           for i in `ls arpl-modules | grep ".*-.*"`
           do
             if [ -d "arpl-modules/${i}" ]; then
-              [ -d "modulesplatforms/${i}" ] && rm -rf "modulesplatforms/${i}"
-              mv arpl-modules/${i} modulesplatforms/${i}
+              [ ! -d "modulesplatforms/${i}" ] && mkdir -p "modulesplatforms/${i}"
+              mv arpl-modules/${i}/* modulesplatforms/${i}/
             fi
           done
           if [ -d "arpl-modules/firmware" ]; then
-            [ -d "modulesplatforms/firmware" ] && rm -rf "modulesplatforms/firmware"
-            mv arpl-modules/firmware modulesplatforms/firmware
+            [ ! -d "modulesplatforms/firmware" ] && mkdir -p "modulesplatforms/firmware"
+            mv arpl-modules/firmware/* modulesplatforms/firmware/
           fi
 
           sudo rm -rf arpl-modules
