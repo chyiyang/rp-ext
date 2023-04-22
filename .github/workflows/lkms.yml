@@ -5,7 +5,7 @@
 # See /LICENSE for more information.
 #
 
-name: Exts Lkms Check
+name: Exts Lkms Get
 
 on:
   #schedule:
@@ -24,6 +24,18 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           sudo timedatectl set-timezone "Asia/Shanghai"
+
+      - name: Checkout lkms
+        run: |
+          TAG=`curl -skL "https://api.github.com/repos/wjz304/redpill-lkm/releases/latest" | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+          [ -z "${TAG}" ] && echo "get tag error" && exit 1 
+
+          curl -skL "https://github.com/wjz304/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o "/tmp/rp-lkms.zip"
+          [ ! -f "/tmp/rp-lkms.zip" ] && echo "get zip error" && exit 1 
+          
+          rm -rf lkms/*
+          unzip /tmp/rp-lkms.zip -d "lkms" 
+          [ $? -ne 0 ] && echo "un zip error" && exit 1 
 
 
       - name: check lkms
@@ -70,7 +82,7 @@ jobs:
       - name: Check and Push
         run: |
           git pull
-          status=$(git status -s | grep -E 'lkms.json' | awk '{printf " %s", $2}')
+          status=$(git status -s | grep -E 'lkms' | awk '{printf " %s", $2}')
           if [ -n "${status}" ]; then
             git add ${status}
             git commit -m "update $(date +%Y-%m-%d" "%H:%M:%S)"
