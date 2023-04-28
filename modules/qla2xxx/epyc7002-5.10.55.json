@@ -1,5 +1,5 @@
 {
-    "mod_version": "",
+    "mod_version": "23.4.1",
     "files": [
         {
             "name": "qla2xxx.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qla2xxx_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/epyc7002-5.10.55/qla2xxx_firmware.tag.gz",
-            "sha256": "916fc1f33d1b82bd21acbf3e94fb0f2933fc85960a44641baf22d11c1be8470e",
+            "sha256": "9ceeef8dd22a22a41ab115af931a5edefdfc02f3ad41a4acf5da519bc8460004",
             "packed": false
         },
         {

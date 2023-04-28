@@ -1,5 +1,5 @@
 {
-    "mod_version": "",
+    "mod_version": "23.4.1",
     "files": [
         {
             "name": "libphy.ko",
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.302/tg3_firmware.tag.gz",
-            "sha256": "5f0a060a00c0ec53c46047b553009ac77b0bc941d82d68fcb64af8d2c435373f",
+            "sha256": "8f97c45b05531d712fa39418cf4b3b77707d5f969af110d364218468e32c4b77",
             "packed": false
         },
         {

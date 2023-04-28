@@ -1,5 +1,5 @@
 {
-    "mod_version": "",
+    "mod_version": "23.4.1",
     "files": [
         {
             "name": "bnx2.ko",
@@ -16,7 +16,7 @@
         {
             "name": "bnx2_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/apollolake-4.4.59/bnx2_firmware.tag.gz",
-            "sha256": "8306031759983e8840cbfe406a39690440495ade2f84245bbc71c112f3791950",
+            "sha256": "4b58e396c9ac507990c1a5dc5df80e19aaf501d75b39f63712d1311c2980a63a",
             "packed": false
         },
         {
