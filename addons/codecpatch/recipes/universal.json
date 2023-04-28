@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "name": "codecpatch.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/codecpatch/releases/codecpatch.sh",
+      "sha256": "4b7da52416766333ccacb1d5001544f5cb8b518abcf883bc2e85db9b4a7fc6b8",
+      "packed": false
+    },
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/codecpatch/releases/install.sh",
+      "sha256": "abb236bb788f8e7672f2e22e4e6b4b55377d786f0211d080984fc58a44aa6185",
+      "packed": false
+    }
+  ],
+
+  "scripts": {
+    "on_os_load": "install.sh"
+  }
+}

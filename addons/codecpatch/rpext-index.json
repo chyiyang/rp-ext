@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/wjz304/rp-ext/raw/main/addons/codecpatch/rpext-index.json",
+  "id": "codecpatch",
+  "info": {
+    "name": "codecpatch",
+    "description": "Adds synocodectool-patch",
+    "packer_url": "https://github.com/wirgen/synocodectool-patch",
+    "help_url": "https://github.com/wirgen/synocodectool-patch"
+  },
+  "releases": {
+    "_": "https://github.com/wjz304/rp-ext/raw/main/addons/codecpatch/recipes/universal.json",
+    "zendofmodel": "endofurls"
+  }
+}
