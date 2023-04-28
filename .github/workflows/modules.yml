@@ -40,9 +40,9 @@ jobs:
         if: inputs.arpl == true
         run: |
           sudo rm -rf arpl-modules
-          git clone https://github.com/fbelavenuto/arpl-modules.git arpl-modules
+          git clone https://github.com/wjz304/arpl-modules.git arpl-modules
 
-          MODULESTAG=`curl -skL https://api.github.com/repos/fbelavenuto/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+          MODULESTAG=`curl -skL https://api.github.com/repos/wjz304/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
           echo "MODULESTAG=${MODULESTAG}" >> $GITHUB_ENV
 
           for i in `ls arpl-modules | grep ".*-.*"`
