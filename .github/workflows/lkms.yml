@@ -28,14 +28,16 @@ jobs:
       - name: Checkout lkms
         run: |
           TAG=`curl -skL "https://api.github.com/repos/wjz304/redpill-lkm/releases/latest" | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
-          [ -z "${TAG}" ] && echo "get tag error" && exit 1 
+          [ -z "${TAG}" ] && echo "get tag error" || echo "TAG: ${TAG}"
 
-          curl -skL "https://github.com/wjz304/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o "/tmp/rp-lkms.zip"
-          [ ! -f "/tmp/rp-lkms.zip" ] && echo "get zip error" && exit 1 
+          curl -#kL "https://github.com/wjz304/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o "/tmp/rp-lkms.zip"
+          if [ ! -f "/tmp/rp-lkms.zip" ]; then
+            echo "get zip error"
+            exit 1
+          fi
           
           rm -rf lkms/*
-          unzip /tmp/rp-lkms.zip -d "lkms" 
-          [ $? -ne 0 ] && echo "un zip error" && exit 1 
+          unzip /tmp/rp-lkms.zip -d lkms 2>/dev/null
 
 
       - name: check lkms
