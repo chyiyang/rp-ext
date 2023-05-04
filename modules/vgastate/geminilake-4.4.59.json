@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "vgastate.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/geminilake-4.4.59/vgastate.ko",
+            "sha256": "a3ca9c197cc208cc10c314078ff1c65a5b40507bc60dc70c2523a5c333e00325",
+            "packed": false
+        },
+        {
+            "name": "check-vgastate.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/geminilake-4.4.59/check-vgastate.sh",
+            "sha256": "a89a3dc8087236516f5295d75516a08378467cf478370b6ae534384213f3adc2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vgastate.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vgastate.sh"
+    }
+}

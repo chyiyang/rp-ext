@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "fb_sys_fops.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/v1000-4.4.59/fb_sys_fops.ko",
+            "sha256": "7abac0f91ce67f2ce069f40d6b09c3ac20b8a9c04fabc0be9528b779f7938f22",
+            "packed": false
+        },
+        {
+            "name": "check-fb_sys_fops.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/v1000-4.4.59/check-fb_sys_fops.sh",
+            "sha256": "21554be458e04a9ae791de487bfdb8f9a42e62597cc0657e637ceb6bc8fa3a1b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb_sys_fops.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fb_sys_fops.sh"
+    }
+}

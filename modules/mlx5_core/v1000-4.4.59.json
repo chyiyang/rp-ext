@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mlx5_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/v1000-4.4.59/mlx5_core.ko",
+            "sha256": "2f034ec218fce057b992fb1aea6411b305234762d1646561263ee44b40616bbd",
+            "packed": false
+        },
+        {
+            "name": "check-mlx5_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/v1000-4.4.59/check-mlx5_core.sh",
+            "sha256": "52b5812885e0973eb0854f7a47154d62a5d75a086c99c0843db04c2417620861",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx5_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx5_core.sh"
+    }
+}

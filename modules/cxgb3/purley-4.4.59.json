@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.59/mdio.ko",
+            "sha256": "279f24ef4e4253ddec651d2b32dde6267f18eff4a2a2882ca928a5df6466fe06",
+            "packed": false
+        },
+        {
+            "name": "cxgb3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.59/cxgb3.ko",
+            "sha256": "0bc808e189bc0a285a19aeaf094054b3f12aff16d6c1e719306503ba11db4b01",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.59/check-cxgb3.sh",
+            "sha256": "027e543cf8b835b88abe7c6904ab386046c9a559aa977d6382009ce8e25fd260",
+            "packed": false
+        },
+        {
+            "name": "cxgb3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.59/cxgb3_firmware.tag.gz",
+            "sha256": "2bfaa27a82c0327c93d568cfa57c9b35f8dceb263dbf392283a4927bd1560fd9",
+            "packed": false
+        },
+        {
+            "name": "install-cxgb3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.59/install-cxgb3.sh",
+            "sha256": "b8f7d4ca1a16e30f28298ab84f755b834c68dac29674a2b8a9b49ade6fc18893",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "cxgb3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb3.sh",
+        "on_os_load": "install-cxgb3.sh"
+    }
+}

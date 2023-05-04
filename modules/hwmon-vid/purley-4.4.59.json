@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/purley-4.4.59/hwmon-vid.ko",
+            "sha256": "0342fb53c9939acb6677dd1420a68bad0daf3d2f731283ca6463ffb10c9eec19",
+            "packed": false
+        },
+        {
+            "name": "check-hwmon-vid.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/purley-4.4.59/check-hwmon-vid.sh",
+            "sha256": "dc1dfa3465691f8f7546bdd76605159f3f442b46b1d89576d582dc059bfa967f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hwmon-vid.sh"
+    }
+}

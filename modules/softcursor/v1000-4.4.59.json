@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/v1000-4.4.59/fb.ko",
+            "sha256": "23a1e2e655c0dd6259d3f8e2a587c4da11730fd4fae1ad4f84b7c046e2e48d59",
+            "packed": false
+        },
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/v1000-4.4.59/softcursor.ko",
+            "sha256": "34ab89254cc5b69c57ad0c8629924071b31acea033ff66aa7f69bf865ee5442a",
+            "packed": false
+        },
+        {
+            "name": "check-softcursor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/v1000-4.4.59/check-softcursor.sh",
+            "sha256": "3022eaa57a7ccca216d7f4f2f63861650e6a183ad2ee080c4d7de7ed5a4f62a6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "softcursor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-softcursor.sh"
+    }
+}

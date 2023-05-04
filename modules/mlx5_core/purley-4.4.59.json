@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mlx5_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/purley-4.4.59/mlx5_core.ko",
+            "sha256": "f1ccf4e15c661b48327dc61fd5d5492be57720f91b6b68c177b92d9192fdd1a3",
+            "packed": false
+        },
+        {
+            "name": "check-mlx5_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/purley-4.4.59/check-mlx5_core.sh",
+            "sha256": "52b5812885e0973eb0854f7a47154d62a5d75a086c99c0843db04c2417620861",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx5_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx5_core.sh"
+    }
+}

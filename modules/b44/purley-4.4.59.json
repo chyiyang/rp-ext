@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/purley-4.4.59/libphy.ko",
+            "sha256": "d6782dc7429e04d271bfc1fdd57aef0837800099d1c463241fdda1e3ec1237f5",
+            "packed": false
+        },
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/purley-4.4.59/mii.ko",
+            "sha256": "ebe6c1cc4c26d708eb42e2146bebe38f8b005173be8163d4f0adbf4e1b197cf3",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/purley-4.4.59/b44.ko",
+            "sha256": "0fa0fb7f756501e828d7fd51354757ae904fd2e818d83721588bc7ac5527caa2",
+            "packed": false
+        },
+        {
+            "name": "check-b44.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/purley-4.4.59/check-b44.sh",
+            "sha256": "22c041d3a2421185130dac8a7332ec49091be831fe49df27f374e9e3a9b4dfd3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "mii.ko": "",
+        "b44.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-b44.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mlxsw_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/geminilake-4.4.59/mlxsw_core.ko",
+            "sha256": "8f78f8f4fff5423162b5f31e53a2f256efa8c4138402af72d9c30340ffa8e559",
+            "packed": false
+        },
+        {
+            "name": "mlxsw_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/geminilake-4.4.59/mlxsw_pci.ko",
+            "sha256": "b1646381c9aa4f4545c3fe388883da7f0763bc29171423ebc01a81420b7576f5",
+            "packed": false
+        },
+        {
+            "name": "check-mlxsw_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/geminilake-4.4.59/check-mlxsw_pci.sh",
+            "sha256": "bbad6cc70a92eeba8283578797e3155e5deedcb14858136de7523375328b2ce9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlxsw_core.ko": "",
+        "mlxsw_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlxsw_pci.sh"
+    }
+}

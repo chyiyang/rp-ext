@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "sr_mod.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/geminilake-4.4.59/sr_mod.ko",
+            "sha256": "ee19e0e7943d085ae4c1f2eb9415bceea8bd533895cf889840871ca80d3c7c4e",
+            "packed": false
+        },
+        {
+            "name": "check-sr_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sr_mod/geminilake-4.4.59/check-sr_mod.sh",
+            "sha256": "7cab760dd466126be79b4f5cccba60bbc8e28a3df0f754b8cf3f87ff780c0526",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sr_mod.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sr_mod.sh"
+    }
+}

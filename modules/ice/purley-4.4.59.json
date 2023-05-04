@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/purley-4.4.59/auxiliary.ko",
+            "sha256": "30dfea1eb1d76f928ea95717ca376be38df588c495ec09740fd888bfb310902b",
+            "packed": false
+        },
+        {
+            "name": "ice.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/purley-4.4.59/ice.ko",
+            "sha256": "9d91f9425a1bce18c43bb85a4d4396c630d33050210d0483ddb117e0b1ee51ee",
+            "packed": false
+        },
+        {
+            "name": "check-ice.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/purley-4.4.59/check-ice.sh",
+            "sha256": "1f8e01a7316db89bcbb979b8fca887d45586155bed2713d40a504c6e389ede4c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": "",
+        "ice.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ice.sh"
+    }
+}

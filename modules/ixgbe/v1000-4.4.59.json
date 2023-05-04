@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "ixgbe.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/v1000-4.4.59/ixgbe.ko",
+            "sha256": "fe906f20437f0fdb1a09d9ff106d1150980278dfc9e65eb8fb936b495b3ec942",
+            "packed": false
+        },
+        {
+            "name": "check-ixgbe.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/v1000-4.4.59/check-ixgbe.sh",
+            "sha256": "68d8052404ec39e03a01e9284fec0430673b3ced0b5263ea708852b61ee63d9a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgbe.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgbe.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/geminilake-4.4.59/intel_auxiliary.ko",
+            "sha256": "640bf3d1eea1d8e66037db75c9701beea7f7de7f55826c0b210b5836a9e00d57",
+            "packed": false
+        },
+        {
+            "name": "i40e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/geminilake-4.4.59/i40e.ko",
+            "sha256": "1d050a1c2872faf44d549cb68d76656562f6270667b85e92f3290578bd38d935",
+            "packed": false
+        },
+        {
+            "name": "check-i40e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/geminilake-4.4.59/check-i40e.sh",
+            "sha256": "95b60e623484ba6d9671bc6de51787bd0784d5b82c0f465f41323cd1f8b7301c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": "",
+        "i40e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i40e.sh"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/scsi_transport_sas.ko",
+            "sha256": "0f1f95912c4a322074babf13bd13cb21a9fa7b640e6a1ba12161151c53658aaf",
+            "packed": false
+        },
+        {
+            "name": "raid_class.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/raid_class.ko",
+            "sha256": "2f6f26f773c6a8fd152e57a769427b466507eff51df9af23fc6779c1c262f2c4",
+            "packed": false
+        },
+        {
+            "name": "mpt3sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/mpt3sas.ko",
+            "sha256": "ace9370a4d93d53d9e0a64950ec68710ab5b342b22554e04f61c8876a6d5153a",
+            "packed": false
+        },
+        {
+            "name": "check-mpt3sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/check-mpt3sas.sh",
+            "sha256": "e3f268587711d6166c9fadd283eb7ae7e1359fed3d183688be1827ac66cc429b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": "",
+        "raid_class.ko": "",
+        "mpt3sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mpt3sas.sh"
+    }
+}

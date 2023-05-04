@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "be2net.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/v1000-4.4.59/be2net.ko",
+            "sha256": "1109dc50748ba941d69fbdfa2f4e7afb46c5c9ac9e04c1c794d57a0724230713",
+            "packed": false
+        },
+        {
+            "name": "check-be2net.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/be2net/v1000-4.4.59/check-be2net.sh",
+            "sha256": "f819a067c8d382088eedd35569aa1d9808ca89c8717dde9f4ae22e9bc9806e89",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "be2net.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-be2net.sh"
+    }
+}

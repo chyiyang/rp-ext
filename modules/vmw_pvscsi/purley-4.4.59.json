@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "vmw_pvscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/purley-4.4.59/vmw_pvscsi.ko",
+            "sha256": "83e0e37be95a101fb1c64405299cfe3df2d51907955dbcd0049706768e7e0f3c",
+            "packed": false
+        },
+        {
+            "name": "check-vmw_pvscsi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmw_pvscsi/purley-4.4.59/check-vmw_pvscsi.sh",
+            "sha256": "852cec60cd99a2524b4985ea7c000a6654b9630520e3ae397b7acb1ade50409f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vmw_pvscsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vmw_pvscsi.sh"
+    }
+}

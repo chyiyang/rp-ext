@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "vmxnet3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/v1000-4.4.59/vmxnet3.ko",
+            "sha256": "65449c25411e9689162b04a15debe565feb0c13a66a375900066c5ba0907e04e",
+            "packed": false
+        },
+        {
+            "name": "check-vmxnet3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/v1000-4.4.59/check-vmxnet3.sh",
+            "sha256": "ffa24196bcbcabcf150fe9decc495448aa88e96b8121a8017eebf6ce0c2ecfd5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vmxnet3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vmxnet3.sh"
+    }
+}

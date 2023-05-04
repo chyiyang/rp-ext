@@ -2,6 +2,12 @@
     "mod_version": "23.5.0",
     "files": [
         {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/broadwell-4.4.302/mdio.ko",
+            "sha256": "3f101ed7b45eebb98b40162217f651d3242736db00e419bf5ca790b489538d5f",
+            "packed": false
+        },
+        {
             "name": "cxgb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/broadwell-4.4.302/cxgb.ko",
             "sha256": "ac05a124b3241fc13d617b473846999f4229fe7322e4ec0033a8901fa72107da",
@@ -10,11 +16,12 @@
         {
             "name": "check-cxgb.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/broadwell-4.4.302/check-cxgb.sh",
-            "sha256": "1c90ad0de292e391684fd27b62f1ec330d7846cb21fef962b35c7b328e51e595",
+            "sha256": "9943aedbaaf1e5194a758b510259c88662c94d5b073c4cdd96dc97e699028cb2",
             "packed": false
         }
     ],
     "kmods": {
+        "mdio.ko": "",
         "cxgb.ko": ""
     },
     "scripts": {

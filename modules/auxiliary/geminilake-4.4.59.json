@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/geminilake-4.4.59/auxiliary.ko",
+            "sha256": "c7c484cf46c081ff639ab42c9fb55523260675ebcca87a569774b4ec0ede0bc5",
+            "packed": false
+        },
+        {
+            "name": "check-auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/auxiliary/geminilake-4.4.59/check-auxiliary.sh",
+            "sha256": "08ba59c9839cad5936353c73fd25f08d1b037330b1d96be8eeff634648327ab9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "auxiliary.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-auxiliary.sh"
+    }
+}

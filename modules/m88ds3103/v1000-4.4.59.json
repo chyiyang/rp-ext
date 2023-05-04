@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.59/dvb-core.ko",
+            "sha256": "1dc0cb3c6172f04f7b6ace09b26e693e17e56519351f99b723c0fd88e54ce58f",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.59/m88ds3103.ko",
+            "sha256": "dd9d7d3c683d1ad68ffc5e57feb7aeeb6c5b9c0cbd65550a06d2c0a2d72a4caa",
+            "packed": false
+        },
+        {
+            "name": "check-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.59/check-m88ds3103.sh",
+            "sha256": "ff8a9b8ea9181629bff836fa27c7a1f32e71a920bf5586a0f8723231fb67141a",
+            "packed": false
+        },
+        {
+            "name": "m88ds3103_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.59/m88ds3103_firmware.tag.gz",
+            "sha256": "858816881cf77e7e66350af85468377260ab8126b0d75edd3f4001e48bf185be",
+            "packed": false
+        },
+        {
+            "name": "install-m88ds3103.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.59/install-m88ds3103.sh",
+            "sha256": "114a49d9e59e0382f8b53d74a9ab40e15509db0c57cf1a8ade48d08199a65652",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": "",
+        "m88ds3103.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-m88ds3103.sh",
+        "on_os_load": "install-m88ds3103.sh"
+    }
+}

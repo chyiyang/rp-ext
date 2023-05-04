@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/geminilake-4.4.59/mii.ko",
+            "sha256": "cfcde978523e39bda0f401cf069623a716db136f261ce7132557730ffd1bb306",
+            "packed": false
+        },
+        {
+            "name": "check-mii.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/geminilake-4.4.59/check-mii.sh",
+            "sha256": "3c172adce5984094e281a5b39030ef2c5bb78034a5377b3c1deadd038037a33c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mii.sh"
+    }
+}

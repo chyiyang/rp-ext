@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "raid_class.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/geminilake-4.4.59/raid_class.ko",
+            "sha256": "8c0be47a858e867b40ceead8679e4f5dfa1bd085bcf7eaa6954cc35fbc460d8d",
+            "packed": false
+        },
+        {
+            "name": "check-raid_class.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/raid_class/geminilake-4.4.59/check-raid_class.sh",
+            "sha256": "274ddd31d73014e173b2f5d01a502ea55686f59adf1edc143661f7a078b36247",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "raid_class.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-raid_class.sh"
+    }
+}

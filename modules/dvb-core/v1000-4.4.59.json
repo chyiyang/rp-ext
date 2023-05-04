@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "dvb-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/v1000-4.4.59/dvb-core.ko",
+            "sha256": "1dc0cb3c6172f04f7b6ace09b26e693e17e56519351f99b723c0fd88e54ce58f",
+            "packed": false
+        },
+        {
+            "name": "check-dvb-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-core/v1000-4.4.59/check-dvb-core.sh",
+            "sha256": "e4f53a32c44074e44e88f1811d25aaa054cca3b314004fa07fbcf8b3d799ae2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-core.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "cdc_ncm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.59/cdc_ncm.ko",
+            "sha256": "383782dd351700068911d2370e9f5a23566b4337a300ed5d4c82025631464c73",
+            "packed": false
+        },
+        {
+            "name": "check-cdc_ncm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.59/check-cdc_ncm.sh",
+            "sha256": "5aa9e241fe601e29b86344ef49f874b8ba969597b8a50def4268475afe426ee8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cdc_ncm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cdc_ncm.sh"
+    }
+}

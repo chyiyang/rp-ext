@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "rtc-cmos.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/geminilake-4.4.59/rtc-cmos.ko",
+            "sha256": "5b75ed706d154aed76b59aefa9f1c40e650361279a78c820862e6d3ea5303de6",
+            "packed": false
+        },
+        {
+            "name": "check-rtc-cmos.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/geminilake-4.4.59/check-rtc-cmos.sh",
+            "sha256": "56d177ed8ee2782dc3274d51687d8a94ad875cf97015d4940df7ef503d9df132",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "rtc-cmos.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-rtc-cmos.sh"
+    }
+}

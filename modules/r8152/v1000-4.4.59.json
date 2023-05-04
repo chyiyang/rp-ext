@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/v1000-4.4.59/r8152.ko",
+            "sha256": "6b8c77e8e6f8884a5ea654c66ae9a4917ab20d3507a8e6e2ed98c6d1009427d9",
+            "packed": false
+        },
+        {
+            "name": "check-r8152.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/v1000-4.4.59/check-r8152.sh",
+            "sha256": "33164c7e249a7e6809a7d4fc7bebca8a98057ea5539466cc5876b80dec38b875",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8152.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8152.sh"
+    }
+}

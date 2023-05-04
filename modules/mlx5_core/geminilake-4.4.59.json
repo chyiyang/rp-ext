@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mlx5_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/geminilake-4.4.59/mlx5_core.ko",
+            "sha256": "503d5ab2964b85ad50334dfc48aa13f3fc470db7fb86a05ba16a3ffbbc43859c",
+            "packed": false
+        },
+        {
+            "name": "check-mlx5_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/geminilake-4.4.59/check-mlx5_core.sh",
+            "sha256": "52b5812885e0973eb0854f7a47154d62a5d75a086c99c0843db04c2417620861",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx5_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx5_core.sh"
+    }
+}

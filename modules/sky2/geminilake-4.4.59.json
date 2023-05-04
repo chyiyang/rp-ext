@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "sky2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/geminilake-4.4.59/sky2.ko",
+            "sha256": "93eb03a53e4b367c62533aff2e6d7230910dcac44bbc25fe67c40961c990ee79",
+            "packed": false
+        },
+        {
+            "name": "check-sky2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/geminilake-4.4.59/check-sky2.sh",
+            "sha256": "248a91777a29890d02953dbe261532a8908b889059b90b4a7d114621853b28cf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sky2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sky2.sh"
+    }
+}

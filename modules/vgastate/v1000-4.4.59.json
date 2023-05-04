@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "vgastate.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/v1000-4.4.59/vgastate.ko",
+            "sha256": "7f2d61e96a1698805f75371210d6995395161e1befe4353d113311dfae4f9443",
+            "packed": false
+        },
+        {
+            "name": "check-vgastate.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vgastate/v1000-4.4.59/check-vgastate.sh",
+            "sha256": "a89a3dc8087236516f5295d75516a08378467cf478370b6ae534384213f3adc2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vgastate.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vgastate.sh"
+    }
+}

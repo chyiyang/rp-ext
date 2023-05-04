@@ -2,26 +2,19 @@
     "mod_version": "23.5.0",
     "files": [
         {
-            "name": "intel_auxiliary.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwell-4.4.302/intel_auxiliary.ko",
-            "sha256": "56814b97856a82d0b04a82dc5ff58c70a9db9d95ae1c8577ba7ac0a0880ee3d9",
-            "packed": false
-        },
-        {
             "name": "i40e.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwell-4.4.302/i40e.ko",
-            "sha256": "263187b67805fe3fc27c912c164ae6739e0d00a3e50d4e16b84070c4e1e17ad6",
+            "sha256": "31c085d2d8c8709e0e44a78f9c29b20581889ee6c07966cf60982871d6602b06",
             "packed": false
         },
         {
             "name": "check-i40e.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwell-4.4.302/check-i40e.sh",
-            "sha256": "95b60e623484ba6d9671bc6de51787bd0784d5b82c0f465f41323cd1f8b7301c",
+            "sha256": "65615619e160a47fc2b8e3e109294d8023cd1353d5f5cc69f9963ec302ec5025",
             "packed": false
         }
     ],
     "kmods": {
-        "intel_auxiliary.ko": "",
         "i40e.ko": ""
     },
     "scripts": {

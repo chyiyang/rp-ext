@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "button.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/v1000-4.4.59/button.ko",
+            "sha256": "7156051864d7caf47744ba44ae486b4b7eaa2ace59ea617a0faa980ff0fba04c",
+            "packed": false
+        },
+        {
+            "name": "check-button.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/v1000-4.4.59/check-button.sh",
+            "sha256": "14244275d85059b56446bc0ba7d1a46ea60f1f92b3b7ea53d154281ba3317e2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "button.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-button.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/geminilake-4.4.59/hwmon-vid.ko",
+            "sha256": "6a5dd706650056ef490a759f368ed46f3a7a7ad112ac98100a2d9c11ec936316",
+            "packed": false
+        },
+        {
+            "name": "check-hwmon-vid.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/geminilake-4.4.59/check-hwmon-vid.sh",
+            "sha256": "dc1dfa3465691f8f7546bdd76605159f3f442b46b1d89576d582dc059bfa967f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hwmon-vid.sh"
+    }
+}

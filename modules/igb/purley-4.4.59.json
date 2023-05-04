@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "igb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/purley-4.4.59/igb.ko",
+            "sha256": "00cb62246aa4e3b820191223d05894fa2495393e35cc46463631f0864d27f44c",
+            "packed": false
+        },
+        {
+            "name": "check-igb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/purley-4.4.59/check-igb.sh",
+            "sha256": "1c4a88c3f5e404267f48ff289d97df0dcfb97c53aea9462cb701d8642e314319",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igb.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/v1000-4.4.59/cfbfillrect.ko",
+            "sha256": "34dc3c97dcfd3242c842226af74ff4bd11b24bd8b604857be15884929680f132",
+            "packed": false
+        },
+        {
+            "name": "check-cfbfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/v1000-4.4.59/check-cfbfillrect.sh",
+            "sha256": "0b86d41adb7c23bbecee633781eafeff50852acc9c1652c2c643a0c910c97cdf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbfillrect.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbfillrect.sh"
+    }
+}

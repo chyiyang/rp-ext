@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "scsi_transport_spi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/geminilake-4.4.59/scsi_transport_spi.ko",
+            "sha256": "4d79cfad4229c1b5d2164ce9255c2ce5ac3dfd9aa023bcb3158200df0ffafa00",
+            "packed": false
+        },
+        {
+            "name": "check-scsi_transport_spi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_spi/geminilake-4.4.59/check-scsi_transport_spi.sh",
+            "sha256": "4653c27de9a84db6f07bdcfe8389efdae21baea245ab20ceff727200ae539879",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_spi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_spi.sh"
+    }
+}

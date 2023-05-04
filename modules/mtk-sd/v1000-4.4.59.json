@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/v1000-4.4.59/mmc_core.ko",
+            "sha256": "e2ebf8a8e14ecf9e35337ec78febe00d47311325f0d4ba59f534e5135c82121d",
+            "packed": false
+        },
+        {
+            "name": "mtk-sd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/v1000-4.4.59/mtk-sd.ko",
+            "sha256": "2b074d58b2d559282352a3ce8076a8b4c71fe3053aca627fdccbf686ea31b53c",
+            "packed": false
+        },
+        {
+            "name": "check-mtk-sd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/v1000-4.4.59/check-mtk-sd.sh",
+            "sha256": "8d9101dabd8e50cc9df8f6d66bc0cea96c45d6c8f9ed7bd80747276697a3aa75",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "mtk-sd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mtk-sd.sh"
+    }
+}

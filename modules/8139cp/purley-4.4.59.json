@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/purley-4.4.59/mii.ko",
+            "sha256": "ebe6c1cc4c26d708eb42e2146bebe38f8b005173be8163d4f0adbf4e1b197cf3",
+            "packed": false
+        },
+        {
+            "name": "8139cp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/purley-4.4.59/8139cp.ko",
+            "sha256": "2df5458b8f1070801b812d76b8d0b28d60138362cb9d9265f36014bcbd38409a",
+            "packed": false
+        },
+        {
+            "name": "check-8139cp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/purley-4.4.59/check-8139cp.sh",
+            "sha256": "592c74f1557f0276c7b6a98410938b4b17af4f1fe5b03534b416f509bb4295c2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "8139cp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-8139cp.sh"
+    }
+}

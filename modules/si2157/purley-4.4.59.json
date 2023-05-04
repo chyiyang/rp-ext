@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "si2157.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/purley-4.4.59/si2157.ko",
+            "sha256": "7b04be9cf6ebafb98e9d9f1bd49e242d1e50a8ee13c04467a95f85ad4248da2c",
+            "packed": false
+        },
+        {
+            "name": "check-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/purley-4.4.59/check-si2157.sh",
+            "sha256": "37f452b575b1c12ca6a7a2528328bc7af04450726df5cfcd244b73e8402c5261",
+            "packed": false
+        },
+        {
+            "name": "si2157_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/purley-4.4.59/si2157_firmware.tag.gz",
+            "sha256": "9e45b3c5f90a37da88707e9d65f655cf36f4dcb2c72441d736fc582dd6bd9151",
+            "packed": false
+        },
+        {
+            "name": "install-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/purley-4.4.59/install-si2157.sh",
+            "sha256": "6d494f475cd5de151fc775756abba4fcf16908f807cc507e78a3ab20fb04f11d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2157.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2157.sh",
+        "on_os_load": "install-si2157.sh"
+    }
+}

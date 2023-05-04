@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "r8125.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/geminilake-4.4.59/r8125.ko",
+            "sha256": "62b9cb8e4599131674eda11693d35cc4559d50f9c746736a0a81273549a16fcf",
+            "packed": false
+        },
+        {
+            "name": "check-r8125.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/geminilake-4.4.59/check-r8125.sh",
+            "sha256": "ad839e66ac35297cda943230bc49b80e348b189faf1b728fbd7f4d08b8c97974",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8125.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8125.sh"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "si2157.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/geminilake-4.4.59/si2157.ko",
+            "sha256": "0a88a2b5a946934d852d73b3030b724ddf2b0d510c53b3665cb81f4586316e68",
+            "packed": false
+        },
+        {
+            "name": "check-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/geminilake-4.4.59/check-si2157.sh",
+            "sha256": "37f452b575b1c12ca6a7a2528328bc7af04450726df5cfcd244b73e8402c5261",
+            "packed": false
+        },
+        {
+            "name": "si2157_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/geminilake-4.4.59/si2157_firmware.tag.gz",
+            "sha256": "5af2e7ed73e6a999fc2eb98640c6d92414d795d3d70f1a134580f5e2b83c341e",
+            "packed": false
+        },
+        {
+            "name": "install-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/geminilake-4.4.59/install-si2157.sh",
+            "sha256": "6d494f475cd5de151fc775756abba4fcf16908f807cc507e78a3ab20fb04f11d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2157.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2157.sh",
+        "on_os_load": "install-si2157.sh"
+    }
+}

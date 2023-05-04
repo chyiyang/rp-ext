@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/purley-4.4.59/scsi_transport_sas.ko",
+            "sha256": "5ba13a6a8b0bce20b5d0b63838f62f01a014bb99b14031cad4d7b900af32bcdc",
+            "packed": false
+        },
+        {
+            "name": "check-scsi_transport_sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/purley-4.4.59/check-scsi_transport_sas.sh",
+            "sha256": "2ca154b5d73a837499c4974e4ec1b17bcc2ad61ad8dd3ef421a9a250838c46ea",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_sas.sh"
+    }
+}

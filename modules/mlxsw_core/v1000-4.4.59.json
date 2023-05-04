@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mlxsw_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/v1000-4.4.59/mlxsw_core.ko",
+            "sha256": "0764ee296b05dbbe7b597ea1b8c928c4ff9e726dfe8dca43f0dd294e19c17ac1",
+            "packed": false
+        },
+        {
+            "name": "check-mlxsw_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_core/v1000-4.4.59/check-mlxsw_core.sh",
+            "sha256": "e85abca39e52828fb041902093b46360b1417393b8a563e2e4dc0a5860d77c2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlxsw_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlxsw_core.sh"
+    }
+}

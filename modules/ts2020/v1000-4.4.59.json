@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "ts2020.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/v1000-4.4.59/ts2020.ko",
+            "sha256": "4286f63d439f16e69bd3269b344f05955f68b3bd256632462b2965661da06ac2",
+            "packed": false
+        },
+        {
+            "name": "check-ts2020.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/v1000-4.4.59/check-ts2020.sh",
+            "sha256": "2fd70948fe1bbf0399771c9cbab684455b4ae2b5f8f94bd534e6f20fda6677b8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ts2020.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ts2020.sh"
+    }
+}

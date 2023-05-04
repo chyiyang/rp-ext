@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "softcursor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/purley-4.4.59/softcursor.ko",
+            "sha256": "cb9e3a9a04f7d994995a0ce2b785ca451063948fb7f1a3eeb4eb2be0f540affc",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/purley-4.4.59/bitblit.ko",
+            "sha256": "30f05f760a728eb4052126790e6541b7a89438694eb57ccd8e1804590d1cee7e",
+            "packed": false
+        },
+        {
+            "name": "check-bitblit.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/purley-4.4.59/check-bitblit.sh",
+            "sha256": "ebde6d58f31e146aa5a3111641f686efa4b4f237c218aed1d30b12b9b5298787",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "softcursor.ko": "",
+        "bitblit.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bitblit.sh"
+    }
+}

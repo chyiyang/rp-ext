@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "r8168.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/v1000-4.4.59/r8168.ko",
+            "sha256": "1956c6da8d48d9c861f019c3b908592dca32c60c96a5f56768a367172da98e27",
+            "packed": false
+        },
+        {
+            "name": "check-r8168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/v1000-4.4.59/check-r8168.sh",
+            "sha256": "bb91f376d2d2e687e47d6ee7a90407678818f39a7b238e3fef9670b14007f0f5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8168.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8168.sh"
+    }
+}

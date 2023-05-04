@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "virtio_mmio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/v1000-4.4.59/virtio_mmio.ko",
+            "sha256": "e4e5cc44d6a35d1be27ed90c5e4607231f38ad483d942ce7a44ed4feaf056186",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_mmio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/v1000-4.4.59/check-virtio_mmio.sh",
+            "sha256": "fe666c966daadd6e3b0a26d88ff9a8aab42efba8977ecf47dee2832e2b5a7008",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_mmio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_mmio.sh"
+    }
+}

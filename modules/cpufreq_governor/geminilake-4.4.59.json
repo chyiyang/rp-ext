@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "cpufreq_governor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/geminilake-4.4.59/cpufreq_governor.ko",
+            "sha256": "be2fef0ff6420512c72881eb54cf6f2afa05602c29a18ef00e3cf46337ce3de5",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_governor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_governor/geminilake-4.4.59/check-cpufreq_governor.sh",
+            "sha256": "6826297513ee68f253a5bfce76ef862c3b950804823d70e8c59788e7c4a876db",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_governor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_governor.sh"
+    }
+}

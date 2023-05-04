@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.59/mii.ko",
+            "sha256": "ebe6c1cc4c26d708eb42e2146bebe38f8b005173be8163d4f0adbf4e1b197cf3",
+            "packed": false
+        },
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.59/r8169.ko",
+            "sha256": "6169d31a3cd07ff8ecd0ad18656f38785563020bfe282e9798d0b7f3ac3b648b",
+            "packed": false
+        },
+        {
+            "name": "check-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.59/check-r8169.sh",
+            "sha256": "cf7731f05a383d5b6b27b0d706b20cc9aedf3d2c2b4e3c3d026980d32bd20d50",
+            "packed": false
+        },
+        {
+            "name": "r8169_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.59/r8169_firmware.tag.gz",
+            "sha256": "f5787088829d4d9e07719a88eb061e3ec45a9d2203e0fa7cba90d3b8d1f77c16",
+            "packed": false
+        },
+        {
+            "name": "install-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.59/install-r8169.sh",
+            "sha256": "204148a30c10ee18f3a46d8555779e0781b3a438134b0e4612a9d9eaf2b5d9dc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8169.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169.sh",
+        "on_os_load": "install-r8169.sh"
+    }
+}

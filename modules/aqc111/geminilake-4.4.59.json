@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "aqc111.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/geminilake-4.4.59/aqc111.ko",
+            "sha256": "9c85b7d593fb323062b1abcfb011f369ac30a41f9bd2132b1f0fade54999faae",
+            "packed": false
+        },
+        {
+            "name": "check-aqc111.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/geminilake-4.4.59/check-aqc111.sh",
+            "sha256": "820f830e232a007720e2b3d1669d0cf8d40d072625dc7adb4972f0d4e2fc0086",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "aqc111.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aqc111.sh"
+    }
+}

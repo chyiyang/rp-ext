@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/purley-4.4.59/hwmon-vid.ko",
+            "sha256": "0342fb53c9939acb6677dd1420a68bad0daf3d2f731283ca6463ffb10c9eec19",
+            "packed": false
+        },
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/purley-4.4.59/nct6775.ko",
+            "sha256": "fbac50d396892c576e09bf42f541959d728f1920f8891d877ba30000b99abd76",
+            "packed": false
+        },
+        {
+            "name": "check-nct6775.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/purley-4.4.59/check-nct6775.sh",
+            "sha256": "7a8d3d0ed329a66c22d05d8ba8535152ad1cff6de515edbf6b3ba0320c700f29",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "nct6775.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nct6775.sh"
+    }
+}

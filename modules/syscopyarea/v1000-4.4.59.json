@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "syscopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/v1000-4.4.59/syscopyarea.ko",
+            "sha256": "4a30e02f95aa7c1c159c1dff0669beb3a35e37a3e90414c1c2531e97be0ee8ba",
+            "packed": false
+        },
+        {
+            "name": "check-syscopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/v1000-4.4.59/check-syscopyarea.sh",
+            "sha256": "a5f708a2c29c0f9ff958ad432f221f8b3824f9f91f5d3564a18a204a94a86466",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "syscopyarea.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-syscopyarea.sh"
+    }
+}

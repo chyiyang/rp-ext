@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "virtio_pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/v1000-4.4.59/virtio_pci.ko",
+            "sha256": "0b930cc0e4d55a0ba3f9e41d01e59ca40faba142e04038fb28cce3f6ee1af07f",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_pci/v1000-4.4.59/check-virtio_pci.sh",
+            "sha256": "40d2420952755855b0d9f71b9a8e2de85176b04e3d185f7a0d70718b8c39a3d9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_pci.sh"
+    }
+}

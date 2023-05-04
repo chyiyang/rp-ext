@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "cdc_ncm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.59/cdc_ncm.ko",
+            "sha256": "e1ad59be19408a40a94147d0efbc97b40763ecaed8aa3e3813cd66f8773eebc5",
+            "packed": false
+        },
+        {
+            "name": "check-cdc_ncm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.59/check-cdc_ncm.sh",
+            "sha256": "5aa9e241fe601e29b86344ef49f874b8ba969597b8a50def4268475afe426ee8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cdc_ncm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cdc_ncm.sh"
+    }
+}

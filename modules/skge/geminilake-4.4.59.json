@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "skge.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/geminilake-4.4.59/skge.ko",
+            "sha256": "39529fc8024cc5466c79f7ddee5948cf5c8c9daede901ec33d92c6473d78f9e1",
+            "packed": false
+        },
+        {
+            "name": "check-skge.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/geminilake-4.4.59/check-skge.sh",
+            "sha256": "b721ba024833984da406b996fcbea6f2c6290ffaf7a835b95f8a2abaaf103625",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "skge.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-skge.sh"
+    }
+}

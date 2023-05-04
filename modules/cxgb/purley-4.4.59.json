@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.0",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/purley-4.4.59/mdio.ko",
+            "sha256": "279f24ef4e4253ddec651d2b32dde6267f18eff4a2a2882ca928a5df6466fe06",
+            "packed": false
+        },
+        {
+            "name": "cxgb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/purley-4.4.59/cxgb.ko",
+            "sha256": "818c41b97ed1c302fe44ba1470357b08a966868f6917290835951c8c6ccab36e",
+            "packed": false
+        },
+        {
+            "name": "check-cxgb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/purley-4.4.59/check-cxgb.sh",
+            "sha256": "9943aedbaaf1e5194a758b510259c88662c94d5b073c4cdd96dc97e699028cb2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "cxgb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cxgb.sh"
+    }
+}
