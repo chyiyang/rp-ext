@@ -39,25 +39,28 @@ jobs:
       - name: Checkout arpl-modules
         if: inputs.arpl == true
         run: |
-          sudo rm -rf arpl-modules
-          git clone https://github.com/wjz304/arpl-modules.git arpl-modules
 
-          MODULESTAG=`curl -skL https://api.github.com/repos/wjz304/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
-          echo "MODULESTAG=${MODULESTAG}" >> $GITHUB_ENV
+          TAG=`curl -skL https://api.github.com/repos/wjz304/arpl-modules/releases/latest | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+          [ -z "${TAG}" ] && echo "get tag error" || echo "TAG: ${TAG}"
 
-          for i in `ls arpl-modules | grep ".*-.*"`
-          do
-            if [ -d "arpl-modules/${i}" ]; then
-              [ ! -d "modulesplatforms/${i}" ] && mkdir -p "modulesplatforms/${i}"
-              mv arpl-modules/${i}/* modulesplatforms/${i}/
-            fi
-          done
-          if [ -d "arpl-modules/firmware" ]; then
-            [ ! -d "modulesplatforms/firmware" ] && mkdir -p "modulesplatforms/firmware"
-            mv arpl-modules/firmware/* modulesplatforms/firmware/
+          curl -#kL "https://github.com/wjz304/arpl-modules/releases/download/${TAG}/modules.zip" -o "/tmp/modules.zip"
+          if [ ! -f "/tmp/modules.zip" ]; then
+            echo "get zip error"
+            exit 1
           fi
+          echo "TAG=${TAG}" >> $GITHUB_ENV
 
-          sudo rm -rf arpl-modules
+          rm -rf modulesplatforms/*
+          unzip /tmp/modules.zip -d modulesplatforms 2>/dev/null
+
+          cd modulesplatforms
+          for i in `ls | grep ".*\.tgz"`
+          do
+            name="`basename "$i" .tgz`"
+            [ -d "${name}" ] && rm -rf "${name}"
+            mkdir -p "${name}"
+            tar -xzf ${i} -C ${name}
+          done
 
       - name: check modulesplatforms
         shell: python
@@ -113,16 +116,16 @@ jobs:
                   with open(os.path.join(root, 'modulesplatforms.json'), 'w', encoding='utf-8') as f:
                       f.write(json.dumps(modulesplatforms, indent=4))
 
-      - name: tar modulesplatforms
-        run: |
-          for D in `ls -d ${{ github.workspace }}/modulesplatforms/*-*/`; do
-            [ -f "${D::-1}.tgz" ] && rm -f "${D::-1}.tgz"
-            tar caf "${D::-1}.tgz" -C "${D}" .
-          done
-
-          D="${{ github.workspace }}/modulesplatforms/firmware/"
-          [ -f "${D::-1}.tgz" ] && rm -f "${D::-1}.tgz"
-          tar caf "${D::-1}.tgz" -C "${D}" .
+      #- name: tar modulesplatforms
+      #  run: |
+      #    for D in `ls -d ${{ github.workspace }}/modulesplatforms/*-*/`; do
+      #      [ -f "${D::-1}.tgz" ] && rm -f "${D::-1}.tgz"
+      #      tar caf "${D::-1}.tgz" -C "${D}" .
+      #    done
+      #
+      #    D="${{ github.workspace }}/modulesplatforms/firmware/"
+      #    [ -f "${D::-1}.tgz" ] && rm -f "${D::-1}.tgz"
+      #    tar caf "${D::-1}.tgz" -C "${D}" .
 
       - name: rm modules
         run: |
@@ -174,7 +177,7 @@ jobs:
                           if 'description' not in info.keys(): info['description'] = ''
 
                           checkshell = '#\n# Checking modules is loaded\n#\n\n'
-                          universal = { "mod_version": "${{ env.MODULESTAG }}", "files": [], "kmods": {}, "scripts": {"on_boot": ""} }
+                          universal = { "mod_version": "${{ env.TAG }}", "files": [], "kmods": {}, "scripts": {"on_boot": ""} }
 
                           kolist = []
                           binlist = []
