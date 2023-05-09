@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.2",
+    "files": [
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/geminilake-4.4.59/usbnet.ko",
+            "sha256": "b3181b8c37ba859279a154946499d8d1c0d2709a2e05b3b218938093a39b39f9",
+            "packed": false
+        },
+        {
+            "name": "r8153_ecm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/geminilake-4.4.59/r8153_ecm.ko",
+            "sha256": "432e2ddf49ecd6b9662d444d78e285c58ceac18462b29751add74209d892c1e6",
+            "packed": false
+        },
+        {
+            "name": "check-r8153_ecm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/geminilake-4.4.59/check-r8153_ecm.sh",
+            "sha256": "c59a97b9f07aba38b02111603c585a20fd7641f7dce383daaea26bf5df3da22f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbnet.ko": "",
+        "r8153_ecm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8153_ecm.sh"
+    }
+}

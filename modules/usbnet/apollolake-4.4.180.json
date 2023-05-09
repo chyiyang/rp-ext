@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.2",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/apollolake-4.4.180/mii.ko",
+            "sha256": "c9974e1a0ec2ff0021f35c22f44a253735a007b1be0d1d0418ef3579d16d6dfe",
+            "packed": false
+        },
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/apollolake-4.4.180/usbnet.ko",
+            "sha256": "d40ff8fd7a40f20cb42524bc335e4d8c245fee743ec18d911ed15775fec9c8e3",
+            "packed": false
+        },
+        {
+            "name": "check-usbnet.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/apollolake-4.4.180/check-usbnet.sh",
+            "sha256": "772ff49c86b95fda3b0f0df68a2db8ce8d745025d4a10227101507c3487a4b7c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "usbnet.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-usbnet.sh"
+    }
+}

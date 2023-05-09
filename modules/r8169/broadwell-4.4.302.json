@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.0",
+    "mod_version": "23.5.2",
     "files": [
         {
             "name": "mii.ko",
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwell-4.4.302/r8169_firmware.tag.gz",
-            "sha256": "dd7f4438bc6c119ca0a98b7f4788ef0461a5a85500bb2874f375fbb171628caa",
+            "sha256": "b099c7f280786ad07ea4ceff3adf187371e7613e36487e016aaf39973fea66df",
             "packed": false
         },
         {

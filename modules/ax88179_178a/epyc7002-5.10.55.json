@@ -1,0 +1,44 @@
+{
+    "mod_version": "23.5.2",
+    "files": [
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/epyc7002-5.10.55/usbnet.ko",
+            "sha256": "bc59cad48d6e5f90658c470411feae1f2abcc847f38ec166bd3a9525ebc82464",
+            "packed": false
+        },
+        {
+            "name": "usbcore.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/epyc7002-5.10.55/usbcore.ko",
+            "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
+            "packed": false
+        },
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/epyc7002-5.10.55/mii.ko",
+            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
+            "packed": false
+        },
+        {
+            "name": "ax88179_178a.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/epyc7002-5.10.55/ax88179_178a.ko",
+            "sha256": "878474cb9eccb8394e0465663c8a1b4c8063c70ef68c18be82f1360480e9a8fa",
+            "packed": false
+        },
+        {
+            "name": "check-ax88179_178a.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/epyc7002-5.10.55/check-ax88179_178a.sh",
+            "sha256": "d51b10f7bec2a2d616c87561a6455238ac00304f793f77332bd28a768c89b2d1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbnet.ko": "",
+        "usbcore.ko": "",
+        "mii.ko": "",
+        "ax88179_178a.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ax88179_178a.sh"
+    }
+}

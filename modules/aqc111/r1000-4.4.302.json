@@ -1,6 +1,12 @@
 {
-    "mod_version": "23.5.0",
+    "mod_version": "23.5.2",
     "files": [
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/r1000-4.4.302/usbnet.ko",
+            "sha256": "2b29aa2adffdd07534ce315f88f10c1e320ae05577783ab8912946a77aaca06b",
+            "packed": false
+        },
         {
             "name": "aqc111.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/r1000-4.4.302/aqc111.ko",
@@ -10,11 +16,12 @@
         {
             "name": "check-aqc111.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/r1000-4.4.302/check-aqc111.sh",
-            "sha256": "820f830e232a007720e2b3d1669d0cf8d40d072625dc7adb4972f0d4e2fc0086",
+            "sha256": "edf46bec2fad4e67b39a3fe3ffcea528b9064e6521373e2b45a956680ac2030c",
             "packed": false
         }
     ],
     "kmods": {
+        "usbnet.ko": "",
         "aqc111.ko": ""
     },
     "scripts": {

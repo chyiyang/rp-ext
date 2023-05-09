@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.0",
+    "mod_version": "23.5.2",
     "files": [
         {
             "name": "si2168.ko",
@@ -16,7 +16,7 @@
         {
             "name": "si2168_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/apollolake-4.4.59/si2168_firmware.tag.gz",
-            "sha256": "ba5eec2bc7f56ccb233af92331117500c888eb9b0ca6b8f6c31eb97918f51842",
+            "sha256": "93a6e3bbcef40935bb13a41824ae257db10e8136454281409eb3d630128469ed",
             "packed": false
         },
         {

@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.2",
+    "files": [
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/denverton-4.4.302/usbnet.ko",
+            "sha256": "076c1e8b9bdbce22afa22bd193324012574b3b495a5786e040199196a5e23b34",
+            "packed": false
+        },
+        {
+            "name": "r8153_ecm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/denverton-4.4.302/r8153_ecm.ko",
+            "sha256": "9b7379f3b97ced9e137b348f4b0961b6ac8782ad9b491601b793c2d258faec5a",
+            "packed": false
+        },
+        {
+            "name": "check-r8153_ecm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/denverton-4.4.302/check-r8153_ecm.sh",
+            "sha256": "c59a97b9f07aba38b02111603c585a20fd7641f7dce383daaea26bf5df3da22f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbnet.ko": "",
+        "r8153_ecm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8153_ecm.sh"
+    }
+}

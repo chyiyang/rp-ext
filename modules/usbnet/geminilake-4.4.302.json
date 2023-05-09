@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.5.2",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/geminilake-4.4.302/mii.ko",
+            "sha256": "ae4934bf54ad6d214a25ccbfbbb887fb35b12ea471e021253e53f2dec8c0b135",
+            "packed": false
+        },
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/geminilake-4.4.302/usbnet.ko",
+            "sha256": "3cb9340a657393a2114d6e7d2b5127969d7162aad30d6937ad565d727a757fe7",
+            "packed": false
+        },
+        {
+            "name": "check-usbnet.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/geminilake-4.4.302/check-usbnet.sh",
+            "sha256": "772ff49c86b95fda3b0f0df68a2db8ce8d745025d4a10227101507c3487a4b7c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "usbnet.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-usbnet.sh"
+    }
+}

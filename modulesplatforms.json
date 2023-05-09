@@ -27,6 +27,9 @@
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
@@ -306,6 +309,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -371,6 +377,9 @@
         },
         "uhci-hcd": {
             "description": "USB Universal Host Controller Interface driver"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -454,6 +463,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -653,6 +665,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -706,6 +721,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -780,6 +798,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -979,6 +1000,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -1033,6 +1057,9 @@
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
         },
+        "usbnet": {
+            "description": "USB network driver framework"
+        },
         "ushc": {
             "description": "USB SD Host Controller driver"
         },
@@ -1080,6 +1107,9 @@
         }
     },
     "braswell-3.10.105": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
@@ -1160,6 +1190,9 @@
         },
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
@@ -1220,6 +1253,9 @@
         }
     },
     "braswell-3.10.108": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
@@ -1300,6 +1336,9 @@
         },
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
@@ -1578,6 +1617,9 @@
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
@@ -1815,6 +1857,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -1871,6 +1916,9 @@
         },
         "uhci-hcd": {
             "description": "USB Universal Host Controller Interface driver"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -1951,6 +1999,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -2153,6 +2204,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -2206,6 +2260,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -2283,6 +2340,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -2527,6 +2587,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -2583,6 +2646,9 @@
         },
         "uhci-hcd": {
             "description": "USB Universal Host Controller Interface driver"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -2663,6 +2729,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -2865,6 +2934,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -2918,6 +2990,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -2992,6 +3067,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -3194,6 +3272,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -3247,6 +3328,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -3746,6 +3830,9 @@
         }
     },
     "denverton-4.4.180": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
@@ -3772,6 +3859,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -4019,8 +4109,20 @@
         "processor": {
             "description": "ACPI Processor Driver"
         },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "raid_class": {
             "description": "RAID device class"
@@ -4079,6 +4181,9 @@
         "uhci-hcd": {
             "description": "USB Universal Host Controller Interface driver"
         },
+        "usbnet": {
+            "description": "USB network driver framework"
+        },
         "ushc": {
             "description": "USB SD Host Controller driver"
         },
@@ -4132,6 +4237,9 @@
         }
     },
     "denverton-4.4.302": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
@@ -4155,6 +4263,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -4354,8 +4465,20 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "raid_class": {
             "description": "RAID device class"
@@ -4411,6 +4534,9 @@
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
         },
+        "usbnet": {
+            "description": "USB network driver framework"
+        },
         "ushc": {
             "description": "USB SD Host Controller driver"
         },
@@ -4458,6 +4584,9 @@
         }
     },
     "denverton-4.4.59": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
@@ -4481,6 +4610,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -4680,8 +4812,20 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "r8125": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
+        },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
+        "r8169": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "raid_class": {
             "description": "RAID device class"
@@ -4736,6 +4880,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -4807,6 +4954,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver"
@@ -5043,6 +5193,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -5314,6 +5467,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -5379,6 +5535,9 @@
         },
         "uhci-hcd": {
             "description": "USB Universal Host Controller Interface driver"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -5457,6 +5616,9 @@
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
@@ -5652,6 +5814,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -5705,6 +5870,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -5774,6 +5942,9 @@
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
@@ -5969,6 +6140,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -6022,6 +6196,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -6094,6 +6271,9 @@
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
@@ -6289,6 +6469,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -6342,6 +6525,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -6414,6 +6600,9 @@
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
@@ -6609,6 +6798,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -6662,6 +6854,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -6733,6 +6928,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
@@ -6929,6 +7127,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -6982,6 +7183,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -7059,6 +7263,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
@@ -7294,6 +7501,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -7356,6 +7566,9 @@
         },
         "uhci-hcd": {
             "description": "USB Universal Host Controller Interface driver"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -7436,6 +7649,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
@@ -7638,6 +7854,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -7697,6 +7916,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -7777,6 +7999,9 @@
         },
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
@@ -8015,6 +8240,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -8077,6 +8305,9 @@
         },
         "uhci-hcd": {
             "description": "USB Universal Host Controller Interface driver"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -8158,6 +8389,9 @@
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -8356,6 +8590,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -8415,6 +8652,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"
@@ -8490,6 +8730,9 @@
         "auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -8688,6 +8931,9 @@
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
+        "r8153_ecm": {
+            "description": "Realtek USB ECM device"
+        },
         "r8168": {
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
@@ -8747,6 +8993,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "usbnet": {
+            "description": "USB network driver framework"
         },
         "ushc": {
             "description": "USB SD Host Controller driver"

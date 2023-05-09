@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.5.2",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/braswell-3.10.105/mii.ko",
+            "sha256": "5355cb9ef54015fbfbf2b8f8a6550ecab0d7842463da03ab22d05034313bedc8",
+            "packed": false
+        },
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/braswell-3.10.105/r8169.ko",
+            "sha256": "4565d6ec6b9bb735bec281f882e7154d827a651ff5586517c2bb09ab8ee5029a",
+            "packed": false
+        },
+        {
+            "name": "check-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/braswell-3.10.105/check-r8169.sh",
+            "sha256": "cf7731f05a383d5b6b27b0d706b20cc9aedf3d2c2b4e3c3d026980d32bd20d50",
+            "packed": false
+        },
+        {
+            "name": "r8169_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/braswell-3.10.105/r8169_firmware.tag.gz",
+            "sha256": "6b77eca2ea49931d05499bd27456bf5173526b28e74124206e79e249f13e5152",
+            "packed": false
+        },
+        {
+            "name": "install-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/braswell-3.10.105/install-r8169.sh",
+            "sha256": "204148a30c10ee18f3a46d8555779e0781b3a438134b0e4612a9d9eaf2b5d9dc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8169.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169.sh",
+        "on_os_load": "install-r8169.sh"
+    }
+}

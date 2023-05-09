@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.5.2",
+    "files": [
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/apollolake-4.4.302/usbnet.ko",
+            "sha256": "8e6ade606bea2618d6af4b8eb609e958222537070c8eddced023d3c4bdbd6f77",
+            "packed": false
+        },
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/apollolake-4.4.302/mii.ko",
+            "sha256": "858d78fce1625ba3a8f2cae50117a7bbc042ce86e8eb0b109209d6a3fb1807cf",
+            "packed": false
+        },
+        {
+            "name": "ax88179_178a.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/apollolake-4.4.302/ax88179_178a.ko",
+            "sha256": "653c12df4d4fb75d24ae2901cefa39dacaba873687b27f2d71b84060b7d6d4bb",
+            "packed": false
+        },
+        {
+            "name": "check-ax88179_178a.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/apollolake-4.4.302/check-ax88179_178a.sh",
+            "sha256": "d794fac463662468f0ec88c1864541f22e0e44c02fc89b0861b4bc86793df3d2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbnet.ko": "",
+        "mii.ko": "",
+        "ax88179_178a.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ax88179_178a.sh"
+    }
+}

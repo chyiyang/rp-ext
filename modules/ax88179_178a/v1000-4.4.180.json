@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.5.2",
+    "files": [
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/v1000-4.4.180/usbnet.ko",
+            "sha256": "e826b73bb699ac6a706ac29a4dd3298542f541273fc211ba0dfb72a934ec2507",
+            "packed": false
+        },
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/v1000-4.4.180/mii.ko",
+            "sha256": "c5702bceedfdfa4e037a141feb18f35922345e2c244f1df4093094f5fbb1ec0a",
+            "packed": false
+        },
+        {
+            "name": "ax88179_178a.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/v1000-4.4.180/ax88179_178a.ko",
+            "sha256": "f4c208efdbfbb450efd10654660c9f78228dd360128b93c0ac7cce3ed7481b16",
+            "packed": false
+        },
+        {
+            "name": "check-ax88179_178a.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/v1000-4.4.180/check-ax88179_178a.sh",
+            "sha256": "d794fac463662468f0ec88c1864541f22e0e44c02fc89b0861b4bc86793df3d2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbnet.ko": "",
+        "mii.ko": "",
+        "ax88179_178a.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ax88179_178a.sh"
+    }
+}

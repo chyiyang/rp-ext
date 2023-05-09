@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.0",
+    "mod_version": "23.5.2",
     "files": [
         {
             "name": "si2168.ko",
@@ -16,7 +16,7 @@
         {
             "name": "si2168_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/broadwell-4.4.180/si2168_firmware.tag.gz",
-            "sha256": "605aa94dbdc282e831f195cc09187d4aaf4d1b4596cd9775af33c7d5993c1599",
+            "sha256": "687495e615a5c109006fa89b600a7205b5ffa8032c417566ef32d4117834ecd2",
             "packed": false
         },
         {

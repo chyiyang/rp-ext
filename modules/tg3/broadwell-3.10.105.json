@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.0",
+    "mod_version": "23.5.2",
     "files": [
         {
             "name": "tg3.ko",
@@ -16,7 +16,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwell-3.10.105/tg3_firmware.tag.gz",
-            "sha256": "ecb02219cec6667957271b4f898492b6c41fe143b23e1e069efb29079359092e",
+            "sha256": "1dfd7f9db7618507971dc828b68c110f809481f18016678bc4276d3026be058e",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.0",
+    "mod_version": "23.5.2",
     "files": [
         {
             "name": "mii.ko",
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/apollolake-4.4.59/r8169_firmware.tag.gz",
-            "sha256": "1e2d582c3f03caad6f9657a611b05e787865900b9d30b3db3c2666e7fe771c37",
+            "sha256": "f84b63637e18765399edbeec683f548943698ef700da12137131b571610253fa",
             "packed": false
         },
         {
