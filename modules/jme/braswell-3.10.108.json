@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.5.2",
+    "mod_version": "23.5.3",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/braswell-3.10.108/mii.ko",
-            "sha256": "cddfca14139b846d131c4b6b56ab48b8c99fb134bd4799666853f44c297fbc19",
+            "sha256": "763589711251458ace7c9752824ac8b9e3092232858baceed6152a8eaa6bc34d",
             "packed": false
         },
         {
             "name": "jme.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/braswell-3.10.108/jme.ko",
-            "sha256": "b16cf60fde3b97aa033cbef651a71965d492825d435aca31458379da18024735",
+            "sha256": "de353ca1cbc9c4cce2b5a8ab39317b3885018842820d8f79cb365d7d537b4e1d",
             "packed": false
         },
         {

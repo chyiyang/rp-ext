@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.2",
+    "mod_version": "23.5.3",
     "files": [
         {
             "name": "dvb-core.ko",
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/apollolake-4.4.180/m88ds3103_firmware.tag.gz",
-            "sha256": "09f35d0fe91960955af0bf94ab59163c8fbada07ba81fdae16051d625c63397b",
+            "sha256": "de515abd2c4005e27cf72801abb7f07432fc875f08c02ce968d8d8c06c79a305",
             "packed": false
         },
         {

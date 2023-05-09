@@ -1,20 +1,34 @@
 {
-    "mod_version": "23.5.2",
+    "mod_version": "23.5.3",
     "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/purley-4.4.59/scsi_transport_sas.ko",
+            "sha256": "5ba13a6a8b0bce20b5d0b63838f62f01a014bb99b14031cad4d7b900af32bcdc",
+            "packed": false
+        },
+        {
+            "name": "raid_class.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/purley-4.4.59/raid_class.ko",
+            "sha256": "57da3a910a9e18d956e3a32cc413bde76c648657eaa1da367f0771cae9da58ba",
+            "packed": false
+        },
         {
             "name": "mpt3sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/purley-4.4.59/mpt3sas.ko",
-            "sha256": "f54b77124bcc8840463bb9f56faebccbe9afffc888ee395705bae7a717b994fc",
+            "sha256": "193ee539bdde4090500282002689f3fd76a11b1330f39c6a7bef43ef2e351aa8",
             "packed": false
         },
         {
             "name": "check-mpt3sas.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/purley-4.4.59/check-mpt3sas.sh",
-            "sha256": "b36795c7b1be9bc0b80d5d05d9d89f30f6346a691ff001517e7fa5c8be2944b5",
+            "sha256": "e3f268587711d6166c9fadd283eb7ae7e1359fed3d183688be1827ac66cc429b",
             "packed": false
         }
     ],
     "kmods": {
+        "scsi_transport_sas.ko": "",
+        "raid_class.ko": "",
         "mpt3sas.ko": ""
     },
     "scripts": {

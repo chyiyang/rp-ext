@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.2",
+    "mod_version": "23.5.3",
     "files": [
         {
             "name": "si2157.ko",
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/purley-4.4.302/si2157_firmware.tag.gz",
-            "sha256": "b30593d6297ee9e3a3d68de15448c8ba17ef304df09dd110dca158afc2c6e688",
+            "sha256": "fe202f36ff0095ea83b039c984fa961694543fe9387496df4785f3f3f064fdf2",
             "packed": false
         },
         {

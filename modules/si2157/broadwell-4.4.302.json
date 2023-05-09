@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.2",
+    "mod_version": "23.5.3",
     "files": [
         {
             "name": "si2157.ko",
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwell-4.4.302/si2157_firmware.tag.gz",
-            "sha256": "f957997f926d0fd94facdf962b2472a803f4c4d31036e649be645a35e2cc33ba",
+            "sha256": "c18fa6ebd679da524e868830220c8642de13d2268de7ada4a7b431afd27818e6",
             "packed": false
         },
         {

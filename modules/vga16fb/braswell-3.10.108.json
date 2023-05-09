@@ -1,40 +1,40 @@
 {
-    "mod_version": "23.5.2",
+    "mod_version": "23.5.3",
     "files": [
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.108/cfbfillrect.ko",
-            "sha256": "264db50fbfe2ebddc26714de76f959a7cdfb38c6bf9bf085a8e7db02a4937d5c",
+            "sha256": "6d7b95c879d6092e1ca8e1e463589d97eeefaef1f891d5e2c63ce34c66539671",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.108/cfbimgblt.ko",
-            "sha256": "4a726e9a6720c5e81bc17354d9d95fdeec6f881dc7e58b689201bfba786dd970",
+            "sha256": "f83dabae75318cad53325daf0cc1ff556785c298e38e61567471aabaae257f54",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.108/cfbcopyarea.ko",
-            "sha256": "95b53d2195fe3023909016dbf25658273dde1de66f81ea229ddc3c38d65a816e",
+            "sha256": "283d5c81a6820cc364e057c915cb1084c51889a3232274f923745f6a1bf5d963",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.108/fb.ko",
-            "sha256": "1a87b74d00893464c63a29fdc231985877ef79009202b9cf5bb61695ae309f03",
+            "sha256": "3be17d481e22479d0b5a046814d714600e0101abe2a9e505cf6319161a716c04",
             "packed": false
         },
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.108/vgastate.ko",
-            "sha256": "c4488335018ff9cab060fc4abba8fb3284e2f3780650bbc4d6d0271acbb3496a",
+            "sha256": "81476451cda0b03771ed3e5ca2536a5eec3d876449bf358d18bada5e12ebb6c9",
             "packed": false
         },
         {
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.108/vga16fb.ko",
-            "sha256": "7bf5b92b4e2307a89b23898beca14773cd93cc1143e5400a1d7660692d41a840",
+            "sha256": "7b548e78591f7f9d84fe8fa6f2518fcafb475161df858d84759647cb822a01c2",
             "packed": false
         },
         {

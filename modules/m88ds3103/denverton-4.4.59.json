@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.2",
+    "mod_version": "23.5.3",
     "files": [
         {
             "name": "dvb-core.ko",
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.59/m88ds3103_firmware.tag.gz",
-            "sha256": "271395d44314b85c77dd530d076a9325e121b6173b88c411e5fa5299ea5d4769",
+            "sha256": "8cfc70f1fed17b00c7c544306e95035c4b70c75374ba65ba2533098136895617",
             "packed": false
         },
         {
