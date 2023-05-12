@@ -1,4 +1,18 @@
 {
+    "dtbstatic": {
+        "description": "Create your own device tree binary",
+        "url": "file",
+        "platforms": [
+            "_"
+        ]
+    },
+    "localrss": {
+        "description": "local rss",
+        "url": "file",
+        "platforms": [
+            "_"
+        ]
+    },
     "acpid2": {
         "description": "ACPI Daemon v2 that handles power button events",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/acpid2/rpext-index.json",
@@ -37,13 +51,6 @@
     "dtbpatch": {
         "description": "Update device tree binary automatically on boot",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/dtbpatch/rpext-index.json",
-        "platforms": [
-            "_"
-        ]
-    },
-    "dtbstatic": {
-        "description": "Create your own device tree binary",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/dtbstatic/rpext-index.json",
         "platforms": [
             "_"
         ]
