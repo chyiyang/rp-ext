@@ -69,6 +69,20 @@ jobs:
               addonDirs = os.listdir(os.path.join(root, 'addons'))
               addonDirs.sort()
               addons = {}
+
+              # redpill-load\ext
+
+              addons["dtbstatic"] = {
+                "description": "Create your own device tree binary",
+                "url": "file",
+                "platforms": [ "_" ]
+              }
+              addons["localrss"] = {
+                "description": "local rss",
+                "url": "file",
+                "platforms": [ "_" ]
+              }
+
               for addon in addonDirs:
                   if addon.startswith('.') or os.path.isfile(os.path.join(root, 'addons', addon)):
                       continue
