@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.3",
+    "mod_version": "23.5.4",
     "files": [
         {
             "name": "usbcore.ko",
@@ -10,7 +10,7 @@
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-5.10.55/mii.ko",
-            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
+            "sha256": "ee9bdce11cbaa2925cbfe0c19769e5279fe720388a730d7ba6f0216d2c8c7d6d",
             "packed": false
         },
         {

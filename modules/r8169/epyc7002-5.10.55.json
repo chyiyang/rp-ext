@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.3",
+    "mod_version": "23.5.4",
     "files": [
         {
             "name": "libphy.ko",
@@ -16,7 +16,7 @@
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-5.10.55/r8169.ko",
-            "sha256": "9a25a177856692ba90e7e072ddd641feb667182551c4d09e3a2a8e7cb53660fc",
+            "sha256": "6f67b90673b8f48ea69e65a266ef8f878222bd9984e02232dd419e3cc6285c1c",
             "packed": false
         },
         {
@@ -28,7 +28,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-5.10.55/r8169_firmware.tag.gz",
-            "sha256": "04b2366ad247ce048d722c2183dc978e9a871c92458614a294d9e1f4e2256aa5",
+            "sha256": "9b2de5c55f3f6a1d3b5e6b3a610afb1c308dc388d27533f589a1238c8a928312",
             "packed": false
         },
         {

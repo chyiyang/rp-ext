@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.5.4",
+    "files": [
+        {
+            "name": "libsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/denverton-4.4.59/libsas.ko",
+            "sha256": "9f0d4d71413fb44c0280214967c084031b0c2aa5af17e5114991741c0c251300",
+            "packed": false
+        },
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/denverton-4.4.59/scsi_transport_sas.ko",
+            "sha256": "fceb242270dda007d523b0540c2e718564b02b460fbbebf589fd40fea392b158",
+            "packed": false
+        },
+        {
+            "name": "aic94xx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/denverton-4.4.59/aic94xx.ko",
+            "sha256": "073484c6780c174e6fa0390972d8ab323395b1e75e1461265c4c1d7b212d2054",
+            "packed": false
+        },
+        {
+            "name": "check-aic94xx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/denverton-4.4.59/check-aic94xx.sh",
+            "sha256": "6db4adc450e61ed3a6dc061bf1aa1cba257e3d18ceb2ba60719c9b9432d54cb3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libsas.ko": "",
+        "scsi_transport_sas.ko": "",
+        "aic94xx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aic94xx.sh"
+    }
+}

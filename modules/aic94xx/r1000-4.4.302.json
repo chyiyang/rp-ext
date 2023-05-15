@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.5.4",
+    "files": [
+        {
+            "name": "libsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/r1000-4.4.302/libsas.ko",
+            "sha256": "9ac0c9609a7310609b57553aa4bcec4b85931d42c41e467c90aa7ea417c3ee7e",
+            "packed": false
+        },
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/r1000-4.4.302/scsi_transport_sas.ko",
+            "sha256": "7cbf14f614bf043d40674b55b1b765d077e76e9ce453e7d6ab9fe0658565aa44",
+            "packed": false
+        },
+        {
+            "name": "aic94xx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/r1000-4.4.302/aic94xx.ko",
+            "sha256": "2845a4ef2be4f72a7f1e4e2d723a59366cc0be4347998e0106da7e18594fb37b",
+            "packed": false
+        },
+        {
+            "name": "check-aic94xx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/r1000-4.4.302/check-aic94xx.sh",
+            "sha256": "6db4adc450e61ed3a6dc061bf1aa1cba257e3d18ceb2ba60719c9b9432d54cb3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libsas.ko": "",
+        "scsi_transport_sas.ko": "",
+        "aic94xx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aic94xx.sh"
+    }
+}

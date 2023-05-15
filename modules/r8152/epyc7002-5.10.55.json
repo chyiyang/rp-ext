@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.3",
+    "mod_version": "23.5.4",
     "files": [
         {
             "name": "usbcore.ko",
@@ -10,13 +10,13 @@
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/mii.ko",
-            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
+            "sha256": "ee9bdce11cbaa2925cbfe0c19769e5279fe720388a730d7ba6f0216d2c8c7d6d",
             "packed": false
         },
         {
             "name": "r8152.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/r8152.ko",
-            "sha256": "6d7b9c8491189b3ca2328d6074001365199308c2291a34d0b08d94afb034ba15",
+            "sha256": "c58527e5933865cbb0448aed6754ebd281e91a1e4eb4c0a9ddfc228a546633cd",
             "packed": false
         },
         {
@@ -28,7 +28,7 @@
         {
             "name": "r8152_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/r8152_firmware.tag.gz",
-            "sha256": "27e20e39cb9f9a3b4cd5a2f0e8b22258760e060f631c12e8187db36fa5c8d693",
+            "sha256": "2d1fe0b3625ec3ecbbe56d26907b4264a5ca80618c70944358bdf376603a0f5b",
             "packed": false
         },
         {

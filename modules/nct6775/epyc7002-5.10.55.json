@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.5.3",
+    "mod_version": "23.5.4",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/epyc7002-5.10.55/hwmon-vid.ko",
-            "sha256": "937482b398a1584c0a34bd5c6d4dff5214ed6a9fbc5cab91241d06d02bdb5e0f",
+            "sha256": "030704963480f95a1d40ac87fe5c93ac9e3b0f69274d9c9132a82e0e8533bfd0",
             "packed": false
         },
         {
             "name": "nct6775.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/epyc7002-5.10.55/nct6775.ko",
-            "sha256": "158af968b80ae144100f34e517b14514c0ed941237add44e94fe272fb054b2f7",
+            "sha256": "a3862258243219283f1072cbc02ca98cadd22d5ca4c3a97ad943d40b50f44547",
             "packed": false
         },
         {

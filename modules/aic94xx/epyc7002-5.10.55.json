@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.5.4",
+    "files": [
+        {
+            "name": "libsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/epyc7002-5.10.55/libsas.ko",
+            "sha256": "e51b883599d3c0496bee84bdbeca2b80e054791977ac0867fb6d025706bf82c8",
+            "packed": false
+        },
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/epyc7002-5.10.55/scsi_transport_sas.ko",
+            "sha256": "800ed4e05c7608ed81cbb55632cd76d6cd086c03c7b73a9020690e89ebaf22a8",
+            "packed": false
+        },
+        {
+            "name": "aic94xx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/epyc7002-5.10.55/aic94xx.ko",
+            "sha256": "321e0a7a5167d5a3a9cf4b70d1c6094eafde6604b8f2f34db26d310515127bdb",
+            "packed": false
+        },
+        {
+            "name": "check-aic94xx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/epyc7002-5.10.55/check-aic94xx.sh",
+            "sha256": "6db4adc450e61ed3a6dc061bf1aa1cba257e3d18ceb2ba60719c9b9432d54cb3",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libsas.ko": "",
+        "scsi_transport_sas.ko": "",
+        "aic94xx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aic94xx.sh"
+    }
+}

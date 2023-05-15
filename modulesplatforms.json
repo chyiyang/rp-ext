@@ -6,6 +6,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -443,6 +446,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -777,6 +783,9 @@
         },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
@@ -1593,6 +1602,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -1979,6 +1991,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -2316,6 +2331,9 @@
         },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
@@ -2709,6 +2727,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -3046,6 +3067,9 @@
         },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
@@ -3836,6 +3860,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -4243,6 +4270,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -4590,6 +4620,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -4931,8 +4964,14 @@
         }
     },
     "epyc7002-5.10.55": {
+        "8139cp": {
+            "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
@@ -5038,6 +5077,9 @@
         },
         "libphy": {
             "description": "PHY library"
+        },
+        "libsas": {
+            "description": "SAS Transport Layer"
         },
         "mdio": {
             "description": "Generic support for MDIO-compatible transceivers"
@@ -5175,6 +5217,9 @@
     "geminilake-4.4.180": {
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
@@ -5598,6 +5643,9 @@
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -5923,6 +5971,9 @@
     "geminilake-4.4.59": {
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
@@ -6253,6 +6304,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -6581,6 +6635,9 @@
         },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
@@ -6911,6 +6968,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -7239,6 +7299,9 @@
         },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
@@ -7629,6 +7692,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -7972,6 +8038,9 @@
         },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
@@ -8368,6 +8437,9 @@
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
         },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -8708,6 +8780,9 @@
         },
         "acpi-cpufreq": {
             "description": "ACPI Processor P-States Driver"
+        },
+        "aic94xx": {
+            "description": "Adaptec aic94xx SAS/SATA driver"
         },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
