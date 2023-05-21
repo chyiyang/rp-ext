@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.4",
+    "mod_version": "23.5.5",
     "files": [
         {
             "name": "libphy.ko",
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/apollolake-4.4.302/tg3_firmware.tag.gz",
-            "sha256": "753564fc7df3470fb6805859004661767962eeba33bb3c9f56adf2e8a6891add",
+            "sha256": "590fa6658ef6073c4fc2d1e8df4304743d6a11f446b553ac645ee4b4f981420d",
             "packed": false
         },
         {

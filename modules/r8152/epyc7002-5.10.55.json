@@ -1,34 +1,28 @@
 {
-    "mod_version": "23.5.4",
+    "mod_version": "23.5.5",
     "files": [
-        {
-            "name": "usbcore.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/usbcore.ko",
-            "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
-            "packed": false
-        },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/mii.ko",
-            "sha256": "ee9bdce11cbaa2925cbfe0c19769e5279fe720388a730d7ba6f0216d2c8c7d6d",
+            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
             "packed": false
         },
         {
             "name": "r8152.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/r8152.ko",
-            "sha256": "c58527e5933865cbb0448aed6754ebd281e91a1e4eb4c0a9ddfc228a546633cd",
+            "sha256": "6d7b9c8491189b3ca2328d6074001365199308c2291a34d0b08d94afb034ba15",
             "packed": false
         },
         {
             "name": "check-r8152.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/check-r8152.sh",
-            "sha256": "9aa13ac01c152e5c90e25263b93b94671355ec18c72128298b2fc1c8a5269dcd",
+            "sha256": "d82a02c667a4f6c360b34efe596c03b3780ff1548fb10e372dd2798c57c497b1",
             "packed": false
         },
         {
             "name": "r8152_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-5.10.55/r8152_firmware.tag.gz",
-            "sha256": "2d1fe0b3625ec3ecbbe56d26907b4264a5ca80618c70944358bdf376603a0f5b",
+            "sha256": "2b5fd6f2db45895feb87f6f14fd5435d6deea7d26ab66ead58e2b27a1adc1523",
             "packed": false
         },
         {
@@ -39,7 +33,6 @@
         }
     ],
     "kmods": {
-        "usbcore.ko": "",
         "mii.ko": "",
         "r8152.ko": ""
     },

@@ -4991,9 +4991,6 @@
         "atlantic_v2": {
             "description": "Marvell (Aquantia) Corporation(R) Network Driver"
         },
-        "auxiliary": {
-            "description": "Auxiliary Bus Standalone"
-        },
         "ax88179_178a": {
             "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
@@ -5044,9 +5041,6 @@
         },
         "hwmon-vid": {
             "description": "hwmon-vid driver"
-        },
-        "i2c-algo-bit": {
-            "description": "I2C-Bus bit-banging algorithm"
         },
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
@@ -5114,9 +5108,6 @@
         "net_failover": {
             "description": "Failover driver for Paravirtual drivers"
         },
-        "qla2xxx": {
-            "description": "QLogic Fibre Channel HBA Driver"
-        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -5150,38 +5141,14 @@
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
         },
-        "usb-common": {
-            "description": ""
-        },
-        "usb-storage": {
-            "description": "USB Mass Storage driver for Linux"
-        },
-        "usbcore": {
-            "description": ""
-        },
-        "usbhid": {
-            "description": "USB HID core driver"
-        },
-        "usbip-core": {
-            "description": "USB/IP Core"
-        },
-        "usbip-host": {
-            "description": "USB/IP Host Driver"
-        },
         "usbnet": {
             "description": "USB network driver framework"
-        },
-        "usbserial": {
-            "description": "USB Serial Driver core"
         },
         "vesafb": {
             "description": ""
         },
         "virtio": {
             "description": ""
-        },
-        "virtio_blk": {
-            "description": "Virtio block driver"
         },
         "virtio_input": {
             "description": "Virtio input device driver"
@@ -5206,12 +5173,6 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
-        },
-        "xhci-hcd": {
-            "description": "'eXtensible' Host Controller (xHC) Driver"
-        },
-        "xhci-pci": {
-            "description": "xHCI PCI Host Controller Driver"
         }
     },
     "geminilake-4.4.180": {

@@ -1,33 +1,26 @@
 {
-    "mod_version": "23.5.4",
+    "mod_version": "23.5.5",
     "files": [
-        {
-            "name": "usbcore.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-5.10.55/usbcore.ko",
-            "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
-            "packed": false
-        },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-5.10.55/mii.ko",
-            "sha256": "ee9bdce11cbaa2925cbfe0c19769e5279fe720388a730d7ba6f0216d2c8c7d6d",
+            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-5.10.55/usbnet.ko",
-            "sha256": "bc59cad48d6e5f90658c470411feae1f2abcc847f38ec166bd3a9525ebc82464",
+            "sha256": "b7f992de1887c95dd4643a04521d05f38f592aaf83788960ed31c1ce0b77e915",
             "packed": false
         },
         {
             "name": "check-usbnet.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-5.10.55/check-usbnet.sh",
-            "sha256": "da4d874ee44f8c8fa3ad194e13140f6f9bc5e81e201b8dad7ed05af60ea06c8b",
+            "sha256": "772ff49c86b95fda3b0f0df68a2db8ce8d745025d4a10227101507c3487a4b7c",
             "packed": false
         }
     ],
     "kmods": {
-        "usbcore.ko": "",
         "mii.ko": "",
         "usbnet.ko": ""
     },

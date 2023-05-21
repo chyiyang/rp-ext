@@ -1,12 +1,6 @@
 {
-    "mod_version": "23.5.4",
+    "mod_version": "23.5.5",
     "files": [
-        {
-            "name": "usbcore.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/epyc7002-5.10.55/usbcore.ko",
-            "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
-            "packed": false
-        },
         {
             "name": "ehci-hcd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/epyc7002-5.10.55/ehci-hcd.ko",
@@ -22,12 +16,11 @@
         {
             "name": "check-ehci-pci.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/epyc7002-5.10.55/check-ehci-pci.sh",
-            "sha256": "64823441e21c1ef390599f9a850901259172a63ee65761926dfbfe38e774348a",
+            "sha256": "3b6c212f8b0ea7bee398f97ed6d1cb73d5f4e08f8c986dae9064146d9b1ee907",
             "packed": false
         }
     ],
     "kmods": {
-        "usbcore.ko": "",
         "ehci-hcd.ko": "",
         "ehci-pci.ko": ""
     },

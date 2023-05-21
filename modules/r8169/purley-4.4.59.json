@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.4",
+    "mod_version": "23.5.5",
     "files": [
         {
             "name": "mii.ko",
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.59/r8169_firmware.tag.gz",
-            "sha256": "a573040947100e73101ebb26306c16a69c57dbec0d12be9e31e6c84fc5dbbec6",
+            "sha256": "cc150eaefef0b7e94a34b782d260665d53fe90351aceebc9368abd9426110fc6",
             "packed": false
         },
         {

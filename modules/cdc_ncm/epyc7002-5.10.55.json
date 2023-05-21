@@ -1,34 +1,27 @@
 {
-    "mod_version": "23.5.4",
+    "mod_version": "23.5.5",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-5.10.55/usbnet.ko",
-            "sha256": "bc59cad48d6e5f90658c470411feae1f2abcc847f38ec166bd3a9525ebc82464",
-            "packed": false
-        },
-        {
-            "name": "usbcore.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-5.10.55/usbcore.ko",
-            "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
+            "sha256": "b7f992de1887c95dd4643a04521d05f38f592aaf83788960ed31c1ce0b77e915",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-5.10.55/cdc_ncm.ko",
-            "sha256": "cfc32fd0d07e98383b16e45b4340acb9b81aae144eb8165455c420fd3b15927b",
+            "sha256": "31d0f8b0b5560797874c72be57cff98b902d57aca09448ad886273dd085b6c3e",
             "packed": false
         },
         {
             "name": "check-cdc_ncm.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-5.10.55/check-cdc_ncm.sh",
-            "sha256": "c613e68b59267de66cde53800f8d16222defc6abd7780bef489d18a4e2301266",
+            "sha256": "840a124f5d42d6be6152b099032e88fbd1d43cfbbd91928df4ca8dccdcbbb34c",
             "packed": false
         }
     ],
     "kmods": {
         "usbnet.ko": "",
-        "usbcore.ko": "",
         "cdc_ncm.ko": ""
     },
     "scripts": {

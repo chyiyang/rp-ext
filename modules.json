@@ -306,7 +306,6 @@
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
-            "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "geminilake-4.4.302",
             "geminilake-4.4.59",
@@ -1452,7 +1451,6 @@
             "broadwellnk-4.4.180",
             "bromolow-3.10.108",
             "denverton-4.4.180",
-            "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "r1000-4.4.180",
             "v1000-4.4.180"
@@ -2711,8 +2709,7 @@
         "description": "QLogic Fibre Channel HBA Driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/rpext-index.json",
         "platforms": [
-            "broadwell-4.4.180",
-            "epyc7002-5.10.55"
+            "broadwell-4.4.180"
         ]
     },
     "r8125": {
@@ -3422,48 +3419,6 @@
             "v1000-4.4.180"
         ]
     },
-    "usb-common": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-common/rpext-index.json",
-        "platforms": [
-            "epyc7002-5.10.55"
-        ]
-    },
-    "usb-storage": {
-        "description": "USB Mass Storage driver for Linux",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usb-storage/rpext-index.json",
-        "platforms": [
-            "epyc7002-5.10.55"
-        ]
-    },
-    "usbcore": {
-        "description": "",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbcore/rpext-index.json",
-        "platforms": [
-            "epyc7002-5.10.55"
-        ]
-    },
-    "usbhid": {
-        "description": "USB HID core driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbhid/rpext-index.json",
-        "platforms": [
-            "epyc7002-5.10.55"
-        ]
-    },
-    "usbip-core": {
-        "description": "USB/IP Core",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbip-core/rpext-index.json",
-        "platforms": [
-            "epyc7002-5.10.55"
-        ]
-    },
-    "usbip-host": {
-        "description": "USB/IP Host Driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbip-host/rpext-index.json",
-        "platforms": [
-            "epyc7002-5.10.55"
-        ]
-    },
     "usbnet": {
         "description": "USB network driver framework",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/rpext-index.json",
@@ -3491,13 +3446,6 @@
             "v1000-4.4.180",
             "v1000-4.4.302",
             "v1000-4.4.59"
-        ]
-    },
-    "usbserial": {
-        "description": "USB Serial Driver core",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbserial/rpext-index.json",
-        "platforms": [
-            "epyc7002-5.10.55"
         ]
     },
     "ushc": {
@@ -3701,13 +3649,6 @@
             "v1000-4.4.180",
             "v1000-4.4.302",
             "v1000-4.4.59"
-        ]
-    },
-    "virtio_blk": {
-        "description": "Virtio block driver",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_blk/rpext-index.json",
-        "platforms": [
-            "epyc7002-5.10.55"
         ]
     },
     "virtio_input": {
@@ -4014,7 +3955,6 @@
             "broadwellnk-4.4.180",
             "bromolow-3.10.108",
             "denverton-4.4.180",
-            "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "r1000-4.4.180",
             "v1000-4.4.180"
@@ -4028,7 +3968,6 @@
             "broadwell-4.4.180",
             "broadwellnk-4.4.180",
             "denverton-4.4.180",
-            "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "r1000-4.4.180",
             "v1000-4.4.180"

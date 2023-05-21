@@ -1,34 +1,27 @@
 {
-    "mod_version": "23.5.4",
+    "mod_version": "23.5.5",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/epyc7002-5.10.55/usbnet.ko",
-            "sha256": "bc59cad48d6e5f90658c470411feae1f2abcc847f38ec166bd3a9525ebc82464",
-            "packed": false
-        },
-        {
-            "name": "usbcore.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/epyc7002-5.10.55/usbcore.ko",
-            "sha256": "87d10a83fd41af9cd2041ab4552b56ea89acae538842e5408ce765b4285e81d8",
+            "sha256": "b7f992de1887c95dd4643a04521d05f38f592aaf83788960ed31c1ce0b77e915",
             "packed": false
         },
         {
             "name": "aqc111.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/epyc7002-5.10.55/aqc111.ko",
-            "sha256": "cb9a53af4af5c19f3ab802409dc36f7bb9705008f7680c063b0e353877668ad2",
+            "sha256": "462f7c4ed81885faa73e3ec31580b9d229c63a197569bd4cdc6b1536a4d6d5de",
             "packed": false
         },
         {
             "name": "check-aqc111.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/epyc7002-5.10.55/check-aqc111.sh",
-            "sha256": "dd61ad6f2de0d975c48e5c28208f3497ab146b2b4f5ca537ffe5bf94675e9a05",
+            "sha256": "edf46bec2fad4e67b39a3fe3ffcea528b9064e6521373e2b45a956680ac2030c",
             "packed": false
         }
     ],
     "kmods": {
         "usbnet.ko": "",
-        "usbcore.ko": "",
         "aqc111.ko": ""
     },
     "scripts": {
