@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.5",
+    "mod_version": "",
     "files": [
         {
             "name": "mdio.ko",
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/cxgb3_firmware.tag.gz",
-            "sha256": "bf7d9571dc7f47920f58df9c990501acdf928b5357654799565bb324ab9b1cc8",
+            "sha256": "33de8c8c04c98c96494aa6ec04a3b94b922c63c968101ab02cd6075ed7269fab",
             "packed": false
         },
         {

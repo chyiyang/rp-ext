@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.5",
+    "mod_version": "",
     "files": [
         {
             "name": "mdio.ko",
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.59/cxgb3_firmware.tag.gz",
-            "sha256": "c0297ef68aa9f17ff0b958d443be965c624313ca548cc1d404362488cf74766e",
+            "sha256": "b1dbe60d6cd41d19a2087bf1e586a212097c4a8218be5cd684879e1afe03ae93",
             "packed": false
         },
         {
