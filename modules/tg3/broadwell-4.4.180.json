@@ -1,5 +1,5 @@
 {
-    "mod_version": "",
+    "mod_version": "23.5.5",
     "files": [
         {
             "name": "libphy.ko",
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwell-4.4.180/tg3_firmware.tag.gz",
-            "sha256": "ad266c17e8fae5fd108b027c9b662ffc42961b74aec579e2203519ee59baf7b9",
+            "sha256": "b7f44f9bac63a26133baacdf13b0cd76522b94d5d6c765a42680fcf7711dce6c",
             "packed": false
         },
         {

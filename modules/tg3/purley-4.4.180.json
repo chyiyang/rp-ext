@@ -1,5 +1,5 @@
 {
-    "mod_version": "",
+    "mod_version": "23.5.5",
     "files": [
         {
             "name": "libphy.ko",
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/purley-4.4.180/tg3_firmware.tag.gz",
-            "sha256": "ff595642bf68f2d0abd33622607f1b6abb6c73326f26d98cdeb4dee609205e23",
+            "sha256": "ddfd8fc2b52cb469a95bd4078e9c2f71f6c56b768cac3e6a71808edf114718ed",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "",
+    "mod_version": "23.5.5",
     "files": [
         {
             "name": "libphy.ko",
@@ -28,7 +28,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-5.10.55/r8169_firmware.tag.gz",
-            "sha256": "96ee80945d7347aa0705da50a80b9779af2843c89fbb1343702f34db2f4291ed",
+            "sha256": "46c7656165ccf1abac75540cd012e1a342b5d5094dc9faf16cf608f27a695326",
             "packed": false
         },
         {
