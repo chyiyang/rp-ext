@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/apollolake-4.4.180/hwmon-vid.ko",
+            "sha256": "a65a6571424915b7320582d2e35fe14c06f8d04f3e202bd9000a70ce4f6ac6f2",
+            "packed": false
+        },
+        {
+            "name": "dme1737.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/apollolake-4.4.180/dme1737.ko",
+            "sha256": "a3be0460bacc6da93f0065fcb833893d7c9fd64c3c273d51c28c9334bfdaf8eb",
+            "packed": false
+        },
+        {
+            "name": "check-dme1737.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/apollolake-4.4.180/check-dme1737.sh",
+            "sha256": "8804cf96688ac9fec95240d66c80803fce36ae9877aa8b51ca4f8b9a140ac8e8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "dme1737.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dme1737.sh"
+    }
+}

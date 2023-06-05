@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/denverton-4.4.302/hwmon-vid.ko",
+            "sha256": "75627408a6679bf43a11646facc70f33e1e7a9c0ff765b1c2fa0b742661c26b9",
+            "packed": false
+        },
+        {
+            "name": "check-hwmon-vid.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hwmon-vid/denverton-4.4.302/check-hwmon-vid.sh",
+            "sha256": "dc1dfa3465691f8f7546bdd76605159f3f442b46b1d89576d582dc059bfa967f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hwmon-vid.sh"
+    }
+}

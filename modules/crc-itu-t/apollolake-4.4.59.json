@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/apollolake-4.4.59/crc-itu-t.ko",
+            "sha256": "48101a1a79f72c3e979484e2cf895aa2ac833346462300fd3d709a3cab53a1b9",
+            "packed": false
+        },
+        {
+            "name": "check-crc-itu-t.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/apollolake-4.4.59/check-crc-itu-t.sh",
+            "sha256": "41dfe6680f175a93dc96e1bc8a72f3a193b8a64c058b8d3edaf612ba3b420a38",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-itu-t.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-itu-t.sh"
+    }
+}

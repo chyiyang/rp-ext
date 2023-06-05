@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/purley-4.4.59/crc-itu-t.ko",
+            "sha256": "a9c97a3155873787f220bf1217635631dc45aea0b59cfed7be23afdaab8859bb",
+            "packed": false
+        },
+        {
+            "name": "check-crc-itu-t.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/purley-4.4.59/check-crc-itu-t.sh",
+            "sha256": "41dfe6680f175a93dc96e1bc8a72f3a193b8a64c058b8d3edaf612ba3b420a38",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-itu-t.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-itu-t.sh"
+    }
+}

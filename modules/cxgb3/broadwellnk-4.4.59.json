@@ -1,6 +1,12 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.59/mdio.ko",
+            "sha256": "80e5e3712d1ac6e8ea859b0bd3dbead0f80a07919dc42a6070ae79f0a81d09fe",
+            "packed": false
+        },
         {
             "name": "cxgb3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.59/cxgb3.ko",
@@ -10,13 +16,13 @@
         {
             "name": "check-cxgb3.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.59/check-cxgb3.sh",
-            "sha256": "f701cea7da479fa7017043e49ad36efc4c1e4cbe80b7de25536cd5025026964a",
+            "sha256": "027e543cf8b835b88abe7c6904ab386046c9a559aa977d6382009ce8e25fd260",
             "packed": false
         },
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.59/cxgb3_firmware.tag.gz",
-            "sha256": "5bfb908e1010a5d397cd0dcc53260b9935de310d88194dc7c4ebd63111fa9f16",
+            "sha256": "7ff51f2091c19d8336081a66eb47071b1a9574a81569bf6f8753e03794a4e8da",
             "packed": false
         },
         {
@@ -27,6 +33,7 @@
         }
     ],
     "kmods": {
+        "mdio.ko": "",
         "cxgb3.ko": ""
     },
     "scripts": {

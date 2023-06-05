@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/denverton-4.4.302/crc-itu-t.ko",
+            "sha256": "82e0ef3acb7c55649770929be38179f8eaacd337be3681b7b60688be79b508a8",
+            "packed": false
+        },
+        {
+            "name": "check-crc-itu-t.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/denverton-4.4.302/check-crc-itu-t.sh",
+            "sha256": "41dfe6680f175a93dc96e1bc8a72f3a193b8a64c058b8d3edaf612ba3b420a38",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-itu-t.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-itu-t.sh"
+    }
+}

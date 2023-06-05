@@ -1,20 +1,27 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/v1000-4.4.59/crc-itu-t.ko",
+            "sha256": "aad0526a52885a9d80aebde77c8885ff3d236ebbdd8b745ff54acfefa16bf663",
+            "packed": false
+        },
         {
             "name": "atlantic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/v1000-4.4.59/atlantic.ko",
-            "sha256": "24fd97adea25dfded18066d1d910dff2910f15fd6fbee31f87809b996349f50c",
+            "sha256": "b4fdc1e64811918dce0a13631386ae18d1e1ef71bebc3d9bbeafac55514f08f3",
             "packed": false
         },
         {
             "name": "check-atlantic.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/v1000-4.4.59/check-atlantic.sh",
-            "sha256": "ff18bed51b50c402e1ec2aa26d7f54e870513b21d6e226f901bd9216d6fafe78",
+            "sha256": "a2b5534ccdf7f6656b59f6513feb0c0107fc28b2e4c6a00fa04eb19574a81c49",
             "packed": false
         }
     ],
     "kmods": {
+        "crc-itu-t.ko": "",
         "atlantic.ko": ""
     },
     "scripts": {

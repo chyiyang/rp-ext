@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/purley-4.4.59/hwmon-vid.ko",
+            "sha256": "0342fb53c9939acb6677dd1420a68bad0daf3d2f731283ca6463ffb10c9eec19",
+            "packed": false
+        },
+        {
+            "name": "dme1737.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/purley-4.4.59/dme1737.ko",
+            "sha256": "694d2438f9f0138956934534ed1fa3ff83e4b1b190920d3b4d8a4b4b0c5af933",
+            "packed": false
+        },
+        {
+            "name": "check-dme1737.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/purley-4.4.59/check-dme1737.sh",
+            "sha256": "8804cf96688ac9fec95240d66c80803fce36ae9877aa8b51ca4f8b9a140ac8e8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "dme1737.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dme1737.sh"
+    }
+}

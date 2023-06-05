@@ -1,20 +1,27 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/purley-4.4.302/crc-itu-t.ko",
+            "sha256": "a1bad937b01bb48be0a473445ab5e01eebec6f9dde41b9f4732af4a30b822d38",
+            "packed": false
+        },
         {
             "name": "atlantic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/purley-4.4.302/atlantic.ko",
-            "sha256": "73e61e975d91d3b46f7ecd54bf74b08687b5b31cdddaf0431bc300d3fcb96ae6",
+            "sha256": "eb21b3854a4f87d18fe52b00faa4759b50a99d68c3f8b0d80fd9f21c3f15070e",
             "packed": false
         },
         {
             "name": "check-atlantic.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/purley-4.4.302/check-atlantic.sh",
-            "sha256": "ff18bed51b50c402e1ec2aa26d7f54e870513b21d6e226f901bd9216d6fafe78",
+            "sha256": "a2b5534ccdf7f6656b59f6513feb0c0107fc28b2e4c6a00fa04eb19574a81c49",
             "packed": false
         }
     ],
     "kmods": {
+        "crc-itu-t.ko": "",
         "atlantic.ko": ""
     },
     "scripts": {

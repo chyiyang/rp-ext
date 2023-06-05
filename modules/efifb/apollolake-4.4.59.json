@@ -1,6 +1,30 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/apollolake-4.4.59/cfbimgblt.ko",
+            "sha256": "7088a89e0b58c87781ef1231fefca1d0110199840e97598b934f9a44af575c82",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/apollolake-4.4.59/cfbcopyarea.ko",
+            "sha256": "4fe9e6e31c26b6adbc394588463f388756111cf9160588a584a4e046b5e57da5",
+            "packed": false
+        },
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/apollolake-4.4.59/cfbfillrect.ko",
+            "sha256": "d510eb38ff090584428f98aa594e82e0418a2edc60a4e0a1d7cd526cbea8b199",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/apollolake-4.4.59/fb.ko",
+            "sha256": "57484c162d2de45717c3e1d3c82d08fe3ddd8e698f870cd3c0e539d3491f0d77",
+            "packed": false
+        },
         {
             "name": "efifb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/apollolake-4.4.59/efifb.ko",
@@ -10,11 +34,15 @@
         {
             "name": "check-efifb.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/apollolake-4.4.59/check-efifb.sh",
-            "sha256": "38eaf511b3353b5e332a747f7bf8c54053e5c9d6d8b7cd72a89977d210b79a03",
+            "sha256": "3c79b757f76602dd9faa98ec886039153624ddbbb0ed1260238a0761529b46f8",
             "packed": false
         }
     ],
     "kmods": {
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "cfbfillrect.ko": "",
+        "fb.ko": "",
         "efifb.ko": ""
     },
     "scripts": {

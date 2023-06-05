@@ -1,6 +1,30 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.59/cfbcopyarea.ko",
+            "sha256": "2f0b008725d78a03284b3f393057b45268d3969bd4cf44432a428514ea265d9b",
+            "packed": false
+        },
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.59/cfbfillrect.ko",
+            "sha256": "c39092dcc2373de54d07b1910adf0b1451e1d6a80bf7d77e62fd0dbb9d478975",
+            "packed": false
+        },
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.59/cfbimgblt.ko",
+            "sha256": "1bad495122d5f8f1621da33951943f74312bddb59c96107304647244788595e3",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.59/fb.ko",
+            "sha256": "4c3e2f50398974a1702d93d5fc504448a63141990b3a8da98d6aeec55129b2f8",
+            "packed": false
+        },
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.59/vgastate.ko",
@@ -16,11 +40,15 @@
         {
             "name": "check-vga16fb.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.59/check-vga16fb.sh",
-            "sha256": "2cb2c797b01e457b8ae219847ca939adfe97f74a02dab73dc05c76ae17ca6148",
+            "sha256": "0429157f59aab13c797a00d82f9ed56b459bbcbff8fb4b36d13afab3e8472814",
             "packed": false
         }
     ],
     "kmods": {
+        "cfbcopyarea.ko": "",
+        "cfbfillrect.ko": "",
+        "cfbimgblt.ko": "",
+        "fb.ko": "",
         "vgastate.ko": "",
         "vga16fb.ko": ""
     },

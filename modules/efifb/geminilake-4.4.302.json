@@ -1,6 +1,30 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/geminilake-4.4.302/cfbimgblt.ko",
+            "sha256": "23eff84e0aa227384c213dfe73fa482dcd433d3cf2ed32ce73fdbebc681d7485",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/geminilake-4.4.302/cfbcopyarea.ko",
+            "sha256": "0c16ea484e9949cf34bb5567182cade98e62827f1286dc750f06f81ef5eaa3c4",
+            "packed": false
+        },
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/geminilake-4.4.302/cfbfillrect.ko",
+            "sha256": "0fdcd4ca6d933a659b87c8bcab23d4783fb31342bacbff2b1e264ad93722f040",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/geminilake-4.4.302/fb.ko",
+            "sha256": "6166f87ab8a3caf65160c4a272b9b686a4a22bb33cbdc0cc1572daa4cb09cae8",
+            "packed": false
+        },
         {
             "name": "efifb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/geminilake-4.4.302/efifb.ko",
@@ -10,11 +34,15 @@
         {
             "name": "check-efifb.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/geminilake-4.4.302/check-efifb.sh",
-            "sha256": "38eaf511b3353b5e332a747f7bf8c54053e5c9d6d8b7cd72a89977d210b79a03",
+            "sha256": "3c79b757f76602dd9faa98ec886039153624ddbbb0ed1260238a0761529b46f8",
             "packed": false
         }
     ],
     "kmods": {
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "cfbfillrect.ko": "",
+        "fb.ko": "",
         "efifb.ko": ""
     },
     "scripts": {

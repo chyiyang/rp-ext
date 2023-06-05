@@ -1,20 +1,48 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.180/cfbimgblt.ko",
+            "sha256": "0423f6d520b9de493c3328fb86ed747552cef1c0bfc859505e0d6d30e69c0427",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.180/cfbcopyarea.ko",
+            "sha256": "fe7334151c824d857cf927a6ab8f082c23236b3c364ddb3ed2b19e92a38c7b46",
+            "packed": false
+        },
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.180/cfbfillrect.ko",
+            "sha256": "f3cca951b56b6305c8af15ac66ef2ad07e8d7ed1e1740022da24c9699b0724e7",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.180/fb.ko",
+            "sha256": "ad559a40ff51c735980f2077c67af2b5be1fa96e7ea714900221f368788491a8",
+            "packed": false
+        },
         {
             "name": "efifb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.180/efifb.ko",
-            "sha256": "1ac1e306df77ce6b71095c17c8b9fb6ce4d6b3b01ee15039fab1531d0e52673d",
+            "sha256": "e31e3aa2f9f7dab42b606977c2344b4861c0c8b76b12f0ad189d188ff9961768",
             "packed": false
         },
         {
             "name": "check-efifb.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.180/check-efifb.sh",
-            "sha256": "38eaf511b3353b5e332a747f7bf8c54053e5c9d6d8b7cd72a89977d210b79a03",
+            "sha256": "3c79b757f76602dd9faa98ec886039153624ddbbb0ed1260238a0761529b46f8",
             "packed": false
         }
     ],
     "kmods": {
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "cfbfillrect.ko": "",
+        "fb.ko": "",
         "efifb.ko": ""
     },
     "scripts": {

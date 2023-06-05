@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/purley-4.4.59/cfbcopyarea.ko",
+            "sha256": "50c4d8fbc2cf99cd2c1243768f1e01943258763c56a556aeaba0baf8e46a0b76",
+            "packed": false
+        },
+        {
+            "name": "check-cfbcopyarea.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbcopyarea/purley-4.4.59/check-cfbcopyarea.sh",
+            "sha256": "c50aa3f95afa3bfa1f1f5e8b72b28a1e23d5b0d9e4bd334580350b1e1fe970d8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbcopyarea.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbcopyarea.sh"
+    }
+}

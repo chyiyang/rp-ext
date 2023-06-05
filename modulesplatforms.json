@@ -102,6 +102,9 @@
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
         },
+        "dme1737": {
+            "description": "DME1737 sensors"
+        },
         "drm": {
             "description": "DRM panel infrastructure"
         },
@@ -500,6 +503,15 @@
         "cdrom": {
             "description": ""
         },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -508,6 +520,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
         },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
@@ -520,6 +535,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -545,7 +563,13 @@
         "efifb": {
             "description": ""
         },
+        "fb": {
+            "description": ""
+        },
         "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
             "description": ""
         },
         "font": {
@@ -838,6 +862,15 @@
         "cdrom": {
             "description": ""
         },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -846,6 +879,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
         },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
@@ -858,6 +894,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -883,7 +922,13 @@
         "efifb": {
             "description": ""
         },
+        "fb": {
+            "description": ""
+        },
         "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
             "description": ""
         },
         "font": {
@@ -2054,6 +2099,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -2793,6 +2841,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -2891,6 +2942,9 @@
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
         },
         "megaraid_mbox": {
             "description": "LSI Logic MegaRAID Mailbox Driver"
@@ -3134,6 +3188,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -3232,6 +3289,9 @@
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
         },
         "megaraid_mbox": {
             "description": "LSI Logic MegaRAID Mailbox Driver"
@@ -4336,6 +4396,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -4387,6 +4450,9 @@
         "font": {
             "description": "Console Fonts"
         },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
@@ -4437,6 +4503,9 @@
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
         },
         "megaraid_mbox": {
             "description": "LSI Logic MegaRAID Mailbox Driver"
@@ -4686,6 +4755,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -4737,6 +4809,9 @@
         "font": {
             "description": "Console Fonts"
         },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
@@ -4787,6 +4862,9 @@
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
         },
         "megaraid_mbox": {
             "description": "LSI Logic MegaRAID Mailbox Driver"
@@ -5017,6 +5095,12 @@
         },
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "e1000": {
             "description": "Intel(R) PRO/1000 Network Driver"
@@ -5271,6 +5355,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "drm": {
             "description": "DRM panel infrastructure"
@@ -5655,6 +5742,15 @@
         "cdrom": {
             "description": ""
         },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -5663,6 +5759,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
         },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
@@ -5675,6 +5774,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -5700,7 +5802,13 @@
         "efifb": {
             "description": ""
         },
+        "fb": {
+            "description": ""
+        },
         "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
             "description": ""
         },
         "font": {
@@ -5984,6 +6092,15 @@
         "cdrom": {
             "description": ""
         },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -5992,6 +6109,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
         },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
@@ -6004,6 +6124,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -6029,7 +6152,13 @@
         "efifb": {
             "description": ""
         },
+        "fb": {
+            "description": ""
+        },
         "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
             "description": ""
         },
         "font": {
@@ -6316,6 +6445,15 @@
         "cdrom": {
             "description": ""
         },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -6324,6 +6462,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
         },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
@@ -6336,6 +6477,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -6361,7 +6505,13 @@
         "efifb": {
             "description": ""
         },
+        "fb": {
+            "description": ""
+        },
         "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
             "description": ""
         },
         "font": {
@@ -6648,6 +6798,15 @@
         "cdrom": {
             "description": ""
         },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -6656,6 +6815,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
         },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
@@ -6668,6 +6830,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -6693,7 +6858,13 @@
         "efifb": {
             "description": ""
         },
+        "fb": {
+            "description": ""
+        },
         "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
             "description": ""
         },
         "font": {
@@ -6980,6 +7151,15 @@
         "cdrom": {
             "description": ""
         },
+        "cfbcopyarea": {
+            "description": "Generic software accelerated copyarea"
+        },
+        "cfbfillrect": {
+            "description": "Generic software accelerated fill rectangle"
+        },
+        "cfbimgblt": {
+            "description": "Generic software accelerated imaging drawing"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -6988,6 +7168,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
         },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
@@ -7000,6 +7183,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -7025,7 +7211,13 @@
         "efifb": {
             "description": ""
         },
+        "fb": {
+            "description": ""
+        },
         "fbcon": {
+            "description": ""
+        },
+        "fbdev": {
             "description": ""
         },
         "font": {
@@ -7347,6 +7539,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -7716,6 +7911,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -7727,6 +7925,9 @@
         },
         "cxgb4vf": {
             "description": "Chelsio T4/T5/T6 Virtual Function (VF) Network Driver"
+        },
+        "dme1737": {
+            "description": "DME1737 sensors"
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -7817,6 +8018,9 @@
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
         },
         "megaraid_mbox": {
             "description": "LSI Logic MegaRAID Mailbox Driver"
@@ -8144,6 +8348,9 @@
         "hid-generic": {
             "description": "HID generic driver"
         },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
         "i2c-algo-bit": {
             "description": "I2C-Bus bit-banging algorithm"
         },
@@ -8461,6 +8668,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -8512,6 +8722,9 @@
         "font": {
             "description": "Console Fonts"
         },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
@@ -8559,6 +8772,9 @@
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
         },
         "megaraid_mbox": {
             "description": "LSI Logic MegaRAID Mailbox Driver"
@@ -8805,6 +9021,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "crc-itu-t": {
+            "description": "CRC ITU-T V.41 calculations"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -8856,6 +9075,9 @@
         "font": {
             "description": "Console Fonts"
         },
+        "hwmon-vid": {
+            "description": "hwmon-vid driver"
+        },
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
@@ -8903,6 +9125,9 @@
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
+        },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
         },
         "megaraid_mbox": {
             "description": "LSI Logic MegaRAID Mailbox Driver"

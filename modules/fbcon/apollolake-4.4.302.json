@@ -1,6 +1,12 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.302/fb.ko",
+            "sha256": "b10038fc7c2dbe4c1a00df1a4af0277738590caae932b7c0e3d0776ef99e4ef5",
+            "packed": false
+        },
         {
             "name": "font.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.302/font.ko",
@@ -22,11 +28,12 @@
         {
             "name": "check-fbcon.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.302/check-fbcon.sh",
-            "sha256": "6f9a6a99256b25c537bc7202f603e9ae1261c507370dc21e71a06b42113ad91e",
+            "sha256": "6defb205e12ccc8f1cc937241f6e21d378d3cc387003a2b34a0c3b2153d573da",
             "packed": false
         }
     ],
     "kmods": {
+        "fb.ko": "",
         "font.ko": "",
         "bitblit.ko": "",
         "fbcon.ko": ""

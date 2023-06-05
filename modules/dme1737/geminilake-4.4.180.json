@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/geminilake-4.4.180/hwmon-vid.ko",
+            "sha256": "01deabab6bcd3fbc81cfd6655c14ac809a85c5ff779d6d6fe48bdeb66c8b6110",
+            "packed": false
+        },
+        {
+            "name": "dme1737.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/geminilake-4.4.180/dme1737.ko",
+            "sha256": "e3c446c864f50e2335ce4c0137a411f2969bc85e3a18f4d460add741fe03797c",
+            "packed": false
+        },
+        {
+            "name": "check-dme1737.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/geminilake-4.4.180/check-dme1737.sh",
+            "sha256": "8804cf96688ac9fec95240d66c80803fce36ae9877aa8b51ca4f8b9a140ac8e8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "dme1737.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dme1737.sh"
+    }
+}

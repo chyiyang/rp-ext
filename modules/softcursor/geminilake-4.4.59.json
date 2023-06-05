@@ -1,6 +1,12 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/geminilake-4.4.59/fb.ko",
+            "sha256": "4c3e2f50398974a1702d93d5fc504448a63141990b3a8da98d6aeec55129b2f8",
+            "packed": false
+        },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/geminilake-4.4.59/softcursor.ko",
@@ -10,11 +16,12 @@
         {
             "name": "check-softcursor.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/geminilake-4.4.59/check-softcursor.sh",
-            "sha256": "764b6a4307d05ea5909067546b2e9804738e0e38f40eb04d39e47fd70935488c",
+            "sha256": "3022eaa57a7ccca216d7f4f2f63861650e6a183ad2ee080c4d7de7ed5a4f62a6",
             "packed": false
         }
     ],
     "kmods": {
+        "fb.ko": "",
         "softcursor.ko": ""
     },
     "scripts": {

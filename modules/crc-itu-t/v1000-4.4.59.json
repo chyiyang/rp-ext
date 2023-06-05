@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/v1000-4.4.59/crc-itu-t.ko",
+            "sha256": "aad0526a52885a9d80aebde77c8885ff3d236ebbdd8b745ff54acfefa16bf663",
+            "packed": false
+        },
+        {
+            "name": "check-crc-itu-t.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/v1000-4.4.59/check-crc-itu-t.sh",
+            "sha256": "41dfe6680f175a93dc96e1bc8a72f3a193b8a64c058b8d3edaf612ba3b420a38",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-itu-t.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-itu-t.sh"
+    }
+}

@@ -1,6 +1,12 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwellnk-4.4.59/mdio.ko",
+            "sha256": "80e5e3712d1ac6e8ea859b0bd3dbead0f80a07919dc42a6070ae79f0a81d09fe",
+            "packed": false
+        },
         {
             "name": "alx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwellnk-4.4.59/alx.ko",
@@ -10,11 +16,12 @@
         {
             "name": "check-alx.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwellnk-4.4.59/check-alx.sh",
-            "sha256": "e39ae61fd5c15d099decd8322987712fcc339ce0bd2bddebfedf71a325ecaff2",
+            "sha256": "a4b215c493c0a804ce78f9b0a9db1abb2a0f0814ac579d42324323cebbe50b14",
             "packed": false
         }
     ],
     "kmods": {
+        "mdio.ko": "",
         "alx.ko": ""
     },
     "scripts": {

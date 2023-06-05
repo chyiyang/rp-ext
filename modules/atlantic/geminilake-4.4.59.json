@@ -1,20 +1,27 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/geminilake-4.4.59/crc-itu-t.ko",
+            "sha256": "7352de23be11c4efa59efe49da238451b343e880c02797e4506cdab4cad5fc76",
+            "packed": false
+        },
         {
             "name": "atlantic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/geminilake-4.4.59/atlantic.ko",
-            "sha256": "f3a8942465207ed0459146e743b98154d149cd36bf601bd539702343a60b8981",
+            "sha256": "7280caf803aa27d15ca34dc458e0efd430b7878cf379d1305a8c8370671ad44c",
             "packed": false
         },
         {
             "name": "check-atlantic.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/geminilake-4.4.59/check-atlantic.sh",
-            "sha256": "ff18bed51b50c402e1ec2aa26d7f54e870513b21d6e226f901bd9216d6fafe78",
+            "sha256": "a2b5534ccdf7f6656b59f6513feb0c0107fc28b2e4c6a00fa04eb19574a81c49",
             "packed": false
         }
     ],
     "kmods": {
+        "crc-itu-t.ko": "",
         "atlantic.ko": ""
     },
     "scripts": {

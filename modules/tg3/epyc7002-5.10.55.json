@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
         {
             "name": "libphy.ko",
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/epyc7002-5.10.55/tg3_firmware.tag.gz",
-            "sha256": "7da59cffaacd7c51b72c1fd3a41603cbc4a189d9b826245a42b1722dee09b767",
+            "sha256": "cba20e439b7067a8562b77871c0101c0d67ebb77ca58c23d26900569f998c7c3",
             "packed": false
         },
         {

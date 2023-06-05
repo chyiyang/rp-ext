@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.3",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/denverton-4.4.302/mdio.ko",
+            "sha256": "bd798dd98a722b52b5c7824f03573164b00e244513d39922fbbe0819031c0ae5",
+            "packed": false
+        },
+        {
+            "name": "check-mdio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/denverton-4.4.302/check-mdio.sh",
+            "sha256": "567ed3584acd22ef06d1a8a2071e3eadc7a3a30a865a16c4b0a0dee00253a11e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mdio.sh"
+    }
+}

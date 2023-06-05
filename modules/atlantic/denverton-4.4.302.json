@@ -1,20 +1,27 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/denverton-4.4.302/crc-itu-t.ko",
+            "sha256": "82e0ef3acb7c55649770929be38179f8eaacd337be3681b7b60688be79b508a8",
+            "packed": false
+        },
         {
             "name": "atlantic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/denverton-4.4.302/atlantic.ko",
-            "sha256": "151d140b67dd2e7d435c447d7ef19a5a7261084411b637a59f968d5757f4dd7b",
+            "sha256": "6515a7fdd92a3c92ce783d64b4f3054da84ba5b6038f5e12ad5ab91bc0c7d75b",
             "packed": false
         },
         {
             "name": "check-atlantic.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/denverton-4.4.302/check-atlantic.sh",
-            "sha256": "ff18bed51b50c402e1ec2aa26d7f54e870513b21d6e226f901bd9216d6fafe78",
+            "sha256": "a2b5534ccdf7f6656b59f6513feb0c0107fc28b2e4c6a00fa04eb19574a81c49",
             "packed": false
         }
     ],
     "kmods": {
+        "crc-itu-t.ko": "",
         "atlantic.ko": ""
     },
     "scripts": {

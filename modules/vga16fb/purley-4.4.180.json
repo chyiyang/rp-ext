@@ -1,6 +1,30 @@
 {
-    "mod_version": "23.5.6",
+    "mod_version": "23.6.3",
     "files": [
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/cfbfillrect.ko",
+            "sha256": "f3cca951b56b6305c8af15ac66ef2ad07e8d7ed1e1740022da24c9699b0724e7",
+            "packed": false
+        },
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/cfbimgblt.ko",
+            "sha256": "0423f6d520b9de493c3328fb86ed747552cef1c0bfc859505e0d6d30e69c0427",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/cfbcopyarea.ko",
+            "sha256": "fe7334151c824d857cf927a6ab8f082c23236b3c364ddb3ed2b19e92a38c7b46",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/fb.ko",
+            "sha256": "ad559a40ff51c735980f2077c67af2b5be1fa96e7ea714900221f368788491a8",
+            "packed": false
+        },
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/vgastate.ko",
@@ -10,17 +34,21 @@
         {
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/vga16fb.ko",
-            "sha256": "c4ded1f1aa255e34973a3c9bed2a8ce7b056fd439a9c8a48439071932dd9ae5f",
+            "sha256": "93f0a62b010136512397b6fbc9549b7e8295ed0fdb644320a0bd93d7e181b3b6",
             "packed": false
         },
         {
             "name": "check-vga16fb.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/check-vga16fb.sh",
-            "sha256": "2cb2c797b01e457b8ae219847ca939adfe97f74a02dab73dc05c76ae17ca6148",
+            "sha256": "43101342a089e1cda5b314c9f71cdde6ecc77e90832b918af86edd1b8ab3a9ed",
             "packed": false
         }
     ],
     "kmods": {
+        "cfbfillrect.ko": "",
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "fb.ko": "",
         "vgastate.ko": "",
         "vga16fb.ko": ""
     },
