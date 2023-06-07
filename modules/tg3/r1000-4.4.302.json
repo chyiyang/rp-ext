@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.6.4",
+    "files": [
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/r1000-4.4.302/tg3.ko",
+            "sha256": "c527557a01e18c6e442e4b8c341328b709d421b27003522938943601dc0d20f6",
+            "packed": false
+        },
+        {
+            "name": "check-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/r1000-4.4.302/check-tg3.sh",
+            "sha256": "92e2e0faf3c8fc8b2262f0202e2e882b2503ce5392b14d431870d9fb46d5f4b5",
+            "packed": false
+        },
+        {
+            "name": "tg3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/r1000-4.4.302/tg3_firmware.tag.gz",
+            "sha256": "85092b4095b480feaad35fdb089d7b297dc1b0b6de71baf6fccd8c1fdd4fbff1",
+            "packed": false
+        },
+        {
+            "name": "install-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/r1000-4.4.302/install-tg3.sh",
+            "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "tg3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-tg3.sh",
+        "on_os_load": "install-tg3.sh"
+    }
+}

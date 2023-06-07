@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.6.4",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.59/mdio.ko",
+            "sha256": "80e5e3712d1ac6e8ea859b0bd3dbead0f80a07919dc42a6070ae79f0a81d09fe",
+            "packed": false
+        },
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.59/bnx2x.ko",
+            "sha256": "74293c6e42532ef89969e1b24dd30e70df5c0fa343897a1e7573817d1ee983d6",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.59/check-bnx2x.sh",
+            "sha256": "894f1a67227bd977798597d06677aa27249b89b29dfa29ac0909b2d85eb43938",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.59/bnx2x_firmware.tag.gz",
+            "sha256": "eb5847417095fad5de29f9d00e55351d584aeef3b40c9d592c78380aa1c39c9c",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.59/install-bnx2x.sh",
+            "sha256": "2a23cd3c00964e187b8c16f313f268f8567f359daab85ddfe267858c8270e64d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x.sh",
+        "on_os_load": "install-bnx2x.sh"
+    }
+}

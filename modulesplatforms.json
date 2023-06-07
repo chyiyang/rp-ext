@@ -1686,6 +1686,9 @@
         "bitblit": {
             "description": "Bit Blitting Operation"
         },
+        "bnx2": {
+            "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
@@ -2071,6 +2074,12 @@
         },
         "bitblit": {
             "description": "Bit Blitting Operation"
+        },
+        "bnx2": {
+            "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
@@ -2814,6 +2823,9 @@
         "bnx2": {
             "description": "QLogic BCM5706/5708/5709/5716 Driver"
         },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
         },
@@ -3160,6 +3172,9 @@
         },
         "bnx2": {
             "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
@@ -4366,6 +4381,9 @@
         "bnx2": {
             "description": "QLogic BCM5706/5708/5709/5716 Driver"
         },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
         },
@@ -4724,6 +4742,9 @@
         },
         "bnx2": {
             "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
@@ -7483,6 +7504,9 @@
         "ax88179_178a": {
             "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -7491,6 +7515,9 @@
         },
         "bnx2": {
             "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
@@ -7777,6 +7804,9 @@
         "sysimgblt": {
             "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
         },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
         },
@@ -7875,6 +7905,9 @@
         "ax88179_178a": {
             "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -7883,6 +7916,9 @@
         },
         "bnx2": {
             "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
@@ -8142,6 +8178,9 @@
         "sysimgblt": {
             "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
         },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
         },
@@ -8236,6 +8275,9 @@
         },
         "ax88179_178a": {
             "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
@@ -8534,6 +8576,9 @@
         "sysimgblt": {
             "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
         },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
+        },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
         },
@@ -8632,6 +8677,9 @@
         "ax88179_178a": {
             "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -8640,6 +8688,9 @@
         },
         "bnx2": {
             "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
@@ -8895,6 +8946,9 @@
         },
         "sysimgblt": {
             "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
         },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
@@ -8985,6 +9039,9 @@
         "ax88179_178a": {
             "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -8993,6 +9050,9 @@
         },
         "bnx2": {
             "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
+        "bnx2x": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
@@ -9248,6 +9308,9 @@
         },
         "sysimgblt": {
             "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
         },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"

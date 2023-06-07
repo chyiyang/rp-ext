@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.6.4",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.302/mdio.ko",
+            "sha256": "bd798dd98a722b52b5c7824f03573164b00e244513d39922fbbe0819031c0ae5",
+            "packed": false
+        },
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.302/bnx2x.ko",
+            "sha256": "a58cc2dab544812db90b0daa2ad177d80eb726c4868af02eda4de47af23c3cc2",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.302/check-bnx2x.sh",
+            "sha256": "894f1a67227bd977798597d06677aa27249b89b29dfa29ac0909b2d85eb43938",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.302/bnx2x_firmware.tag.gz",
+            "sha256": "2a2a2c3a7341c36996c44f4444f6d8a207a6df0bc451483b27a4c15ffc39864e",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.302/install-bnx2x.sh",
+            "sha256": "2a23cd3c00964e187b8c16f313f268f8567f359daab85ddfe267858c8270e64d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x.sh",
+        "on_os_load": "install-bnx2x.sh"
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.3",
+    "mod_version": "23.6.4",
     "files": [
         {
             "name": "libphy.ko",
@@ -10,7 +10,7 @@
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwell-4.4.302/tg3.ko",
-            "sha256": "8cbd76b6fdaa3e6ccfadc3b468a8d5713de7391c91bf9a713a8f965e79804f97",
+            "sha256": "60a7e5abbabd6a1faa10f6beae63652343aa0b6d730efca8f272b0c85505caa9",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwell-4.4.302/tg3_firmware.tag.gz",
-            "sha256": "4aaedca531316164feb4317db25911ffb5f3a6540a5f7be0d247cbd8e3b469e1",
+            "sha256": "6c9b8ff6e7b8a5c48683da16436b63b32fbe2cfa53a21965615c62f0ab7baae5",
             "packed": false
         },
         {

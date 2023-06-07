@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.4",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/r1000-4.4.302/mii.ko",
+            "sha256": "6d1d5875a98afa07c998ff24aeb288652c6ba77d013f08f33bafe71e228943bf",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/r1000-4.4.302/b44.ko",
+            "sha256": "beebd5163ea7905ad15461bb04ff917d4dc3b75c5cd022858972951ff3cf08d7",
+            "packed": false
+        },
+        {
+            "name": "check-b44.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/r1000-4.4.302/check-b44.sh",
+            "sha256": "75b3af2dcca0a83b678597f3f4c1511cd076056c995223144f7f8204ddfc920b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "b44.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-b44.sh"
+    }
+}

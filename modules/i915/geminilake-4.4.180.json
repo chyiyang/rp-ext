@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.3",
+    "mod_version": "23.6.4",
     "files": [
         {
             "name": "drm_kms_helper.ko",
@@ -64,7 +64,7 @@
         {
             "name": "i915_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/i915_firmware.tag.gz",
-            "sha256": "0377ce3b7368e53731c0f2bb52a7d8f590be0d6179d89978fc0eda492609bf03",
+            "sha256": "e5f6453b2d170c83fc8e02d66509f63bf8bec406a9e5f9f4cb0cb3aaa24fcbea",
             "packed": false
         },
         {

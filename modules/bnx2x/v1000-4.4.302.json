@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.6.4",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/v1000-4.4.302/mdio.ko",
+            "sha256": "3f101ed7b45eebb98b40162217f651d3242736db00e419bf5ca790b489538d5f",
+            "packed": false
+        },
+        {
+            "name": "bnx2x.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/v1000-4.4.302/bnx2x.ko",
+            "sha256": "78a9f11c89191ed306998ff8d46bf50f3de73dc713be40b66b264c796a941062",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/v1000-4.4.302/check-bnx2x.sh",
+            "sha256": "894f1a67227bd977798597d06677aa27249b89b29dfa29ac0909b2d85eb43938",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/v1000-4.4.302/bnx2x_firmware.tag.gz",
+            "sha256": "fca1dece0dbe4b76cc73c9feb723b6903610ff0545d4e82ae02cbee5429454c6",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2x.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/v1000-4.4.302/install-bnx2x.sh",
+            "sha256": "2a23cd3c00964e187b8c16f313f268f8567f359daab85ddfe267858c8270e64d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x.sh",
+        "on_os_load": "install-bnx2x.sh"
+    }
+}
