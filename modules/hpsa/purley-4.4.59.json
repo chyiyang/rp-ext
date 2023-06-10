@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.5",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/purley-4.4.59/scsi_transport_sas.ko",
+            "sha256": "5ba13a6a8b0bce20b5d0b63838f62f01a014bb99b14031cad4d7b900af32bcdc",
+            "packed": false
+        },
+        {
+            "name": "hpsa.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/purley-4.4.59/hpsa.ko",
+            "sha256": "1b59a2a09c622f3a3b5ae991526059c518338376214eee2f31c1311d7196c08b",
+            "packed": false
+        },
+        {
+            "name": "check-hpsa.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/purley-4.4.59/check-hpsa.sh",
+            "sha256": "e6ed314fa0d63959abd972bf9bc4b7249976f29e18df30fae64ec6b918c65a73",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": "",
+        "hpsa.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hpsa.sh"
+    }
+}

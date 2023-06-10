@@ -1,0 +1,35 @@
+{
+    "id": "ing.hpsa",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/rpext-index.json",
+    "info": {
+        "name": "hpsa",
+        "description": "Driver for HP Smart Array Controller version 3.4.14-0",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/apollolake-4.4.180.json",
+        "apollolake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/apollolake-4.4.302.json",
+        "apollolake-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/apollolake-4.4.59.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/broadwell-4.4.180.json",
+        "broadwell-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/broadwell-4.4.302.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/broadwellnk-4.4.180.json",
+        "broadwellnk-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/broadwellnk-4.4.302.json",
+        "broadwellnk-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/broadwellnk-4.4.59.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/denverton-4.4.180.json",
+        "denverton-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/denverton-4.4.302.json",
+        "denverton-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/denverton-4.4.59.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/geminilake-4.4.180.json",
+        "geminilake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/geminilake-4.4.302.json",
+        "geminilake-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/geminilake-4.4.59.json",
+        "purley-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/purley-4.4.180.json",
+        "purley-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/purley-4.4.302.json",
+        "purley-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/purley-4.4.59.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/r1000-4.4.180.json",
+        "r1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/r1000-4.4.302.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/v1000-4.4.180.json",
+        "v1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/v1000-4.4.302.json",
+        "v1000-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/v1000-4.4.59.json"
+    }
+}

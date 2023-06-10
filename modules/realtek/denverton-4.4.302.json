@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.5",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/denverton-4.4.302/libphy.ko",
+            "sha256": "9a51549e5b88425c3eae17f16bf0c7f3c93c98d88a6d8e5c4574de962432720b",
+            "packed": false
+        },
+        {
+            "name": "realtek.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/denverton-4.4.302/realtek.ko",
+            "sha256": "82744868bfc6701a8fba33fa984c502f3d3f8867fa98213a4f32e8abe4073efa",
+            "packed": false
+        },
+        {
+            "name": "check-realtek.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/denverton-4.4.302/check-realtek.sh",
+            "sha256": "c207cf47178a61555b5e65aa6bf6a20812b9fb0bed2ed3d3ae067a80e9f55822",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "realtek.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-realtek.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.5",
+    "files": [
+        {
+            "name": "hv_netvsc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hv_netvsc/purley-4.4.302/hv_netvsc.ko",
+            "sha256": "e45c575dbdfbade3eaf3b16dd3c671ef54e449bb68132e2c5bc5d566a0477fc7",
+            "packed": false
+        },
+        {
+            "name": "check-hv_netvsc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hv_netvsc/purley-4.4.302/check-hv_netvsc.sh",
+            "sha256": "663d86ef4dddb597c53e1b095985fff8cc2b711e6736ccc07020e13d0ce61ec7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hv_netvsc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hv_netvsc.sh"
+    }
+}

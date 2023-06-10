@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.5",
+    "files": [
+        {
+            "name": "realtek.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/r1000-4.4.302/realtek.ko",
+            "sha256": "946557024f4db052f05e08b725997fb4c7aea479f34e4774e551fa2236ed19bf",
+            "packed": false
+        },
+        {
+            "name": "check-realtek.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/r1000-4.4.302/check-realtek.sh",
+            "sha256": "8c3e8fb5f3ee83e19823bd5d9049dd3959785fc730779b550ac1992b2af9b371",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "realtek.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-realtek.sh"
+    }
+}

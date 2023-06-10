@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.5",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/apollolake-4.4.180/libphy.ko",
+            "sha256": "a292fcf3ad5c896b5710dc55b961d32cd78f3a93bdfaea95c6e4d2d403f74bd5",
+            "packed": false
+        },
+        {
+            "name": "realtek.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/apollolake-4.4.180/realtek.ko",
+            "sha256": "488f859ff6b73a0113dc041c6a98b3af72786a42bc178f303e7ea3c685511bc9",
+            "packed": false
+        },
+        {
+            "name": "check-realtek.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/apollolake-4.4.180/check-realtek.sh",
+            "sha256": "c207cf47178a61555b5e65aa6bf6a20812b9fb0bed2ed3d3ae067a80e9f55822",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "realtek.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-realtek.sh"
+    }
+}

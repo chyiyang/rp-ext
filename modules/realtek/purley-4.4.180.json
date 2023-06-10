@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.5",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/purley-4.4.180/libphy.ko",
+            "sha256": "20598a80d0525b7b339dceff59af763959b4dc5c63ee86049d89687af009b8e3",
+            "packed": false
+        },
+        {
+            "name": "realtek.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/purley-4.4.180/realtek.ko",
+            "sha256": "067c73f9af89ec308ce772fa015987266180f8778d076e2d4fcc86e5a521c9b8",
+            "packed": false
+        },
+        {
+            "name": "check-realtek.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/purley-4.4.180/check-realtek.sh",
+            "sha256": "c207cf47178a61555b5e65aa6bf6a20812b9fb0bed2ed3d3ae067a80e9f55822",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "realtek.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-realtek.sh"
+    }
+}

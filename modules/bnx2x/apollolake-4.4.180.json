@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.4",
+    "mod_version": "23.6.5",
     "files": [
         {
             "name": "mdio.ko",
@@ -22,7 +22,7 @@
         {
             "name": "bnx2x_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/apollolake-4.4.180/bnx2x_firmware.tag.gz",
-            "sha256": "970271414a5785bcc383346dbdc236115b5231cb4a39953f67836c248281f40b",
+            "sha256": "783543c8585bc1fedaa8b066537b0269d70063a2bb85e598681851a973d7988f",
             "packed": false
         },
         {

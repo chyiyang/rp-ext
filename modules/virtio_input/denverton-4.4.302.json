@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.4",
+    "mod_version": "23.6.5",
     "files": [
         {
             "name": "virtio.ko",
@@ -10,7 +10,7 @@
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio_ring.ko",
-            "sha256": "d0021ad7582adf73a0cfe12a49144417939977f124a67e26360f457d0bd96fa9",
+            "sha256": "5278be4621f82a3b4ae57127203fda15ad7544889c14093119349bb161938110",
             "packed": false
         },
         {

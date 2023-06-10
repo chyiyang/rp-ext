@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.5",
+    "files": [
+        {
+            "name": "hv_netvsc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hv_netvsc/v1000-4.4.180/hv_netvsc.ko",
+            "sha256": "19d25c598c4d5ef52909e308482645863399a0a52a19c7bf9fd77711b393e4c5",
+            "packed": false
+        },
+        {
+            "name": "check-hv_netvsc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hv_netvsc/v1000-4.4.180/check-hv_netvsc.sh",
+            "sha256": "663d86ef4dddb597c53e1b095985fff8cc2b711e6736ccc07020e13d0ce61ec7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hv_netvsc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hv_netvsc.sh"
+    }
+}
