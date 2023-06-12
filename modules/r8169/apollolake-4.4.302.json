@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.6",
+    "mod_version": "23.6.7",
     "files": [
         {
             "name": "mii.ko",
@@ -10,7 +10,7 @@
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/apollolake-4.4.302/r8169.ko",
-            "sha256": "ad343177c22f532c3a8fe33cae6316da041f9df02e854c793db332a838465c5d",
+            "sha256": "4d372d5f168282e1caaa10c6191fbccb09a5d51307d5d5540e651b032e9a5060",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/apollolake-4.4.302/r8169_firmware.tag.gz",
-            "sha256": "a5f9be506e975a4e76cc252c1d521a0547672af3a19d6365b52cce16b73febe3",
+            "sha256": "2599ee2608f4f74a75876df2c605420337a6d80d536e9ebf93608f52a9ba7e13",
             "packed": false
         },
         {

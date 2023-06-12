@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.6",
+    "mod_version": "23.6.7",
     "files": [
         {
             "name": "mdio.ko",
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/denverton-4.4.59/cxgb3_firmware.tag.gz",
-            "sha256": "49af916be01851af04f57081a14c3aa325f38f869fd2cc18120cd18515a1dac8",
+            "sha256": "d961b86884210d541f0315871479ae8ad646a521ba31289924656a01fd95c893",
             "packed": false
         },
         {

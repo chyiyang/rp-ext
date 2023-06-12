@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.6",
+    "mod_version": "23.6.7",
     "files": [
         {
             "name": "cxgb4.ko",
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/broadwell-4.4.302/cxgb4_firmware.tag.gz",
-            "sha256": "47983a32e2225bb1aa9329a085be42233cdbdc24934f018ee25bee12237ada26",
+            "sha256": "e7205dbb08d8bf4548d30009356e0083c7dc51de1d7948994b086393c1fc08b8",
             "packed": false
         },
         {

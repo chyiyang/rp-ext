@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.6",
+    "mod_version": "23.6.7",
     "files": [
         {
             "name": "dvb-core.ko",
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/broadwell-4.4.302/m88ds3103_firmware.tag.gz",
-            "sha256": "d7bad2953618947017f62ade7be7e4f5e9b98a21d8683c9f3e6e357009420da0",
+            "sha256": "30b509def6b7faabccd10e0e1feb33309f3dae9ce20d3a2aa4ef06fb01f508ae",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.6",
+    "mod_version": "23.6.7",
     "files": [
         {
             "name": "mii.ko",
@@ -10,7 +10,7 @@
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.302/r8169.ko",
-            "sha256": "90ddb11fecd0abcd888e0554d920def5cf73213882e15b1d2470b3967e4737b7",
+            "sha256": "ff63ff2206f8b2ba24c8cf8e9ea625f26791146a17cec8fda3bc45f8b9860480",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.302/r8169_firmware.tag.gz",
-            "sha256": "054b148dd6da82927be8675dd131dba0596a20b109e9ff55212f3e6adbf4191b",
+            "sha256": "62008cb860fb3faa3877b3e7286b5a1b9e1613b511379872321b88e03a312237",
             "packed": false
         },
         {
