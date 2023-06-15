@@ -2063,6 +2063,26 @@
             "v1000-4.4.59"
         ]
     },
+    "kvm-amd": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.302",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.302",
+            "denverton-4.4.302",
+            "geminilake-4.4.302",
+            "purley-4.4.302"
+        ]
+    },
+    "kvm-intel": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/rpext-index.json",
+        "platforms": [
+            "r1000-4.4.302",
+            "v1000-4.4.302"
+        ]
+    },
     "libphy": {
         "description": "PHY library",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/rpext-index.json",

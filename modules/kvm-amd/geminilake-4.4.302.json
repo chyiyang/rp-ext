@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.8",
+    "files": [
+        {
+            "name": "kvm-amd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/geminilake-4.4.302/kvm-amd.ko",
+            "sha256": "9c860b63956a2a092dbbde8a2d93e422ff3c6670fbd5b83c991dfaca4cdf3fcf",
+            "packed": false
+        },
+        {
+            "name": "check-kvm-amd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/geminilake-4.4.302/check-kvm-amd.sh",
+            "sha256": "703ff7df9da013c6c8c26e4b4facc61bbad4c972630dda3d91bd7c5351e3c7cb",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm-amd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm-amd.sh"
+    }
+}

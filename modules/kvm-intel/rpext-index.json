@@ -1,0 +1,15 @@
+{
+    "id": "ing.kvm-intel",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/rpext-index.json",
+    "info": {
+        "name": "kvm-intel",
+        "description": "",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "r1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/r1000-4.4.302.json",
+        "v1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/v1000-4.4.302.json"
+    }
+}

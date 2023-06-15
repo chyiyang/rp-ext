@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.8",
+    "files": [
+        {
+            "name": "kvm-intel.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/r1000-4.4.302/kvm-intel.ko",
+            "sha256": "9c76533923972d9c375eee3699af1225fa2cfcb6b9660bd2fc1809e9639868b8",
+            "packed": false
+        },
+        {
+            "name": "check-kvm-intel.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/r1000-4.4.302/check-kvm-intel.sh",
+            "sha256": "e8193aa5c4db8eaa4e8bedcd61593bf96f09415ba0edcf5221e948f80e4c0b1d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm-intel.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm-intel.sh"
+    }
+}

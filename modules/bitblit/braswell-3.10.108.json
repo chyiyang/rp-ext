@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.6.7",
+    "mod_version": "23.6.8",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/braswell-3.10.108/fb.ko",
-            "sha256": "3be17d481e22479d0b5a046814d714600e0101abe2a9e505cf6319161a716c04",
+            "sha256": "1a87b74d00893464c63a29fdc231985877ef79009202b9cf5bb61695ae309f03",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/braswell-3.10.108/softcursor.ko",
-            "sha256": "d5e4d89143fe0f3a976d378373b1e710a8f8db7f9a9db363660b110801dbd7de",
+            "sha256": "f5e248ab9d20e23bb2b6a5070304886857c229dd226d1debcbab884845b2af65",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/braswell-3.10.108/bitblit.ko",
-            "sha256": "24b12bbb0841e80b9f61fcfdc3f601dd32566d9343524a4fd752f9c117e66fd5",
+            "sha256": "47c704d1062dd692e8c2c6753fcae4fc2cb0183d752b245718c74b2d4e1a4ca7",
             "packed": false
         },
         {

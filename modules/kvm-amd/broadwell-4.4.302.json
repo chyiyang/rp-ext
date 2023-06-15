@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.8",
+    "files": [
+        {
+            "name": "kvm-amd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/broadwell-4.4.302/kvm-amd.ko",
+            "sha256": "ab568385ebcab4e55d805442d33466f251f359b65739c17cabaf2c3628ecec3b",
+            "packed": false
+        },
+        {
+            "name": "check-kvm-amd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/broadwell-4.4.302/check-kvm-amd.sh",
+            "sha256": "703ff7df9da013c6c8c26e4b4facc61bbad4c972630dda3d91bd7c5351e3c7cb",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm-amd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm-amd.sh"
+    }
+}
