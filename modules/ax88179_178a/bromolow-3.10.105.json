@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/bromolow-3.10.105/mii.ko",
+            "sha256": "b300ef20a8f6e5b33bd04de69ecc2d155867dcda36e8a906bc545d97619c8429",
+            "packed": false
+        },
+        {
+            "name": "ax88179_178a.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/bromolow-3.10.105/ax88179_178a.ko",
+            "sha256": "e01d62364f394e44d087f3357bfc80fed1567785718c1d685b912e71aa5b6e2f",
+            "packed": false
+        },
+        {
+            "name": "check-ax88179_178a.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/bromolow-3.10.105/check-ax88179_178a.sh",
+            "sha256": "65a157d15a940289c0a248513ee0cbcd300b0f1bf40cfa53f463b009d63992ef",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "ax88179_178a.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ax88179_178a.sh"
+    }
+}

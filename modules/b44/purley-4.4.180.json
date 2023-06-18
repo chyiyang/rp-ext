@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/purley-4.4.180/libphy.ko",
-            "sha256": "20598a80d0525b7b339dceff59af763959b4dc5c63ee86049d89687af009b8e3",
+            "sha256": "94dcb00b66218a474d3f4a6c086a9ccece8802dc961cac3ebad65fb41bb23fdb",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/purley-4.4.180/b44.ko",
-            "sha256": "2f43e9cd356e6973dd6a3101eaa84a86a1f8e96a6189ac3c22d68e7a46fa62c9",
+            "sha256": "f8d7a1f186a6bc0ae16e8748f230498b9a46646ff94598de9dcc8f3156485d49",
             "packed": false
         },
         {

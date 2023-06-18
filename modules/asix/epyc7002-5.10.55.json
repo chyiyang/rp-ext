@@ -1,0 +1,44 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-5.10.55/mii.ko",
+            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
+            "packed": false
+        },
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-5.10.55/libphy.ko",
+            "sha256": "9161d428dbaa4821de436309c4b6c642555209fdc8c1c6139a0042b114e94bc1",
+            "packed": false
+        },
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-5.10.55/usbnet.ko",
+            "sha256": "b7f992de1887c95dd4643a04521d05f38f592aaf83788960ed31c1ce0b77e915",
+            "packed": false
+        },
+        {
+            "name": "asix.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-5.10.55/asix.ko",
+            "sha256": "f635e8b75414f52cfb0b3a8d728dd8989c246bca216885cdd6f687001ef80004",
+            "packed": false
+        },
+        {
+            "name": "check-asix.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-5.10.55/check-asix.sh",
+            "sha256": "df8aed87b5d5da5b85480e3ed59ce8edf160ddd460cdfabb740b71318f72e8a6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "libphy.ko": "",
+        "usbnet.ko": "",
+        "asix.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-asix.sh"
+    }
+}

@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/v1000-4.4.59/tg3.ko",
-            "sha256": "b7c9a6c23f6203277257dc7a2a383178da4ca4695a745e742d1335cdfed72166",
+            "sha256": "6256a8d672d2a027baf1fe75673dfb784173fe913bedbcda73075312864af6b9",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/v1000-4.4.59/tg3_firmware.tag.gz",
-            "sha256": "312204cab1a5b9de41890aea1c3921326a7f6066d6a2adeb215760e2e76b6719",
+            "sha256": "3c8e5aa307d66f642ca775d9164d7be3ee3f4367fd3ecd0014d02ddd63095718",
             "packed": false
         },
         {

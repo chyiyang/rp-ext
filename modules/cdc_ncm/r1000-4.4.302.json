@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/r1000-4.4.302/usbnet.ko",
-            "sha256": "2b29aa2adffdd07534ce315f88f10c1e320ae05577783ab8912946a77aaca06b",
+            "sha256": "eb97f73294f86583f86cbc44aeb5fbd833b537ff4081d2f94107980752cf582b",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/r1000-4.4.302/cdc_ncm.ko",
-            "sha256": "1437a0fca3f7b91e574e698a09a50f6f9db4a9f475395fa6118b67b1379838b9",
+            "sha256": "a208e979ac48c831d1d9d8c2279153cc16035451629979047cc0da66dbaaed6e",
             "packed": false
         },
         {

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/apollolake-4.4.302/qed.ko",
+            "sha256": "d13011827ce6591acd6f739273f62981763f63c8648a3b1b60ef804265014254",
+            "packed": false
+        },
+        {
+            "name": "check-qed.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/apollolake-4.4.302/check-qed.sh",
+            "sha256": "76a41600e1c27bc3ce5ef186654197e852b9c8c03c9821852dbb541baee42b6c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qed.sh"
+    }
+}

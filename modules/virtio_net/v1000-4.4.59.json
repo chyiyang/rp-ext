@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "virtio.ko",
@@ -10,7 +10,7 @@
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/v1000-4.4.59/virtio_ring.ko",
-            "sha256": "b49b4e495cefb1fbe93e009c4fd0dcd19eb2617f44d90f1a97539f5ef75be0b1",
+            "sha256": "804c3a7fb4b58bd60ec58a1b4dda66eb16bde6e82a14a6fcae9489e74b65f50c",
             "packed": false
         },
         {

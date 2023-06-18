@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/braswell-3.10.105/mii.ko",
+            "sha256": "5355cb9ef54015fbfbf2b8f8a6550ecab0d7842463da03ab22d05034313bedc8",
+            "packed": false
+        },
+        {
+            "name": "ax88179_178a.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/braswell-3.10.105/ax88179_178a.ko",
+            "sha256": "62e4180c3a0511fed6bb5bee43b04395c02e63bfe67e7039d6731198c0f7d7d0",
+            "packed": false
+        },
+        {
+            "name": "check-ax88179_178a.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/braswell-3.10.105/check-ax88179_178a.sh",
+            "sha256": "65a157d15a940289c0a248513ee0cbcd300b0f1bf40cfa53f463b009d63992ef",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "ax88179_178a.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ax88179_178a.sh"
+    }
+}

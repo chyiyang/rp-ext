@@ -1,0 +1,21 @@
+{
+    "id": "ing.qede",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/rpext-index.json",
+    "info": {
+        "name": "qede",
+        "description": "QLogic FastLinQ 4xxxx Ethernet Driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/apollolake-4.4.302.json",
+        "broadwell-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwell-4.4.302.json",
+        "broadwellnk-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellnk-4.4.302.json",
+        "denverton-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.302.json",
+        "geminilake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/geminilake-4.4.302.json",
+        "purley-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/purley-4.4.302.json",
+        "r1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/r1000-4.4.302.json",
+        "v1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/v1000-4.4.302.json"
+    }
+}

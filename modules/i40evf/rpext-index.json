@@ -1,0 +1,21 @@
+{
+    "id": "ing.i40evf",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/rpext-index.json",
+    "info": {
+        "name": "i40evf",
+        "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/apollolake-4.4.302.json",
+        "broadwell-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/broadwell-4.4.302.json",
+        "broadwellnk-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/broadwellnk-4.4.302.json",
+        "denverton-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/denverton-4.4.302.json",
+        "geminilake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/geminilake-4.4.302.json",
+        "purley-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/purley-4.4.302.json",
+        "r1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/r1000-4.4.302.json",
+        "v1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/v1000-4.4.302.json"
+    }
+}

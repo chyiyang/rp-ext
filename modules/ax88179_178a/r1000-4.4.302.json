@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/r1000-4.4.302/usbnet.ko",
-            "sha256": "2b29aa2adffdd07534ce315f88f10c1e320ae05577783ab8912946a77aaca06b",
+            "sha256": "eb97f73294f86583f86cbc44aeb5fbd833b537ff4081d2f94107980752cf582b",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "ax88179_178a.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/r1000-4.4.302/ax88179_178a.ko",
-            "sha256": "3023c60c03a707e2cb832d0158de79c319475c9af9a6524ececea522763fb08b",
+            "sha256": "150706dc95fc4a1f859cc2a51aa1b5e6e2177f51cdde3c28f8d1123ba45895fa",
             "packed": false
         },
         {

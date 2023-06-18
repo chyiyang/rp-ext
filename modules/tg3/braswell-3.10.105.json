@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "tg3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/braswell-3.10.105/tg3.ko",
+            "sha256": "d2e3de435c967f04a94ab37186bd58ea37a82c888558dd38d1fea3e4a2a66e59",
+            "packed": false
+        },
+        {
+            "name": "check-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/braswell-3.10.105/check-tg3.sh",
+            "sha256": "92e2e0faf3c8fc8b2262f0202e2e882b2503ce5392b14d431870d9fb46d5f4b5",
+            "packed": false
+        },
+        {
+            "name": "tg3_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/braswell-3.10.105/tg3_firmware.tag.gz",
+            "sha256": "14e02d6f2ceb940fe1b400eff9325ef16c0ea97bb966bc34814e313f55ac80e3",
+            "packed": false
+        },
+        {
+            "name": "install-tg3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/braswell-3.10.105/install-tg3.sh",
+            "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "tg3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-tg3.sh",
+        "on_os_load": "install-tg3.sh"
+    }
+}

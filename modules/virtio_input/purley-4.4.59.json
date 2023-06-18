@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "virtio.ko",
@@ -10,13 +10,13 @@
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/virtio_ring.ko",
-            "sha256": "ed530912e1cc5ebebc23b28ef028b0ec5947c1374a0a7345c45516a2b4e335cd",
+            "sha256": "24e53ed4a6632c977fb8593954743c39acd32bdadc7d4087c0f72c7d9b221494",
             "packed": false
         },
         {
             "name": "virtio_input.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/virtio_input.ko",
-            "sha256": "e3f078edf5f5bccdb5a3de72f493e679f91aefb3c2f96957a47b53dc63db7c79",
+            "sha256": "58b8389002f9a7ed12151b95c7e592d7a03e4ada6b9e418794db50a73b0f8abe",
             "packed": false
         },
         {

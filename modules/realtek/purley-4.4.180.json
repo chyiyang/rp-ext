@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/purley-4.4.180/libphy.ko",
-            "sha256": "20598a80d0525b7b339dceff59af763959b4dc5c63ee86049d89687af009b8e3",
+            "sha256": "94dcb00b66218a474d3f4a6c086a9ccece8802dc961cac3ebad65fb41bb23fdb",
             "packed": false
         },
         {
             "name": "realtek.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/purley-4.4.180/realtek.ko",
-            "sha256": "067c73f9af89ec308ce772fa015987266180f8778d076e2d4fcc86e5a521c9b8",
+            "sha256": "c3892017bb54ad0a2ba0545f2d7606b11894cba9422776156bb99543a59f2b18",
             "packed": false
         },
         {

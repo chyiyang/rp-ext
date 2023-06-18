@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/apollolake-4.4.180/libphy.ko",
-            "sha256": "a292fcf3ad5c896b5710dc55b961d32cd78f3a93bdfaea95c6e4d2d403f74bd5",
+            "sha256": "903025f2e114c4f77a534fbfb79b1a901149996af8491ce93d2d24d21db0d472",
             "packed": false
         },
         {
             "name": "realtek.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/apollolake-4.4.180/realtek.ko",
-            "sha256": "488f859ff6b73a0113dc041c6a98b3af72786a42bc178f303e7ea3c685511bc9",
+            "sha256": "ae5ea07abd4b35d2a12bd7dbfa05cb835d8f2ad56180c2be87a8c13364ec2cad",
             "packed": false
         },
         {

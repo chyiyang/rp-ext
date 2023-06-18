@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "kvm-intel.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/epyc7002-5.10.55/kvm-intel.ko",
+            "sha256": "979094a0d7374bc2bdb2fcbe1b978ea86bf7cc67fe552423cd41bb4cf9b5db21",
+            "packed": false
+        },
+        {
+            "name": "check-kvm-intel.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/epyc7002-5.10.55/check-kvm-intel.sh",
+            "sha256": "e8193aa5c4db8eaa4e8bedcd61593bf96f09415ba0edcf5221e948f80e4c0b1d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm-intel.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm-intel.sh"
+    }
+}

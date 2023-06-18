@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "i40evf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/v1000-4.4.302/i40evf.ko",
+            "sha256": "96bc3bc85260c867c9d8c9782b4a635c7870e8b6b7c5aceb6bb4566f44b8a7cc",
+            "packed": false
+        },
+        {
+            "name": "check-i40evf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/v1000-4.4.302/check-i40evf.sh",
+            "sha256": "63b505878f51b24c816a49a1e7211ccdb11c74a6ca32a07cc0fd241bc5576885",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "i40evf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i40evf.sh"
+    }
+}

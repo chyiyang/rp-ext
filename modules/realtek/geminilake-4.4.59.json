@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/geminilake-4.4.59/libphy.ko",
-            "sha256": "7a5d6c63edb4cdfadba7256a4a6bd1c7762aa97b3574708c6d269f7b84ad45f2",
+            "sha256": "b76a21f57a010b047ff827243bd5624527b2a3b5182baecf1f7f0378523db444",
             "packed": false
         },
         {
             "name": "realtek.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/geminilake-4.4.59/realtek.ko",
-            "sha256": "23642d85094b53c63433ee72833e1072b172c046801ce5480b7886c5ed6515f9",
+            "sha256": "536025998d84abe084cd2ae7ad12304941a69c94a88e4a593ae1bce36fda0df5",
             "packed": false
         },
         {

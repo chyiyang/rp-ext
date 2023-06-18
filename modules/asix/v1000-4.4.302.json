@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/v1000-4.4.302/mii.ko",
+            "sha256": "6d1d5875a98afa07c998ff24aeb288652c6ba77d013f08f33bafe71e228943bf",
+            "packed": false
+        },
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/v1000-4.4.302/usbnet.ko",
+            "sha256": "eb97f73294f86583f86cbc44aeb5fbd833b537ff4081d2f94107980752cf582b",
+            "packed": false
+        },
+        {
+            "name": "asix.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/v1000-4.4.302/asix.ko",
+            "sha256": "6071128f78f09439faecaa202ccb55670dcd9aa1beafbc07fbb8cf41f0bd2b22",
+            "packed": false
+        },
+        {
+            "name": "check-asix.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/v1000-4.4.302/check-asix.sh",
+            "sha256": "7e16ab08a5ee97caff6bd17b1ff98e04bf763cb6b2bcebd80915ae2cb9f362ac",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "usbnet.ko": "",
+        "asix.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-asix.sh"
+    }
+}

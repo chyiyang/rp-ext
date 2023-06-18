@@ -15,6 +15,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
         },
@@ -464,6 +467,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
         },
@@ -593,6 +599,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i40evf": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver"
+        },
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
         },
@@ -606,7 +615,7 @@
             "description": "Intel(R) Gigabit Ethernet Linux Driver"
         },
         "igbvf": {
-            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+            "description": "Intel(R) Gigabit Virtual Function Driver"
         },
         "igc": {
             "description": "Intel(R) 2.5G Ethernet Linux Driver"
@@ -703,6 +712,12 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "qed": {
+            "description": "QLogic FastLinQ 4xxxx Core Module"
+        },
+        "qede": {
+            "description": "QLogic FastLinQ 4xxxx Ethernet Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -831,6 +846,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
@@ -1188,8 +1206,23 @@
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
         },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
+        "atl1c": {
+            "description": "Qualcom Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "bitblit": {
             "description": "Bit Blitting Operation"
@@ -1248,6 +1281,9 @@
         "mii": {
             "description": "MII hardware support library"
         },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
         "mptbase": {
             "description": "Fusion MPT base driver"
         },
@@ -1275,6 +1311,12 @@
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
         "softcursor": {
             "description": "Generic software cursor"
         },
@@ -1289,6 +1331,9 @@
         },
         "sysimgblt": {
             "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
         },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
@@ -1334,8 +1379,23 @@
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
         },
+        "alx": {
+            "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
+        },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
+        "atl1c": {
+            "description": "Qualcom Atheros 100/1000M Ethernet Network Driver"
+        },
+        "atl1e": {
+            "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "bitblit": {
             "description": "Bit Blitting Operation"
@@ -1394,6 +1454,9 @@
         "mii": {
             "description": "MII hardware support library"
         },
+        "mlx4_core": {
+            "description": "Mellanox ConnectX HCA low-level driver"
+        },
         "mptbase": {
             "description": "Fusion MPT base driver"
         },
@@ -1421,6 +1484,12 @@
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
+        "skge": {
+            "description": "SysKonnect Gigabit Ethernet driver"
+        },
+        "sky2": {
+            "description": "Marvell Yukon 2 Gigabit Ethernet driver"
+        },
         "softcursor": {
             "description": "Generic software cursor"
         },
@@ -1435,6 +1504,9 @@
         },
         "sysimgblt": {
             "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
+        "tg3": {
+            "description": "Broadcom Tigon3 ethernet driver"
         },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
@@ -1486,11 +1558,17 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atl1c": {
             "description": "Qualcom Atheros 100/1000M Ethernet Network Driver"
         },
         "atl1e": {
             "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "bitblit": {
             "description": "Bit Blitting Operation"
@@ -1679,6 +1757,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
@@ -2078,6 +2159,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
         },
@@ -2201,6 +2285,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i40evf": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver"
+        },
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
         },
@@ -2214,7 +2301,7 @@
             "description": "Intel(R) Gigabit Ethernet Linux Driver"
         },
         "igbvf": {
-            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+            "description": "Intel(R) Gigabit Virtual Function Driver"
         },
         "igc": {
             "description": "Intel(R) 2.5G Ethernet Linux Driver"
@@ -2308,6 +2395,12 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "qed": {
+            "description": "QLogic FastLinQ 4xxxx Core Module"
+        },
+        "qede": {
+            "description": "QLogic FastLinQ 4xxxx Ethernet Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -2436,6 +2529,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
@@ -2838,6 +2934,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
         },
@@ -2961,6 +3060,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i40evf": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver"
+        },
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
         },
@@ -2974,7 +3076,7 @@
             "description": "Intel(R) Gigabit Ethernet Linux Driver"
         },
         "igbvf": {
-            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+            "description": "Intel(R) Gigabit Virtual Function Driver"
         },
         "igc": {
             "description": "Intel(R) 2.5G Ethernet Linux Driver"
@@ -3068,6 +3170,12 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "qed": {
+            "description": "QLogic FastLinQ 4xxxx Core Module"
+        },
+        "qede": {
+            "description": "QLogic FastLinQ 4xxxx Ethernet Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -3196,6 +3304,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
@@ -3550,11 +3661,17 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atl1c": {
             "description": "Qualcom Atheros 100/1000M Ethernet Network Driver"
         },
         "atl1e": {
             "description": "Atheros 1000M Ethernet Network Driver"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "bitblit": {
             "description": "Bit Blitting Operation"
@@ -3741,6 +3858,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atl1c": {
             "description": "Qualcom Atheros 100/1000M Ethernet Network Driver"
         },
@@ -3752,6 +3872,9 @@
         },
         "atlantic_v2": {
             "description": "Marvell (Aquantia) Corporation(R) Network Driver"
+        },
+        "ax88179_178a": {
+            "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 11.1.38.64"
@@ -4006,6 +4129,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
@@ -4423,6 +4549,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
         },
@@ -4549,6 +4678,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i40evf": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver"
+        },
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
         },
@@ -4562,7 +4694,7 @@
             "description": "Intel(R) Gigabit Ethernet Linux Driver"
         },
         "igbvf": {
-            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+            "description": "Intel(R) Gigabit Virtual Function Driver"
         },
         "igc": {
             "description": "Intel(R) 2.5G Ethernet Linux Driver"
@@ -4659,6 +4791,12 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "qed": {
+            "description": "QLogic FastLinQ 4xxxx Core Module"
+        },
+        "qede": {
+            "description": "QLogic FastLinQ 4xxxx Ethernet Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -4793,6 +4931,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
@@ -5162,6 +5303,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atl1c": {
             "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
         },
@@ -5177,14 +5321,23 @@
         "ax88179_178a": {
             "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
         },
+        "b44": {
+            "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver"
         },
         "blk-mq-virtio": {
             "description": ""
         },
+        "bnx2": {
+            "description": "QLogic BCM5706/5708/5709/5716 Driver"
+        },
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
+        "bnxt_en": {
+            "description": "Broadcom BCM573xx network driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -5257,6 +5410,9 @@
         },
         "ixgbevf": {
             "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "kvm-intel": {
+            "description": ""
         },
         "libphy": {
             "description": "PHY library"
@@ -5376,6 +5532,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atl1c": {
             "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
@@ -5811,6 +5970,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atl1c": {
             "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
         },
@@ -5937,6 +6099,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i40evf": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver"
+        },
         "iavf": {
             "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
         },
@@ -5947,7 +6112,7 @@
             "description": "Intel(R) Gigabit Ethernet Linux Driver"
         },
         "igbvf": {
-            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+            "description": "Intel(R) Gigabit Virtual Function Driver"
         },
         "igc": {
             "description": "Intel(R) 2.5G Ethernet Linux Driver"
@@ -6044,6 +6209,12 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "qed": {
+            "description": "QLogic FastLinQ 4xxxx Core Module"
+        },
+        "qede": {
+            "description": "QLogic FastLinQ 4xxxx Ethernet Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -6169,6 +6340,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atl1c": {
             "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
@@ -6532,6 +6706,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atl1c": {
             "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
         },
@@ -6891,6 +7068,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atl1c": {
             "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
         },
@@ -7017,6 +7197,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i40evf": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver"
+        },
         "iavf": {
             "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
         },
@@ -7027,7 +7210,7 @@
             "description": "Intel(R) Gigabit Ethernet Linux Driver"
         },
         "igbvf": {
-            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+            "description": "Intel(R) Gigabit Virtual Function Driver"
         },
         "igc": {
             "description": "Intel(R) 2.5G Ethernet Linux Driver"
@@ -7124,6 +7307,12 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "qed": {
+            "description": "QLogic FastLinQ 4xxxx Core Module"
+        },
+        "qede": {
+            "description": "QLogic FastLinQ 4xxxx Ethernet Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -7252,6 +7441,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atl1c": {
             "description": "Qualcomm Atheros 100/1000M Ethernet Network Driver"
@@ -7614,6 +7806,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
@@ -8025,6 +8220,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
         },
@@ -8154,6 +8352,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i40evf": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver"
+        },
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
         },
@@ -8167,7 +8368,7 @@
             "description": "Intel(R) Gigabit Ethernet Linux Driver"
         },
         "igbvf": {
-            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+            "description": "Intel(R) Gigabit Virtual Function Driver"
         },
         "igc": {
             "description": "Intel(R) 2.5G Ethernet Linux Driver"
@@ -8261,6 +8462,12 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "qed": {
+            "description": "QLogic FastLinQ 4xxxx Core Module"
+        },
+        "qede": {
+            "description": "QLogic FastLinQ 4xxxx Ethernet Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -8401,6 +8608,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
@@ -8812,6 +9022,9 @@
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
         },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
+        },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"
         },
@@ -8938,6 +9151,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i40evf": {
+            "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver"
+        },
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
         },
@@ -8951,7 +9167,7 @@
             "description": "Intel(R) Gigabit Ethernet Linux Driver"
         },
         "igbvf": {
-            "description": "Intel(R) Gigabit Virtual Function Network Driver"
+            "description": "Intel(R) Gigabit Virtual Function Driver"
         },
         "igc": {
             "description": "Intel(R) 2.5G Ethernet Linux Driver"
@@ -9045,6 +9261,12 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "qed": {
+            "description": "QLogic FastLinQ 4xxxx Core Module"
+        },
+        "qede": {
+            "description": "QLogic FastLinQ 4xxxx Ethernet Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -9182,6 +9404,9 @@
         },
         "aqc111": {
             "description": "Aquantia AQtion USB to 5/2.5GbE Controllers"
+        },
+        "asix": {
+            "description": "ASIX AX8817X based USB 2.0 Ethernet Devices"
         },
         "atkbd": {
             "description": "AT and PS/2 keyboard driver"

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "atl1e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/braswell-3.10.108/atl1e.ko",
+            "sha256": "73569a0d057c014903c431e19b5e4617a17b0510f35231703765fe9458ca2c5d",
+            "packed": false
+        },
+        {
+            "name": "check-atl1e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/braswell-3.10.108/check-atl1e.sh",
+            "sha256": "1d058b4ba5716679d60b13b43e823c82c655927b498a724b5f09c06ff2ae6d63",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atl1e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atl1e.sh"
+    }
+}

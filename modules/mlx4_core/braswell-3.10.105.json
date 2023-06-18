@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.9",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/braswell-3.10.105/mlx4_core.ko",
+            "sha256": "5ee19ff2ab731a3052ac3bc51d599b31a947843f23a9088a24031c5c9eab0ae5",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/braswell-3.10.105/check-mlx4_core.sh",
+            "sha256": "367f1580112fdba6dec1599aea341c4ea8f645d59ae80889973e904158b89547",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_core.sh"
+    }
+}

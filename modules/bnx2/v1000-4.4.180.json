@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "bnx2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/v1000-4.4.180/bnx2.ko",
-            "sha256": "27496be6e28fb3229b9267b4d0cfbb9556cca31c33250a7f150ae5722879180b",
+            "sha256": "428747e992f963b1b6ad6e121009a2aa6972e7ea2aa453f1f19fac9bd78fc7cf",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "bnx2_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/v1000-4.4.180/bnx2_firmware.tag.gz",
-            "sha256": "4b363830ba9ea4728bc89b7875d308e077e44791b075c39a0ba0fef8074d8162",
+            "sha256": "5b2b512de91d8beb6ac8e2dfc37f91f664f20756932d5c3c9fbe01f77e849c08",
             "packed": false
         },
         {

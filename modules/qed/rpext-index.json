@@ -1,0 +1,21 @@
+{
+    "id": "ing.qed",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/rpext-index.json",
+    "info": {
+        "name": "qed",
+        "description": "QLogic FastLinQ 4xxxx Core Module",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/apollolake-4.4.302.json",
+        "broadwell-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/broadwell-4.4.302.json",
+        "broadwellnk-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/broadwellnk-4.4.302.json",
+        "denverton-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/denverton-4.4.302.json",
+        "geminilake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/geminilake-4.4.302.json",
+        "purley-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/purley-4.4.302.json",
+        "r1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/r1000-4.4.302.json",
+        "v1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/v1000-4.4.302.json"
+    }
+}

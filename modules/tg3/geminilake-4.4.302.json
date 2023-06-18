@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.302/libphy.ko",
-            "sha256": "2f5e9985dca9469b800a7fe6486371c345e895048ea05bc62f33a2939781c73e",
+            "sha256": "827ce34f6eadae9bee43edf7269128d7ef7f05fa2b5eb7451669ed589bacfc92",
             "packed": false
         },
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.302/tg3.ko",
-            "sha256": "2d04a53cb670e471a5bfb63eb05cd8977cfdb690a2f0d74e9e876cabe9aed908",
+            "sha256": "7f3089f1b5d2693f2a6f20663505aaa5393e8c0ea7105878d23172843ce693d4",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.302/tg3_firmware.tag.gz",
-            "sha256": "9d6772f6c5be02898a6cc2d0c09c81f831b4c0af11ba627429c592c8296f21be",
+            "sha256": "72d3be2faf90c61a2dc21c9d43b8fcbba78c26836c060df4184e57265aa6f51c",
             "packed": false
         },
         {

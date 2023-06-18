@@ -96,6 +96,8 @@
             "apollolake-4.4.180",
             "apollolake-4.4.302",
             "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
             "broadwell-3.10.105",
             "broadwell-4.4.180",
             "broadwell-4.4.302",
@@ -162,6 +164,40 @@
             "v1000-4.4.59"
         ]
     },
+    "asix": {
+        "description": "ASIX AX8817X based USB 2.0 Ethernet Devices",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "broadwell-3.10.105",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
+            "bromolow-3.10.108",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "epyc7002-5.10.55",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
     "atkbd": {
         "description": "AT and PS/2 keyboard driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atkbd/rpext-index.json",
@@ -191,6 +227,8 @@
             "apollolake-4.4.180",
             "apollolake-4.4.302",
             "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
             "broadwell-3.10.105",
             "broadwell-4.4.180",
             "broadwell-4.4.302",
@@ -223,6 +261,8 @@
             "apollolake-4.4.180",
             "apollolake-4.4.302",
             "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
             "broadwell-3.10.105",
             "broadwell-4.4.180",
             "broadwell-4.4.302",
@@ -326,11 +366,16 @@
             "apollolake-4.4.180",
             "apollolake-4.4.302",
             "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "broadwell-3.10.105",
             "broadwell-4.4.180",
             "broadwell-4.4.302",
             "broadwellnk-4.4.180",
             "broadwellnk-4.4.302",
             "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
+            "bromolow-3.10.108",
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
@@ -363,6 +408,7 @@
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
+            "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "geminilake-4.4.302",
             "geminilake-4.4.59",
@@ -467,6 +513,7 @@
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
+            "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "geminilake-4.4.302",
             "geminilake-4.4.59",
@@ -525,6 +572,7 @@
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
+            "epyc7002-5.10.55",
             "geminilake-4.4.180",
             "geminilake-4.4.302",
             "geminilake-4.4.59",
@@ -1632,6 +1680,20 @@
             "v1000-4.4.59"
         ]
     },
+    "i40evf": {
+        "description": "Intel(R) 40-10 Gigabit Ethernet Virtual Function Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40evf/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.302",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.302",
+            "denverton-4.4.302",
+            "geminilake-4.4.302",
+            "purley-4.4.302",
+            "r1000-4.4.302",
+            "v1000-4.4.302"
+        ]
+    },
     "i8042": {
         "description": "i8042 keyboard and mouse controller driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i8042/rpext-index.json",
@@ -2079,6 +2141,7 @@
         "description": "",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/rpext-index.json",
         "platforms": [
+            "epyc7002-5.10.55",
             "r1000-4.4.302",
             "v1000-4.4.302"
         ]
@@ -2343,6 +2406,8 @@
             "apollolake-4.4.180",
             "apollolake-4.4.302",
             "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
             "broadwell-3.10.105",
             "broadwell-4.4.180",
             "broadwell-4.4.302",
@@ -2878,6 +2943,34 @@
             "v1000-4.4.180"
         ]
     },
+    "qed": {
+        "description": "QLogic FastLinQ 4xxxx Core Module",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.302",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.302",
+            "denverton-4.4.302",
+            "geminilake-4.4.302",
+            "purley-4.4.302",
+            "r1000-4.4.302",
+            "v1000-4.4.302"
+        ]
+    },
+    "qede": {
+        "description": "QLogic FastLinQ 4xxxx Ethernet Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.302",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.302",
+            "denverton-4.4.302",
+            "geminilake-4.4.302",
+            "purley-4.4.302",
+            "r1000-4.4.302",
+            "v1000-4.4.302"
+        ]
+    },
     "qla2xxx": {
         "description": "QLogic Fibre Channel HBA Driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla2xxx/rpext-index.json",
@@ -3271,6 +3364,8 @@
             "apollolake-4.4.180",
             "apollolake-4.4.302",
             "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
             "broadwell-3.10.105",
             "broadwell-4.4.180",
             "broadwell-4.4.302",
@@ -3303,6 +3398,8 @@
             "apollolake-4.4.180",
             "apollolake-4.4.302",
             "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
             "broadwell-3.10.105",
             "broadwell-4.4.180",
             "broadwell-4.4.302",
@@ -3507,6 +3604,8 @@
             "apollolake-4.4.180",
             "apollolake-4.4.302",
             "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
             "broadwell-3.10.105",
             "broadwell-4.4.180",
             "broadwell-4.4.302",

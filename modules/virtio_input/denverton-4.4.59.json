@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "virtio.ko",
@@ -10,13 +10,13 @@
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.59/virtio_ring.ko",
-            "sha256": "67af9e9270b729d57f7883f9d68ef14f947d55656210d5207fd153d43af83c98",
+            "sha256": "7f97424444e71457da4c7132bcbb827788def5fdaed07b91ee4a8bda1b9fbb93",
             "packed": false
         },
         {
             "name": "virtio_input.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.59/virtio_input.ko",
-            "sha256": "76a58b1a80d8d07b551b231d5c34dc3d3ce2ff64c54adf09f881330ebed34166",
+            "sha256": "498a4958daaffe2f317f92fbb660c7053bc8d195e1804c047a2bc0e91687b52f",
             "packed": false
         },
         {

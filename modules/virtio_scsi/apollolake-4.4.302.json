@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "virtio.ko",
@@ -10,7 +10,7 @@
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/apollolake-4.4.302/virtio_ring.ko",
-            "sha256": "c38e37aaeb8a561ce584c64b0905bbab8f826dd8197bdb09a8b86d6000ca44ca",
+            "sha256": "7b240aa41a3b0f4ddecdda57935abaeb6a0bee0c89148598fde91396949f9c09",
             "packed": false
         },
         {

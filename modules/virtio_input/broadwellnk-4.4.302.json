@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "virtio.ko",
@@ -10,13 +10,13 @@
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/broadwellnk-4.4.302/virtio_ring.ko",
-            "sha256": "a7cdd284e26fb12b3d30592c960874c41a0548aa29d3de6a1405886a9c4b7a55",
+            "sha256": "a52eae67bf8a3a1c1bf06cc79ac3d01c4a7321be49684146793632f2268bf419",
             "packed": false
         },
         {
             "name": "virtio_input.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/broadwellnk-4.4.302/virtio_input.ko",
-            "sha256": "9f5fecb7bd2c49ede312ddee04c5d89b1e51e0871bd9fa5a1dc4c80e343cbeac",
+            "sha256": "8161ad1f43f3246e56004fa143151c3f63268a9884fce8f8ab8730ae01388e21",
             "packed": false
         },
         {

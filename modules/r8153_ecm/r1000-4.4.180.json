@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.6.8",
+    "mod_version": "23.6.9",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/r1000-4.4.180/usbnet.ko",
-            "sha256": "e826b73bb699ac6a706ac29a4dd3298542f541273fc211ba0dfb72a934ec2507",
+            "sha256": "368f934a64ff70f408320d90d093a1a01d6db874bb1fc358cee9f73dabcad0c7",
             "packed": false
         },
         {
             "name": "r8153_ecm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/r1000-4.4.180/r8153_ecm.ko",
-            "sha256": "45889488fc9e95c2af1e630ce293ce6d0be596ac50e8937875cbbcd15c480afb",
+            "sha256": "57f93dbfe42dfc380a5dbbda078950005fb743e05e2d02652e2cc86cb56916c5",
             "packed": false
         },
         {
