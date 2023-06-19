@@ -1,6 +1,12 @@
 {
-    "mod_version": "23.6.9",
+    "mod_version": "23.6.10",
     "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/denverton-4.4.302/kvm.ko",
+            "sha256": "e3a01fed713dc05c156d1c501cce0962ab453e9d9c365ff980e81e2e939aef6c",
+            "packed": false
+        },
         {
             "name": "kvm-amd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/denverton-4.4.302/kvm-amd.ko",
@@ -10,11 +16,12 @@
         {
             "name": "check-kvm-amd.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/denverton-4.4.302/check-kvm-amd.sh",
-            "sha256": "703ff7df9da013c6c8c26e4b4facc61bbad4c972630dda3d91bd7c5351e3c7cb",
+            "sha256": "5ea91215f63363b4c8743778eee3dd93ae6318ce6581980be17463d59637e33f",
             "packed": false
         }
     ],
     "kmods": {
+        "kvm.ko": "",
         "kvm-amd.ko": ""
     },
     "scripts": {

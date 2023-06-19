@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.10",
+    "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/broadwell-4.4.302/kvm.ko",
+            "sha256": "4bcc325b81a6055572424565f80d4ec91603c6f6d3f3b686c96abdafd96dcdbd",
+            "packed": false
+        },
+        {
+            "name": "check-kvm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/broadwell-4.4.302/check-kvm.sh",
+            "sha256": "af6114c70db18660d54fb9ff349f48e2ac8225455003fbb25c7d020138318957",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm.sh"
+    }
+}

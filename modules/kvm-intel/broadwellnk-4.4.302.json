@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.10",
+    "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/broadwellnk-4.4.302/kvm.ko",
+            "sha256": "4bcc325b81a6055572424565f80d4ec91603c6f6d3f3b686c96abdafd96dcdbd",
+            "packed": false
+        },
+        {
+            "name": "kvm-intel.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/broadwellnk-4.4.302/kvm-intel.ko",
+            "sha256": "82c858e2ddfbe747de6d07513e21b9e1aa270e15722c9830c345c64e07125747",
+            "packed": false
+        },
+        {
+            "name": "check-kvm-intel.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/broadwellnk-4.4.302/check-kvm-intel.sh",
+            "sha256": "41b7ad1a1844dd00e5ef0d36d7b821900b75215289953691c47b923f17eaea6e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm.ko": "",
+        "kvm-intel.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm-intel.sh"
+    }
+}

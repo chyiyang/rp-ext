@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.9",
+    "mod_version": "23.6.10",
     "files": [
         {
             "name": "tg3.ko",
@@ -16,7 +16,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/bromolow-3.10.105/tg3_firmware.tag.gz",
-            "sha256": "59227fdc0434843ca021718588629993ddd136fe0d26aaf34e4f72b94782ab70",
+            "sha256": "eec60c14c3fc58a1956bea930fee777cc72cf3ff6893bcec2f9f27944184db0a",
             "packed": false
         },
         {

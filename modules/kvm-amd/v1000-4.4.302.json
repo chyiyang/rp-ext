@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.10",
+    "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/v1000-4.4.302/kvm.ko",
+            "sha256": "316c070e1dc77a75eb81dd3867373c04cafdc3a60f398c4f74efa6f2df31779c",
+            "packed": false
+        },
+        {
+            "name": "kvm-amd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/v1000-4.4.302/kvm-amd.ko",
+            "sha256": "29431d0dea44d41d7e285f2763239a4a6760c09e0b78968d4f3e3f7cb102b02e",
+            "packed": false
+        },
+        {
+            "name": "check-kvm-amd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/v1000-4.4.302/check-kvm-amd.sh",
+            "sha256": "5ea91215f63363b4c8743778eee3dd93ae6318ce6581980be17463d59637e33f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm.ko": "",
+        "kvm-amd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm-amd.sh"
+    }
+}

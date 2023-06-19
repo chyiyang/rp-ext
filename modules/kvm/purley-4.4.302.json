@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.10",
+    "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/purley-4.4.302/kvm.ko",
+            "sha256": "21abfcc4bafb15b4530e71b9add3c55c90bdd6b0367cc1a6b5b19a6e29801a55",
+            "packed": false
+        },
+        {
+            "name": "check-kvm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/purley-4.4.302/check-kvm.sh",
+            "sha256": "af6114c70db18660d54fb9ff349f48e2ac8225455003fbb25c7d020138318957",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.10",
+    "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/epyc7002-5.10.55/kvm.ko",
+            "sha256": "daa4c801f979957406553a965b2c4d3249cd6fe8aa57570912019307413510df",
+            "packed": false
+        },
+        {
+            "name": "check-kvm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/epyc7002-5.10.55/check-kvm.sh",
+            "sha256": "af6114c70db18660d54fb9ff349f48e2ac8225455003fbb25c7d020138318957",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm.sh"
+    }
+}

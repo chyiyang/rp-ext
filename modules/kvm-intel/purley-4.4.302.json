@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.10",
+    "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/purley-4.4.302/kvm.ko",
+            "sha256": "21abfcc4bafb15b4530e71b9add3c55c90bdd6b0367cc1a6b5b19a6e29801a55",
+            "packed": false
+        },
+        {
+            "name": "kvm-intel.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/purley-4.4.302/kvm-intel.ko",
+            "sha256": "900e7fa793f6d083c95905a1e020c525320c217853441d6163780f6eeae6c4fd",
+            "packed": false
+        },
+        {
+            "name": "check-kvm-intel.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/purley-4.4.302/check-kvm-intel.sh",
+            "sha256": "41b7ad1a1844dd00e5ef0d36d7b821900b75215289953691c47b923f17eaea6e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm.ko": "",
+        "kvm-intel.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm-intel.sh"
+    }
+}

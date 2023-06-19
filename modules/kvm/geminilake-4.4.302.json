@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.10",
+    "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/geminilake-4.4.302/kvm.ko",
+            "sha256": "b9f76fe4fe725fd05a2c18427e33e80aba7552809ebfb47f7f64d140923842b1",
+            "packed": false
+        },
+        {
+            "name": "check-kvm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/geminilake-4.4.302/check-kvm.sh",
+            "sha256": "af6114c70db18660d54fb9ff349f48e2ac8225455003fbb25c7d020138318957",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm.sh"
+    }
+}

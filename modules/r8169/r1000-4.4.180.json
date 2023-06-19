@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.9",
+    "mod_version": "23.6.10",
     "files": [
         {
             "name": "mii.ko",
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/r1000-4.4.180/r8169_firmware.tag.gz",
-            "sha256": "a1950f79b217e73529b2fed506d166fd5d4d8855497426af4e86397d493227df",
+            "sha256": "800ae492cac1189ded7611415edb285e61178f56b00e3619d4b5bc925f284a44",
             "packed": false
         },
         {

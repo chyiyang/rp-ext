@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.6.10",
+    "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/apollolake-4.4.302/kvm.ko",
+            "sha256": "8f6dad4d7a1c8f61c014919e9ba869a327216fe05a03745a85004e53e8122efc",
+            "packed": false
+        },
+        {
+            "name": "kvm-intel.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/apollolake-4.4.302/kvm-intel.ko",
+            "sha256": "9012c85267d83b563961dcbb1b779be87554edcc80051f4ee05439ab24a9e71f",
+            "packed": false
+        },
+        {
+            "name": "check-kvm-intel.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/apollolake-4.4.302/check-kvm-intel.sh",
+            "sha256": "41b7ad1a1844dd00e5ef0d36d7b821900b75215289953691c47b923f17eaea6e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm.ko": "",
+        "kvm-intel.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm-intel.sh"
+    }
+}
