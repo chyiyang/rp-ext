@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.10",
+    "mod_version": "23.6.11",
     "files": [
         {
             "name": "cxgb4.ko",
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/v1000-4.4.59/cxgb4_firmware.tag.gz",
-            "sha256": "6d4bec9034efafc089487ab9e692b168b47c7aaea194d2415ef242264ae18800",
+            "sha256": "6deacf333558485815111a3ffecdf98000a8c496c52a19ef0e9cf3e86150522f",
             "packed": false
         },
         {

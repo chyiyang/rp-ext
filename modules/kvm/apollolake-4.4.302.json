@@ -1,6 +1,12 @@
 {
-    "mod_version": "23.6.10",
+    "mod_version": "23.6.11",
     "files": [
+        {
+            "name": "irqbypass.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/apollolake-4.4.302/irqbypass.ko",
+            "sha256": "ef82f905241f87182946a467e386049ec2ba1eb1af546807948fce40baac6a2f",
+            "packed": false
+        },
         {
             "name": "kvm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/apollolake-4.4.302/kvm.ko",
@@ -10,11 +16,12 @@
         {
             "name": "check-kvm.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/apollolake-4.4.302/check-kvm.sh",
-            "sha256": "af6114c70db18660d54fb9ff349f48e2ac8225455003fbb25c7d020138318957",
+            "sha256": "f3783a261feb27b47f4561d1c1e32bde132d1b1a11520186959c00f4ecb2ec88",
             "packed": false
         }
     ],
     "kmods": {
+        "irqbypass.ko": "",
         "kvm.ko": ""
     },
     "scripts": {

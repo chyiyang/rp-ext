@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.10",
+    "mod_version": "23.6.11",
     "files": [
         {
             "name": "bnx2.ko",
@@ -16,7 +16,7 @@
         {
             "name": "bnx2_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/purley-4.4.59/bnx2_firmware.tag.gz",
-            "sha256": "3a8050d654908cd184929575dae58118d581fd007f8d12595bab013d96cc9955",
+            "sha256": "2eb1f725bdaf917881b81243431e1154e81ea381c54f0beaf3bc162047dd3594",
             "packed": false
         },
         {

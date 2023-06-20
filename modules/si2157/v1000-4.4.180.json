@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.10",
+    "mod_version": "23.6.11",
     "files": [
         {
             "name": "si2157.ko",
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/v1000-4.4.180/si2157_firmware.tag.gz",
-            "sha256": "a993330e3266de44a7ac643247fda949c167606acdd02ccb9dadb863234ed03c",
+            "sha256": "87f144d7acd5addec8925cd611ef5080b3fb3347435616b7988f8ee3e486a1c9",
             "packed": false
         },
         {

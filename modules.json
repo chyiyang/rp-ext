@@ -1948,6 +1948,21 @@
             "geminilake-4.4.180"
         ]
     },
+    "irqbypass": {
+        "description": "IRQ bypass manager utility module",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/irqbypass/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.302",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.302",
+            "denverton-4.4.302",
+            "epyc7002-5.10.55",
+            "geminilake-4.4.302",
+            "purley-4.4.302",
+            "r1000-4.4.302",
+            "v1000-4.4.302"
+        ]
+    },
     "it87": {
         "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/rpext-index.json",

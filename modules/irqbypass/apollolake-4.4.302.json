@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.6.11",
+    "files": [
+        {
+            "name": "irqbypass.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/irqbypass/apollolake-4.4.302/irqbypass.ko",
+            "sha256": "ef82f905241f87182946a467e386049ec2ba1eb1af546807948fce40baac6a2f",
+            "packed": false
+        },
+        {
+            "name": "check-irqbypass.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/irqbypass/apollolake-4.4.302/check-irqbypass.sh",
+            "sha256": "ccd92dc2e2e5034c4051306295fd9a67f08e79e568d74909e9fe73611caa2343",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "irqbypass.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-irqbypass.sh"
+    }
+}
