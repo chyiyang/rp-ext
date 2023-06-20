@@ -23,12 +23,12 @@ echo "MajorVersion:${MajorVersion} MinorVersion:${MinorVersion}"
 if [ "$HASBOOTED" = "no" ]; then
   echo "Starting eudev daemon"
   if [ "${MajorVersion}" -lt "7" ]; then # < 7
-    tar zxf /addons/eudev-6.2.tgz -C /
+    tar zxf /exts/eudev/eudev-6.2.tgz -C /
   else
     if [ "${MinorVersion}" -lt "2" ]; then # < 2
-      tar zxf /addons/eudev-7.1.tgz -C /
+      tar zxf /exts/eudev/eudev-7.1.tgz -C /
     else
-      tar zxf /addons/eudev-7.2.tgz -C /
+      tar zxf /exts/eudev/eudev-7.2.tgz -C /
     fi
   fi
   [ -e /proc/sys/kernel/hotplug ] && printf '\000\000\000\000' > /proc/sys/kernel/hotplug
