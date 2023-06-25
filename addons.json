@@ -34,6 +34,13 @@
             "_"
         ]
     },
+    "console": {
+        "description": "excute console",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/console/rpext-index.json",
+        "platforms": [
+            "_"
+        ]
+    },
     "cpuinfo": {
         "description": "Adds correct CPU Info, from FOXBI",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/cpuinfo/rpext-index.json",
@@ -69,6 +76,13 @@
             "_"
         ]
     },
+    "hdddb": {
+        "description": "Add HDDs/SSDs drives to your dsm's databases, from 007revad",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/hdddb/rpext-index.json",
+        "platforms": [
+            "_"
+        ]
+    },
     "lsiutil": {
         "description": "A tool for working with some LSI RAID controller",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/lsiutil/rpext-index.json",
@@ -86,6 +100,13 @@
     "powersched": {
         "description": "Utility to configure RTC according to DSM power schedule",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/powersched/rpext-index.json",
+        "platforms": [
+            "_"
+        ]
+    },
+    "wol": {
+        "description": "Force enable the Wake-on-lan on first ethernet device",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/wol/rpext-index.json",
         "platforms": [
             "_"
         ]
