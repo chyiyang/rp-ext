@@ -1,5 +1,4 @@
-
-#!/usr/bin/env ash
+#!/bin/sh
 
 
 ### USUALLY SCEMD is the last process run in init, so when scemd is running we are most
@@ -241,6 +240,7 @@ function dtModel() {
 function nondtModel() {
   local SATA_PORTS=0
   local SAS_PORTS=0
+  local SCSI_PORTS=0
   local NUMPORTS=0
   local ESATAPORTCFG=$((`_get_conf_kv esataportcfg`))
   local INTPORTCFG
@@ -253,7 +253,8 @@ function nondtModel() {
     # sysfs is populated here
     SATA_PORTS=`ls /sys/class/ata_port | wc -w`
     [ -d '/sys/class/sas_phy' ] && SAS_PORTS=`ls /sys/class/sas_phy | wc -w`
-    NUMPORTS=$((${SATA_PORTS}+${SAS_PORTS}))
+    [ -d '/sys/class/scsi_disk' ] && SCSI_PORTS=`ls /sys/class/scsi_disk | wc -w`
+    NUMPORTS=$((${SATA_PORTS}+${SAS_PORTS}+${SCSI_PORTS}))
     # Raidtool will read maxdisks, but when maxdisks is greater than 27, formatting error will occur 8%.
     if ! _check_rootraidstatus && [ ${NUMPORTS} -gt 26 ]; then
       _set_conf_kv rd "maxdisks" "26"
@@ -278,10 +279,11 @@ function nondtModel() {
     echo "set usbportcfg=${USBPORTCFG}"
   fi
   # NVME
+  rm -f /etc/extensionPorts
   echo "[pci]" > /etc/extensionPorts
   chmod 755 /etc/extensionPorts
   for P in `nvmePorts false`; do
-    echo "pci${COUNT}=\"$P\"" >> /etc/extensionPorts
+    echo "pci${COUNT}=\"${P}\"" >> /etc/extensionPorts
     COUNT=$((${COUNT}+1))
   done
 }
@@ -328,6 +330,7 @@ elif [ "$HASBOOTED" = "yes" ]; then
     echo "maxdisks=${NUMPORTS}"
     echo "internalportcfg=${INTPORTCFG}"
     echo "usbportcfg=${USBPORTCFG}"
+    cp -vf /etc/extensionPorts /tmpRoot/etc/extensionPorts
     cp -vf /etc/extensionPorts /tmpRoot/etc.defaults/extensionPorts
   fi
 fi

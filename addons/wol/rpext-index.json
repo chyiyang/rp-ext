@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/wjz304/rp-ext/raw/main/addons/wol/rpext-index.json",
+  "id": "wol",
+  "info": {
+    "name": "wol",
+    "description": "Force enable the Wake-on-lan on first ethernet device",
+    "packer_url": "https://github.com/wjz304/rp-ext/raw/main/addons/wol",
+    "help_url": "https://github.com/wjz304/rp-ext/raw/main/addons/wol"
+  },
+  "releases": {
+    "_": "https://github.com/wjz304/rp-ext/raw/main/addons/wol/recipes/universal.json",
+    "zendofmodel": "endofurls"
+  }
+}

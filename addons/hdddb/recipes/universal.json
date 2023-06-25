@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/hdddb/releases/install.sh",
+      "sha256": "d62cefaee25533c93b3240fcea4b13a0fbaf75d1ad5b9b4cd6ed4ce16f60be25",
+      "packed": false
+    },
+    {
+      "name": "hdddb.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/hdddb/releases/hdddb.sh",
+      "sha256": "0046b6f1aeb224ba3b5af680c004028e88197af79e6c88f52ec6d240073337c3",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh",
+    "on_os_load": "install.sh"
+  }
+}

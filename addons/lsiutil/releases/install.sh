@@ -1,4 +1,4 @@
-#!/usr/bin/env ash
+#!/bin/sh
 
 if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
   echo "Copying lsiutil to HD"
