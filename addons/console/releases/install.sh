@@ -21,14 +21,15 @@ fi
 if [ "$HASBOOTED" = "no" ]; then
 
     echo "extract cgetty.tgz to /usr/sbin/ "
-    tar xfz /exts/cgetty/cgetty.tgz -C /
+    tar -zxf /exts/console/cgetty.tgz -C /
 
     TARGET_PLATFORM="$(uname -u | cut -d '_' -f2)"
     echo $TARGET_PLATFORM
     if [ "${TARGET_PLATFORM}" != "bromolow" ]; then
         load_fb_console
     fi
-
+    exit 0
+    
 elif [ "$HASBOOTED" = "yes" ]; then
 # run when boot installed DSM
   echo "Installing serial-getty service on installed DSM"
