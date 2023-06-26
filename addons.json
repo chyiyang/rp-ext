@@ -21,21 +21,21 @@
         ]
     },
     "boot-wait": {
-        "description": "Simple extension which stops the execution early waiting for the boot device to appear",
+        "description": "This script-only extension ensures boot process waits until boot device (`/dev/synoboot`) is available before other processes start launching",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/boot-wait/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "codecpatch": {
-        "description": "Adds synocodectool-patch",
+        "description": "This patch enables transcoding on Synologys DiskStation Manager 6+ without a valid serial number, by wirgen",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/codecpatch/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "console": {
-        "description": "excute console",
+        "description": "Give a screen console via framebuffer",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/console/rpext-index.json",
         "platforms": [
             "_"
@@ -70,7 +70,7 @@
         ]
     },
     "eudev": {
-        "description": "Eudev binaries will assist with auto module loading",
+        "description": "eudev + kmod will assist with auto module loading",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/eudev/rpext-index.json",
         "platforms": [
             "_"
@@ -91,7 +91,7 @@
         ]
     },
     "misc": {
-        "description": "Misc shell",
+        "description": "Miscellaneous functions",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/misc/rpext-index.json",
         "platforms": [
             "_"
