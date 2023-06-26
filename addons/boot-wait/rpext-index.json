@@ -3,7 +3,7 @@
   "url": "https://github.com/wjz304/rp-ext/raw/main/addons/boot-wait/rpext-index.json",
   "info": {
     "name": "RedPill Bootwait",
-    "description": "Simple extension which stops the execution early waiting for the boot device to appear",
+    "description": "This script-only extension ensures boot process waits until boot device (`/dev/synoboot`) is available before other processes start launching",
     "packer_url": "https://github.com/RedPill-TTG/redpill-boot-wait",
     "help_url": "https://github.com/RedPill-TTG/redpill-boot-wait"
   },
