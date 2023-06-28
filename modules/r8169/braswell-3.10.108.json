@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.6.11",
+    "mod_version": "23.6.12",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/braswell-3.10.108/mii.ko",
-            "sha256": "763589711251458ace7c9752824ac8b9e3092232858baceed6152a8eaa6bc34d",
+            "sha256": "cddfca14139b846d131c4b6b56ab48b8c99fb134bd4799666853f44c297fbc19",
             "packed": false
         },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/braswell-3.10.108/r8169.ko",
-            "sha256": "e44c60da4ec8412bd2716f77f52077e00da757568d31effe63ba3b29149c5650",
+            "sha256": "492addc707b18e5bf9202e7889289c42c32e725eb430c3bff6ea6268fb5c9d90",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/braswell-3.10.108/r8169_firmware.tag.gz",
-            "sha256": "7204c9f063b6fc4b8e830bddc8e55bb03699bc83c567d3f5971bf986d52ebbd7",
+            "sha256": "7cfa432735791c3da79726a95ea92a3662af1c6e858bfc942e53e7bf629a23d8",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.6.11",
+    "mod_version": "23.6.12",
     "files": [
         {
             "name": "si2157.ko",
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/denverton-4.4.59/si2157_firmware.tag.gz",
-            "sha256": "6ba2252a719ae1408759d4bcb03ad715f32658e964a9a160184dd52d8764a302",
+            "sha256": "225b3ab6428ed4ad2a850f57799ea48ab293fb6099462bc06ba260406dc47cc4",
             "packed": false
         },
         {

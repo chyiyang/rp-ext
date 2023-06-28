@@ -1,12 +1,6 @@
 {
-    "mod_version": "23.6.11",
+    "mod_version": "23.6.12",
     "files": [
-        {
-            "name": "mdio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.108/mdio.ko",
-            "sha256": "2f2873bed0d690a6b2e3009f5f48cb44602c8679a08019f49a2d9271d14f7e45",
-            "packed": false
-        },
         {
             "name": "cxgb3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.108/cxgb3.ko",
@@ -16,13 +10,13 @@
         {
             "name": "check-cxgb3.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.108/check-cxgb3.sh",
-            "sha256": "027e543cf8b835b88abe7c6904ab386046c9a559aa977d6382009ce8e25fd260",
+            "sha256": "f701cea7da479fa7017043e49ad36efc4c1e4cbe80b7de25536cd5025026964a",
             "packed": false
         },
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.108/cxgb3_firmware.tag.gz",
-            "sha256": "bcef6c3ede1ca3fe82620bb54ac1892703d2b358422a47cfa38bec79132769b8",
+            "sha256": "a1a2b539fa44f3772ff66ee8b88b6b546d02dc8be3d63b46a2770221221692bb",
             "packed": false
         },
         {
@@ -33,7 +27,6 @@
         }
     ],
     "kmods": {
-        "mdio.ko": "",
         "cxgb3.ko": ""
     },
     "scripts": {

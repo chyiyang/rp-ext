@@ -1,16 +1,10 @@
 {
-    "mod_version": "23.6.11",
+    "mod_version": "23.6.12",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-5.10.55/mii.ko",
             "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
-            "packed": false
-        },
-        {
-            "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-5.10.55/libphy.ko",
-            "sha256": "9161d428dbaa4821de436309c4b6c642555209fdc8c1c6139a0042b114e94bc1",
             "packed": false
         },
         {
@@ -28,13 +22,12 @@
         {
             "name": "check-asix.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-5.10.55/check-asix.sh",
-            "sha256": "df8aed87b5d5da5b85480e3ed59ce8edf160ddd460cdfabb740b71318f72e8a6",
+            "sha256": "7e16ab08a5ee97caff6bd17b1ff98e04bf763cb6b2bcebd80915ae2cb9f362ac",
             "packed": false
         }
     ],
     "kmods": {
         "mii.ko": "",
-        "libphy.ko": "",
         "usbnet.ko": "",
         "asix.ko": ""
     },

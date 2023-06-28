@@ -1,12 +1,6 @@
 {
-    "mod_version": "23.6.11",
+    "mod_version": "23.6.12",
     "files": [
-        {
-            "name": "mdio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/bromolow-3.10.108/mdio.ko",
-            "sha256": "2f2873bed0d690a6b2e3009f5f48cb44602c8679a08019f49a2d9271d14f7e45",
-            "packed": false
-        },
         {
             "name": "cxgb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/bromolow-3.10.108/cxgb.ko",
@@ -16,12 +10,11 @@
         {
             "name": "check-cxgb.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/bromolow-3.10.108/check-cxgb.sh",
-            "sha256": "9943aedbaaf1e5194a758b510259c88662c94d5b073c4cdd96dc97e699028cb2",
+            "sha256": "1c90ad0de292e391684fd27b62f1ec330d7846cb21fef962b35c7b328e51e595",
             "packed": false
         }
     ],
     "kmods": {
-        "mdio.ko": "",
         "cxgb.ko": ""
     },
     "scripts": {
