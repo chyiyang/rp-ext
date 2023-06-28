@@ -1,13 +1,13 @@
 {
     "dtbstatic": {
-        "description": "Create your own device tree binary",
+        "description": "Customized processing Device tree binary(<=4)",
         "url": "file",
         "platforms": [
             "_"
         ]
     },
     "localrss": {
-        "description": "local rss",
+        "description": "Implant RSS into the bootloader so that it can be installed online",
         "url": "file",
         "platforms": [
             "_"
@@ -49,7 +49,7 @@
         ]
     },
     "disks": {
-        "description": "Config disks related setting",
+        "description": "Customized processing Device tree binary with *cfgport parameter",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/disks/rpext-index.json",
         "platforms": [
             "_"
