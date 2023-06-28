@@ -73,12 +73,12 @@ jobs:
               # redpill-load\ext
 
               addons["dtbstatic"] = {
-                "description": "Create your own device tree binary",
+                "description": "Customized processing Device tree binary(<=4)",
                 "url": "file",
                 "platforms": [ "_" ]
               }
               addons["localrss"] = {
-                "description": "local rss",
+                "description": "Implant RSS into the bootloader so that it can be installed online",
                 "url": "file",
                 "platforms": [ "_" ]
               }
