@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "atl1e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/epyc7002-7.1-5.10.55/atl1e.ko",
+            "sha256": "6fa4d9fd37d0f4ba03e72d755c20169ea9cf09cf9342b4c4403562f557f5e213",
+            "packed": false
+        },
+        {
+            "name": "check-atl1e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atl1e/epyc7002-7.1-5.10.55/check-atl1e.sh",
+            "sha256": "1d058b4ba5716679d60b13b43e823c82c655927b498a724b5f09c06ff2ae6d63",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atl1e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atl1e.sh"
+    }
+}

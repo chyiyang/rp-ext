@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "realtek.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/epyc7002-7.2-5.10.55/realtek.ko",
+            "sha256": "c25c347a4ddf0bb50c573f9f2ddeef2687b6ee4b010c929dee9389bbf15c7294",
+            "packed": false
+        },
+        {
+            "name": "check-realtek.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/epyc7002-7.2-5.10.55/check-realtek.sh",
+            "sha256": "8c3e8fb5f3ee83e19823bd5d9049dd3959785fc730779b550ac1992b2af9b371",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "realtek.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-realtek.sh"
+    }
+}

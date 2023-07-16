@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "ixgbe.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/epyc7002-7.1-5.10.55/ixgbe.ko",
+            "sha256": "1a4e7d7f9c5e81ca9956cfdb710ba23ca540de23886fe04d6720c96512803920",
+            "packed": false
+        },
+        {
+            "name": "check-ixgbe.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ixgbe/epyc7002-7.1-5.10.55/check-ixgbe.sh",
+            "sha256": "68d8052404ec39e03a01e9284fec0430673b3ced0b5263ea708852b61ee63d9a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ixgbe.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ixgbe.sh"
+    }
+}

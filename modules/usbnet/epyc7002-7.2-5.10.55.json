@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-7.2-5.10.55/mii.ko",
+            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
+            "packed": false
+        },
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-7.2-5.10.55/usbnet.ko",
+            "sha256": "b7f992de1887c95dd4643a04521d05f38f592aaf83788960ed31c1ce0b77e915",
+            "packed": false
+        },
+        {
+            "name": "check-usbnet.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-7.2-5.10.55/check-usbnet.sh",
+            "sha256": "772ff49c86b95fda3b0f0df68a2db8ce8d745025d4a10227101507c3487a4b7c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "usbnet.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-usbnet.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "vmxnet3.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/epyc7002-7.1-5.10.55/vmxnet3.ko",
+            "sha256": "05f7e8c034ab0e50669ff05822df8676ec1bb5ceb7e718cb74903e349abec313",
+            "packed": false
+        },
+        {
+            "name": "check-vmxnet3.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/epyc7002-7.1-5.10.55/check-vmxnet3.sh",
+            "sha256": "ffa24196bcbcabcf150fe9decc495448aa88e96b8121a8017eebf6ce0c2ecfd5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "vmxnet3.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vmxnet3.sh"
+    }
+}

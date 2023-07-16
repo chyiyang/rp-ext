@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "failover.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/epyc7002-7.2-5.10.55/failover.ko",
+            "sha256": "4d530b6a49c96974675891e1aac3bbb6ed6d19f934b814f71671924a70ca86af",
+            "packed": false
+        },
+        {
+            "name": "net_failover.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/epyc7002-7.2-5.10.55/net_failover.ko",
+            "sha256": "77e1f09be0727c558bdab899abe5afa196e574f0d4dd125691a6a03ac210a5ae",
+            "packed": false
+        },
+        {
+            "name": "check-net_failover.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/epyc7002-7.2-5.10.55/check-net_failover.sh",
+            "sha256": "88f8d4f49a179d9b2253417a72c59c6172e7b9e16bb8bf1f6ed1d2073d5f7059",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "failover.ko": "",
+        "net_failover.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-net_failover.sh"
+    }
+}

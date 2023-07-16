@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/epyc7002-7.1-5.10.55/hwmon-vid.ko",
+            "sha256": "030704963480f95a1d40ac87fe5c93ac9e3b0f69274d9c9132a82e0e8533bfd0",
+            "packed": false
+        },
+        {
+            "name": "dme1737.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/epyc7002-7.1-5.10.55/dme1737.ko",
+            "sha256": "ce741f95bb1466278e6fc79ee1cdcb8d9b670054ca4ccd1051057d63a5a9c199",
+            "packed": false
+        },
+        {
+            "name": "check-dme1737.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/epyc7002-7.1-5.10.55/check-dme1737.sh",
+            "sha256": "8804cf96688ac9fec95240d66c80803fce36ae9877aa8b51ca4f8b9a140ac8e8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "dme1737.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dme1737.sh"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/mii.ko",
+            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
+            "packed": false
+        },
+        {
+            "name": "r8152.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/r8152.ko",
+            "sha256": "6d7b9c8491189b3ca2328d6074001365199308c2291a34d0b08d94afb034ba15",
+            "packed": false
+        },
+        {
+            "name": "check-r8152.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/check-r8152.sh",
+            "sha256": "d82a02c667a4f6c360b34efe596c03b3780ff1548fb10e372dd2798c57c497b1",
+            "packed": false
+        },
+        {
+            "name": "r8152_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/r8152_firmware.tag.gz",
+            "sha256": "609c226d2870970291669b30c51c12edef222e11f78988e31e808244b978108e",
+            "packed": false
+        },
+        {
+            "name": "install-r8152.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/install-r8152.sh",
+            "sha256": "69045790581da144e844b8a4bb909c6f9a94809daff93484547020e21910a89c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8152.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8152.sh",
+        "on_os_load": "install-r8152.sh"
+    }
+}

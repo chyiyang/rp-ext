@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/mii.ko",
+            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
+            "packed": false
+        },
+        {
+            "name": "b44.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/b44.ko",
+            "sha256": "b582f1cc1f7d5eef7e5ced609dcd9c2069d79821016e6fdbcfc1c0c6f82ccd83",
+            "packed": false
+        },
+        {
+            "name": "check-b44.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/check-b44.sh",
+            "sha256": "75b3af2dcca0a83b678597f3f4c1511cd076056c995223144f7f8204ddfc920b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "b44.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-b44.sh"
+    }
+}

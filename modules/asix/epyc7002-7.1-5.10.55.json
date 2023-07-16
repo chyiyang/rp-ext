@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-7.1-5.10.55/mii.ko",
+            "sha256": "ee9bdce11cbaa2925cbfe0c19769e5279fe720388a730d7ba6f0216d2c8c7d6d",
+            "packed": false
+        },
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-7.1-5.10.55/usbnet.ko",
+            "sha256": "299988b81e0f44c4f5c1a312ffff9c9f9511e475bd0cb3a67c0aac63150e6922",
+            "packed": false
+        },
+        {
+            "name": "asix.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-7.1-5.10.55/asix.ko",
+            "sha256": "2edd163dd7bc019271c8c8022f300941547a159abdb5ed1b93ee6ac1591ce1ad",
+            "packed": false
+        },
+        {
+            "name": "check-asix.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-7.1-5.10.55/check-asix.sh",
+            "sha256": "7e16ab08a5ee97caff6bd17b1ff98e04bf763cb6b2bcebd80915ae2cb9f362ac",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "usbnet.ko": "",
+        "asix.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-asix.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "atlantic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/epyc7002-7.1-5.10.55/atlantic.ko",
+            "sha256": "1105bba5c04ec76c0b684373fdb61636a800d416e18614e09bf74d4eaca2e11c",
+            "packed": false
+        },
+        {
+            "name": "check-atlantic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/epyc7002-7.1-5.10.55/check-atlantic.sh",
+            "sha256": "ff18bed51b50c402e1ec2aa26d7f54e870513b21d6e226f901bd9216d6fafe78",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "atlantic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atlantic.sh"
+    }
+}

@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.6.12",
+    "mod_version": "23.7.0",
     "files": [
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/cfbfillrect.ko",
-            "sha256": "2e0beea61b5c18e53ac81a97bbdd9318336252e072667daff7c3a87825705ee5",
+            "sha256": "07c6a805481fc84325c522280b59573ed822cadcefa216116909919f3d9c124b",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/cfbimgblt.ko",
-            "sha256": "6987f3c69f83d9405e7b315b6785fd9d48bd94c52334df7de7dfcc65aceac58c",
+            "sha256": "3b575e50aaa8c52b7e9e740602bb541ec44b99626e7168568d26a83189450c13",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/cfbcopyarea.ko",
-            "sha256": "d51d74c7ea78fce5d59ce95cbed632de6585bbfa7d474e6e892e79330839f117",
+            "sha256": "969629f7ae298e2612ad90444afb7b1fe7f6d773688659643479f59745908de5",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-4.4.180/fb.ko",
-            "sha256": "911e79b8ad0a25afeb2b443aecbd01a61b872fa5d72396421c84acfd176edcfd",
+            "sha256": "06cdb6dc97b62306ff813fe4ec39d3b275cc5c3c26c22976f2731a18f3470631",
             "packed": false
         },
         {

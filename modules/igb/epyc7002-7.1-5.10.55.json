@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "igb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/epyc7002-7.1-5.10.55/igb.ko",
+            "sha256": "1710afc41696b71de10a4ab449b9f81a32d5b66a9711e7e87b8ad9a07306636e",
+            "packed": false
+        },
+        {
+            "name": "check-igb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/igb/epyc7002-7.1-5.10.55/check-igb.sh",
+            "sha256": "1c4a88c3f5e404267f48ff289d97df0dcfb97c53aea9462cb701d8642e314319",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "igb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-igb.sh"
+    }
+}

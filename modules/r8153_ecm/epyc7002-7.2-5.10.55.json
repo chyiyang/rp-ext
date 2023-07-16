@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-7.2-5.10.55/usbnet.ko",
+            "sha256": "b7f992de1887c95dd4643a04521d05f38f592aaf83788960ed31c1ce0b77e915",
+            "packed": false
+        },
+        {
+            "name": "r8153_ecm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-7.2-5.10.55/r8153_ecm.ko",
+            "sha256": "6b51360b39f1a841c4e78d09aa8b5c7955a077770986362f3434f3b1c965e99c",
+            "packed": false
+        },
+        {
+            "name": "check-r8153_ecm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-7.2-5.10.55/check-r8153_ecm.sh",
+            "sha256": "c59a97b9f07aba38b02111603c585a20fd7641f7dce383daaea26bf5df3da22f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbnet.ko": "",
+        "r8153_ecm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8153_ecm.sh"
+    }
+}

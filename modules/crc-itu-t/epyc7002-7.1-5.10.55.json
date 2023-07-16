@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/epyc7002-7.1-5.10.55/crc-itu-t.ko",
+            "sha256": "6aec22c24a4e28310733c8f640b3a9af3d08dbfe89b8bcf8469e2f53114be480",
+            "packed": false
+        },
+        {
+            "name": "check-crc-itu-t.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/epyc7002-7.1-5.10.55/check-crc-itu-t.sh",
+            "sha256": "41dfe6680f175a93dc96e1bc8a72f3a193b8a64c058b8d3edaf612ba3b420a38",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-itu-t.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-itu-t.sh"
+    }
+}

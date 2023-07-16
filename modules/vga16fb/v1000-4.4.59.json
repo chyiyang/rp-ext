@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.6.12",
+    "mod_version": "23.7.0",
     "files": [
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.59/cfbcopyarea.ko",
-            "sha256": "eb84c62df391151c314d81761d0f2d208d915f68153b316b415e095772aa6b24",
+            "sha256": "f4115bb037b2dd55d0f62d551e3a9bb894a72db45377402aa703a9085c17f05e",
             "packed": false
         },
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.59/cfbfillrect.ko",
-            "sha256": "34dc3c97dcfd3242c842226af74ff4bd11b24bd8b604857be15884929680f132",
+            "sha256": "f91cf9956d251a4ba588e6ebfa59b3482cc520c34720b8c8521c205fd423514a",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.59/cfbimgblt.ko",
-            "sha256": "293716276befcd30abdc462f1d71c6808f4f705ff491e11fe1e0befb4978e107",
+            "sha256": "cccd97c0b0ee5f34444f2a624b7aff6ec9ce1de3bd1ebaaf0d40f4d444a5ce1b",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/v1000-4.4.59/fb.ko",
-            "sha256": "23a1e2e655c0dd6259d3f8e2a587c4da11730fd4fae1ad4f84b7c046e2e48d59",
+            "sha256": "512a4618708a3af25a94e4f281e30958bcc6ef3cbc26598a72bb3eb3289847f6",
             "packed": false
         },
         {

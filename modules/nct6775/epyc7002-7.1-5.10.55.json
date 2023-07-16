@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "hwmon-vid.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/epyc7002-7.1-5.10.55/hwmon-vid.ko",
+            "sha256": "030704963480f95a1d40ac87fe5c93ac9e3b0f69274d9c9132a82e0e8533bfd0",
+            "packed": false
+        },
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/epyc7002-7.1-5.10.55/nct6775.ko",
+            "sha256": "a3862258243219283f1072cbc02ca98cadd22d5ca4c3a97ad943d40b50f44547",
+            "packed": false
+        },
+        {
+            "name": "check-nct6775.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/epyc7002-7.1-5.10.55/check-nct6775.sh",
+            "sha256": "7a8d3d0ed329a66c22d05d8ba8535152ad1cff6de515edbf6b3ba0320c700f29",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hwmon-vid.ko": "",
+        "nct6775.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nct6775.sh"
+    }
+}

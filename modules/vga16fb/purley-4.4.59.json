@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.6.12",
+    "mod_version": "23.7.0",
     "files": [
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.59/cfbcopyarea.ko",
-            "sha256": "50c4d8fbc2cf99cd2c1243768f1e01943258763c56a556aeaba0baf8e46a0b76",
+            "sha256": "ac434891724eeb1beea9d49a572cf98c1b285c60c44d17aa394388a54174509a",
             "packed": false
         },
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.59/cfbfillrect.ko",
-            "sha256": "8dbfbd26372e1b8873322ddec7e061efc3c2c35dab2454264ad7fb72e87b80ce",
+            "sha256": "5722829e12673301493fed937eef47322de806435b889d315223e446eab556ff",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.59/cfbimgblt.ko",
-            "sha256": "a4b458ff49a328eb9ec1ffa09e065105823f256a7e8ae5f972976dd2d07f4b10",
+            "sha256": "2edd2b41ecf296443d4f27f1fb527a94889aa37a07283a12ea520b7365d875ac",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.59/fb.ko",
-            "sha256": "8f5ef858e90883aca728171f91c617568f7c99c9729e67b1213533f9d611816c",
+            "sha256": "64b0b10e3f6fb54c2cd589e4aa278f8299ed2d85203c8b068a7c78084991ac80",
             "packed": false
         },
         {

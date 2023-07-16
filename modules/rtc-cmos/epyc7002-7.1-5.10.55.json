@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "rtc-cmos.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/epyc7002-7.1-5.10.55/rtc-cmos.ko",
+            "sha256": "364c0eb8e5f5306c9a7aa8d0e0bc0a38d18ba495eb18d7ebd9dd5d5c04802b8a",
+            "packed": false
+        },
+        {
+            "name": "check-rtc-cmos.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/epyc7002-7.1-5.10.55/check-rtc-cmos.sh",
+            "sha256": "56d177ed8ee2782dc3274d51687d8a94ad875cf97015d4940df7ef503d9df132",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "rtc-cmos.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-rtc-cmos.sh"
+    }
+}

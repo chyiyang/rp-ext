@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/epyc7002-7.1-5.10.55/virtio.ko",
+            "sha256": "d190b583785009450955cf45022687d010aca428b73a64b1e4b58cbdeaa25265",
+            "packed": false
+        },
+        {
+            "name": "check-virtio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/epyc7002-7.1-5.10.55/check-virtio.sh",
+            "sha256": "ce75807c104d55cea61ddfb1b25fd5af8bf9a511f77ecb8cc9a81b25da9de23f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio.sh"
+    }
+}

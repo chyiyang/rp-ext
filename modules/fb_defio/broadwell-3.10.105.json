@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "fb_defio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_defio/broadwell-3.10.105/fb_defio.ko",
+            "sha256": "aabab09eeb90ec6bfb57bccd69d37883a3e46a29d3c609c52bbf05dde1268e0a",
+            "packed": false
+        },
+        {
+            "name": "check-fb_defio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_defio/broadwell-3.10.105/check-fb_defio.sh",
+            "sha256": "fb7bb24b9ba1ef23c1b486d4d7124fff8ec09e71ea4061ea0ad0a0072b8fc081",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb_defio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fb_defio.sh"
+    }
+}

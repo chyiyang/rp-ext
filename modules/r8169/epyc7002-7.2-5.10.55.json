@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "r8169.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.2-5.10.55/r8169.ko",
+            "sha256": "196bc1c81ff32e1313d092d9d8aac4ac9858d3af479e218a3f62a9bd3d8c181f",
+            "packed": false
+        },
+        {
+            "name": "check-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.2-5.10.55/check-r8169.sh",
+            "sha256": "29027fcae85fd7a2f73b6e98281670347170fae2226e15a63b4e606b8cd0e79b",
+            "packed": false
+        },
+        {
+            "name": "r8169_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.2-5.10.55/r8169_firmware.tag.gz",
+            "sha256": "36e0173536673b343e9a5214279a226177b476ce9e93400142664cee02b9478e",
+            "packed": false
+        },
+        {
+            "name": "install-r8169.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.2-5.10.55/install-r8169.sh",
+            "sha256": "204148a30c10ee18f3a46d8555779e0781b3a438134b0e4612a9d9eaf2b5d9dc",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8169.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169.sh",
+        "on_os_load": "install-r8169.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "scsi_transport_sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.1-5.10.55/scsi_transport_sas.ko",
+            "sha256": "800ed4e05c7608ed81cbb55632cd76d6cd086c03c7b73a9020690e89ebaf22a8",
+            "packed": false
+        },
+        {
+            "name": "mpt3sas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.1-5.10.55/mpt3sas.ko",
+            "sha256": "f9699e8988c486ca2242fa573a41110655682b77431da4c4983af16524dc6c88",
+            "packed": false
+        },
+        {
+            "name": "check-mpt3sas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.1-5.10.55/check-mpt3sas.sh",
+            "sha256": "d23e676b04090c6cf95f8d330a5f59ed7f389f2139fcfe75a0c13830939421d0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_sas.ko": "",
+        "mpt3sas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mpt3sas.sh"
+    }
+}

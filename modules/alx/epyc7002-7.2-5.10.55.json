@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "alx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/epyc7002-7.2-5.10.55/alx.ko",
+            "sha256": "cd0e64831b4bf41c15bb40ffc2d05382a8e22e58da262870a1d6a9495e2d9e32",
+            "packed": false
+        },
+        {
+            "name": "check-alx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/epyc7002-7.2-5.10.55/check-alx.sh",
+            "sha256": "e39ae61fd5c15d099decd8322987712fcc339ce0bd2bddebfedf71a325ecaff2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "alx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-alx.sh"
+    }
+}

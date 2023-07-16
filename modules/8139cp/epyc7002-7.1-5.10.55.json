@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/epyc7002-7.1-5.10.55/mii.ko",
+            "sha256": "ee9bdce11cbaa2925cbfe0c19769e5279fe720388a730d7ba6f0216d2c8c7d6d",
+            "packed": false
+        },
+        {
+            "name": "8139cp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/epyc7002-7.1-5.10.55/8139cp.ko",
+            "sha256": "9555008c1a863a205ea238bc6d5fab9e5e2b787849aff7a4ce68866461b8d240",
+            "packed": false
+        },
+        {
+            "name": "check-8139cp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/epyc7002-7.1-5.10.55/check-8139cp.sh",
+            "sha256": "592c74f1557f0276c7b6a98410938b4b17af4f1fe5b03534b416f509bb4295c2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "8139cp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-8139cp.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/epyc7002-7.1-5.10.55/usbnet.ko",
+            "sha256": "299988b81e0f44c4f5c1a312ffff9c9f9511e475bd0cb3a67c0aac63150e6922",
+            "packed": false
+        },
+        {
+            "name": "aqc111.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/epyc7002-7.1-5.10.55/aqc111.ko",
+            "sha256": "cb9a53af4af5c19f3ab802409dc36f7bb9705008f7680c063b0e353877668ad2",
+            "packed": false
+        },
+        {
+            "name": "check-aqc111.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/epyc7002-7.1-5.10.55/check-aqc111.sh",
+            "sha256": "edf46bec2fad4e67b39a3fe3ffcea528b9064e6521373e2b45a956680ac2030c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbnet.ko": "",
+        "aqc111.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aqc111.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/epyc7002-7.1-5.10.55/intel_auxiliary.ko",
+            "sha256": "79f9538b411f9d1dbe23596847abf8378bd816238c968d705523a89e3fac9cb1",
+            "packed": false
+        },
+        {
+            "name": "iavf.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/epyc7002-7.1-5.10.55/iavf.ko",
+            "sha256": "c2ac62b4c282408e3a073d923f0df12300784292a63e59d30351d5fd0ded7144",
+            "packed": false
+        },
+        {
+            "name": "check-iavf.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/epyc7002-7.1-5.10.55/check-iavf.sh",
+            "sha256": "255776314597473772b58f531355e53d8df372cd3d879ad42b5c6322da5ea6b7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": "",
+        "iavf.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iavf.sh"
+    }
+}

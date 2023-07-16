@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "intel_auxiliary.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/epyc7002-7.1-5.10.55/intel_auxiliary.ko",
+            "sha256": "79f9538b411f9d1dbe23596847abf8378bd816238c968d705523a89e3fac9cb1",
+            "packed": false
+        },
+        {
+            "name": "check-intel_auxiliary.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/epyc7002-7.1-5.10.55/check-intel_auxiliary.sh",
+            "sha256": "340f4c6b97b0bfd51322b44dc3bd02ddf57f5245c8c0661e0598003dc3d9082d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel_auxiliary.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-intel_auxiliary.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "virtio_mmio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/epyc7002-7.2-5.10.55/virtio_mmio.ko",
+            "sha256": "b2ecbabe7ec127c381bae248b7182c88fb14b28e38d01ee19aa1d46d8c8b3d78",
+            "packed": false
+        },
+        {
+            "name": "check-virtio_mmio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/epyc7002-7.2-5.10.55/check-virtio_mmio.sh",
+            "sha256": "fe666c966daadd6e3b0a26d88ff9a8aab42efba8977ecf47dee2832e2b5a7008",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio_mmio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio_mmio.sh"
+    }
+}

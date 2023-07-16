@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/epyc7002-7.1-5.10.55/cfbfillrect.ko",
+            "sha256": "3ef50cd3522d4d573a43bb1609d31a2edce49864e4e84da8a0cee82aac0c8909",
+            "packed": false
+        },
+        {
+            "name": "check-cfbfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cfbfillrect/epyc7002-7.1-5.10.55/check-cfbfillrect.sh",
+            "sha256": "0b86d41adb7c23bbecee633781eafeff50852acc9c1652c2c643a0c910c97cdf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbfillrect.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cfbfillrect.sh"
+    }
+}

@@ -1,40 +1,40 @@
 {
-    "mod_version": "23.6.12",
+    "mod_version": "23.7.0",
     "files": [
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/bromolow-3.10.108/cfbfillrect.ko",
-            "sha256": "39b5624a11b673db4bf30169e6626f8fe539821947b678468998fd02ecfb838c",
+            "sha256": "b53cea683bdff955ac3d3878d30b25f6f3e55061e14f830237aec9ff6e03910a",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/bromolow-3.10.108/cfbimgblt.ko",
-            "sha256": "dec161da2ea0ed2b848c5a0e28fd8ad599c9d5a5d787db6e71c0ab70776f51ce",
+            "sha256": "446f9b58777992eb89c01af3e545fea9fa8b47c7ddf2ea2177c3864dc8b5f755",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/bromolow-3.10.108/cfbcopyarea.ko",
-            "sha256": "56056469aaece31d06d57395d7a68c300453e610c256019a3b3799fedd8ebc68",
+            "sha256": "aeef981cb38d52edde90a7f216e04ce1c6da730362686a709290974f63e24fd8",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/bromolow-3.10.108/fb.ko",
-            "sha256": "dbda3f30fe92a9d911c4bfa4f9cbc27394d893cba2df2a119c85f768cc853a24",
+            "sha256": "69f78a4c96b481a03ffbfca0b447b7820c7dc30fbbb81d300ed647e8bb8a4be6",
             "packed": false
         },
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/bromolow-3.10.108/vgastate.ko",
-            "sha256": "78aa02f2dd8709bd868dc2eb3728fc0b591bb2ee2cfc2f23b3a2e2499e38788b",
+            "sha256": "b30283f5dc8be35299305812cc0b1c118aed79a23f82a6be5a94a6d5f2b6bb10",
             "packed": false
         },
         {
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/bromolow-3.10.108/vga16fb.ko",
-            "sha256": "f18caa71deca3e33a46e496de609c6eb31fe7a5e2261f9f1735baee784e30183",
+            "sha256": "adade3234374c2ec922e0b7002bb1bf93fedd6213576fa866e144e3273521828",
             "packed": false
         },
         {

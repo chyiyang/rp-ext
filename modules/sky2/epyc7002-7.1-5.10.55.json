@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "sky2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/epyc7002-7.1-5.10.55/sky2.ko",
+            "sha256": "53e1015823103d73b85797755fd2ddc554c6ca53cc36280d69ad0555f8247254",
+            "packed": false
+        },
+        {
+            "name": "check-sky2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/epyc7002-7.1-5.10.55/check-sky2.sh",
+            "sha256": "248a91777a29890d02953dbe261532a8908b889059b90b4a7d114621853b28cf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sky2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sky2.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.0",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/epyc7002-7.1-5.10.55/mii.ko",
+            "sha256": "ee9bdce11cbaa2925cbfe0c19769e5279fe720388a730d7ba6f0216d2c8c7d6d",
+            "packed": false
+        },
+        {
+            "name": "check-mii.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mii/epyc7002-7.1-5.10.55/check-mii.sh",
+            "sha256": "3c172adce5984094e281a5b39030ef2c5bb78034a5377b3c1deadd038037a33c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mii.sh"
+    }
+}
