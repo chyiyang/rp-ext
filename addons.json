@@ -55,13 +55,6 @@
             "_"
         ]
     },
-    "dtbpatch": {
-        "description": "Update device tree binary automatically on boot",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/dtbpatch/rpext-index.json",
-        "platforms": [
-            "_"
-        ]
-    },
     "early-telnet": {
         "description": "Simple extension which starts telnet early at boot",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/early-telnet/rpext-index.json",
