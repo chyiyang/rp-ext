@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "iosf_mbi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iosf_mbi/apollolake-4.4.59/iosf_mbi.ko",
+            "sha256": "6ecc0e12226528e90dd0f6c207ba4784b298667786ae458bf609309b5ad90ec2",
+            "packed": false
+        },
+        {
+            "name": "check-iosf_mbi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iosf_mbi/apollolake-4.4.59/check-iosf_mbi.sh",
+            "sha256": "d803630c4866fd6ef48f0d1a44982729cd7ad923f6ce8ea3518865b935a55a21",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "iosf_mbi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iosf_mbi.sh"
+    }
+}

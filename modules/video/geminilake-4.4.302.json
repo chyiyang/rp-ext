@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "backlight.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/geminilake-4.4.302/backlight.ko",
+            "sha256": "3f22906a359e294ae828e4810d75794a35a763f72f114c4b1354bafc88ba8e82",
+            "packed": false
+        },
+        {
+            "name": "video.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/geminilake-4.4.302/video.ko",
+            "sha256": "94eca2f852fd385e5179b8ac347cd4a81799783447246f257edd0239adc27bb9",
+            "packed": false
+        },
+        {
+            "name": "check-video.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/geminilake-4.4.302/check-video.sh",
+            "sha256": "37c91308be4bda70139eb2437980aab22928168b79bd6ad01f63507587250175",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "backlight.ko": "",
+        "video.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-video.sh"
+    }
+}

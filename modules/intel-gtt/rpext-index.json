@@ -1,0 +1,15 @@
+{
+    "id": "ing.intel-gtt",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel-gtt/rpext-index.json",
+    "info": {
+        "name": "intel-gtt",
+        "description": "",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "braswell-3.10.105": "https://github.com/wjz304/rp-ext/raw/main/modules/intel-gtt/braswell-3.10.105.json",
+        "braswell-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/intel-gtt/braswell-3.10.108.json"
+    }
+}

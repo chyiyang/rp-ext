@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "fb_sys_fops.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/apollolake-4.4.59/fb_sys_fops.ko",
+            "sha256": "c45093efb661ab8d1ed06fb8cba8daf6cd248e358c45864d6e3994ff76aafdd8",
+            "packed": false
+        },
+        {
+            "name": "check-fb_sys_fops.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/apollolake-4.4.59/check-fb_sys_fops.sh",
+            "sha256": "21554be458e04a9ae791de487bfdb8f9a42e62597cc0657e637ceb6bc8fa3a1b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb_sys_fops.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fb_sys_fops.sh"
+    }
+}

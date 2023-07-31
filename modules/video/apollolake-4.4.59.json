@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "backlight.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/apollolake-4.4.59/backlight.ko",
+            "sha256": "693c3dba18802b6dbbae265b6a00a8c71c356b5c1fadfcf7512395c901fba68a",
+            "packed": false
+        },
+        {
+            "name": "video.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/apollolake-4.4.59/video.ko",
+            "sha256": "574de0741e5f9bed99477162b7d7dfe95927176eac91f4287dd16cb58c9ab65d",
+            "packed": false
+        },
+        {
+            "name": "check-video.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/apollolake-4.4.59/check-video.sh",
+            "sha256": "37c91308be4bda70139eb2437980aab22928168b79bd6ad01f63507587250175",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "backlight.ko": "",
+        "video.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-video.sh"
+    }
+}

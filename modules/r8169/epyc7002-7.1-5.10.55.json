@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.7.0",
+    "mod_version": "23.7.1",
     "files": [
         {
             "name": "r8169.ko",
@@ -16,7 +16,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/r8169_firmware.tag.gz",
-            "sha256": "9b968946f4e67a8cb81d67b15f22dbc222ca209fb43975c0d95cf511b7ce3344",
+            "sha256": "aac6f40180ac6e4171a36371f76e414b8e7ec76dd77cd9ce331366699a271cdb",
             "packed": false
         },
         {

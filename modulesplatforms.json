@@ -39,6 +39,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -81,6 +84,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -98,6 +104,15 @@
         },
         "dme1737": {
             "description": "DME1737 sensors"
+        },
+        "drm": {
+            "description": "DRM panel infrastructure"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
+        "drm_panel_orientation_quirks": {
+            "description": ""
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -123,8 +138,17 @@
         "efifb": {
             "description": ""
         },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
         "fb": {
             "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
         },
         "fbcon": {
             "description": ""
@@ -150,6 +174,9 @@
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
         },
+        "i915": {
+            "description": "Intel Graphics"
+        },
         "iavf": {
             "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
         },
@@ -167,6 +194,9 @@
         },
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "iosf_mbi": {
+            "description": "IOSF Mailbox Interface accessor"
         },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
@@ -255,6 +285,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -309,6 +342,15 @@
         "sr_mod": {
             "description": "SCSI cdrom (sr) driver"
         },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
         "tg3": {
             "description": "Broadcom Tigon3 ethernet driver"
         },
@@ -317,6 +359,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -335,6 +380,9 @@
         },
         "via-sdmmc": {
             "description": "VIA SD/MMC Card Interface driver"
+        },
+        "video": {
+            "description": "ACPI Video Driver"
         },
         "virtio": {
             "description": ""
@@ -407,6 +455,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -449,6 +500,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -466,6 +520,15 @@
         },
         "dme1737": {
             "description": "DME1737 sensors"
+        },
+        "drm": {
+            "description": "DRM panel infrastructure"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
+        "drm_panel_orientation_quirks": {
+            "description": ""
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -491,8 +554,17 @@
         "efifb": {
             "description": ""
         },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
         "fb": {
             "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
         },
         "fbcon": {
             "description": ""
@@ -518,6 +590,9 @@
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
         },
+        "i915": {
+            "description": "Intel Graphics"
+        },
         "iavf": {
             "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
         },
@@ -535,6 +610,9 @@
         },
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "iosf_mbi": {
+            "description": "IOSF Mailbox Interface accessor"
         },
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
@@ -635,6 +713,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -689,6 +770,15 @@
         "sr_mod": {
             "description": "SCSI cdrom (sr) driver"
         },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
         "tg3": {
             "description": "Broadcom Tigon3 ethernet driver"
         },
@@ -697,6 +787,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -715,6 +808,9 @@
         },
         "via-sdmmc": {
             "description": "VIA SD/MMC Card Interface driver"
+        },
+        "video": {
+            "description": "ACPI Video Driver"
         },
         "virtio": {
             "description": ""
@@ -787,6 +883,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -829,6 +928,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -846,6 +948,15 @@
         },
         "dme1737": {
             "description": "DME1737 sensors"
+        },
+        "drm": {
+            "description": "DRM panel infrastructure"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
+        "drm_panel_orientation_quirks": {
+            "description": ""
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -871,8 +982,17 @@
         "efifb": {
             "description": ""
         },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
         "fb": {
             "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
         },
         "fbcon": {
             "description": ""
@@ -898,6 +1018,9 @@
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
         },
+        "i915": {
+            "description": "Intel Graphics"
+        },
         "iavf": {
             "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
         },
@@ -915,6 +1038,9 @@
         },
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "iosf_mbi": {
+            "description": "IOSF Mailbox Interface accessor"
         },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
@@ -1003,6 +1129,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -1060,6 +1189,15 @@
         "sr_mod": {
             "description": "SCSI cdrom (sr) driver"
         },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
         "tg3": {
             "description": "Broadcom Tigon3 ethernet driver"
         },
@@ -1068,6 +1206,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -1086,6 +1227,9 @@
         },
         "via-sdmmc": {
             "description": "VIA SD/MMC Card Interface driver"
+        },
+        "video": {
+            "description": "ACPI Video Driver"
         },
         "virtio": {
             "description": ""
@@ -1122,6 +1266,9 @@
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
         },
+        "agpgart": {
+            "description": "AGP GART driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -1139,6 +1286,9 @@
         },
         "ax88179_178a": {
             "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
         },
         "bitblit": {
             "description": "Bit Blitting Operation"
@@ -1161,11 +1311,26 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "drm": {
+            "description": "DRM shared core routines"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
         "e1000": {
             "description": "Intel(R) PRO/1000 Network Driver"
         },
         "efifb": {
             "description": ""
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
         },
         "fb": {
             "description": ""
@@ -1184,6 +1349,12 @@
         },
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
+        },
+        "i915": {
+            "description": "Intel Graphics"
+        },
+        "intel-gtt": {
+            "description": ""
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
@@ -1221,6 +1392,9 @@
         "nct6775": {
             "description": "NCT6775F/NCT6776F/NCT6779D driver"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
         },
@@ -1256,6 +1430,12 @@
         },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
+        },
+        "thermal_sys": {
+            "description": "Generic thermal management sysfs support"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "vesafb": {
             "description": ""
@@ -1298,6 +1478,9 @@
         "8139cp": {
             "description": "RealTek RTL-8139C+ series 10/100 PCI Ethernet driver"
         },
+        "agpgart": {
+            "description": "AGP GART driver"
+        },
         "alx": {
             "description": "Qualcomm Atheros(R) AR816x/AR817x PCI-E Ethernet Network Driver"
         },
@@ -1315,6 +1498,9 @@
         },
         "ax88179_178a": {
             "description": "ASIX AX88179/178A based USB 3.0/2.0 Gigabit Ethernet Devices"
+        },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
         },
         "bitblit": {
             "description": "Bit Blitting Operation"
@@ -1337,11 +1523,26 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
+        "drm": {
+            "description": "DRM shared core routines"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
         "e1000": {
             "description": "Intel(R) PRO/1000 Network Driver"
         },
         "efifb": {
             "description": ""
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
         },
         "fb": {
             "description": ""
@@ -1360,6 +1561,12 @@
         },
         "i8042": {
             "description": "i8042 keyboard and mouse controller driver"
+        },
+        "i915": {
+            "description": "Intel Graphics"
+        },
+        "intel-gtt": {
+            "description": ""
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
@@ -1397,6 +1604,9 @@
         "nct6775": {
             "description": "NCT6775F/NCT6776F/NCT6779D driver"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
         },
@@ -1432,6 +1642,12 @@
         },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
+        },
+        "thermal_sys": {
+            "description": "Generic thermal management sysfs support"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "vesafb": {
             "description": ""
@@ -1519,6 +1735,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -1593,6 +1812,9 @@
         },
         "nct6775": {
             "description": "NCT6775F/NCT6776F/NCT6779D driver"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
@@ -1746,6 +1968,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -1914,6 +2139,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -1976,6 +2204,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -2105,6 +2336,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -2285,6 +2519,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -2347,6 +2584,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -2476,6 +2716,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -2644,6 +2887,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -2706,6 +2952,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -2834,6 +3083,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
         },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
@@ -3015,6 +3267,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -3077,6 +3332,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -3205,6 +3463,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
         },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
@@ -3374,6 +3635,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -3439,6 +3703,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -3538,6 +3805,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -3612,6 +3882,9 @@
         },
         "nct6775": {
             "description": "NCT6775F/NCT6776F/NCT6779D driver"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
@@ -3735,6 +4008,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "cxgb": {
             "description": "Chelsio 10Gb Ethernet Driver"
         },
@@ -3809,6 +4085,9 @@
         },
         "nct6775": {
             "description": "NCT6775F/NCT6776F/NCT6779D driver"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
@@ -3961,6 +4240,9 @@
         },
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
+        },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
         },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
@@ -4135,6 +4417,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -4333,6 +4618,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -4518,6 +4806,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -4716,6 +5007,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -4889,6 +5183,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -5436,6 +5733,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -5478,6 +5778,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -5495,6 +5798,15 @@
         },
         "dme1737": {
             "description": "DME1737 sensors"
+        },
+        "drm": {
+            "description": "DRM panel infrastructure"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
+        "drm_panel_orientation_quirks": {
+            "description": ""
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -5520,8 +5832,17 @@
         "efifb": {
             "description": ""
         },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
         "fb": {
             "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
         },
         "fbcon": {
             "description": ""
@@ -5544,6 +5865,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i915": {
+            "description": "Intel Graphics"
+        },
         "iavf": {
             "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
         },
@@ -5561,6 +5885,9 @@
         },
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "iosf_mbi": {
+            "description": "IOSF Mailbox Interface accessor"
         },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
@@ -5649,6 +5976,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -5703,6 +6033,15 @@
         "sr_mod": {
             "description": "SCSI cdrom (sr) driver"
         },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
         "tg3": {
             "description": "Broadcom Tigon3 ethernet driver"
         },
@@ -5711,6 +6050,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -5729,6 +6071,9 @@
         },
         "via-sdmmc": {
             "description": "VIA SD/MMC Card Interface driver"
+        },
+        "video": {
+            "description": "ACPI Video Driver"
         },
         "virtio": {
             "description": ""
@@ -5795,6 +6140,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -5837,6 +6185,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -5854,6 +6205,15 @@
         },
         "dme1737": {
             "description": "DME1737 sensors"
+        },
+        "drm": {
+            "description": "DRM panel infrastructure"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
+        "drm_panel_orientation_quirks": {
+            "description": ""
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -5879,8 +6239,17 @@
         "efifb": {
             "description": ""
         },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
         "fb": {
             "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
         },
         "fbcon": {
             "description": ""
@@ -5903,6 +6272,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i915": {
+            "description": "Intel Graphics"
+        },
         "iavf": {
             "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
         },
@@ -5920,6 +6292,9 @@
         },
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "iosf_mbi": {
+            "description": "IOSF Mailbox Interface accessor"
         },
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
@@ -6020,6 +6395,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -6074,6 +6452,15 @@
         "sr_mod": {
             "description": "SCSI cdrom (sr) driver"
         },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
         "tg3": {
             "description": "Broadcom Tigon3 ethernet driver"
         },
@@ -6082,6 +6469,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -6100,6 +6490,9 @@
         },
         "via-sdmmc": {
             "description": "VIA SD/MMC Card Interface driver"
+        },
+        "video": {
+            "description": "ACPI Video Driver"
         },
         "virtio": {
             "description": ""
@@ -6166,6 +6559,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "backlight": {
+            "description": "Backlight Lowlevel Control Abstraction"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -6208,6 +6604,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -6225,6 +6624,15 @@
         },
         "dme1737": {
             "description": "DME1737 sensors"
+        },
+        "drm": {
+            "description": "DRM panel infrastructure"
+        },
+        "drm_kms_helper": {
+            "description": "DRM KMS helper"
+        },
+        "drm_panel_orientation_quirks": {
+            "description": ""
         },
         "dvb-core": {
             "description": "DVB Core Driver"
@@ -6250,8 +6658,17 @@
         "efifb": {
             "description": ""
         },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
+        },
         "fb": {
             "description": ""
+        },
+        "fb_sys_fops": {
+            "description": "Generic file read (fb in system RAM)"
         },
         "fbcon": {
             "description": ""
@@ -6274,6 +6691,9 @@
         "i40e": {
             "description": "Intel(R) 40-10 Gigabit Ethernet Connection Network Driver"
         },
+        "i915": {
+            "description": "Intel Graphics"
+        },
         "iavf": {
             "description": "Intel(R) Ethernet Adaptive Virtual Function Driver"
         },
@@ -6291,6 +6711,9 @@
         },
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
+        },
+        "iosf_mbi": {
+            "description": "IOSF Mailbox Interface accessor"
         },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
@@ -6379,6 +6802,9 @@
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
         },
+        "processor": {
+            "description": "ACPI Processor Driver"
+        },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
@@ -6436,6 +6862,15 @@
         "sr_mod": {
             "description": "SCSI cdrom (sr) driver"
         },
+        "syscopyarea": {
+            "description": "Generic copyarea (sys-to-sys)"
+        },
+        "sysfillrect": {
+            "description": "Generic fill rectangle (sys-to-sys)"
+        },
+        "sysimgblt": {
+            "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)"
+        },
         "tg3": {
             "description": "Broadcom Tigon3 ethernet driver"
         },
@@ -6444,6 +6879,9 @@
         },
         "ts2020": {
             "description": "Montage Technology TS2020 - Silicon tuner driver module"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -6462,6 +6900,9 @@
         },
         "via-sdmmc": {
             "description": "VIA SD/MMC Card Interface driver"
+        },
+        "video": {
+            "description": "ACPI Video Driver"
         },
         "virtio": {
             "description": ""
@@ -6573,6 +7014,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -6743,6 +7187,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -6935,6 +7382,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -7117,6 +7567,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -7309,6 +7762,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -7479,6 +7935,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -7674,6 +8133,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -7847,6 +8309,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -8048,6 +8513,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -8233,6 +8701,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -8434,6 +8905,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -8604,6 +9078,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -8805,6 +9282,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -8987,6 +9467,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -9188,6 +9671,9 @@
         "cpufreq_ondemand": {
             "description": "'cpufreq_ondemand' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -9358,6 +9844,9 @@
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
+        },
+        "processor": {
+            "description": "ACPI Processor Driver"
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"

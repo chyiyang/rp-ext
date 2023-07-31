@@ -1,0 +1,86 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "drm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/drm.ko",
+            "sha256": "7877250b1e6c6697f7bacff839137f3ed116cd9ca5557dd370ea4c0ed61dd7fa",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/fb.ko",
+            "sha256": "c063a5887130f52018d3e4b2bbeebe12b6e49b9d852ccb32bbf1c7ebf5aa60d8",
+            "packed": false
+        },
+        {
+            "name": "fb_sys_fops.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/fb_sys_fops.ko",
+            "sha256": "295097660cab0a02189bc3e94c91b09010b3fe57530134db60802f85a886b766",
+            "packed": false
+        },
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/cfbfillrect.ko",
+            "sha256": "f737329adf64c1f4905f31ae7ddaedf3ed14a8a89e6ebb89250cbc80f83c8dc5",
+            "packed": false
+        },
+        {
+            "name": "syscopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/syscopyarea.ko",
+            "sha256": "c41d9d80fe06f2e6a3a131cd0241aae51bf496b532003ce04b592a4b673fdaba",
+            "packed": false
+        },
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/cfbimgblt.ko",
+            "sha256": "ab8101be04dff41e29ca1220d701f0ef1808382a41f6b52c0faa96cedf216c7f",
+            "packed": false
+        },
+        {
+            "name": "sysfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/sysfillrect.ko",
+            "sha256": "3f694f53affd235175190d527994cbecd5052368ec2fa3d9b252b9de678599c1",
+            "packed": false
+        },
+        {
+            "name": "sysimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/sysimgblt.ko",
+            "sha256": "cd074d59c96ebde23deba841b4858edaea1d61b21ae108098c99a47a1737baed",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/cfbcopyarea.ko",
+            "sha256": "ba9caf7a6d05135492c229a481e55c8681a8fd636b72c7870cf0e78ce55b7e29",
+            "packed": false
+        },
+        {
+            "name": "drm_kms_helper.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/drm_kms_helper.ko",
+            "sha256": "580ada909d195a881b9136e9774f4007f8b59965b4b46c5d0cd2b219bd174a9e",
+            "packed": false
+        },
+        {
+            "name": "check-drm_kms_helper.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.180/check-drm_kms_helper.sh",
+            "sha256": "318a5ad771b1c043a9ea90d3027d8a0b9ef0a09cb650e59ce2fd612a718fa269",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "drm.ko": "",
+        "fb.ko": "",
+        "fb_sys_fops.ko": "",
+        "cfbfillrect.ko": "",
+        "syscopyarea.ko": "",
+        "cfbimgblt.ko": "",
+        "sysfillrect.ko": "",
+        "sysimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "drm_kms_helper.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-drm_kms_helper.sh"
+    }
+}

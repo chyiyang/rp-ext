@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "cpufreq_performance.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/denverton-4.4.180/cpufreq_performance.ko",
+            "sha256": "d3550a63ceca83b0fba824ac4f7831b5290e178cd76060825592c3770c177078",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_performance.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/denverton-4.4.180/check-cpufreq_performance.sh",
+            "sha256": "219d078494f2dd89d3df22ef6d8aba4b7012f76799b53c7871d8dc154a3dd0d0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_performance.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_performance.sh"
+    }
+}

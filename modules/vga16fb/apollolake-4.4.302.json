@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.7.0",
+    "mod_version": "23.7.1",
     "files": [
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/apollolake-4.4.302/cfbfillrect.ko",
-            "sha256": "825b7794277a5813b9834a4697c91c89cdc269549bed84bc987cdb5b5f3e9038",
+            "sha256": "a37291cfc17b91afa59c6a8b28a72f4ec625897f9e680df0a59f97e8de92f274",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/apollolake-4.4.302/cfbimgblt.ko",
-            "sha256": "d589c0f47d4c05545794be89765e9fbefc6d226ec656faa26613f21ac8896154",
+            "sha256": "4598c25f6c74ca9786555a22ec034752f2b6c46df8728430b6f74741842fd353",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/apollolake-4.4.302/cfbcopyarea.ko",
-            "sha256": "8e4dbb4b775133caaecbb452f04669130d28b9429102a1212fb495a745b3b755",
+            "sha256": "c3d80838c3c262b0f4578c3ffd780a4f47492ffae84979b9205d39b1babf17ee",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/apollolake-4.4.302/fb.ko",
-            "sha256": "b672d522f5cdebb966a1243967d3545a16e41083bc744313fb3490a4aaf1b47f",
+            "sha256": "08aae9b3728023af476d5817d804f1355f5a87474033d5e8f75774fa3f5fbc95",
             "packed": false
         },
         {

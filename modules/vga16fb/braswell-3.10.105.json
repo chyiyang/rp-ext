@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.7.0",
+    "mod_version": "23.7.1",
     "files": [
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.105/cfbfillrect.ko",
-            "sha256": "333cfc06f06eff94fcac77bd51f0b321c582eedd1f13ec58874a8ec84016441f",
+            "sha256": "daec560b503fbdebcca76f20e490be5710d08fe67cf956b0b3a824f67c037be9",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.105/cfbcopyarea.ko",
-            "sha256": "fea60cc8fc5b73e63ae90d86cd8147e780bdb1b15d25b7a845cfa39141bba2dc",
+            "sha256": "f37e77e3aa8481d773e2e5efc25afcb7db4c95de0c0547e94faa48fc26bd7755",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.105/cfbimgblt.ko",
-            "sha256": "8a92d5984d92f2a5ba1b6fbb191407743718d7033fe2b8a87064be0edc836212",
+            "sha256": "1bc4e417b0e0bff0a6411e92d7a71b674b3dcf1d91e65f9a1234c1266abda893",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.105/fb.ko",
-            "sha256": "26a331010d47c1cf4b3ac726902e92dd9d4138cc474ec007c46e9fdece7e9da2",
+            "sha256": "962b77984ef7c83a5f495bd7d142674ddabca56eee6cdfe7eba436252077d2e2",
             "packed": false
         },
         {

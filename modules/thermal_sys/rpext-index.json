@@ -1,0 +1,15 @@
+{
+    "id": "ing.thermal_sys",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal_sys/rpext-index.json",
+    "info": {
+        "name": "thermal_sys",
+        "description": "Generic thermal management sysfs support",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "braswell-3.10.105": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal_sys/braswell-3.10.105.json",
+        "braswell-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal_sys/braswell-3.10.108.json"
+    }
+}

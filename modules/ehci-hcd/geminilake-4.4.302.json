@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "ehci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/geminilake-4.4.302/ehci-hcd.ko",
+            "sha256": "416c42d5bfa99585b0d5fad61c373995844e035d05a1db3adc93395a446a1d5f",
+            "packed": false
+        },
+        {
+            "name": "check-ehci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/geminilake-4.4.302/check-ehci-hcd.sh",
+            "sha256": "62ffda1072a2ac674289233daa37592fb9d3f225443f9c3d2970030562aa13cf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ehci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ehci-hcd.sh"
+    }
+}

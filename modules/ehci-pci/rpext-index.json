@@ -1,0 +1,21 @@
+{
+    "id": "ing.ehci-pci",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/rpext-index.json",
+    "info": {
+        "name": "ehci-pci",
+        "description": "EHCI PCI platform driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.180.json",
+        "apollolake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.302.json",
+        "apollolake-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.59.json",
+        "braswell-3.10.105": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/braswell-3.10.105.json",
+        "braswell-3.10.108": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/braswell-3.10.108.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/geminilake-4.4.180.json",
+        "geminilake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/geminilake-4.4.302.json",
+        "geminilake-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/geminilake-4.4.59.json"
+    }
+}

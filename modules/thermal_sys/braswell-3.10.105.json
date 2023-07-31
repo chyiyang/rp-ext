@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "thermal_sys.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal_sys/braswell-3.10.105/thermal_sys.ko",
+            "sha256": "718e75ab5e2786b2475012dce99c943d4b4cd5359c76723d9fe9d8c4e910c304",
+            "packed": false
+        },
+        {
+            "name": "check-thermal_sys.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal_sys/braswell-3.10.105/check-thermal_sys.sh",
+            "sha256": "4f35bb3885a3286ee0c460a7ed0e3d57f371cd26f2ee5c8ffd7398354e1ea2db",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "thermal_sys.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-thermal_sys.sh"
+    }
+}

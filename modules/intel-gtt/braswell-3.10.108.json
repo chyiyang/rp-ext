@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "intel-gtt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel-gtt/braswell-3.10.108/intel-gtt.ko",
+            "sha256": "c548fb7f840475d7ece6bf34d740521b187390375e522eb2464c0be17ce5eb51",
+            "packed": false
+        },
+        {
+            "name": "check-intel-gtt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel-gtt/braswell-3.10.108/check-intel-gtt.sh",
+            "sha256": "d0c0c431795ba9abbcf750191ba9d76703a491acd76df14af3107ae5e58ced74",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "intel-gtt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-intel-gtt.sh"
+    }
+}

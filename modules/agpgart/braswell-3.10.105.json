@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "agpgart.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/agpgart/braswell-3.10.105/agpgart.ko",
+            "sha256": "fa3f17e06790869e5a14a95b072d084d11f408671e33967a73d0b42b8c6eeefb",
+            "packed": false
+        },
+        {
+            "name": "check-agpgart.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/agpgart/braswell-3.10.105/check-agpgart.sh",
+            "sha256": "5d8651a579b792d581516550a350dc53c5e30d1b88f9d60ed97239fac968b6e5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "agpgart.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-agpgart.sh"
+    }
+}

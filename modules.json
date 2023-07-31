@@ -59,6 +59,14 @@
             "v1000-4.4.59"
         ]
     },
+    "agpgart": {
+        "description": "AGP GART driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/agpgart/rpext-index.json",
+        "platforms": [
+            "braswell-3.10.105",
+            "braswell-3.10.108"
+        ]
+    },
     "aic94xx": {
         "description": "Adaptec aic94xx SAS/SATA driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/rpext-index.json",
@@ -407,6 +415,20 @@
             "v1000-4.4.180",
             "v1000-4.4.302",
             "v1000-4.4.59"
+        ]
+    },
+    "backlight": {
+        "description": "Backlight Lowlevel Control Abstraction",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/backlight/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
         ]
     },
     "be2net": {
@@ -855,6 +877,39 @@
             "v1000-4.4.59"
         ]
     },
+    "cpufreq_performance": {
+        "description": "CPUfreq policy governor 'performance'",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "broadwell-3.10.105",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
+            "bromolow-3.10.108",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
     "crc-itu-t": {
         "description": "CRC ITU-T V.41 calculations",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/rpext-index.json",
@@ -1026,6 +1081,46 @@
             "purley-4.4.59",
             "r1000-4.4.180",
             "r1000-4.4.302"
+        ]
+    },
+    "drm": {
+        "description": "DRM panel infrastructure",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
+        ]
+    },
+    "drm_kms_helper": {
+        "description": "DRM KMS helper",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
+        ]
+    },
+    "drm_panel_orientation_quirks": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_panel_orientation_quirks/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
         ]
     },
     "dvb-core": {
@@ -1266,6 +1361,34 @@
             "v1000-4.4.59"
         ]
     },
+    "ehci-hcd": {
+        "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
+        ]
+    },
+    "ehci-pci": {
+        "description": "EHCI PCI platform driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
+        ]
+    },
     "failover": {
         "description": "Generic failover infrastructure/interface",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/failover/rpext-index.json",
@@ -1324,6 +1447,9 @@
         "description": "Generic file read (fb in system RAM)",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fb_sys_fops/rpext-index.json",
         "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "broadwell-4.4.180",
             "broadwell-4.4.302",
             "broadwellnk-4.4.180",
@@ -1332,6 +1458,9 @@
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
             "r1000-4.4.180",
             "r1000-4.4.302",
             "v1000-4.4.180",
@@ -1576,6 +1705,20 @@
             "v1000-4.4.59"
         ]
     },
+    "i915": {
+        "description": "Intel Graphics",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
+        ]
+    },
     "iavf": {
         "description": "Intel(R) Ethernet Adaptive Virtual Function Driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/rpext-index.json",
@@ -1724,6 +1867,14 @@
             "v1000-4.4.59"
         ]
     },
+    "intel-gtt": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel-gtt/rpext-index.json",
+        "platforms": [
+            "braswell-3.10.105",
+            "braswell-3.10.108"
+        ]
+    },
     "intel_auxiliary": {
         "description": "Auxiliary Bus Standalone",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/intel_auxiliary/rpext-index.json",
@@ -1752,6 +1903,18 @@
             "v1000-4.4.180",
             "v1000-4.4.302",
             "v1000-4.4.59"
+        ]
+    },
+    "iosf_mbi": {
+        "description": "IOSF Mailbox Interface accessor",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iosf_mbi/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
         ]
     },
     "irqbypass": {
@@ -2701,6 +2864,39 @@
             "epyc7002-7.2-5.10.55"
         ]
     },
+    "processor": {
+        "description": "ACPI Processor Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/processor/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "broadwell-3.10.105",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "bromolow-3.10.105",
+            "bromolow-3.10.108",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
     "r8125": {
         "description": "Realtek RTL8125 2.5Gigabit Ethernet driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/rpext-index.json",
@@ -3255,6 +3451,9 @@
         "description": "Generic copyarea (sys-to-sys)",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/syscopyarea/rpext-index.json",
         "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "braswell-3.10.105",
             "braswell-3.10.108",
             "broadwell-3.10.105",
@@ -3268,6 +3467,9 @@
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
             "r1000-4.4.180",
             "r1000-4.4.302",
             "v1000-4.4.180",
@@ -3279,6 +3481,9 @@
         "description": "Generic fill rectangle (sys-to-sys)",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/rpext-index.json",
         "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "braswell-3.10.105",
             "braswell-3.10.108",
             "broadwell-3.10.105",
@@ -3292,6 +3497,9 @@
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
             "r1000-4.4.180",
             "r1000-4.4.302",
             "v1000-4.4.180",
@@ -3303,6 +3511,9 @@
         "description": "1-bit/8-bit to 1-32 bit color expansion (sys-to-sys)",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/rpext-index.json",
         "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "braswell-3.10.105",
             "braswell-3.10.108",
             "broadwell-3.10.105",
@@ -3316,6 +3527,9 @@
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
             "r1000-4.4.180",
             "r1000-4.4.302",
             "v1000-4.4.180",
@@ -3393,6 +3607,14 @@
             "v1000-4.4.59"
         ]
     },
+    "thermal_sys": {
+        "description": "Generic thermal management sysfs support",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal_sys/rpext-index.json",
+        "platforms": [
+            "braswell-3.10.105",
+            "braswell-3.10.108"
+        ]
+    },
     "ts2020": {
         "description": "Montage Technology TS2020 - Silicon tuner driver module",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ts2020/rpext-index.json",
@@ -3419,6 +3641,25 @@
             "v1000-4.4.180",
             "v1000-4.4.302",
             "v1000-4.4.59"
+        ]
+    },
+    "uhci-hcd": {
+        "description": "USB Universal Host Controller Interface driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "braswell-3.10.105",
+            "braswell-3.10.108",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
         ]
     },
     "usbnet": {
@@ -3612,11 +3853,17 @@
         "description": "ACPI Video Driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/rpext-index.json",
         "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
             "braswell-3.10.105",
             "braswell-3.10.108",
             "broadwell-3.10.105",
             "bromolow-3.10.105",
-            "bromolow-3.10.108"
+            "bromolow-3.10.108",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59"
         ]
     },
     "virtio": {

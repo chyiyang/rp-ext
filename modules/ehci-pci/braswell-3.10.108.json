@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "ehci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/braswell-3.10.108/ehci-hcd.ko",
+            "sha256": "a70612dadc0d6d15d3a0b60bf80077e606a386487e3cb19a22b0c89b44723bf7",
+            "packed": false
+        },
+        {
+            "name": "ehci-pci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/braswell-3.10.108/ehci-pci.ko",
+            "sha256": "2b8a5c9c80e86347195fa65b5c7c6b54fd0fc3f822fc4366278c21c2cac368e6",
+            "packed": false
+        },
+        {
+            "name": "check-ehci-pci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/braswell-3.10.108/check-ehci-pci.sh",
+            "sha256": "3b6c212f8b0ea7bee398f97ed6d1cb73d5f4e08f8c986dae9064146d9b1ee907",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ehci-hcd.ko": "",
+        "ehci-pci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ehci-pci.sh"
+    }
+}

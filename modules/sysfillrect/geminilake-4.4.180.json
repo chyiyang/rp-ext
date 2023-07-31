@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "sysfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/geminilake-4.4.180/sysfillrect.ko",
+            "sha256": "3f694f53affd235175190d527994cbecd5052368ec2fa3d9b252b9de678599c1",
+            "packed": false
+        },
+        {
+            "name": "check-sysfillrect.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysfillrect/geminilake-4.4.180/check-sysfillrect.sh",
+            "sha256": "16c3ac381db586a83f71f5f70acc563c9f4b5d35219c551c021ff63626d014cd",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysfillrect.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysfillrect.sh"
+    }
+}

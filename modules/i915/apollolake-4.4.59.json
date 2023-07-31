@@ -1,0 +1,85 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "drm_kms_helper.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/drm_kms_helper.ko",
+            "sha256": "60cccffba100591cd3da1d66b2bdc6d8e116bc1b31d776d0f9074232be33ed85",
+            "packed": false
+        },
+        {
+            "name": "drm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/drm.ko",
+            "sha256": "07db49d46b9732b72283ffa202d7e5a63e23bca6630247797001a209777a1fe3",
+            "packed": false
+        },
+        {
+            "name": "iosf_mbi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/iosf_mbi.ko",
+            "sha256": "6ecc0e12226528e90dd0f6c207ba4784b298667786ae458bf609309b5ad90ec2",
+            "packed": false
+        },
+        {
+            "name": "backlight.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/backlight.ko",
+            "sha256": "693c3dba18802b6dbbae265b6a00a8c71c356b5c1fadfcf7512395c901fba68a",
+            "packed": false
+        },
+        {
+            "name": "video.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/video.ko",
+            "sha256": "574de0741e5f9bed99477162b7d7dfe95927176eac91f4287dd16cb58c9ab65d",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/fb.ko",
+            "sha256": "ff59a3250955733770da1e61e231b286efd5fdf8682192c98d3c8e404f68a1a2",
+            "packed": false
+        },
+        {
+            "name": "button.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/button.ko",
+            "sha256": "282180096b4d8b51aa73c45bf79a1edee7fe4494122731fae49775cf8828ab2d",
+            "packed": false
+        },
+        {
+            "name": "i915.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/i915.ko",
+            "sha256": "1328072c09c7a6a0f827c97d6cce5fe09aa34f25ad674593de02d34ff4c02e30",
+            "packed": false
+        },
+        {
+            "name": "check-i915.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/check-i915.sh",
+            "sha256": "5c587e62156e8617f519ffd024017bad545008b649faad2d12fe1915a5248880",
+            "packed": false
+        },
+        {
+            "name": "i915_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/i915_firmware.tag.gz",
+            "sha256": "b7359f60ad0680bd040912f9d0e79f94aaf3d5ef8e80bddb98bb9729d10e1b06",
+            "packed": false
+        },
+        {
+            "name": "install-i915.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.59/install-i915.sh",
+            "sha256": "c7826a82b7d10c86026dbbf3c2542d555d1238dfb6a291d49433b8dacf128fa8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "drm_kms_helper.ko": "",
+        "drm.ko": "",
+        "iosf_mbi.ko": "",
+        "backlight.ko": "",
+        "video.ko": "",
+        "fb.ko": "",
+        "button.ko": "",
+        "i915.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-i915.sh",
+        "on_os_load": "install-i915.sh"
+    }
+}

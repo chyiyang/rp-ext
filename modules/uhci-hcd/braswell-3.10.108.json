@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "uhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/braswell-3.10.108/uhci-hcd.ko",
+            "sha256": "304112d5daa1b5515f29d96252ad956f8cea3c4d78fc4f2b6342cdcedd326389",
+            "packed": false
+        },
+        {
+            "name": "check-uhci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/braswell-3.10.108/check-uhci-hcd.sh",
+            "sha256": "532a4b87866f79e4865aa69a41bd45d99d6891ea88f402e585c747df554abf05",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "uhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-uhci-hcd.sh"
+    }
+}

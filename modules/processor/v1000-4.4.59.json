@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "processor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/processor/v1000-4.4.59/processor.ko",
+            "sha256": "3e20137e6ee10f3471da2c9b7967ba3322399856ec17e608d6bc167965d4146f",
+            "packed": false
+        },
+        {
+            "name": "check-processor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/processor/v1000-4.4.59/check-processor.sh",
+            "sha256": "e7bc7cfb8c3b2543db4fa63f2a88a9a39cb0f46348da673f9fea618a701baf82",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "processor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-processor.sh"
+    }
+}

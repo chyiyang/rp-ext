@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "cpufreq_performance.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/v1000-4.4.59/cpufreq_performance.ko",
+            "sha256": "dd29755052e64c3c74a2750b7e6b2a2d54267f884efb7ee6d27e32e82b3426a8",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_performance.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/v1000-4.4.59/check-cpufreq_performance.sh",
+            "sha256": "219d078494f2dd89d3df22ef6d8aba4b7012f76799b53c7871d8dc154a3dd0d0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_performance.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_performance.sh"
+    }
+}

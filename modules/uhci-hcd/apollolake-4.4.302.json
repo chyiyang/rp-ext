@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "uhci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/apollolake-4.4.302/uhci-hcd.ko",
+            "sha256": "9dff8873036a4a5b5c02fd6cd2502160effdacbed50befb63e377b6e32f03135",
+            "packed": false
+        },
+        {
+            "name": "check-uhci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/uhci-hcd/apollolake-4.4.302/check-uhci-hcd.sh",
+            "sha256": "532a4b87866f79e4865aa69a41bd45d99d6891ea88f402e585c747df554abf05",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "uhci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-uhci-hcd.sh"
+    }
+}

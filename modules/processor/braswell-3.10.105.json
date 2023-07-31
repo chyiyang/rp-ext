@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "processor.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/processor/braswell-3.10.105/processor.ko",
+            "sha256": "6b3d92e7dfdd69a750d07b6fb2141c50b6948ce798ef6f058dd94232247fa36e",
+            "packed": false
+        },
+        {
+            "name": "check-processor.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/processor/braswell-3.10.105/check-processor.sh",
+            "sha256": "e7bc7cfb8c3b2543db4fa63f2a88a9a39cb0f46348da673f9fea618a701baf82",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "processor.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-processor.sh"
+    }
+}

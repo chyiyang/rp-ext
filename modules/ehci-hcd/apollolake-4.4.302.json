@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "ehci-hcd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/apollolake-4.4.302/ehci-hcd.ko",
+            "sha256": "1b47b46fec364e6f9373c4216522f2c6074b6972c5b7c2c2156dc134e1959ea7",
+            "packed": false
+        },
+        {
+            "name": "check-ehci-hcd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/apollolake-4.4.302/check-ehci-hcd.sh",
+            "sha256": "62ffda1072a2ac674289233daa37592fb9d3f225443f9c3d2970030562aa13cf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ehci-hcd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ehci-hcd.sh"
+    }
+}

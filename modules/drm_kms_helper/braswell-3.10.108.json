@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "drm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.108/drm.ko",
+            "sha256": "541a7156cb6a5243bf9385a5f7b62b65dda9d5fdcb3b293edbdfef8427e85ba0",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.108/fb.ko",
+            "sha256": "228cb08cbbc8d5d713a6cbe100252844c7d3e7e1abcd244dc820d36e0bfaa42c",
+            "packed": false
+        },
+        {
+            "name": "drm_kms_helper.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.108/drm_kms_helper.ko",
+            "sha256": "010c3b580aa1393633ebe7fc983276d03d798c38aee154e8946757866f99f8cf",
+            "packed": false
+        },
+        {
+            "name": "check-drm_kms_helper.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.108/check-drm_kms_helper.sh",
+            "sha256": "54b0221af6d22110ef129d0aa454b7bb76a04820bce6760351ba6bdac29367e7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "drm.ko": "",
+        "fb.ko": "",
+        "drm_kms_helper.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-drm_kms_helper.sh"
+    }
+}

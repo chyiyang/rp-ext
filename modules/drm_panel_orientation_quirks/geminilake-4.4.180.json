@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.7.1",
+    "files": [
+        {
+            "name": "drm_panel_orientation_quirks.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_panel_orientation_quirks/geminilake-4.4.180/drm_panel_orientation_quirks.ko",
+            "sha256": "c75c48a0e023d4762b66ddc4272659987ff99ae1ac840c96c12ee1abd7dba53f",
+            "packed": false
+        },
+        {
+            "name": "check-drm_panel_orientation_quirks.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_panel_orientation_quirks/geminilake-4.4.180/check-drm_panel_orientation_quirks.sh",
+            "sha256": "77384ed00da8ec22b9fe0b5e9ce8eaf676844cde089103cc175ba1fce86d5301",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "drm_panel_orientation_quirks.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-drm_panel_orientation_quirks.sh"
+    }
+}
