@@ -76,6 +76,13 @@
             "_"
         ]
     },
+    "i915le10th": {
+        "description": "Automatically replace the device ID of i915.ko, only supporting less 10th. (apollolake, geminilake)",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/i915le10th/rpext-index.json",
+        "platforms": [
+            "_"
+        ]
+    },
     "lsiutil": {
         "description": "A tool for working with some LSI RAID controller",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/lsiutil/rpext-index.json",
@@ -86,6 +93,20 @@
     "misc": {
         "description": "Miscellaneous functions",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/misc/rpext-index.json",
+        "platforms": [
+            "_"
+        ]
+    },
+    "nvmecache": {
+        "description": "Enable M2 cache of DS918+,DS1019+,DS1621xs+ (need reboot once)",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmecache/rpext-index.json",
+        "platforms": [
+            "_"
+        ]
+    },
+    "nvmevolume": {
+        "description": "Enable M2 volume, from 007revad",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmevolume/rpext-index.json",
         "platforms": [
             "_"
         ]
