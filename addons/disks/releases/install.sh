@@ -5,7 +5,7 @@
 # probably certain that system has finish init process
 #
 
-if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
+if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
   echo "System passed junior"
 else
@@ -308,7 +308,8 @@ function nondtModel() {
 
 
 if [ "$HASBOOTED" = "no" ]; then
-  echo "disks - early"
+  echo "Installing daemon for disks - early"
+
   # fix executable flag
   cp readlink /usr/bin/
   cp dtc /usr/bin/
@@ -322,10 +323,10 @@ if [ "$HASBOOTED" = "no" ]; then
   [ "${IS_DT}" = "yes" ] && dtModel || nondtModel
 
 elif [ "$HASBOOTED" = "yes" ]; then
-  echo "Adjust disks related configs automatically - late"
+  echo "Installing daemon for disks - late"
   IS_DT=`_get_conf_kv supportportmappingv2`
   if [ "${IS_DT}" = "yes" ]; then
-    echo "dtbpatch - late"
+    echo "disks - dt"
     # copy utilities 
     cp /usr/bin/readlink /tmpRoot/usr/bin
     cp /usr/bin/dtc /tmpRoot/usr/bin
@@ -336,7 +337,7 @@ elif [ "$HASBOOTED" = "yes" ]; then
     cp -vf /etc/model.dtb /tmpRoot/etc/model.dtb
     cp -vf /etc/model.dtb /tmpRoot/etc.defaults/model.dtb
   else
-    echo "Adjust maxdisks and internalportcfg automatically"
+    echo "disks - no dt"
     # sysfs is unpopulated here, get the values from junior synoinfo.conf
     NUMPORTS=`_get_conf_kv maxdisks`
     INTPORTCFG=`_get_conf_kv internalportcfg`

@@ -7,12 +7,12 @@
 #
 
 
-if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
-HASBOOTED="yes"
-echo -n "System passed junior"
+if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
+  HASBOOTED="yes"
+  echo "System passed junior"
 else
-echo -n "System is booting"
-HASBOOTED="no"
+  echo "System is booting"
+  HASBOOTED="no"
 fi
 
 # DSM version
@@ -21,7 +21,7 @@ MinorVersion=`/bin/get_key_value /etc.defaults/VERSION minorversion`
 echo "MajorVersion:${MajorVersion} MinorVersion:${MinorVersion}"
 
 if [ "$HASBOOTED" = "no" ]; then
-  echo "Starting eudev daemon"
+  echo "Installing daemon for eudev - early"
   if [ "${MajorVersion}" -lt "7" ]; then # < 7
     tar zxf /exts/eudev/eudev-6.2.tgz -C /
   else
@@ -44,7 +44,7 @@ if [ "$HASBOOTED" = "no" ]; then
   # Remove from memory to not conflict with RAID mount scripts
   /usr/bin/killall udevd
 elif [ "$HASBOOTED" = "yes" ]; then
-  echo "eudev - late"
+  echo "Installing daemon for eudev -- late"
   # Copy rules
   cp -vf /usr/lib/udev/rules.d/* /tmpRoot/usr/lib/udev/rules.d/
   if [ "${MajorVersion}" -lt "7" ]; then # < 7

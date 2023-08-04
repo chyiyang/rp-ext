@@ -1,5 +1,11 @@
 {
-"files": [
+  "files": [
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/disks/releases/install.sh",
+      "sha256": "9eddf6b1b63556a66320ae4a887357524dc8b22fac75c78287f88d7d0ad70a4f",
+      "packed": false
+    },
     {
       "name": "readlink",
       "url": "https://github.com/wjz304/rp-ext/raw/main/addons/disks/releases/readlink",
@@ -17,12 +23,6 @@
       "url": "https://github.com/wjz304/rp-ext/raw/main/addons/disks/releases/sed",
       "sha256": "be9c9394fca38bac3412a1a9da1452e4dedb415a168a0329d86a1548df8ced7c",
       "packed": false
-    },
-    {
-      "name": "install.sh",
-      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/disks/releases/install.sh",
-      "sha256": "2f5c8d1613cd144df651546c9cf96abd6d82d6bd45dc2fa566583aba64aaf61c",
-      "packed": false
     }
   ],
   "scripts": {
@@ -30,4 +30,3 @@
     "on_os_load": "install.sh"
   }
 }
-

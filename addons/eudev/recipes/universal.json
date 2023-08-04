@@ -1,5 +1,11 @@
 {
-"files": [
+  "files": [
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/eudev/releases/install.sh",
+      "sha256": "48f6cd39225efd3c5f09991449bdad2f3363f69fcf86a92d3d1b04473f55be52",
+      "packed": false
+    },
     {
       "name": "eudev-6.2.tgz",
       "url": "https://github.com/wjz304/rp-ext/raw/main/addons/eudev/releases/eudev-6.2.tgz",
@@ -17,16 +23,9 @@
       "url": "https://github.com/wjz304/rp-ext/raw/main/addons/eudev/releases/eudev-7.2.tgz",
       "sha256": "2906343146aa8084d9542e1b29d498813dee5cb4cc7328424b03ca5ad6b3bc55",
       "packed": false
-    },
-    {
-      "name": "install.sh",
-      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/eudev/releases/install.sh",
-      "sha256": "540b5790ad1bed6fd749816e2c48c19dca82bca080242307d913f12383274825",
-      "packed": false
     }
   ],
   "scripts": {
     "on_boot": "install.sh"
   }
 }
-

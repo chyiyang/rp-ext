@@ -3,38 +3,28 @@
 # Inject modules for getty
 #
 function load_fb_console() {
-    echo "Loading FB and console modules..."
-    for M in i915 efifb vesafb vga16fb; do
-      [ -e /sys/class/graphics/fb0 ] && break
-      /usr/sbin/modprobe ${M}
-    done
+  echo "Loading FB and console modules..."
+  for M in i915 efifb vesafb vga16fb; do
+    [ -e /sys/class/graphics/fb0 ] && break
+    /usr/sbin/modprobe ${M}
+  done
 }
 
-if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
-HASBOOTED="yes"
-echo -n "System passed junior"
+if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
+  HASBOOTED="yes"
+  echo "System passed junior"
 else
-echo -n "System is booting"
-HASBOOTED="no"
+  echo "System is booting"
+  HASBOOTED="no"
 fi
 
-if [ "$HASBOOTED" = "no" ]; then
+if [ "$HASBOOTED" = "yes" ]; then
+  # run when boot installed DSM
+  echo "Installing daemon for console"
 
-    echo "extract cgetty.tgz to /usr/sbin/ "
-    tar -zxf /exts/console/cgetty.tgz -C /
-
-    TARGET_PLATFORM="$(uname -u | cut -d '_' -f2)"
-    echo $TARGET_PLATFORM
-    if [ "${TARGET_PLATFORM}" != "bromolow" ]; then
-        load_fb_console
-    fi
-    exit 0
-    
-elif [ "$HASBOOTED" = "yes" ]; then
-# run when boot installed DSM
-  echo "Installing serial-getty service on installed DSM"
+  SED_PATH='/tmpRoot/usr/bin/sed'
   cp -fv /tmpRoot/lib/systemd/system/serial-getty\@.service /tmpRoot/lib/systemd/system/getty\@.service
-  sed -i 's|^ExecStart=.*|ExecStart=-/sbin/agetty %I 115200 linux|' /tmpRoot/lib/systemd/system/getty\@.service
+  ${SED_PATH} -i 's|^ExecStart=.*|ExecStart=-/sbin/agetty %I 115200 linux|' /tmpRoot/lib/systemd/system/getty\@.service
   mkdir -vp /tmpRoot/lib/systemd/system/getty.target.wants
   ln -sfv /lib/systemd/system/getty\@.service /tmpRoot/lib/systemd/system/getty.target.wants/getty\@tty1.service
   echo -e "DSM mode\n" > /tmpRoot/etc/issue
@@ -57,4 +47,13 @@ elif [ "$HASBOOTED" = "yes" ]; then
 
   mkdir -p /tmpRoot/etc/systemd/system/multi-user.target.wants
   ln -sf /lib/systemd/system/keymap.service /tmpRoot/lib/systemd/system/multi-user.target.wants/keymap.service
+else
+  echo "extract cgetty.tgz to /usr/sbin/ "
+  tar -zxf /exts/console/cgetty.tgz -C /
+  TARGET_PLATFORM="$(uname -u | cut -d '_' -f2)"
+  echo $TARGET_PLATFORM
+  if [ "${TARGET_PLATFORM}" != "bromolow" ]; then
+    load_fb_console
+  fi
+  exit 0
 fi

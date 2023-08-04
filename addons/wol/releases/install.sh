@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
+if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
   echo "System passed junior"
 else
@@ -8,8 +8,9 @@ else
   HASBOOTED="no"
 fi
 
-if [ "${HASBOOTED}" = "yes" ]; then
-  echo "Creating service to exec ethtool"
+if [ "$HASBOOTED" = "yes" ]; then
+  echo "Installing daemon for wol"
+  
   cp -v ethtool /tmpRoot/usr/sbin/ethtool
   chmod 755 /tmpRoot/usr/sbin/ethtool.sh
 

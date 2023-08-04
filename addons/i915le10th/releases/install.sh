@@ -1,6 +1,6 @@
 #!/usr/bin/env ash
 
-if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
+if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
   echo "System passed junior"
 else
@@ -10,7 +10,7 @@ fi
 
 if [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for i915le10th"
-  
+
   SED_PATH='/tmpRoot/usr/bin/sed'
   XXD_PATH='/tmpRoot/usr/bin/xxd'
   LSPCI_PATH='/tmpRoot/usr/bin/lspci'
@@ -38,7 +38,7 @@ if [ "$HASBOOTED" = "yes" ]; then
           fi
           ${SED_PATH} -i "s/${GPU_DEF}/${GPU_BIN}/; s/308201f706092a86.*70656e6465647e0a//" /tmpRoot/root/i915.ko.hex
           if [ -n "$(cat /tmpRoot/root/i915.ko.hex)" ]; then
-            ${XXD_PATH} -r -p /tmpRoot/root/i915.ko.hex > /tmpRoot/usr/lib/modules/i915.ko
+            ${XXD_PATH} -r -p /tmpRoot/root/i915.ko.hex >/tmpRoot/usr/lib/modules/i915.ko
             rm -f /tmpRoot/root/i915.ko.hex
           else
             echo "Intel GPU is detected (${GPU}), replace i915.ko error"

@@ -2,8 +2,7 @@
 
 wait_time=30 # maximum wait time in seconds
 
-dump_all_partitions()
-{
+dump_all_partitions() {
   echo ""
   echo "========== BEGIN DUMP OF ALL PARTITIONS DETECTED ==========="
   /usr/sbin/sfdisk -l
@@ -13,7 +12,7 @@ dump_all_partitions()
 time_counter=0
 while [ ! -b /dev/synoboot ] && [ $time_counter -lt $wait_time ]; do
   sleep 1
-  echo "Still waiting for boot device (waited $((time_counter=time_counter+1)) of ${wait_time} seconds)"
+  echo "Still waiting for boot device (waited $((time_counter = time_counter + 1)) of ${wait_time} seconds)"
 done
 
 if [ ! -b /dev/synoboot ]; then

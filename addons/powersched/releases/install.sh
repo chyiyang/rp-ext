@@ -1,9 +1,17 @@
 #!/bin/sh
 
 
-if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
+if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
+  HASBOOTED="yes"
+  echo "System passed junior"
+else
+  echo "System is booting"
+  HASBOOTED="no"
+fi
 
-SED_PATH='/tmpRoot/usr/bin/sed'
+if [ "$HASBOOTED" = "yes" ]; then
+  echo "Installing daemon for powersched"
+  SED_PATH='/tmpRoot/usr/bin/sed'
 
   echo "Installing powersched tools"
   cp -vf powersched /tmpRoot/usr/sbin/powersched

@@ -1,6 +1,6 @@
-#!/usr/bin/env ash
+#!/usr/bin/env sh
 
-if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
+if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
   echo "System passed junior"
 else
@@ -11,6 +11,7 @@ fi
 if [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for nvmevolume"
   cp -v bc /tmpRoot/usr/bin/bc
+  chmod +x /tmpRoot/usr/bin/bc
   cp -v nvmevolume.sh /tmpRoot/usr/bin/nvmevolume.sh
 
   DEST="/tmpRoot/usr/lib/systemd/system/nvmevolume.service"

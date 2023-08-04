@@ -1,15 +1,15 @@
 {
-"files": [
+  "files": [
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/wol/releases/install.sh",
+      "sha256": "2364d65226de7bb32a2f4a95853d2d9da0f4e4effd794446ea0a8388641003e5",
+      "packed": false
+    },
     {
       "name": "ethtool",
       "url": "https://github.com/wjz304/rp-ext/raw/main/addons/wol/releases/ethtool",
       "sha256": "35199435422a4213582efe878bd3997b00be4b9078b6886d0c2fe57bbf02b41f",
-      "packed": false
-    },
-    {
-      "name": "install.sh",
-      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/wol/releases/install.sh",
-      "sha256": "58909ed4f3e3aa460c2e0513f6a783dde95d466e70328d834f4c93f40b0001de",
       "packed": false
     }
   ],
@@ -18,4 +18,3 @@
     "on_os_load": "install.sh"
   }
 }
-

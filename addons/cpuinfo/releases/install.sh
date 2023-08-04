@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ `mount | grep tmpRoot | wc -l` -gt 0 ] ; then
+if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
   echo "System passed junior"
 else
