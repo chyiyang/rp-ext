@@ -150,7 +150,7 @@ denverton)
 geminilake)
   fixcpufreq
   fixcrypto
-  fixintelgpu
+  #fixintelgpu
   fixacpibutton
   ;;
 
