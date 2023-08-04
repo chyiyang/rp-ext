@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmevolume/rpext-index.json",
+  "id": "nvmevolume",
+  "info": {
+    "name": "nvmevolume",
+    "description": "Enable M2 volume, from 007revad",
+    "packer_url": "https://github.com/007revad/Synology_enable_M2_volume",
+    "help_url": "https://github.com/007revad/Synology_enable_M2_volume"
+  },
+  "releases": {
+    "_": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmevolume/recipes/universal.json",
+    "zendofmodel": "endofurls"
+  }
+}

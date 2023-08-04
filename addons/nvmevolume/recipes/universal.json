@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmevolume/releases/install.sh",
+      "sha256": "ada01ac31412659dbec85a9ee5b93d8a808630e71c1f7e5edc7f5091f0f1e453",
+      "packed": false
+    },
+    {
+      "name": "nvmevolume.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmevolume/releases/nvmevolume.sh",
+      "sha256": "8cf856d2d00826aa430b1402b5a3f8b3555fda97da004d56773dd7c371ec4de4",
+      "packed": false
+    },
+    {
+      "name": "bc",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmevolume/releases/bc",
+      "sha256": "2c999820e84386d83e3819588f8c69cb15923ea8afeb9f34377bb5c7c3a9bd3c",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh",
+    "on_os_load": "install.sh"
+  }
+}

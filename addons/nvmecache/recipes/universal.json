@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmecache/releases/install.sh",
+      "sha256": "58d7cb632e7e66062845ff93458c59ca05aace0e47ea234d1d1ac1d6a3e042f4",
+      "packed": false
+    },
+    {
+      "name": "nvmecache.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmecache/releases/i915ids",
+      "sha256": "7b1801ac87c0d727a1b0192f965b33fabddecbe0e7bfa8f3cf91898fd7210639",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh",
+    "on_os_load": "install.sh"
+  }
+}
