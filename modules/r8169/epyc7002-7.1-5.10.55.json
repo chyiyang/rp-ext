@@ -1,22 +1,40 @@
 {
-    "mod_version": "23.7.1",
+    "mod_version": "23.8.0",
     "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/libphy.ko",
+            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
+            "packed": false
+        },
+        {
+            "name": "mdio_devres.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/mdio_devres.ko",
+            "sha256": "f86a70e967a4e67eef9f25eb1b8ec64d99eaa00c0b7f29b2a94d79d198f570dd",
+            "packed": false
+        },
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/libphy.ko",
+            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
+            "packed": false
+        },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/r8169.ko",
-            "sha256": "32438939f22d10d5c04607959c9b06532aeb1cd7b5ea8860d4a8efba70149f7b",
+            "sha256": "b59726ba717d48696cc64a876ff3dca3c82c6c402fa628fa48274d428dfab259",
             "packed": false
         },
         {
             "name": "check-r8169.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/check-r8169.sh",
-            "sha256": "29027fcae85fd7a2f73b6e98281670347170fae2226e15a63b4e606b8cd0e79b",
+            "sha256": "276bca88d2387e03a47b136ee29e8687216e5863eebbfa62382a45be91dcc656",
             "packed": false
         },
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/r8169_firmware.tag.gz",
-            "sha256": "aac6f40180ac6e4171a36371f76e414b8e7ec76dd77cd9ce331366699a271cdb",
+            "sha256": "cae2845ad48383de08c80bdac31a47e07675ab07c2326c52e83793ea276bf170",
             "packed": false
         },
         {
@@ -27,6 +45,8 @@
         }
     ],
     "kmods": {
+        "libphy.ko": "",
+        "mdio_devres.ko": "",
         "r8169.ko": ""
     },
     "scripts": {

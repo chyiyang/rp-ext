@@ -5366,6 +5366,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -5377,6 +5380,12 @@
         },
         "e1000e": {
             "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
         },
         "failover": {
             "description": "Generic failover infrastructure/interface"
@@ -5411,8 +5420,14 @@
         "ixgbevf": {
             "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
         },
+        "libphy": {
+            "description": "PHY library"
+        },
         "libsas": {
             "description": "SAS Transport Layer"
+        },
+        "mdio_devres": {
+            "description": ""
         },
         "mii": {
             "description": "MII hardware support library"
@@ -5467,6 +5482,9 @@
         },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"
@@ -5563,6 +5581,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "cpufreq_performance": {
+            "description": "CPUfreq policy governor 'performance'"
+        },
         "crc-itu-t": {
             "description": "CRC ITU-T V.41 calculations"
         },
@@ -5574,6 +5595,12 @@
         },
         "e1000e": {
             "description": "Intel(R) PRO/1000 Network Driver"
+        },
+        "ehci-hcd": {
+            "description": "USB 2.0 'Enhanced' Host Controller (EHCI) Driver"
+        },
+        "ehci-pci": {
+            "description": "EHCI PCI platform driver"
         },
         "failover": {
             "description": "Generic failover infrastructure/interface"
@@ -5608,8 +5635,14 @@
         "ixgbevf": {
             "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
         },
+        "libphy": {
+            "description": "PHY library"
+        },
         "libsas": {
             "description": "SAS Transport Layer"
+        },
+        "mdio_devres": {
+            "description": ""
         },
         "mii": {
             "description": "MII hardware support library"
@@ -5664,6 +5697,9 @@
         },
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
+        },
+        "uhci-hcd": {
+            "description": "USB Universal Host Controller Interface driver"
         },
         "usbnet": {
             "description": "USB network driver framework"

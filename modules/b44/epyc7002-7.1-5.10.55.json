@@ -1,6 +1,18 @@
 {
-    "mod_version": "23.7.1",
+    "mod_version": "23.8.0",
     "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.1-5.10.55/libphy.ko",
+            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
+            "packed": false
+        },
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.1-5.10.55/libphy.ko",
+            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
+            "packed": false
+        },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.1-5.10.55/mii.ko",
@@ -10,17 +22,18 @@
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.1-5.10.55/b44.ko",
-            "sha256": "bff6bb4477d675dcecbe0346b5ccf71dc81b226c8523d8ea364a0ff82e5af297",
+            "sha256": "3a64682793c48acdbad61346ecc69bd92b475e1556d3935285885ca887ef7ff8",
             "packed": false
         },
         {
             "name": "check-b44.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.1-5.10.55/check-b44.sh",
-            "sha256": "75b3af2dcca0a83b678597f3f4c1511cd076056c995223144f7f8204ddfc920b",
+            "sha256": "103c068859d867379b558186f62d2a09d69a4575ea7429fa569c9b56b6cf881d",
             "packed": false
         }
     ],
     "kmods": {
+        "libphy.ko": "",
         "mii.ko": "",
         "b44.ko": ""
     },

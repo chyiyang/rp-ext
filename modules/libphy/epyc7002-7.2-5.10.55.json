@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.0",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/epyc7002-7.2-5.10.55/libphy.ko",
+            "sha256": "c7443dd2af42055a6eb64f2ffe1ea282a23a94be0479333df595ef5d9dd475c8",
+            "packed": false
+        },
+        {
+            "name": "check-libphy.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/epyc7002-7.2-5.10.55/check-libphy.sh",
+            "sha256": "e0a7c579a63a41f7dce62df77c2a7f1878210ee2f739daa862285308c03600ee",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libphy.sh"
+    }
+}

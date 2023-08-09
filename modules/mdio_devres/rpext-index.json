@@ -1,0 +1,15 @@
+{
+    "id": "ing.mdio_devres",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio_devres/rpext-index.json",
+    "info": {
+        "name": "mdio_devres",
+        "description": "",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-7.1-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio_devres/epyc7002-7.1-5.10.55.json",
+        "epyc7002-7.2-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio_devres/epyc7002-7.2-5.10.55.json"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.0",
+    "files": [
+        {
+            "name": "cpufreq_performance.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/epyc7002-7.1-5.10.55/cpufreq_performance.ko",
+            "sha256": "ce1bd9982cb99c3d6fa4048922e97c76609fdd8b46d2464a215608c54f156c16",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_performance.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_performance/epyc7002-7.1-5.10.55/check-cpufreq_performance.sh",
+            "sha256": "219d078494f2dd89d3df22ef6d8aba4b7012f76799b53c7871d8dc154a3dd0d0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_performance.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_performance.sh"
+    }
+}

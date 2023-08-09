@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.0",
+    "files": [
+        {
+            "name": "mdio_devres.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio_devres/epyc7002-7.1-5.10.55/mdio_devres.ko",
+            "sha256": "f86a70e967a4e67eef9f25eb1b8ec64d99eaa00c0b7f29b2a94d79d198f570dd",
+            "packed": false
+        },
+        {
+            "name": "check-mdio_devres.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio_devres/epyc7002-7.1-5.10.55/check-mdio_devres.sh",
+            "sha256": "7b91844191fd23f7614ff7cea90c5ab1c1820dcdf92f9d38f721ff025ae884a6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio_devres.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mdio_devres.sh"
+    }
+}
