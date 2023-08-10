@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "dvb-usb.ko",
@@ -28,7 +28,7 @@
         {
             "name": "dvb-usb-dib0700_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/apollolake-4.4.59/dvb-usb-dib0700_firmware.tag.gz",
-            "sha256": "72716a11afb4af1252a941a87888f8fe4bd44463fc96bfe3c99b6d1d5e697a1c",
+            "sha256": "8dfc4ba64f0a2fc317129b1ac04706db1a940d4d58f723f102630e239622dd8d",
             "packed": false
         },
         {

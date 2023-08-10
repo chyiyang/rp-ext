@@ -1,28 +1,22 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/epyc7002-7.2-5.10.55/libphy.ko",
-            "sha256": "c7443dd2af42055a6eb64f2ffe1ea282a23a94be0479333df595ef5d9dd475c8",
-            "packed": false
-        },
-        {
-            "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/epyc7002-7.2-5.10.55/libphy.ko",
-            "sha256": "c7443dd2af42055a6eb64f2ffe1ea282a23a94be0479333df595ef5d9dd475c8",
+            "sha256": "061acc5afbb61c0163c92d259a63e89f6ae2af438410209a7408575e49fd9760",
             "packed": false
         },
         {
             "name": "realtek.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/epyc7002-7.2-5.10.55/realtek.ko",
-            "sha256": "adf9d5607fb67a11aef277fee92b6b91cd3671390313300c1d5171c954c3fdc3",
+            "sha256": "c25c347a4ddf0bb50c573f9f2ddeef2687b6ee4b010c929dee9389bbf15c7294",
             "packed": false
         },
         {
             "name": "check-realtek.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/epyc7002-7.2-5.10.55/check-realtek.sh",
-            "sha256": "5edd08843459e521b4a54bd87cde3b8233366fe81293d8719b7608b95380aa87",
+            "sha256": "c207cf47178a61555b5e65aa6bf6a20812b9fb0bed2ed3d3ae067a80e9f55822",
             "packed": false
         }
     ],

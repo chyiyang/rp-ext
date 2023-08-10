@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "dvb-core.ko",
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/m88ds3103_firmware.tag.gz",
-            "sha256": "f80f2895d1faf6aa3e1a661cb68d340e067f34db2d4e592a3baf124e5ba8ed37",
+            "sha256": "6256feaa99efbc12d5e017f328fa2aba3c1944f68f550da3c2756adf46fa316c",
             "packed": false
         },
         {

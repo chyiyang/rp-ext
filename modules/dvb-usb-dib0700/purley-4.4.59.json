@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "dvb-usb.ko",
@@ -28,7 +28,7 @@
         {
             "name": "dvb-usb-dib0700_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/purley-4.4.59/dvb-usb-dib0700_firmware.tag.gz",
-            "sha256": "7745a424bad47349796e4b05243bf5bb5787c28e8520bc7217af01678745988c",
+            "sha256": "c71488e993dc5875ac80cc8b9796a5accef81bbbcbeb224fb14dc668c2f233de",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "mii.ko",
@@ -10,7 +10,7 @@
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-7.1-5.10.55/libphy.ko",
-            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
+            "sha256": "ce95af70db0b19055d7068c0aa7bfbb3fd7a2c75396382f3988e0171aa118384",
             "packed": false
         },
         {
@@ -20,21 +20,15 @@
             "packed": false
         },
         {
-            "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-7.1-5.10.55/libphy.ko",
-            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
-            "packed": false
-        },
-        {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-7.1-5.10.55/asix.ko",
-            "sha256": "d8d173a8919d5520d97bc2d187f40c99bc862ba9a2fb5da63ff62c3d3fad6f81",
+            "sha256": "2edd163dd7bc019271c8c8022f300941547a159abdb5ed1b93ee6ac1591ce1ad",
             "packed": false
         },
         {
             "name": "check-asix.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/epyc7002-7.1-5.10.55/check-asix.sh",
-            "sha256": "4ae08977cf33de0ce6a2313e8f16da2a1d81059c19525ea80cc16df4a1d02ae7",
+            "sha256": "df8aed87b5d5da5b85480e3ed59ce8edf160ddd460cdfabb740b71318f72e8a6",
             "packed": false
         }
     ],

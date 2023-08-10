@@ -1540,6 +1540,14 @@
             "v1000-4.4.59"
         ]
     },
+    "fixed_phy": {
+        "description": "Fixed MDIO bus (MDIO bus emulation with fixed PHYs)",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fixed_phy/rpext-index.json",
+        "platforms": [
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55"
+        ]
+    },
     "font": {
         "description": "Console Fonts",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/rpext-index.json",
@@ -2249,6 +2257,8 @@
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55",
             "geminilake-4.4.180",
             "geminilake-4.4.302",
             "geminilake-4.4.59",
@@ -2875,6 +2885,14 @@
     "net_failover": {
         "description": "Failover driver for Paravirtual drivers",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/rpext-index.json",
+        "platforms": [
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55"
+        ]
+    },
+    "of_mdio": {
+        "description": "",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/of_mdio/rpext-index.json",
         "platforms": [
             "epyc7002-7.1-5.10.55",
             "epyc7002-7.2-5.10.55"

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "dvb-core.ko",
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.180/m88ds3103_firmware.tag.gz",
-            "sha256": "cc51f8f4c99bfe60157e52aeda718132bfa3721dadd4fdddfa4412b87ad6ed5b",
+            "sha256": "9d23d43d71e4d80ba6a805d9ec1fdd8ea3c366a617769768deb851d5451b4fcf",
             "packed": false
         },
         {

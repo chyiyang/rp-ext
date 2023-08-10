@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "cxgb3.ko",
@@ -16,7 +16,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/bromolow-3.10.108/cxgb3_firmware.tag.gz",
-            "sha256": "2e5fe434d6072edcc2857a091d04a9880c549a90ff61895afc0960391e1cc92a",
+            "sha256": "7ffecb7b08aea4e584722ce19215f04cd44f4653b6cb418c0f174d6313c4e326",
             "packed": false
         },
         {

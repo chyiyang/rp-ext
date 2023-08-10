@@ -5393,6 +5393,9 @@
         "fb": {
             "description": ""
         },
+        "fixed_phy": {
+            "description": "Fixed MDIO bus (MDIO bus emulation with fixed PHYs)"
+        },
         "hwmon-vid": {
             "description": "hwmon-vid driver"
         },
@@ -5426,6 +5429,9 @@
         "libsas": {
             "description": "SAS Transport Layer"
         },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
         "mdio_devres": {
             "description": ""
         },
@@ -5449,6 +5455,9 @@
         },
         "net_failover": {
             "description": "Failover driver for Paravirtual drivers"
+        },
+        "of_mdio": {
+            "description": ""
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
@@ -5608,6 +5617,9 @@
         "fb": {
             "description": ""
         },
+        "fixed_phy": {
+            "description": "Fixed MDIO bus (MDIO bus emulation with fixed PHYs)"
+        },
         "hwmon-vid": {
             "description": "hwmon-vid driver"
         },
@@ -5641,6 +5653,9 @@
         "libsas": {
             "description": "SAS Transport Layer"
         },
+        "mdio": {
+            "description": "Generic support for MDIO-compatible transceivers"
+        },
         "mdio_devres": {
             "description": ""
         },
@@ -5664,6 +5679,9 @@
         },
         "net_failover": {
             "description": "Failover driver for Paravirtual drivers"
+        },
+        "of_mdio": {
+            "description": ""
         },
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"

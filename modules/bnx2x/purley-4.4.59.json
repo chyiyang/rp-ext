@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "mdio.ko",
@@ -22,7 +22,7 @@
         {
             "name": "bnx2x_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/purley-4.4.59/bnx2x_firmware.tag.gz",
-            "sha256": "518f6d655564523a46eb220cef7cf75aafa199448dade7ce7ac148547dd44659",
+            "sha256": "f8b02645d84405672f36ef2a1feb66cd887e86b5d565e0bee417539992182461",
             "packed": false
         },
         {

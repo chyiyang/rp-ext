@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.1",
+    "files": [
+        {
+            "name": "fixed_phy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fixed_phy/epyc7002-7.2-5.10.55/fixed_phy.ko",
+            "sha256": "83c43312c656f7765e8e590c0d80c6f0d8e185dc41e18df806a22b03cf94dd16",
+            "packed": false
+        },
+        {
+            "name": "check-fixed_phy.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fixed_phy/epyc7002-7.2-5.10.55/check-fixed_phy.sh",
+            "sha256": "ad18b007a9048ac480ad2aef46b301e6a33aac18de9ecd7f7dc8b694f1fedb42",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fixed_phy.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fixed_phy.sh"
+    }
+}

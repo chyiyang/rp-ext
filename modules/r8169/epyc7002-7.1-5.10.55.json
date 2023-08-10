@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/libphy.ko",
-            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
+            "sha256": "ce95af70db0b19055d7068c0aa7bfbb3fd7a2c75396382f3988e0171aa118384",
             "packed": false
         },
         {
@@ -14,27 +14,21 @@
             "packed": false
         },
         {
-            "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/libphy.ko",
-            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
-            "packed": false
-        },
-        {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/r8169.ko",
-            "sha256": "b59726ba717d48696cc64a876ff3dca3c82c6c402fa628fa48274d428dfab259",
+            "sha256": "32438939f22d10d5c04607959c9b06532aeb1cd7b5ea8860d4a8efba70149f7b",
             "packed": false
         },
         {
             "name": "check-r8169.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/check-r8169.sh",
-            "sha256": "276bca88d2387e03a47b136ee29e8687216e5863eebbfa62382a45be91dcc656",
+            "sha256": "19c16cc1b2f00555d4e20b1ccc8c8302260d7c55492b3b4a1e1758f12ce6d766",
             "packed": false
         },
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/r8169_firmware.tag.gz",
-            "sha256": "cae2845ad48383de08c80bdac31a47e07675ab07c2326c52e83793ea276bf170",
+            "sha256": "a7e52b30c6368aa050a24a4d69345f494c20ef451d7e059abc62ae0014c06b89",
             "packed": false
         },
         {

@@ -1,34 +1,28 @@
 {
-    "mod_version": "23.8.0",
+    "mod_version": "23.8.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/epyc7002-7.1-5.10.55/libphy.ko",
-            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
-            "packed": false
-        },
-        {
-            "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/epyc7002-7.1-5.10.55/libphy.ko",
-            "sha256": "22195867f7bfcb2ab211dba0169b3e07556e8087e7cf494ae009f2e75d565cf5",
+            "sha256": "ce95af70db0b19055d7068c0aa7bfbb3fd7a2c75396382f3988e0171aa118384",
             "packed": false
         },
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/epyc7002-7.1-5.10.55/tg3.ko",
-            "sha256": "5ad6169b8d7b892efe129ea9621c45925c08154e39378eac34d6f7d51915c64c",
+            "sha256": "2bab9742567dec3eff190da6f928ba3a5fbdb8f59891b864fdd3647b6d38508d",
             "packed": false
         },
         {
             "name": "check-tg3.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/epyc7002-7.1-5.10.55/check-tg3.sh",
-            "sha256": "87c94c42f6b2593482b08facd749334e3c2d04f435ac6b3f68a48fa67caad656",
+            "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
             "packed": false
         },
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/epyc7002-7.1-5.10.55/tg3_firmware.tag.gz",
-            "sha256": "44cbd8a1aa45bdd899b0736edaac732d98bfc1dac50115fc67bceff041614b42",
+            "sha256": "de7b66a9a82f14e0cbf4503c5a6334fa13c2649e67e8cbc1f98ed022348e3a54",
             "packed": false
         },
         {
