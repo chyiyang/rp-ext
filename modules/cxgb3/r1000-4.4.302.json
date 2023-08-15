@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.1",
+    "mod_version": "23.8.2",
     "files": [
         {
             "name": "mdio.ko",
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/r1000-4.4.302/cxgb3_firmware.tag.gz",
-            "sha256": "4696fb2e93509b21def9db2fdf80618550848df7841dfc3012aeb4b118339cb2",
+            "sha256": "302e373cdbed87b478821c944635d8f267a52d82ba0636cbb54583ddf57a3cb1",
             "packed": false
         },
         {

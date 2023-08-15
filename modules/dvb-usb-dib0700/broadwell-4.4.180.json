@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.1",
+    "mod_version": "23.8.2",
     "files": [
         {
             "name": "dvb-usb.ko",
@@ -28,7 +28,7 @@
         {
             "name": "dvb-usb-dib0700_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/broadwell-4.4.180/dvb-usb-dib0700_firmware.tag.gz",
-            "sha256": "656b0168148dcab28b48448dac6f402af5eb2560f9ef0a081f069d93433f254a",
+            "sha256": "3076b5d980f923b944a1a2d5dd6154c6946123549d845e240042b40f13b9953c",
             "packed": false
         },
         {

@@ -5396,6 +5396,9 @@
         "fixed_phy": {
             "description": "Fixed MDIO bus (MDIO bus emulation with fixed PHYs)"
         },
+        "hpsa": {
+            "description": "Driver for HP Smart Array Controller version 3.4.20-200"
+        },
         "hwmon-vid": {
             "description": "hwmon-vid driver"
         },
@@ -5619,6 +5622,9 @@
         },
         "fixed_phy": {
             "description": "Fixed MDIO bus (MDIO bus emulation with fixed PHYs)"
+        },
+        "hpsa": {
+            "description": "Driver for HP Smart Array Controller version 3.4.20-200"
         },
         "hwmon-vid": {
             "description": "hwmon-vid driver"

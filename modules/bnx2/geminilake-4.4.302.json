@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.1",
+    "mod_version": "23.8.2",
     "files": [
         {
             "name": "bnx2.ko",
@@ -16,7 +16,7 @@
         {
             "name": "bnx2_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/geminilake-4.4.302/bnx2_firmware.tag.gz",
-            "sha256": "5683c054fe1b2f67e06e7c3854a81104dd01367df1c02288d3040e28e946e328",
+            "sha256": "43e289e6f4404421ccb87c30db48bb919c32d420d5c96cc02456a24257699503",
             "packed": false
         },
         {
