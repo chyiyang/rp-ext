@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/setrootpw/releases/install.sh",
+      "sha256": "67829c614f4bdeb1a765dbc00df26005a990df8182ced987a8106bae8da2d36a",
+      "packed": false
+    },
+    {
+      "name": "esynoscheduler.db",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/setrootpw/releases/esynoscheduler.db",
+      "sha256": "50b1e379bc4f5e46572ad18545b79e35ece13d5de8433c9552ea26c92acb2f58",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh",
+    "on_os_load": "install.sh"
+  }
+}

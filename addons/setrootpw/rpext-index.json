@@ -1,0 +1,14 @@
+{
+  "url": "https://github.com/wjz304/rp-ext/raw/main/addons/setrootpw/rpext-index.json",
+  "id": "setrootpw",
+  "info": {
+    "name": "setrootpw",
+    "description": "Enable root permissions for ssh/sftp. Please modify PW=\"\" to the required password in the DSM scheduled task and execute it.",
+    "packer_url": "https://github.com/wjz304/rp-ext/raw/main/addons/setrootpw",
+    "help_url": "https://github.com/wjz304/rp-ext/raw/main/addons/setrootpw"
+  },
+  "releases": {
+    "_": "https://github.com/wjz304/rp-ext/raw/main/addons/setrootpw/recipes/universal.json",
+    "zendofmodel": "endofurls"
+  }
+}

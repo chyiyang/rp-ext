@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "name": "install.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/addincards/releases/install.sh",
+      "sha256": "0770457ef744a08b821b8ccf4aa4cd2435e3eef035d3f3b38fd456bed858709a",
+      "packed": false
+    },
+    {
+      "name": "addincards.sh",
+      "url": "https://github.com/wjz304/rp-ext/raw/main/addons/addincards/releases/addincards.sh",
+      "sha256": "6f617a67bdeda0c1430d641c07d5cf6afcdcca2bc6ecac931ac8dfd7cb9e79d7",
+      "packed": false
+    }
+  ],
+  "scripts": {
+    "on_boot": "install.sh",
+    "on_os_load": "install.sh"
+  }
+}
