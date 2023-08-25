@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.3",
+    "mod_version": "23.8.5",
     "files": [
         {
             "name": "qed.ko",
@@ -10,7 +10,7 @@
         {
             "name": "qede.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/v1000-4.4.302/qede.ko",
-            "sha256": "4fed8c4b2dad955ed718ded435964625fb7d3f55c71be984587eab49525575d7",
+            "sha256": "a46fddcd5003134927021205d9d0a4edc763210b7dc2a0feb14294070e36093f",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/v1000-4.4.302/qede_firmware.tag.gz",
-            "sha256": "afe9343e79b6c883278fde512e108b03d4b240f703deb09ac5f2e8953dbbb134",
+            "sha256": "58a6adb8fa4a38a77cad491f119788b4fecb345bcbf1656755f0e562d88154e7",
             "packed": false
         },
         {

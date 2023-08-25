@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.5",
+    "files": [
+        {
+            "name": "wireguard.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/wireguard/epyc7002-7.2-5.10.55/wireguard.ko",
+            "sha256": "1901bd3650480ffc514a4ac71080e08847f6f9a2cc6a82989b87510ea591e915",
+            "packed": false
+        },
+        {
+            "name": "check-wireguard.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/wireguard/epyc7002-7.2-5.10.55/check-wireguard.sh",
+            "sha256": "83aa4d9cf427b94f2e0223aec45a6dfe66370f6d8e772eef5ef9622aaec0036d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "wireguard.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-wireguard.sh"
+    }
+}

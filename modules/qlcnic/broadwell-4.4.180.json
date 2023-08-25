@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.3",
+    "mod_version": "23.8.5",
     "files": [
         {
             "name": "qlcnic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qlcnic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwell-4.4.180/qlcnic_firmware.tag.gz",
-            "sha256": "590bbcfa94244e3d47b77e0be7f45aafae0a725480251537a4ffb0d80cb04654",
+            "sha256": "cd437387558197a7c36fc40c1f818e665412d9538214a252d466306d8b864470",
             "packed": false
         },
         {

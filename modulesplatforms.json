@@ -5657,11 +5657,26 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "irqbypass": {
+            "description": "IRQ bypass manager utility module"
+        },
+        "ixgb": {
+            "description": "Intel(R) PRO/10GbE Network Driver"
+        },
         "ixgbe": {
             "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
         },
         "ixgbevf": {
             "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "kvm-amd": {
+            "description": ""
+        },
+        "kvm-intel": {
+            "description": ""
+        },
+        "kvm": {
+            "description": ""
         },
         "libphy": {
             "description": "PHY library"
@@ -5785,6 +5800,9 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "wireguard": {
+            "description": "WireGuard secure network tunnel"
         }
     },
     "epyc7002-7.2-5.10.55": {
@@ -5908,11 +5926,23 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "irqbypass": {
+            "description": "IRQ bypass manager utility module"
+        },
         "ixgbe": {
             "description": "Intel(R) 10GbE PCI Express Linux Network Driver"
         },
         "ixgbevf": {
             "description": "Intel(R) 10 Gigabit Virtual Function Network Driver"
+        },
+        "kvm-amd": {
+            "description": ""
+        },
+        "kvm-intel": {
+            "description": ""
+        },
+        "kvm": {
+            "description": ""
         },
         "libphy": {
             "description": "PHY library"
@@ -6036,6 +6066,9 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "wireguard": {
+            "description": "WireGuard secure network tunnel"
         }
     },
     "geminilake-4.4.180": {

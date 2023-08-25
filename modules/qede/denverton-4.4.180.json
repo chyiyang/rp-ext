@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.3",
+    "mod_version": "23.8.5",
     "files": [
         {
             "name": "qed.ko",
@@ -10,7 +10,7 @@
         {
             "name": "qede.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.180/qede.ko",
-            "sha256": "66549a3f57c4f229e948c81049523e1abfa818a6750f48dccd1b46f05369adf7",
+            "sha256": "3afdf11d96956356b2f045d07a928ac9a66778b55954295c1676ca001e6a0190",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.180/qede_firmware.tag.gz",
-            "sha256": "e54675092e8d3c25833668454d4d5d5fedce6c319c0e4b8fde00f2d6f1a595ab",
+            "sha256": "32bab38900a9d93376b96dd7162776c0f682fbc9e36353cd179c88b5165c3c39",
             "packed": false
         },
         {

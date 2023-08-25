@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.3",
+    "mod_version": "23.8.5",
     "files": [
         {
             "name": "qlcnic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qlcnic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/denverton-4.4.180/qlcnic_firmware.tag.gz",
-            "sha256": "f789518a5c5dd657148913def285e113b6ebb5675323641fecb8125a83f6e015",
+            "sha256": "38a483cdc1df057025dbddc2822c8ec3482f7921f5f0f45603e23c9962f1cfdb",
             "packed": false
         },
         {

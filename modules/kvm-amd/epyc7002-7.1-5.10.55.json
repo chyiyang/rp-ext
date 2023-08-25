@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.8.5",
+    "files": [
+        {
+            "name": "kvm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/epyc7002-7.1-5.10.55/kvm.ko",
+            "sha256": "daa4c801f979957406553a965b2c4d3249cd6fe8aa57570912019307413510df",
+            "packed": false
+        },
+        {
+            "name": "kvm-amd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/epyc7002-7.1-5.10.55/kvm-amd.ko",
+            "sha256": "4d17e5bb95fc0df910af02e828f3a7b808fcb4f997a2b8487067f64a43aefc61",
+            "packed": false
+        },
+        {
+            "name": "check-kvm-amd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/epyc7002-7.1-5.10.55/check-kvm-amd.sh",
+            "sha256": "5ea91215f63363b4c8743778eee3dd93ae6318ce6581980be17463d59637e33f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "kvm.ko": "",
+        "kvm-amd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-kvm-amd.sh"
+    }
+}

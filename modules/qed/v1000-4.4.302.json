@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.3",
+    "mod_version": "23.8.5",
     "files": [
         {
             "name": "qed.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qed_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/v1000-4.4.302/qed_firmware.tag.gz",
-            "sha256": "54e797172219ccfe0740eac1f9858d51107c074a6540ab791320a6e97a2d2161",
+            "sha256": "a30c26087b7bc9733dde1d41f8bae7c625d72935ffa4740794a1919cc93f20cd",
             "packed": false
         },
         {
