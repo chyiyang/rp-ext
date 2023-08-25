@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qlcnic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/v1000-4.4.59/qlcnic.ko",
+            "sha256": "65c36607e6b6d68cf81dfa7d45152b79accd46cbcc25ee4fbf0dedc5ce9c004b",
+            "packed": false
+        },
+        {
+            "name": "check-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/v1000-4.4.59/check-qlcnic.sh",
+            "sha256": "2120fef1be9764915ea5ac76a79c4eef8b5389e075ad9f1a7d087eb69147aff7",
+            "packed": false
+        },
+        {
+            "name": "qlcnic_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/v1000-4.4.59/qlcnic_firmware.tag.gz",
+            "sha256": "cee43cb1982ed4d48e99c198a94738f7244b1bf38833939d690dca2e17cba9c7",
+            "packed": false
+        },
+        {
+            "name": "install-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/v1000-4.4.59/install-qlcnic.sh",
+            "sha256": "ffae6a534b601a07e7f68b1a39ceedf6ea902d4ad0b9098953ea954a71ee2107",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qlcnic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qlcnic.sh",
+        "on_os_load": "install-qlcnic.sh"
+    }
+}

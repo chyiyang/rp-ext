@@ -1,0 +1,15 @@
+{
+    "id": "ing.crc-ccitt",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/rpext-index.json",
+    "info": {
+        "name": "crc-ccitt",
+        "description": "CRC-CCITT calculations",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "epyc7002-7.1-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/epyc7002-7.1-5.10.55.json",
+        "epyc7002-7.2-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/epyc7002-7.2-5.10.55.json"
+    }
+}

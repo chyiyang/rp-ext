@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/geminilake-4.4.180/qed.ko",
+            "sha256": "493e4aabcb8d01f1ea6d88ad3cd85ea37402e531ff22a906b2cf21d07986c99d",
+            "packed": false
+        },
+        {
+            "name": "qede.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/geminilake-4.4.180/qede.ko",
+            "sha256": "1b0f2ba04361d1ad99fa864ffa68065a223d9862859bfea913d09e28598f20f7",
+            "packed": false
+        },
+        {
+            "name": "check-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/geminilake-4.4.180/check-qede.sh",
+            "sha256": "0d0fa66fc132abf4d03663e766210563ad5ca5788a58c441147005913abefa6e",
+            "packed": false
+        },
+        {
+            "name": "qede_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/geminilake-4.4.180/qede_firmware.tag.gz",
+            "sha256": "168aa172e17e8e77a9a80fbe7375b236245a66c2c48a1d9809d3300d529261cf",
+            "packed": false
+        },
+        {
+            "name": "install-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/geminilake-4.4.180/install-qede.sh",
+            "sha256": "2b969742163e5c7f77518080191d5de799dd4ca1534d71b7312d47fc5408c015",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": "",
+        "qede.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qede.sh",
+        "on_os_load": "install-qede.sh"
+    }
+}

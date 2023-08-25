@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.2",
+    "mod_version": "23.8.3",
     "files": [
         {
             "name": "mdio.ko",
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/geminilake-4.4.59/cxgb3_firmware.tag.gz",
-            "sha256": "8c16c5327353deed271865acd0d99a603366a2be688ead26a485329e33c11a08",
+            "sha256": "bcec3c6ec5cf6ffabb663bb36cffd9f83efc423d634207121a80b19867896ff9",
             "packed": false
         },
         {

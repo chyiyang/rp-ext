@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qlge.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlge/apollolake-4.4.302/qlge.ko",
+            "sha256": "bac5cc73b8d5b1d09fa55eed271a24080eafcef2bb7cf05bdd2abf74604e9e50",
+            "packed": false
+        },
+        {
+            "name": "check-qlge.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlge/apollolake-4.4.302/check-qlge.sh",
+            "sha256": "1e856b7bb6e55c1b5ab21da8b99a4e1387a0ef4d65b75a162601fb9e854c639e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qlge.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qlge.sh"
+    }
+}

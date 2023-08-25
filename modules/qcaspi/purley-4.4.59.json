@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qcaspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/purley-4.4.59/qcaspi.ko",
+            "sha256": "7271e64018a9b8bf16d8e0177a2054ef4faceb73c79df5d596d7fb12fa07e7a0",
+            "packed": false
+        },
+        {
+            "name": "check-qcaspi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/purley-4.4.59/check-qcaspi.sh",
+            "sha256": "ae078912654c4ec517dc55849a5e77d37894183e52ad4267381590936857fcc5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qcaspi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qcaspi.sh"
+    }
+}

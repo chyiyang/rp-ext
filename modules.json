@@ -912,6 +912,14 @@
             "v1000-4.4.59"
         ]
     },
+    "crc-ccitt": {
+        "description": "CRC-CCITT calculations",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/rpext-index.json",
+        "platforms": [
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55"
+        ]
+    },
     "crc-itu-t": {
         "description": "CRC ITU-T V.41 calculations",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-itu-t/rpext-index.json",
@@ -940,6 +948,14 @@
             "v1000-4.4.180",
             "v1000-4.4.302",
             "v1000-4.4.59"
+        ]
+    },
+    "crc8": {
+        "description": "CRC8 (by Williams, Ross N.) function",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc8/rpext-index.json",
+        "platforms": [
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55"
         ]
     },
     "cxgb": {
@@ -2892,6 +2908,36 @@
             "epyc7002-7.2-5.10.55"
         ]
     },
+    "netxen_nic": {
+        "description": "QLogic/NetXen (1/10) GbE Intelligent Ethernet Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
     "of_mdio": {
         "description": "",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/of_mdio/rpext-index.json",
@@ -2917,6 +2963,190 @@
             "broadwellnk-4.4.59",
             "bromolow-3.10.105",
             "bromolow-3.10.108",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
+    "qca_7k_common": {
+        "description": "Qualcomm Atheros QCA7000 common",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qca_7k_common/rpext-index.json",
+        "platforms": [
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55"
+        ]
+    },
+    "qcaspi": {
+        "description": "Qualcomm Atheros SPI Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
+    "qed": {
+        "description": "QLogic FastLinQ 4xxxx Core Module",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
+    "qede": {
+        "description": "QLogic FastLinQ 4xxxx Ethernet Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
+    "qla3xxx": {
+        "description": "QLogic ISP3XXX Network Driver v2.03.00-k5 ",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla3xxx/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
+    "qlcnic": {
+        "description": "QLogic 1/10 GbE Converged/Intelligent Ethernet Driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "epyc7002-7.1-5.10.55",
+            "epyc7002-7.2-5.10.55",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
+    "qlge": {
+        "description": "QLogic 10 Gigabit PCI-E Ethernet Driver  ",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlge/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
             "denverton-4.4.180",
             "denverton-4.4.302",
             "denverton-4.4.59",

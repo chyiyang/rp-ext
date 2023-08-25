@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qlge.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlge/broadwellnk-4.4.59/qlge.ko",
+            "sha256": "23496e86ef5b800c07dbdbc64a1c1f426b9a0894f2298bee945be641849e86d3",
+            "packed": false
+        },
+        {
+            "name": "check-qlge.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlge/broadwellnk-4.4.59/check-qlge.sh",
+            "sha256": "1e856b7bb6e55c1b5ab21da8b99a4e1387a0ef4d65b75a162601fb9e854c639e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qlge.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qlge.sh"
+    }
+}

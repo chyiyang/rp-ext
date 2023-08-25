@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.2",
+    "mod_version": "23.8.3",
     "files": [
         {
             "name": "si2157.ko",
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/apollolake-4.4.59/si2157_firmware.tag.gz",
-            "sha256": "fe23c29e827974e04eb95671d32b9627f1db695f6fc65ba78159f5241014fb42",
+            "sha256": "54d463384b5baa780132ee05a84f62a5089fb875c020583d8facc8a31b454bc5",
             "packed": false
         },
         {

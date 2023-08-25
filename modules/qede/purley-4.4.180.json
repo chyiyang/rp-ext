@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/purley-4.4.180/qed.ko",
+            "sha256": "82cd90c294b1dc357ce1d7edcfb38ff7f1b394e54ae998ce201db92681a91b4b",
+            "packed": false
+        },
+        {
+            "name": "qede.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/purley-4.4.180/qede.ko",
+            "sha256": "ec016ef3c1bf054298ac187cc043de2325a1b4dd401d9c733b180c0a87728b44",
+            "packed": false
+        },
+        {
+            "name": "check-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/purley-4.4.180/check-qede.sh",
+            "sha256": "0d0fa66fc132abf4d03663e766210563ad5ca5788a58c441147005913abefa6e",
+            "packed": false
+        },
+        {
+            "name": "qede_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/purley-4.4.180/qede_firmware.tag.gz",
+            "sha256": "e9893f817f1b73360be153df0b82746f3e62f9c6aa6fcec7e17499a325763038",
+            "packed": false
+        },
+        {
+            "name": "install-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/purley-4.4.180/install-qede.sh",
+            "sha256": "2b969742163e5c7f77518080191d5de799dd4ca1534d71b7312d47fc5408c015",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": "",
+        "qede.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qede.sh",
+        "on_os_load": "install-qede.sh"
+    }
+}

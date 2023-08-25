@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.302/qed.ko",
+            "sha256": "7af4c3c229f02e224cd9178cd0d9148585ec170e5fb9be1b49d75e0d1bebf9a6",
+            "packed": false
+        },
+        {
+            "name": "qede.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.302/qede.ko",
+            "sha256": "b83f142d9c62ada5151b98ebc4c37560a5ea7876bc9889c0e7ff1b028490f778",
+            "packed": false
+        },
+        {
+            "name": "check-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.302/check-qede.sh",
+            "sha256": "0d0fa66fc132abf4d03663e766210563ad5ca5788a58c441147005913abefa6e",
+            "packed": false
+        },
+        {
+            "name": "qede_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.302/qede_firmware.tag.gz",
+            "sha256": "c269f88739419ee25505c32566b6bee2b16482fcb2c9d53bd9e9e1d33a59770c",
+            "packed": false
+        },
+        {
+            "name": "install-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.302/install-qede.sh",
+            "sha256": "2b969742163e5c7f77518080191d5de799dd4ca1534d71b7312d47fc5408c015",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": "",
+        "qede.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qede.sh",
+        "on_os_load": "install-qede.sh"
+    }
+}

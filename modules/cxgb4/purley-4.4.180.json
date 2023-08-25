@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.2",
+    "mod_version": "23.8.3",
     "files": [
         {
             "name": "cxgb4.ko",
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/purley-4.4.180/cxgb4_firmware.tag.gz",
-            "sha256": "d83c6b914dec82d2808bd6439cd659b9f8c2ad92c87281a8e8ebcdefa8ee9840",
+            "sha256": "3111dcd3f7dea583828af847b3a9ea3c8c96896e8ebc712349905067364027c9",
             "packed": false
         },
         {

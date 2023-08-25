@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.2",
+    "mod_version": "23.8.3",
     "files": [
         {
             "name": "cxgb4.ko",
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/geminilake-4.4.302/cxgb4_firmware.tag.gz",
-            "sha256": "33f1a74f588e43852036329d568944c760ca7407e9f470a42191267393247789",
+            "sha256": "544fe925383abd7b818892633a6a2ec783695b7d86d05abd632ffe9e3addf2f5",
             "packed": false
         },
         {

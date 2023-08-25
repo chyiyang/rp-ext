@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qcaspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/apollolake-4.4.180/qcaspi.ko",
+            "sha256": "ab8def1973d0e5d10e1f411b27851148ae6f4ec6f3e61e6d8a607df2768ac74a",
+            "packed": false
+        },
+        {
+            "name": "check-qcaspi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/apollolake-4.4.180/check-qcaspi.sh",
+            "sha256": "ae078912654c4ec517dc55849a5e77d37894183e52ad4267381590936857fcc5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qcaspi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qcaspi.sh"
+    }
+}

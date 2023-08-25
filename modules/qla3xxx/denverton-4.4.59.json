@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qla3xxx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla3xxx/denverton-4.4.59/qla3xxx.ko",
+            "sha256": "d9572a92aaceac56df28d9271697cb7bb6280e59a9d2e34dc6d3c3a5db143fd7",
+            "packed": false
+        },
+        {
+            "name": "check-qla3xxx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla3xxx/denverton-4.4.59/check-qla3xxx.sh",
+            "sha256": "938f525b626b3384c85b5323c5994aeab49f02b9710f08ef4e31d7b9a6a5ff03",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qla3xxx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qla3xxx.sh"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qlcnic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/denverton-4.4.180/qlcnic.ko",
+            "sha256": "e088c9006c199a2fe5238a8f0e1818fc2f4bfde5498e7ef48c6bfa677ca9bbe5",
+            "packed": false
+        },
+        {
+            "name": "check-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/denverton-4.4.180/check-qlcnic.sh",
+            "sha256": "2120fef1be9764915ea5ac76a79c4eef8b5389e075ad9f1a7d087eb69147aff7",
+            "packed": false
+        },
+        {
+            "name": "qlcnic_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/denverton-4.4.180/qlcnic_firmware.tag.gz",
+            "sha256": "f789518a5c5dd657148913def285e113b6ebb5675323641fecb8125a83f6e015",
+            "packed": false
+        },
+        {
+            "name": "install-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/denverton-4.4.180/install-qlcnic.sh",
+            "sha256": "ffae6a534b601a07e7f68b1a39ceedf6ea902d4ad0b9098953ea954a71ee2107",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qlcnic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qlcnic.sh",
+        "on_os_load": "install-qlcnic.sh"
+    }
+}

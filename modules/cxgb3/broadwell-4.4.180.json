@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.2",
+    "mod_version": "23.8.3",
     "files": [
         {
             "name": "mdio.ko",
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-4.4.180/cxgb3_firmware.tag.gz",
-            "sha256": "999c5df54317a686f4823cfd8642815a8a78d1d6bc99a03e2b17ae9c1277c6db",
+            "sha256": "30f9e62b22e6e5ec5ed4e414874a37d66cfc358bfbd4cabd55a2af6bd01acde4",
             "packed": false
         },
         {

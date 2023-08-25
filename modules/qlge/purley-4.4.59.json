@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qlge.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlge/purley-4.4.59/qlge.ko",
+            "sha256": "01fe7c42086cde2246c0b50658ce18e0919b3ca97d343975d2513f4d594a02ca",
+            "packed": false
+        },
+        {
+            "name": "check-qlge.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlge/purley-4.4.59/check-qlge.sh",
+            "sha256": "1e856b7bb6e55c1b5ab21da8b99a4e1387a0ef4d65b75a162601fb9e854c639e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qlge.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qlge.sh"
+    }
+}

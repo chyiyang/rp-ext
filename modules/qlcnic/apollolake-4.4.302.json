@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qlcnic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.302/qlcnic.ko",
+            "sha256": "7b0abcb0a1b4a085ab9ee300eccf9dabbee9550f6bce5d0a020387c236e17dff",
+            "packed": false
+        },
+        {
+            "name": "check-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.302/check-qlcnic.sh",
+            "sha256": "2120fef1be9764915ea5ac76a79c4eef8b5389e075ad9f1a7d087eb69147aff7",
+            "packed": false
+        },
+        {
+            "name": "qlcnic_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.302/qlcnic_firmware.tag.gz",
+            "sha256": "ad1c70f5ae0269cc671b9cc904558500c1ebe6f314e467cf826f5b8ff99a0687",
+            "packed": false
+        },
+        {
+            "name": "install-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.302/install-qlcnic.sh",
+            "sha256": "ffae6a534b601a07e7f68b1a39ceedf6ea902d4ad0b9098953ea954a71ee2107",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qlcnic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qlcnic.sh",
+        "on_os_load": "install-qlcnic.sh"
+    }
+}

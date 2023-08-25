@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qlcnic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.59/qlcnic.ko",
+            "sha256": "5326c8491f9f89e7a2d17faaa3073c9071b5ec39303c070bf4376fedcedbbc50",
+            "packed": false
+        },
+        {
+            "name": "check-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.59/check-qlcnic.sh",
+            "sha256": "2120fef1be9764915ea5ac76a79c4eef8b5389e075ad9f1a7d087eb69147aff7",
+            "packed": false
+        },
+        {
+            "name": "qlcnic_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.59/qlcnic_firmware.tag.gz",
+            "sha256": "fe35cdd4d8643d6f0b5702910ff711009da04b871e334d3adb64b36dbd16fcc6",
+            "packed": false
+        },
+        {
+            "name": "install-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.59/install-qlcnic.sh",
+            "sha256": "ffae6a534b601a07e7f68b1a39ceedf6ea902d4ad0b9098953ea954a71ee2107",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qlcnic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qlcnic.sh",
+        "on_os_load": "install-qlcnic.sh"
+    }
+}

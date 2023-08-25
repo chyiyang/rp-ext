@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "netxen_nic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/geminilake-4.4.59/netxen_nic.ko",
+            "sha256": "5d44e01e3dbdd4cb4f2fb00e8a576086c98bcdea16fcc6ce538d74808cbeead0",
+            "packed": false
+        },
+        {
+            "name": "check-netxen_nic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/geminilake-4.4.59/check-netxen_nic.sh",
+            "sha256": "d05e5e99678d834c5755954f1a46b528e9152542a08c157abb442b53eb5e4947",
+            "packed": false
+        },
+        {
+            "name": "netxen_nic_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/geminilake-4.4.59/netxen_nic_firmware.tag.gz",
+            "sha256": "4ecc865cfd4bbca76eb05801ea477400e1a2a5e1e0991bbb47a7d2b3a3811ec7",
+            "packed": false
+        },
+        {
+            "name": "install-netxen_nic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/geminilake-4.4.59/install-netxen_nic.sh",
+            "sha256": "ffa3451f2c3aa9915f317cd257710eed94b89ec90aee8596319d7c43175a03ce",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "netxen_nic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-netxen_nic.sh",
+        "on_os_load": "install-netxen_nic.sh"
+    }
+}

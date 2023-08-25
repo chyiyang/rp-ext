@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qcaspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/v1000-4.4.180/qcaspi.ko",
+            "sha256": "b8e475d81d04dd520d76e47d71c03fc95da8d6f9de85b2c2c02878b3e5f9edc5",
+            "packed": false
+        },
+        {
+            "name": "check-qcaspi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/v1000-4.4.180/check-qcaspi.sh",
+            "sha256": "ae078912654c4ec517dc55849a5e77d37894183e52ad4267381590936857fcc5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qcaspi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qcaspi.sh"
+    }
+}

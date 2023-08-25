@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "netxen_nic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/apollolake-4.4.180/netxen_nic.ko",
+            "sha256": "7f103fb0ae349a7ee5507b444201e4cb220383f06ad712df030494850b6b6926",
+            "packed": false
+        },
+        {
+            "name": "check-netxen_nic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/apollolake-4.4.180/check-netxen_nic.sh",
+            "sha256": "d05e5e99678d834c5755954f1a46b528e9152542a08c157abb442b53eb5e4947",
+            "packed": false
+        },
+        {
+            "name": "netxen_nic_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/apollolake-4.4.180/netxen_nic_firmware.tag.gz",
+            "sha256": "0db441abd35011bc3f7237b66cf8dbbdd03fd0b6784a66719821e12a1646f1b3",
+            "packed": false
+        },
+        {
+            "name": "install-netxen_nic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/apollolake-4.4.180/install-netxen_nic.sh",
+            "sha256": "ffa3451f2c3aa9915f317cd257710eed94b89ec90aee8596319d7c43175a03ce",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "netxen_nic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-netxen_nic.sh",
+        "on_os_load": "install-netxen_nic.sh"
+    }
+}

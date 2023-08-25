@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.2",
+    "mod_version": "23.8.3",
     "files": [
         {
             "name": "mii.ko",
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/denverton-4.4.302/r8169_firmware.tag.gz",
-            "sha256": "092b126b6ef543e037de756d0a3799f9c5ead4c781cd95038f84408462fff289",
+            "sha256": "9bed379f6a8087c3cd188816fb51c7fcc05e9e77018875d33661bb05c7d29505",
             "packed": false
         },
         {

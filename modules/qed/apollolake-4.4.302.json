@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/apollolake-4.4.302/qed.ko",
+            "sha256": "afd00b73ec38148e9080fa9e08433bfc51fb4a6865dd02a9da9b3b665fe5cda5",
+            "packed": false
+        },
+        {
+            "name": "check-qed.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/apollolake-4.4.302/check-qed.sh",
+            "sha256": "76a41600e1c27bc3ce5ef186654197e852b9c8c03c9821852dbb541baee42b6c",
+            "packed": false
+        },
+        {
+            "name": "qed_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/apollolake-4.4.302/qed_firmware.tag.gz",
+            "sha256": "c098d79ed9d48840a0ff14f935dc648cc24ba8d286068a22496806890bf85713",
+            "packed": false
+        },
+        {
+            "name": "install-qed.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/apollolake-4.4.302/install-qed.sh",
+            "sha256": "225b82b6cf04652fd01b61271077e80fcaceb79839af24ce422c7bf15e2040d0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qed.sh",
+        "on_os_load": "install-qed.sh"
+    }
+}

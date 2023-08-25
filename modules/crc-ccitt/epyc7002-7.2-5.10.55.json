@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "crc-ccitt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/epyc7002-7.2-5.10.55/crc-ccitt.ko",
+            "sha256": "cd04c2110be9f2ca49131a1394af25ac936abb6cc89e109b31ca509baf8da0b8",
+            "packed": false
+        },
+        {
+            "name": "check-crc-ccitt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc-ccitt/epyc7002-7.2-5.10.55/check-crc-ccitt.sh",
+            "sha256": "65c8a32d9ae6eb2dda052216bb52846e607ea608dab0489555b250d018ffb127",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-ccitt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc-ccitt.sh"
+    }
+}

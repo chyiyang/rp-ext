@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qla3xxx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla3xxx/r1000-4.4.180/qla3xxx.ko",
+            "sha256": "c68bb7d450d1065a1a05329aab22415acef82c7d8cebd40ac2a7cc04d576c2c6",
+            "packed": false
+        },
+        {
+            "name": "check-qla3xxx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla3xxx/r1000-4.4.180/check-qla3xxx.sh",
+            "sha256": "938f525b626b3384c85b5323c5994aeab49f02b9710f08ef4e31d7b9a6a5ff03",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qla3xxx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qla3xxx.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qcaspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/denverton-4.4.59/qcaspi.ko",
+            "sha256": "07079a771b5eec74bccc2a2edea9fde11b0c12b1b2a98cf45015f93924fbdb66",
+            "packed": false
+        },
+        {
+            "name": "check-qcaspi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/denverton-4.4.59/check-qcaspi.sh",
+            "sha256": "ae078912654c4ec517dc55849a5e77d37894183e52ad4267381590936857fcc5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qcaspi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qcaspi.sh"
+    }
+}

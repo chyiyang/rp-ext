@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qcaspi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/broadwell-4.4.302/qcaspi.ko",
+            "sha256": "44f10c357e5ea31bfd526e4e77d0159ced8b280429b5c3875b15c43797354ae5",
+            "packed": false
+        },
+        {
+            "name": "check-qcaspi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qcaspi/broadwell-4.4.302/check-qcaspi.sh",
+            "sha256": "ae078912654c4ec517dc55849a5e77d37894183e52ad4267381590936857fcc5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qcaspi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qcaspi.sh"
+    }
+}

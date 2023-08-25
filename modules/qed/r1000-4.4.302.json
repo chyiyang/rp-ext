@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/r1000-4.4.302/qed.ko",
+            "sha256": "d910a22f138db6070fb598f2e166afa5421c04fa9332403611e1180aa0fd3f80",
+            "packed": false
+        },
+        {
+            "name": "check-qed.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/r1000-4.4.302/check-qed.sh",
+            "sha256": "76a41600e1c27bc3ce5ef186654197e852b9c8c03c9821852dbb541baee42b6c",
+            "packed": false
+        },
+        {
+            "name": "qed_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/r1000-4.4.302/qed_firmware.tag.gz",
+            "sha256": "d56e81978d38690386866c9717bc31f3087bc65578db0c0b368307fe6965b7d3",
+            "packed": false
+        },
+        {
+            "name": "install-qed.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/r1000-4.4.302/install-qed.sh",
+            "sha256": "225b82b6cf04652fd01b61271077e80fcaceb79839af24ce422c7bf15e2040d0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qed.sh",
+        "on_os_load": "install-qed.sh"
+    }
+}

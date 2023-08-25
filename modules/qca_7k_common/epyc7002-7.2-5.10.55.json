@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qca_7k_common.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qca_7k_common/epyc7002-7.2-5.10.55/qca_7k_common.ko",
+            "sha256": "f40c8313948025c24713b63c4aee46f8483a59ec25d52a97a4a4ec6e224c1bee",
+            "packed": false
+        },
+        {
+            "name": "check-qca_7k_common.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qca_7k_common/epyc7002-7.2-5.10.55/check-qca_7k_common.sh",
+            "sha256": "46c9dcabeb8e96002274b507f9d8583f7e7d6d138aee2e995a5fe249e30e6df4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qca_7k_common.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qca_7k_common.sh"
+    }
+}

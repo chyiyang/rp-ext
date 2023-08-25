@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "netxen_nic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellnk-4.4.302/netxen_nic.ko",
+            "sha256": "b613c394c960d614835999ae24fc95823dec60b9cf5f83cb7e463cd412e37366",
+            "packed": false
+        },
+        {
+            "name": "check-netxen_nic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellnk-4.4.302/check-netxen_nic.sh",
+            "sha256": "d05e5e99678d834c5755954f1a46b528e9152542a08c157abb442b53eb5e4947",
+            "packed": false
+        },
+        {
+            "name": "netxen_nic_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellnk-4.4.302/netxen_nic_firmware.tag.gz",
+            "sha256": "84a8799a88ea2d8eb354e78e1fb898d0c83676407b5bd1036f9bada885856946",
+            "packed": false
+        },
+        {
+            "name": "install-netxen_nic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellnk-4.4.302/install-netxen_nic.sh",
+            "sha256": "ffa3451f2c3aa9915f317cd257710eed94b89ec90aee8596319d7c43175a03ce",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "netxen_nic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-netxen_nic.sh",
+        "on_os_load": "install-netxen_nic.sh"
+    }
+}

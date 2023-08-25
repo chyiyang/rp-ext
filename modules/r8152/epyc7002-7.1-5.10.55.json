@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.2",
+    "mod_version": "23.8.3",
     "files": [
         {
             "name": "mii.ko",
@@ -22,7 +22,7 @@
         {
             "name": "r8152_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.1-5.10.55/r8152_firmware.tag.gz",
-            "sha256": "64b2b59510abb43b87217935222149dff4b50430e9edffdfdaba32db187bc415",
+            "sha256": "9475e3f84327048a4216aaa40d56795acded652ba84855ffd011c7a12f411b07",
             "packed": false
         },
         {

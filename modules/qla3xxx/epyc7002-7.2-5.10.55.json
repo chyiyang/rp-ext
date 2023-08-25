@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qla3xxx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla3xxx/epyc7002-7.2-5.10.55/qla3xxx.ko",
+            "sha256": "6959b2b034f5088c8aa3b607c38af5f2ad0e8232c91b706e55d5753e6ab45fc3",
+            "packed": false
+        },
+        {
+            "name": "check-qla3xxx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla3xxx/epyc7002-7.2-5.10.55/check-qla3xxx.sh",
+            "sha256": "938f525b626b3384c85b5323c5994aeab49f02b9710f08ef4e31d7b9a6a5ff03",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qla3xxx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qla3xxx.sh"
+    }
+}

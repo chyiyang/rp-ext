@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.2",
+    "mod_version": "23.8.3",
     "files": [
         {
             "name": "cxgb4.ko",
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/apollolake-4.4.302/cxgb4_firmware.tag.gz",
-            "sha256": "f1c0c09ef82a7447e7425491713db9ebadcc446b0180fbcaaa54a2b628c0102b",
+            "sha256": "3e978c6d92b4200602b1bab32970d4f29e03727890663f318d8ba3761843c0d1",
             "packed": false
         },
         {

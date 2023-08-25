@@ -1,0 +1,37 @@
+{
+    "id": "ing.netxen_nic",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/rpext-index.json",
+    "info": {
+        "name": "netxen_nic",
+        "description": "QLogic/NetXen (1/10) GbE Intelligent Ethernet Driver",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/apollolake-4.4.180.json",
+        "apollolake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/apollolake-4.4.302.json",
+        "apollolake-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/apollolake-4.4.59.json",
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwell-4.4.180.json",
+        "broadwell-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwell-4.4.302.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellnk-4.4.180.json",
+        "broadwellnk-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellnk-4.4.302.json",
+        "broadwellnk-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellnk-4.4.59.json",
+        "denverton-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/denverton-4.4.180.json",
+        "denverton-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/denverton-4.4.302.json",
+        "denverton-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/denverton-4.4.59.json",
+        "epyc7002-7.1-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/epyc7002-7.1-5.10.55.json",
+        "epyc7002-7.2-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/epyc7002-7.2-5.10.55.json",
+        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/geminilake-4.4.180.json",
+        "geminilake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/geminilake-4.4.302.json",
+        "geminilake-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/geminilake-4.4.59.json",
+        "purley-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/purley-4.4.180.json",
+        "purley-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/purley-4.4.302.json",
+        "purley-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/purley-4.4.59.json",
+        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/r1000-4.4.180.json",
+        "r1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/r1000-4.4.302.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/v1000-4.4.180.json",
+        "v1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/v1000-4.4.302.json",
+        "v1000-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/v1000-4.4.59.json"
+    }
+}

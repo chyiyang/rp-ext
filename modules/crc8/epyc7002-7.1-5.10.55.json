@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "crc8.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc8/epyc7002-7.1-5.10.55/crc8.ko",
+            "sha256": "fd35d8553b8a7de08610124ea0b039df8f0eb1cac57e8cc9d58ebbdd5b5fb141",
+            "packed": false
+        },
+        {
+            "name": "check-crc8.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/crc8/epyc7002-7.1-5.10.55/check-crc8.sh",
+            "sha256": "9e732efcb865613b7dd15699c5cd2feb6d04457d4e5f4fa24773cbdd59cf01d4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc8.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-crc8.sh"
+    }
+}

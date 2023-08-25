@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/epyc7002-7.2-5.10.55/qed.ko",
+            "sha256": "d13b2edab7c50520bfbfcea85ce37fd7d9fe7139b8f52c06bee9ef84f9abd16e",
+            "packed": false
+        },
+        {
+            "name": "check-qed.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/epyc7002-7.2-5.10.55/check-qed.sh",
+            "sha256": "76a41600e1c27bc3ce5ef186654197e852b9c8c03c9821852dbb541baee42b6c",
+            "packed": false
+        },
+        {
+            "name": "qed_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/epyc7002-7.2-5.10.55/qed_firmware.tag.gz",
+            "sha256": "c58bef9d1629ed92fe473c2ca32b12481c15ae3d45db054bd96b20e53a4ed506",
+            "packed": false
+        },
+        {
+            "name": "install-qed.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/epyc7002-7.2-5.10.55/install-qed.sh",
+            "sha256": "225b82b6cf04652fd01b61271077e80fcaceb79839af24ce422c7bf15e2040d0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qed.sh",
+        "on_os_load": "install-qed.sh"
+    }
+}

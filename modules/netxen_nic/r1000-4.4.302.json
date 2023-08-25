@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "netxen_nic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/r1000-4.4.302/netxen_nic.ko",
+            "sha256": "6593353a3768c9e4cbfb43f22a6596d19d27d3eb7951cda57ed58c5ea53d8708",
+            "packed": false
+        },
+        {
+            "name": "check-netxen_nic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/r1000-4.4.302/check-netxen_nic.sh",
+            "sha256": "d05e5e99678d834c5755954f1a46b528e9152542a08c157abb442b53eb5e4947",
+            "packed": false
+        },
+        {
+            "name": "netxen_nic_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/r1000-4.4.302/netxen_nic_firmware.tag.gz",
+            "sha256": "0f85317e7b1dacb0e688d03f325ef814169224dc469d244088e505e50894c344",
+            "packed": false
+        },
+        {
+            "name": "install-netxen_nic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/r1000-4.4.302/install-netxen_nic.sh",
+            "sha256": "ffa3451f2c3aa9915f317cd257710eed94b89ec90aee8596319d7c43175a03ce",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "netxen_nic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-netxen_nic.sh",
+        "on_os_load": "install-netxen_nic.sh"
+    }
+}

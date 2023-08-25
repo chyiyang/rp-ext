@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/broadwellnk-4.4.59/qed.ko",
+            "sha256": "ea1fdb9a2b35c36466dbad6071ae314ec35f4f2fe09159b17f50e6d4dfdf939c",
+            "packed": false
+        },
+        {
+            "name": "check-qed.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/broadwellnk-4.4.59/check-qed.sh",
+            "sha256": "76a41600e1c27bc3ce5ef186654197e852b9c8c03c9821852dbb541baee42b6c",
+            "packed": false
+        },
+        {
+            "name": "qed_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/broadwellnk-4.4.59/qed_firmware.tag.gz",
+            "sha256": "54205ef7af0184f0e58f36cb10470a109226ffa91600f00051b8f95641e8201e",
+            "packed": false
+        },
+        {
+            "name": "install-qed.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/broadwellnk-4.4.59/install-qed.sh",
+            "sha256": "225b82b6cf04652fd01b61271077e80fcaceb79839af24ce422c7bf15e2040d0",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qed.sh",
+        "on_os_load": "install-qed.sh"
+    }
+}

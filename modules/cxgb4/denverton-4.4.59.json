@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.2",
+    "mod_version": "23.8.3",
     "files": [
         {
             "name": "cxgb4.ko",
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/denverton-4.4.59/cxgb4_firmware.tag.gz",
-            "sha256": "65212eeb7e787d64852cb8e706424e3a0c6b2d4761d75009275fd16dddc86741",
+            "sha256": "cd43224b4361a165f28a508c17d090b00167ee38fdeaa1a603cf775015c5804f",
             "packed": false
         },
         {

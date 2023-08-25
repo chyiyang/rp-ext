@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qla3xxx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla3xxx/apollolake-4.4.302/qla3xxx.ko",
+            "sha256": "6cc66de226ed336c17a78dad2aa09d6b25bda5b92be6cda56cd9c4899801680a",
+            "packed": false
+        },
+        {
+            "name": "check-qla3xxx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qla3xxx/apollolake-4.4.302/check-qla3xxx.sh",
+            "sha256": "938f525b626b3384c85b5323c5994aeab49f02b9710f08ef4e31d7b9a6a5ff03",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qla3xxx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qla3xxx.sh"
+    }
+}

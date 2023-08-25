@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.8.3",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/qed.ko",
+            "sha256": "f77d56a05ddec1ae8c02e93b141642bf27205e15d61435553f3c1cccfc17fcda",
+            "packed": false
+        },
+        {
+            "name": "qede.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/qede.ko",
+            "sha256": "d533d80664605f7d21d9fa95eef770c9339066e9029315a72b730d726c771c23",
+            "packed": false
+        },
+        {
+            "name": "check-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/check-qede.sh",
+            "sha256": "0d0fa66fc132abf4d03663e766210563ad5ca5788a58c441147005913abefa6e",
+            "packed": false
+        },
+        {
+            "name": "qede_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/qede_firmware.tag.gz",
+            "sha256": "256b2e34fac8667ceebc5b19edcadc66dc44bc942b5e9d890dc70eeb22f28e29",
+            "packed": false
+        },
+        {
+            "name": "install-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/install-qede.sh",
+            "sha256": "2b969742163e5c7f77518080191d5de799dd4ca1534d71b7312d47fc5408c015",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": "",
+        "qede.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qede.sh",
+        "on_os_load": "install-qede.sh"
+    }
+}
