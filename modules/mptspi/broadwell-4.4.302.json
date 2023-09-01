@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.5",
+    "mod_version": "23.9.0",
     "files": [
         {
             "name": "mptscsih.ko",
@@ -16,7 +16,7 @@
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/broadwell-4.4.302/scsi_transport_spi.ko",
-            "sha256": "fd40f49fe2867119a282f0804aa7159ec66b45388d96c64388521166708b9fe2",
+            "sha256": "ef2e4493c7bf536798c39a3182fa4c2f6a13bc2562ffb55cbe06d37d98c8ba41",
             "packed": false
         },
         {

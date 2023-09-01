@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.5",
+    "mod_version": "23.9.0",
     "files": [
         {
             "name": "mptscsih.ko",
@@ -16,7 +16,7 @@
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.302/scsi_transport_spi.ko",
-            "sha256": "9b032616d305a24fc7b8a8811212a622367b39226fafc61c88bf63d8445f0496",
+            "sha256": "dec8979feca660aff8f915a714994fac07d629d11c93605ed4a70cab3ff42018",
             "packed": false
         },
         {

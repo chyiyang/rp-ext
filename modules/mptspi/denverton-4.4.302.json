@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.5",
+    "mod_version": "23.9.0",
     "files": [
         {
             "name": "mptscsih.ko",
@@ -16,7 +16,7 @@
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/denverton-4.4.302/scsi_transport_spi.ko",
-            "sha256": "14f70c13009dea2a5ddfedf8d30ee0608b67ed8a34380288dd76599218a7d360",
+            "sha256": "89e75b4102d17cb012fb8ee8999fa8717928992ed2eb558444dce7086efea091",
             "packed": false
         },
         {

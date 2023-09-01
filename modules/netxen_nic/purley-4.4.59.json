@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.5",
+    "mod_version": "23.9.0",
     "files": [
         {
             "name": "netxen_nic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/purley-4.4.59/netxen_nic_firmware.tag.gz",
-            "sha256": "49771d1913493265df480241e7f85faf3d50e66d70d43fe53f657fe48a9ef68c",
+            "sha256": "4bccb39cfb61823346ded2279f76f82941f5f09c88c06cb0b883041c20dff382",
             "packed": false
         },
         {

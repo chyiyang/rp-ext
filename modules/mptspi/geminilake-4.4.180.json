@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.5",
+    "mod_version": "23.9.0",
     "files": [
         {
             "name": "mptscsih.ko",
@@ -16,7 +16,7 @@
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/scsi_transport_spi.ko",
-            "sha256": "1c3a471bdecb87d2315950f3874c7e6db5ade84556f723ab4dce9310059aba43",
+            "sha256": "de6ec4d0397ecb8b1f5a24797f1cd151326dc83d5270380137ab62242d2127af",
             "packed": false
         },
         {

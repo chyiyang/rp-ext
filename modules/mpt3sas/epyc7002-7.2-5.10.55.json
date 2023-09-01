@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.5",
+    "mod_version": "23.9.0",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
@@ -10,7 +10,7 @@
         {
             "name": "mpt3sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.2-5.10.55/mpt3sas.ko",
-            "sha256": "b41ac4c33aec3ee7072c0136b1584e2a60b56e2348b3e375c56b138aaef2c875",
+            "sha256": "0871c3aa90cf7d927efadda69a4c4d471948df53962fdea9343cdca18026250c",
             "packed": false
         },
         {

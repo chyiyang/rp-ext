@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.5",
+    "mod_version": "23.9.0",
     "files": [
         {
             "name": "mptscsih.ko",
@@ -16,7 +16,7 @@
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/apollolake-4.4.180/scsi_transport_spi.ko",
-            "sha256": "d1bb5b688c1d20607629e132f195997c02f21916dd9dc8bc7217f2d4e3ae9c8e",
+            "sha256": "1ae2b47ef74b7e480e33542e2d033856bfc338430fcc74ca16448e08e3475d9c",
             "packed": false
         },
         {

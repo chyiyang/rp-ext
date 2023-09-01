@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.5",
+    "mod_version": "23.9.0",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
@@ -10,7 +10,7 @@
         {
             "name": "libsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/geminilake-4.4.180/libsas.ko",
-            "sha256": "1242f20ec2216ca88455a177144ef78260a1a9a609c19ce67c74cca2ff806b31",
+            "sha256": "f74ce3955c941b3d3a6985de4e927863caced8cb8f1548d7d2d821da4771afaa",
             "packed": false
         },
         {

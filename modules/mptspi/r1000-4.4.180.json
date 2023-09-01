@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.8.5",
+    "mod_version": "23.9.0",
     "files": [
         {
             "name": "mptscsih.ko",
@@ -16,7 +16,7 @@
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.180/scsi_transport_spi.ko",
-            "sha256": "d28acaaa3e3baeef55b4130d4a459c6026dfa10d0c30aa012aaf77a66fddb398",
+            "sha256": "8e4b3f6bc337ccc10cd6718c1fa90f44632d0db06541a08c5403118dbe769944",
             "packed": false
         },
         {
