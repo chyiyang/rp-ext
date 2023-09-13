@@ -27,7 +27,7 @@ jobs:
 
       - name: Checkout lkms
         run: |
-          TAG=`curl -skL "https://api.github.com/repos/wjz304/redpill-lkm/releases/latest" | grep "tag_name" | awk '{print substr($2, 2, length($2)-3)}'`
+          TAG=`curl -skL "https://api.github.com/repos/wjz304/redpill-lkm/releases" | jq -r ".[0].tag_name" 2>/dev/null`
           [ -z "${TAG}" ] && echo "get tag error" || echo "TAG: ${TAG}"
 
           curl -#kL "https://github.com/wjz304/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o "/tmp/rp-lkms.zip"
