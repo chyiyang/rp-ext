@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/bromolow-3.10.108/fb.ko",
-            "sha256": "69f78a4c96b481a03ffbfca0b447b7820c7dc30fbbb81d300ed647e8bb8a4be6",
+            "sha256": "727f1c30dde4282bf7139f02befed6ec30c61bd5bff9b85c47a00999a35554fb",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/bromolow-3.10.108/softcursor.ko",
-            "sha256": "1f375da084ecb72067f58c48d6dec258f0faf27e4a546c4d0dddc0dca69d8137",
+            "sha256": "3c290fe0a8983b8096912b43ca404541c1ea00a975f63f1070886bd0cbb6aa92",
             "packed": false
         },
         {

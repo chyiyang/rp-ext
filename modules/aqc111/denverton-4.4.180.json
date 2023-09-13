@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/denverton-4.4.180/usbnet.ko",
-            "sha256": "e79fc247300ff707141d3349fb046da74b16d93263a79cac1714f08b7d9b2338",
+            "sha256": "53033d09760e472f290ab5bef8f6fb4ccac8b52b6856a0a8a24dcc5dc0628f36",
             "packed": false
         },
         {
             "name": "aqc111.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/denverton-4.4.180/aqc111.ko",
-            "sha256": "f110423dc5c8ea020ce38a7de30e7ff55de1e8b9c2ae8bc05b57bf7d935b22f8",
+            "sha256": "9b66ec88e2bc5b87520e249642478ee8e7b1d918ae0ab5c99754c8b7d55ddbc6",
             "packed": false
         },
         {

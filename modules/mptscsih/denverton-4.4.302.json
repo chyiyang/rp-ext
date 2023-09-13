@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/denverton-4.4.302/mptbase.ko",
-            "sha256": "f91fb8d2eaeba6bb119ac7373b96ea706c8ed75c463ec552541d255d23785bb8",
+            "sha256": "991a5130e0b23a1566f6896122b64f631d3be437f47db2cb02e4924c1a65787a",
             "packed": false
         },
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/denverton-4.4.302/mptscsih.ko",
-            "sha256": "50856783f7fc17f1b5d91051ed1e4f129765d5de434020aa6d25b742e919667f",
+            "sha256": "8da75f869c5d0fb121c142b6c2d90d69ec3ba71d287c89fad2a458be4e41e11a",
             "packed": false
         },
         {

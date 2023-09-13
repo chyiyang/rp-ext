@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/r1000-4.4.180/mmc_core.ko",
-            "sha256": "41822d1b2fbf15c56cb61ee978c66e970864b0e1ded818e104b6ffddb428c499",
+            "sha256": "ca8328a5818dfe540f914d3af005c1f51b364d8aadb7251057359c8f9d9e5925",
             "packed": false
         },
         {
             "name": "mtk-sd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/r1000-4.4.180/mtk-sd.ko",
-            "sha256": "36b7f79e0f9d4c2e55f065d62d583abd131ee707806ec9113fdd41ac76de512c",
+            "sha256": "e233d3718a221f72e799cf18d4826b576b43d1116ca4648e6522ba0f3e7433ab",
             "packed": false
         },
         {

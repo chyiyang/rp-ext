@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/bromolow-3.10.105/megaraid_mm.ko",
-            "sha256": "5bbc6bbc03fc54629e4a7f88005def6883b5d8d82dbe755006143d42ab858c02",
+            "sha256": "57a1ffbb5969cb90cf423d6967b0abbb9c1ffebd3529a28f3510ff704efc1c45",
             "packed": false
         },
         {
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/bromolow-3.10.105/megaraid_mbox.ko",
-            "sha256": "d9216302c0da966f7532a3d618844c3524ca1c192f861c42142685bfab82ea60",
+            "sha256": "17a42f3552ff8a94762db489721989234221de32177cc0c2f0f0a26f4ea0580f",
             "packed": false
         },
         {

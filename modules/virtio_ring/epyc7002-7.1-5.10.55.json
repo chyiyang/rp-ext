@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/epyc7002-7.1-5.10.55/virtio_ring.ko",
-            "sha256": "daa55a798e004cc6d48c5c5177828787399459e5d2206ff19f3e2a36b74b3953",
+            "sha256": "167c466798bb43401c29139a2d5ef135a8d5f6ef9a03d1e5c2197b0381237133",
             "packed": false
         },
         {

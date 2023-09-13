@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "libiscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi/geminilake-4.4.302/libiscsi.ko",
+            "sha256": "b3f56e79cda670f2bac66d5437167e71fc217b855a19e18e774d685194d1e90f",
+            "packed": false
+        },
+        {
+            "name": "check-libiscsi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi/geminilake-4.4.302/check-libiscsi.sh",
+            "sha256": "61e60c6f4f150431721460f091129294ac8fd6e035d094b18f2a343c84c1d921",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libiscsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libiscsi.sh"
+    }
+}

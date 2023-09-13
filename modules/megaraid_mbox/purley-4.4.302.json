@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/purley-4.4.302/megaraid_mm.ko",
-            "sha256": "0319f82cba194cdfd4f1fd40e85b944a08abf3bd72bb9e190f71b6c19cb49b45",
+            "sha256": "2bde2f71c9421168f239cef4d5532dc12136bfd4fd056950c13f5ad8d155b99e",
             "packed": false
         },
         {
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/purley-4.4.302/megaraid_mbox.ko",
-            "sha256": "a5391dea68b41d8a7b62dbea3561708951d657ec90dd7142b6fa83140f3fa0ea",
+            "sha256": "8627d59d74380c228bd6d0bd03805a72b6bb274739a8de336b0f3119be305c3b",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/broadwellnk-4.4.59/fb.ko",
-            "sha256": "2cb9c42a0d9cff39838b3d86806aa6f2b55ee53a18807c3659c574020e1ca184",
+            "sha256": "25cb154fe458d0dd513175b0ffe6452ff190475e3e44ce962609eadb59351546",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/broadwellnk-4.4.59/softcursor.ko",
-            "sha256": "862c9ff0bb3cae1cafd801cf48a66395364d0b7a6cd7ab1db1f41d356fcaf7da",
+            "sha256": "b820cdaeb7ce7cd531cb8999332ef9e14480a20a325206501edfddd2b533164b",
             "packed": false
         },
         {

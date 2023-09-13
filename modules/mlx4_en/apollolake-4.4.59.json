@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/apollolake-4.4.59/mlx4_core.ko",
-            "sha256": "72bf621c1237f479604be45ed10f4592d777c7c04aa1b502d19c6e5f437458d7",
+            "sha256": "3e8edd20398704129d7a6d39df7187fdc431c680ec26a69ccfae92a2715d5b48",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/apollolake-4.4.59/mlx4_en.ko",
-            "sha256": "0e7b6c7722dd48711cc5a4786c40be81555a5f6caf319e697d132874592e4a90",
+            "sha256": "5e1dad281a1b54db58003cb81cb1915107365f55e42dc304a08a80f4963372e9",
             "packed": false
         },
         {

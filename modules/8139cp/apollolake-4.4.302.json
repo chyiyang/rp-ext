@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/apollolake-4.4.302/mii.ko",
-            "sha256": "858d78fce1625ba3a8f2cae50117a7bbc042ce86e8eb0b109209d6a3fb1807cf",
+            "sha256": "c8265da77d283a065cebabeddd280fcf69c4efb8e33dee03c6187c0bce21fda5",
             "packed": false
         },
         {
             "name": "8139cp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/apollolake-4.4.302/8139cp.ko",
-            "sha256": "71e912eff87e119ad5538bddbb907fc8259f1c9b3f269b953d1524655607a043",
+            "sha256": "c8e86f29185366e0246a3822902ae5b4ebbe45a65e678472712a17fda01ca932",
             "packed": false
         },
         {

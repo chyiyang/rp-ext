@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "sg.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sg/r1000-4.4.180/sg.ko",
+            "sha256": "667b352cf3117e950a3ba73aac02709abd3ae4f0d77c5ea8fed01753b1b06c32",
+            "packed": false
+        },
+        {
+            "name": "check-sg.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sg/r1000-4.4.180/check-sg.sh",
+            "sha256": "697e19f165746006a256d0faf58c9a6c545b80e094e8eaf0e238e868ea9d8075",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sg.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sg.sh"
+    }
+}

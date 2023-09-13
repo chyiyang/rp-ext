@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.180/mlx4_core.ko",
-            "sha256": "119e7331423d225d6ea3d347df99913af49630445b672c0e98f188acc396ad1b",
+            "sha256": "30bf5e35c284ceecdfc06d0a74aa3a1ccd309370f8e4cc4625cd7437af41f8df",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.180/mlx4_en.ko",
-            "sha256": "cb8f77258d249148dda764ea2dacc8b5258a6f55c2bb0ee71e2847c0fda86ee4",
+            "sha256": "f8a13088493cccb9c060f1d6d2cd074230de47ef28251950523dece686d031a1",
             "packed": false
         },
         {

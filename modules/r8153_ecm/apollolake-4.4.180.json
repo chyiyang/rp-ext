@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/apollolake-4.4.180/usbnet.ko",
-            "sha256": "d40ff8fd7a40f20cb42524bc335e4d8c245fee743ec18d911ed15775fec9c8e3",
+            "sha256": "bbae9316a80767df6ef9965fb69a36a302f6c4fcf5bd8aedebdeefe60d61bb97",
             "packed": false
         },
         {
             "name": "r8153_ecm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/apollolake-4.4.180/r8153_ecm.ko",
-            "sha256": "ba9ba4444dafcc172ca182c7b613d1d6a6cd42b22c6fe3e39383fa2dc1994294",
+            "sha256": "1d12214dc9ebb4e76bea70899d6e1c43a6adab6c62a3f1bbf3caa69a808bb396",
             "packed": false
         },
         {

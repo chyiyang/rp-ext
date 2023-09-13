@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/geminilake-4.4.180/usbnet.ko",
-            "sha256": "1fc9b0af7b21fc6cd7a3834f5c5b79e21c9e4ee9407dc7feeaa403efa536d7f1",
+            "sha256": "a19d8dcf5b0daeff18719a5c0779e287f9a8c7f9b0addfce4bc6735eb6edf176",
             "packed": false
         },
         {
             "name": "aqc111.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/geminilake-4.4.180/aqc111.ko",
-            "sha256": "b47ba7c1aa8f08627373e1971398653d854d7cc220a0a81779ff65937d33eec5",
+            "sha256": "4ea8c50a88adaf82fdce2277c48cb7e005dfbab2868505363451527d37db1e1d",
             "packed": false
         },
         {

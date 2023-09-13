@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/apollolake-4.4.59/mii.ko",
-            "sha256": "bf1df05c09db526856269896737ea88549da603a3fa0e884282f629538cab33c",
+            "sha256": "b2df35d4943e2791672dc4259a6c737eb446d70e5ffc67899a815af86346a7fd",
             "packed": false
         },
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/apollolake-4.4.59/libphy.ko",
-            "sha256": "e3fa510b1e54d7dbc4aa73461388a56c55829fe51f3e0da298f64de212376b0c",
+            "sha256": "2edcbd34ad1b2a51155df0be063827be7eb180c373139486a977019b829b5c67",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/apollolake-4.4.59/usbnet.ko",
-            "sha256": "ef533b9929a8d7b0229eff8c22eac370a63a45445f87e7147f24217bd41704cd",
+            "sha256": "72b0a8b050302d86e1eae474a47d29bc799732f697a1828a25a0a50e8494775c",
             "packed": false
         },
         {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/apollolake-4.4.59/asix.ko",
-            "sha256": "525aa38335b0e56ee949e22e71d97c34ec278b77be8f79f019ea2ebc7d3c0505",
+            "sha256": "210202f447c36c3654917b854ae131bd4196bb174f8e1056bf460b1e03c9901b",
             "packed": false
         },
         {

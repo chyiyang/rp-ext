@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "thermal_sys.ko",
@@ -10,7 +10,7 @@
         {
             "name": "thermal.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/braswell-3.10.105/thermal.ko",
-            "sha256": "d5ba8f76198793bccdd98c8e8c66691103203d07efbdb99b2f32bafa7e2bee2f",
+            "sha256": "481d60d46f2b3890d0dda3eb35763db42e62ff6f80e86df79d640d44d3fd016e",
             "packed": false
         },
         {

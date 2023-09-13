@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/denverton-4.4.59/auxiliary.ko",
-            "sha256": "9be9fe0ca2686fd0ddf7517ea30252a889244f9473d829622e32807ebe0836b9",
+            "sha256": "bee69b4629ccab61d11e9cf864f5f1c40239b8ea459e1840377fccfb66374eae",
             "packed": false
         },
         {
             "name": "ice.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/denverton-4.4.59/ice.ko",
-            "sha256": "18fbe50a2f44a075599d747fcbe73441ad2a375f8406201e0eb8a4314b80a547",
+            "sha256": "27d8eccb47598e51736367dd5da2b97253618c15e112ef3dc0da1a191271c22e",
             "packed": false
         },
         {

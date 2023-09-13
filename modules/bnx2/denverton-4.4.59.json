@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "bnx2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/denverton-4.4.59/bnx2.ko",
-            "sha256": "d9b30922390fcfb3e3000128e5b76548847393cc1e825ded671981c2b3bb70c5",
+            "sha256": "22110e73b5c6ca48e9c423699f5c0f79c3e2b2b0067b11254c46b41c9c20007e",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "bnx2_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/denverton-4.4.59/bnx2_firmware.tag.gz",
-            "sha256": "5ce897ab56d7bd2cd77489a36997af1ae02e8f6c110fc8ffd577119d09cd6132",
+            "sha256": "34ae12ff3fe3df98f798f1a5e7f6f95d39e0d1da7a27598cd8689d28e34951ba",
             "packed": false
         },
         {

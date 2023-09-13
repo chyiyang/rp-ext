@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/broadwell-4.4.180/dvb-core.ko",
-            "sha256": "4a365cf39de007210f7c9b8a712414a7cda3b5330230e950d6b631c68436842b",
+            "sha256": "9b060cc5543943230a08f80b732cffa4e9f1170a6e02701b7b9fd50c2a383804",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/broadwell-4.4.180/m88ds3103.ko",
-            "sha256": "32e041eb8883b783a7d00544a76d627a150634cacde5ad895026c8d37730963e",
+            "sha256": "c7fb2a181ab1aa04f6b9859b7bbe224c2bffa47295c82b3744dc974651145fbe",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/broadwell-4.4.180/m88ds3103_firmware.tag.gz",
-            "sha256": "c47541f505417374e294a233dbfaadb4e849b0ffb69c4e3737cb66b724fbb2a9",
+            "sha256": "2247a10718e8447723f834102efcae10e3b27acc9b2143c5bf300b5aae52699d",
             "packed": false
         },
         {

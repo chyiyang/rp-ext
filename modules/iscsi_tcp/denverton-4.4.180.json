@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "libiscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/libiscsi.ko",
+            "sha256": "dbac04784a4d1ecac20f5653545df29c70ff9f5fcf7dc581fbfc561fe9579037",
+            "packed": false
+        },
+        {
+            "name": "libiscsi_tcp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/libiscsi_tcp.ko",
+            "sha256": "5ac502d7537162c3e1cf74b73f98c9a7d440a513624bbb23512bd892b61f8057",
+            "packed": false
+        },
+        {
+            "name": "iscsi_tcp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/iscsi_tcp.ko",
+            "sha256": "4140785908e0d8eba368e5dcb6408ffaf8fe8f7cf976ec96af94afb1ef40c575",
+            "packed": false
+        },
+        {
+            "name": "check-iscsi_tcp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/check-iscsi_tcp.sh",
+            "sha256": "406de6b4891ee599907e99c84c3126d4649fd5147fba504e90d604250e726eb4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libiscsi.ko": "",
+        "libiscsi_tcp.ko": "",
+        "iscsi_tcp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iscsi_tcp.sh"
+    }
+}

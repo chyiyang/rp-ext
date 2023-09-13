@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/denverton-4.4.180/mii.ko",
-            "sha256": "78f141c91d756747ce76581b9e1c7cb829fce74c0fa3763ec4406fa9ee2c484b",
+            "sha256": "9f4acfb7c2093f01f611b4e213b0dc998b9db4288535e65894f5a532ad71a47f",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/denverton-4.4.180/usbnet.ko",
-            "sha256": "e79fc247300ff707141d3349fb046da74b16d93263a79cac1714f08b7d9b2338",
+            "sha256": "53033d09760e472f290ab5bef8f6fb4ccac8b52b6856a0a8a24dcc5dc0628f36",
             "packed": false
         },
         {

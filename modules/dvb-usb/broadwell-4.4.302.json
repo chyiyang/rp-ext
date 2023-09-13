@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwell-4.4.302/rc-core.ko",
-            "sha256": "798e16a5d9fe96781f320350ce2166dce519a8a9d3cdbab7e41740c8abaf19ac",
+            "sha256": "9726ca7b2af450b67fbe5df707c777aa29f58ecd8a760f84af3efeac8f44549f",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwell-4.4.302/dvb-core.ko",
-            "sha256": "eac7ef94c8a173d9741a6219eb3aeaa3946201fac4622ff8e6e59e5a58d3e0ed",
+            "sha256": "d8d547bebdc3d8a7615855a4fcaf4fa53e09cab03806eb54f6409c6ed554443e",
             "packed": false
         },
         {
             "name": "dvb-usb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwell-4.4.302/dvb-usb.ko",
-            "sha256": "621e5524b8c01b13dc9d449720bd058c286a2ddf0439257c9ee71bea5f3c52b7",
+            "sha256": "2b6366e70351199d0b24780ff888f287562434aad1bc62d5c2ded5f68730f1f1",
             "packed": false
         },
         {

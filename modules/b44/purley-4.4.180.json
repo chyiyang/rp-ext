@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/purley-4.4.180/libphy.ko",
-            "sha256": "94dcb00b66218a474d3f4a6c086a9ccece8802dc961cac3ebad65fb41bb23fdb",
+            "sha256": "c61b6551f7d24e3319b73abc527075422f9e8c73d70478f996ceded3edb04ecf",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/purley-4.4.180/mii.ko",
-            "sha256": "1e54531d0ff34b362fadffa9686e61f8a6fc732532444bea29eb0747e31fbbfd",
+            "sha256": "cafbdeddc91611b4705d142d361e3d0084b4261c0a046a4062bb882090795370",
             "packed": false
         },
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/purley-4.4.180/b44.ko",
-            "sha256": "f8d7a1f186a6bc0ae16e8748f230498b9a46646ff94598de9dcc8f3156485d49",
+            "sha256": "b603fc75e0577b60bf1bd4b8330b0095a171b187c82e7076788f1510bd394fa0",
             "packed": false
         },
         {

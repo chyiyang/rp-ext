@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "libiscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/r1000-4.4.302/libiscsi.ko",
+            "sha256": "aa6f4c39db2cc78f751da6c045836934896ea8bf4d034b9bce4acd3a85ccc388",
+            "packed": false
+        },
+        {
+            "name": "libiscsi_tcp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/r1000-4.4.302/libiscsi_tcp.ko",
+            "sha256": "6c8a8d04c406e011216c16787a68f47bf74d52587cc865b91977564ad4fa5b92",
+            "packed": false
+        },
+        {
+            "name": "check-libiscsi_tcp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/r1000-4.4.302/check-libiscsi_tcp.sh",
+            "sha256": "1c62586a1d72d183dd6119b9e4fe6ed6b3ff2129f7ab4a92ca5f257e659a2495",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libiscsi.ko": "",
+        "libiscsi_tcp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libiscsi_tcp.sh"
+    }
+}

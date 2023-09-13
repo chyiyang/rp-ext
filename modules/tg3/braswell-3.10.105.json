@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/braswell-3.10.105/tg3.ko",
-            "sha256": "d2e3de435c967f04a94ab37186bd58ea37a82c888558dd38d1fea3e4a2a66e59",
+            "sha256": "9415d601e4c372396b43bc4dd7f35ccf9a32208f0baf3de7e66c0b550a75399c",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/braswell-3.10.105/tg3_firmware.tag.gz",
-            "sha256": "2ab515563f8111da9dae470d913fd0d48e4888e50073f6579556670816b5d833",
+            "sha256": "174402546ed1e745cc29fee389a77ad76e01cef72a4cc8b3c85f92c8ac873bef",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "fb.ko",
@@ -10,13 +10,13 @@
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/geminilake-4.4.180/softcursor.ko",
-            "sha256": "e76c8edd16a62d5d2a4523596b43b8f283e73a2443201212866c5c02450ee2a4",
+            "sha256": "c09e4e1d172815decd685eaf00171db9266677922f67dd94a072a9eef52dcf07",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/geminilake-4.4.180/bitblit.ko",
-            "sha256": "2d3ed082ff81616add0562d8556d331cc1c4ee92d6d61eb0b2e334d27fc8d62b",
+            "sha256": "15a7512baeb49f9cea6412afa03e5795729782970821ec6b79fee708e4d9649b",
             "packed": false
         },
         {

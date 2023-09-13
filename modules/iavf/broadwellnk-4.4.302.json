@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/broadwellnk-4.4.302/auxiliary.ko",
-            "sha256": "b274ead5b84bc6a03106ebd6f43ef44a92d3aacd22e19a6614087cd9b2644b9d",
+            "sha256": "ee3c99212d5f39a2729b22cb3d38580c1afdc00993d7bb7189905392dc2ac315",
             "packed": false
         },
         {
             "name": "iavf.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/broadwellnk-4.4.302/iavf.ko",
-            "sha256": "42757e34e73ecef817616637ebd357c12d751131058a8ca660905a6ebf621565",
+            "sha256": "ad35e8b441874c0e8e5d0d5c574f14914656e36e1a33c847d4eef41fabbc3a2d",
             "packed": false
         },
         {

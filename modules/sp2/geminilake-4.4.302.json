@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/geminilake-4.4.302/dvb-core.ko",
-            "sha256": "17f1834f46be5417a96224b6c579fce329fa59ba1e7a63185e7ac6a55ce4ad87",
+            "sha256": "d922e2c60420024628fec2adce44150b92393a7a03bfcd47043d6acfeb877e20",
             "packed": false
         },
         {
             "name": "sp2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/geminilake-4.4.302/sp2.ko",
-            "sha256": "7c8366447f55fcabd36084e765e3fec119e074a774404a482b1d4cde428af29a",
+            "sha256": "8dd0ca8a143c690c67d692030fcd08ba53c31040eff946fab45575ebef8b132c",
             "packed": false
         },
         {

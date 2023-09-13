@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/v1000-4.4.302/mmc_core.ko",
-            "sha256": "b900135b4e8b11b13cbe86aa0f5b34a61d0c4c282f7117904c495fcd1231e9df",
+            "sha256": "89cb0a3533c87112fe3e6e966b90a15d0c228aed2314bb2d7c4670b48b736aa1",
             "packed": false
         },
         {
             "name": "ushc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/v1000-4.4.302/ushc.ko",
-            "sha256": "b6df3025762b54954d35bd5f109f8e68e105afdab5701adf7a58f853373426e9",
+            "sha256": "d8c6c4324050339bafef047f3d690cfc4d206a1668960f19e21b16089e70c9ba",
             "packed": false
         },
         {

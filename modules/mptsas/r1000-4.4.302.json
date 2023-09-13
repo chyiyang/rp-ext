@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/r1000-4.4.302/mptscsih.ko",
-            "sha256": "854e94a0f207ae8254a6db922c9b5b38338e2b7af6256bf47d8d00a11b382510",
+            "sha256": "0e05de337bac3908dbaf7da27d913011299b1a374c443d7c0f1bb430d9affd3f",
             "packed": false
         },
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/r1000-4.4.302/mptbase.ko",
-            "sha256": "72392d538446ff728445d4777697e893a55974c994dbd11c5c1c1197561cf1a9",
+            "sha256": "fcc2c5d4d2bc8a0490c3cbc42f2e0bc4693424ad6c74c0ab658215bac8f66844",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/r1000-4.4.302/scsi_transport_sas.ko",
-            "sha256": "7cbf14f614bf043d40674b55b1b765d077e76e9ce453e7d6ab9fe0658565aa44",
+            "sha256": "7f89c4dadbecb9efac9e2f3ca2fec2da65bbffc5aaf344b6f3398f8198ed09fe",
             "packed": false
         },
         {
             "name": "mptsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/r1000-4.4.302/mptsas.ko",
-            "sha256": "468ec4f1f97947fcd09e54ccfbb3a8717aa5a5fc5543f7c1c96f9b8a49937cbd",
+            "sha256": "6d2141d8223b5c61214a51c53307299685833581dc37be74ab315afc12602e26",
             "packed": false
         },
         {

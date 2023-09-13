@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/apollolake-4.4.180/scsi_transport_sas.ko",
-            "sha256": "1a750eaebd83fa8c7a7903fa7b798f610f2685c7c9c43f7616d371b11bfa7236",
+            "sha256": "080b4e029ea35188f45a76032342da3139f95a39847b3c80ccbc05dc88a305a6",
             "packed": false
         },
         {
             "name": "libsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/apollolake-4.4.180/libsas.ko",
-            "sha256": "bda42aa4f645a33442b24447ee96640242dc04b083abbab99fff75886c4a6c80",
+            "sha256": "c6cba19ac2a0b18b43b91a8e0a3a0393864f762b405a17e90290b2add8593b87",
             "packed": false
         },
         {

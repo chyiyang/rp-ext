@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.302/mii.ko",
-            "sha256": "28d4eaabce8aad943931d9d8d1616ef14b22ce21b76c281c8ca1264df65a08cf",
+            "sha256": "932e0ce58207e21919b4419b7c621e687dfc57f979c72acdfe376799a24d1d16",
             "packed": false
         },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.302/r8169.ko",
-            "sha256": "ff63ff2206f8b2ba24c8cf8e9ea625f26791146a17cec8fda3bc45f8b9860480",
+            "sha256": "af453d5c37824e7f17e4bbd4cbc9a160c27926530eef1d7f1550637a9f0e9f51",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/purley-4.4.302/r8169_firmware.tag.gz",
-            "sha256": "789cce6c2704afdfd1e8970b245974a2b94e147578935b4324fc2030af2fac06",
+            "sha256": "f1a00157547d72bca51efe45a845a580ae3fa55fa67013d704bf2c626c763337",
             "packed": false
         },
         {

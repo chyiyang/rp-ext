@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/epyc7002-7.1-5.10.55/scsi_transport_sas.ko",
-            "sha256": "800ed4e05c7608ed81cbb55632cd76d6cd086c03c7b73a9020690e89ebaf22a8",
+            "sha256": "6539c8de2ce1342a0e42cc48754c78565f2320ec03cbe327762c828cbab6a7db",
             "packed": false
         },
         {
             "name": "libsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/epyc7002-7.1-5.10.55/libsas.ko",
-            "sha256": "e51b883599d3c0496bee84bdbeca2b80e054791977ac0867fb6d025706bf82c8",
+            "sha256": "4ef49e44ba88ce99d8a66b57fbd682e7aa7a080c89f8a4d5caf9a3b117154743",
             "packed": false
         },
         {

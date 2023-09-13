@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/denverton-4.4.302/hwmon-vid.ko",
-            "sha256": "75627408a6679bf43a11646facc70f33e1e7a9c0ff765b1c2fa0b742661c26b9",
+            "sha256": "1e9465c6552389e05878f1acd49eb7bba04203ed1748928159cb8662dcc41d20",
             "packed": false
         },
         {
             "name": "nct6775.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/denverton-4.4.302/nct6775.ko",
-            "sha256": "7a7533ebb1cd1a3e0130de6762aaca55a3f9538b2fc7796eb0dd31368a77268d",
+            "sha256": "59e5ea6e4b92bc0b17f9023bbba991bbfd9cf8291d5b408874ebd33dc883f940",
             "packed": false
         },
         {

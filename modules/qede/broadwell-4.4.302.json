@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwell-4.4.302/qed.ko",
-            "sha256": "65307ed9c5d0f1a078af08e58550c4829629e3c1f9411f01bc273687cdd68f36",
+            "sha256": "69fe8e93f9bf6f9d721880271bd5e540a3d3f3d46718770d5bd47d7a1090011c",
             "packed": false
         },
         {
             "name": "qede.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwell-4.4.302/qede.ko",
-            "sha256": "e95a7e9826afb99f7a61afcacacb6d6c51c1f88c935398d358e815d11a81b08f",
+            "sha256": "3b0cc4ba5bb855bd56803cf905d0a4bd0349ae4f97b27f847903f79249600f65",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwell-4.4.302/qede_firmware.tag.gz",
-            "sha256": "438a97f331dcb2eeec0063808c67981297bb3b69d97f39de92230e384fe77184",
+            "sha256": "172136ca9d4aa90492e66fdcc58c424ed5deaa648231ddc1a2f17d308c7bf69c",
             "packed": false
         },
         {

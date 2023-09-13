@@ -1,34 +1,34 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.59/cfbimgblt.ko",
-            "sha256": "2edd2b41ecf296443d4f27f1fb527a94889aa37a07283a12ea520b7365d875ac",
+            "sha256": "f42b880d0b9e46749f7a10d9fd947bfc71af77fb86cbcd23936e3c3952293978",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.59/cfbcopyarea.ko",
-            "sha256": "ac434891724eeb1beea9d49a572cf98c1b285c60c44d17aa394388a54174509a",
+            "sha256": "114c03e9941b34247ac7462b398f9462af47c64b1864becdc758908617c778f6",
             "packed": false
         },
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.59/cfbfillrect.ko",
-            "sha256": "5722829e12673301493fed937eef47322de806435b889d315223e446eab556ff",
+            "sha256": "856925bd89cd1724e2f504a95ed8bedca24f4a66e8869f338cdbd919191051b7",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.59/fb.ko",
-            "sha256": "64b0b10e3f6fb54c2cd589e4aa278f8299ed2d85203c8b068a7c78084991ac80",
+            "sha256": "dd67e4a326652403d7f21cdfae760bc088d57cb936a1f3205aacf5bb3d399086",
             "packed": false
         },
         {
             "name": "efifb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/purley-4.4.59/efifb.ko",
-            "sha256": "19faca03b8f4211665efa4b274c9c2407a5b4815d7bf8f89aaad95f466b7aaca",
+            "sha256": "b7543907ca0502d82073c8e08ea0ccf264e9cc6cef2ad5038f10605ebbfed03d",
             "packed": false
         },
         {

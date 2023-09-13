@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/broadwell-3.10.105/mii.ko",
-            "sha256": "60c42eb04ddbbbe289d0ce988576913dc22c9c349050c36cfa0d5c63ca72c9df",
+            "sha256": "ff7de90acb0a741f48dd0a5ebe56587942ff9d1f20002ed0023f87d1ef7deaec",
             "packed": false
         },
         {
             "name": "ax88179_178a.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/broadwell-3.10.105/ax88179_178a.ko",
-            "sha256": "72513e519c0fd14aab71a527c22418b6dbe4493a5549ff2e4bd0ebef6ef8e66d",
+            "sha256": "6da71add4c41dca907867de50e2e3ffbe0ad50c8a741a903547fbf8661989463",
             "packed": false
         },
         {

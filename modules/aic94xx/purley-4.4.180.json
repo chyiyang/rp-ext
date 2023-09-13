@@ -1,34 +1,20 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
-        {
-            "name": "libsas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/purley-4.4.180/libsas.ko",
-            "sha256": "a3127e3b332650fcb3df388ebaeff7d7acb923ba73d48cde04615e85179ea390",
-            "packed": false
-        },
-        {
-            "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/purley-4.4.180/scsi_transport_sas.ko",
-            "sha256": "36c309329035b818fee59b1b249c97cd00e361dda440c098bbc4b7475616460a",
-            "packed": false
-        },
         {
             "name": "aic94xx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/purley-4.4.180/aic94xx.ko",
-            "sha256": "48dce1aba1b433dcd3d5901263d0aa5a6fcb7dbd3c5a3ad89e2977f90a34e445",
+            "sha256": "94fa7cef919d686aacf0ead2d2e95d9874627242ffa131b4eff3b2a8dbf99d76",
             "packed": false
         },
         {
             "name": "check-aic94xx.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/purley-4.4.180/check-aic94xx.sh",
-            "sha256": "6db4adc450e61ed3a6dc061bf1aa1cba257e3d18ceb2ba60719c9b9432d54cb3",
+            "sha256": "094f675b36ed4fb4eaa66c1a0519a3a97d37623a0f67d52a91fde926b0a88afd",
             "packed": false
         }
     ],
     "kmods": {
-        "libsas.ko": "",
-        "scsi_transport_sas.ko": "",
         "aic94xx.ko": ""
     },
     "scripts": {

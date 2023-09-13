@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/r1000-4.4.302/fb.ko",
-            "sha256": "f113108698759004b520de08c8815d835f4b629a355577bc1d3c88d372b5eac9",
+            "sha256": "03a7f382edd6eae5c170d6fa7104ced826679bf9e7b12c9627effdd38b384b67",
             "packed": false
         },
         {
             "name": "font.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/r1000-4.4.302/font.ko",
-            "sha256": "abaac08dfc1d4d8de421873699bce7392ccb85ee47bfa738da3653abfe84d75b",
+            "sha256": "1ab17e835aef90b2b6b27e0f494c6edf644f173766484101983e428ce0f3ab43",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/r1000-4.4.302/bitblit.ko",
-            "sha256": "d30804b2057bbfc7ff8ad8698a3489bb8531cde1b33e293c8bdaa25ae6dc7990",
+            "sha256": "b46153ca171d82792a7c124220dc4f36eab75da8589d200803b05a4a66d504df",
             "packed": false
         },
         {
             "name": "fbcon.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/r1000-4.4.302/fbcon.ko",
-            "sha256": "5266ea3473a09d1ea17f076aa7a29227501dc4269509a1626158493e156362ed",
+            "sha256": "d7a2e6d2daed464127b2b9d75c95eebeb973782bd2d8731374935f571b9dfadc",
             "packed": false
         },
         {

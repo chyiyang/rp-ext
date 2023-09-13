@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/purley-4.4.180/fb.ko",
-            "sha256": "7131fc1958c60a01d7dd7750dddb4f2205cd7f33ba4aa11d726a315f7a1ccd51",
+            "sha256": "b51c2bfd2ced0e59e37b6852f6642f90d93ba500bb8cf5cba4398bd72c4f78a5",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/purley-4.4.180/softcursor.ko",
-            "sha256": "da78a3441ce029ec7e477f9d85288425171244173cdde225128e005269f53bbb",
+            "sha256": "e229967dac116f5bc17db8d291c62be18280349c11671e7d5984471d094683f1",
             "packed": false
         },
         {

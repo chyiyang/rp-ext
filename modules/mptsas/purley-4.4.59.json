@@ -1,41 +1,34 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.59/mptscsih.ko",
-            "sha256": "1878c31967b6b1874c646e04be0ff1ed1aff608322454b7dabfb5cbbd339cb5f",
+            "sha256": "31f20ff5c24b2c9c418c92479afad3b9394e3e2e70ab57a6109e4ad687c90cd6",
             "packed": false
         },
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.59/mptbase.ko",
-            "sha256": "91bf4792b80f0d965974b9cd263647d8a9e4ace400736feb05363864f3705884",
-            "packed": false
-        },
-        {
-            "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.59/scsi_transport_sas.ko",
-            "sha256": "5ba13a6a8b0bce20b5d0b63838f62f01a014bb99b14031cad4d7b900af32bcdc",
+            "sha256": "23564f9ad3ff77bd2ce6d7830b8a062184ff437a7563f76f4844fd979d1380a4",
             "packed": false
         },
         {
             "name": "mptsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.59/mptsas.ko",
-            "sha256": "8d6f40f1c1857b60558445116fd50768cd7ba91eafdc9fe9c078be1da2ebd27c",
+            "sha256": "76efbb6ce26a52b0e920ff6003c02444b5cf827000173157ae4cc0dda34e8547",
             "packed": false
         },
         {
             "name": "check-mptsas.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.59/check-mptsas.sh",
-            "sha256": "adf9571262e64da53b8d83ffe40a58e6df0368a3cb62eb5f6465a668d60dfff9",
+            "sha256": "a3c1072cbcb0cba85438cc00d8b94a75be61ec91eaac787e5ae22512895949ee",
             "packed": false
         }
     ],
     "kmods": {
         "mptscsih.ko": "",
         "mptbase.ko": "",
-        "scsi_transport_sas.ko": "",
         "mptsas.ko": ""
     },
     "scripts": {

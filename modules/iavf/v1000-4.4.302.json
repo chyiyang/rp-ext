@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/v1000-4.4.302/auxiliary.ko",
-            "sha256": "9bc36fc15098131d8488bcec02bf82aa9d68f230633a471ffc382d9872b32a66",
+            "sha256": "a7f658af2c8b7b3d6c27c3bcac689fc417882aae40801c84c33ff89bf729640e",
             "packed": false
         },
         {
             "name": "iavf.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/v1000-4.4.302/iavf.ko",
-            "sha256": "ef84e463b27321d0af0b18c878ded74634bc1c1a91efd652c383c0c8f656b3eb",
+            "sha256": "f4ca51058f746ae3045b2c1b2efb163185db00a17d9db3a7cf478e35c1b78ce6",
             "packed": false
         },
         {

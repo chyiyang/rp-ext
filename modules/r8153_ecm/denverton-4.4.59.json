@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/denverton-4.4.59/usbnet.ko",
-            "sha256": "decfaa332a2d0b0fb6a683cb96560f73452b694c128899d783026fc753360e8b",
+            "sha256": "f98c4c087e5ea55eba53551d272e7bf1bb0d83138c98ea540696742fd02a7694",
             "packed": false
         },
         {
             "name": "r8153_ecm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/denverton-4.4.59/r8153_ecm.ko",
-            "sha256": "a95a2ecd2da15ed8fd330357190761393a40ba57b7eac5ea1432fdff10995246",
+            "sha256": "0cde00a361f6df600090a789c1cbc094f72effe613969f35c96702893ebaa630",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/purley-4.4.180/mptbase.ko",
-            "sha256": "224eec0f6b39e85e9b072daf4078d506b41d330fdf9e630caac09b0149bab15d",
+            "sha256": "ab87769e5fdd445b35afaeed1038b7ee0b216a788f6673408301a9068be3898c",
             "packed": false
         },
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/purley-4.4.180/mptscsih.ko",
-            "sha256": "709f57c50d78172a6e8ab5ee2baf2c3cec9fea31e68d6ab5ead54ed9e44b9461",
+            "sha256": "3a8c86b6cf89a596f5c5c05bdbc6973f526a06d74c9ee56a6ce854799d8fd99d",
             "packed": false
         },
         {

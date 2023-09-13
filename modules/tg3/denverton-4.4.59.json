@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.59/libphy.ko",
-            "sha256": "f93b288052604ffb149c431725ff9ee73b1e1ffbe14e74efce43d1e24c009ba0",
+            "sha256": "3cf0f913d99829906ca4884603795c8c331f3b7859b93087bd35639be1ae3ca1",
             "packed": false
         },
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.59/tg3.ko",
-            "sha256": "02de48257fac32782dbe7396a7a31e70b0dfa4077c77353a1af9c05262506862",
+            "sha256": "c576445b60c106fada752dfb5584d7d97518442dbc780661aa7c7c83e9c9ec79",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.59/tg3_firmware.tag.gz",
-            "sha256": "3f76726cdee72078bb08ff9a995ab4287e517b12de8c2bb64931c21ff144c85b",
+            "sha256": "97e0b34e7c865d486b54a6cf512d7385ba78b1b585cf42d36db8a978db093cb8",
             "packed": false
         },
         {

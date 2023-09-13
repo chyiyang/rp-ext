@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/geminilake-4.4.59/mii.ko",
-            "sha256": "cfcde978523e39bda0f401cf069623a716db136f261ce7132557730ffd1bb306",
+            "sha256": "75875d2db6c92ca9e8fee04752bea1548ac267b7e7f0031b58414378cbbc2853",
             "packed": false
         },
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/geminilake-4.4.59/libphy.ko",
-            "sha256": "b76a21f57a010b047ff827243bd5624527b2a3b5182baecf1f7f0378523db444",
+            "sha256": "ddceb1de07d7629b1f7b049d03d431ac7ebb3e77f74a7fb955b965a3b84888f6",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/geminilake-4.4.59/usbnet.ko",
-            "sha256": "b3181b8c37ba859279a154946499d8d1c0d2709a2e05b3b218938093a39b39f9",
+            "sha256": "671fb3157fcc0f20eef3a207df520f44146eb969ca01422713cc4968d58fd745",
             "packed": false
         },
         {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/geminilake-4.4.59/asix.ko",
-            "sha256": "2437084f9bdd8a0da9384a4dd956aae364069aac0c6244ecc2d11f7b1ed2f15b",
+            "sha256": "eb96dc1a7eee4c3b61c1c692776b3cadc85ce92321977608e848c780f593fc19",
             "packed": false
         },
         {

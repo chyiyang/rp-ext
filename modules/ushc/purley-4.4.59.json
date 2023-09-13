@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/purley-4.4.59/mmc_core.ko",
-            "sha256": "cff05b69df0619a5ca1d9bc7b4504397a53ae594532ececec815a9ec32fbe1de",
+            "sha256": "fe0d2f6ce384b38efd4adee34cbc8bb9dab76daa0edde3907abab8628f364230",
             "packed": false
         },
         {
             "name": "ushc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/purley-4.4.59/ushc.ko",
-            "sha256": "3e773b5c291b7924d1fb163e70d90cbaec1fbdb4db8edf0bd43e7e42d310a70f",
+            "sha256": "ec407b5b9cfc06f25c91cf30d2b45ac2af5f0e6162bc2a0b3c6e4bfa6afb253b",
             "packed": false
         },
         {

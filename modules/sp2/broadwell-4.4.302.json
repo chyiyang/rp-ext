@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/broadwell-4.4.302/dvb-core.ko",
-            "sha256": "eac7ef94c8a173d9741a6219eb3aeaa3946201fac4622ff8e6e59e5a58d3e0ed",
+            "sha256": "d8d547bebdc3d8a7615855a4fcaf4fa53e09cab03806eb54f6409c6ed554443e",
             "packed": false
         },
         {
             "name": "sp2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/broadwell-4.4.302/sp2.ko",
-            "sha256": "413caf2c7bdbd98a7316e53da0392c4360f278359df6c836828763730e228090",
+            "sha256": "a01056cf44215b49a4f2acc2d96f4c292b4e2eb5ee94867db862e1b3c7928ae1",
             "packed": false
         },
         {

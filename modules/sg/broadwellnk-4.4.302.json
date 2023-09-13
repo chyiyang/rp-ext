@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "sg.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sg/broadwellnk-4.4.302/sg.ko",
+            "sha256": "a28c80958a0c3c35f187af7a24487e3111bc976d541d5b5e14257426d02cce5c",
+            "packed": false
+        },
+        {
+            "name": "check-sg.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sg/broadwellnk-4.4.302/check-sg.sh",
+            "sha256": "697e19f165746006a256d0faf58c9a6c545b80e094e8eaf0e238e868ea9d8075",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sg.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sg.sh"
+    }
+}

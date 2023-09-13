@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/broadwell-3.10.105/mptbase.ko",
-            "sha256": "fb7ab42827c8d4a2e2fbc1c953d491269632f2d67804b8d1502960c699f3a8cf",
+            "sha256": "cbb95fb88897f2b357e94d3c6563429c0123a9cfda99bb5841979e9cc4de756f",
             "packed": false
         },
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/broadwell-3.10.105/mptscsih.ko",
-            "sha256": "4f64dc123563852b975ff1bba0f83b2b80be3dddeecd6b101ab29bb3e90216e7",
+            "sha256": "cf37b2fa99482435c66a865356369365c2e508e9fb09252f2edfa42bc146ea45",
             "packed": false
         },
         {

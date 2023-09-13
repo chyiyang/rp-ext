@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "cfbfillrect.ko",
@@ -28,13 +28,13 @@
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/apollolake-4.4.180/vgastate.ko",
-            "sha256": "4573f980912601024da73340bf43ee8e56d95e9e2e5ae3ef4b3d4e30c70f7311",
+            "sha256": "b1e6feda1ce71933dd8c26438f6b176778c5bb917d1cbf5fa07afee279fb25cb",
             "packed": false
         },
         {
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/apollolake-4.4.180/vga16fb.ko",
-            "sha256": "40168e3f4b66feef2202a54b8aaf3e82964d25a8da905b131d70ab0324aa5449",
+            "sha256": "550937949954a9a619b7678d62018ced0ed35a3debb5be169f304dd2bff64f70",
             "packed": false
         },
         {

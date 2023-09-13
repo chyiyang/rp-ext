@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/r1000-4.4.180/rc-core.ko",
-            "sha256": "690f002504567b054f462a4c0451c9e8405326a719a6a52b31cd4984d5a4b5a7",
+            "sha256": "290fcd2e2cd0e8ab8eeabf29b19ee4caa4d961370cc888bf3aed69f79c86c409",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/r1000-4.4.180/dvb-core.ko",
-            "sha256": "7b89e7dcb4e2f99257caab764b4b34ee6b720df9e12a3e8a0d2221f0f15235af",
+            "sha256": "2c771feae1ab8796f4a9340b06ac90077c4023e25d6985b6f7a5a96de43a3890",
             "packed": false
         },
         {
             "name": "dvb-usb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/r1000-4.4.180/dvb-usb.ko",
-            "sha256": "27f1ae515b9b7b85a109a3d81a5645b3f667379cf53b14e3640977a373b3dc65",
+            "sha256": "6173c4e1c1a321f8b8cd4b6ec59772c5188dc3c46c3e64978e473a7f7eb095d6",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/apollolake-4.4.302/dvb-core.ko",
-            "sha256": "fb156c8452281bd0924e755d0f224ea048ae326e7a7bcb787177268ff7e991da",
+            "sha256": "e72f4c42b8be6ce512f2f2ddaf59463a76f88708f66e7c0ff7de1573cf8fb19e",
             "packed": false
         },
         {
             "name": "sp2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/apollolake-4.4.302/sp2.ko",
-            "sha256": "c2eeb689d6f4aa8e3e3724b0a74ac17df8390ca26d7418d9f61098771564ab76",
+            "sha256": "c3b72c252f59d338095858898cb1cb1cda5d4748d48ab908948ee3e5f8b88246",
             "packed": false
         },
         {

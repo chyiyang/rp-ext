@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb-usb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/geminilake-4.4.302/dvb-usb.ko",
-            "sha256": "ac2a27609be03be0041b1fa62786c61721c55d075f0faec55f7e02a31f8c4ddb",
+            "sha256": "52f88626ad8aa68ccb9fe1fac6752602defd8198ac394e25522c3417cd86573e",
             "packed": false
         },
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/geminilake-4.4.302/rc-core.ko",
-            "sha256": "3890137331ff981d4c0641de60a942459c65ca3584e1b8d445d91b5b8e2fff5c",
+            "sha256": "4371046607fd474e283ce7172600b893f63fbbc7144aabf65030209985987b78",
             "packed": false
         },
         {
             "name": "dvb-usb-dib0700.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/geminilake-4.4.302/dvb-usb-dib0700.ko",
-            "sha256": "2ab0d0c9f5968d9356f419790492abb415f50c2631c957e7df84fa68045a98bc",
+            "sha256": "d86e0215c0db54687e62456ae28041cb93b464e12835a1e54f334a60af605a67",
             "packed": false
         },
         {
@@ -28,7 +28,7 @@
         {
             "name": "dvb-usb-dib0700_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/geminilake-4.4.302/dvb-usb-dib0700_firmware.tag.gz",
-            "sha256": "a1f3419bf72fa996da5c3b07e69f812b72ff97f66079fb9167434a5500e5ea8e",
+            "sha256": "0bbab44552f7a4ffcf7223ffe4f8f81fbbe3f6913e89cb4fcbe561b050556ee5",
             "packed": false
         },
         {

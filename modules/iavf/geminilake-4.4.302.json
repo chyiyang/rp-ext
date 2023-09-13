@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/geminilake-4.4.302/auxiliary.ko",
-            "sha256": "e2e7f86262fa291a6da3be49aa33afa4cd9b15255d08701b867b9ce13c077e30",
+            "sha256": "1f6bbf3c1955685b19111d7531a8ea1c7e870474cec3a337d81513a981059d6f",
             "packed": false
         },
         {
             "name": "iavf.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/geminilake-4.4.302/iavf.ko",
-            "sha256": "9906471aa68b672454b1871a3a3340ef4ad4dace5ae0f66bb324dae6caa58a78",
+            "sha256": "3e6ae788062aa0a8c6d00d3b3f7d77f1c91331e43e5bd94f99947f12c6397e02",
             "packed": false
         },
         {

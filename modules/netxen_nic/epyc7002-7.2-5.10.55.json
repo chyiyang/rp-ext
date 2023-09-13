@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "netxen_nic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/epyc7002-7.2-5.10.55/netxen_nic.ko",
-            "sha256": "714b1ce442cf58f11130ce13a2ae097204ba334ca79dfbbe37408b566f5ee916",
+            "sha256": "1c0b402ba9804c3f210d83d29bdaeba38f19672e87fea68d87432b977a0c60da",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/epyc7002-7.2-5.10.55/netxen_nic_firmware.tag.gz",
-            "sha256": "d8cc0f5ce48a8b90e0c91dfa00a6f92e7d4f215b53e93cbf921dc69c621718d8",
+            "sha256": "682c4b066f89e571a11f5ff83d50efe443c8959498966fc1cbb1bc8f2da7e63b",
             "packed": false
         },
         {

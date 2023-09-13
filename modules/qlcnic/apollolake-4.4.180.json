@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "qlcnic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/qlcnic.ko",
-            "sha256": "cbf18e3649b10ac2f0aadc5d5adfa1c24b505256bee76ed9eca3a735efc40007",
+            "sha256": "f17c7ca75331c409b4971b41e091ab4c714264fb90edf0aebabf2ef72eb71324",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "qlcnic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/qlcnic_firmware.tag.gz",
-            "sha256": "31339e5e87b5ebaeb5d67c10895437fa84e9599cf013230f551868be45b64b49",
+            "sha256": "340654656f0c915157924031ed7a3ff9f26e9ce5b8da04bb855052f36500d1f2",
             "packed": false
         },
         {

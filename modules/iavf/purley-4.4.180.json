@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/purley-4.4.180/auxiliary.ko",
-            "sha256": "19f6aa7c7ca06d854aee4ec7ee13e454e632b281711fad719936017a54a3e83d",
+            "sha256": "48267c2c715a732fe4478d1a5f2175fccc0a2f171f974d9d842d86a44f9afd1c",
             "packed": false
         },
         {
             "name": "iavf.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/purley-4.4.180/iavf.ko",
-            "sha256": "b473dc4211635a62c649d3bb51fc3dfc2f265cdb5b6eee7741989ff449906255",
+            "sha256": "fbfbde22b3a1bde7b2e5dd40efa692de8dbb43449445e369c1f9b3927925e44a",
             "packed": false
         },
         {

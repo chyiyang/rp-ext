@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.108/mii.ko",
-            "sha256": "b6d2092c9725ec87557667076a3e352b3aa5290ae3e5af34ab5870b348e1d668",
+            "sha256": "49e63a6fcbc390956e7b0719f56f8982536473ffddb999e278b6b17f154e632e",
             "packed": false
         },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.108/r8169.ko",
-            "sha256": "473bcf22b11dfa1e341e4eca615136a60a0ab3edb9c19d61271786296ed88ff2",
+            "sha256": "587fdcc32eb054cb4156da42c7bdfed20c0c0935414f4b636832af132a3ca8d4",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.108/r8169_firmware.tag.gz",
-            "sha256": "4aee46eb5ffb6d3f44aa74cc4b6904e0eacd45b3fcc94d351b541cf6e65ad259",
+            "sha256": "2c0450ddebdea9a250a4b58ecbe77bca75226fbd2df006e14b5d0f8daab5a99c",
             "packed": false
         },
         {

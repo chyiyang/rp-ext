@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/qed.ko",
-            "sha256": "d13b2edab7c50520bfbfcea85ce37fd7d9fe7139b8f52c06bee9ef84f9abd16e",
+            "sha256": "f5bd68f7390b5ecd5011773ae9e21b11f3b06a988355fb9e3e26ac62ba25629c",
             "packed": false
         },
         {
             "name": "qede.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/qede.ko",
-            "sha256": "2b52e6680daabd3aad9140be95345c6b9fc5225bd6cbd84991d392c9c4f55659",
+            "sha256": "d6885e3bf145bb351bbd4b8620e9ef1151055d2aa1e37414ba1ea3c5ac301d2c",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/qede_firmware.tag.gz",
-            "sha256": "df8e240b378ddf315957bbf395065b9896e6a84ba52e3f536ea92fcc9405c188",
+            "sha256": "5a03602e5f568df4d2f8ea9d4077f353cffb1d7f23c2d7ebe8cda552ccd3f2bd",
             "packed": false
         },
         {

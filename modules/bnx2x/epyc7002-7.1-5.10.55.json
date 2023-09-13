@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "bnx2x.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/epyc7002-7.1-5.10.55/bnx2x.ko",
-            "sha256": "3e5004417c8f43ab74612709779fbf452b009bcf2590ed1162c097e43c2c96ee",
+            "sha256": "cfa5e636ffd72ae4ee8fb816577bc0dbe9c3709db7c6caacfafc1120898af487",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "bnx2x_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/epyc7002-7.1-5.10.55/bnx2x_firmware.tag.gz",
-            "sha256": "5879865a802406dfed037c5b7bf7b4fdd14816aafe011f8b1f86038f17ecfd66",
+            "sha256": "7c33aacb1e09db1554b326978c27a60866f708dc67a2a1b494f6923d0d27299e",
             "packed": false
         },
         {

@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "netxen_nic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/denverton-4.4.59/netxen_nic.ko",
-            "sha256": "3180bf2c3bc81642ff15a74104f1cbb96bb6a5f22ded70c96b9011f9d159b1c1",
+            "sha256": "e7307083ce63622be07de45c3123f1483e0a9f83495b6513632deeb556648fb3",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/denverton-4.4.59/netxen_nic_firmware.tag.gz",
-            "sha256": "6c19488011763ddcccdf63173f6e59f314a5024572afc798e1f373e45ccfcd82",
+            "sha256": "6647378d98bf3e9271b1fa987d7c1073467e8df477f26ea30e02e7187592b1f4",
             "packed": false
         },
         {

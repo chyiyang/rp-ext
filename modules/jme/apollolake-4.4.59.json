@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/apollolake-4.4.59/mii.ko",
-            "sha256": "bf1df05c09db526856269896737ea88549da603a3fa0e884282f629538cab33c",
+            "sha256": "b2df35d4943e2791672dc4259a6c737eb446d70e5ffc67899a815af86346a7fd",
             "packed": false
         },
         {
             "name": "jme.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/apollolake-4.4.59/jme.ko",
-            "sha256": "2c9908efe125172acb818172f7a7d4745f52ea706922fefb176c86c2b0627041",
+            "sha256": "3bab5b8ac36ff4a926d81b9285900346d10730cc0ddab866f17726e9b3063e35",
             "packed": false
         },
         {

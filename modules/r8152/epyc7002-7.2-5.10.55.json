@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/mii.ko",
-            "sha256": "5437eefb3c8e2cfaae1ac32966ad928257b762f9a958b91f64ef801444874d8e",
+            "sha256": "57cc03fd34a86228b4bda05717f387b6f1e508e262d75cd319c7ba666fd9066f",
             "packed": false
         },
         {
             "name": "r8152.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/r8152.ko",
-            "sha256": "6d7b9c8491189b3ca2328d6074001365199308c2291a34d0b08d94afb034ba15",
+            "sha256": "5c30ab414fb9dd673ce975bff674f47ab1dce42ff9d83006601cff3936bdfdc0",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8152_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/r8152_firmware.tag.gz",
-            "sha256": "61e6618ed2350fd8be7ced57651a528d95634ab4edbed62d9acaba5e4b2cb98b",
+            "sha256": "06e73c1fdf1efdbbba50d00f732acc2a20046d56fde68b9db2f29f76e1f06703",
             "packed": false
         },
         {

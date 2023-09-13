@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/denverton-4.4.59/mmc_core.ko",
-            "sha256": "de06c40397302bbc7392e454383f2f816a5caede146e279ca662dfc7cf54d074",
+            "sha256": "b74e18b8f4b326dafe1dd9e44083d0d9d38a7ed99dc7f827b84040876d1a3cb8",
             "packed": false
         },
         {
             "name": "ushc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/denverton-4.4.59/ushc.ko",
-            "sha256": "9e0d3a96db23a770ad718f877c33293db90b922903bd2f41f1ec384a7adbb02e",
+            "sha256": "f2c0ee415ce040f32988d34ac6428dbb8a381b76411b4cc797506fc8689e5233",
             "packed": false
         },
         {

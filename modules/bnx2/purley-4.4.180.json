@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "bnx2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/purley-4.4.180/bnx2.ko",
-            "sha256": "b4398be986955a8847931b69bdce9b70796a0007d111806797bdc1ca005d0e4c",
+            "sha256": "e19484a740b3b48f2bf0f7283a239d6b07b3295fc0f709816bc668a0b735dd10",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "bnx2_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/purley-4.4.180/bnx2_firmware.tag.gz",
-            "sha256": "01e0568d01623427a3185694d4bb9ff7752c6e6ce0b27acb027853b0d98badc9",
+            "sha256": "3ec7ece5e2152f62333200d5cf345dd9833ba49f787c53ea23994f6828546f6e",
             "packed": false
         },
         {

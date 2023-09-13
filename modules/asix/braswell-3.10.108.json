@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/braswell-3.10.108/mii.ko",
-            "sha256": "763589711251458ace7c9752824ac8b9e3092232858baceed6152a8eaa6bc34d",
+            "sha256": "dfe45a7a26dc6d10f0d004ab999da02a127f3c2372c1a401040777ea48228a5b",
             "packed": false
         },
         {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/braswell-3.10.108/asix.ko",
-            "sha256": "0b142cba2c2dbcab8288f5de4d1c281b2e5009ec5de03f026aa2f5a62b9217e3",
+            "sha256": "22dbf678f92584758181b4ba0b6e614161fce310508d4e3492532cdec1553f80",
             "packed": false
         },
         {

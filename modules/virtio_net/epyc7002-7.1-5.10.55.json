@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-7.1-5.10.55/virtio.ko",
-            "sha256": "d190b583785009450955cf45022687d010aca428b73a64b1e4b58cbdeaa25265",
+            "sha256": "181eacc7d243a0f61db8f03bb220dba2f12a14f34d18f80b9d64e28a55a18527",
             "packed": false
         },
         {
             "name": "net_failover.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-7.1-5.10.55/net_failover.ko",
-            "sha256": "95b78998084a4bcbb0582c23684583b8d93e1f2588c3a691f288ed359aebbe25",
+            "sha256": "57dca71d6c37d68568339a364fadfcee6cecd4b9c6b9c02b8cb0dc688a543f4f",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-7.1-5.10.55/virtio_ring.ko",
-            "sha256": "daa55a798e004cc6d48c5c5177828787399459e5d2206ff19f3e2a36b74b3953",
+            "sha256": "167c466798bb43401c29139a2d5ef135a8d5f6ef9a03d1e5c2197b0381237133",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/epyc7002-7.1-5.10.55/virtio_net.ko",
-            "sha256": "e4f6eb86a687634ffbca843b73cab561d9a4056b970620fbe4b24c6022cde2d2",
+            "sha256": "02fe5f9213addb9718d31311ffa6c0c51f28d1322e6970caa2745df84983eb4e",
             "packed": false
         },
         {

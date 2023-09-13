@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/geminilake-4.4.180/hwmon-vid.ko",
-            "sha256": "01deabab6bcd3fbc81cfd6655c14ac809a85c5ff779d6d6fe48bdeb66c8b6110",
+            "sha256": "95be3b8b76de9746d8b0c64fcc29b47cfa343d636fc42f30dedca5daba6c1b7c",
             "packed": false
         },
         {
             "name": "nct6775.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/geminilake-4.4.180/nct6775.ko",
-            "sha256": "38d7c7c954dd24187b982021e01b6713d336cf11a8a1f464ca1fc358bcc94209",
+            "sha256": "dd35522d5957410a68aa6c353af76d62edc246ed52527bf2c61222a655cae106",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/v1000-4.4.59/dvb-core.ko",
-            "sha256": "1dc0cb3c6172f04f7b6ace09b26e693e17e56519351f99b723c0fd88e54ce58f",
+            "sha256": "4b2f8c352e05ea0abf7d3e48b6ec2135c9eeb827535ab418b3360b97f5355ba7",
             "packed": false
         },
         {
             "name": "sp2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/v1000-4.4.59/sp2.ko",
-            "sha256": "e4d78a75ca17f1e1e2d5e4a79090fb9726d371c47b9104323585b4492e61e29a",
+            "sha256": "8a7541be3c0d3e4902330dfb961b985971019c06c6b836d1ca88de6fcceb64db",
             "packed": false
         },
         {

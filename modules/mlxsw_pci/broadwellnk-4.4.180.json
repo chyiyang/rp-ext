@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mlxsw_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/broadwellnk-4.4.180/mlxsw_core.ko",
-            "sha256": "5834201b25e2d26f3a96615482597d5eca004293a040dd402458fb5ffe9c5a71",
+            "sha256": "343df4c03e23aae1609dfc7b291d638dde9390a2dbc7113ba39251b19ca502e0",
             "packed": false
         },
         {
             "name": "mlxsw_pci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/broadwellnk-4.4.180/mlxsw_pci.ko",
-            "sha256": "655c5a574fc126677d4425fb111887da4ce0cb4faabce28c1f610fdac2ac3458",
+            "sha256": "370033900c459b90a363bdbf89eecfe0966102e54cb3c05cb60cae559d9ca4a6",
             "packed": false
         },
         {

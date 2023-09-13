@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "si2168.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/broadwellnk-4.4.59/si2168.ko",
-            "sha256": "feea0f8844211c3b4e3719eca163fcc06cba5c3834d30111b472f7b3265e8826",
+            "sha256": "ad70bf5cba949093bae11e1921e71e082372b57e4fd72ce6e24e93422df8284d",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2168_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/broadwellnk-4.4.59/si2168_firmware.tag.gz",
-            "sha256": "48313a3824e3024182ec749f63014c67c7441bc15bd668b9cf4987fe07b70418",
+            "sha256": "34cc67f9c41311a85c1fbb9cab6b677dd2ce90400457b1fc3644cce3f2aff8d2",
             "packed": false
         },
         {

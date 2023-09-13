@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/purley-4.4.59/mii.ko",
-            "sha256": "ebe6c1cc4c26d708eb42e2146bebe38f8b005173be8163d4f0adbf4e1b197cf3",
+            "sha256": "cc82f65d0ac8ecc796c0a810145b3aa33aa46090566a1f0437b82b0846c97994",
             "packed": false
         },
         {
             "name": "8139cp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/purley-4.4.59/8139cp.ko",
-            "sha256": "2df5458b8f1070801b812d76b8d0b28d60138362cb9d9265f36014bcbd38409a",
+            "sha256": "d5d59b8a1cdeaa0bc86ccace067980e5fcdbdb45120a7645ff843f4bd01fc811",
             "packed": false
         },
         {

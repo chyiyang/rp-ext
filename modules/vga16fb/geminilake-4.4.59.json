@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "cfbcopyarea.ko",
@@ -28,13 +28,13 @@
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.59/vgastate.ko",
-            "sha256": "a3ca9c197cc208cc10c314078ff1c65a5b40507bc60dc70c2523a5c333e00325",
+            "sha256": "49aabffaffa5f1321302c7299feea49571c1d0feeb7288c782115a00cbe1013d",
             "packed": false
         },
         {
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.59/vga16fb.ko",
-            "sha256": "41ce816b1da490d6fac26f35a38e2d78b509d3b7a3dc58e519649d3e4eff255f",
+            "sha256": "af7b826a48f84b9955d6c4b47c4d7c45fa3df6831caec3f8caa029f548d494c4",
             "packed": false
         },
         {

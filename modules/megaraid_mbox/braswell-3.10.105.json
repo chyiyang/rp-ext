@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/braswell-3.10.105/megaraid_mm.ko",
-            "sha256": "d41b71b49daf60e6e945d442a2aaffbeaf02c70762a68343f2e50719a8914144",
+            "sha256": "e0b5321cb7a9d1e7fe03418f3464ce406b9e639b72d63f9aa8173703baa2ad4c",
             "packed": false
         },
         {
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/braswell-3.10.105/megaraid_mbox.ko",
-            "sha256": "5ed15283a85c844dfd577d48fd8cbe5db931f9458b593491bd8d031a71ee8759",
+            "sha256": "25ddadb398351e5703dcc6ab0451fabcd776e3bda767b25b2f09bdc38d0926c3",
             "packed": false
         },
         {

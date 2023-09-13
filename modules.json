@@ -797,6 +797,34 @@
             "v1000-4.4.59"
         ]
     },
+    "ch": {
+        "description": "device driver for scsi media changer devices",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ch/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
     "cpufreq_conservative": {
         "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/rpext-index.json",
@@ -1965,6 +1993,34 @@
             "v1000-4.4.302"
         ]
     },
+    "iscsi_tcp": {
+        "description": "iSCSI/TCP data-path",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
     "it87": {
         "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/rpext-index.json",
@@ -2191,6 +2247,76 @@
             "v1000-4.4.302"
         ]
     },
+    "libfc": {
+        "description": "libfc",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/rpext-index.json",
+        "platforms": [
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
+        ]
+    },
+    "libiscsi": {
+        "description": "iSCSI library functions",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
+    "libiscsi_tcp": {
+        "description": "iSCSI/TCP data-path",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
     "libphy": {
         "description": "PHY library",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/rpext-index.json",
@@ -2231,9 +2357,6 @@
             "geminilake-4.4.180",
             "geminilake-4.4.302",
             "geminilake-4.4.59",
-            "purley-4.4.180",
-            "purley-4.4.302",
-            "purley-4.4.59",
             "r1000-4.4.180",
             "r1000-4.4.302",
             "v1000-4.4.180",
@@ -2649,7 +2772,7 @@
         ]
     },
     "mpt3sas": {
-        "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver",
+        "description": "LSI MPT Fusion SAS 3.0 Device Driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
@@ -3326,9 +3449,6 @@
             "geminilake-4.4.180",
             "geminilake-4.4.302",
             "geminilake-4.4.59",
-            "purley-4.4.180",
-            "purley-4.4.302",
-            "purley-4.4.59",
             "r1000-4.4.180",
             "r1000-4.4.302",
             "v1000-4.4.180",
@@ -3416,6 +3536,20 @@
             "v1000-4.4.59"
         ]
     },
+    "scsi_transport_fc": {
+        "description": "FC Transport Attributes",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/rpext-index.json",
+        "platforms": [
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302"
+        ]
+    },
     "scsi_transport_sas": {
         "description": "SAS Transport Attributes",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_sas/rpext-index.json",
@@ -3431,9 +3565,6 @@
             "geminilake-4.4.180",
             "geminilake-4.4.302",
             "geminilake-4.4.59",
-            "purley-4.4.180",
-            "purley-4.4.302",
-            "purley-4.4.59",
             "r1000-4.4.180",
             "r1000-4.4.302",
             "v1000-4.4.180",
@@ -3477,6 +3608,34 @@
     "sdhci": {
         "description": "Secure Digital Host Controller Interface core driver",
         "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/rpext-index.json",
+        "platforms": [
+            "apollolake-4.4.180",
+            "apollolake-4.4.302",
+            "apollolake-4.4.59",
+            "broadwell-4.4.180",
+            "broadwell-4.4.302",
+            "broadwellnk-4.4.180",
+            "broadwellnk-4.4.302",
+            "broadwellnk-4.4.59",
+            "denverton-4.4.180",
+            "denverton-4.4.302",
+            "denverton-4.4.59",
+            "geminilake-4.4.180",
+            "geminilake-4.4.302",
+            "geminilake-4.4.59",
+            "purley-4.4.180",
+            "purley-4.4.302",
+            "purley-4.4.59",
+            "r1000-4.4.180",
+            "r1000-4.4.302",
+            "v1000-4.4.180",
+            "v1000-4.4.302",
+            "v1000-4.4.59"
+        ]
+    },
+    "sg": {
+        "description": "SCSI generic (sg) driver",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sg/rpext-index.json",
         "platforms": [
             "apollolake-4.4.180",
             "apollolake-4.4.302",

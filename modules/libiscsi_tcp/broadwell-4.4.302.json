@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "libiscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/broadwell-4.4.302/libiscsi.ko",
+            "sha256": "ca15a96fe3efaf494afc9dbb663ff24825523908d912ca31749fc986ac27bb5f",
+            "packed": false
+        },
+        {
+            "name": "libiscsi_tcp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/broadwell-4.4.302/libiscsi_tcp.ko",
+            "sha256": "629a11b4f7641b46b3e3dddfc0d8f2b12e772be6ee843b64857a577f13126b03",
+            "packed": false
+        },
+        {
+            "name": "check-libiscsi_tcp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/broadwell-4.4.302/check-libiscsi_tcp.sh",
+            "sha256": "1c62586a1d72d183dd6119b9e4fe6ed6b3ff2129f7ab4a92ca5f257e659a2495",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libiscsi.ko": "",
+        "libiscsi_tcp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libiscsi_tcp.sh"
+    }
+}

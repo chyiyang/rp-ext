@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/apollolake-4.4.59/hwmon-vid.ko",
-            "sha256": "3ebb60a2741d92b279388353f979813228fc363e6d60a608c58e32972105e5d1",
+            "sha256": "49e4aeadca538318b83708f63a6a2fd0cae756542a2d7a71ac2bfd03e0de494b",
             "packed": false
         },
         {
             "name": "dme1737.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/apollolake-4.4.59/dme1737.ko",
-            "sha256": "f7238d165ee5ab64843aca6774661c4e0ed67adb137f6ee8251633b848c89e6d",
+            "sha256": "91bcb071c71d89e628f9b8f45bc629aa97e95a7973420f7f377f9107228e6a04",
             "packed": false
         },
         {

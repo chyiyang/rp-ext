@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/v1000-4.4.302/mdio.ko",
-            "sha256": "3f101ed7b45eebb98b40162217f651d3242736db00e419bf5ca790b489538d5f",
+            "sha256": "d2898ae508025820808f524559b935756241d033f7f0c6d883f589114f6af5bf",
             "packed": false
         },
         {
             "name": "cxgb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/v1000-4.4.302/cxgb.ko",
-            "sha256": "fbb6abc940a0121252a19fb47b2797533174574db678f8fd43f77b8c7786f25d",
+            "sha256": "45dc033b3c4f6c93e000412c6cc41228ac5dff34ffd1adab9ae426e471c6264b",
             "packed": false
         },
         {

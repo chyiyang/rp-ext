@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.59/dvb-core.ko",
-            "sha256": "b091422cc048df74b2f824e4ccf2b34c15758d3ba5e40700f092b7bb0f1fba7e",
+            "sha256": "730057147f2ffd51b473f4fcec3beb69286689f61c62c61dd1a4df94580a9984",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.59/m88ds3103.ko",
-            "sha256": "56fb1b33462538a2fed449de45d3ace4190ec3d72c8fb4860a572d1b9f0e1ddf",
+            "sha256": "54fdd259f50fe730bdaadb3c6483e83dd2be65e6e48b1272f5e66dbda16f9169",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.59/m88ds3103_firmware.tag.gz",
-            "sha256": "905d728f1cf2cf2994c9e8a36c2f4cedf67f57a839e56c26c092841cd2d85228",
+            "sha256": "6f572dde52672c6d24e160103ecf7d33cde97a7527a2d82a706a205de8e824ed",
             "packed": false
         },
         {

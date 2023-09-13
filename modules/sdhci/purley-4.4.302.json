@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/purley-4.4.302/mmc_core.ko",
-            "sha256": "d18f89566fef6fb46a79fd709f2bac86a9ed718fb8776c7072b61461065ace6f",
+            "sha256": "8365362d4e2549b38433e292854f049f6f503abf2732b8dd044796ef7d5a8b5d",
             "packed": false
         },
         {
             "name": "sdhci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/purley-4.4.302/sdhci.ko",
-            "sha256": "86ea8a375bca75de3f39a4c6fa1574dcd0926ab8b13e3055f87bed4ca2b3763e",
+            "sha256": "9a89ff054a6d2e400bc9b754ca28309de717405833f30fecead92782dc6bf540",
             "packed": false
         },
         {

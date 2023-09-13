@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/apollolake-4.4.302/mii.ko",
-            "sha256": "858d78fce1625ba3a8f2cae50117a7bbc042ce86e8eb0b109209d6a3fb1807cf",
+            "sha256": "c8265da77d283a065cebabeddd280fcf69c4efb8e33dee03c6187c0bce21fda5",
             "packed": false
         },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/apollolake-4.4.302/r8169.ko",
-            "sha256": "4d372d5f168282e1caaa10c6191fbccb09a5d51307d5d5540e651b032e9a5060",
+            "sha256": "136f3f53cd95202f3717ae274c5a50e5f9b17a7f315a47f1931e2965b2f3776d",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/apollolake-4.4.302/r8169_firmware.tag.gz",
-            "sha256": "b9b051d24e85fb944d220fdf3a3700a42c57273b9b6c615517af14d1220321ff",
+            "sha256": "d66bade1c053d79cef1e4563f1be343d6927664c10acbbd165b5854a57bf3ade",
             "packed": false
         },
         {

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "ch.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ch/purley-4.4.180/ch.ko",
+            "sha256": "2e92f374e71a72b56a5df81c4cc12381156a0e12cd84183ed86bbc4ba0d6da66",
+            "packed": false
+        },
+        {
+            "name": "check-ch.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ch/purley-4.4.180/check-ch.sh",
+            "sha256": "9a2e0e9d3060414c0b01b641ffe54ad4de58ab991d0d9fa41f25d48a58f4cc18",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ch.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ch.sh"
+    }
+}

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.180/mdio.ko",
-            "sha256": "419bee74b91dbb9e337de29ebcae6bc5d7c51ff881a264ba91b678b68f31c33b",
+            "sha256": "8b57aeaac5add9e330bf17562d4e28fe4eae12da91187d5660d8ebede4427b42",
             "packed": false
         },
         {
             "name": "bnx2x.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.180/bnx2x.ko",
-            "sha256": "97e51fb8af3fc2573c5c7b6cc2273c622132ca5d32deadaacd08f5b4b904467f",
+            "sha256": "27f4aff11371946a4645099c024f43b982d808753f72162c19d6e2599aa882f6",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "bnx2x_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/denverton-4.4.180/bnx2x_firmware.tag.gz",
-            "sha256": "05943668317c61393ad67cb8f35260cd69d4c70c883af105462968e6971756ea",
+            "sha256": "529260d86e0bcb81c204da9472ce830867dbf443a61a1bd8618b503c6a14d5a9",
             "packed": false
         },
         {

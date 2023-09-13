@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/denverton-4.4.302/auxiliary.ko",
-            "sha256": "95a4834151278e831ce9ff66dcd3879778ba9aaa53ca3c355d39a903b3f35fd4",
+            "sha256": "8fd641deab1fcfb68647e025042ed4a40426a7e6309835f993724cb6617abb5c",
             "packed": false
         },
         {
             "name": "iavf.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/denverton-4.4.302/iavf.ko",
-            "sha256": "3e2a485b51622858b941254fa5a5fa235094b407acaa26f2d3986324c7bc483d",
+            "sha256": "1dd56b735623fe7961239220a7b2a3fb3fc80b6daf71d271a02ebacfa5e1f713",
             "packed": false
         },
         {

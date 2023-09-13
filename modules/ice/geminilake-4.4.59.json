@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/geminilake-4.4.59/auxiliary.ko",
-            "sha256": "c7c484cf46c081ff639ab42c9fb55523260675ebcca87a569774b4ec0ede0bc5",
+            "sha256": "613a7eef835a1de3f1f0539dde76ddbb1d1ce08270b314ac8a0d1d269d229ef6",
             "packed": false
         },
         {
             "name": "ice.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/geminilake-4.4.59/ice.ko",
-            "sha256": "2e5731b2685f09666abcb14e701ea347c442a71f8e3441cb3bd21be1164d0c50",
+            "sha256": "033a2da633f3a1fcf74f9ce15108ba535d6141a16b906ea7a9a10be3c24ec30c",
             "packed": false
         },
         {

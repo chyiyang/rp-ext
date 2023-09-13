@@ -75,6 +75,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -198,6 +201,9 @@
         "iosf_mbi": {
             "description": "IOSF Mailbox Interface accessor"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -215,6 +221,12 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -262,7 +274,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -341,6 +353,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -512,6 +527,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -638,6 +656,9 @@
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -664,6 +685,12 @@
         },
         "kvm": {
             "description": ""
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -711,7 +738,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -790,6 +817,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -961,6 +991,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -1084,6 +1117,9 @@
         "iosf_mbi": {
             "description": "IOSF Mailbox Interface accessor"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -1101,6 +1137,12 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -1148,7 +1190,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -1230,6 +1272,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -2025,6 +2070,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -2118,6 +2166,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -2135,6 +2186,15 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libfc": {
+            "description": "libfc"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -2179,7 +2239,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -2244,11 +2304,17 @@
         "realtek": {
             "description": "Realtek PHY driver"
         },
+        "scsi_transport_fc": {
+            "description": "FC Transport Attributes"
+        },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -2414,6 +2480,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -2510,6 +2579,9 @@
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -2536,6 +2608,15 @@
         },
         "kvm": {
             "description": ""
+        },
+        "libfc": {
+            "description": "libfc"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -2580,7 +2661,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -2645,11 +2726,17 @@
         "realtek": {
             "description": "Realtek PHY driver"
         },
+        "scsi_transport_fc": {
+            "description": "FC Transport Attributes"
+        },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -2815,6 +2902,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -2908,6 +2998,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -2925,6 +3018,15 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libfc": {
+            "description": "libfc"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -2969,7 +3071,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -3034,11 +3136,17 @@
         "realtek": {
             "description": "Realtek PHY driver"
         },
+        "scsi_transport_fc": {
+            "description": "FC Transport Attributes"
+        },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -3204,6 +3312,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -3300,6 +3411,9 @@
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -3326,6 +3440,15 @@
         },
         "kvm": {
             "description": ""
+        },
+        "libfc": {
+            "description": "libfc"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -3370,7 +3493,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -3435,11 +3558,17 @@
         "realtek": {
             "description": "Realtek PHY driver"
         },
+        "scsi_transport_fc": {
+            "description": "FC Transport Attributes"
+        },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -3605,6 +3734,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -3698,6 +3830,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -3715,6 +3850,12 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -3759,7 +3900,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -3832,6 +3973,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -4400,6 +4544,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -4499,6 +4646,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -4516,6 +4666,12 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -4563,7 +4719,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -4639,6 +4795,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -4798,6 +4957,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -4900,6 +5062,9 @@
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -4926,6 +5091,12 @@
         },
         "kvm": {
             "description": ""
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -4973,7 +5144,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -5049,6 +5220,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -5208,6 +5382,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -5307,6 +5484,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -5324,6 +5504,12 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -5371,7 +5557,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -5447,6 +5633,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -6141,6 +6330,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -6261,6 +6453,9 @@
         "iosf_mbi": {
             "description": "IOSF Mailbox Interface accessor"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -6278,6 +6473,12 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -6325,7 +6526,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -6404,6 +6605,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -6569,6 +6773,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -6692,6 +6899,9 @@
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -6718,6 +6928,12 @@
         },
         "kvm": {
             "description": ""
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -6765,7 +6981,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -6844,6 +7060,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -7009,6 +7228,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -7129,6 +7351,9 @@
         "iosf_mbi": {
             "description": "IOSF Mailbox Interface accessor"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -7146,6 +7371,12 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libphy": {
             "description": "PHY library"
@@ -7193,7 +7424,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -7275,6 +7506,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -7440,6 +7674,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -7536,6 +7773,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -7554,11 +7794,17 @@
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
         },
+        "libfc": {
+            "description": "libfc"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "libphy": {
             "description": "PHY library"
-        },
-        "libsas": {
-            "description": "SAS Transport Layer"
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
@@ -7600,7 +7846,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -7659,9 +7905,6 @@
         "r8169": {
             "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
-        "raid_class": {
-            "description": "RAID device class"
-        },
         "rc-core": {
             "description": ""
         },
@@ -7671,14 +7914,17 @@
         "rtc-cmos": {
             "description": "Driver for PC-style 'CMOS' RTCs"
         },
-        "scsi_transport_sas": {
-            "description": "SAS Transport Attributes"
+        "scsi_transport_fc": {
+            "description": "FC Transport Attributes"
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -7829,6 +8075,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -7928,6 +8177,9 @@
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -7955,11 +8207,17 @@
         "kvm": {
             "description": ""
         },
+        "libfc": {
+            "description": "libfc"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "libphy": {
             "description": "PHY library"
-        },
-        "libsas": {
-            "description": "SAS Transport Layer"
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
@@ -8001,7 +8259,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -8060,9 +8318,6 @@
         "r8169": {
             "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
-        "raid_class": {
-            "description": "RAID device class"
-        },
         "rc-core": {
             "description": ""
         },
@@ -8072,14 +8327,17 @@
         "rtc-cmos": {
             "description": "Driver for PC-style 'CMOS' RTCs"
         },
-        "scsi_transport_sas": {
-            "description": "SAS Transport Attributes"
+        "scsi_transport_fc": {
+            "description": "FC Transport Attributes"
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -8230,6 +8488,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -8326,6 +8587,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -8344,11 +8608,14 @@
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
         },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "libphy": {
             "description": "PHY library"
-        },
-        "libsas": {
-            "description": "SAS Transport Layer"
         },
         "m88ds3103": {
             "description": "Montage Technology M88DS3103 DVB-S/S2 demodulator driver"
@@ -8390,7 +8657,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -8452,9 +8719,6 @@
         "r8169": {
             "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
-        "raid_class": {
-            "description": "RAID device class"
-        },
         "rc-core": {
             "description": ""
         },
@@ -8464,14 +8728,14 @@
         "rtc-cmos": {
             "description": "Driver for PC-style 'CMOS' RTCs"
         },
-        "scsi_transport_sas": {
-            "description": "SAS Transport Attributes"
-        },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -8625,6 +8889,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -8724,6 +8991,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -8741,6 +9011,12 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libsas": {
             "description": "SAS Transport Layer"
@@ -8785,7 +9061,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -8864,6 +9140,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -9026,6 +9305,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -9128,6 +9410,9 @@
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -9154,6 +9439,12 @@
         },
         "kvm": {
             "description": ""
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libsas": {
             "description": "SAS Transport Layer"
@@ -9198,7 +9489,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -9277,6 +9568,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -9439,6 +9733,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -9535,6 +9832,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -9552,6 +9852,15 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libfc": {
+            "description": "libfc"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libsas": {
             "description": "SAS Transport Layer"
@@ -9596,7 +9905,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -9667,6 +9976,9 @@
         "rtc-cmos": {
             "description": "Driver for PC-style 'CMOS' RTCs"
         },
+        "scsi_transport_fc": {
+            "description": "FC Transport Attributes"
+        },
         "scsi_transport_sas": {
             "description": "SAS Transport Attributes"
         },
@@ -9675,6 +9987,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -9837,6 +10152,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -9936,6 +10254,9 @@
         "irqbypass": {
             "description": "IRQ bypass manager utility module"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -9962,6 +10283,15 @@
         },
         "kvm": {
             "description": ""
+        },
+        "libfc": {
+            "description": "libfc"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libsas": {
             "description": "SAS Transport Layer"
@@ -10006,7 +10336,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -10077,6 +10407,9 @@
         "rtc-cmos": {
             "description": "Driver for PC-style 'CMOS' RTCs"
         },
+        "scsi_transport_fc": {
+            "description": "FC Transport Attributes"
+        },
         "scsi_transport_sas": {
             "description": "SAS Transport Attributes"
         },
@@ -10085,6 +10418,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"
@@ -10247,6 +10583,9 @@
         "cfbimgblt": {
             "description": "Generic software accelerated imaging drawing"
         },
+        "ch": {
+            "description": "device driver for scsi media changer devices"
+        },
         "cpufreq_conservative": {
             "description": "'cpufreq_conservative' - A dynamic cpufreq governor for Low Latency Frequency Transition capable processors optimised for use in a battery environment"
         },
@@ -10343,6 +10682,9 @@
         "intel_auxiliary": {
             "description": "Auxiliary Bus Standalone"
         },
+        "iscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
+        },
         "it87": {
             "description": "IT8705F/IT871xF/IT872xF hardware monitoring driver"
         },
@@ -10360,6 +10702,12 @@
         },
         "jme": {
             "description": "JMicron JMC2x0 PCI Express Ethernet driver"
+        },
+        "libiscsi": {
+            "description": "iSCSI library functions"
+        },
+        "libiscsi_tcp": {
+            "description": "iSCSI/TCP data-path"
         },
         "libsas": {
             "description": "SAS Transport Layer"
@@ -10404,7 +10752,7 @@
             "description": ""
         },
         "mpt3sas": {
-            "description": "LSI MPT Fusion SAS 3.0 & SAS 3.5 Device Driver"
+            "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
         "mptbase": {
             "description": "Fusion MPT base driver"
@@ -10486,6 +10834,9 @@
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
+        },
+        "sg": {
+            "description": "SCSI generic (sg) driver"
         },
         "si2157": {
             "description": "Silicon Labs Si2146/2147/2148/2157/2158 silicon tuner driver"

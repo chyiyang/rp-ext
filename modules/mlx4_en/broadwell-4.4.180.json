@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/broadwell-4.4.180/mlx4_core.ko",
-            "sha256": "96df7fcb929a9b88d7600ddf0ddaac0a24acb79b87737f4eb370c1428d2a987d",
+            "sha256": "5e3aa968a20cbc42d5dfe7fb753c30402e50e137e3f9f88f13781fe08148e747",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/broadwell-4.4.180/mlx4_en.ko",
-            "sha256": "29abd882a6a1a30af040375fb4e3bcff46f7f894366633063008c287b38e1dea",
+            "sha256": "d8ff92a6c56b67c539cb2fb4a324d7972db90b759c2c4e7496dd67677d55ede7",
             "packed": false
         },
         {

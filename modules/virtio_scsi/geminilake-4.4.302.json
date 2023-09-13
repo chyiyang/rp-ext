@@ -1,20 +1,34 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/geminilake-4.4.302/virtio.ko",
+            "sha256": "666ae6f28af3d931bdf4f16a2270a98a75853ea7c7e93f216261bc6ac21fdbac",
+            "packed": false
+        },
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/geminilake-4.4.302/virtio_ring.ko",
+            "sha256": "e9d661a2386a8140dc691eb3ae09ecaee1064d1b06075684cb8e82db32f16849",
+            "packed": false
+        },
         {
             "name": "virtio_scsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/geminilake-4.4.302/virtio_scsi.ko",
-            "sha256": "5d1f3ab70f56aab5b8c3e71fddec8a001fa172bf786c80f9ba1b1ca3951d795f",
+            "sha256": "8fc23c954a482b8a0c5ca6901f1e22e5133e5951864708d939a4577317841b48",
             "packed": false
         },
         {
             "name": "check-virtio_scsi.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/geminilake-4.4.302/check-virtio_scsi.sh",
-            "sha256": "e3c03970c21307bd5f9f9b7c9d95d89054d0b482026bf05c25b0733cf676d898",
+            "sha256": "5b4c24e6f92a2377f6d992cff786b8918fe2931854a9a5b95ad1d0ee9b109f15",
             "packed": false
         }
     ],
     "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
         "virtio_scsi.ko": ""
     },
     "scripts": {

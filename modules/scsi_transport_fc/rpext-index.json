@@ -1,0 +1,21 @@
+{
+    "id": "ing.scsi_transport_fc",
+    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/rpext-index.json",
+    "info": {
+        "name": "scsi_transport_fc",
+        "description": "FC Transport Attributes",
+        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "help_url": "<todo>"
+    },
+    "releases": {
+        "broadwell-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/broadwell-4.4.180.json",
+        "broadwell-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/broadwell-4.4.302.json",
+        "broadwellnk-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/broadwellnk-4.4.180.json",
+        "broadwellnk-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/broadwellnk-4.4.302.json",
+        "purley-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/purley-4.4.180.json",
+        "purley-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/purley-4.4.302.json",
+        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/v1000-4.4.180.json",
+        "v1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/v1000-4.4.302.json"
+    }
+}

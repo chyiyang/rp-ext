@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "libiscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi/broadwellnk-4.4.180/libiscsi.ko",
+            "sha256": "50a38b1eb601b7a6f67f90830a5fbc2d2aac1e3022be4d3c335e696e41741e07",
+            "packed": false
+        },
+        {
+            "name": "check-libiscsi.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi/broadwellnk-4.4.180/check-libiscsi.sh",
+            "sha256": "61e60c6f4f150431721460f091129294ac8fd6e035d094b18f2a343c84c1d921",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libiscsi.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libiscsi.sh"
+    }
+}

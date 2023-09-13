@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "libsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/libsas.ko",
-            "sha256": "bda42aa4f645a33442b24447ee96640242dc04b083abbab99fff75886c4a6c80",
+            "sha256": "c6cba19ac2a0b18b43b91a8e0a3a0393864f762b405a17e90290b2add8593b87",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/scsi_transport_sas.ko",
-            "sha256": "1a750eaebd83fa8c7a7903fa7b798f610f2685c7c9c43f7616d371b11bfa7236",
+            "sha256": "080b4e029ea35188f45a76032342da3139f95a39847b3c80ccbc05dc88a305a6",
             "packed": false
         },
         {
             "name": "aic94xx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/aic94xx.ko",
-            "sha256": "156d186deb45f5f3f9a8a0773d8ef746418db07b38f64a5ceec35b414f329b2c",
+            "sha256": "5a12aa9267459d1ccdb22b5c0206943b86f478d0d2cc7af438110bf2a8b550a3",
             "packed": false
         },
         {

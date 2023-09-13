@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/purley-4.4.302/hwmon-vid.ko",
-            "sha256": "4f2b8ab96b4396808c49f7c2daa3126db17aac266a06914d5519318502da6d50",
+            "sha256": "fb9c1885dd14c580401b66bab0c12d3d65e8c405ce15139fab6ab06f88849256",
             "packed": false
         },
         {
             "name": "it87.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/purley-4.4.302/it87.ko",
-            "sha256": "4aac2fdb05f7ce49009dd736d40112820b8d5a088759905cacb20938f03e669a",
+            "sha256": "ba46094061bba8d3278fb8fe617f51c737b4ad819a43dc1c01f21977a6c7ce81",
             "packed": false
         },
         {

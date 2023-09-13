@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "cxgb4.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/broadwellnk-4.4.302/cxgb4.ko",
-            "sha256": "cde87809ae2fc07da39d263e64af0b362df14d82b97f63be1f098ea7401a646b",
+            "sha256": "2dc02ca1a86d1311853d765c3369d263d587ad76b06e66d877422d030dc57f72",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/broadwellnk-4.4.302/cxgb4_firmware.tag.gz",
-            "sha256": "b0b47c70b7a27f3e14ce36667155b9c3eef79270cb7eb64907e8f164eb336c05",
+            "sha256": "ffa7d1f49c48e0450a6efedfa9a2944590da241ddfc6f4704090c6096705e18e",
             "packed": false
         },
         {

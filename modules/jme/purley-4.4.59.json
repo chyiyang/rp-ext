@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/purley-4.4.59/mii.ko",
-            "sha256": "ebe6c1cc4c26d708eb42e2146bebe38f8b005173be8163d4f0adbf4e1b197cf3",
+            "sha256": "cc82f65d0ac8ecc796c0a810145b3aa33aa46090566a1f0437b82b0846c97994",
             "packed": false
         },
         {
             "name": "jme.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/purley-4.4.59/jme.ko",
-            "sha256": "6a3f61710393666ff3b2e91000e7eabc802ead4c52e533d32bb203f960272f58",
+            "sha256": "438022918d1bc21f56383b872a0ecefdecea9adee9812e5804f2cce4c7750666",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/geminilake-4.4.180/mmc_core.ko",
-            "sha256": "5c6ff918f1743632e7ed330a16d9f56bcdcc6e92ac70b9f1345faf369fade5b9",
+            "sha256": "005162f3bcc7a5b50290cb5d0db2a56419ac14e65e07cd1eb1b42b6c057049fb",
             "packed": false
         },
         {
             "name": "vub300.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/geminilake-4.4.180/vub300.ko",
-            "sha256": "7e05367151e76e446ab4c494106fe87db28425e0040f858c8f6f343834c18d06",
+            "sha256": "a46013262b7519e6473a597e7a524daa0456105f40f49a8f92efe1dddb12023c",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/purley-4.4.302/hwmon-vid.ko",
-            "sha256": "4f2b8ab96b4396808c49f7c2daa3126db17aac266a06914d5519318502da6d50",
+            "sha256": "fb9c1885dd14c580401b66bab0c12d3d65e8c405ce15139fab6ab06f88849256",
             "packed": false
         },
         {
             "name": "nct6775.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/purley-4.4.302/nct6775.ko",
-            "sha256": "15f44e5bfb9c1ccc9faf083f315d493c420b3b3ed49c4aacb96bba14d80f7b09",
+            "sha256": "36cd0d34e3a72b17dd972f21498a6b2ace155cd354224cccc14762b38cd0e6be",
             "packed": false
         },
         {

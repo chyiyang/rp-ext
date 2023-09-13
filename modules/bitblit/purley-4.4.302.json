@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/purley-4.4.302/fb.ko",
-            "sha256": "f2ac9118563c4dbd032baf874d21b841b426e16b857ba8a0c8867306bec159da",
+            "sha256": "36bd56ae74caf49298ceed7b16a5069c6c21909f9ef294174621d7a034d48dfd",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/purley-4.4.302/softcursor.ko",
-            "sha256": "1b58e92a11c59007db4c19ae85ddb0dbaa86ec0283c3613b5f26b40cdcca6b50",
+            "sha256": "d16ed3dd9b2c68699d579f7fae5cc63d016dccf0b92541acef648dce671bfc9c",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/purley-4.4.302/bitblit.ko",
-            "sha256": "bd29ea8d9dd125e89e364653be98089d78a5c6f39e47575eed6370adab63598f",
+            "sha256": "27e07b8fecc24b7200c101876cba615c62ed016d54deb2fa6769a9ceefe1db7e",
             "packed": false
         },
         {

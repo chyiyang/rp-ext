@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/purley-4.4.180/mii.ko",
-            "sha256": "1e54531d0ff34b362fadffa9686e61f8a6fc732532444bea29eb0747e31fbbfd",
+            "sha256": "cafbdeddc91611b4705d142d361e3d0084b4261c0a046a4062bb882090795370",
             "packed": false
         },
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/purley-4.4.180/libphy.ko",
-            "sha256": "94dcb00b66218a474d3f4a6c086a9ccece8802dc961cac3ebad65fb41bb23fdb",
+            "sha256": "c61b6551f7d24e3319b73abc527075422f9e8c73d70478f996ceded3edb04ecf",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/purley-4.4.180/usbnet.ko",
-            "sha256": "0d415db9577dff722ad826b7e5f8d802590e921862b38c9848847e3db5a98829",
+            "sha256": "c85379d05d21583abad603ffca21c7bff37656492e3b8e0ff62b18f114d5d9e6",
             "packed": false
         },
         {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/purley-4.4.180/asix.ko",
-            "sha256": "3b45a933e1b8eca5bf4356a0de817df2b42aa887a18545f36d237eee115210d3",
+            "sha256": "4eec901ede2d78b98b293c29d4e09708957bd127dcbabe633c853b6d73f9de21",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/geminilake-4.4.59/mii.ko",
-            "sha256": "cfcde978523e39bda0f401cf069623a716db136f261ce7132557730ffd1bb306",
+            "sha256": "75875d2db6c92ca9e8fee04752bea1548ac267b7e7f0031b58414378cbbc2853",
             "packed": false
         },
         {
             "name": "8139cp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/geminilake-4.4.59/8139cp.ko",
-            "sha256": "6283c88f44f5045872a296bbcc22445cea35c675bcf8fdafae8d593f772c9a84",
+            "sha256": "08de14356baa548ca0713a453fbf01660f917c25cd178b7deb4ab064f84803d6",
             "packed": false
         },
         {

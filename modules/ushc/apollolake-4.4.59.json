@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/apollolake-4.4.59/mmc_core.ko",
-            "sha256": "313d9b9bdda390e5f845442cc6729736fee2030576c5f063995602acd2bb4d64",
+            "sha256": "14e0eac9db5c42004386adc71dea032cd84bb78ea212f752068fbebdbe76a6e2",
             "packed": false
         },
         {
             "name": "ushc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/apollolake-4.4.59/ushc.ko",
-            "sha256": "97bce2ea4a1a0b211f1f35f13baed6c585abb7b10007d914f2b65a64ae6de94a",
+            "sha256": "61217d1d013a8e960eba2e64a4ee1b85d0e73870e2e251ff59f7997a9c14b4ab",
             "packed": false
         },
         {

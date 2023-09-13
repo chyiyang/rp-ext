@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/denverton-4.4.302/mii.ko",
-            "sha256": "2c47f125f92a92a00429c2f585f50150e8633ceb27fe2293b071fcbec8493545",
+            "sha256": "b4a05652ad289cfe160a7cf7d120ba208c4a983d6cd5ceb91daf27bcd717b4fa",
             "packed": false
         },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/denverton-4.4.302/r8169.ko",
-            "sha256": "191ce44035d4fdff5096c390f86b8f4642994173766dadc186f908716df42f1c",
+            "sha256": "6b3e8d51297e633a6008c689f0c72bbd0209741a243e30085a45873bfac04959",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/denverton-4.4.302/r8169_firmware.tag.gz",
-            "sha256": "c08bd15a3bb0b0e30aa3d74bc4864e57c8bd9a5c0c9da85f8b2e1c6e97998aa5",
+            "sha256": "d339d645ae72e185484ddb9437ba8040585489fd457f4cc65ceb2cb8dd34fe5e",
             "packed": false
         },
         {

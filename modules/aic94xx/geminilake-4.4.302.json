@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "libsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/libsas.ko",
-            "sha256": "cfea1d6c1d8b98f240d4ffe14919ee3796329d90f30cb09d2021e36f66ee6d8c",
+            "sha256": "b46b7a69c7fc475d4e5013b1d741ddf924ef0ebb1b7f5e6632227d68c129ddaa",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/scsi_transport_sas.ko",
-            "sha256": "e826f278419fe82de7c55349f6ee0e476044c697040e126a7b966613d3723549",
+            "sha256": "2b9bb645c203869e13bef20f2fa9274d542d4c97d76f893ad01fa1b57b04483d",
             "packed": false
         },
         {
             "name": "aic94xx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/aic94xx.ko",
-            "sha256": "96a75cf6fe979360fae43c863bbdef91015aed115763d0d92ac104910beba88c",
+            "sha256": "d19161929e0d32c618da288d243af19150e81420198db0bee18a6cd3fd0cc780",
             "packed": false
         },
         {

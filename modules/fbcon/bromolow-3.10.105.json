@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/bromolow-3.10.105/fb.ko",
-            "sha256": "3bbdd6e481d328f4d3b1ee883489cf4acb684eff9809cca8cb4e23d540b3448b",
+            "sha256": "7c3fa5e00b20a6da1ff9f7ffc4853555617bdf20aaf3fd3d0286b48a7baf43d4",
             "packed": false
         },
         {
             "name": "font.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/bromolow-3.10.105/font.ko",
-            "sha256": "56b6c3fcae0f32c57702ca349d39c1b58a4a421d392f1b5ed43d5c25dfdd4b75",
+            "sha256": "4d0857571998f2dabd7ef6ea254d684495d28aa251bed0d5c0a0fc1ccc97b288",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/bromolow-3.10.105/bitblit.ko",
-            "sha256": "7d9263052f90f24113e3b158d69134091a32c8c186a9bcd82f4efa3bfe80bdc6",
+            "sha256": "8bb3cbf26ebf5a3a41a8c798b5f20286a066678a1732a86e8bfa7c58d3e79bb8",
             "packed": false
         },
         {
             "name": "fbcon.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/bromolow-3.10.105/fbcon.ko",
-            "sha256": "1d35c4f6476d46a76ce12fae478617e9f23eebc7a5348a2995e1abd5f6f798b5",
+            "sha256": "771b2e891466f4aa9d02e1bdb936858ea6de4bfd227dc4b4330ecc0c24dff7e3",
             "packed": false
         },
         {

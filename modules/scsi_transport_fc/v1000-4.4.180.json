@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "scsi_transport_fc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/v1000-4.4.180/scsi_transport_fc.ko",
+            "sha256": "8f59d16d46ea29e9841160a12eac84f5ec9e2b7044e5bb1d48c37173eb98c880",
+            "packed": false
+        },
+        {
+            "name": "check-scsi_transport_fc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/v1000-4.4.180/check-scsi_transport_fc.sh",
+            "sha256": "9e351a8a0589ce651104db7aaa080966412f6c7fe00feddbfb49c6acfd334869",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_fc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_fc.sh"
+    }
+}

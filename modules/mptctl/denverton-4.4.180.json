@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/denverton-4.4.180/mptbase.ko",
-            "sha256": "a3b5c602fb6a4ec1d4acf74e5043e94bd31f9cc626b8eabb582de782a6fe1978",
+            "sha256": "877b2cde63f805dc761718b4b6007a17de40866dfefa9b6d7278b5bb8921ba1f",
             "packed": false
         },
         {
             "name": "mptctl.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/denverton-4.4.180/mptctl.ko",
-            "sha256": "9cd8ae59aa3674a932c4aa25ce277597346262b398cfdee2e5b23f3a78187486",
+            "sha256": "fecd869f6055ce0d3f5d8fd87732f8b5a65ee2630affaf4e23ccd405e584d56e",
             "packed": false
         },
         {

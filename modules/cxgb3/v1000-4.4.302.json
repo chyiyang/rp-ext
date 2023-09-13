@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/v1000-4.4.302/mdio.ko",
-            "sha256": "3f101ed7b45eebb98b40162217f651d3242736db00e419bf5ca790b489538d5f",
+            "sha256": "d2898ae508025820808f524559b935756241d033f7f0c6d883f589114f6af5bf",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/v1000-4.4.302/cxgb3.ko",
-            "sha256": "607d545ca0a4d41137f40941e7376c573129b080afa512320e72e18d4e6a32e6",
+            "sha256": "7d25945ddb8efff8620281e0a47ca32a7c5c40fc89f0138cac69cb3e0b302b8d",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/v1000-4.4.302/cxgb3_firmware.tag.gz",
-            "sha256": "7db8766c27dd874860866c8fad334c3bb28c13192e924264eea393bfc79f844b",
+            "sha256": "24369ae62fc644062be72245cfa4775878ec9b1ff3b7a453273064405f56565a",
             "packed": false
         },
         {

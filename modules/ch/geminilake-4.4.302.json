@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "ch.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ch/geminilake-4.4.302/ch.ko",
+            "sha256": "4663a6c951be9ee6202dd70447240e6cd58434efee72c93af3ad70726476b92c",
+            "packed": false
+        },
+        {
+            "name": "check-ch.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ch/geminilake-4.4.302/check-ch.sh",
+            "sha256": "9a2e0e9d3060414c0b01b641ffe54ad4de58ab991d0d9fa41f25d48a58f4cc18",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ch.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ch.sh"
+    }
+}

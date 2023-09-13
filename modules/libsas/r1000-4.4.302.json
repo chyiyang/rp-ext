@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/r1000-4.4.302/scsi_transport_sas.ko",
-            "sha256": "7cbf14f614bf043d40674b55b1b765d077e76e9ce453e7d6ab9fe0658565aa44",
+            "sha256": "7f89c4dadbecb9efac9e2f3ca2fec2da65bbffc5aaf344b6f3398f8198ed09fe",
             "packed": false
         },
         {
             "name": "libsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/r1000-4.4.302/libsas.ko",
-            "sha256": "ad14c852423723075c8ab0c7ea0a13e7e729a042585b03dc2ab6d7993be12486",
+            "sha256": "4a43a20db6bb906a1480dd1169b48d285f7d5be0cef9c62c4f508aa9e4d6a7e1",
             "packed": false
         },
         {

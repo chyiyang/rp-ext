@@ -1,34 +1,34 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb_usb_v2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/apollolake-4.4.180/dvb_usb_v2.ko",
-            "sha256": "6d7adae64eef1af73d848a2cf6737db4a6256422b6f2ffec3ed50f3f6c90f7df",
+            "sha256": "c4698ca80e0f1a929a388d7a084702f3464f57b8caaf63a9ea29d53f16cfcdaf",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/apollolake-4.4.180/dvb-core.ko",
-            "sha256": "76656bdede934670a3d5f5ea04c1ab4450390bba43bcddd48083f38855d948ae",
+            "sha256": "81109e25c5dd552869432a221d45cbffdcaad59c2715f89f745fda09523efb7f",
             "packed": false
         },
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/apollolake-4.4.180/rc-core.ko",
-            "sha256": "b1e2d7c0c3b110aa2a22770ad847b6fc3f9e7ae4f2471294c63156efec588f48",
+            "sha256": "1495161e0811a5c28d1421d02a7cc396f44fc5cc67d2ae47bd6e84571394f48b",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/apollolake-4.4.180/m88ds3103.ko",
-            "sha256": "9c64b14ea8582addd544a81927a676f9b49d1489e66382d9d7aeb07a658a10b7",
+            "sha256": "e5ae73dbf3afcb526350971ebc1260b91254d72f14301a1652920f51105f40c2",
             "packed": false
         },
         {
             "name": "dvb-usb-dvbsky.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/apollolake-4.4.180/dvb-usb-dvbsky.ko",
-            "sha256": "cf4b892912a9655ed4550212aa984a77de9cb2c923d301170602276665dbbb73",
+            "sha256": "737952d360c6e1a641ceb01227b96135ecac142bcc54623ed869890e0d507d3f",
             "packed": false
         },
         {
@@ -40,7 +40,7 @@
         {
             "name": "dvb-usb-dvbsky_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/apollolake-4.4.180/dvb-usb-dvbsky_firmware.tag.gz",
-            "sha256": "4dfaeb8d7c6e9e1c31b3d390d84dfdd478d2e18411a087af69312e0822f110f2",
+            "sha256": "bf2b8a07be2ecc0c32d0eb249d0d22b876f51e8db01ed18cfae1c0b218f0f0b3",
             "packed": false
         },
         {

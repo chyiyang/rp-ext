@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/denverton-4.4.302/dvb-core.ko",
-            "sha256": "7e8f74ac32263811d848f63c5d3b6fb47fe9603fced24536eb294a4b4440c7ae",
+            "sha256": "262483142bff7a2b379e9e7663a1b672a694bbe2afc30f018a91cf48b8728e83",
             "packed": false
         },
         {
             "name": "sp2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/denverton-4.4.302/sp2.ko",
-            "sha256": "af2f8c706326fe348ec370f8d7cab5d6f122bdd869ca71ad4352b496eef78eed",
+            "sha256": "a7e596a53e93ab45d8aa3f6cf87d59ab7a86d6cb9de41b476c5e341551836618",
             "packed": false
         },
         {

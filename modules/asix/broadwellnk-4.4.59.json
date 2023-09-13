@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/broadwellnk-4.4.59/mii.ko",
-            "sha256": "4273600efe53e6c20b0f21f495eefef8fa758b1395e0f5eba5ec8d59a2332150",
+            "sha256": "fd34fa44b49e447609e92c2788d7bc78f2980ad8a6d45cac0458cadca76ccf61",
             "packed": false
         },
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/broadwellnk-4.4.59/libphy.ko",
-            "sha256": "78e507b56aabc25ae0468300b20637655121ebeb3a112263da51eafff066c86d",
+            "sha256": "db56ac44edbb67bbdb86bd2c2efcc7f5fd9d333c745b5f6031e1cb296c26e364",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/broadwellnk-4.4.59/usbnet.ko",
-            "sha256": "f99a2d6ab2ff431e9540cc7beb22cd33b98ba1f001e8594589e0d3ca3c8ad37f",
+            "sha256": "c629bbd066f70811da5b27615c17c872bbe271d53bec63b836a1ad48e0097d85",
             "packed": false
         },
         {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/broadwellnk-4.4.59/asix.ko",
-            "sha256": "df2903241f5506324ec0316bc70ece1b10834863301685b30495f1944094838c",
+            "sha256": "92d0e5162977d11d83d10caeb58fbbafb5dc721e1d9849ba62a0be570798637d",
             "packed": false
         },
         {

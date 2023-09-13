@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/geminilake-4.4.180/mptbase.ko",
-            "sha256": "50da25d16b7133b75172f9e2765ccd79a6d30863e0ee30a4ee93fd7809f4558c",
+            "sha256": "2913f8b0239b2845e5f3628859eb42f7bf21d1150c65699ab3cebee71d968cca",
             "packed": false
         },
         {
             "name": "mptctl.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/geminilake-4.4.180/mptctl.ko",
-            "sha256": "ba7e082eed78cdc96842603b99c44976f5eee80ad074101785dfd7931f6a9825",
+            "sha256": "bfd7937da2e3e5776ebea58e2729e50be8a88292c04e0ee1ee7121580ca3dab2",
             "packed": false
         },
         {

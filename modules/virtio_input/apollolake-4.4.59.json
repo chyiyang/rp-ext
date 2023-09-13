@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/apollolake-4.4.59/virtio.ko",
-            "sha256": "245524ad5250d4a0225a710601428a645dba7cab869e07e41f9fb4247cce4619",
+            "sha256": "fa1735b754044b9e19eed94423ae88e50d99ca46720d50be1f30d84b5fcce817",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/apollolake-4.4.59/virtio_ring.ko",
-            "sha256": "725aec7536b0ab9974c5d0d7c1de6709b6f53a32554959a2e877e55df736f43c",
+            "sha256": "a670888de1379b69c7353f99b8e79290c389124e76e39122809cb4b565237caa",
             "packed": false
         },
         {
             "name": "virtio_input.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/apollolake-4.4.59/virtio_input.ko",
-            "sha256": "fbcd9875d5c1372b93dc36caa5e37a49a5be811a6aee64ec2bc0bee7093e12ca",
+            "sha256": "f3ef30270d69da0344fc669d04b69150ca328d59e2c6739a21bb5cb7af4dd382",
             "packed": false
         },
         {

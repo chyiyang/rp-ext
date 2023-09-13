@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/epyc7002-7.1-5.10.55/hwmon-vid.ko",
-            "sha256": "030704963480f95a1d40ac87fe5c93ac9e3b0f69274d9c9132a82e0e8533bfd0",
+            "sha256": "14e83262e5339c856e0bb9ea68fe2616d7a4dc33667bcc7bfbf56a7a11a31501",
             "packed": false
         },
         {
             "name": "dme1737.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/epyc7002-7.1-5.10.55/dme1737.ko",
-            "sha256": "ce741f95bb1466278e6fc79ee1cdcb8d9b670054ca4ccd1051057d63a5a9c199",
+            "sha256": "1f22ca7140201cec6204ae990419b8edcb936d47feed4ed1275c1ddb5786fb6f",
             "packed": false
         },
         {

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "sg.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sg/geminilake-4.4.180/sg.ko",
+            "sha256": "3233e5506354b7d41e17c96b2cddef0062936a30433def48de600e8aedbe9718",
+            "packed": false
+        },
+        {
+            "name": "check-sg.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sg/geminilake-4.4.180/check-sg.sh",
+            "sha256": "697e19f165746006a256d0faf58c9a6c545b80e094e8eaf0e238e868ea9d8075",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sg.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sg.sh"
+    }
+}

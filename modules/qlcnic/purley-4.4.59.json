@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "qlcnic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/purley-4.4.59/qlcnic.ko",
-            "sha256": "33bf7764eff7209fe241ec1041ddb82e80f0bfee69e0f1ae4d03cdd633629713",
+            "sha256": "88317519acd3cb9f704ce28628912002126a662bf422cf9f874a30c607512312",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "qlcnic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/purley-4.4.59/qlcnic_firmware.tag.gz",
-            "sha256": "887b0ea2b92173deaf2f25e9d7fec19eb08b8dc1866d29419500bd5559762a8a",
+            "sha256": "71debf007fe2c11399b8eecdacf98df8db25785ed0bc1cd00a3ffb56b16dbd72",
             "packed": false
         },
         {

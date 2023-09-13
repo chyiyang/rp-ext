@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "si2157.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/purley-4.4.59/si2157.ko",
-            "sha256": "7b04be9cf6ebafb98e9d9f1bd49e242d1e50a8ee13c04467a95f85ad4248da2c",
+            "sha256": "84f0f0aa2d162b15fb37684aad43931bdb78bbebc6e64025cff80236775c5bcc",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/purley-4.4.59/si2157_firmware.tag.gz",
-            "sha256": "3da9389f952b1ec246b303f51af9b13a8378d3179258639d1cbdbd8cf2c92cd5",
+            "sha256": "4bce5df391fd009d31c9003972db5e26dc6c5c1d9768856b58c1b1d5a0ea065e",
             "packed": false
         },
         {

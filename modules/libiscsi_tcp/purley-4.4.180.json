@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "libiscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/purley-4.4.180/libiscsi.ko",
+            "sha256": "8bb00e5a8bf3f4b1b0230ae50f51c38aa3649fdc94e0f801f86e3ffad78f323f",
+            "packed": false
+        },
+        {
+            "name": "libiscsi_tcp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/purley-4.4.180/libiscsi_tcp.ko",
+            "sha256": "4979a113138693585153dfcee466fcb0d7b40d9f44248cdbc6e9b55253d48df5",
+            "packed": false
+        },
+        {
+            "name": "check-libiscsi_tcp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/purley-4.4.180/check-libiscsi_tcp.sh",
+            "sha256": "1c62586a1d72d183dd6119b9e4fe6ed6b3ff2129f7ab4a92ca5f257e659a2495",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libiscsi.ko": "",
+        "libiscsi_tcp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libiscsi_tcp.sh"
+    }
+}

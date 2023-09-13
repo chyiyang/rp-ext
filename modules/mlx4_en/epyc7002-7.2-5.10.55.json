@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-7.2-5.10.55/mlx4_core.ko",
-            "sha256": "2b1c4b2808c9c5d5a51a5bb94fbb0d396ef0ceab2555d0523b274651592238ed",
+            "sha256": "50264f8c228f5d272127fb860ade8dad00fe0377bfe1ba5ad33d95e6ff89dce4",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-7.2-5.10.55/mlx4_en.ko",
-            "sha256": "596964f218a485407e1ddf98cf33e7e99e4351c9838294e4e59ae4e1724c1583",
+            "sha256": "2f9784c0a9947ba5a931f61f59124f042bf55ca156986af457207b74b56103d4",
             "packed": false
         },
         {

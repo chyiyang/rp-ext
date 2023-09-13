@@ -1,20 +1,34 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/denverton-4.4.180/virtio.ko",
+            "sha256": "aa482e24081baf4d85017f3ae392daf9ec8625eea7649661a1311cd19ac3d474",
+            "packed": false
+        },
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/denverton-4.4.180/virtio_ring.ko",
+            "sha256": "fbb416f9bfd73b064624c42682ba55221e73edcf432b119d137ce90ab872f08c",
+            "packed": false
+        },
         {
             "name": "virtio_scsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/denverton-4.4.180/virtio_scsi.ko",
-            "sha256": "54f03b9e507befd9114ef6a78e683be59da8eca7f9d73dcca700fc152b1c19d7",
+            "sha256": "43bba5e5e9f70fd8b4c23e449d7dc7e6b67adc1870eca48bab2cf6eec2ee907f",
             "packed": false
         },
         {
             "name": "check-virtio_scsi.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/denverton-4.4.180/check-virtio_scsi.sh",
-            "sha256": "e3c03970c21307bd5f9f9b7c9d95d89054d0b482026bf05c25b0733cf676d898",
+            "sha256": "5b4c24e6f92a2377f6d992cff786b8918fe2931854a9a5b95ad1d0ee9b109f15",
             "packed": false
         }
     ],
     "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
         "virtio_scsi.ko": ""
     },
     "scripts": {

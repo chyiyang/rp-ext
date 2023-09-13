@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/purley-4.4.180/qed.ko",
-            "sha256": "82cd90c294b1dc357ce1d7edcfb38ff7f1b394e54ae998ce201db92681a91b4b",
+            "sha256": "6c4e6e969813df8fd5445e64b835091d111e28e9cdcf08ba4374ef8a1fbef8a3",
             "packed": false
         },
         {
             "name": "qede.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/purley-4.4.180/qede.ko",
-            "sha256": "ec016ef3c1bf054298ac187cc043de2325a1b4dd401d9c733b180c0a87728b44",
+            "sha256": "ab5026328307385aa9f1a756060d883cbf18cc47afb840509d53220c95e1c9d4",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/purley-4.4.180/qede_firmware.tag.gz",
-            "sha256": "874e55b3d05d104b70cef32dcdda9752ca08174ff6a2a69cec3646bb731f59fa",
+            "sha256": "be908bf3b097b5f829ad7867a29a066ff249bcc3f974c95d428ff0231656b42b",
             "packed": false
         },
         {

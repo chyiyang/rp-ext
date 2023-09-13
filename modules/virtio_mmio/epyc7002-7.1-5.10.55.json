@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "virtio_mmio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_mmio/epyc7002-7.1-5.10.55/virtio_mmio.ko",
-            "sha256": "c4879ada03c3cf7f9d944857247953d9f1281d789a3e76163687b90540980371",
+            "sha256": "b584e1465cedb25ec01b3346f25f2fbdbebd673715755200fadd21d5354aa8ef",
             "packed": false
         },
         {

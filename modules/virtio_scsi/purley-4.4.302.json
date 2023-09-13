@@ -1,20 +1,34 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/purley-4.4.302/virtio.ko",
+            "sha256": "5c1dc0c30130d2d691ca38c7028dc11bedd260cd244d41dafacc71a57bc38294",
+            "packed": false
+        },
+        {
+            "name": "virtio_ring.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/purley-4.4.302/virtio_ring.ko",
+            "sha256": "67e1f8b2af9f06dbcf37f81aff54fd2bf56e822c71d25f044cc788dbffe2837f",
+            "packed": false
+        },
         {
             "name": "virtio_scsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/purley-4.4.302/virtio_scsi.ko",
-            "sha256": "07daa47f16682b49b3c9639aff068491c4a6e220ee8ef8dfc5e5ba6afcc449ff",
+            "sha256": "8255095fc0a696b69db251d5abd2ee19f57dfdb3ec59f909db1d872e9f681d21",
             "packed": false
         },
         {
             "name": "check-virtio_scsi.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/purley-4.4.302/check-virtio_scsi.sh",
-            "sha256": "e3c03970c21307bd5f9f9b7c9d95d89054d0b482026bf05c25b0733cf676d898",
+            "sha256": "5b4c24e6f92a2377f6d992cff786b8918fe2931854a9a5b95ad1d0ee9b109f15",
             "packed": false
         }
     ],
     "kmods": {
+        "virtio.ko": "",
+        "virtio_ring.ko": "",
         "virtio_scsi.ko": ""
     },
     "scripts": {

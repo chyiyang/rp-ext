@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "sg.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sg/apollolake-4.4.302/sg.ko",
+            "sha256": "069f8fbe364c0dc2925cf8576b8bfd6fd46d297ed68c54124e56ec6825c9ee53",
+            "packed": false
+        },
+        {
+            "name": "check-sg.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sg/apollolake-4.4.302/check-sg.sh",
+            "sha256": "697e19f165746006a256d0faf58c9a6c545b80e094e8eaf0e238e868ea9d8075",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sg.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sg.sh"
+    }
+}

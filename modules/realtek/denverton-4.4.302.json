@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/denverton-4.4.302/libphy.ko",
-            "sha256": "f927de44aecb2acede92a017ed57284a38a6b0ea42c34f28ee5ea79f6f2ec883",
+            "sha256": "d7b49fdb359b1fa690c8e676c2ac82b778b1b803c241f99748bd04e049736171",
             "packed": false
         },
         {
             "name": "realtek.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/denverton-4.4.302/realtek.ko",
-            "sha256": "a02dfde2f11b3ae00bcd764a522553f24198e2902a5e6b32015368c91879d013",
+            "sha256": "46e5f35cf7c98a745596ed57a6069b75758a1d65613cbda18b829ca82aa43288",
             "packed": false
         },
         {

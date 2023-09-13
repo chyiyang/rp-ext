@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/v1000-4.4.302/mii.ko",
-            "sha256": "6d1d5875a98afa07c998ff24aeb288652c6ba77d013f08f33bafe71e228943bf",
+            "sha256": "f905ede82ad81d8f16ed97860324799f7bd7cb9387c39a8e158d87d7eb6d5cf4",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/v1000-4.4.302/usbnet.ko",
-            "sha256": "eb97f73294f86583f86cbc44aeb5fbd833b537ff4081d2f94107980752cf582b",
+            "sha256": "7e7ea4e2edecf8e0497e0d431111d80a962cecc836ea426d12bf0a3bcda4e4ce",
             "packed": false
         },
         {

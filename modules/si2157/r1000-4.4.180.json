@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "si2157.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/r1000-4.4.180/si2157.ko",
-            "sha256": "f102f2628f468cb455648cfa8b486d9fbd4ad6a2cea783f6824b40a7a3c70120",
+            "sha256": "1ad85cca88e05b710f7a9028b2dabae9974eec34093745cbcdf9397c51d6d2ba",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/r1000-4.4.180/si2157_firmware.tag.gz",
-            "sha256": "97f7a1fc1de7898faa0b37f63bfb9c50f80ecb4bef5a671657a4a61159264a9d",
+            "sha256": "1e27c09375595be7a1a88abcf0ce6b9c48c293898fcc6334aae6357b9544ecfc",
             "packed": false
         },
         {

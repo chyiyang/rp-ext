@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/v1000-4.4.302/mdio.ko",
-            "sha256": "3f101ed7b45eebb98b40162217f651d3242736db00e419bf5ca790b489538d5f",
+            "sha256": "d2898ae508025820808f524559b935756241d033f7f0c6d883f589114f6af5bf",
             "packed": false
         },
         {
             "name": "alx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/v1000-4.4.302/alx.ko",
-            "sha256": "18326145406b99450f43c376bb291d99ec9498f320716c200f5552bfd66f7691",
+            "sha256": "098ca0b2ee816a0b3e9870d03faf418b9835da0810b8398969e47b53bc042a79",
             "packed": false
         },
         {

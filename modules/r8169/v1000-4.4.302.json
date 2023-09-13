@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/v1000-4.4.302/mii.ko",
-            "sha256": "6d1d5875a98afa07c998ff24aeb288652c6ba77d013f08f33bafe71e228943bf",
+            "sha256": "f905ede82ad81d8f16ed97860324799f7bd7cb9387c39a8e158d87d7eb6d5cf4",
             "packed": false
         },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/v1000-4.4.302/r8169.ko",
-            "sha256": "a1e0b434aef691b864f3b35ee8e300cbf36da7d18242873944cb91748b01ff1e",
+            "sha256": "523c493228ae12496ab3e84a5162ee4b6a139081e02c65de939b8313b3c42c88",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/v1000-4.4.302/r8169_firmware.tag.gz",
-            "sha256": "341bcfd172d8504e2518ddbb906b2c64fb2454d688b23f042513525bd74674c3",
+            "sha256": "02fccb44c6baa1a243589cee1455ecca1243118b042637b5d1ad9c479976b270",
             "packed": false
         },
         {

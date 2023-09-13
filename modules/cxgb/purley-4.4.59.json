@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/purley-4.4.59/mdio.ko",
-            "sha256": "279f24ef4e4253ddec651d2b32dde6267f18eff4a2a2882ca928a5df6466fe06",
+            "sha256": "32a3e97e1f831b22ea2289e2912e4fce605533ec63392fd2c05ce1898313444a",
             "packed": false
         },
         {
             "name": "cxgb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/purley-4.4.59/cxgb.ko",
-            "sha256": "818c41b97ed1c302fe44ba1470357b08a966868f6917290835951c8c6ccab36e",
+            "sha256": "581a55facbe379f73611da96af5b188290f803990b60e624b4c498e0400cada7",
             "packed": false
         },
         {

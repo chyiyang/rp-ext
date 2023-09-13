@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "libiscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.180/libiscsi.ko",
+            "sha256": "e16fe5f47051ff74186d318e4b00196b4e00159035f7a8a82cf29375d57857aa",
+            "packed": false
+        },
+        {
+            "name": "libiscsi_tcp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.180/libiscsi_tcp.ko",
+            "sha256": "e97a2e8cfa265a90e37f18afda7dde380c7034d31e6d94fe8bfa5832edd47789",
+            "packed": false
+        },
+        {
+            "name": "iscsi_tcp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.180/iscsi_tcp.ko",
+            "sha256": "da70cdba1e3351b3ababa5217663e233f1eb0f1578d846a7a390e811bed34e87",
+            "packed": false
+        },
+        {
+            "name": "check-iscsi_tcp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.180/check-iscsi_tcp.sh",
+            "sha256": "406de6b4891ee599907e99c84c3126d4649fd5147fba504e90d604250e726eb4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libiscsi.ko": "",
+        "libiscsi_tcp.ko": "",
+        "iscsi_tcp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iscsi_tcp.sh"
+    }
+}

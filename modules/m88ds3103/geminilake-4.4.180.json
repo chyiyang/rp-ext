@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.180/dvb-core.ko",
-            "sha256": "b6eea268863d8f73d84b91a35532eee6591a250ca46baf75a6c528f83ab1a7ec",
+            "sha256": "4a7cbe568c9189dc93aaa7d3ce370201aa6a413efb8205fa772346a7188ce359",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.180/m88ds3103.ko",
-            "sha256": "fa81e1ee9054bf0cb92c230973e63e6d8069764e87adde84157dfef0251c731b",
+            "sha256": "41b880e9ae7b4b29b0899412088d76b728a2454403eff958ec069660e4c96b5f",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.180/m88ds3103_firmware.tag.gz",
-            "sha256": "7caaa5f9cd6685b3dc999002282bca9dbceceff3c9d99370de1b60d1c14e24c9",
+            "sha256": "0821b06ff3ec16e33a0bcede93f3f5035874e9a10ed5980af1522be065d21444",
             "packed": false
         },
         {

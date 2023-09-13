@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/r1000-4.4.302/mii.ko",
-            "sha256": "6d1d5875a98afa07c998ff24aeb288652c6ba77d013f08f33bafe71e228943bf",
+            "sha256": "f905ede82ad81d8f16ed97860324799f7bd7cb9387c39a8e158d87d7eb6d5cf4",
             "packed": false
         },
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/r1000-4.4.302/b44.ko",
-            "sha256": "f400b3a6158699475b5cf8155ef173ff787cf11d0a5bcb40357b2fccd243780c",
+            "sha256": "25f8fced12cb76273a10bd28566241c2d1723570a7d7850c938e84e64dbbe700",
             "packed": false
         },
         {

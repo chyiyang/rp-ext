@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "crc-itu-t.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/apollolake-4.4.180/crc-itu-t.ko",
-            "sha256": "cbfcbc54aaf392ca81f8a37642fb32d232968ae22b2046ea6e1cdeca7e6bb3e0",
+            "sha256": "6de69495211cc4469bffc4c007d28149805a5d4f7f9a7c6dd09622d99a711f17",
             "packed": false
         },
         {
             "name": "atlantic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/apollolake-4.4.180/atlantic.ko",
-            "sha256": "d8460b53cd0a346b701a9fb71ace417a50784a024eefe59edb55f48c406d821c",
+            "sha256": "040f75a63941f2497a4fb96acb4c953034b530b37989582527072bca5997caeb",
             "packed": false
         },
         {

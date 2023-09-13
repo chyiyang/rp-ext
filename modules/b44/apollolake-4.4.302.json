@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.302/libphy.ko",
-            "sha256": "0380c7a7b58d5ff4e44f668519aa5ea6e29ed023b23be841fb5c5ced551ad068",
+            "sha256": "e5502149db1dd5e6c976fafc48e85c922876fca44de7761f0557c9ff2b5543eb",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.302/mii.ko",
-            "sha256": "858d78fce1625ba3a8f2cae50117a7bbc042ce86e8eb0b109209d6a3fb1807cf",
+            "sha256": "c8265da77d283a065cebabeddd280fcf69c4efb8e33dee03c6187c0bce21fda5",
             "packed": false
         },
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/apollolake-4.4.302/b44.ko",
-            "sha256": "1d4138d85e706f5f1c41dedaea4d9beb00d1897f34031b1fa3edbe177c96ef00",
+            "sha256": "f27e9cfc016e28ccb1bab4d04d1a9ea87ee3e3cc5e1392906d6479bd96c3eaed",
             "packed": false
         },
         {

@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "cxgb4.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/geminilake-4.4.59/cxgb4.ko",
-            "sha256": "1363b644cb061aee2e349779eeb405ac4f327c8fb9578f422dffda64a88a1c3a",
+            "sha256": "5e86861f0e928332ddee1e495b4f0fb55a77f6deaf4eaaae72c425370d5d840c",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/geminilake-4.4.59/cxgb4_firmware.tag.gz",
-            "sha256": "41b4c5ddd88acd05a841254057ff8bf88e72dcccd70a6f6ef3024d54cc6b6cf7",
+            "sha256": "a11b08060989657a6ce48bba2cbdd4940d252e9f1f38b7be03cf8d5715f05c0e",
             "packed": false
         },
         {

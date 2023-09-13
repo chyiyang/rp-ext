@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/purley-4.4.180/mdio.ko",
-            "sha256": "9181e6e28cd920fd075ffef6d0037fc6671280d2b773621b344b709ef70fad0d",
+            "sha256": "fb7ae5dd3bab0f8f5b5b96b4f03bb46e886d8e071036ee77441b87ec9bdd4887",
             "packed": false
         },
         {
             "name": "alx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/purley-4.4.180/alx.ko",
-            "sha256": "1da531b6271ea1fc9b0b83a69fe085ad3dc212ac2d4cef9fdace4494ef17291f",
+            "sha256": "f677f07473d64d09d030af97fe44bd001d4129894393765f01f178a1361554ed",
             "packed": false
         },
         {

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "ch.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ch/apollolake-4.4.302/ch.ko",
+            "sha256": "b543ccc2dd5dae436adc83d204d9089d8d7fe19e54087acd3961191e4d118e27",
+            "packed": false
+        },
+        {
+            "name": "check-ch.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ch/apollolake-4.4.302/check-ch.sh",
+            "sha256": "9a2e0e9d3060414c0b01b641ffe54ad4de58ab991d0d9fa41f25d48a58f4cc18",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ch.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ch.sh"
+    }
+}

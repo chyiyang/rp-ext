@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/purley-4.4.59/mdio.ko",
-            "sha256": "279f24ef4e4253ddec651d2b32dde6267f18eff4a2a2882ca928a5df6466fe06",
+            "sha256": "32a3e97e1f831b22ea2289e2912e4fce605533ec63392fd2c05ce1898313444a",
             "packed": false
         },
         {
             "name": "bnx2x.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/purley-4.4.59/bnx2x.ko",
-            "sha256": "1683f41bdde4887d2998080a49131a73174235440c01278258ee0109266087ef",
+            "sha256": "146815d90dd368ed6bc1cd68cf48770d075e9f462ba0fd8f8dfbbd6979e7ddd5",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "bnx2x_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/purley-4.4.59/bnx2x_firmware.tag.gz",
-            "sha256": "1a151145ed9231df48ff77d1b945eeb8453e8ca4fcd6d9f54e3b27ce24ef5e19",
+            "sha256": "8e96fd043dc4be20e0635f9ba5955e6644ddb809736a553624db0f3306e0fc55",
             "packed": false
         },
         {

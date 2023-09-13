@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/geminilake-4.4.180/libphy.ko",
-            "sha256": "f5514d75a2b31a0d846dbaae7d39d850f4574035039b9fd2d0818c8cdf08d257",
+            "sha256": "b14ea13b2303b6f8323914cb2e45cd4e2df17bc73da59253d8acfb8982dea694",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/geminilake-4.4.180/mii.ko",
-            "sha256": "0f77cda155a0f47c5a75a9a5ccd99e3ac7d9db7ddbcb456a9e8090606b053c95",
+            "sha256": "2ad20e6ce62f0b3bd2446eb55bf42d565b9067207c245ba18e20fb558db53145",
             "packed": false
         },
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/geminilake-4.4.180/b44.ko",
-            "sha256": "aee2e2e760216b42627e4ca2a3baa62f4bcbb22992c85c1a5f1db18a24dbd736",
+            "sha256": "273d6985820922bf6cf5c95e98dd374d7426f6bd3d7f5294039dbf8d2d1ebf4d",
             "packed": false
         },
         {

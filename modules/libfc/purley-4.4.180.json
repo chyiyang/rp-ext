@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "scsi_transport_fc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/purley-4.4.180/scsi_transport_fc.ko",
+            "sha256": "a4ce901beb9c82cafcc0cbd408e7021d11ca5515ac438db13192d67034dc4fee",
+            "packed": false
+        },
+        {
+            "name": "libfc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/purley-4.4.180/libfc.ko",
+            "sha256": "a71ce216045ebee6646b560cb9f1d1b4385663a61f3f6a534332216925c5a899",
+            "packed": false
+        },
+        {
+            "name": "check-libfc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/purley-4.4.180/check-libfc.sh",
+            "sha256": "f302864a561a5146e74e7eaae48c566bb28a2846797c64854082d9a12c6a8fb6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_fc.ko": "",
+        "libfc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libfc.sh"
+    }
+}

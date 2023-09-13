@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.1",
+    "files": [
+        {
+            "name": "scsi_transport_fc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwellnk-4.4.302/scsi_transport_fc.ko",
+            "sha256": "d491c830c58f43f5c29c2ddff916ba3a398913b052befd4dfcaaeb09bb287488",
+            "packed": false
+        },
+        {
+            "name": "libfc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwellnk-4.4.302/libfc.ko",
+            "sha256": "cf7bec667e7dd312126d39adecc53b98f4fa7063fd9d3a0d873fb2aa1e65eedd",
+            "packed": false
+        },
+        {
+            "name": "check-libfc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwellnk-4.4.302/check-libfc.sh",
+            "sha256": "f302864a561a5146e74e7eaae48c566bb28a2846797c64854082d9a12c6a8fb6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_fc.ko": "",
+        "libfc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libfc.sh"
+    }
+}

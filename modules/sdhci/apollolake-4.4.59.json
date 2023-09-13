@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/apollolake-4.4.59/mmc_core.ko",
-            "sha256": "313d9b9bdda390e5f845442cc6729736fee2030576c5f063995602acd2bb4d64",
+            "sha256": "14e0eac9db5c42004386adc71dea032cd84bb78ea212f752068fbebdbe76a6e2",
             "packed": false
         },
         {
             "name": "sdhci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/apollolake-4.4.59/sdhci.ko",
-            "sha256": "8089a23b61da9e10fc56b0a717ccf414505c9cf08f976125c85a51e6573a8add",
+            "sha256": "5513a60136c7edfb21a6df45c5ed63cbe4592e7498fbca38ce51e597129c2943",
             "packed": false
         },
         {

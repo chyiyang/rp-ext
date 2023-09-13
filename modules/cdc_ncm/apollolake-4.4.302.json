@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/apollolake-4.4.302/usbnet.ko",
-            "sha256": "8e6ade606bea2618d6af4b8eb609e958222537070c8eddced023d3c4bdbd6f77",
+            "sha256": "ad84b3ce786fd6f1f3f6e7d247b4c0b2c8a1cbec6627f9ac47d3bc515a067849",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/apollolake-4.4.302/cdc_ncm.ko",
-            "sha256": "fcd29432b3229b4fbc4d0832f3c4f61568ec5362deb8c991b04507caf1447bfc",
+            "sha256": "e74efa18b9ece6521d84dc374c0f27068383d5f2a2ef5df95abc75b477c89cc4",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/denverton-4.4.180/mii.ko",
-            "sha256": "78f141c91d756747ce76581b9e1c7cb829fce74c0fa3763ec4406fa9ee2c484b",
+            "sha256": "9f4acfb7c2093f01f611b4e213b0dc998b9db4288535e65894f5a532ad71a47f",
             "packed": false
         },
         {
             "name": "jme.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/denverton-4.4.180/jme.ko",
-            "sha256": "1129996efa388cdac619ee708afcc5b83a32c206adfaed67e7ece2640562336f",
+            "sha256": "3ba95b6b45e7dd7d04b9cd0fe86b023c82061fec61755273817a3b5c2154c240",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwell-3.10.105/mii.ko",
-            "sha256": "60c42eb04ddbbbe289d0ce988576913dc22c9c349050c36cfa0d5c63ca72c9df",
+            "sha256": "ff7de90acb0a741f48dd0a5ebe56587942ff9d1f20002ed0023f87d1ef7deaec",
             "packed": false
         },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwell-3.10.105/r8169.ko",
-            "sha256": "032c8b0ea18846c50c560ab13948ce4929a1e1d31dad4c9fe239fd5da5fbd8d6",
+            "sha256": "b8df64dabfd8fe33b95ddf18c05149b51cce32def6678f42cf2ccb74ae454594",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwell-3.10.105/r8169_firmware.tag.gz",
-            "sha256": "4cf3facf3fa286b97652fdd8638f607f06d847df02a3e98f245bc077e9622b34",
+            "sha256": "ef336dd4aa1e4837b62a8a4a594d53a914d0f05b4a2819c6a1b0cf0b3413d0a8",
             "packed": false
         },
         {

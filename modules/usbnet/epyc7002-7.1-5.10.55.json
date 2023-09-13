@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-7.1-5.10.55/mii.ko",
-            "sha256": "ee9bdce11cbaa2925cbfe0c19769e5279fe720388a730d7ba6f0216d2c8c7d6d",
+            "sha256": "e9bb3aa7588b57f67cee5cf1a3bde573d81b32c8d08c46b8556d93906821058f",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/epyc7002-7.1-5.10.55/usbnet.ko",
-            "sha256": "299988b81e0f44c4f5c1a312ffff9c9f9511e475bd0cb3a67c0aac63150e6922",
+            "sha256": "12bbc924786e4a11d549365c003f00ab720570244abc7e824ee97bc646c27f67",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mlxsw_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/apollolake-4.4.59/mlxsw_core.ko",
-            "sha256": "3660300245d1cbad0e380de6a85e07fc4c334cdfc808477c32b69982298e67a4",
+            "sha256": "1697ba5ab81973b00aa60492fa0cec952a6176a4bf763080211f2c59d07840fb",
             "packed": false
         },
         {
             "name": "mlxsw_pci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/apollolake-4.4.59/mlxsw_pci.ko",
-            "sha256": "4dc991a24173f9f4565f17f2ad9cddfbe622048c05e5f5475696daa7ff4f0a88",
+            "sha256": "4ba3115c64b277a80dd9d9787e523e04885673e96fde32353fd29f5c57879d2d",
             "packed": false
         },
         {

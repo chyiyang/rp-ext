@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.180/mlx4_core.ko",
-            "sha256": "081519201747d81d27033db0fb0afd0335fbd3c032bba03a019a8bcb6cdd9a30",
+            "sha256": "a9e61c5ba53c7cd53ad7c922bb0ef70f5f7213317948fafaefc269974bbf71b5",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.180/mlx4_en.ko",
-            "sha256": "426c21c70a5c02a71197d3caf8da64445706a6873264237ab86364af9fc72fac",
+            "sha256": "0cc9d6775cf2f4ccfb13cf412e23ad2c79d405f39ab47972a95d87ee386deaaa",
             "packed": false
         },
         {

@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.0",
+    "mod_version": "23.9.1",
     "files": [
         {
             "name": "bnx2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/geminilake-4.4.180/bnx2.ko",
-            "sha256": "dbc06a4f53104134aef820537c72f92fbf9b5b752b72dbf18234abceb4ac2296",
+            "sha256": "b020ddf906cc0c48d292f8df51ff755d0915f722c493037ab15e516890069d26",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "bnx2_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/geminilake-4.4.180/bnx2_firmware.tag.gz",
-            "sha256": "d4adb436b25de139cd44ee1d279a4cc869ea629c8eb34b6a231c154187d789b5",
+            "sha256": "8e3f097db7cb8d9fdf06ddb9c7096ed7903be20b6146dec6dc50b70c19fb4b86",
             "packed": false
         },
         {
