@@ -132,6 +132,13 @@
             "_"
         ]
     },
+    "storagepanel": {
+        "description": "Modify storage panel (default: RACK_24_Bay 1X8).",
+        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/storagepanel/rpext-index.json",
+        "platforms": [
+            "_"
+        ]
+    },
     "wol": {
         "description": "Force enable the Wake-on-lan on first ethernet device",
         "url": "https://github.com/wjz304/rp-ext/raw/main/addons/wol/rpext-index.json",
