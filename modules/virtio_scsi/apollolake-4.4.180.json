@@ -2,18 +2,6 @@
     "mod_version": "23.9.0",
     "files": [
         {
-            "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/apollolake-4.4.180/virtio.ko",
-            "sha256": "7e1e43827b8b0bcc4f732e18f5fcc1a1c90c7ad9675152f490f39e07f25a7e1e",
-            "packed": false
-        },
-        {
-            "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/apollolake-4.4.180/virtio_ring.ko",
-            "sha256": "ed42940d143342c750abdf4b56c6ed7a7da6ba25aff4f21995419cf1368d691e",
-            "packed": false
-        },
-        {
             "name": "virtio_scsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/apollolake-4.4.180/virtio_scsi.ko",
             "sha256": "7a9ed4ba03ad0a909340d5a197bf3b1151d396aeddc5f7c592a8674ec7263d2c",
@@ -22,13 +10,11 @@
         {
             "name": "check-virtio_scsi.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/apollolake-4.4.180/check-virtio_scsi.sh",
-            "sha256": "5b4c24e6f92a2377f6d992cff786b8918fe2931854a9a5b95ad1d0ee9b109f15",
+            "sha256": "e3c03970c21307bd5f9f9b7c9d95d89054d0b482026bf05c25b0733cf676d898",
             "packed": false
         }
     ],
     "kmods": {
-        "virtio.ko": "",
-        "virtio_ring.ko": "",
         "virtio_scsi.ko": ""
     },
     "scripts": {

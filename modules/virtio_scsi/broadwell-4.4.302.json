@@ -2,18 +2,6 @@
     "mod_version": "23.9.0",
     "files": [
         {
-            "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/broadwell-4.4.302/virtio.ko",
-            "sha256": "428b5ed40cbe766f4f13b9a3a815e3b24e1b5417140dfaf5bba9ee414ccd8fac",
-            "packed": false
-        },
-        {
-            "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/broadwell-4.4.302/virtio_ring.ko",
-            "sha256": "a52eae67bf8a3a1c1bf06cc79ac3d01c4a7321be49684146793632f2268bf419",
-            "packed": false
-        },
-        {
             "name": "virtio_scsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/broadwell-4.4.302/virtio_scsi.ko",
             "sha256": "5297c7d9b8e7a925c6bc8fd6b746273bf6781e9c6e5dd52b881d3579871f2eed",
@@ -22,13 +10,11 @@
         {
             "name": "check-virtio_scsi.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/broadwell-4.4.302/check-virtio_scsi.sh",
-            "sha256": "5b4c24e6f92a2377f6d992cff786b8918fe2931854a9a5b95ad1d0ee9b109f15",
+            "sha256": "e3c03970c21307bd5f9f9b7c9d95d89054d0b482026bf05c25b0733cf676d898",
             "packed": false
         }
     ],
     "kmods": {
-        "virtio.ko": "",
-        "virtio_ring.ko": "",
         "virtio_scsi.ko": ""
     },
     "scripts": {
