@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "mlxsw_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/geminilake-4.4.180/mlxsw_core.ko",
-            "sha256": "a575cc0cf7acbf22523c2496600eeab752109e584bb84b9cd70519049737ac1f",
+            "sha256": "7cc27c71c3006c2a39b4ac1a837ca43d33c8eb04d9f812958fc1185bb1718eb6",
             "packed": false
         },
         {
             "name": "mlxsw_pci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/geminilake-4.4.180/mlxsw_pci.ko",
-            "sha256": "c9db6340db4f1e873001032cc4fa07bef6b879ba313be451af5ee091c1c27eb7",
+            "sha256": "b4e32612d9bcde82605a392d68a21c25c6f2d7e5a2befc82d561c7010009065a",
             "packed": false
         },
         {

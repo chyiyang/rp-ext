@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/denverton-4.4.180/mlx4_core.ko",
-            "sha256": "cb7551a94f679e9f8a778b4792556039947f045706ff08ea539125b60c92fd3d",
+            "sha256": "65b91a57d44e4df49750bbf8e80d34650b33a2a0af14591fd15b58644bcc9243",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/denverton-4.4.180/mlx4_en.ko",
-            "sha256": "4a94edf375b7184cdcefeaacf4e78076ef36169d76b41a02ff05f93454a09bbb",
+            "sha256": "c80d6d82fef8106742293b7d9042311c278748a17f2431da468c04632cd3b355",
             "packed": false
         },
         {

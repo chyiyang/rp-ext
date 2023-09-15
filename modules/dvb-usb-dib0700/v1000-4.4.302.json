@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "dvb-usb.ko",
@@ -28,7 +28,7 @@
         {
             "name": "dvb-usb-dib0700_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/v1000-4.4.302/dvb-usb-dib0700_firmware.tag.gz",
-            "sha256": "8ed974990a9d1b0f00916fb0199c2eec0f14686ee605899cc4fa101e6ce5ba0d",
+            "sha256": "169daecf154cb889dd63c960223cdac86bceb91cc3635646ac06cc54770cef32",
             "packed": false
         },
         {

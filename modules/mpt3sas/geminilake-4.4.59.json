@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
@@ -16,7 +16,7 @@
         {
             "name": "mpt3sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.59/mpt3sas.ko",
-            "sha256": "17e75d25f85ab484e1359ea808e2dec0f831518210b616e9a32aa16b3221c732",
+            "sha256": "0d956f20baac2ccd8c26ed1e4c43e3b9f83bed4fde97d891a0594f188104564b",
             "packed": false
         },
         {

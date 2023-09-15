@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "libphy.ko",
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/denverton-4.4.180/tg3_firmware.tag.gz",
-            "sha256": "4ad4695ba23a8e1995631db42800d27800f7c836c561660f3cb74f998c07e3f5",
+            "sha256": "52202a732c42c2196ae44957fd929cc57a612b90d966041402f1dfa60bde1197",
             "packed": false
         },
         {

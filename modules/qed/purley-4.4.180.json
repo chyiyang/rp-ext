@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "qed.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qed_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/purley-4.4.180/qed_firmware.tag.gz",
-            "sha256": "310d83bc85172456c731f6ee9accbd53a653e3b918fb3eac8eb74924ca35f470",
+            "sha256": "1c94ba6ab6d912ab61036ea65b98895b59c8b65a94ecc70d79c3499d11bf8042",
             "packed": false
         },
         {

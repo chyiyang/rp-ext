@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
@@ -16,7 +16,7 @@
         {
             "name": "mpt3sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/denverton-4.4.302/mpt3sas.ko",
-            "sha256": "372307e6b7c19667433ba3e978ff478fbef3400adea7bbecc9f8cab87e930c22",
+            "sha256": "f71c7c41b29dab80560ec774e4dfcfe31bcb45b10f3184a8d3894e60f8519792",
             "packed": false
         },
         {

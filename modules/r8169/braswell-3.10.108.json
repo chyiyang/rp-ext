@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "mii.ko",
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/braswell-3.10.108/r8169_firmware.tag.gz",
-            "sha256": "9b2862f79302c1a840eb58e80b6746a39a84eefb83081523d54d00c8339fd6ea",
+            "sha256": "7a17446faa877f6fb5583cb85e42defc39996ec44e62462b697a74309365da33",
             "packed": false
         },
         {

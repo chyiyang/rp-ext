@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "netxen_nic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellnk-4.4.180/netxen_nic_firmware.tag.gz",
-            "sha256": "06de684ca7d1cfca78351e3b325d67217fe9cec59a614d611f9371907ab54f6f",
+            "sha256": "d72daf7768815ad137f6c51197cb5aaa15b031c1b25c9d23bbf5e7464da47662",
             "packed": false
         },
         {

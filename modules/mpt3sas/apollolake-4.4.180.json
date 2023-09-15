@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
@@ -16,7 +16,7 @@
         {
             "name": "mpt3sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.180/mpt3sas.ko",
-            "sha256": "f539b472844f768b276917cb5cd918e0c36f4da4a1139716c4daf1d034a41975",
+            "sha256": "f5cc76f0660a756da59888de24f1cf36e0140bad885de214a9cf08e8ac0f4e20",
             "packed": false
         },
         {

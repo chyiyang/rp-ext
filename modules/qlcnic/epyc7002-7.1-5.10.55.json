@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.1",
+    "mod_version": "23.9.2",
     "files": [
         {
             "name": "qlcnic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qlcnic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/epyc7002-7.1-5.10.55/qlcnic_firmware.tag.gz",
-            "sha256": "faa5827367d5755c164653373f95c77fd326f18d28182dbd745e636d18bb3655",
+            "sha256": "e05b59c08dde56175fc98e500a2879f2559aabe8996824264d219bfd8f8c3882",
             "packed": false
         },
         {
