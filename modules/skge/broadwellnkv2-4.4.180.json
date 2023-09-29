@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "skge.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/broadwellnkv2-4.4.180/skge.ko",
+            "sha256": "c1b8e1b5945d9d6f8c9daf94386bccfc0be92882f8467d64cfdb1afdbfea791f",
+            "packed": false
+        },
+        {
+            "name": "check-skge.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/skge/broadwellnkv2-4.4.180/check-skge.sh",
+            "sha256": "b721ba024833984da406b996fcbea6f2c6290ffaf7a835b95f8a2abaaf103625",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "skge.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-skge.sh"
+    }
+}

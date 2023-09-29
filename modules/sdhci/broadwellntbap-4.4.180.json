@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwellntbap-4.4.180/mmc_core.ko",
+            "sha256": "4d76076e71f7c1c92f6a7a68a74ea5b328acd9feb9f4f578bb828be765bd1f05",
+            "packed": false
+        },
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwellntbap-4.4.180/sdhci.ko",
+            "sha256": "03608d4221d3ff35259ed9be0b985334aa9e21f57ce7cfb8c0c3626e811e90d7",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwellntbap-4.4.180/check-sdhci.sh",
+            "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "sdhci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci.sh"
+    }
+}

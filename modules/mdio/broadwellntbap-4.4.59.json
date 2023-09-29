@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/broadwellntbap-4.4.59/mdio.ko",
+            "sha256": "7ba50b50e69671a44222cf8480932d4c13ce44455ecf88950276d5b6cf4338de",
+            "packed": false
+        },
+        {
+            "name": "check-mdio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/broadwellntbap-4.4.59/check-mdio.sh",
+            "sha256": "567ed3584acd22ef06d1a8a2071e3eadc7a3a30a865a16c4b0a0dee00253a11e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mdio.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/broadwellntbap-4.4.302/mmc_core.ko",
+            "sha256": "de99f0dd5057cd4bb57bc0ddd3f8c2c5658ee5f144495f04b4beb8e1c47cc053",
+            "packed": false
+        },
+        {
+            "name": "ushc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/broadwellntbap-4.4.302/ushc.ko",
+            "sha256": "8090445e86bf57f9215ecf0076793cd43d01b26e4d7538b4d6d5d704fc09e0b4",
+            "packed": false
+        },
+        {
+            "name": "check-ushc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/broadwellntbap-4.4.302/check-ushc.sh",
+            "sha256": "df8943c799b85680c9286c825292b9b0ddc8b2552f0732ba30d896f30d9b3fb4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "ushc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ushc.sh"
+    }
+}

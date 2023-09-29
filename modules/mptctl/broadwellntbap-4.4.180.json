@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/broadwellntbap-4.4.180/mptbase.ko",
+            "sha256": "a701d05b43e149508a47686338cddd4e24ba121449ace0bafb7d48848629a471",
+            "packed": false
+        },
+        {
+            "name": "mptctl.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/broadwellntbap-4.4.180/mptctl.ko",
+            "sha256": "b58f1435149248c5486620a77c38a618e1073cbc8fbf50012d2c26197df75530",
+            "packed": false
+        },
+        {
+            "name": "check-mptctl.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/broadwellntbap-4.4.180/check-mptctl.sh",
+            "sha256": "f043798995e78f581e0bdaa99ee51f4695794e78daad01868ac0e012a2fa82fe",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptbase.ko": "",
+        "mptctl.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptctl.sh"
+    }
+}

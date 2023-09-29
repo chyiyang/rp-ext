@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "virtio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/broadwellnkv2-4.4.302/virtio.ko",
+            "sha256": "078857ac518670799d737b42f41715b470dc16d9e7b2c1a1136aec229c9c3864",
+            "packed": false
+        },
+        {
+            "name": "check-virtio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/broadwellnkv2-4.4.302/check-virtio.sh",
+            "sha256": "ce75807c104d55cea61ddfb1b25fd5af8bf9a511f77ecb8cc9a81b25da9de23f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "virtio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-virtio.sh"
+    }
+}

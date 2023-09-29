@@ -1,20 +1,27 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/v1000-4.4.180/mlx_compat.ko",
+            "sha256": "407cb9468ff6397555a33cc8934d31d272ff08b422f2ffcb21d58c723f8922b3",
+            "packed": false
+        },
         {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/v1000-4.4.180/mlx4_core.ko",
-            "sha256": "4cc90177a256a02e3a1254c4c865e14e7dae6ad532e797eaa2048b067633afb7",
+            "sha256": "8e9ff6cf9fd2d60ee3936a17294ba7111787f5b348fdfbce2484c666400d2a88",
             "packed": false
         },
         {
             "name": "check-mlx4_core.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_core/v1000-4.4.180/check-mlx4_core.sh",
-            "sha256": "367f1580112fdba6dec1599aea341c4ea8f645d59ae80889973e904158b89547",
+            "sha256": "8c7bc860e460d814bfb1ef471af69b2605a9ad8fb71523a52605911e31823d5c",
             "packed": false
         }
     ],
     "kmods": {
+        "mlx_compat.ko": "",
         "mlx4_core.ko": ""
     },
     "scripts": {

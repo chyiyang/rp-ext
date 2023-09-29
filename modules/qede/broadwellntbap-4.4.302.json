@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "qed.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.302/qed.ko",
+            "sha256": "cd92f017cc813e35a7bd2b242180a98eb97a3a44ed04023d1d3493568c0b388d",
+            "packed": false
+        },
+        {
+            "name": "qede.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.302/qede.ko",
+            "sha256": "e9eb8ee9b0f3bcc1d9f719e397ffeab673b5f802d54c300e04eabd5c006a4d50",
+            "packed": false
+        },
+        {
+            "name": "check-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.302/check-qede.sh",
+            "sha256": "0d0fa66fc132abf4d03663e766210563ad5ca5788a58c441147005913abefa6e",
+            "packed": false
+        },
+        {
+            "name": "qede_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.302/qede_firmware.tag.gz",
+            "sha256": "0ac982908be7448e2f6faf809f4f3e1bda7b1a0fe6eecbbd51bbc6eb9ac9a5d8",
+            "packed": false
+        },
+        {
+            "name": "install-qede.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.302/install-qede.sh",
+            "sha256": "2b969742163e5c7f77518080191d5de799dd4ca1534d71b7312d47fc5408c015",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qed.ko": "",
+        "qede.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qede.sh",
+        "on_os_load": "install-qede.sh"
+    }
+}

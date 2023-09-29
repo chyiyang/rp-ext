@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "hpsa.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/broadwellntbap-4.4.302/hpsa.ko",
+            "sha256": "44a4f0e6e95dbd1a44bcec5a5567fb65c776e3835298906e9cba8f5e96d66645",
+            "packed": false
+        },
+        {
+            "name": "check-hpsa.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/broadwellntbap-4.4.302/check-hpsa.sh",
+            "sha256": "fbc592c0e43ca5e48cec4890d2064f09729dd0e014193608f62075991a963467",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hpsa.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hpsa.sh"
+    }
+}

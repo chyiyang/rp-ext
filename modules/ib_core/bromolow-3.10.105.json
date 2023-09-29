@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/bromolow-3.10.105/ipv6.ko",
+            "sha256": "da2a47856217213b64792cd7c1e11fccc19af4461c9517a0b047f403bf6b2f1c",
+            "packed": false
+        },
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/bromolow-3.10.105/mlx_compat.ko",
+            "sha256": "b1819d6aa0e918e39954b3b28f9e1e1b27a02fa9aebbbc98685ce18bff2ae0ec",
+            "packed": false
+        },
+        {
+            "name": "ib_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/bromolow-3.10.105/ib_core.ko",
+            "sha256": "8c02ec4853a528ca6c1ec6dd437b4b04dea0a4633bf795d262f1f47d3f240403",
+            "packed": false
+        },
+        {
+            "name": "check-ib_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/bromolow-3.10.105/check-ib_core.sh",
+            "sha256": "d7d1212273840dbd1fdc943c30dc4e5047d98928e98bce923d69a710f024e038",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ipv6.ko": "",
+        "mlx_compat.ko": "",
+        "ib_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ib_core.sh"
+    }
+}

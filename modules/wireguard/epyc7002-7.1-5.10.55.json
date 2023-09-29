@@ -1,6 +1,12 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/wireguard/epyc7002-7.1-5.10.55/ipv6.ko",
+            "sha256": "6fa19b63eed3cc8888bd607772bd3873fe1edaed03447958e0aa5c731e8724f9",
+            "packed": false
+        },
         {
             "name": "wireguard.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/wireguard/epyc7002-7.1-5.10.55/wireguard.ko",
@@ -10,11 +16,12 @@
         {
             "name": "check-wireguard.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/wireguard/epyc7002-7.1-5.10.55/check-wireguard.sh",
-            "sha256": "83aa4d9cf427b94f2e0223aec45a6dfe66370f6d8e772eef5ef9622aaec0036d",
+            "sha256": "8957bc9040ce1513f0bd5c73ba73189373fe5516eea7e7175bf7946c27ccf170",
             "packed": false
         }
     ],
     "kmods": {
+        "ipv6.ko": "",
         "wireguard.ko": ""
     },
     "scripts": {

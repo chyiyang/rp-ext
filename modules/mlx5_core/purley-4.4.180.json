@@ -1,20 +1,27 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/purley-4.4.180/mlx_compat.ko",
+            "sha256": "cb21661bc18ed77941fa729e744e0f863c0037f43897bd98fc65fcffa288d203",
+            "packed": false
+        },
         {
             "name": "mlx5_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/purley-4.4.180/mlx5_core.ko",
-            "sha256": "18ba773c623fa1103d43ba27964343020610fadf0e27909b0bc9313f5f2951dc",
+            "sha256": "c7f7c5ae9178587c93973d7cd49512c026f1c4cd8b05137a3564458416663aef",
             "packed": false
         },
         {
             "name": "check-mlx5_core.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/purley-4.4.180/check-mlx5_core.sh",
-            "sha256": "52b5812885e0973eb0854f7a47154d62a5d75a086c99c0843db04c2417620861",
+            "sha256": "fd1a09be97c3added2e9478c232a5845eb275256db15ccb3db7e07c7220d651e",
             "packed": false
         }
     ],
     "kmods": {
+        "mlx_compat.ko": "",
         "mlx5_core.ko": ""
     },
     "scripts": {

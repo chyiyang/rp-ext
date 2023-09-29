@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "it87.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/broadwellntbap-4.4.180/it87.ko",
+            "sha256": "8f2517f74e90f028e5bde3c237c2dfa1aab988c55e3c3e6abde59280967f3936",
+            "packed": false
+        },
+        {
+            "name": "check-it87.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/broadwellntbap-4.4.180/check-it87.sh",
+            "sha256": "5d594213be652f25f2d9c5c9766201eeaafd0f6e38d789c4d1591b7bb0fb8211",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "it87.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-it87.sh"
+    }
+}

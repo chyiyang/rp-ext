@@ -1,0 +1,50 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "dvb-usb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/broadwellntbap-4.4.59/dvb-usb.ko",
+            "sha256": "5a1f37959bd3f1b03b7023a3c1f9f9255364d2ce2f2ddac88e1959d2670eb067",
+            "packed": false
+        },
+        {
+            "name": "rc-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/broadwellntbap-4.4.59/rc-core.ko",
+            "sha256": "07544c6009fb8be08ce508cc0f29318e8bba7183a62b04cf23406857a8af8988",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dib0700.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/broadwellntbap-4.4.59/dvb-usb-dib0700.ko",
+            "sha256": "469716d7d1597544559d84051004fb08c7ca39a496eace6414343a411a9479e2",
+            "packed": false
+        },
+        {
+            "name": "check-dvb-usb-dib0700.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/broadwellntbap-4.4.59/check-dvb-usb-dib0700.sh",
+            "sha256": "f9afe4183645dd01a176a7dd9374a696aa6b653a64d4b244f33667d97aafe6ec",
+            "packed": false
+        },
+        {
+            "name": "dvb-usb-dib0700_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/broadwellntbap-4.4.59/dvb-usb-dib0700_firmware.tag.gz",
+            "sha256": "bcf29d38b10e875dc2d098095b6b10d8f61b4b86cdb27c6969d850f80862f63b",
+            "packed": false
+        },
+        {
+            "name": "install-dvb-usb-dib0700.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/broadwellntbap-4.4.59/install-dvb-usb-dib0700.sh",
+            "sha256": "5599c679edfa475ef44546165558bf3856314e5bf3417c5e2cd3efcdd08bdde8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "dvb-usb.ko": "",
+        "rc-core.ko": "",
+        "dvb-usb-dib0700.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-dvb-usb-dib0700.sh",
+        "on_os_load": "install-dvb-usb-dib0700.sh"
+    }
+}

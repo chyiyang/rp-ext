@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "scsi_transport_fc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/broadwellntbap-4.4.302/scsi_transport_fc.ko",
+            "sha256": "757af6914b1636f24a1a720d8ea49ce193c02b3f089292db19059ebcf9ee37e9",
+            "packed": false
+        },
+        {
+            "name": "check-scsi_transport_fc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/scsi_transport_fc/broadwellntbap-4.4.302/check-scsi_transport_fc.sh",
+            "sha256": "9e351a8a0589ce651104db7aaa080966412f6c7fe00feddbfb49c6acfd334869",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "scsi_transport_fc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-scsi_transport_fc.sh"
+    }
+}

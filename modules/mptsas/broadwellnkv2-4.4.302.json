@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/broadwellnkv2-4.4.302/mptscsih.ko",
+            "sha256": "51ac1f38248c3141b2b93045fc14844ce9094065cceb8ab20b4dc9d199ce5e82",
+            "packed": false
+        },
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/broadwellnkv2-4.4.302/mptbase.ko",
+            "sha256": "f559a431dd814dbad8b3f839340ec4f2f487854d7fa0fb4af3692d11c9cefbbb",
+            "packed": false
+        },
+        {
+            "name": "mptsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/broadwellnkv2-4.4.302/mptsas.ko",
+            "sha256": "9a31e144f548a5957c57d473fe316c051f0b14c4082427ef98f2fca697e2e1e8",
+            "packed": false
+        },
+        {
+            "name": "check-mptsas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/broadwellnkv2-4.4.302/check-mptsas.sh",
+            "sha256": "a3c1072cbcb0cba85438cc00d8b94a75be61ec91eaac787e5ae22512895949ee",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptscsih.ko": "",
+        "mptbase.ko": "",
+        "mptsas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptsas.sh"
+    }
+}

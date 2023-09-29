@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/bromolow-3.10.105/mlx4_core.ko",
+            "sha256": "49559ddd1d5a86eac37dadf67dfc55c956c73ebbeafdb59c842edd8763317c4e",
+            "packed": false
+        },
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/bromolow-3.10.105/mlx_compat.ko",
+            "sha256": "b1819d6aa0e918e39954b3b28f9e1e1b27a02fa9aebbbc98685ce18bff2ae0ec",
+            "packed": false
+        },
+        {
+            "name": "mlx4_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/bromolow-3.10.105/mlx4_en.ko",
+            "sha256": "1119803d5b51588452c8dbbcfa380355844338a39f85ae1fa0b50380aaea7e73",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/bromolow-3.10.105/check-mlx4_en.sh",
+            "sha256": "610aa3423798217f8c6d8afe4bbb95a29a44d2d36e6a3d892e0106ba911afb0b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": "",
+        "mlx_compat.ko": "",
+        "mlx4_en.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_en.sh"
+    }
+}

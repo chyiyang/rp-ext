@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/purley-4.4.302/mlx_compat.ko",
+            "sha256": "cb3247a4ca517e37ffa146c600cb76f0bf09f77d2a1d853bd50972117015e506",
+            "packed": false
+        },
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/purley-4.4.302/ipv6.ko",
+            "sha256": "079d42cd7510e2b392341386a20642c4e0e74f7c7bc62dadac53c5e9c3936297",
+            "packed": false
+        },
+        {
+            "name": "ib_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/purley-4.4.302/ib_core.ko",
+            "sha256": "2901fb1b7f208f01d4588e98445888796eb9777323bc6ab1ac6357b38e54868f",
+            "packed": false
+        },
+        {
+            "name": "check-ib_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/purley-4.4.302/check-ib_core.sh",
+            "sha256": "31fbf1add685a258305b0c8f4fb32e6724f330e1365d1f3043352a85ae71a5fa",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": "",
+        "ipv6.ko": "",
+        "ib_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ib_core.sh"
+    }
+}

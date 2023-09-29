@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
         {
             "name": "mii.ko",
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/geminilake-4.4.302/r8169_firmware.tag.gz",
-            "sha256": "75314760239bbfded963ecae710b9337877edc023de129d71df802950ecf561a",
+            "sha256": "e52d882a26de01ba3754dc6792fc42c3c5eb2e4b20963d4cc251f905aa9cbcaf",
             "packed": false
         },
         {

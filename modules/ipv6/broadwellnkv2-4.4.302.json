@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ipv6/broadwellnkv2-4.4.302/ipv6.ko",
+            "sha256": "ac0b5b44b4f6c316dd3e8edddb37d9f192fe1555d722cbb2dc0ac180b413fa61",
+            "packed": false
+        },
+        {
+            "name": "check-ipv6.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ipv6/broadwellnkv2-4.4.302/check-ipv6.sh",
+            "sha256": "f153502ad5c90fbc79ab2a0ecd627647775f669f6fe5cf9f366bd16c65deb3e1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ipv6.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ipv6.sh"
+    }
+}

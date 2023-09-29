@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "cpufreq_conservative.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/broadwellnkv2-4.4.302/cpufreq_conservative.ko",
+            "sha256": "ecb1dfef949eef26e51275194b843827f81be0f56bdfda5ef01204212d977671",
+            "packed": false
+        },
+        {
+            "name": "check-cpufreq_conservative.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cpufreq_conservative/broadwellnkv2-4.4.302/check-cpufreq_conservative.sh",
+            "sha256": "a37ee2961fc001c9fd74bada1e46dfd72627fbb9ff6653cfddfc9724d9026094",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cpufreq_conservative.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-cpufreq_conservative.sh"
+    }
+}

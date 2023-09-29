@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ipv6/epyc7002-7.2-5.10.55/ipv6.ko",
+            "sha256": "56156f9e948c14bb6ccad42031b6e515e2f4f5e1b325347a51bda7fec68e15a5",
+            "packed": false
+        },
+        {
+            "name": "check-ipv6.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ipv6/epyc7002-7.2-5.10.55/check-ipv6.sh",
+            "sha256": "f153502ad5c90fbc79ab2a0ecd627647775f669f6fe5cf9f366bd16c65deb3e1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ipv6.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ipv6.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "button.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/broadwellntbap-4.4.59/button.ko",
+            "sha256": "50a60cc9b16382b6af77b2c33436670d0f4954be32f3a7ec843226903596593c",
+            "packed": false
+        },
+        {
+            "name": "check-button.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/button/broadwellntbap-4.4.59/check-button.sh",
+            "sha256": "14244275d85059b56446bc0ba7d1a46ea60f1f92b3b7ea53d154281ba3317e2e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "button.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-button.sh"
+    }
+}

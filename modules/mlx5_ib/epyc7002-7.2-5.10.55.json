@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx5_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/epyc7002-7.2-5.10.55/mlx5_core.ko",
+            "sha256": "971dd9e26f32427ac197af98cdf9df31809f36262281f7329ed106a21996e056",
+            "packed": false
+        },
+        {
+            "name": "ib_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/epyc7002-7.2-5.10.55/ib_core.ko",
+            "sha256": "d3d9d90e9e9e1065c9859c45135e65b85af49edd41929f69350774178c061621",
+            "packed": false
+        },
+        {
+            "name": "mlx5_ib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/epyc7002-7.2-5.10.55/mlx5_ib.ko",
+            "sha256": "e81ee102c66e929979c3c878b62e2e29e8e60890c07d78b672c7238241eb9125",
+            "packed": false
+        },
+        {
+            "name": "check-mlx5_ib.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/epyc7002-7.2-5.10.55/check-mlx5_ib.sh",
+            "sha256": "d228fa74dc547f966bf1a0e20f7b3e78fb6dfe299d4ad17199649d55021a3fc7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx5_core.ko": "",
+        "ib_core.ko": "",
+        "mlx5_ib.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx5_ib.sh"
+    }
+}

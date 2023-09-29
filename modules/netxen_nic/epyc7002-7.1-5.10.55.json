@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
         {
             "name": "netxen_nic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/epyc7002-7.1-5.10.55/netxen_nic_firmware.tag.gz",
-            "sha256": "d6185c12a64fd346d8de4ea08b57cc8e3791a25386328e9ed5bda1cea40e360f",
+            "sha256": "29d714a7677c028078eece7fc9ce420843a6e478bbb428fd584f9442c81b056e",
             "packed": false
         },
         {

@@ -1,0 +1,44 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/v1000-4.4.59/mlx4_core.ko",
+            "sha256": "88ed84d438b3b8fc7a013be5608b28306c127b6250f4ddb1f1ebc51610aabb0d",
+            "packed": false
+        },
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/v1000-4.4.59/mlx_compat.ko",
+            "sha256": "8800309c873e70978574ac1682e11eac4b4f34bb65b5bbaf118943cf7e146e63",
+            "packed": false
+        },
+        {
+            "name": "ib_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/v1000-4.4.59/ib_core.ko",
+            "sha256": "884d8e7cc77d3d29dd9e7f08e241e86a30d8bb7d8097ce2ed9fabf4dfe414c52",
+            "packed": false
+        },
+        {
+            "name": "mlx4_ib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/v1000-4.4.59/mlx4_ib.ko",
+            "sha256": "9264e835f385b49896428fd9007f47163c4f521ed7be70e168fec8ee812b62ce",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_ib.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_ib/v1000-4.4.59/check-mlx4_ib.sh",
+            "sha256": "a17054bd6ac79159840bcf57d6e094900e14802a0d7bd7520a94260a28612c9a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": "",
+        "mlx_compat.ko": "",
+        "ib_core.ko": "",
+        "mlx4_ib.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_ib.sh"
+    }
+}

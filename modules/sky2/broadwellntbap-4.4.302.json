@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "sky2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/broadwellntbap-4.4.302/sky2.ko",
+            "sha256": "d0d8ba6cd0c5159ce6eae4a14144c847199b75f3463408ef2776e003729264df",
+            "packed": false
+        },
+        {
+            "name": "check-sky2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sky2/broadwellntbap-4.4.302/check-sky2.sh",
+            "sha256": "248a91777a29890d02953dbe261532a8908b889059b90b4a7d114621853b28cf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sky2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sky2.sh"
+    }
+}

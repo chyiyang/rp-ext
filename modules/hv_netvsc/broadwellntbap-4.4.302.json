@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "hv_netvsc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hv_netvsc/broadwellntbap-4.4.302/hv_netvsc.ko",
+            "sha256": "fa450b590e738f2d104742d8df24f207a6a2e3495b57aaaea558ab06901d7efe",
+            "packed": false
+        },
+        {
+            "name": "check-hv_netvsc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hv_netvsc/broadwellntbap-4.4.302/check-hv_netvsc.sh",
+            "sha256": "663d86ef4dddb597c53e1b095985fff8cc2b711e6736ccc07020e13d0ce61ec7",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "hv_netvsc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-hv_netvsc.sh"
+    }
+}

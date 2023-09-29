@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ipv6/purley-4.4.59/ipv6.ko",
+            "sha256": "58cffd642d462756fc95ec18a809e7186e213b2a5015a8d4beebe893ca6dd98b",
+            "packed": false
+        },
+        {
+            "name": "check-ipv6.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ipv6/purley-4.4.59/check-ipv6.sh",
+            "sha256": "f153502ad5c90fbc79ab2a0ecd627647775f669f6fe5cf9f366bd16c65deb3e1",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "ipv6.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ipv6.sh"
+    }
+}

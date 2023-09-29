@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/broadwellnkv2-4.4.180/mdio.ko",
+            "sha256": "4ce1978a342847ff0518eea0ec800b069709ca8681a4c19680017caec0e39ee0",
+            "packed": false
+        },
+        {
+            "name": "check-mdio.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mdio/broadwellnkv2-4.4.180/check-mdio.sh",
+            "sha256": "567ed3584acd22ef06d1a8a2071e3eadc7a3a30a865a16c4b0a0dee00253a11e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mdio.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "sysimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/broadwellntbap-4.4.302/sysimgblt.ko",
+            "sha256": "0493a86c128f8f2ff3744d04937cd6f2354a9fb1226b22a017acd3d36094bb43",
+            "packed": false
+        },
+        {
+            "name": "check-sysimgblt.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sysimgblt/broadwellntbap-4.4.302/check-sysimgblt.sh",
+            "sha256": "6e434e9c2f70f49151c273adab3db1ae61fd5f47545f53a7ca760ca6fd282cc5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sysimgblt.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sysimgblt.sh"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "nct6775.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/broadwellntbap-4.4.302/nct6775.ko",
+            "sha256": "48bc81173f59cbf13333f8799b87d0c13e79b69d4e4a9bc026394074e86fd76e",
+            "packed": false
+        },
+        {
+            "name": "check-nct6775.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/broadwellntbap-4.4.302/check-nct6775.sh",
+            "sha256": "574bfe8c85576c41b1eeba10801361f465b7da09e4538c837157cc1d491b1f88",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "nct6775.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-nct6775.sh"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "usbnet.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/broadwellntbap-4.4.302/usbnet.ko",
+            "sha256": "152a1ef9808f398c2475d942b183dc6685a5a4f3e5e37eef02d4460ba56bedb0",
+            "packed": false
+        },
+        {
+            "name": "aqc111.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/broadwellntbap-4.4.302/aqc111.ko",
+            "sha256": "83e8638dbd7af7bb5b5282bc3b9cecc815f3756a0d3f26f88dd8a7d0760de96e",
+            "packed": false
+        },
+        {
+            "name": "check-aqc111.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/broadwellntbap-4.4.302/check-aqc111.sh",
+            "sha256": "edf46bec2fad4e67b39a3fe3ffcea528b9064e6521373e2b45a956680ac2030c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "usbnet.ko": "",
+        "aqc111.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aqc111.sh"
+    }
+}

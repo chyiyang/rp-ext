@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/bromolow-3.10.105/mlx_compat.ko",
+            "sha256": "b1819d6aa0e918e39954b3b28f9e1e1b27a02fa9aebbbc98685ce18bff2ae0ec",
+            "packed": false
+        },
+        {
+            "name": "mlx5_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/bromolow-3.10.105/mlx5_core.ko",
+            "sha256": "6e26ebc5eb44abb37e2937d302023c411caf188596fa7a42d0fc8150f5226819",
+            "packed": false
+        },
+        {
+            "name": "check-mlx5_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/bromolow-3.10.105/check-mlx5_core.sh",
+            "sha256": "fd1a09be97c3added2e9478c232a5845eb275256db15ccb3db7e07c7220d651e",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": "",
+        "mlx5_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx5_core.sh"
+    }
+}

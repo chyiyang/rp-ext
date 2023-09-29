@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "e1000e.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/broadwellntbap-4.4.59/e1000e.ko",
+            "sha256": "92d4ac5abe7eaea15341754878b9a7f8667772273d7317f21864b7a2dc52ae46",
+            "packed": false
+        },
+        {
+            "name": "check-e1000e.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/e1000e/broadwellntbap-4.4.59/check-e1000e.sh",
+            "sha256": "a2fc006622f93c31d51837a7b8b870592bc7831b340248962d6778ede33792a4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "e1000e.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-e1000e.sh"
+    }
+}

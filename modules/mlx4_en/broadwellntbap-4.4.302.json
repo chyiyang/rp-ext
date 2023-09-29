@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx4_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/broadwellntbap-4.4.302/mlx4_core.ko",
+            "sha256": "dd9ee6943040dcc5702a83625b868d3c827dd39700fb51d4ce4ee5261e1cbaa1",
+            "packed": false
+        },
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/broadwellntbap-4.4.302/mlx_compat.ko",
+            "sha256": "85ad2f8bd9d09ff7e3310f5f0a04fbe2b38bb03a1856b345096c3238c21ce120",
+            "packed": false
+        },
+        {
+            "name": "mlx4_en.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/broadwellntbap-4.4.302/mlx4_en.ko",
+            "sha256": "ac36c5f99535fb2be1865a8adac1c161bc320eef37417378557aaa2964d5c049",
+            "packed": false
+        },
+        {
+            "name": "check-mlx4_en.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/broadwellntbap-4.4.302/check-mlx4_en.sh",
+            "sha256": "610aa3423798217f8c6d8afe4bbb95a29a44d2d36e6a3d892e0106ba911afb0b",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx4_core.ko": "",
+        "mlx_compat.ko": "",
+        "mlx4_en.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx4_en.sh"
+    }
+}

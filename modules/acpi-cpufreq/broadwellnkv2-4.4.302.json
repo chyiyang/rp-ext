@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "acpi-cpufreq.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/broadwellnkv2-4.4.302/acpi-cpufreq.ko",
+            "sha256": "ef02f6290d2078c9fa98a5896e32136cabf83d215c6f68b3407870f493fa2d31",
+            "packed": false
+        },
+        {
+            "name": "check-acpi-cpufreq.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/acpi-cpufreq/broadwellnkv2-4.4.302/check-acpi-cpufreq.sh",
+            "sha256": "3795a441fee268be76cc78c970cc679baaddd2850ff3fb6046afe3a1390a477f",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "acpi-cpufreq.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-acpi-cpufreq.sh"
+    }
+}

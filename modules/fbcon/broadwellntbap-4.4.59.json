@@ -1,0 +1,44 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellntbap-4.4.59/fb.ko",
+            "sha256": "daf00c9e440dcc21b13799d23960d6cd90d024fe094e26588660d5eedea2ed89",
+            "packed": false
+        },
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellntbap-4.4.59/font.ko",
+            "sha256": "617187f856e10f732f611bb380e9d61dbd8798124c87341796875d30c088392c",
+            "packed": false
+        },
+        {
+            "name": "bitblit.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellntbap-4.4.59/bitblit.ko",
+            "sha256": "ade74e1b8366a5044ff82fb133d39e46cef712e7aec02eb62479abdf066de702",
+            "packed": false
+        },
+        {
+            "name": "fbcon.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellntbap-4.4.59/fbcon.ko",
+            "sha256": "5cd2f854892fb8f372edd9f5766ab2dbcd03baad74b84d0d76454c93d85d3e0a",
+            "packed": false
+        },
+        {
+            "name": "check-fbcon.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellntbap-4.4.59/check-fbcon.sh",
+            "sha256": "6defb205e12ccc8f1cc937241f6e21d378d3cc387003a2b34a0c3b2153d573da",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "fb.ko": "",
+        "font.ko": "",
+        "bitblit.ko": "",
+        "fbcon.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-fbcon.sh"
+    }
+}

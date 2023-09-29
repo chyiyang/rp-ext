@@ -1,0 +1,51 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "cfbimgblt.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellnkv2-4.4.302/cfbimgblt.ko",
+            "sha256": "53f3f99607995ab90c197afbe9e44a8e4c8c5b6f6409c05a9969a819ef1ac9c9",
+            "packed": false
+        },
+        {
+            "name": "cfbcopyarea.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellnkv2-4.4.302/cfbcopyarea.ko",
+            "sha256": "0cdc97120ce1c1dc7f892383da0460e4508db51d92818276c527a3edf1942c66",
+            "packed": false
+        },
+        {
+            "name": "cfbfillrect.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellnkv2-4.4.302/cfbfillrect.ko",
+            "sha256": "5411b09310bdc6510ee2ab85e53307e7145f14db55ffb7d96d26ec144084baf1",
+            "packed": false
+        },
+        {
+            "name": "fb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellnkv2-4.4.302/fb.ko",
+            "sha256": "bad091dcd27937d78c30286db4bd21fc1b0766cf18dd3c79467dde30d5ef49b9",
+            "packed": false
+        },
+        {
+            "name": "efifb.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellnkv2-4.4.302/efifb.ko",
+            "sha256": "4dd09fa54f87871bbe19d7f24669ca2b5cfc32a236f262816520d3423a4c993a",
+            "packed": false
+        },
+        {
+            "name": "check-efifb.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellnkv2-4.4.302/check-efifb.sh",
+            "sha256": "3c79b757f76602dd9faa98ec886039153624ddbbb0ed1260238a0761529b46f8",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "cfbimgblt.ko": "",
+        "cfbcopyarea.ko": "",
+        "cfbfillrect.ko": "",
+        "fb.ko": "",
+        "efifb.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-efifb.sh"
+    }
+}

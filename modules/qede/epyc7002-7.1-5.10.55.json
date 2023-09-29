@@ -1,6 +1,12 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/ipv6.ko",
+            "sha256": "6fa19b63eed3cc8888bd607772bd3873fe1edaed03447958e0aa5c731e8724f9",
+            "packed": false
+        },
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/qed.ko",
@@ -16,13 +22,13 @@
         {
             "name": "check-qede.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/check-qede.sh",
-            "sha256": "0d0fa66fc132abf4d03663e766210563ad5ca5788a58c441147005913abefa6e",
+            "sha256": "994edf1e5f4dfea4f2fea2e0243d029e8b191ac43f4c236f6c02842d625177d8",
             "packed": false
         },
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/qede_firmware.tag.gz",
-            "sha256": "0555c28c1a7b2e0c28bd908f065c7f44cf8991bd06a9e893ded978990b747b3c",
+            "sha256": "4a590af1fb3f5e374431f40086ac6c8f0aeda5d5aa8dfe572f4e327010c681fe",
             "packed": false
         },
         {
@@ -33,6 +39,7 @@
         }
     ],
     "kmods": {
+        "ipv6.ko": "",
         "qed.ko": "",
         "qede.ko": ""
     },

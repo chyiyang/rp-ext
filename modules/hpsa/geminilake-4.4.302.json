@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
@@ -10,7 +10,7 @@
         {
             "name": "hpsa.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/geminilake-4.4.302/hpsa.ko",
-            "sha256": "ffede73e05e23f8a746b0de76a5ee2f55efea5a03a628a14ec3e16a01f2d76d8",
+            "sha256": "f66ab6d0bf2d2ef2d9fd70950b6a474f7dac9ceaccf979ad824c094e73e7e38b",
             "packed": false
         },
         {

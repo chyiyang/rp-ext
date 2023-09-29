@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "libiscsi.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/libiscsi.ko",
+            "sha256": "99f1f6db40859b75b8e1f50a2194180227397a7a1b429b642ed4cfb1437d37d5",
+            "packed": false
+        },
+        {
+            "name": "libiscsi_tcp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/libiscsi_tcp.ko",
+            "sha256": "54d11d348b11a7238a6b135d078c397c25338c25ecc9dcc9a9bca0d9deec675b",
+            "packed": false
+        },
+        {
+            "name": "iscsi_tcp.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/iscsi_tcp.ko",
+            "sha256": "1fc0f593c6bc5835f4a17852e5604b57ffcadcf784d1207e7078a5d8e2910a11",
+            "packed": false
+        },
+        {
+            "name": "check-iscsi_tcp.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/check-iscsi_tcp.sh",
+            "sha256": "406de6b4891ee599907e99c84c3126d4649fd5147fba504e90d604250e726eb4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libiscsi.ko": "",
+        "libiscsi_tcp.ko": "",
+        "iscsi_tcp.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-iscsi_tcp.sh"
+    }
+}

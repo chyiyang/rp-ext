@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/v1000-4.4.59/mlx_compat.ko",
+            "sha256": "8800309c873e70978574ac1682e11eac4b4f34bb65b5bbaf118943cf7e146e63",
+            "packed": false
+        },
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/v1000-4.4.59/ipv6.ko",
+            "sha256": "d48a35f604c5928084bf16c87d4984648ebc2bc4d93c4ec7387a4fefe14adef3",
+            "packed": false
+        },
+        {
+            "name": "ib_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/v1000-4.4.59/ib_core.ko",
+            "sha256": "884d8e7cc77d3d29dd9e7f08e241e86a30d8bb7d8097ce2ed9fabf4dfe414c52",
+            "packed": false
+        },
+        {
+            "name": "check-ib_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/v1000-4.4.59/check-ib_core.sh",
+            "sha256": "31fbf1add685a258305b0c8f4fb32e6724f330e1365d1f3043352a85ae71a5fa",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": "",
+        "ipv6.ko": "",
+        "ib_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ib_core.sh"
+    }
+}

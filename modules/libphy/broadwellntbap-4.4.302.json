@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/broadwellntbap-4.4.302/libphy.ko",
+            "sha256": "b36a1469147b9efa0d14f34340e58737e7d7fd943ce99f8ea8b7ab65b5c3b84a",
+            "packed": false
+        },
+        {
+            "name": "check-libphy.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libphy/broadwellntbap-4.4.302/check-libphy.sh",
+            "sha256": "e0a7c579a63a41f7dce62df77c2a7f1878210ee2f739daa862285308c03600ee",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-libphy.sh"
+    }
+}

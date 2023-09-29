@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
         {
             "name": "mii.ko",
@@ -22,7 +22,7 @@
         {
             "name": "r8169_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.105/r8169_firmware.tag.gz",
-            "sha256": "6ddcec5edf7a4477912d3e48b4918366ef70544318ef646121c6f3766200cab3",
+            "sha256": "924edef15869b0286dc810236c79a7268889e042f9304438f61d0214fc48abbc",
             "packed": false
         },
         {

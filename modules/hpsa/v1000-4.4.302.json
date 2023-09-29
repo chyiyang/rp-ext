@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
@@ -10,7 +10,7 @@
         {
             "name": "hpsa.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/v1000-4.4.302/hpsa.ko",
-            "sha256": "692d843e33ba7885fba648ca2bf97ceb87761e0bcb28f577facfa01fa695b6a1",
+            "sha256": "c865ca8c449d7ec734db1514d388752a331e267d525f02e0d7acd93e5a641891",
             "packed": false
         },
         {

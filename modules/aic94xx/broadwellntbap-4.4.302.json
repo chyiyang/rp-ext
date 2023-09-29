@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "aic94xx.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/broadwellntbap-4.4.302/aic94xx.ko",
+            "sha256": "fb46960ce9ee8777d8491361bc2759742f0421705a70e1d5a4672f9ac6472dfd",
+            "packed": false
+        },
+        {
+            "name": "check-aic94xx.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/broadwellntbap-4.4.302/check-aic94xx.sh",
+            "sha256": "094f675b36ed4fb4eaa66c1a0519a3a97d37623a0f67d52a91fde926b0a88afd",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "aic94xx.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-aic94xx.sh"
+    }
+}

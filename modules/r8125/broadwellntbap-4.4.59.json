@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "r8125.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/broadwellntbap-4.4.59/r8125.ko",
+            "sha256": "c5d9b3fe7c302da719271dd65850b6dc04c52f3cc94e2b10282a926a2ceaf5e2",
+            "packed": false
+        },
+        {
+            "name": "check-r8125.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125/broadwellntbap-4.4.59/check-r8125.sh",
+            "sha256": "ad839e66ac35297cda943230bc49b80e348b189faf1b728fbd7f4d08b8c97974",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8125.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8125.sh"
+    }
+}

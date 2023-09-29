@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "rc-core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/broadwellntbap-4.4.180/rc-core.ko",
+            "sha256": "7d6a5140b67c8d123b326fc205f7a6eec504a1c009482d461ec8ec08decdc62f",
+            "packed": false
+        },
+        {
+            "name": "check-rc-core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rc-core/broadwellntbap-4.4.180/check-rc-core.sh",
+            "sha256": "ad36a84f398935fb3ca9b147865c52387e98c302997adeb6d96a87d9ca870b48",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "rc-core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-rc-core.sh"
+    }
+}

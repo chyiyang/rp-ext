@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mptscsih.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/broadwellntbap-4.4.302/mptscsih.ko",
+            "sha256": "2bfb45025b0bb9a007567fe32e6f03351458358255e637cefb4804ffad06f9cc",
+            "packed": false
+        },
+        {
+            "name": "mptbase.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/broadwellntbap-4.4.302/mptbase.ko",
+            "sha256": "1f43a6964236b9f2a820e60ffc5d17bd5e49d3a517ffeba77f1883fda8934063",
+            "packed": false
+        },
+        {
+            "name": "mptsas.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/broadwellntbap-4.4.302/mptsas.ko",
+            "sha256": "b8fda8d1d1118276adb219d0f27013dc7d146d673b9b08529f90a62d73bcd963",
+            "packed": false
+        },
+        {
+            "name": "check-mptsas.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/broadwellntbap-4.4.302/check-mptsas.sh",
+            "sha256": "a3c1072cbcb0cba85438cc00d8b94a75be61ec91eaac787e5ae22512895949ee",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mptscsih.ko": "",
+        "mptbase.ko": "",
+        "mptsas.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mptsas.sh"
+    }
+}

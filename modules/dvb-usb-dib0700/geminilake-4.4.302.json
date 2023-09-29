@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
         {
             "name": "dvb-usb.ko",
@@ -28,7 +28,7 @@
         {
             "name": "dvb-usb-dib0700_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/geminilake-4.4.302/dvb-usb-dib0700_firmware.tag.gz",
-            "sha256": "61720f0a8a1e560a1898ff8f1ff789ad09db364583a40b9450dd665a557ecdd0",
+            "sha256": "349b9d92b03e9ee40085357091ae1f82fef971b47a51d12854590cc04377568c",
             "packed": false
         },
         {

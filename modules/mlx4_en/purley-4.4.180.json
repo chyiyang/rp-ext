@@ -1,27 +1,34 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
         {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.180/mlx4_core.ko",
-            "sha256": "95bb2f386e17dab88a31f0ebcc737fe5bd28bd0759087e64db50505d5a700be3",
+            "sha256": "a1d694bc1a8e71f3a510aa1d99415b975b03c6ff6952a3105afb1f0b4bbcfd16",
+            "packed": false
+        },
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.180/mlx_compat.ko",
+            "sha256": "cb21661bc18ed77941fa729e744e0f863c0037f43897bd98fc65fcffa288d203",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.180/mlx4_en.ko",
-            "sha256": "ee77d2956c760bb3404f59a4c5a93560bad6094bc2e1932b39b62fa9cd0f9bd4",
+            "sha256": "e30141aa0d4f94be07f73d60e9bcf70d8444ed0f7a696f16dc2d0d132b97dbfd",
             "packed": false
         },
         {
             "name": "check-mlx4_en.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.180/check-mlx4_en.sh",
-            "sha256": "6361d25afad0ea2e6fa3fe703113aafac3f3964689bdca30416147005e804925",
+            "sha256": "610aa3423798217f8c6d8afe4bbb95a29a44d2d36e6a3d892e0106ba911afb0b",
             "packed": false
         }
     ],
     "kmods": {
         "mlx4_core.ko": "",
+        "mlx_compat.ko": "",
         "mlx4_en.ko": ""
     },
     "scripts": {

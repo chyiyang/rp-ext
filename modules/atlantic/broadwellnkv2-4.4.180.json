@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "crc-itu-t.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/broadwellnkv2-4.4.180/crc-itu-t.ko",
+            "sha256": "c966e7ea72ee31c09ad5abf3cd9e2ed0aafc905b3e7a482aa8bcf49a352f3625",
+            "packed": false
+        },
+        {
+            "name": "atlantic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/broadwellnkv2-4.4.180/atlantic.ko",
+            "sha256": "6fb4bfd3a6d2df7ff76d237f818f4b08248182b43295ad1ff0156ac8e7c312d5",
+            "packed": false
+        },
+        {
+            "name": "check-atlantic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/atlantic/broadwellnkv2-4.4.180/check-atlantic.sh",
+            "sha256": "a2b5534ccdf7f6656b59f6513feb0c0107fc28b2e4c6a00fa04eb19574a81c49",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "crc-itu-t.ko": "",
+        "atlantic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-atlantic.sh"
+    }
+}

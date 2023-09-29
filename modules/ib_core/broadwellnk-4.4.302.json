@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/broadwellnk-4.4.302/mlx_compat.ko",
+            "sha256": "c0d26afdf52ebdc7e6dd6ae5f637e77728b8bdc65659b55a1af47c1795e9a3ae",
+            "packed": false
+        },
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/broadwellnk-4.4.302/ipv6.ko",
+            "sha256": "ac0b5b44b4f6c316dd3e8edddb37d9f192fe1555d722cbb2dc0ac180b413fa61",
+            "packed": false
+        },
+        {
+            "name": "ib_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/broadwellnk-4.4.302/ib_core.ko",
+            "sha256": "0bc1e61426728893336223deb6a76aecfa8514f40773dcbadb585666701d1122",
+            "packed": false
+        },
+        {
+            "name": "check-ib_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/broadwellnk-4.4.302/check-ib_core.sh",
+            "sha256": "31fbf1add685a258305b0c8f4fb32e6724f330e1365d1f3043352a85ae71a5fa",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": "",
+        "ipv6.ko": "",
+        "ib_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ib_core.sh"
+    }
+}

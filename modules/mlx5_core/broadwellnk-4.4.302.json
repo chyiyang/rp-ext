@@ -1,20 +1,27 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwellnk-4.4.302/mlx_compat.ko",
+            "sha256": "c0d26afdf52ebdc7e6dd6ae5f637e77728b8bdc65659b55a1af47c1795e9a3ae",
+            "packed": false
+        },
         {
             "name": "mlx5_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwellnk-4.4.302/mlx5_core.ko",
-            "sha256": "36def0eea1efbb78892d02c098a903ac38accef8eb8fcd6b8aecda453742afa8",
+            "sha256": "49761def0853d96026d7518d07ff6b3dfdd90f96ead75562f86b0afc26f949b3",
             "packed": false
         },
         {
             "name": "check-mlx5_core.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwellnk-4.4.302/check-mlx5_core.sh",
-            "sha256": "52b5812885e0973eb0854f7a47154d62a5d75a086c99c0843db04c2417620861",
+            "sha256": "fd1a09be97c3added2e9478c232a5845eb275256db15ccb3db7e07c7220d651e",
             "packed": false
         }
     ],
     "kmods": {
+        "mlx_compat.ko": "",
         "mlx5_core.ko": ""
     },
     "scripts": {

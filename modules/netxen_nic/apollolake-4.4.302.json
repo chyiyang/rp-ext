@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
         {
             "name": "netxen_nic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/apollolake-4.4.302/netxen_nic_firmware.tag.gz",
-            "sha256": "551503b9fe1c97697cb8760a147a3dbf156085ab99242f5470991c47bddc3b87",
+            "sha256": "309f2c5af8aff18e710424d28fd27b81c4c3c96647bd7b635bc2fdbf6a5dabb8",
             "packed": false
         },
         {

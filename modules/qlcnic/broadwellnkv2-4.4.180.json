@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "qlcnic.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnkv2-4.4.180/qlcnic.ko",
+            "sha256": "1ce8b04728c08cb1a1785575b87ec5a06b2e66f6bbd0ee832ef8f40f75393ccd",
+            "packed": false
+        },
+        {
+            "name": "check-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnkv2-4.4.180/check-qlcnic.sh",
+            "sha256": "2120fef1be9764915ea5ac76a79c4eef8b5389e075ad9f1a7d087eb69147aff7",
+            "packed": false
+        },
+        {
+            "name": "qlcnic_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnkv2-4.4.180/qlcnic_firmware.tag.gz",
+            "sha256": "88a4a9ed4d18d75341f7894fdfc83e558f6ed5c8c85220297025ed5b8fc74270",
+            "packed": false
+        },
+        {
+            "name": "install-qlcnic.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnkv2-4.4.180/install-qlcnic.sh",
+            "sha256": "ffae6a534b601a07e7f68b1a39ceedf6ea902d4ad0b9098953ea954a71ee2107",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "qlcnic.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-qlcnic.sh",
+        "on_os_load": "install-qlcnic.sh"
+    }
+}

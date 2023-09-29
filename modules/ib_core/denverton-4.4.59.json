@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/denverton-4.4.59/mlx_compat.ko",
+            "sha256": "3c7a5e7e3c4f9ee8f2c7553816a051c655ff8bff497444069b008a16f5fed033",
+            "packed": false
+        },
+        {
+            "name": "ipv6.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/denverton-4.4.59/ipv6.ko",
+            "sha256": "e38bf8249a19dbf09f49d4cfd61452a9f6eb29989fa2ccc1fb25cb655b9c3d4d",
+            "packed": false
+        },
+        {
+            "name": "ib_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/denverton-4.4.59/ib_core.ko",
+            "sha256": "2683a1f739bec0ce6723b2624ae0976811d466f74faee6d695ac6738ae367a7c",
+            "packed": false
+        },
+        {
+            "name": "check-ib_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/denverton-4.4.59/check-ib_core.sh",
+            "sha256": "31fbf1add685a258305b0c8f4fb32e6724f330e1365d1f3043352a85ae71a5fa",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": "",
+        "ipv6.ko": "",
+        "ib_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ib_core.sh"
+    }
+}

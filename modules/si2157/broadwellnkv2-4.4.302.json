@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "si2157.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnkv2-4.4.302/si2157.ko",
+            "sha256": "008433c178bb4846406bc8dfcb829d03f01fd1e01c0f0b8e62320332121d65a7",
+            "packed": false
+        },
+        {
+            "name": "check-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnkv2-4.4.302/check-si2157.sh",
+            "sha256": "37f452b575b1c12ca6a7a2528328bc7af04450726df5cfcd244b73e8402c5261",
+            "packed": false
+        },
+        {
+            "name": "si2157_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnkv2-4.4.302/si2157_firmware.tag.gz",
+            "sha256": "0236eb369b6a69439292d28b86ea0773f5dbbdc9f45879d536b63b462e7740f8",
+            "packed": false
+        },
+        {
+            "name": "install-si2157.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnkv2-4.4.302/install-si2157.sh",
+            "sha256": "6d494f475cd5de151fc775756abba4fcf16908f807cc507e78a3ab20fb04f11d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "si2157.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-si2157.sh",
+        "on_os_load": "install-si2157.sh"
+    }
+}

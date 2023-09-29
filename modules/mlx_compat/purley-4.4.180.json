@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "mlx_compat.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx_compat/purley-4.4.180/mlx_compat.ko",
+            "sha256": "cb21661bc18ed77941fa729e744e0f863c0037f43897bd98fc65fcffa288d203",
+            "packed": false
+        },
+        {
+            "name": "check-mlx_compat.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx_compat/purley-4.4.180/check-mlx_compat.sh",
+            "sha256": "6cc9f755f62ab43e62a50c0457a0aa8b9a6034d8c4de5d45ae484b7b34a54ba9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mlx_compat.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mlx_compat.sh"
+    }
+}

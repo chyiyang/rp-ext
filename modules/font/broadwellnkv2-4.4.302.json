@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "font.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/broadwellnkv2-4.4.302/font.ko",
+            "sha256": "1ab17e835aef90b2b6b27e0f494c6edf644f173766484101983e428ce0f3ab43",
+            "packed": false
+        },
+        {
+            "name": "check-font.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/font/broadwellnkv2-4.4.302/check-font.sh",
+            "sha256": "90487a747cba1cf9414dad04b1ed34a0ecdfbe7604be0603d9e99f68579ba66d",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "font.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-font.sh"
+    }
+}

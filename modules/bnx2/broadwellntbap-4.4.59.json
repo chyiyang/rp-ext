@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.9.5",
+    "files": [
+        {
+            "name": "bnx2.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/broadwellntbap-4.4.59/bnx2.ko",
+            "sha256": "f2e6f73b25d8c349cb8c90185b9a6798e3bce3d18887c445e6c9f14da7c7006b",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/broadwellntbap-4.4.59/check-bnx2.sh",
+            "sha256": "cca195ab1d7eeb36aa46bdc27162449a6540140fb5e5eb628571bf6dd079330e",
+            "packed": false
+        },
+        {
+            "name": "bnx2_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/broadwellntbap-4.4.59/bnx2_firmware.tag.gz",
+            "sha256": "338fb606e1eb4654354732a9c90eaa5b68a1bba7efb24373954a39e9645b5ed7",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/broadwellntbap-4.4.59/install-bnx2.sh",
+            "sha256": "3ecece005015bedd95c4e9539407e686dcbe01588f4ad5a00ec77762cc61f63a",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bnx2.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2.sh",
+        "on_os_load": "install-bnx2.sh"
+    }
+}

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.2",
+    "mod_version": "23.9.5",
     "files": [
         {
             "name": "qlcnic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qlcnic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.302/qlcnic_firmware.tag.gz",
-            "sha256": "c8f4b2324a386ea7a63f3c91d05c48d1f00b986a47a058d0b71db7af0fa2d83a",
+            "sha256": "e85d8cd246b138a3089c09e5a9934d85528428617d44e0c80d350375f48c5c1b",
             "packed": false
         },
         {
