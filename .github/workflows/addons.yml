@@ -103,6 +103,7 @@ jobs:
                                           sha256_local = sha256sum(os.path.join(root, pathstrsub( file["url"], reglist)))
                                           if sha256_online != sha256_local:
                                               print('file: {} -- key: {} -- error: {} -- really: {}'.format(pathstrsub(indexData["releases"][key], reglist), pathstrsub(file["url"], reglist), sha256_online, sha256_local))
+                                              
                               else:
                                   print('file: {} -- may not exists'.format(pathstrsub(indexData["releases"][key], reglist)))
 
