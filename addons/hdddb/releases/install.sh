@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env ash
 
 if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
@@ -10,8 +10,7 @@ fi
 
 if [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for hdddb"
-  cp -v hdddb.sh /tmpRoot/usr/bin/hdddb.sh
-  chmod 755 /tmpRoot/usr/bin/hdddb.sh
+  cp -vf hdddb.sh /tmpRoot/usr/bin/hdddb.sh
 
   DEST="/tmpRoot/usr/lib/systemd/system/hdddb.service"
   echo "[Unit]"                                    >${DEST}
@@ -21,7 +20,7 @@ if [ "$HASBOOTED" = "yes" ]; then
   echo "[Service]"                                >>${DEST}
   echo "Type=oneshot"                             >>${DEST}
   echo "RemainAfterExit=true"                     >>${DEST}
-  echo "ExecStart=/usr/bin/hdddb.sh -nfr"         >>${DEST}
+  echo "ExecStart=/usr/bin/hdddb.sh -nfre"        >>${DEST}
   echo                                            >>${DEST}
   echo "[Install]"                                >>${DEST}
   echo "WantedBy=multi-user.target"               >>${DEST}

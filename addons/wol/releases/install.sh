@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env ash
 
 if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
@@ -12,7 +12,6 @@ if [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for wol"
   
   cp -v ethtool /tmpRoot/usr/sbin/ethtool
-  chmod 755 /tmpRoot/usr/sbin/ethtool.sh
 
   DEST="/tmpRoot/lib/systemd/system/ethtool.service"
   echo "[Unit]"                                                                >${DEST}
@@ -27,6 +26,6 @@ if [ "$HASBOOTED" = "yes" ]; then
   echo "[Install]"                                                            >>${DEST}
   echo "WantedBy=multi-user.target"                                           >>${DEST}
 
-  mkdir -p /tmpRoot/etc/systemd/system/multi-user.target.wants
-  ln -sf /lib/systemd/system/ethtool.service /tmpRoot/lib/systemd/system/multi-user.target.wants/ethtool.service
+  mkdir -vp /tmpRoot/etc/systemd/system/multi-user.target.wants
+  ln -vsf /lib/systemd/system/ethtool.service /tmpRoot/lib/systemd/system/multi-user.target.wants/ethtool.service
 fi

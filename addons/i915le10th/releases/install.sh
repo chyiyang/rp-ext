@@ -1,4 +1,10 @@
 #!/usr/bin/env ash
+#
+# Copyright (C) 2022 Ing <https://github.com/wjz304>
+#
+# This is free software, licensed under the MIT License.
+# See /LICENSE for more information.
+#
 
 if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
@@ -34,7 +40,7 @@ if [ "$HASBOOTED" = "yes" ]; then
         else
           echo "Intel GPU is detected (${GPU}), replace id"
           if [ ! -f /tmpRoot/usr/lib/modules/i915.ko.bak ]; then
-            cp -f /tmpRoot/usr/lib/modules/i915.ko /tmpRoot/usr/lib/modules/i915.ko.bak
+            cp -vf /tmpRoot/usr/lib/modules/i915.ko /tmpRoot/usr/lib/modules/i915.ko.bak
           fi
           ${SED_PATH} -i "s/${GPU_DEF}/${GPU_BIN}/; s/308201f706092a86.*70656e6465647e0a//" /tmpRoot/root/i915.ko.hex
           if [ -n "$(cat /tmpRoot/root/i915.ko.hex)" ]; then

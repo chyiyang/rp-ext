@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env ash
 
 wait_time=30 # maximum wait time in seconds
 

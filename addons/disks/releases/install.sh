@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env ash
 #
 # Copyright (C) 2022 Ing <https://github.com/wjz304>
 #
@@ -224,7 +224,7 @@ function dtModel() {
     echo "};" >>${DEST}
   fi
   dtc -I dts -O dtb ${DEST} >/etc/model.dtb
-  cp -fv /etc/model.dtb /run/model.dtb
+  cp -vf /etc/model.dtb /run/model.dtb
   /usr/syno/bin/syno_slot_mapping
 }
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env ash
 
 if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
@@ -10,9 +10,8 @@ fi
 
 if [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for nvmevolume"
-  cp -v bc /tmpRoot/usr/bin/bc
-  chmod +x /tmpRoot/usr/bin/bc
-  cp -v nvmevolume.sh /tmpRoot/usr/bin/nvmevolume.sh
+  cp -vf bc /tmpRoot/usr/bin/bc
+  cp -vf nvmevolume.sh /tmpRoot/usr/bin/nvmevolume.sh
 
   DEST="/tmpRoot/usr/lib/systemd/system/nvmevolume.service"
   echo "[Unit]"                                    >${DEST}
@@ -22,7 +21,7 @@ if [ "$HASBOOTED" = "yes" ]; then
   echo "[Service]"                                >>${DEST}
   echo "Type=oneshot"                             >>${DEST}
   echo "RemainAfterExit=true"                     >>${DEST}
-  echo "ExecStart=/usr/bin/nvmevolume.sh"         >>${DEST}
+  echo "ExecStart=/usr/bin/nvmevolume.sh -ne"     >>${DEST}
   echo                                            >>${DEST}
   echo "[Install]"                                >>${DEST}
   echo "WantedBy=multi-user.target"               >>${DEST}

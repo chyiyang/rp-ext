@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env ash
 
 if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
@@ -11,11 +11,10 @@ fi
 if [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for cpuinfo"
   cp -v cpuinfo.sh /tmpRoot/usr/bin/cpuinfo.sh
-  chmod 755 /tmpRoot/usr/bin/cpuinfo.sh
 
   DEST="/tmpRoot/usr/lib/systemd/system/cpuinfo.service"
   echo "[Unit]"                                          >${DEST}
-  echo "Description=Adds correct CPU Info, from FOXBI"  >>${DEST}
+  echo "Description=Adds correct CPU Info"              >>${DEST}
   echo "After=multi-user.target"                        >>${DEST}
   echo                                                  >>${DEST}
   echo "[Service]"                                      >>${DEST}

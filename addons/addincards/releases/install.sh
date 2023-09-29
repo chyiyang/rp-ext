@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env ash
 
 if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
@@ -10,7 +10,7 @@ fi
 
 if [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for addincards"
-  cp -v addincards.sh /tmpRoot/usr/bin/addincards.sh
+  cp -vf addincards.sh /tmpRoot/usr/bin/addincards.sh
 
   DEST="/tmpRoot/usr/lib/systemd/system/addincards.service"
   echo "[Unit]"                                        >${DEST}

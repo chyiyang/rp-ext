@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env ash
 
 echo "Starting ttyd, listening on port: 7681"
 cp lrz /usr/sbin/rz

@@ -1,9 +1,9 @@
-#!/bin/sh
-
-
-
-### USUALLY SCEMD is the last process run in init, so when scemd is running we are most
-# probably certain that system has finish init process
+#!/usr/bin/env ash
+#
+# Copyright (C) 2022 Ing <https://github.com/wjz304>
+#
+# This is free software, licensed under the MIT License.
+# See /LICENSE for more information.
 #
 
 
@@ -16,8 +16,8 @@ else
 fi
 
 # DSM version
-MajorVersion=`/bin/get_key_value /etc.defaults/VERSION majorversion`
-MinorVersion=`/bin/get_key_value /etc.defaults/VERSION minorversion`
+MajorVersion=$(/bin/get_key_value /etc.defaults/VERSION majorversion)
+MinorVersion=$(/bin/get_key_value /etc.defaults/VERSION minorversion)
 echo "MajorVersion:${MajorVersion} MinorVersion:${MinorVersion}"
 
 if [ "$HASBOOTED" = "no" ]; then
@@ -45,7 +45,7 @@ if [ "$HASBOOTED" = "no" ]; then
   /usr/bin/killall udevd
 elif [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for eudev -- late"
-  # Copy rules
+  echo "Copy rules"
   cp -vf /usr/lib/udev/rules.d/* /tmpRoot/usr/lib/udev/rules.d/
   if [ "${MajorVersion}" -lt "7" ]; then # < 7
     mkdir -p /tmpRoot/etc/init

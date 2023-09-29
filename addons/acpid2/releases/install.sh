@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env ash
 
 if [ $(mount | grep tmpRoot | wc -l) -gt 0 ]; then
   HASBOOTED="yes"
@@ -20,7 +20,7 @@ if [ "$HASBOOTED" = "yes" ]; then
     if [ ! -f "${button_dir}/button.ko" ]; then
       echo "Error: ${button_dir}/button.ko not found, acpid may not work"
     else
-      cp "${button_dir}/button.ko" /tmpRoot/lib/modules/
+      cp -vf "${button_dir}/button.ko" /tmpRoot/lib/modules/
     fi
   fi
 
