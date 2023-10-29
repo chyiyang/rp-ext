@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.59/dvb-core.ko",
-            "sha256": "7227df59356ad6183f36b928ba94ef3ee75827207e6f689b5eb5f111bfca9e88",
+            "sha256": "fe239bb94598a3e77aba8cf50167fb0b32b2ec693b6a1f17e90447d1437314ac",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.59/m88ds3103.ko",
-            "sha256": "cdb37cfcace33c38df4a9be7f29c4293d36e3dfc1c56df5d366dc5d94f984364",
+            "sha256": "4cfa0df86e2c3d97ecb3e85fe943cc84e5ba8d75254f09982749fdd8624979b9",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/denverton-4.4.59/m88ds3103_firmware.tag.gz",
-            "sha256": "4013bbf0f601e033d3724afdd29a8eac7ba250c7e74e46b6658828a1f036c44c",
+            "sha256": "e35ceac5dc7a4afbfb6164f48112176a0f27935618d9ec7a1fda50b31fdea17c",
             "packed": false
         },
         {

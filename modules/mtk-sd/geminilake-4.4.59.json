@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/geminilake-4.4.59/mmc_core.ko",
-            "sha256": "687b76e42499baf99ec8cba6fcefbc74b89889e569d2d463b6e923824e6163e4",
+            "sha256": "8b23f64ce9da56ddb266cb87d05ab94f15499655d6b6fa1ebec8354ff941b988",
             "packed": false
         },
         {
             "name": "mtk-sd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/geminilake-4.4.59/mtk-sd.ko",
-            "sha256": "3089d24220b45f7e22adc9155ec8e2e67102c878c12550559bf0c957b2c25dc9",
+            "sha256": "44d39ac6d45acbcda6bf77d53e81660f836f9bb55ad90984b8cdb3c4d626c2ec",
             "packed": false
         },
         {

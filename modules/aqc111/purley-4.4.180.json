@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/purley-4.4.180/usbnet.ko",
-            "sha256": "c85379d05d21583abad603ffca21c7bff37656492e3b8e0ff62b18f114d5d9e6",
+            "sha256": "85e1c3731104b1cf516ec98a11c31aef59ad7b001ebd1c5eeb7ffe4582a61300",
             "packed": false
         },
         {
             "name": "aqc111.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/purley-4.4.180/aqc111.ko",
-            "sha256": "4225d4efe1453f8388267785087f8def383d5eb6eab9d75d7c544f42ab9280c2",
+            "sha256": "9d7d51f488bd99497c536e02d710609915a8e1e8bdbd5338dd28906f3b42caed",
             "packed": false
         },
         {

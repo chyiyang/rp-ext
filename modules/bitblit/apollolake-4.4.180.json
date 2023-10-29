@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
@@ -10,13 +10,13 @@
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/apollolake-4.4.180/softcursor.ko",
-            "sha256": "8a434c2463d941ba386482e8d7ffb14ad7859341635651f206f1ec7216ac8bda",
+            "sha256": "1446224cdf39fe5171e98d5b2cf2d7c99cf125b3762d023c66cba5d4b389b88b",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/apollolake-4.4.180/bitblit.ko",
-            "sha256": "f90abee8b0b555130a1226d938e3ebe50044a5fecc6714ab41a359e67ea8da38",
+            "sha256": "48a558368bd7a7e1c91c90ca921bc054f55916ca534f95015384926fb05d7686",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/bromolow-3.10.108/mii.ko",
-            "sha256": "49e63a6fcbc390956e7b0719f56f8982536473ffddb999e278b6b17f154e632e",
+            "sha256": "a30163e78e39cea1014d557bc24c261980acec52d5d8c10c752a402665f03144",
             "packed": false
         },
         {
             "name": "r8152.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/bromolow-3.10.108/r8152.ko",
-            "sha256": "f689675bcae3d90a19003ea91cb6db3263907511a8e457c6f954d243432d6ce7",
+            "sha256": "54d557577f43f5886950818163984cca08417d0db91c13787741520e507c040e",
             "packed": false
         },
         {

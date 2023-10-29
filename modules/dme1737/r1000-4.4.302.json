@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/r1000-4.4.302/hwmon-vid.ko",
-            "sha256": "b23bbb5d21e946622f14ee0a9ae0cae942e7e5b14c6baddcfce0556c9c8d7f0f",
+            "sha256": "2b6b81e49496e59f397e8af91fb65bc31dd5385920b9897403960aa5d82a64ea",
             "packed": false
         },
         {
             "name": "dme1737.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/r1000-4.4.302/dme1737.ko",
-            "sha256": "15eef02591316b2d4485454a6fd363c8eafc851874dcde468022b886643a80df",
+            "sha256": "a6d903448e884ee7b75620d495689cc63c3ae60fa64ce47ea06507598056d579",
             "packed": false
         },
         {

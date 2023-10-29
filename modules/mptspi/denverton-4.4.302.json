@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/denverton-4.4.302/mptscsih.ko",
-            "sha256": "8da75f869c5d0fb121c142b6c2d90d69ec3ba71d287c89fad2a458be4e41e11a",
+            "sha256": "6c43cc16e2831c4b7f4487bee8181f0b30c49b0eae505f92a85c2ed8bb94eed6",
             "packed": false
         },
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/denverton-4.4.302/mptbase.ko",
-            "sha256": "991a5130e0b23a1566f6896122b64f631d3be437f47db2cb02e4924c1a65787a",
+            "sha256": "29b7367be49d78f24471f9dddc246b5534813bd69ec7b732ea664c64b4730dee",
             "packed": false
         },
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/denverton-4.4.302/scsi_transport_spi.ko",
-            "sha256": "146a2c2f97865a0701af1d9f4b02271961c152af8bbb493cb109d2aba253c4d7",
+            "sha256": "291483e6bc84461d841b22d36985f5b1e8a9108253904a2d2ab336bb48655eb1",
             "packed": false
         },
         {
             "name": "mptspi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/denverton-4.4.302/mptspi.ko",
-            "sha256": "60c136ac52ba98ed330191d35c2f8d7683428a68d2d8e4faeb2a2327765e131f",
+            "sha256": "1135970c2c30ab515c32d22e3d8ff86b8dac3c9b8fb47f7e5cfda94e5345a325",
             "packed": false
         },
         {

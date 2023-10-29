@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/epyc7002-7.1-5.10.55/mmc_core.ko",
+            "sha256": "4a6f268dc2419d0e0f3ed7ecb8e5a7966041a1687146581b01bcbce6fc7c3a92",
+            "packed": false
+        },
+        {
+            "name": "mmc_block.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/epyc7002-7.1-5.10.55/mmc_block.ko",
+            "sha256": "7a4887d86d83ea3505d8a1da4c44091d4841932bcf61e5cd294bfab03aa9f749",
+            "packed": false
+        },
+        {
+            "name": "check-mmc_block.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/epyc7002-7.1-5.10.55/check-mmc_block.sh",
+            "sha256": "79c52aec381ac1892ffa5167722e7bdccc1ea18688f263528a4c1353bc20a9d6",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "mmc_block.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mmc_block.sh"
+    }
+}

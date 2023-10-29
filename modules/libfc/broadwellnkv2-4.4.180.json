@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "scsi_transport_fc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwellnkv2-4.4.180/scsi_transport_fc.ko",
-            "sha256": "c08840ad4ff7cbc95192e11b7477f2fe8c05ed3680efd9e8ec7f09877fb2a46b",
+            "sha256": "f9734bb8658c2f0615fa97cb7822eb9f0eda0d242deef077aa4a7bd5cdf44d19",
             "packed": false
         },
         {
             "name": "libfc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwellnkv2-4.4.180/libfc.ko",
-            "sha256": "2c62a67d807ca3c168bfe470eb3c0b370daccced6161e2ebb2357e94aa099e86",
+            "sha256": "d496abf70928a067f565920e228667797f8215dd1216171339364405dbc18ba6",
             "packed": false
         },
         {

@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/r1000-4.4.180/libphy.ko",
+            "sha256": "d67c5825edcefe022b398c6427354beb78a41e206b7e10a38e5fee1165dcce20",
+            "packed": false
+        },
+        {
+            "name": "bcm-phy-lib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/r1000-4.4.180/bcm-phy-lib.ko",
+            "sha256": "3b11ece2c2c5d8a7aab262b47b4110b7bd3abf03451dff96ffb1de25f84eed1d",
+            "packed": false
+        },
+        {
+            "name": "check-bcm-phy-lib.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/r1000-4.4.180/check-bcm-phy-lib.sh",
+            "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "bcm-phy-lib.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bcm-phy-lib.sh"
+    }
+}

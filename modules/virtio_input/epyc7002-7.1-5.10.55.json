@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/virtio.ko",
-            "sha256": "181eacc7d243a0f61db8f03bb220dba2f12a14f34d18f80b9d64e28a55a18527",
+            "sha256": "cbc807e81f1f84d5f5efd7323d5d7c156a73e7f91a0637381e2a678b67917deb",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/virtio_ring.ko",
-            "sha256": "167c466798bb43401c29139a2d5ef135a8d5f6ef9a03d1e5c2197b0381237133",
+            "sha256": "758e6dd2848082eabe49d6a0843b4fa675cf54df6238d5d882aa4ff05a23ff2a",
             "packed": false
         },
         {
             "name": "virtio_input.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/virtio_input.ko",
-            "sha256": "9e512a74fb3280b443143c6a46ed70aafee6887d9afa48cdb8793536562ef1ae",
+            "sha256": "59b253caf446397281383a9623afcbf20230bea9c01ff1455ec1cdff66fec7fe",
             "packed": false
         },
         {

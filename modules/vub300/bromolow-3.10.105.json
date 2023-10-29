@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/bromolow-3.10.105/mmc_core.ko",
+            "sha256": "b12b7ed176b5cbd9c1d44f45a03f025495cc33d32386e2acd436983dc6df3efc",
+            "packed": false
+        },
+        {
+            "name": "vub300.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/bromolow-3.10.105/vub300.ko",
+            "sha256": "30d2b8388d7429ec9d891a81843fa1844a5bca380bfdc15a3433354747c433f1",
+            "packed": false
+        },
+        {
+            "name": "check-vub300.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/bromolow-3.10.105/check-vub300.sh",
+            "sha256": "e1e98de619ef4e70ec723d5f4ac415010970656ddf6575258837c37377f371a5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "vub300.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vub300.sh"
+    }
+}

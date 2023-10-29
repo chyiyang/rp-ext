@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "bcm-phy-lib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/apollolake-4.4.302/bcm-phy-lib.ko",
+            "sha256": "525ed176d3dfb3bdd4cdc373a7eadd19986bb33481216e1c40eba3b17f1b3659",
+            "packed": false
+        },
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/apollolake-4.4.302/libphy.ko",
+            "sha256": "3c98936c75094461b69c97904831d6f82d7ad8b4f07b7acdfcf5fbd3eee3373d",
+            "packed": false
+        },
+        {
+            "name": "broadcom.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/apollolake-4.4.302/broadcom.ko",
+            "sha256": "7fadc037df66adbdd3bf8e1f303ab9d18495041255014623f847fe364c9f7fdd",
+            "packed": false
+        },
+        {
+            "name": "check-broadcom.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/apollolake-4.4.302/check-broadcom.sh",
+            "sha256": "fe69e4932f9fe4e19f96dcc025a18ffb28f8fcd1994fe66605a5cb2a5877e1f9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bcm-phy-lib.ko": "",
+        "libphy.ko": "",
+        "broadcom.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-broadcom.sh"
+    }
+}

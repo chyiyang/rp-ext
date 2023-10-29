@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/mptscsih.ko",
-            "sha256": "0e05de337bac3908dbaf7da27d913011299b1a374c443d7c0f1bb430d9affd3f",
+            "sha256": "96e21a7a70a973f01ee1927745b09b55af29756888d1399bd4ec567dadc02995",
             "packed": false
         },
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/mptbase.ko",
-            "sha256": "fcc2c5d4d2bc8a0490c3cbc42f2e0bc4693424ad6c74c0ab658215bac8f66844",
+            "sha256": "cde768977151250c64eef3dbf280183c0684f3c2af19e57a9be7ad7bd6c5b565",
             "packed": false
         },
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/scsi_transport_spi.ko",
-            "sha256": "29cf001e5f453c2f9c62f3553ff409b3d8b3fcafcf818bd781c6437320505a2f",
+            "sha256": "ac11c8d3eee2f02cdbca2a60b228152362e4df85fdecdfbff725e2ceb367f332",
             "packed": false
         },
         {
             "name": "mptspi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/mptspi.ko",
-            "sha256": "a0d58f0fff049c9a4267349fae9b9cf676aaa0d7d39cc29cd1ec5d4a9c9a4abe",
+            "sha256": "5dd47b62959b89ae87317ead575402c9d662c1cb0fbc69d5d6e170e9bbaa228b",
             "packed": false
         },
         {

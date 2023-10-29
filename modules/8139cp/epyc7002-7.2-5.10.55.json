@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/epyc7002-7.2-5.10.55/mii.ko",
-            "sha256": "57cc03fd34a86228b4bda05717f387b6f1e508e262d75cd319c7ba666fd9066f",
+            "sha256": "3ec9e02fe40414c32e46384f29c92b0cdc4b99b3dfb29cbd023ace0ce7bbced0",
             "packed": false
         },
         {
             "name": "8139cp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/epyc7002-7.2-5.10.55/8139cp.ko",
-            "sha256": "169a6ee8e64f66a8740da7268d35375b8ac00ef06a64aa683ed4f4a28f296d23",
+            "sha256": "cdf158524f6a3074441fe75d937cf51dc23369a9c27012468fbedec024036046",
             "packed": false
         },
         {

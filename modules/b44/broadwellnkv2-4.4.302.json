@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/broadwellnkv2-4.4.302/libphy.ko",
-            "sha256": "f115a001df52e26290f3d8f9322607f81f7e5c545a725733ed123a3737615887",
+            "sha256": "2337388c9761ca85e799f8ec57c70e2c3591609aa0d6c07682a62dfda8836c0f",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/broadwellnkv2-4.4.302/mii.ko",
-            "sha256": "18b766025f00611e9d9ae087ce6795458793a0caa631b4f947b9085b974a56b7",
+            "sha256": "dd4c10b5c8a1387c33e1cabdbc7621ae38f7eb7072a30f43bf1decbc8d82cdde",
             "packed": false
         },
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/broadwellnkv2-4.4.302/b44.ko",
-            "sha256": "cba4b6c5e70d5455324263c1bab4d09b6132fa02007b4f02eb0db52b5f3db75c",
+            "sha256": "ce6554a9db3e163a41d2478eb7c09bf99d17dbddab70d5c39c46aa8fd54cb2e8",
             "packed": false
         },
         {

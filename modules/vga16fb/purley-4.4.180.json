@@ -1,40 +1,40 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/cfbfillrect.ko",
-            "sha256": "c29011a887b3042a6bc7a2d9643dcb07ad16e658dda42e60f92ef83a3177a819",
+            "sha256": "088b8088da11ebcf4fab3daec0e03e5a8c86c2ac956f3c42e7422eb32fdd57ca",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/cfbimgblt.ko",
-            "sha256": "df3fe08a058da784c4d0f70b8c5af874a3b53088ab2bc89b4cbd8155bea4a9a0",
+            "sha256": "d619ce117f705da43a0f4e5a887c84d02419c7a7f71df114bd8ed8d3a215b2ff",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/cfbcopyarea.ko",
-            "sha256": "95841d79afe422629a557a66a2c1324fab1dbe593df3747da7a7080f7c369b14",
+            "sha256": "899227e1ef000e6fee6b2756fe598e70dd83fbc01bab98669fad3b1fba0f1ba6",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/fb.ko",
-            "sha256": "b51c2bfd2ced0e59e37b6852f6642f90d93ba500bb8cf5cba4398bd72c4f78a5",
+            "sha256": "8e9336f609cb5197fa383d707522271c72e6597740b73abe412e5295873f2060",
             "packed": false
         },
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/vgastate.ko",
-            "sha256": "ce65ee56785ccf537de393447cff645e1c6f95adc86fe0229b7649267f8ea175",
+            "sha256": "b83964f428061d3a3802a37bbdf8c8161b3cbdb8802e4bc6cabdc99da53b6287",
             "packed": false
         },
         {
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/purley-4.4.180/vga16fb.ko",
-            "sha256": "9282c94e5c9328f54f9a2ed1ec22201079a0172306ec9c148b93a7498aaa3c89",
+            "sha256": "5cdb0351b907c5547bb878e7766be69a87e80a1232585e8697fc3c23ec74fefe",
             "packed": false
         },
         {

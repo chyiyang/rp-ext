@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/denverton-4.4.59/libphy.ko",
+            "sha256": "b8a4c0d65b7fe7eadcc5febd177bfab44fa6a4284b30a7a1e1dcf48696695bb8",
+            "packed": false
+        },
+        {
+            "name": "bcm-phy-lib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/denverton-4.4.59/bcm-phy-lib.ko",
+            "sha256": "7a3d3af82049d76b33ea9f679e9e9d8b7af9241afe3671112ac61f98c0fe41ce",
+            "packed": false
+        },
+        {
+            "name": "check-bcm-phy-lib.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/denverton-4.4.59/check-bcm-phy-lib.sh",
+            "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "bcm-phy-lib.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bcm-phy-lib.sh"
+    }
+}

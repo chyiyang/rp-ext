@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/apollolake-4.4.302/auxiliary.ko",
-            "sha256": "c60bee1736299b94daec233e1fef4fe5c42c0d32806d6b36b208e4686c904893",
+            "sha256": "58ac27bca9dcf84e1dd5b7c3c9dca156c49972b20a68c12d70a2237b165bb9be",
             "packed": false
         },
         {
             "name": "iavf.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/apollolake-4.4.302/iavf.ko",
-            "sha256": "d46df28d26e471b35b499218e6cc651383ad80dfb1d42f95842317c1aa47a407",
+            "sha256": "e88f7f22cb1a0691acb6ced95b1fa3a0409e32a71b8600f418fcb5f72dd73e34",
             "packed": false
         },
         {

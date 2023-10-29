@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwellntbap-4.4.302/auxiliary.ko",
-            "sha256": "580ff0761af599b4f9317ad720258ec5f265a5adbe2ba7a131af311df0f19ccc",
+            "sha256": "63b5c278919384395bac3e5189576c6c06a77188eb106151e86a9397aa49ddfa",
             "packed": false
         },
         {
             "name": "ice.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/broadwellntbap-4.4.302/ice.ko",
-            "sha256": "2b7101a6730c1b00384c12d1d6d500117158113482d94cf61e8f68a0913002c4",
+            "sha256": "e0d5f3182362db9e212b1b42a43cab61ce8ee8923ed2504fc405c15d29e9b1a9",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/braswell-3.10.105/mii.ko",
-            "sha256": "2289e88ff5ccfa3749ab5cdbc37014a451e8bfaaaa86dd3ad70834f10480b8b4",
+            "sha256": "ef20f3820865acbfc5a6b2ad779776e01b3ef43acdea0b453d9a081006ea4ee4",
             "packed": false
         },
         {
             "name": "8139cp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/braswell-3.10.105/8139cp.ko",
-            "sha256": "c4c22a6398735f6de734bdacae6db37f46fce0e7c11fff2cc058b59c65e0f9cd",
+            "sha256": "827634822076c4dde58455946b224e0380923d6b44716265b030aa92f124fa4f",
             "packed": false
         },
         {

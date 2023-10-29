@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "netxen_nic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/geminilake-4.4.302/netxen_nic.ko",
-            "sha256": "ae131eedf105103201b09aea755911b8e020633a50a7735394a88b0585e7e366",
+            "sha256": "76561846decebd7e7c5aa2f91af4bb9f9b93ceff203b098b077d7c9e75134732",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/geminilake-4.4.302/netxen_nic_firmware.tag.gz",
-            "sha256": "9906201041501de68057be0ef29b9d53f79a339e913a6387d05af2faf4473613",
+            "sha256": "51c9055f2eb0ea66e1305363890c55b4c329135be32f59047487ef2d17544afd",
             "packed": false
         },
         {

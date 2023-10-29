@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/denverton-4.4.59/fb.ko",
-            "sha256": "9b33efa40a73771e7751ab9fd8b6b435037f21a1dc14338209acdd9c02eedb10",
+            "sha256": "0b015e39f7e327d5560c4f51b86a87cf830bc2e19f9824c61655ddb4508f4e9c",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/denverton-4.4.59/softcursor.ko",
-            "sha256": "cdfd0d639b3619d6a5c35866161677a94cf682fa07879258a0887e596f688582",
+            "sha256": "8c40e1a5225194a08c9e097450b62b29f124131ce4c7f31137f7fa26d437e59e",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/denverton-4.4.59/bitblit.ko",
-            "sha256": "a18a8e855503fa2e97ac48aa8e1494dd6812be1aa57eb490a470d73c96b947e0",
+            "sha256": "370e1bacc132ad2fa2e4c4f13855c283df7b8d7440cae7b4d75115ea68777d49",
             "packed": false
         },
         {

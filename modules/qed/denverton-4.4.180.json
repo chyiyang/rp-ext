@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/denverton-4.4.180/qed.ko",
-            "sha256": "ec1e940595d803bae2be7cc0912e6174b4b6b53ab74f3a9dcb060c40fccd2ad6",
+            "sha256": "382ee456c48b3a65e56a377969af83c208ea970e093992ca191c05f8d8a7d01e",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "qed_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/denverton-4.4.180/qed_firmware.tag.gz",
-            "sha256": "53e9e57e0642ad69aee2f164d354f99035a0b45e53c70bc16b5d8544a9456454",
+            "sha256": "a38e26b63aa61e7a4a4722a37ed83d0f50435a6f88d963d7b091985d1c51ca84",
             "packed": false
         },
         {

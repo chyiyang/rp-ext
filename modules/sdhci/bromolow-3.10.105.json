@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/bromolow-3.10.105/mmc_core.ko",
+            "sha256": "b12b7ed176b5cbd9c1d44f45a03f025495cc33d32386e2acd436983dc6df3efc",
+            "packed": false
+        },
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/bromolow-3.10.105/sdhci.ko",
+            "sha256": "b73d4b167c21ccbcb332ee234220c9ff72a5e745541ab6f966e009aeb767e090",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/bromolow-3.10.105/check-sdhci.sh",
+            "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "sdhci.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci.sh"
+    }
+}

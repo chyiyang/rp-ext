@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwellnkv2-4.4.302/mdio.ko",
-            "sha256": "d2898ae508025820808f524559b935756241d033f7f0c6d883f589114f6af5bf",
+            "sha256": "134fac9e742969bffed19a4dbd013042d545fb944d89066a395acccf3e463e56",
             "packed": false
         },
         {
             "name": "alx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/broadwellnkv2-4.4.302/alx.ko",
-            "sha256": "6ca02835ca572ea58790ee27fc4278a41e21f749f91d52792dc74200c1ae96b9",
+            "sha256": "a76b1dea97cf46a0759417b691d34d1c1a7fd796aab7d2b49ed8588ec4c1c6d6",
             "packed": false
         },
         {

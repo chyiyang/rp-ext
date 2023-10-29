@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.59/mptscsih.ko",
-            "sha256": "31f20ff5c24b2c9c418c92479afad3b9394e3e2e70ab57a6109e4ad687c90cd6",
+            "sha256": "d4c0c9eb745311fa1f3d469938540d0e6f23ce4f55923ed04ff35735a64d0950",
             "packed": false
         },
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.59/mptbase.ko",
-            "sha256": "23564f9ad3ff77bd2ce6d7830b8a062184ff437a7563f76f4844fd979d1380a4",
+            "sha256": "642ce6c42ca5d3f5e9d313cc529c684dd1634aa4e92d5792f66a3798023f7eca",
             "packed": false
         },
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.59/scsi_transport_spi.ko",
-            "sha256": "63109d0145344b2eea93166552bb09636668d2f172db31a515f11d6596f35ccc",
+            "sha256": "2dacf4214021fad5e3b45dbd5d823beb7e8d8046ab23e8b8ca36fc49afde2849",
             "packed": false
         },
         {
             "name": "mptspi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.59/mptspi.ko",
-            "sha256": "92bf9edad61fb24aa398c4372ca99496c4ef4ab06ec44b3c2e528a66c46b3803",
+            "sha256": "7e207489c74a046a86f1e5e057d77ce9ff33424125768b685a2bc0229ee1a72c",
             "packed": false
         },
         {

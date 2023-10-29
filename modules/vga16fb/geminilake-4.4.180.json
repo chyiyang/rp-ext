@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cfbfillrect.ko",
@@ -28,13 +28,13 @@
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.180/vgastate.ko",
-            "sha256": "18a4524d51d41619477e358340c8689137bdff0f7e3d30e80fb220aae32a5543",
+            "sha256": "d1055f745deeab443c4dd8610a47d04fb9543300f312e0d9547a8ad256570c97",
             "packed": false
         },
         {
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/geminilake-4.4.180/vga16fb.ko",
-            "sha256": "a5441818f177fe04cdc2e2292b4515224d4475ff2bb77a503e162eae7b3764a7",
+            "sha256": "a5da95eda4009e76a3c431e10bf2dc9de890728510e42ee3bf8ffec7ddf61fe5",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/denverton-4.4.180/hwmon-vid.ko",
-            "sha256": "dcdc5c042014496177346f981f9ec6e9e2073a0c91f47724f3af38e2d7ab5b45",
+            "sha256": "84a35de2ac771492e15272e215f29f2955d1a049139b261c775133888fca11dc",
             "packed": false
         },
         {
             "name": "it87.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/denverton-4.4.180/it87.ko",
-            "sha256": "e9cdb30ed7eca7f720225031b58b4c1696fae35f4ac08a4ca8597b4866bd38a9",
+            "sha256": "0603d168d4cc573b35c4f20b9a976ec3f4a49e18851501a36922729cd2cd6ace",
             "packed": false
         },
         {

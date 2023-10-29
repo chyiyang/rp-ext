@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/bromolow-3.10.108/mii.ko",
-            "sha256": "49e63a6fcbc390956e7b0719f56f8982536473ffddb999e278b6b17f154e632e",
+            "sha256": "a30163e78e39cea1014d557bc24c261980acec52d5d8c10c752a402665f03144",
             "packed": false
         },
         {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/bromolow-3.10.108/asix.ko",
-            "sha256": "0da23bdedc1fe2da422a53484147cc88bff3dede1794faa09ec95087db140ff3",
+            "sha256": "5f1cd7619d0cb7cfb2c49b8c05e624f517007a781dc63a71c01ab69cfbd123e7",
             "packed": false
         },
         {

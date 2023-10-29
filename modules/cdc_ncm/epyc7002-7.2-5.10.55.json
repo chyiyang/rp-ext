@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-7.2-5.10.55/usbnet.ko",
-            "sha256": "125d294553dd98ee1ec50ce6d030df6285de7084e5e4e9d1adf8a159285d658f",
+            "sha256": "2cd12afb23153a89a621eb43c284ddfa0587dad9066b5cb5d8a8637237449942",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-7.2-5.10.55/cdc_ncm.ko",
-            "sha256": "2221bb28b3614aee194a6a5716eff9c989cc6b6554f6f010fbecbc50c9858ff3",
+            "sha256": "7d29b026c099eecad4b7b427ccd7eaa35f883192cddf873424034af710f9f5a5",
             "packed": false
         },
         {

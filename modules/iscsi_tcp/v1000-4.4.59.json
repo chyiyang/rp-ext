@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libiscsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/v1000-4.4.59/libiscsi.ko",
-            "sha256": "4fc553322ceafe10d80b182dc6c4d6c6717d21ef497fd8d4da1eb33d581cbded",
+            "sha256": "996996569c1c4c24bc72dfec2828cfea5ad5931fcc247752481827170ca920f6",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/v1000-4.4.59/libiscsi_tcp.ko",
-            "sha256": "7340e035ba18591ae52e4d7becc56f0ccbfbe973a3d754bc5208d46f51b73ea2",
+            "sha256": "7c0e7145e0de49b9552ca2eef9171a0d618b6059eb2789c9b9b2b56eff5d0d20",
             "packed": false
         },
         {
             "name": "iscsi_tcp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/v1000-4.4.59/iscsi_tcp.ko",
-            "sha256": "e721f287665111bc41670d3677f82a7ad4266f5eb1c0f58ca9e0c724d8dcc524",
+            "sha256": "3eae10c6db84a708b1dad21f26172a123d5591855f3537778cdb8acf5a2ee023",
             "packed": false
         },
         {

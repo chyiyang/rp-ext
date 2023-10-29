@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "intel_auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/geminilake-4.4.59/intel_auxiliary.ko",
-            "sha256": "473f972798376eefc1bf624051d4eaa87e3c084333171b1d03c58d6405be2644",
+            "sha256": "9314f0bc0be52611ab02c21d2e56a8dbabc8c3874f788b8d010949f88c073289",
             "packed": false
         },
         {
             "name": "i40e.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/geminilake-4.4.59/i40e.ko",
-            "sha256": "3f8ea458acf2cdb4ca6beb476019c26d19c7469a6aca56a6a2b6e00a6d20b415",
+            "sha256": "7c6afed486cb8941b3caf1418af9fb637207e86561196b8629ca1e7a0acefea6",
             "packed": false
         },
         {

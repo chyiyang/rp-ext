@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/apollolake-4.4.302/libphy.ko",
+            "sha256": "3c98936c75094461b69c97904831d6f82d7ad8b4f07b7acdfcf5fbd3eee3373d",
+            "packed": false
+        },
+        {
+            "name": "bcm-phy-lib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/apollolake-4.4.302/bcm-phy-lib.ko",
+            "sha256": "525ed176d3dfb3bdd4cdc373a7eadd19986bb33481216e1c40eba3b17f1b3659",
+            "packed": false
+        },
+        {
+            "name": "check-bcm-phy-lib.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/apollolake-4.4.302/check-bcm-phy-lib.sh",
+            "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "bcm-phy-lib.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bcm-phy-lib.sh"
+    }
+}

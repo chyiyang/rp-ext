@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
@@ -10,19 +10,19 @@
         {
             "name": "font.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/geminilake-4.4.180/font.ko",
-            "sha256": "973a36b390417c466e1d628c749d4669d92ecab7849e0626b267148508986d24",
+            "sha256": "852bff24f94e31380487c8302087b1375de78e7269f5ab5eead56444c85eb211",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/geminilake-4.4.180/bitblit.ko",
-            "sha256": "15a7512baeb49f9cea6412afa03e5795729782970821ec6b79fee708e4d9649b",
+            "sha256": "4b85d187be976946bb91289631b803c9bc710c76d42c4e483079a445b3cefc61",
             "packed": false
         },
         {
             "name": "fbcon.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/geminilake-4.4.180/fbcon.ko",
-            "sha256": "cde5e6b865f09f7770852fc632a267ccb81d2868617b735544a2a616eda683cd",
+            "sha256": "4560d7c4ed77ced283e311ca6b677e9b2c39dca120ba26384b9a7ef450b15163",
             "packed": false
         },
         {

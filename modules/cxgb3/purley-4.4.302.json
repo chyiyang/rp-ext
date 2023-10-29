@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/mdio.ko",
-            "sha256": "3c893c00d7aea806551abfadfbbc93944c6b92d4c8d6d17b0ffb327543c6e5fc",
+            "sha256": "28b8c13ae56c50b44bf1f4dbd99c7923451ec39e26572fb8a1992116250fe574",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/cxgb3.ko",
-            "sha256": "05546ce5aa136d7da3b5c9c8df962d3e3a09a4259d3fbd316845d0679aa2dc13",
+            "sha256": "011a77d5bc3fde770205c9479163b5a9e5047d683a518ece93902ff56750fa17",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/cxgb3_firmware.tag.gz",
-            "sha256": "99402dba1f944085bee885e1256effe3fef405f9674f0d8fcb9997e089718782",
+            "sha256": "99d970874cd5451ec4b3e7f363ce577cb9a87612d424e8e979ae266578da1444",
             "packed": false
         },
         {

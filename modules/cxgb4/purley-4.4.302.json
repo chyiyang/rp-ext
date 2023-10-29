@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cxgb4.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/purley-4.4.302/cxgb4.ko",
-            "sha256": "639ac5c9588889be09f211e637b7bbecab12851f546fb3876e8cfa8fc4aa24c0",
+            "sha256": "7f05ed3f306af92e7a8781ec84895131b8970066ee9a15b0bcfe0bf4ec33197d",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/purley-4.4.302/cxgb4_firmware.tag.gz",
-            "sha256": "c1e75661cdca32f5a1acceafa143a9d5b6dd68a726fe691917de4765abb47dbc",
+            "sha256": "b6f27e68f8f9f9d17bfd3ce3da58eca6ae341fe43711ed040316a25b43b36e71",
             "packed": false
         },
         {

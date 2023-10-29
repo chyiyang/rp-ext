@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.302/qed.ko",
-            "sha256": "573dbe0d456d514f785efc91a534e4f0a50741e8cdcc701dd5de0de19d4bf199",
+            "sha256": "5775fbf3c23d7cdfec789e5604818cad58038236318f91c0f1f49e8d968adea0",
             "packed": false
         },
         {
             "name": "qede.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.302/qede.ko",
-            "sha256": "3687ae92adc5045e68b1dbc8506753cfb3663983f534adc2bbd4ea68ba1e94b1",
+            "sha256": "db24dd3da308d34fb31a2a79d5d16d5e6b5df67dd399abc22e257d077a1e8806",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/denverton-4.4.302/qede_firmware.tag.gz",
-            "sha256": "c15bd428c9e24b23fd201105469ea63c0a6c529601b183c88d8d1c4dc318e840",
+            "sha256": "6ceaf5cebf1f018d29f61bda649bfd81ba28f921a82580f09f58ace3604cd876",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/geminilake-4.4.302/mdio.ko",
-            "sha256": "248fbbe8ecd85afdae76caab721e6f1375027d40a09f1b4808a61b7e44ac6cf5",
+            "sha256": "7d29ad11940d361c62170f6c41e71a6bfdf079b6d484721967c27c27565d0ed9",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/geminilake-4.4.302/cxgb3.ko",
-            "sha256": "003df6380d8eb05e8868fc8e5e7c955278611669749f3325196f30ee2d5242d2",
+            "sha256": "095839fb3c482a62f256bd2ef840940a1d7fd5b02524961a79f0571ff72dfc08",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/geminilake-4.4.302/cxgb3_firmware.tag.gz",
-            "sha256": "e085d06a61a95ad96135897c7fcd61407075ac6bc87b751bc834a957b9e2c6a1",
+            "sha256": "59828ff93cbe92c631ae1c995a8789aae144c254285b4122003f61d02ca04746",
             "packed": false
         },
         {

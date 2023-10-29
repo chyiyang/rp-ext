@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.1-5.10.55/mmc_core.ko",
+            "sha256": "4a6f268dc2419d0e0f3ed7ecb8e5a7966041a1687146581b01bcbce6fc7c3a92",
+            "packed": false
+        },
+        {
+            "name": "cqhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.1-5.10.55/cqhci.ko",
+            "sha256": "53d5a19c054dca5fa6eb0dfd73b7d1720143205b09eae8ffc92d082fcf82bff6",
+            "packed": false
+        },
+        {
+            "name": "mtk-sd.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.1-5.10.55/mtk-sd.ko",
+            "sha256": "22e65a630999da1a0aa86447a545842a1c29e50fc35db1950d1acdae516e1e46",
+            "packed": false
+        },
+        {
+            "name": "check-mtk-sd.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.1-5.10.55/check-mtk-sd.sh",
+            "sha256": "00e6f4f9ecbc387b539676258c4c48c57a01e418a4b06aec5332d2a22cc175b4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "cqhci.ko": "",
+        "mtk-sd.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mtk-sd.sh"
+    }
+}

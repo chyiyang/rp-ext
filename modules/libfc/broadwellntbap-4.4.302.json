@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "scsi_transport_fc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwellntbap-4.4.302/scsi_transport_fc.ko",
-            "sha256": "757af6914b1636f24a1a720d8ea49ce193c02b3f089292db19059ebcf9ee37e9",
+            "sha256": "edacce9924a291f8a18e7730da2c92bfa5ffdc125ba7fb762354304cc5142c3c",
             "packed": false
         },
         {
             "name": "libfc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwellntbap-4.4.302/libfc.ko",
-            "sha256": "99fef7e7cd338784aca25cb2bd97da0e22379b5d39c69d1e6502bcc6b5b47f8c",
+            "sha256": "b93c5126304f90939cd0e9ed6ecb270c8a0935b3ca5c74e160b04dc00f90fd86",
             "packed": false
         },
         {

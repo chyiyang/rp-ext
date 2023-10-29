@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "intel_auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/purley-4.4.302/intel_auxiliary.ko",
-            "sha256": "cc124ce2bc5693758c67fb1adae9b278f2bf64a04e38fd0b2dcfae4de1ade1a0",
+            "sha256": "171490710a77a10a059b1c01b0ae7768319a0fac1e037fff5aec372e96e89934",
             "packed": false
         },
         {
             "name": "i40e.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/purley-4.4.302/i40e.ko",
-            "sha256": "5a48ea8b90e842059961729cf24a33bfd9860d8727f4d6ca8fb02b0d2f2a4748",
+            "sha256": "d5640885b34ad925672833e20c26e917b225f900ea2c8c1fa966e3b6c15a8f14",
             "packed": false
         },
         {

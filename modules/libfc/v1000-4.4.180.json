@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "scsi_transport_fc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/v1000-4.4.180/scsi_transport_fc.ko",
-            "sha256": "8f59d16d46ea29e9841160a12eac84f5ec9e2b7044e5bb1d48c37173eb98c880",
+            "sha256": "50f915fb148d06e6bd384b7de73d363aced56807b1d85eb5cfab663b72952dd2",
             "packed": false
         },
         {
             "name": "libfc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/v1000-4.4.180/libfc.ko",
-            "sha256": "ae87fff54d301bcd5be303634321eb0c950791fcc34080d469a966b02a50f2ea",
+            "sha256": "0cedd21d4255b418ed79443759426b9ea5b1e7d1e65c15c755eb19d6735b5706",
             "packed": false
         },
         {

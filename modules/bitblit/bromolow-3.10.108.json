@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/bromolow-3.10.108/fb.ko",
-            "sha256": "727f1c30dde4282bf7139f02befed6ec30c61bd5bff9b85c47a00999a35554fb",
+            "sha256": "5a31f966f86c66c91e12bc5b501584e68cc6e275e27a18cebfe31954b8516d23",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/bromolow-3.10.108/softcursor.ko",
-            "sha256": "3c290fe0a8983b8096912b43ca404541c1ea00a975f63f1070886bd0cbb6aa92",
+            "sha256": "9e46a4658358d5e3b707460a82a04614e79c4daa8b243af26a3c8147c8a356e2",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/bromolow-3.10.108/bitblit.ko",
-            "sha256": "516b1a42585477e6a42a365af40da0ac1dd4f1740b873b542bf0625223f73627",
+            "sha256": "f834d26bb37a328de734ade9091c169cea3f185bd5706109ec4e398b452ec88f",
             "packed": false
         },
         {

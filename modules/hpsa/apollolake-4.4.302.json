@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/apollolake-4.4.302/scsi_transport_sas.ko",
-            "sha256": "9404d3ae6a34c208b5f8c0c2fd362fb97056355e806263f76f14808a3e66c3cf",
+            "sha256": "89613d458e90280a4cd20a7f86bdd95314e671ff86dc2e1eab3aa10ce7caa672",
             "packed": false
         },
         {
             "name": "hpsa.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/apollolake-4.4.302/hpsa.ko",
-            "sha256": "a30465ed3c1a1da403a8c77e1fb666afc206c714824abf0d81731a46909a3c94",
+            "sha256": "630cf0a05d8003f0dfcfcf4d8137d368100b59dddc3051b279b6680b97e7b240",
             "packed": false
         },
         {

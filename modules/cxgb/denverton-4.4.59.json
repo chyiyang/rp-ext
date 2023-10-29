@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/denverton-4.4.59/mdio.ko",
-            "sha256": "7cfdc9d54607cf754e525846bac4968f1d4945600fd9556ac277c8b0a0809216",
+            "sha256": "61d31b230c53b3bc94f28aa05f50e1721a1fb515a3c0f69224009ecc5d0fe951",
             "packed": false
         },
         {
             "name": "cxgb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/denverton-4.4.59/cxgb.ko",
-            "sha256": "9d5f101e3467a216f361f316c96f9ef6b81dd11620df0112787f8ad205eb5ae7",
+            "sha256": "b949bb5b7ee50f6ae026d1fbf4554858f26f9d0a1f86e746adae8c9fd1bfdcc0",
             "packed": false
         },
         {

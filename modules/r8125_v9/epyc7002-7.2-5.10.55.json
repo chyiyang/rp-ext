@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "r8125_v9.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125_v9/epyc7002-7.2-5.10.55/r8125_v9.ko",
+            "sha256": "a20168b4b7554c957acff0e578c32e33fc9014d0517e6c43c49a2dbb89592e90",
+            "packed": false
+        },
+        {
+            "name": "check-r8125_v9.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125_v9/epyc7002-7.2-5.10.55/check-r8125_v9.sh",
+            "sha256": "904ffdd904b6c448b0bb2d0fbd99cb44ff879a84c672654c5c55febd170e42e4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8125_v9.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8125_v9.sh"
+    }
+}

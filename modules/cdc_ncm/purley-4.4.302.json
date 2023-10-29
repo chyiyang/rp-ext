@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.302/usbnet.ko",
-            "sha256": "0992608e9c9c648621d2139f7cd896f01311210d51c641a6e4dbf6353d2fecb7",
+            "sha256": "47e0624961c2e79aef333970de6f716218b0fd481925707a2ab6601b3adb01a8",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.302/cdc_ncm.ko",
-            "sha256": "ff39385db86ca1e1f4b54a22fda5b9eef4dbe58bb4de3bee129b70826342a8ef",
+            "sha256": "c018af430e9c8e5ed7590e3871abb4407d0666884754e2c15d45d46316f8bf8e",
             "packed": false
         },
         {

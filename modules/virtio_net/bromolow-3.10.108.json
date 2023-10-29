@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/bromolow-3.10.108/virtio.ko",
-            "sha256": "0b5c61af053f81de14d5a95bd92d276cea8b3a706d11e1c313085b26668eb182",
+            "sha256": "3e73689c550c233fe9a9f39118c6239b0a541ebdc54d6450e77f2d98e7872224",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/bromolow-3.10.108/virtio_ring.ko",
-            "sha256": "a7c49dedb84a88c58fa2d9c2e198b9d5d94d6fb641f27c69520780d27b9ab64e",
+            "sha256": "cf6857c52641b5911871d8f7d6ef48d31f45b42b527c6685b274b96116de2409",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/bromolow-3.10.108/virtio_net.ko",
-            "sha256": "ff1ea48a86941279ec11119d94c390fcd2df458f12dcb1bd6f6b91fff3313bc6",
+            "sha256": "fb1b7dc6d7755571c646274871c054c566bc99a2643a7a3fe97ac5a57b0f9abd",
             "packed": false
         },
         {

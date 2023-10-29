@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/geminilake-4.4.302/megaraid_mm.ko",
-            "sha256": "4a7a3ec894d0a7130fd981f090b2a5df242acd2cf9234afd28f6d86869015cfe",
+            "sha256": "11dad13cc7158d6343981d1af519a5b9a347b62fd42d67987b50305287f3c622",
             "packed": false
         },
         {
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/geminilake-4.4.302/megaraid_mbox.ko",
-            "sha256": "2305aec4bcf8f5960aba84d465cb8b5b9f632fab60cbec029ec6dea6aa7f3c27",
+            "sha256": "ac9d5ff3b0ec2ff352b5c6ab4441573a47afa85e819f4d7f56ffcc703f48a508",
             "packed": false
         },
         {

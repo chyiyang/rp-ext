@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.302/mptscsih.ko",
-            "sha256": "4bcd7dc20757080558a5a7a14d59643aa6e7e2f51dbe814254664c5c8dada660",
+            "sha256": "ecc547d1bdd39adbbba6c82e0484708786f7654f06c3d6f5052fdec63907d84e",
             "packed": false
         },
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.302/mptbase.ko",
-            "sha256": "2dbf97d67ec551bea5ffb9d2ad8ec0249909951721f4c5b1634154fb4af86557",
+            "sha256": "864db07fb7918271e03c364caef663041e04342d5b1c0044a63a56c9191b7f6c",
             "packed": false
         },
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.302/scsi_transport_spi.ko",
-            "sha256": "26d8bd34c342d077056d2e1900f928b530c8a6f7ec2f405752ac55d3b4004bd7",
+            "sha256": "1cd1a1fa229c14ea9ecef42ab1e5402b4e9831228dd62e01afcb4a0f26b36d9c",
             "packed": false
         },
         {
             "name": "mptspi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.302/mptspi.ko",
-            "sha256": "363d5c41018acffd1bf4b9cbf8c6f809b6286b0c40642078fa7735e9c9e9fb41",
+            "sha256": "c9f85ba595eda718b8dfcf616eb794cc8a8502c8f1828fce1af05a22c4dc1a06",
             "packed": false
         },
         {

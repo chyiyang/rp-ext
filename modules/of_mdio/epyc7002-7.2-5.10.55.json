@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fixed_phy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/of_mdio/epyc7002-7.2-5.10.55/fixed_phy.ko",
-            "sha256": "88f4f34dd468930588926d1173125da0e6a96a6ae177f69d5705b19f113561c5",
+            "sha256": "aeb2ac74129e8dce213a2b870413b39c0ae99ab52421755551b6e2b646ef1d37",
             "packed": false
         },
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/of_mdio/epyc7002-7.2-5.10.55/libphy.ko",
-            "sha256": "175795600f14397e64ead411c71bc0d767574b1c5ca533ba22fa2269057c0c65",
+            "sha256": "53cb323256892d6402a905e06b55cde10a7602ac420c8e4a3bb1afd3795dd24d",
             "packed": false
         },
         {
             "name": "of_mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/of_mdio/epyc7002-7.2-5.10.55/of_mdio.ko",
-            "sha256": "870726170de1324dc7c2f935be9d2450877054f1746ac38e0507c9485503e5b7",
+            "sha256": "8cacd604c6b6b8cd38990dbb33bf150aa200c6915193d27176d8292a209449c5",
             "packed": false
         },
         {

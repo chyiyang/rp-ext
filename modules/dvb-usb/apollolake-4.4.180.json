@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.180/rc-core.ko",
-            "sha256": "1495161e0811a5c28d1421d02a7cc396f44fc5cc67d2ae47bd6e84571394f48b",
+            "sha256": "58d2b5cb8ccaeef1e842a131f4ef629e032cfeb27f8c407f0d9eef8734b53254",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.180/dvb-core.ko",
-            "sha256": "81109e25c5dd552869432a221d45cbffdcaad59c2715f89f745fda09523efb7f",
+            "sha256": "b8f526d71b981efe570a8cec6b97b990e0b08bd15e43d0a43fa55e24621d20d3",
             "packed": false
         },
         {
             "name": "dvb-usb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.180/dvb-usb.ko",
-            "sha256": "9e0f5440922e802384df2e0a84936d617825b130a1f26918c5e32c6f765d5b1b",
+            "sha256": "7efb904a1b35cc6b0cea0109be00bcc6ca28631608bcb1b3041e1524db455ebe",
             "packed": false
         },
         {

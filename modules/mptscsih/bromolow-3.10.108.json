@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/bromolow-3.10.108/mptbase.ko",
-            "sha256": "f37cfb7ed2af98f6373026f973e3f4d57b16b2bc20d1277f23bcbedc0aeece3c",
+            "sha256": "193a6f4481cc6a9536119f38b44978db37281086c451a79f8de0ca00aa565442",
             "packed": false
         },
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/bromolow-3.10.108/mptscsih.ko",
-            "sha256": "194727076c7b1a5f3b5b4d2994895f503602bd0ae9ef4b4cdb55c3d79988789b",
+            "sha256": "c874c2c1ad2257234925c5872ef760be7da83fccf52a9cf4458b4a6054631ae1",
             "packed": false
         },
         {

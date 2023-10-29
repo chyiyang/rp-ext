@@ -1,40 +1,40 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-3.10.105/cfbfillrect.ko",
-            "sha256": "16d06662aecc26a3926b035913456df7c26695391c6ac1f8610cae405c616996",
+            "sha256": "e0cd8ca66701defd8ce0a47b3882510f7a5774d1c62a545cbafd960eaea98983",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-3.10.105/cfbcopyarea.ko",
-            "sha256": "fea358866946addddf6dc3e305a425415bed1241f10c8bfeed9892cd150abaae",
+            "sha256": "144b60ed798d575f145e3cae00f3853d1fef5b771302475de7afff6ef15bc2c5",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-3.10.105/cfbimgblt.ko",
-            "sha256": "b33fc832a89558465ed9ce33822c80ff4e715c37a8ed52fb848d721c913c77d3",
+            "sha256": "872c22514b57f7ff5c9443ce9b62fc0faad312187ed1fd15df89d343e93e8675",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-3.10.105/fb.ko",
-            "sha256": "d0610ef4736800feb9a952870e8bc378ec7368831099c8c628a4bb9bcfcdf426",
+            "sha256": "28a8ccc0908065057692c88799199f9e94208135f06b7055b0a3c740c739b129",
             "packed": false
         },
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-3.10.105/vgastate.ko",
-            "sha256": "468d729fb0e5e958c80889e9911d1499c35f9c8e32c0d0c0d113748db2a51572",
+            "sha256": "28f6a0cfeda86dc63e40aef0527b92997112de5b74ef76fee8d8bf840f334238",
             "packed": false
         },
         {
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/broadwell-3.10.105/vga16fb.ko",
-            "sha256": "2a577f53549044259ca7b51100f9d8a103ab05249eb75f93baaa95d39117b359",
+            "sha256": "60e746b88a1baa41a6892a3545e8bbcb69e13e672b5c2b125919b666ffe86996",
             "packed": false
         },
         {

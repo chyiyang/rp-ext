@@ -1,34 +1,34 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "dvb_usb_v2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnkv2-4.4.180/dvb_usb_v2.ko",
-            "sha256": "816acfcff60513cf715116aeeeace7785d16f16601ef559a0cd3335a5acab669",
+            "sha256": "571afa90009c0b8766945b3a3b852232808efd62607a0d6f58825fb41cf0814a",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnkv2-4.4.180/dvb-core.ko",
-            "sha256": "6b28fed517ed5afb325cb47345c696538db4da8f818107d6065066b10491d915",
+            "sha256": "2ac70b4d5eda82e8d86ebc0f8b2625e54204541ff3d0a0f7c43e45f01c3a57cf",
             "packed": false
         },
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnkv2-4.4.180/rc-core.ko",
-            "sha256": "66681f533330acfbde2a9ed68e7bb45f1f0e5586e28fa235c45318bb1f916899",
+            "sha256": "f49ff75566f248b8aebf0156770ae28c47d7c786caf2cf1c827b02590a8689cb",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnkv2-4.4.180/m88ds3103.ko",
-            "sha256": "c7fb2a181ab1aa04f6b9859b7bbe224c2bffa47295c82b3744dc974651145fbe",
+            "sha256": "6f5514d8963e1e49ba91572ff9ac994c8a420294ed59c0e3c51c89f410012aa2",
             "packed": false
         },
         {
             "name": "dvb-usb-dvbsky.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnkv2-4.4.180/dvb-usb-dvbsky.ko",
-            "sha256": "da181551df300a13c86c911556a71f6cefc26ba54d68f6254df8931111a8756c",
+            "sha256": "3794085494514885d5d333003e2dc10bab988f08c5fccbed8463d631eee14ded",
             "packed": false
         },
         {
@@ -40,7 +40,7 @@
         {
             "name": "dvb-usb-dvbsky_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/broadwellnkv2-4.4.180/dvb-usb-dvbsky_firmware.tag.gz",
-            "sha256": "a68d6a9bca6a1b59e21274d7adba90b675a8301576a611ceb63bdf0c7f700eef",
+            "sha256": "d022c6c5fabfe2243e1fec07200039569825bf9d45c4f298d0e4226910df7e76",
             "packed": false
         },
         {

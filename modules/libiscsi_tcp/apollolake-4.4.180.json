@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libiscsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/apollolake-4.4.180/libiscsi.ko",
-            "sha256": "0b86d002c55be56ed68ce31c2e68efd7f212a92ef7447f50319faba014da55d3",
+            "sha256": "2155d9d9efd9f9e4806ed2317f8fb28e677580fc8dc615894a281eac8c776bcf",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/apollolake-4.4.180/libiscsi_tcp.ko",
-            "sha256": "86caa6598ba162778a9ca0c79f958d1f17c885fb2092c2c3e84e5211cc7e8aed",
+            "sha256": "e8b12f4b031e3065a29b9d2fcc11770cd1104dba4a4c777ea53731d63f06e3be",
             "packed": false
         },
         {

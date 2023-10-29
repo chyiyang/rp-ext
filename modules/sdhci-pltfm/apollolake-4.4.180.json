@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/apollolake-4.4.180/sdhci.ko",
+            "sha256": "58f81e9f62c036999c7bf9301fb5b1304ca3ae578029e9ff22975c4fdf159d2e",
+            "packed": false
+        },
+        {
+            "name": "sdhci-pltfm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/apollolake-4.4.180/sdhci-pltfm.ko",
+            "sha256": "1634bb0b2830f2c3f1e06cb2121e23823bc617796ee98bcedd2508c726523b85",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci-pltfm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/apollolake-4.4.180/check-sdhci-pltfm.sh",
+            "sha256": "b568afa813aefe7eccd85543db656307398909fdee03b53d296d3f4e7c0e46a2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sdhci.ko": "",
+        "sdhci-pltfm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci-pltfm.sh"
+    }
+}

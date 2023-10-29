@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/geminilake-4.4.59/sdhci.ko",
+            "sha256": "eafe7e25b07cacbd5a2c4b02c2ced80f6db5ebe359b85d117df45eed5e826e85",
+            "packed": false
+        },
+        {
+            "name": "sdhci-pltfm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/geminilake-4.4.59/sdhci-pltfm.ko",
+            "sha256": "d17966a1aaa414f83e9b578c3369bd4519b643950c59cbd77a23943b00bc8725",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci-pltfm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/geminilake-4.4.59/check-sdhci-pltfm.sh",
+            "sha256": "b568afa813aefe7eccd85543db656307398909fdee03b53d296d3f4e7c0e46a2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sdhci.ko": "",
+        "sdhci-pltfm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci-pltfm.sh"
+    }
+}

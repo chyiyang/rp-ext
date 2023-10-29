@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/denverton-4.4.59/usbnet.ko",
-            "sha256": "f98c4c087e5ea55eba53551d272e7bf1bb0d83138c98ea540696742fd02a7694",
+            "sha256": "79f4512321e8b9a149a5b3fdfa3574defb21a5a5ad26820057c7f45fdf166a9d",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/denverton-4.4.59/cdc_ncm.ko",
-            "sha256": "48e55a8109554ca1c8553ee29521be1969ca617f48a77475d74026adc8545fef",
+            "sha256": "d316661c9b49b88469cee792c94e00bbb22f130bc0f3cfe6a12ec69dee51c52e",
             "packed": false
         },
         {

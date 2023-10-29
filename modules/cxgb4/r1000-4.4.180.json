@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cxgb4.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/cxgb4.ko",
-            "sha256": "ecb0e140116a83e5d106a4172abdfe28659ac51bb0563587b22a81dc2bb403db",
+            "sha256": "19ab1fa31ba04f70655fcdf3f922a154e6a3b6b6585a1c76fdb19787ed591b2a",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/cxgb4_firmware.tag.gz",
-            "sha256": "b3b092b9392962472e1b7c685e42ad43698d6cc9d2746dc4c869f7009f5fe0ce",
+            "sha256": "5737f2e223f1dde79c782b1b2e9f52343e5e8b4a01c22570b9374fb82e5bb98e",
             "packed": false
         },
         {

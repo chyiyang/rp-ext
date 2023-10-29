@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/denverton-4.4.180/sdhci.ko",
+            "sha256": "25e4bd2699e6a9a782125bc44792bea97fe91abec0fd880ea967ca856871178a",
+            "packed": false
+        },
+        {
+            "name": "sdhci-pltfm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/denverton-4.4.180/sdhci-pltfm.ko",
+            "sha256": "417b01c32a39547ce39d3e1e413c363ce3b4ef933df408a6201762bad5d450e4",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci-pltfm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/denverton-4.4.180/check-sdhci-pltfm.sh",
+            "sha256": "b568afa813aefe7eccd85543db656307398909fdee03b53d296d3f4e7c0e46a2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sdhci.ko": "",
+        "sdhci-pltfm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci-pltfm.sh"
+    }
+}

@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "si2157.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/geminilake-4.4.59/si2157.ko",
-            "sha256": "19aab5afff71eb5c50302eb58ac57a8326e63f80b6ef4eab7da783ff2f663701",
+            "sha256": "b43d707d385d65f2fd411dae63b9e2dac15439cf26c09ee71c11f560139566df",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/geminilake-4.4.59/si2157_firmware.tag.gz",
-            "sha256": "f8831b39d5a91429ed7831bee08daf64f7f392c989a299d31c8868648c0f90da",
+            "sha256": "e1878ef57ed74a05d8b1620bd517a1b533291ecc8d85f1867f47520a3355ea94",
             "packed": false
         },
         {

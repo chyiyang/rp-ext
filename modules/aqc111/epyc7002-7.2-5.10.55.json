@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/epyc7002-7.2-5.10.55/usbnet.ko",
-            "sha256": "125d294553dd98ee1ec50ce6d030df6285de7084e5e4e9d1adf8a159285d658f",
+            "sha256": "2cd12afb23153a89a621eb43c284ddfa0587dad9066b5cb5d8a8637237449942",
             "packed": false
         },
         {
             "name": "aqc111.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/epyc7002-7.2-5.10.55/aqc111.ko",
-            "sha256": "3b36a9047983801b5f2d0b661efb3ddf001f467e65d79cd3da6a596092f5e9ea",
+            "sha256": "b0ad7aad8bfab66028b8e74073d5c45318869f887b1848955a465e155a5f76dd",
             "packed": false
         },
         {

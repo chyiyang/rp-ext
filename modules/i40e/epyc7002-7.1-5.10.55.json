@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "intel_auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/epyc7002-7.1-5.10.55/intel_auxiliary.ko",
-            "sha256": "b0800d3731a131eccd50341313c4ec668ddcf9970f509e2f1401ce4e746a4ec2",
+            "sha256": "e903335a136bc9275a296b7dd68e90ad2c31acadf9eb21ca2c9e09fcfc72a6a2",
             "packed": false
         },
         {
             "name": "i40e.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/epyc7002-7.1-5.10.55/i40e.ko",
-            "sha256": "f578ba5a73725ae11b064541468204138edbca8acd0a849624cbfc63bca52c9b",
+            "sha256": "a3715644021269fea214895db278a5434ecdfb4c3709598579a69152baa0a34e",
             "packed": false
         },
         {

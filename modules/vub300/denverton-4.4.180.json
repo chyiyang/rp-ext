@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/denverton-4.4.180/mmc_core.ko",
-            "sha256": "cab3176dee699f168f636ed335133bd5d8cf09a3a1aa22fa9e7eee49284daf20",
+            "sha256": "b0f7e230f417803f6eadf7845ba12097b4659ada0dbb70b62c6a90d405bfcc4f",
             "packed": false
         },
         {
             "name": "vub300.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/denverton-4.4.180/vub300.ko",
-            "sha256": "4e1b68216c9dff44b9d75e25f91c36d639f1a23aa7d83e62c1bf458ea831d0c0",
+            "sha256": "b298ebe4d4b71997dff2c9b7a3c6787cb921ff8ec170f6046c32b3881875c812",
             "packed": false
         },
         {

@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "netxen_nic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellntbap-4.4.302/netxen_nic.ko",
-            "sha256": "7d3e784ae8bc55ebc581ce556adfeb5cdbc2b06541964341ea4c90a846ab986b",
+            "sha256": "2c8f60ae368d64a6d14a24217e1f607df01b52cc8419ba553eb3685a4db77b8b",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/broadwellntbap-4.4.302/netxen_nic_firmware.tag.gz",
-            "sha256": "a66a4b81d7fae03f861553aac699695ba75ec96b98aeaf4c37a9bb2ada5ba27d",
+            "sha256": "6bcabcab0f7fea13b4a235284795f9afb03dc2f7f3442463599803c3add0fa5d",
             "packed": false
         },
         {

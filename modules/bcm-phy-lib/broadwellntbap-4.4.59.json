@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/broadwellntbap-4.4.59/libphy.ko",
+            "sha256": "0c41e6239fdb578b4e6e0957eb852b405529a32344fc8bc321136e9c28134d4c",
+            "packed": false
+        },
+        {
+            "name": "bcm-phy-lib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/broadwellntbap-4.4.59/bcm-phy-lib.ko",
+            "sha256": "5f056cca00c1b941c1e3a1f109cbe0ceab8e2fff09531730a0a2b7d07fe613c4",
+            "packed": false
+        },
+        {
+            "name": "check-bcm-phy-lib.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/broadwellntbap-4.4.59/check-bcm-phy-lib.sh",
+            "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "bcm-phy-lib.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bcm-phy-lib.sh"
+    }
+}

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/r1000-4.4.302/mptbase.ko",
-            "sha256": "fcc2c5d4d2bc8a0490c3cbc42f2e0bc4693424ad6c74c0ab658215bac8f66844",
+            "sha256": "cde768977151250c64eef3dbf280183c0684f3c2af19e57a9be7ad7bd6c5b565",
             "packed": false
         },
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/r1000-4.4.302/mptscsih.ko",
-            "sha256": "0e05de337bac3908dbaf7da27d913011299b1a374c443d7c0f1bb430d9affd3f",
+            "sha256": "96e21a7a70a973f01ee1927745b09b55af29756888d1399bd4ec567dadc02995",
             "packed": false
         },
         {

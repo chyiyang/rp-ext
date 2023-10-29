@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/geminilake-4.4.180/mptscsih.ko",
-            "sha256": "c021289e9027f263b3ba0a005cb7f9af568fd75b933560de27b8fe734950f38d",
+            "sha256": "e5c529127392cdbad7d182c4870a2e62987c9d66fc3de2b5713f6c886ce54787",
             "packed": false
         },
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/geminilake-4.4.180/mptbase.ko",
-            "sha256": "2913f8b0239b2845e5f3628859eb42f7bf21d1150c65699ab3cebee71d968cca",
+            "sha256": "41247caf3c292f91c0289402a9b110fee2653ef7c2621c72e76585b25f46af35",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/geminilake-4.4.180/scsi_transport_sas.ko",
-            "sha256": "d26bdb493580e6d59b988b665c618655b0b18ce8f76f6e2f494ddebda9ef79af",
+            "sha256": "d476670991ed87c9c4536180235e145cac6683780f6daa671a3bacef18c189c9",
             "packed": false
         },
         {
             "name": "mptsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/geminilake-4.4.180/mptsas.ko",
-            "sha256": "dacc0874aa230df7872ff8358b99638ec9d30dd832628ece29ddeba6b241573a",
+            "sha256": "63e7ea97eac9d7e2706289bf547b03c05a8495409db904be76277f253ed3dde0",
             "packed": false
         },
         {

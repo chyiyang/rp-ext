@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/apollolake-4.4.59/auxiliary.ko",
-            "sha256": "d0f10fe4bdc862f1d5d71e4dabcbee6f8cecf3352c9af876f1e46424aa10a911",
+            "sha256": "a94607cbfcf81c06cf396f424d6789c12d00f5585267cf1df7e424f586307cca",
             "packed": false
         },
         {
             "name": "ice.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/apollolake-4.4.59/ice.ko",
-            "sha256": "3ae7189143ad46c9552e083d56e952b10603d200102b93f022c7a564263a0acd",
+            "sha256": "06a8094e5ec6390b12cdf3f5c6a39a6528862067ced3fdce13c66c6e1ece7460",
             "packed": false
         },
         {

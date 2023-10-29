@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/purley-4.4.302/usbnet.ko",
-            "sha256": "0992608e9c9c648621d2139f7cd896f01311210d51c641a6e4dbf6353d2fecb7",
+            "sha256": "47e0624961c2e79aef333970de6f716218b0fd481925707a2ab6601b3adb01a8",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/purley-4.4.302/mii.ko",
-            "sha256": "932e0ce58207e21919b4419b7c621e687dfc57f979c72acdfe376799a24d1d16",
+            "sha256": "d4cd5a4bdce71cadaf43c44a451367c1b4aafee812ca41520e8e875552a0b898",
             "packed": false
         },
         {
             "name": "ax88179_178a.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/purley-4.4.302/ax88179_178a.ko",
-            "sha256": "0063f9b55bfaf6e6d01b0abecc2207871524b03b437b33a34c137b2fc3b39c4c",
+            "sha256": "6a383c46c9be4527cdd6c4d840f4fb7fdb6e5102267e37ea257cc8a4f7650124",
             "packed": false
         },
         {

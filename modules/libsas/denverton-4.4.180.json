@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/denverton-4.4.180/scsi_transport_sas.ko",
-            "sha256": "0e9901a4c102d0ed2326198fc668eee4821cafef99d309c9dc9decc24a832e45",
+            "sha256": "0b05a5fd0d58d561ed8d64d37ee396b48f0d5906f68e6743649b00c1c908f58a",
             "packed": false
         },
         {
             "name": "libsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/denverton-4.4.180/libsas.ko",
-            "sha256": "617a23c0e40cbcb5b0a4efef47cc77746010155b5dca8f9b6c491805d8fd9592",
+            "sha256": "2c80695d1b14705363c8a88bd9aa640fe8ea5be10fbf4d6b430bafc30413a523",
             "packed": false
         },
         {

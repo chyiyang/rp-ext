@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cxgb3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-3.10.105/cxgb3.ko",
-            "sha256": "ae5d9574a88401065a11f5f520e0fd033223e39a44566bb1e02f864253cbb710",
+            "sha256": "ea4172ed4ba52a34d71120d84682c262fd620a4695c2230946ef6b62a5a9e10c",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwell-3.10.105/cxgb3_firmware.tag.gz",
-            "sha256": "28803ef035f6cfa5d1b0e28105140eaf18757ff2b0b1606522c385d8fa5becf0",
+            "sha256": "6c0e43555f06a0c14ba26e60f934d956a9d2a8e40ae221cb168540762ca837ae",
             "packed": false
         },
         {

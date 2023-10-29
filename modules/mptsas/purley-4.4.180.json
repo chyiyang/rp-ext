@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.180/mptscsih.ko",
-            "sha256": "3a8c86b6cf89a596f5c5c05bdbc6973f526a06d74c9ee56a6ce854799d8fd99d",
+            "sha256": "70e0cfee1a5e58f85cb9a548eb0f3aa42b18cdb4dac5f56056427288b9baa9ea",
             "packed": false
         },
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.180/mptbase.ko",
-            "sha256": "ab87769e5fdd445b35afaeed1038b7ee0b216a788f6673408301a9068be3898c",
+            "sha256": "753de08b424b977b34e469c77032eb51f8ca66c7c565c133f7d0c07927287247",
             "packed": false
         },
         {
             "name": "mptsas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/purley-4.4.180/mptsas.ko",
-            "sha256": "ea1702bb91fd60ab80aa0e4cca575470b8ae40e3f97a3dfca649be9588dd32f2",
+            "sha256": "70f70c2b9f2f1f831216b507b6800654eb73ed609a803ec969489afbf8e72ad3",
             "packed": false
         },
         {

@@ -1,43 +1,23 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
-        {
-            "name": "mii.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.105/mii.ko",
-            "sha256": "b2c465a6f243b66fd4ee9071c7db149c10a34d3fd2e38c8d98e2665792263e05",
-            "packed": false
-        },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.105/r8169.ko",
-            "sha256": "b181e10acc4d01c8734c30cba9b577200fb661c2ea7639e6daf252314a54f508",
+            "sha256": "8d9f3cc48bbac5302e95eaab8fc056de8426c65342dbfacf0285f8bb9ede3a48",
             "packed": false
         },
         {
             "name": "check-r8169.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.105/check-r8169.sh",
-            "sha256": "cf7731f05a383d5b6b27b0d706b20cc9aedf3d2c2b4e3c3d026980d32bd20d50",
-            "packed": false
-        },
-        {
-            "name": "r8169_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.105/r8169_firmware.tag.gz",
-            "sha256": "924edef15869b0286dc810236c79a7268889e042f9304438f61d0214fc48abbc",
-            "packed": false
-        },
-        {
-            "name": "install-r8169.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/bromolow-3.10.105/install-r8169.sh",
-            "sha256": "204148a30c10ee18f3a46d8555779e0781b3a438134b0e4612a9d9eaf2b5d9dc",
+            "sha256": "29027fcae85fd7a2f73b6e98281670347170fae2226e15a63b4e606b8cd0e79b",
             "packed": false
         }
     ],
     "kmods": {
-        "mii.ko": "",
         "r8169.ko": ""
     },
     "scripts": {
-        "on_boot": "check-r8169.sh",
-        "on_os_load": "install-r8169.sh"
+        "on_boot": "check-r8169.sh"
     }
 }

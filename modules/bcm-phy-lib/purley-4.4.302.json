@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/purley-4.4.302/libphy.ko",
+            "sha256": "fdc88c053119a0116d75ce3774fa62a49db3d26ac6dd2b6ecf0ec11a4773a80f",
+            "packed": false
+        },
+        {
+            "name": "bcm-phy-lib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/purley-4.4.302/bcm-phy-lib.ko",
+            "sha256": "dd65d1e58ff4dc1d230bd699c6408b8af3f3300ef87a05fbd03144b9f0c9d9ba",
+            "packed": false
+        },
+        {
+            "name": "check-bcm-phy-lib.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/purley-4.4.302/check-bcm-phy-lib.sh",
+            "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "libphy.ko": "",
+        "bcm-phy-lib.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bcm-phy-lib.sh"
+    }
+}

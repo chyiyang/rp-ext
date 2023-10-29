@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/purley-4.4.180/mdio.ko",
+            "sha256": "56d43c58cb960244a9c236d24470f485ff5367915e6f71abcbd9cdb6c2e7a790",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_mod.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/purley-4.4.180/bnx2x_mod.ko",
+            "sha256": "887a8e3d1a2f0e11254c9c1c884a04465c924a1bd156b0a035defec260f4eafa",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/purley-4.4.180/check-bnx2x_mod.sh",
+            "sha256": "ff095564c13422a10c333d35890759ef015da047294337371ee7c0a7c6250e0b",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_mod_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/purley-4.4.180/bnx2x_mod_firmware.tag.gz",
+            "sha256": "de5a614f0f50bb13add35e437ef8e25effb3b42c9c4d6c0dac9a2165fb011dd5",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2x_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/purley-4.4.180/install-bnx2x_mod.sh",
+            "sha256": "75ad1cf901d242d62e48574bbfaf0177a9b5d9a0b4db7179453af46829f580bf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x_mod.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x_mod.sh",
+        "on_os_load": "install-bnx2x_mod.sh"
+    }
+}

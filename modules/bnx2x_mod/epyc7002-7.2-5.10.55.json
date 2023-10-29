@@ -1,0 +1,36 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "bnx2x_mod.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/epyc7002-7.2-5.10.55/bnx2x_mod.ko",
+            "sha256": "99e6b374e197d161ed1ff985a510804e71782fff7f5f83081490c9c976b95ce8",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/epyc7002-7.2-5.10.55/check-bnx2x_mod.sh",
+            "sha256": "161058737b1ab129bd11e641bdacc200b9601facb34dd9caca6a6489dbd2034b",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_mod_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/epyc7002-7.2-5.10.55/bnx2x_mod_firmware.tag.gz",
+            "sha256": "15c9fa758010dba9000e6aaa90e90b68eae788aabc0d6ea7e97d650b82a2649e",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2x_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/epyc7002-7.2-5.10.55/install-bnx2x_mod.sh",
+            "sha256": "75ad1cf901d242d62e48574bbfaf0177a9b5d9a0b4db7179453af46829f580bf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bnx2x_mod.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x_mod.sh",
+        "on_os_load": "install-bnx2x_mod.sh"
+    }
+}

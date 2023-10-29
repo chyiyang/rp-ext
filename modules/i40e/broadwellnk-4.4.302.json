@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "intel_auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwellnk-4.4.302/intel_auxiliary.ko",
-            "sha256": "b1df6b2a978e05c6332f499d64b5ab0c9a05b49ea2ab272fff59f430ee5f87a0",
+            "sha256": "e3c21cff4f159ec18e384dd9cb9d261c699cf1129c4086722c85b6f0aa4aa209",
             "packed": false
         },
         {
             "name": "i40e.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/broadwellnk-4.4.302/i40e.ko",
-            "sha256": "77dbb14cdaae50d4850d3c3a37214c4468c5f57c452d52072ef5dd5f314463c4",
+            "sha256": "38e2b072747cc50085b077257d9e7acbad4224707f238de91965ab7de9b2b29f",
             "packed": false
         },
         {

@@ -1,22 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/v1000-4.4.302/libphy.ko",
+            "sha256": "fd461b33dcde1883289fa4867010fe08e1243f7bc5b672784065b6868965483b",
+            "packed": false
+        },
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/v1000-4.4.302/tg3.ko",
-            "sha256": "a774b87d2eca9a4c48a4a24291860a6d2ba75a73cbc7cd4e5d808a6237b4350b",
+            "sha256": "80713dbfb3dd73b22a2c5e10b5c17160b075ac7512dd420cb7ea75664619c959",
             "packed": false
         },
         {
             "name": "check-tg3.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/v1000-4.4.302/check-tg3.sh",
-            "sha256": "92e2e0faf3c8fc8b2262f0202e2e882b2503ce5392b14d431870d9fb46d5f4b5",
+            "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
             "packed": false
         },
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/v1000-4.4.302/tg3_firmware.tag.gz",
-            "sha256": "3ca200d0cc099ed26ddb1ae344676815a574a06c8abb62d228eeda6c1fca0e5d",
+            "sha256": "02f8b56fbac97ec0455d75753646f98f9d70ed502800bf08d35a3c3d80c4a931",
             "packed": false
         },
         {
@@ -27,6 +33,7 @@
         }
     ],
     "kmods": {
+        "libphy.ko": "",
         "tg3.ko": ""
     },
     "scripts": {

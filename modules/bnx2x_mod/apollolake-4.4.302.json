@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/apollolake-4.4.302/mdio.ko",
+            "sha256": "2c3f86ec260f795007d209901ecdbf3c128b6d0d74fa3598afe29c8c5b6426d2",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_mod.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/apollolake-4.4.302/bnx2x_mod.ko",
+            "sha256": "50ff12cdda6a31d0d6dc25f666f32c0759f34b6bbfabd0d8440f9eceb155aba4",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/apollolake-4.4.302/check-bnx2x_mod.sh",
+            "sha256": "ff095564c13422a10c333d35890759ef015da047294337371ee7c0a7c6250e0b",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_mod_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/apollolake-4.4.302/bnx2x_mod_firmware.tag.gz",
+            "sha256": "78c9d13224cac291895b4916822a86c027404970833fdf61734f5fb1d317c523",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2x_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/apollolake-4.4.302/install-bnx2x_mod.sh",
+            "sha256": "75ad1cf901d242d62e48574bbfaf0177a9b5d9a0b4db7179453af46829f580bf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x_mod.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x_mod.sh",
+        "on_os_load": "install-bnx2x_mod.sh"
+    }
+}

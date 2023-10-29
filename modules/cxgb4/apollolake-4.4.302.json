@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cxgb4.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/apollolake-4.4.302/cxgb4.ko",
-            "sha256": "92f0c7e907dd60b47d3322263b379c141b56db44b77ce80e9f238c6bf3cf2078",
+            "sha256": "818a0982be010d6dc610cf8f7c9d5f28a961d0099ed7613b410c2e4c4d21ed10",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/apollolake-4.4.302/cxgb4_firmware.tag.gz",
-            "sha256": "73a02d6e7b4a59cef47be98aad8a4fe3d3a174034537ab9bad4e8c03620afdc1",
+            "sha256": "bb5ab67a2b4fcec2ad2449b10a71ccfbb88f448e8a33ab46c18d5b5a668016e6",
             "packed": false
         },
         {

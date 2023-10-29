@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
@@ -10,19 +10,19 @@
         {
             "name": "font.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/braswell-3.10.105/font.ko",
-            "sha256": "c599d20880f5c2ca3613a8d0d5dfb8e5603c8c9fcead4db2c59e754c199acd07",
+            "sha256": "486f9212431a5bfb3e319bea3a7a17ad3f37f0346a975c6a367b378979003958",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/braswell-3.10.105/bitblit.ko",
-            "sha256": "e3b3a6da9f70c945e5c5a223ced541658bb61d49e0714fb9d264ae57061bd1c6",
+            "sha256": "4bcf2e8555b318f56b2fdc4ad92fd479235a5549a27eed142a0ae551eee2953d",
             "packed": false
         },
         {
             "name": "fbcon.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/braswell-3.10.105/fbcon.ko",
-            "sha256": "9957c71dcb2206caff744e8ec627ef0d989ad9338f2ca03f5877490cfdb6d7b7",
+            "sha256": "f7971a5cbc964b613b17d86e03a208b5bc019816c9d119e02ca158986b09d1a6",
             "packed": false
         },
         {

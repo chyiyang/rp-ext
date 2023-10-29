@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/broadwellntbap-4.4.302/usbnet.ko",
-            "sha256": "152a1ef9808f398c2475d942b183dc6685a5a4f3e5e37eef02d4460ba56bedb0",
+            "sha256": "124e223be9b31d1c08ebc958ce7c0761d4d73fdab10599e487764c12b9fe1e43",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/broadwellntbap-4.4.302/cdc_ncm.ko",
-            "sha256": "397a74436d34a4217412e7cd363626441e2781b95e30740eee904ece6bbe5d82",
+            "sha256": "45c7690ffb671d0f83e580f6b4e1873d08f6543d1f66e29a10080c6b73d60e1d",
             "packed": false
         },
         {

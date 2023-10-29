@@ -1,33 +1,40 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/r1000-4.4.180/mii.ko",
-            "sha256": "5f99c1c79487699667c46fc6e1dd0d4a8763953dc24f773b52e8d219569dbee7",
+            "sha256": "938c68dc6706ba8ee2fdc32a11c9f503c760e639f0d2134b253de0e4c3dfa3db",
+            "packed": false
+        },
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/r1000-4.4.180/libphy.ko",
+            "sha256": "d67c5825edcefe022b398c6427354beb78a41e206b7e10a38e5fee1165dcce20",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/r1000-4.4.180/usbnet.ko",
-            "sha256": "46c79625ee61c02b23a341c0f2734df904f165cf282ad6cc209ec7c087b5e2fc",
+            "sha256": "3c97e656c71b75940d495c254a611c8654bb853516b54fee9b53ee8c92552400",
             "packed": false
         },
         {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/r1000-4.4.180/asix.ko",
-            "sha256": "7afe7f8d5d5ca6c7ca91f48d3752736a92f7702fa01f9f7e9f349eef02f160ac",
+            "sha256": "59b37d719473f0f86ef726c2a97583c8d4fe747d47e9ad3d3b10955b80f9ab7d",
             "packed": false
         },
         {
             "name": "check-asix.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/r1000-4.4.180/check-asix.sh",
-            "sha256": "7e16ab08a5ee97caff6bd17b1ff98e04bf763cb6b2bcebd80915ae2cb9f362ac",
+            "sha256": "df8aed87b5d5da5b85480e3ed59ce8edf160ddd460cdfabb740b71318f72e8a6",
             "packed": false
         }
     ],
     "kmods": {
         "mii.ko": "",
+        "libphy.ko": "",
         "usbnet.ko": "",
         "asix.ko": ""
     },

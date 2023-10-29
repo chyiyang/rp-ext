@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/geminilake-4.4.302/qed.ko",
-            "sha256": "8c4e2b80e89979e87eaa93d583d30ddcf5fa815528811458108e3b376957b640",
+            "sha256": "ffd4802360a5e33cbd917ad6cad75a8ea9e6593a2ce18ed201097808f4de0599",
             "packed": false
         },
         {
             "name": "qede.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/geminilake-4.4.302/qede.ko",
-            "sha256": "4b05f7956134e7bc87a05fd55efbf82b01fb0161a8e08d5d8208236906cd307c",
+            "sha256": "d47e61a8002135f56f0d76f2940c2cbc0aa1561a7d391a8ec51f7e270f37ed6c",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/geminilake-4.4.302/qede_firmware.tag.gz",
-            "sha256": "9998ae2d6ed71c7031fc8073c3944971438624f4920df5865590fad0a7cc3202",
+            "sha256": "1909c32512c796933c8463465136ea99d88e696e0b58e6cb91db74c315e28ee9",
             "packed": false
         },
         {

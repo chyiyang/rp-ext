@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/r1000-4.4.180/mmc_core.ko",
-            "sha256": "ca8328a5818dfe540f914d3af005c1f51b364d8aadb7251057359c8f9d9e5925",
+            "sha256": "f41aace25a3f7f667a4ba5429c1bf7f35172223617660310d746e9802f73d4c4",
             "packed": false
         },
         {
             "name": "via-sdmmc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/r1000-4.4.180/via-sdmmc.ko",
-            "sha256": "f5da53e6d21e8bfc3e1dff0ba8f98e5e81134d0fdc3e3d45c5e575d0e5dc69c4",
+            "sha256": "b7b55eb6980dcdd3e6f5ddb4f8555960738056a2b6bd6551d0835cc8c097d7c2",
             "packed": false
         },
         {

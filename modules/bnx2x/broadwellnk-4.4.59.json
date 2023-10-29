@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.59/mdio.ko",
-            "sha256": "cb732e74db26d6ee5c2eccaed5375e18fb87be5f3760748557a4b794869efa09",
+            "sha256": "782f5bcdf5eaf24aa9de0425efff0e976203f29c97b81e2352d79cf0f46a62b2",
             "packed": false
         },
         {
             "name": "bnx2x.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.59/bnx2x.ko",
-            "sha256": "b911affcd4659b4ed2cd4fff7099cd0cbc35869de6cf25937c0d8ab3fc7de9a9",
+            "sha256": "6e9d469523cc06aea8b069b2d8448c0dee372c343744a334159a5f6468d64a9f",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "bnx2x_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/broadwellnk-4.4.59/bnx2x_firmware.tag.gz",
-            "sha256": "11b4f27cb1ded8d558e48396b33fecc735c60a6e20a0fccd8b0ce0f01c8a6ba0",
+            "sha256": "0e10638f640d67103b9e203491cb3e2b3bc65c0891b6789ae495a6bc84b5589d",
             "packed": false
         },
         {

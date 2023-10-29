@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mdio.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/broadwellntbap-4.4.302/mdio.ko",
+            "sha256": "5d470b516ba673b1dcb334eac1e7e70fe90d194d119fcd1c868c7908d1321a62",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_mod.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/broadwellntbap-4.4.302/bnx2x_mod.ko",
+            "sha256": "b536519ae86ed72df5b87a681e3c325a833c09b966d3d7f8bde536e6ca8dbae6",
+            "packed": false
+        },
+        {
+            "name": "check-bnx2x_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/broadwellntbap-4.4.302/check-bnx2x_mod.sh",
+            "sha256": "ff095564c13422a10c333d35890759ef015da047294337371ee7c0a7c6250e0b",
+            "packed": false
+        },
+        {
+            "name": "bnx2x_mod_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/broadwellntbap-4.4.302/bnx2x_mod_firmware.tag.gz",
+            "sha256": "aff8c837225d24a8f0d48a0aad07523682ad5fccee74a3a69f71855dbae3b81d",
+            "packed": false
+        },
+        {
+            "name": "install-bnx2x_mod.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/broadwellntbap-4.4.302/install-bnx2x_mod.sh",
+            "sha256": "75ad1cf901d242d62e48574bbfaf0177a9b5d9a0b4db7179453af46829f580bf",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mdio.ko": "",
+        "bnx2x_mod.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-bnx2x_mod.sh",
+        "on_os_load": "install-bnx2x_mod.sh"
+    }
+}

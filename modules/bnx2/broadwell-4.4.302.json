@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "bnx2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/broadwell-4.4.302/bnx2.ko",
-            "sha256": "8b8274a764350728e76b292b98bd016c105988b0105511fc66a871e275d99b2d",
+            "sha256": "f48a476a77f6e164bf30831455b7f50a56e839348289b1d7fddc587d6a04a6d0",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "bnx2_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/broadwell-4.4.302/bnx2_firmware.tag.gz",
-            "sha256": "555df01abe8e951c84726a91f2258d3af359404f5003f697286ae13a5b601ef2",
+            "sha256": "daef1c7f40a5ad74cdd0cb83a5196bf10c7b644af3e93b928dd7ae64e93f5337",
             "packed": false
         },
         {

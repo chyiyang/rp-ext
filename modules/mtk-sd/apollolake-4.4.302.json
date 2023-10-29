@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/apollolake-4.4.302/mmc_core.ko",
-            "sha256": "0b714b5443c0c7176a49f52de7beb1f96be4f1088e982b80e7cff33210ded03b",
+            "sha256": "6bec6d0be460a64e6b5091b4c6e40e151f7500486a71adc8422aa15a389e8afa",
             "packed": false
         },
         {
             "name": "mtk-sd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/apollolake-4.4.302/mtk-sd.ko",
-            "sha256": "a672db4c18608a6ba4110c8ed4a237a2ab403eec2d24938492e98e36fb7f9ed3",
+            "sha256": "af21f392496c4dc9e24c93e4f0d9dbd347b0180aea067b3ab167fc1ecf69fc3f",
             "packed": false
         },
         {

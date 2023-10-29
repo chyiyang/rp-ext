@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libiscsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.302/libiscsi.ko",
-            "sha256": "86a244e760ca362e236370e1ef8a93e7f28cdd63cd7add600e9d3a05303b9b1b",
+            "sha256": "bf91b4488da1d20121bbbbe752f7b323d25d6edf8b0ff1462853818d3629a413",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.302/libiscsi_tcp.ko",
-            "sha256": "8f1b3de8395a066e321a485651be3062e7c9e959b61b24f7207546a35ea3a8ef",
+            "sha256": "5ecba2286b1563759e1179c87ae63ad40a10a53c9d0b42707582e963642c7892",
             "packed": false
         },
         {
             "name": "iscsi_tcp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.302/iscsi_tcp.ko",
-            "sha256": "e197cd444be534c8b304f2278d2782c8537d5108a5e9f54b4e8db754fbf1243e",
+            "sha256": "50ba9665381daa2e978ce913ef7ab41307f646869f22b2658168d1bf8fdb0d34",
             "packed": false
         },
         {

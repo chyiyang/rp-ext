@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/apollolake-4.4.302/usbnet.ko",
-            "sha256": "ad84b3ce786fd6f1f3f6e7d247b4c0b2c8a1cbec6627f9ac47d3bc515a067849",
+            "sha256": "1b4e1ee63320cc03b031a22aefa4d3bc44245bb2ed0b9946bcdd1aa66a5b7a45",
             "packed": false
         },
         {
             "name": "aqc111.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/apollolake-4.4.302/aqc111.ko",
-            "sha256": "3bc93a4366a6309c2b47d823baf82dd466dbd3eba1816703c46fc9441d9bbe51",
+            "sha256": "ac2662934e4bfd31deb27523c90edc10318135090f2996fd479f2d736e753a19",
             "packed": false
         },
         {

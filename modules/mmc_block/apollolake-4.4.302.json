@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/apollolake-4.4.302/mmc_core.ko",
-            "sha256": "0b714b5443c0c7176a49f52de7beb1f96be4f1088e982b80e7cff33210ded03b",
+            "sha256": "6bec6d0be460a64e6b5091b4c6e40e151f7500486a71adc8422aa15a389e8afa",
             "packed": false
         },
         {
             "name": "mmc_block.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/apollolake-4.4.302/mmc_block.ko",
-            "sha256": "752e44a47e46a5cf6cae353ad2b634d89764df6f1a4d5d9378d7f935dfc43763",
+            "sha256": "c3d398ddc099a9af4cd826c6cde644cd7034c5c0e28d6c39d2a45736f77bee3e",
             "packed": false
         },
         {

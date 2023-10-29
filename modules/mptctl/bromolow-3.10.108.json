@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/bromolow-3.10.108/mptbase.ko",
-            "sha256": "f37cfb7ed2af98f6373026f973e3f4d57b16b2bc20d1277f23bcbedc0aeece3c",
+            "sha256": "193a6f4481cc6a9536119f38b44978db37281086c451a79f8de0ca00aa565442",
             "packed": false
         },
         {
             "name": "mptctl.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/bromolow-3.10.108/mptctl.ko",
-            "sha256": "32592c7aeacc94423331ffe8bf576e61dabeb2808ec3e0ed187791bb549d43f7",
+            "sha256": "055776659c5a469b85f91aa281ad0760d7a9e8e758d41bcde888c0145bdf9397",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/apollolake-4.4.180/megaraid_mm.ko",
-            "sha256": "2c4c0ae0413fa33592eb9f06efb72740b596c6fd9ef9d1dde5e6f832dbecd758",
+            "sha256": "ca2045d3f33bd243105d95eb8060cde1326750893f9c428864fb3716c948357e",
             "packed": false
         },
         {
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/apollolake-4.4.180/megaraid_mbox.ko",
-            "sha256": "40a7e781abcc099b6a46fc4592a9a64cb0586d405425c14c99f0977270e6b89b",
+            "sha256": "cec9105d8f79ddf7d58c3a54b4c4a08225f93d0218c420012e767c1279a98afe",
             "packed": false
         },
         {

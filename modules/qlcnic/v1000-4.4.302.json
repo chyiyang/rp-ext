@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "qlcnic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/v1000-4.4.302/qlcnic.ko",
-            "sha256": "ca6ba5c052e6fbb4bc51a00f4e4aef5684dbfeab1a44b412e4663b5fa162c547",
+            "sha256": "a12b9e8f9dd73a35922db58a10e7498967bb0bad4cc839faa72e2a71cea562ce",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "qlcnic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/v1000-4.4.302/qlcnic_firmware.tag.gz",
-            "sha256": "83f47146e50a1416c6aa8302a3f8086c688b1d2f58ba38bfb4b75ff21e9d2dc1",
+            "sha256": "417b7d739098627adad1ad2791f03263e9dd5a226623fa6252dbacedf2e7d7b1",
             "packed": false
         },
         {

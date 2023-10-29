@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.302/scsi_transport_sas.ko",
-            "sha256": "2b9bb645c203869e13bef20f2fa9274d542d4c97d76f893ad01fa1b57b04483d",
+            "sha256": "1c20f96ef40c4336369ce1adfc870ed73b46f94b196dbe174781572cfe9a73d8",
             "packed": false
         },
         {
             "name": "raid_class.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.302/raid_class.ko",
-            "sha256": "7472f346ff410fe2441f01279b19a4449e0e98cc6fc65176e4a49992e4f5c6e3",
+            "sha256": "f8618d3db60390b92efe48f34700f650fb1f9c3405b1e9097be20832dc95477e",
             "packed": false
         },
         {
             "name": "mpt3sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.302/mpt3sas.ko",
-            "sha256": "a8c5ccc736321a102a46f369f7c9ccb86a08b5cb1d16a4fa4fa12b192fba98f7",
+            "sha256": "dd63fcb2aabbf4861a1d2318edb7d4604d7e86eafdc0fd0853ee2571c5817af5",
             "packed": false
         },
         {

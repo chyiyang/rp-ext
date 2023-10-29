@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mlxsw_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/denverton-4.4.180/mlxsw_core.ko",
-            "sha256": "9e00d1fe02664074a6ff54ce6f03377846ed2a4d9b5389071b731992114117b2",
+            "sha256": "f48619c6a9636a970510bb8ecfc825acc604bff211a5f69ab072cf9a70ebaf8a",
             "packed": false
         },
         {
             "name": "mlxsw_pci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/denverton-4.4.180/mlxsw_pci.ko",
-            "sha256": "703755e2039529b42eed6f8d154c9d61acd62d21ba5d3885b4d73dffb5079da6",
+            "sha256": "96cab97e52fab5bd674d3986633610110634003ab1a5623ad7b3bcc52b5a4db0",
             "packed": false
         },
         {

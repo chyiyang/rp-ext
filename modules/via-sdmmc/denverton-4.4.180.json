@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/denverton-4.4.180/mmc_core.ko",
-            "sha256": "cab3176dee699f168f636ed335133bd5d8cf09a3a1aa22fa9e7eee49284daf20",
+            "sha256": "b0f7e230f417803f6eadf7845ba12097b4659ada0dbb70b62c6a90d405bfcc4f",
             "packed": false
         },
         {
             "name": "via-sdmmc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/denverton-4.4.180/via-sdmmc.ko",
-            "sha256": "82d696ead27d1d94c34824f1e16490d07ec79eb808ee95181fc74c3ee5e9308f",
+            "sha256": "33d78b46edf9bab0bbe28266b3a7b03a44b27cb555e7b0f17bfcf74deb489d45",
             "packed": false
         },
         {

@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "bcm-phy-lib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/denverton-4.4.302/bcm-phy-lib.ko",
+            "sha256": "65eab5c6bc3dd533ccaaa5dea835a1aff751962a395c4a341e427fe77b80ef6e",
+            "packed": false
+        },
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/denverton-4.4.302/libphy.ko",
+            "sha256": "088fadfa933e5ab7d5fd542e93fb1df47dcec2eb98e63b0f889bb6c1d8bd67b8",
+            "packed": false
+        },
+        {
+            "name": "broadcom.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/denverton-4.4.302/broadcom.ko",
+            "sha256": "11dd8e48f2b51801573dc81220fd8b7d2116f2d60a13a0082c3fa60f520f17ce",
+            "packed": false
+        },
+        {
+            "name": "check-broadcom.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/denverton-4.4.302/check-broadcom.sh",
+            "sha256": "fe69e4932f9fe4e19f96dcc025a18ffb28f8fcd1994fe66605a5cb2a5877e1f9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bcm-phy-lib.ko": "",
+        "libphy.ko": "",
+        "broadcom.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-broadcom.sh"
+    }
+}

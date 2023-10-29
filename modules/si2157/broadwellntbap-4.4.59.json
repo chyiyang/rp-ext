@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "si2157.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellntbap-4.4.59/si2157.ko",
-            "sha256": "9ceea0d4abb947e51e1f9e1e35b42a58a71e028e9d8b9bd71d369830eb3b3c18",
+            "sha256": "e87a496e39be44f8315e592b1b7efb8dd1f51c6497429cac0ec8b973f7b09e5d",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellntbap-4.4.59/si2157_firmware.tag.gz",
-            "sha256": "c4e659e334a744c5fbab61fa5e6a4e7932b5149b9cfb0b6a8210412ce78f39e3",
+            "sha256": "c01d6d5b6dd1ba06c93b794e45d1be17b93463a066a2d6b8d5ebc5d9cd342e59",
             "packed": false
         },
         {

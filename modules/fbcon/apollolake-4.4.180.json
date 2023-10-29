@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
@@ -10,19 +10,19 @@
         {
             "name": "font.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.180/font.ko",
-            "sha256": "d4106364c2d862470ccefd78fa1fee998dad96dcd8f3c62ebdba389c6c965065",
+            "sha256": "3c2abf7aa9e1c69a7469260b3c24d2b6b93d78fa5ba72bb5567bd804cf6ab78f",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.180/bitblit.ko",
-            "sha256": "f90abee8b0b555130a1226d938e3ebe50044a5fecc6714ab41a359e67ea8da38",
+            "sha256": "48a558368bd7a7e1c91c90ca921bc054f55916ca534f95015384926fb05d7686",
             "packed": false
         },
         {
             "name": "fbcon.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/apollolake-4.4.180/fbcon.ko",
-            "sha256": "fddcd4f631a8e30c8932491b20dcefbdac752cfb3a95ee58358caded669fecab",
+            "sha256": "3d37011186dac88867df73159599ddb3bae14f27d38bac42b840c3447c1c4d76",
             "packed": false
         },
         {

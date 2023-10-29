@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/denverton-4.4.180/rc-core.ko",
-            "sha256": "56fe7b8e77a76b40657a02288f0778e3f18c0aab29325955d8047d84d82bbd17",
+            "sha256": "4b44fd86933e1c7bc44b083918a48e16ca91e255331efd86aa36e9116fa4ecf6",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/denverton-4.4.180/dvb-core.ko",
-            "sha256": "5f1e0e530dba833377b4852ec12ab2ff64bf70501b4dd5bd84d95585ea2cd2e5",
+            "sha256": "4892fd904ec987be430a2fe7c959c6b65089d26faafa666f9d9d7cfac2fb0f49",
             "packed": false
         },
         {
             "name": "dvb-usb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/denverton-4.4.180/dvb-usb.ko",
-            "sha256": "68b666858dc74f6b2b76ee8869f9191d11566edc2cace1e13293cee576523450",
+            "sha256": "0cb6b6d2428dbbaea3b982a9ebb187abf08a03e7738701eb2f4e14af954964ee",
             "packed": false
         },
         {

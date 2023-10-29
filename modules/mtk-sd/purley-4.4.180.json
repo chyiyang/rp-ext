@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/purley-4.4.180/mmc_core.ko",
-            "sha256": "f948ad0b020877a596b8759973952358327f475d68739ce0ddc9f54f8f03e567",
+            "sha256": "d04bd6b6af767aee892b9a7541393435bf3b2cb23c1e204d24ffdaefd25941a4",
             "packed": false
         },
         {
             "name": "mtk-sd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/purley-4.4.180/mtk-sd.ko",
-            "sha256": "0958aabdf0fd1254e68f9f25c06ad219942c2a29bf39fae2cca4ebd91b55c88d",
+            "sha256": "149a10df40ea6a2392fb51083132ff457ca41103e71b5637c2cbd678ba98358e",
             "packed": false
         },
         {

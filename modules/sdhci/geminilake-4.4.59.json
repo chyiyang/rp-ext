@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/geminilake-4.4.59/mmc_core.ko",
-            "sha256": "687b76e42499baf99ec8cba6fcefbc74b89889e569d2d463b6e923824e6163e4",
+            "sha256": "8b23f64ce9da56ddb266cb87d05ab94f15499655d6b6fa1ebec8354ff941b988",
             "packed": false
         },
         {
             "name": "sdhci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/geminilake-4.4.59/sdhci.ko",
-            "sha256": "8824b13391e6450adc4f7e2e13f92e6b989be01639e2309292c9b05f91695029",
+            "sha256": "eafe7e25b07cacbd5a2c4b02c2ced80f6db5ebe359b85d117df45eed5e826e85",
             "packed": false
         },
         {

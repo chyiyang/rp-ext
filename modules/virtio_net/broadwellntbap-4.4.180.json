@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.180/virtio.ko",
-            "sha256": "3c6175c4b37ff28fd9965192523282a9922a27135a8371156e420f6f22fe3ef5",
+            "sha256": "6fe7d1ce776f0c30274c904c8c58709771faea1c491b7add2bee1caf5702f3d0",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.180/virtio_ring.ko",
-            "sha256": "d7e245c5d55b61885ab820fba744ed2f5ba142f1762dbec6de6338a2ddae72d4",
+            "sha256": "f00ac12d0974a006a436f331f4bbcfb71d3010efe97d3efd8b83e3eeda3eb32f",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.180/virtio_net.ko",
-            "sha256": "e4492cc4817fad8f29b9a0c1d39d0db55a537a7abe1a0808385b625728ef425a",
+            "sha256": "8135eba131f622b9b4326787d84c398e9f6c112125aad151b7b197eea39b901f",
             "packed": false
         },
         {

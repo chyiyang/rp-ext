@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "si2168.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/denverton-4.4.59/si2168.ko",
-            "sha256": "6c7616584ef49c3d5f5595cc2bc1fc699410f1300809e023f59b21ec39923b29",
+            "sha256": "36bc0f855ffff44692f70df297003468531f8ac50ec5adc9eefc4e73d6e152e2",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2168_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/denverton-4.4.59/si2168_firmware.tag.gz",
-            "sha256": "e7ba85d708e242f458dab1987e2c5f7f16d0ec56c5f11c68b7967ba7c1457e94",
+            "sha256": "469d99f10b6077feda954b31d7ea752be7713109915d44bd298af6b9508f40d2",
             "packed": false
         },
         {

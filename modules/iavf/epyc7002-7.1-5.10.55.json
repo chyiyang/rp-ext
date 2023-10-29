@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "intel_auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/epyc7002-7.1-5.10.55/intel_auxiliary.ko",
-            "sha256": "b0800d3731a131eccd50341313c4ec668ddcf9970f509e2f1401ce4e746a4ec2",
+            "sha256": "e903335a136bc9275a296b7dd68e90ad2c31acadf9eb21ca2c9e09fcfc72a6a2",
             "packed": false
         },
         {
             "name": "iavf.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iavf/epyc7002-7.1-5.10.55/iavf.ko",
-            "sha256": "456de82973f47a1cda6bfc0e43ea5737a883b98176b9e3823af0cb18733b04e8",
+            "sha256": "2cb8b45ca1f608ee734b81b34f947d2e9bff96bd3145601397a3bdb3f4c2e780",
             "packed": false
         },
         {

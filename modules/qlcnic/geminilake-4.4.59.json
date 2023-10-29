@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "qlcnic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.59/qlcnic.ko",
-            "sha256": "edb74bacfc573195b32ec4e8e0af3cdf384609504eead71573b77995266ae613",
+            "sha256": "4a16725f106d97e0c82dc9a9263997698ac1906a0dd264d51e601bb8f9d4eb41",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "qlcnic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.59/qlcnic_firmware.tag.gz",
-            "sha256": "71c4ad03967abc61a85cc1bea8aa8358993f2c8634e26ec0a9bcb0262ee521b2",
+            "sha256": "a3b5fe98cd676b27e6cf2e270f5c7fb4e1629ca07ddc020c1378c6a4c292c975",
             "packed": false
         },
         {

@@ -1,34 +1,34 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "dvb_usb_v2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/geminilake-4.4.180/dvb_usb_v2.ko",
-            "sha256": "580eb93c92cdb3132175dd5404d5399a22a5ad9986e3105463a36e43a8919c8f",
+            "sha256": "710917034f3019555f671ddde50b7d1cffde55fc05f971fdea3e21bdbf6b7d6f",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/geminilake-4.4.180/dvb-core.ko",
-            "sha256": "4a7cbe568c9189dc93aaa7d3ce370201aa6a413efb8205fa772346a7188ce359",
+            "sha256": "fd4c622cf5e494aec891bb75165f820af01494c2cbc81e0e9c584e31c1e76deb",
             "packed": false
         },
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/geminilake-4.4.180/rc-core.ko",
-            "sha256": "89171c83020fc4971770e2befdb854c601306a10c354389faeee38626cdb10dc",
+            "sha256": "8b8de411ca5d87dce208972dde7b0033438e58f7012694e396350c33ac10b509",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/geminilake-4.4.180/m88ds3103.ko",
-            "sha256": "41b880e9ae7b4b29b0899412088d76b728a2454403eff958ec069660e4c96b5f",
+            "sha256": "ef84279a32ae601256360353c8a7e181d6b704e584261bc9aae6711622942208",
             "packed": false
         },
         {
             "name": "dvb-usb-dvbsky.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/geminilake-4.4.180/dvb-usb-dvbsky.ko",
-            "sha256": "bda3d9fef50b523b7383e1e664ad7b202e1d7f23c845566388ff382677e71ea7",
+            "sha256": "89f49de59796757a53419dcac23dc636f4276bc4d202334f24817864f8e8e419",
             "packed": false
         },
         {
@@ -40,7 +40,7 @@
         {
             "name": "dvb-usb-dvbsky_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/geminilake-4.4.180/dvb-usb-dvbsky_firmware.tag.gz",
-            "sha256": "7120c08eeef58596132e75da84169bce625c11e99f9fb23bc93b1ee289e267ba",
+            "sha256": "93e7faae92ca7654531365402dbf7761f7c150108c16cad688c14562b50bbe7a",
             "packed": false
         },
         {

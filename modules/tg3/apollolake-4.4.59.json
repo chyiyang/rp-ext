@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/apollolake-4.4.59/libphy.ko",
-            "sha256": "2edcbd34ad1b2a51155df0be063827be7eb180c373139486a977019b829b5c67",
+            "sha256": "858870b7107ebb0d27ed1ea21e797eb0ecb852eeb8723b492c27e6f2512f469b",
             "packed": false
         },
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/apollolake-4.4.59/tg3.ko",
-            "sha256": "9771d5c46183cd747d5b985559ac01be9e9cfb4f45c69b939589caabf9afd598",
+            "sha256": "a2f5336fad85e1023816fc5600d65328ec2226429db57d271225e85f54d1b284",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/apollolake-4.4.59/tg3_firmware.tag.gz",
-            "sha256": "46dece02c62e9158376eecf0bc57ae350563673f8b9e97060fd4dd1fd5d77e67",
+            "sha256": "8f006f8f2bdf51f2e77d4aa5d3e3212698f9939b20c166b875130decf5d79c65",
             "packed": false
         },
         {

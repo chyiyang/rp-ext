@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/epyc7002-7.1-5.10.55/sdhci.ko",
+            "sha256": "dd4a25ba5580b2f9bace97a43d828638f9c3016083fac499839306970cb75b17",
+            "packed": false
+        },
+        {
+            "name": "sdhci-pltfm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/epyc7002-7.1-5.10.55/sdhci-pltfm.ko",
+            "sha256": "a316e61f617d8cb0860ee335f15619e1a878467061d96c6844e25ecf29bee20d",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci-pltfm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/epyc7002-7.1-5.10.55/check-sdhci-pltfm.sh",
+            "sha256": "b568afa813aefe7eccd85543db656307398909fdee03b53d296d3f4e7c0e46a2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sdhci.ko": "",
+        "sdhci-pltfm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci-pltfm.sh"
+    }
+}

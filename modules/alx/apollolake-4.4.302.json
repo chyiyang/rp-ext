@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/apollolake-4.4.302/mdio.ko",
-            "sha256": "e47f9f049079a5221d4ac1a9a02e1af9cb2d69931d1a959ce92d2f44acf0720c",
+            "sha256": "2c3f86ec260f795007d209901ecdbf3c128b6d0d74fa3598afe29c8c5b6426d2",
             "packed": false
         },
         {
             "name": "alx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/apollolake-4.4.302/alx.ko",
-            "sha256": "672f762355f8e496d14d039c1a6c46592db3b60c0809d7ba1ef1fb4167267fa1",
+            "sha256": "6aea98ac667d91e9f244b5e50a2c4af19f316d1ce13a8dd0d87ea5abcd5f7239",
             "packed": false
         },
         {

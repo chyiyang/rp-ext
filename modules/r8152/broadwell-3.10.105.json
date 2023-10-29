@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/broadwell-3.10.105/mii.ko",
-            "sha256": "ff7de90acb0a741f48dd0a5ebe56587942ff9d1f20002ed0023f87d1ef7deaec",
+            "sha256": "3d399802ba9372e395409c51ba147455c61dc0d1e9741257b4c10e8e9c5d40a3",
             "packed": false
         },
         {
             "name": "r8152.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/broadwell-3.10.105/r8152.ko",
-            "sha256": "d9ae45f753439dd50214b5340350485e46f51c3dbc12e25c0a561564be5de654",
+            "sha256": "1715efb79e4dce80b626817bf299e50aba79269ee928830f0602819976e7ca72",
             "packed": false
         },
         {

@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "r8168.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/geminilake-4.4.302/r8168.ko",
+            "sha256": "375255496b2b6774e8a98d28a83ec30d7fbc9e6cf5615de7e352165eb4966c41",
+            "packed": false
+        },
+        {
+            "name": "check-r8168.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8168/geminilake-4.4.302/check-r8168.sh",
+            "sha256": "bb91f376d2d2e687e47d6ee7a90407678818f39a7b238e3fef9670b14007f0f5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8168.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8168.sh"
+    }
+}

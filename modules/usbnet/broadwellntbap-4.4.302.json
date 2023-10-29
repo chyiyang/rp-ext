@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/broadwellntbap-4.4.302/mii.ko",
-            "sha256": "ec36047ec45332becf0b932a9ea63d6da05ee2a1015d415f6908a520351dc133",
+            "sha256": "3dd75beb0f7cb85e8a66bc93702980fb5749414567beb35e71b8fd57f6f29441",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/broadwellntbap-4.4.302/usbnet.ko",
-            "sha256": "152a1ef9808f398c2475d942b183dc6685a5a4f3e5e37eef02d4460ba56bedb0",
+            "sha256": "124e223be9b31d1c08ebc958ce7c0761d4d73fdab10599e487764c12b9fe1e43",
             "packed": false
         },
         {

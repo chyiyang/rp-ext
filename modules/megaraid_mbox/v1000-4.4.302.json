@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/v1000-4.4.302/megaraid_mm.ko",
-            "sha256": "8aaa0ae502293e1874272356901592504653d1deae121473c33556d693d23ad5",
+            "sha256": "2ffec3faf4ad382615efef32a0db5cd3473704b296c74db059063c81d0575136",
             "packed": false
         },
         {
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/v1000-4.4.302/megaraid_mbox.ko",
-            "sha256": "c60362f634e6de5bccd5868ac58e2804d66a3fd4a2185c231e4b03a10ce19ae1",
+            "sha256": "f85de621141e715f0c8cb4051d4ea30fdd3fa23498468db801055e31ec91d565",
             "packed": false
         },
         {

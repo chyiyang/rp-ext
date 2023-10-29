@@ -42,6 +42,9 @@
         "backlight": {
             "description": "Backlight Lowlevel Control Abstraction"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -54,8 +57,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -324,14 +333,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -350,6 +365,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -494,6 +512,9 @@
         "backlight": {
             "description": "Backlight Lowlevel Control Abstraction"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -506,8 +527,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -788,14 +815,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -814,6 +847,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -958,6 +994,9 @@
         "backlight": {
             "description": "Backlight Lowlevel Control Abstraction"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -970,8 +1009,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -1240,6 +1285,9 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
@@ -1250,7 +1298,7 @@
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -1269,6 +1317,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -1482,6 +1533,12 @@
         "mlx4_core": {
             "description": "Mellanox ConnectX HCA low-level driver"
         },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
         "mptbase": {
             "description": "Fusion MPT base driver"
         },
@@ -1506,11 +1563,20 @@
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
         },
         "skge": {
             "description": "SysKonnect Gigabit Ethernet driver"
@@ -1545,6 +1611,9 @@
         "uhci-hcd": {
             "description": "USB Universal Host Controller Interface driver"
         },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
         "vesafb": {
             "description": ""
         },
@@ -1553,6 +1622,9 @@
         },
         "vgastate": {
             "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
         },
         "video": {
             "description": "ACPI Video Driver"
@@ -1580,6 +1652,9 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
         }
     },
     "braswell-3.10.108": {
@@ -1694,6 +1769,12 @@
         "mlx4_core": {
             "description": "Mellanox ConnectX HCA low-level driver"
         },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
         "mptbase": {
             "description": "Fusion MPT base driver"
         },
@@ -1718,11 +1799,20 @@
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
         },
         "skge": {
             "description": "SysKonnect Gigabit Ethernet driver"
@@ -1757,6 +1847,9 @@
         "uhci-hcd": {
             "description": "USB Universal Host Controller Interface driver"
         },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
         "vesafb": {
             "description": ""
         },
@@ -1765,6 +1858,9 @@
         },
         "vgastate": {
             "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
         },
         "video": {
             "description": "ACPI Video Driver"
@@ -1792,6 +1888,9 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
         }
     },
     "broadwell-3.10.105": {
@@ -1921,6 +2020,12 @@
         "mlx_compat": {
             "description": "Kernel backport module"
         },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
         "mpt3sas": {
             "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
@@ -1948,11 +2053,20 @@
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
         },
         "skge": {
             "description": "SysKonnect Gigabit Ethernet driver"
@@ -1981,6 +2095,9 @@
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
         },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
         "vesafb": {
             "description": ""
         },
@@ -1989,6 +2106,9 @@
         },
         "vgastate": {
             "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
         },
         "video": {
             "description": "ACPI Video Driver"
@@ -2016,6 +2136,9 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
         }
     },
     "broadwell-4.4.180": {
@@ -2058,6 +2181,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -2070,8 +2196,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -2325,14 +2457,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -2345,6 +2483,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -2483,6 +2624,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -2495,8 +2639,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -2762,14 +2912,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -2782,6 +2938,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -2920,6 +3079,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -2932,8 +3094,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -3187,14 +3355,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -3207,6 +3381,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -3345,6 +3522,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -3357,8 +3537,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -3624,14 +3810,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -3644,6 +3836,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -3782,6 +3977,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -3794,8 +3992,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -4046,6 +4250,9 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
@@ -4056,7 +4263,7 @@
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -4066,6 +4273,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -4204,6 +4414,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -4216,8 +4429,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -4471,14 +4690,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -4491,6 +4716,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -4629,6 +4857,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -4641,8 +4872,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -4896,14 +5133,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -4916,6 +5159,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -5054,6 +5300,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -5066,8 +5315,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -5327,14 +5582,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -5347,6 +5608,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -5485,6 +5749,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -5497,8 +5764,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -5758,14 +6031,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -5778,6 +6057,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -5916,6 +6198,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -5928,8 +6213,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -6159,14 +6450,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -6176,6 +6473,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -6398,6 +6698,12 @@
         "mlx_compat": {
             "description": "Kernel backport module"
         },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
         "mpt3sas": {
             "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
@@ -6425,11 +6731,20 @@
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
         },
         "skge": {
             "description": "SysKonnect Gigabit Ethernet driver"
@@ -6458,6 +6773,9 @@
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
         },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
         "vesafb": {
             "description": ""
         },
@@ -6466,6 +6784,9 @@
         },
         "vgastate": {
             "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
         },
         "video": {
             "description": "ACPI Video Driver"
@@ -6493,6 +6814,9 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
         }
     },
     "bromolow-3.10.108": {
@@ -6610,6 +6934,12 @@
         "mlx_compat": {
             "description": "Kernel backport module"
         },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
         "mpt3sas": {
             "description": "LSI MPT Fusion SAS 3.0 Device Driver"
         },
@@ -6637,11 +6967,20 @@
         "r8152": {
             "description": "Realtek RTL8152 Based USB 2.0 Ethernet Adapters"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
         },
         "skge": {
             "description": "SysKonnect Gigabit Ethernet driver"
@@ -6670,6 +7009,9 @@
         "thermal": {
             "description": "ACPI Thermal Zone Driver"
         },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
         "vesafb": {
             "description": ""
         },
@@ -6678,6 +7020,9 @@
         },
         "vgastate": {
             "description": "VGA State Save/Restore"
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
         },
         "video": {
             "description": "ACPI Video Driver"
@@ -6705,6 +7050,9 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
         }
     },
     "denverton-4.4.180": {
@@ -6747,6 +7095,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "bitblit": {
             "description": "Bit Blitting Operation"
         },
@@ -6756,8 +7107,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -7005,14 +7362,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -7028,6 +7391,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -7163,6 +7529,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "bitblit": {
             "description": "Bit Blitting Operation"
         },
@@ -7172,8 +7541,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -7433,14 +7808,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -7456,6 +7837,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -7591,6 +7975,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "bitblit": {
             "description": "Bit Blitting Operation"
         },
@@ -7600,8 +7987,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -7861,14 +8254,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -7884,6 +8283,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -8010,6 +8412,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver"
         },
@@ -8022,8 +8427,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -8042,6 +8453,9 @@
         },
         "cpufreq_performance": {
             "description": "CPUfreq policy governor 'performance'"
+        },
+        "cqhci": {
+            "description": "Command Queue Host Controller Interface driver"
         },
         "crc-ccitt": {
             "description": "CRC-CCITT calculations"
@@ -8157,8 +8571,17 @@
         "mlx5_ib": {
             "description": "Mellanox 5th generation network adapters (ConnectX series) IB driver"
         },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
         "mpt3sas": {
             "description": "LSI MPT Fusion SAS 3.0 Device Driver"
+        },
+        "mtk-sd": {
+            "description": "MediaTek SD/MMC Card Driver"
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
@@ -8190,14 +8613,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "realtek": {
             "description": "Realtek PHY driver"
@@ -8207,6 +8636,12 @@
         },
         "scsi_transport_sas": {
             "description": "SAS Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
         },
         "skge": {
             "description": "SysKonnect Gigabit Ethernet driver"
@@ -8226,8 +8661,14 @@
         "usbnet": {
             "description": "USB network driver framework"
         },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
         "vesafb": {
             "description": ""
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
         },
         "virtio": {
             "description": ""
@@ -8255,6 +8696,9 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
         },
         "wireguard": {
             "description": "WireGuard secure network tunnel"
@@ -8291,6 +8735,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver"
         },
@@ -8303,8 +8750,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -8323,6 +8776,9 @@
         },
         "cpufreq_performance": {
             "description": "CPUfreq policy governor 'performance'"
+        },
+        "cqhci": {
+            "description": "Command Queue Host Controller Interface driver"
         },
         "crc-ccitt": {
             "description": "CRC-CCITT calculations"
@@ -8435,8 +8891,17 @@
         "mlx5_ib": {
             "description": "Mellanox 5th generation network adapters (ConnectX series) IB driver"
         },
+        "mmc_block": {
+            "description": "Multimedia Card (MMC) block device driver"
+        },
+        "mmc_core": {
+            "description": ""
+        },
         "mpt3sas": {
             "description": "LSI MPT Fusion SAS 3.0 Device Driver"
+        },
+        "mtk-sd": {
+            "description": "MediaTek SD/MMC Card Driver"
         },
         "nct6775": {
             "description": "Driver for NCT6775F and compatible chips"
@@ -8468,14 +8933,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "realtek": {
             "description": "Realtek PHY driver"
@@ -8485,6 +8956,12 @@
         },
         "scsi_transport_sas": {
             "description": "SAS Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
+        },
+        "sdhci": {
+            "description": "Secure Digital Host Controller Interface core driver"
         },
         "skge": {
             "description": "SysKonnect Gigabit Ethernet driver"
@@ -8504,8 +8981,14 @@
         "usbnet": {
             "description": "USB network driver framework"
         },
+        "ushc": {
+            "description": "USB SD Host Controller driver"
+        },
         "vesafb": {
             "description": ""
+        },
+        "via-sdmmc": {
+            "description": "VIA SD/MMC Card Interface driver"
         },
         "virtio": {
             "description": ""
@@ -8533,6 +9016,9 @@
         },
         "vmxnet3": {
             "description": "VMware vmxnet3 virtual NIC driver"
+        },
+        "vub300": {
+            "description": "VUB300 USB to SD/MMC/SDIO adapter driver"
         },
         "wireguard": {
             "description": "WireGuard secure network tunnel"
@@ -8575,6 +9061,9 @@
         "backlight": {
             "description": "Backlight Lowlevel Control Abstraction"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -8587,8 +9076,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -8854,14 +9349,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -8880,6 +9381,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -9018,6 +9522,9 @@
         "backlight": {
             "description": "Backlight Lowlevel Control Abstraction"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -9030,8 +9537,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -9309,14 +9822,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -9335,6 +9854,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -9473,6 +9995,9 @@
         "backlight": {
             "description": "Backlight Lowlevel Control Abstraction"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -9485,8 +10010,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -9752,6 +10283,9 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
@@ -9762,7 +10296,7 @@
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -9781,6 +10315,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -9919,6 +10456,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -9931,8 +10471,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -10189,14 +10735,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -10212,6 +10764,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -10335,6 +10890,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -10347,8 +10905,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -10617,14 +11181,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -10640,6 +11210,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -10763,6 +11336,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -10775,8 +11351,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -11030,6 +11612,9 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
@@ -11040,7 +11625,7 @@
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "rc-core": {
             "description": ""
@@ -11053,6 +11638,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -11179,6 +11767,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -11191,8 +11782,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -11341,6 +11938,9 @@
         "libiscsi_tcp": {
             "description": "iSCSI/TCP data-path"
         },
+        "libphy": {
+            "description": "PHY library"
+        },
         "libsas": {
             "description": "SAS Transport Layer"
         },
@@ -11437,14 +12037,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -11463,6 +12069,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -11598,6 +12207,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -11610,8 +12222,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -11772,6 +12390,9 @@
         "libiscsi_tcp": {
             "description": "iSCSI/TCP data-path"
         },
+        "libphy": {
+            "description": "PHY library"
+        },
         "libsas": {
             "description": "SAS Transport Layer"
         },
@@ -11868,14 +12489,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -11894,6 +12521,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -12029,6 +12659,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -12041,8 +12674,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -12191,6 +12830,9 @@
         "libiscsi_tcp": {
             "description": "iSCSI/TCP data-path"
         },
+        "libphy": {
+            "description": "PHY library"
+        },
         "libsas": {
             "description": "SAS Transport Layer"
         },
@@ -12287,14 +12929,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -12316,6 +12964,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -12451,6 +13102,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -12463,8 +13117,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -12625,6 +13285,9 @@
         "libiscsi_tcp": {
             "description": "iSCSI/TCP data-path"
         },
+        "libphy": {
+            "description": "PHY library"
+        },
         "libsas": {
             "description": "SAS Transport Layer"
         },
@@ -12721,14 +13384,20 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
         "r8153_ecm": {
             "description": "Realtek USB ECM device"
         },
+        "r8168": {
+            "description": "RealTek RTL-8168 Gigabit Ethernet driver"
+        },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -12750,6 +13419,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"
@@ -12885,6 +13557,9 @@
         "b44": {
             "description": "Broadcom 44xx/47xx 10/100 PCI ethernet driver"
         },
+        "bcm-phy-lib": {
+            "description": "Broadcom PHY Library"
+        },
         "be2net": {
             "description": "Emulex OneConnect NIC Driver 10.6.0.3"
         },
@@ -12897,8 +13572,14 @@
         "bnx2x": {
             "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
         },
+        "bnx2x_mod": {
+            "description": "QLogic BCM57710/57711/57711E/57712/57712_MF/57800/57800_MF/57810/57810_MF/57840/57840_MF Driver"
+        },
         "bnxt_en": {
             "description": "Broadcom BCM573xx network driver"
+        },
+        "broadcom": {
+            "description": "Broadcom PHY driver"
         },
         "button": {
             "description": "ACPI Button Driver"
@@ -13050,6 +13731,9 @@
         "libiscsi_tcp": {
             "description": "iSCSI/TCP data-path"
         },
+        "libphy": {
+            "description": "PHY library"
+        },
         "libsas": {
             "description": "SAS Transport Layer"
         },
@@ -13152,6 +13836,9 @@
         "r8125": {
             "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
         },
+        "r8125_v9": {
+            "description": "Realtek RTL8125 2.5Gigabit Ethernet driver"
+        },
         "r8152": {
             "description": "Realtek RTL8152/RTL8153 Based USB Ethernet Adapters"
         },
@@ -13162,7 +13849,7 @@
             "description": "RealTek RTL-8168 Gigabit Ethernet driver"
         },
         "r8169": {
-            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+            "description": ""
         },
         "raid_class": {
             "description": "RAID device class"
@@ -13181,6 +13868,9 @@
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
+        },
+        "sdhci-pltfm": {
+            "description": "SDHCI platform and OF driver helper"
         },
         "sdhci": {
             "description": "Secure Digital Host Controller Interface core driver"

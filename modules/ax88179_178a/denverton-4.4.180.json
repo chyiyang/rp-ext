@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/denverton-4.4.180/usbnet.ko",
-            "sha256": "53033d09760e472f290ab5bef8f6fb4ccac8b52b6856a0a8a24dcc5dc0628f36",
+            "sha256": "d90ad64902f042e1669306ab6526bdcaa291a7bd0b326951c10423ec40ab7900",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/denverton-4.4.180/mii.ko",
-            "sha256": "9f4acfb7c2093f01f611b4e213b0dc998b9db4288535e65894f5a532ad71a47f",
+            "sha256": "faf29b66dee7d7a381e1b815af70b6590d1b0ff0fc593e7ff4407bab3c866419",
             "packed": false
         },
         {
             "name": "ax88179_178a.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/denverton-4.4.180/ax88179_178a.ko",
-            "sha256": "4d0752974a644dde3b81911bce8d18f1003801ce1dcc508a7c3ab6c401b8a96b",
+            "sha256": "c7e678de72143e02f5ba6e2f9556f13f207ae1796f372c3fed7930f85955276b",
             "packed": false
         },
         {

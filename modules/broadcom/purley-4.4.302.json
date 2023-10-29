@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "bcm-phy-lib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/purley-4.4.302/bcm-phy-lib.ko",
+            "sha256": "dd65d1e58ff4dc1d230bd699c6408b8af3f3300ef87a05fbd03144b9f0c9d9ba",
+            "packed": false
+        },
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/purley-4.4.302/libphy.ko",
+            "sha256": "fdc88c053119a0116d75ce3774fa62a49db3d26ac6dd2b6ecf0ec11a4773a80f",
+            "packed": false
+        },
+        {
+            "name": "broadcom.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/purley-4.4.302/broadcom.ko",
+            "sha256": "0dbe95a8805b081b92aaca8e39f4afd5f6c89ebdee4d7fd017b3b5dcbfd7b4de",
+            "packed": false
+        },
+        {
+            "name": "check-broadcom.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/purley-4.4.302/check-broadcom.sh",
+            "sha256": "fe69e4932f9fe4e19f96dcc025a18ffb28f8fcd1994fe66605a5cb2a5877e1f9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bcm-phy-lib.ko": "",
+        "libphy.ko": "",
+        "broadcom.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-broadcom.sh"
+    }
+}

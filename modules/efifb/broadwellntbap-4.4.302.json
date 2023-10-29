@@ -1,34 +1,34 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellntbap-4.4.302/cfbimgblt.ko",
-            "sha256": "b1df40497497853dac1d21c659df04d11897c69c25f77feefae7aea25ef6c510",
+            "sha256": "d03f1cf649b1b4e50b96850a51d7e188f355ee68fa7fc00ec29db58c9148dc75",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellntbap-4.4.302/cfbcopyarea.ko",
-            "sha256": "8209f1d4208b07cea851f306e8fc9e40dc0acdae90d5349fe2fad91da9ff7258",
+            "sha256": "e3884c0cb0964df81ac9c01b08d57f2d512f4bcf57e873352222cbab04c16f2b",
             "packed": false
         },
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellntbap-4.4.302/cfbfillrect.ko",
-            "sha256": "4d9a40a33fe80f795dba53858154fedce276cb4e021dc2dc9e9539cc335b5a0c",
+            "sha256": "929e305b9935adeaa429ab90bd960dd48cb95dfb1e0aeb9588d80dc5b4c1506f",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellntbap-4.4.302/fb.ko",
-            "sha256": "3090511946840356a973696154e09f8d642c94941dbe23b630bbd85daf507fb8",
+            "sha256": "fd599b5e17b172fab5151080811a3e30e8df7f8b573b685885b33b7373686fb1",
             "packed": false
         },
         {
             "name": "efifb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/broadwellntbap-4.4.302/efifb.ko",
-            "sha256": "22d6688873fbf3a543d8bcc6db74c975780aa2d49baf5b59f2e2e5e820ace5d5",
+            "sha256": "816cf8029ba18f2b08ebb4c4c9e6d5dee4d912234d2f6cdd683a1d720529f38d",
             "packed": false
         },
         {

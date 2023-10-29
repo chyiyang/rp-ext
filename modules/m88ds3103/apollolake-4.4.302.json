@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/apollolake-4.4.302/dvb-core.ko",
-            "sha256": "e72f4c42b8be6ce512f2f2ddaf59463a76f88708f66e7c0ff7de1573cf8fb19e",
+            "sha256": "702d5791bdc8462161dbee0cd7017dc8d75bba73c5d86aba04645698a7a141bd",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/apollolake-4.4.302/m88ds3103.ko",
-            "sha256": "0021cd3a75bf6b0a0b536804c0bdad7a0c277bc752be935e188f5cfafb2d3925",
+            "sha256": "ee838fd2d3627ce31b379b49f79db564027a6f5677c0b2306ef4e7a2229f7ad8",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/apollolake-4.4.302/m88ds3103_firmware.tag.gz",
-            "sha256": "67d88bc59c32ea59d6283b4e761f25dd28636cc2a39bac614ffada65b4421cef",
+            "sha256": "095e934ae86e153776171229a05ba0615b09d6f241413763a8df7fd4a514536f",
             "packed": false
         },
         {

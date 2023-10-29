@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "megaraid_mm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/broadwellnk-4.4.180/megaraid_mm.ko",
-            "sha256": "c78a0025e467b560d4c57a4aea1f0aa6a6f227315984c982445f509a18a8ce56",
+            "sha256": "d53b2d15c3d319b9e93e99e44d1b7e8bc1c259b4dc2a65d3f8a198ac93751925",
             "packed": false
         },
         {
             "name": "megaraid_mbox.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/megaraid_mbox/broadwellnk-4.4.180/megaraid_mbox.ko",
-            "sha256": "94b7b9f812234eca41474fe83e0e8c828d081c046a028655688356453e364736",
+            "sha256": "2cf66092952043f00fe90c40a6f29484b667b2403223470baa4c0f63de57ae57",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/v1000-4.4.59/mii.ko",
-            "sha256": "2616a49819b91c3ab496c603d7009db3b5b73aaee3bb4285852895fdcee1a8f1",
+            "sha256": "0bc6212b9470f7a45a1d24fb255b2fdd62c8a5011373099bf3116a36c95863f9",
             "packed": false
         },
         {
             "name": "8139cp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/v1000-4.4.59/8139cp.ko",
-            "sha256": "7c3d5c15aa374919d114c88e1af32c138d8134ed6cefafa17e91796aedd7cad7",
+            "sha256": "fe8c6042ba40d2f3a9bb5ce9e1344cb88ec86706d4dd85466ffa7c09c7d16516",
             "packed": false
         },
         {

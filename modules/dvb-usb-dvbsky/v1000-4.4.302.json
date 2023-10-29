@@ -1,34 +1,34 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "dvb_usb_v2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.302/dvb_usb_v2.ko",
-            "sha256": "ec9f979d7684e70b7b8d9b26c17e225c075fecd943a442291f8fd5dc63f784bc",
+            "sha256": "df007efe88ed30a3ec670607e3b61c03ea9835cb1276ef773d86190be43bc7c3",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.302/dvb-core.ko",
-            "sha256": "0133a3a32df25f23254841e6ee72f29b9074458a30610facaf66bec42d878ae6",
+            "sha256": "bc43a7d208c9df14dbe6cf78b8be6899d13c76a2b2c284b1c5daaa26787a3c49",
             "packed": false
         },
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.302/rc-core.ko",
-            "sha256": "83a535fe4ab112b1e6efa5f0ad67a875c561dc89fe748ac624b606d7331b0fe8",
+            "sha256": "5bfabeb2cb37cb65a0ea7b21bc2062f32a651b92184f7ca2209dd7d9f4bc4c63",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.302/m88ds3103.ko",
-            "sha256": "0c56e951d3cca7ef214c843fa851587389d2e7013daeb559f447add5d3fa5f97",
+            "sha256": "fd5f9831a634629022e2875947f9da9b52213f8ddfd066c532b780a097878691",
             "packed": false
         },
         {
             "name": "dvb-usb-dvbsky.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.302/dvb-usb-dvbsky.ko",
-            "sha256": "9f7b31f2029a790e0bea95f309454205b6b925bce5a8be7cd29fc5d1ea304532",
+            "sha256": "70a9e197bc6d7415de995149c48600db88e0d9d7995a97e6fcd177c55daf54e3",
             "packed": false
         },
         {
@@ -40,7 +40,7 @@
         {
             "name": "dvb-usb-dvbsky_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/v1000-4.4.302/dvb-usb-dvbsky_firmware.tag.gz",
-            "sha256": "5159b2989b7e2be8d555adb5c447cf0d279f14cd9cf5b0f494b308d72dd7cde7",
+            "sha256": "af9d1890be0d7b809a15530e72f08e60915e8500393dd085b8bc16bc406a1562",
             "packed": false
         },
         {

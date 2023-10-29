@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "si2168.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/geminilake-4.4.302/si2168.ko",
-            "sha256": "48b619361efdd8e3e975008626c5b80682acf17d0a4931b0b90c8b2557ea4464",
+            "sha256": "493d7adcd8485f2715090803e03a0556ff8025e15308e8b441a75e9a48bf1ed9",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2168_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/geminilake-4.4.302/si2168_firmware.tag.gz",
-            "sha256": "e1c1d9c7523155e6ca2d0194d59e7251b092160a09a391cf067e303a5449ebd6",
+            "sha256": "e08f2436232d21404da6ad2ea7695cf8217b156a50026fef1a0243db74a398ab",
             "packed": false
         },
         {

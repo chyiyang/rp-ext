@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "intel_auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/denverton-4.4.180/intel_auxiliary.ko",
-            "sha256": "a748a5ce69b4e02a4158a0d6ccc780a8c32a4c301a7bb510347ad56ee631b53f",
+            "sha256": "97960975d0fb6d1873786c4dd00810eb0b9b48e1ecb1c628714b6a4d31c0d0d7",
             "packed": false
         },
         {
             "name": "i40e.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/denverton-4.4.180/i40e.ko",
-            "sha256": "13c6fbcdbac86e80d7f96fd79c97dd884c9d9ffc0e02f8e70d4b2ef49b0e1edf",
+            "sha256": "62cd24c168be891f443c2af4c588aa1e8105db13e49585796ea4f9d3070b2a63",
             "packed": false
         },
         {

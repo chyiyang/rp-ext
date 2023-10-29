@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/r1000-4.4.302/scsi_transport_sas.ko",
-            "sha256": "7f89c4dadbecb9efac9e2f3ca2fec2da65bbffc5aaf344b6f3398f8198ed09fe",
+            "sha256": "22b4f802b3aa9a0c3770f88ea91cd12ed9a335d181e459e048e4723ad57e7e60",
             "packed": false
         },
         {
             "name": "raid_class.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/r1000-4.4.302/raid_class.ko",
-            "sha256": "f99c0a11be1d28b1b58d8aa6192f1bf103d2972d609774c8a5171bfe1009d3ff",
+            "sha256": "f57dfeb1caa3f09024f8be1b9f337b39b2c8b77ad6275e12341da7f576318fd4",
             "packed": false
         },
         {
             "name": "mpt3sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/r1000-4.4.302/mpt3sas.ko",
-            "sha256": "be633e99d8108bbefda0216096e63ae9a37c3d9f6a1dd66a56a41ad74ad5677d",
+            "sha256": "398de63db922822040846c8fd505ce573353cf4426ea96a6311597370f585fc2",
             "packed": false
         },
         {

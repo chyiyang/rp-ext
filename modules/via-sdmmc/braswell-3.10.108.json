@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/braswell-3.10.108/mmc_core.ko",
+            "sha256": "fdbfdabf024c3b90d288cf2f491ce50fae1bf3c0dab5c901b1d2e87d6fcd5360",
+            "packed": false
+        },
+        {
+            "name": "via-sdmmc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/braswell-3.10.108/via-sdmmc.ko",
+            "sha256": "8d7690794957236795a33d87a831609c846d779116ac4a20f9e2ee0c55ad957f",
+            "packed": false
+        },
+        {
+            "name": "check-via-sdmmc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/braswell-3.10.108/check-via-sdmmc.sh",
+            "sha256": "8588fdfbf4a39fc36a3bad16ef150ce85c090f903b3e9bb57b36b8898d45ad4c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "via-sdmmc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-via-sdmmc.sh"
+    }
+}

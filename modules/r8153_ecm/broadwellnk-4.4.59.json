@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/broadwellnk-4.4.59/usbnet.ko",
-            "sha256": "c629bbd066f70811da5b27615c17c872bbe271d53bec63b836a1ad48e0097d85",
+            "sha256": "59419b3e7e102aba3f17c70551806da9e4a5191bd251b433f49f34cc049553b3",
             "packed": false
         },
         {
             "name": "r8153_ecm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/broadwellnk-4.4.59/r8153_ecm.ko",
-            "sha256": "d0ac1ad88bc3c3391df953bce312c650cbde5de6ef2879031b1571ef91082661",
+            "sha256": "8ca395fa8fddc453e5c765ef2b80aac3a37f5d674c5c04b783750b9f335e44e1",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/denverton-4.4.180/mdio.ko",
-            "sha256": "8b57aeaac5add9e330bf17562d4e28fe4eae12da91187d5660d8ebede4427b42",
+            "sha256": "02cd5c3df07afd23685a2d4243ee349f43bf71152cf93cb413240aef6e6b0b73",
             "packed": false
         },
         {
             "name": "alx.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/alx/denverton-4.4.180/alx.ko",
-            "sha256": "fe37cd330189628bdc05dabde0213c8c15daeeb4072362615f2df4194136d68e",
+            "sha256": "b5136ea509f3469eb7ba2d5d8e0e49f207e7b25bda3b186458bd8248b6a3cc85",
             "packed": false
         },
         {

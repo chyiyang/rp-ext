@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/broadwellntbap-4.4.59/fb.ko",
-            "sha256": "daf00c9e440dcc21b13799d23960d6cd90d024fe094e26588660d5eedea2ed89",
+            "sha256": "205226d79f5e752950cc1510cde995e08013a0349547bcf0d371ac8504e1a42f",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/broadwellntbap-4.4.59/softcursor.ko",
-            "sha256": "1e06c0df6c9aa4381560aef59cd2cd2ad251c1f505ee46a904f7c408842eaf84",
+            "sha256": "7b23ad6dc26b3360fc489e7c880c15e91c01decafd4826b906c60ff4d61ebb3b",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/broadwellntbap-4.4.59/bitblit.ko",
-            "sha256": "ade74e1b8366a5044ff82fb133d39e46cef712e7aec02eb62479abdf066de702",
+            "sha256": "918d969d88dd944cffb440ae76b63a30699ae962ad486cdd263cb1ae9e0ad0fc",
             "packed": false
         },
         {

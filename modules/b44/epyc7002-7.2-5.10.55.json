@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/libphy.ko",
-            "sha256": "175795600f14397e64ead411c71bc0d767574b1c5ca533ba22fa2269057c0c65",
+            "sha256": "53cb323256892d6402a905e06b55cde10a7602ac420c8e4a3bb1afd3795dd24d",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/mii.ko",
-            "sha256": "57cc03fd34a86228b4bda05717f387b6f1e508e262d75cd319c7ba666fd9066f",
+            "sha256": "3ec9e02fe40414c32e46384f29c92b0cdc4b99b3dfb29cbd023ace0ce7bbced0",
             "packed": false
         },
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/b44.ko",
-            "sha256": "1fabecd11796cd38b9c937be42b9f89a5a2afc6204ca19eea26559c1caafdc25",
+            "sha256": "55b7a95c385d741a8e179db11a6030119703cbda393ba58b60619e5dbd215bac",
             "packed": false
         },
         {

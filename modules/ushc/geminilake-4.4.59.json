@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/geminilake-4.4.59/mmc_core.ko",
-            "sha256": "687b76e42499baf99ec8cba6fcefbc74b89889e569d2d463b6e923824e6163e4",
+            "sha256": "8b23f64ce9da56ddb266cb87d05ab94f15499655d6b6fa1ebec8354ff941b988",
             "packed": false
         },
         {
             "name": "ushc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/geminilake-4.4.59/ushc.ko",
-            "sha256": "3a4837476322db41eb1fdbe2a55a1eb40040691b9e634c16256bd7207ad8c3b5",
+            "sha256": "6dd21a14da8f288f6f14828f7baaa19047a5667eeb032ff358722e8a0a57afbf",
             "packed": false
         },
         {

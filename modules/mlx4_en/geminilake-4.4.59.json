@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mlx4_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/geminilake-4.4.59/mlx4_core.ko",
-            "sha256": "2c15c835492f9d522140a4ea90bf299f1d31e933997923541242707a15d621dd",
+            "sha256": "3bd42a22416cf3c0e12a27bd5243e484e5a22ed650be880426e5b87e6f091e04",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/geminilake-4.4.59/mlx4_en.ko",
-            "sha256": "1661ea76ae09ffb2484875b4248101eab5d5ad6027453851f0e209b9ed8ebb3c",
+            "sha256": "fa4c818fb73ea6a42ffc9a774754f246b32166c2ef1bbaa1d8fee60f0d60504d",
             "packed": false
         },
         {

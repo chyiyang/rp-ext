@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/denverton-4.4.180/mdio.ko",
-            "sha256": "8b57aeaac5add9e330bf17562d4e28fe4eae12da91187d5660d8ebede4427b42",
+            "sha256": "02cd5c3df07afd23685a2d4243ee349f43bf71152cf93cb413240aef6e6b0b73",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/denverton-4.4.180/cxgb3.ko",
-            "sha256": "0a552b338365d5b45677892d450e667e53214760fbee254b737b1d00c7937f5b",
+            "sha256": "5cf8763f43448bd494ca1425c177e604b1b743fb747c96ca0a86d0ecb4e219ad",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/denverton-4.4.180/cxgb3_firmware.tag.gz",
-            "sha256": "2bd8f947e2f4cde5314cacc955644bc8c287ff25a89575a1735616d9eadadb97",
+            "sha256": "3e491f61890a38fff458edb28038e3b67f152e1b23a0978722ca716da0aa2684",
             "packed": false
         },
         {

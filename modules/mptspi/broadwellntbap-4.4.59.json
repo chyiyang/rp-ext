@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/broadwellntbap-4.4.59/mptscsih.ko",
-            "sha256": "287ff6264f3fc1525a52aebfcfe6c572bbbb498b56defe4d65cdbe7cff0df3c8",
+            "sha256": "ab5586e4b644a6ae7a0ba1a19d1583bb69e2715017bae47f89028298ae0f0daa",
             "packed": false
         },
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/broadwellntbap-4.4.59/mptbase.ko",
-            "sha256": "d1b7a3ce175244c52429091420195611858c79a9cc7a3ce344b909fb05e8e177",
+            "sha256": "b6b03a2975c56d45520e46c3cb540f224461dbdcc86b0b7b213f6478deb618e6",
             "packed": false
         },
         {
             "name": "scsi_transport_spi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/broadwellntbap-4.4.59/scsi_transport_spi.ko",
-            "sha256": "94a70bafbf9ed6d43ad230f9f191d6b8642208decfbed6d0407061a0596ef61c",
+            "sha256": "8a4a750f304ccdd8099e21bb329b52aee47ed76193cb6615aaa41b87cad4801f",
             "packed": false
         },
         {
             "name": "mptspi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/broadwellntbap-4.4.59/mptspi.ko",
-            "sha256": "0fbb1415b65932163a674e7e8a38a7c30077ec2effd0ecd47ce80275ea99f57e",
+            "sha256": "446256b2edb330c3c1d134a45cdecfc89650da48e12ec482934c6eff1c779a8d",
             "packed": false
         },
         {

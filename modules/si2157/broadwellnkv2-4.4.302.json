@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "si2157.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnkv2-4.4.302/si2157.ko",
-            "sha256": "008433c178bb4846406bc8dfcb829d03f01fd1e01c0f0b8e62320332121d65a7",
+            "sha256": "9786fb1e7db3ee6169b46e86c262e75d7dcded88805307e90ba3c18223ce5949",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/broadwellnkv2-4.4.302/si2157_firmware.tag.gz",
-            "sha256": "0236eb369b6a69439292d28b86ea0773f5dbbdc9f45879d536b63b462e7740f8",
+            "sha256": "2fd82334b992b78fcb7d70785645673b01a3838560b4e13c37be2e05b7bbdc0e",
             "packed": false
         },
         {

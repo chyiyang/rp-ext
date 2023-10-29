@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/apollolake-4.4.180/mptbase.ko",
-            "sha256": "09cdd09c334e9290e1fb41a427a111ac7a386647206db0ba11b4feffcbfe8f28",
+            "sha256": "ad2628e58ac58afd22055255e8aaa09f4708212498e765e515c21c118cdcd906",
             "packed": false
         },
         {
             "name": "mptctl.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/apollolake-4.4.180/mptctl.ko",
-            "sha256": "f9aaf379c7019746d129e7f005ea07b4854e6e7fd11d0bc8c1d88186ed2784ce",
+            "sha256": "fa47025f5a78a22b94c1d4fa7f82cf8e85de9a6df2a28787b2a59cc72b9fc9b0",
             "packed": false
         },
         {

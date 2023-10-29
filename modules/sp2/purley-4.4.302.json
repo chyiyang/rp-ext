@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/purley-4.4.302/dvb-core.ko",
-            "sha256": "38a4435b176e0f12ecf9ea6013359df34901c65421294233f0e75390a9798744",
+            "sha256": "8b16f7574a9f17072522da19516e2cce39bd3c035c20984602718eb433d2c687",
             "packed": false
         },
         {
             "name": "sp2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sp2/purley-4.4.302/sp2.ko",
-            "sha256": "7a07afcdfb8c26f0f79749ad4e260848afc0aede321f3d33d73c5752688be808",
+            "sha256": "51a04115e14e76e62ebc4f037ef12f223984e39cbc992a8989104effc13c6fae",
             "packed": false
         },
         {

@@ -1,43 +1,23 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
-        {
-            "name": "mii.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnkv2-4.4.180/mii.ko",
-            "sha256": "ce7b5c5cab9cc3591d9d77a237a418a5e4ec52e7b152205643a11f6d1d8962ce",
-            "packed": false
-        },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnkv2-4.4.180/r8169.ko",
-            "sha256": "5163d7148c7d0c2b18991ae1d44440f51c450b2389157239b234ad925675e744",
+            "sha256": "74e00b0dc54fdedd047b974c2961be5bc2517acd0db18d83b364a2f1278ad10b",
             "packed": false
         },
         {
             "name": "check-r8169.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnkv2-4.4.180/check-r8169.sh",
-            "sha256": "cf7731f05a383d5b6b27b0d706b20cc9aedf3d2c2b4e3c3d026980d32bd20d50",
-            "packed": false
-        },
-        {
-            "name": "r8169_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnkv2-4.4.180/r8169_firmware.tag.gz",
-            "sha256": "e203719f10de53add2d7337bb611a38cb62359918e72ea73a5f272149fd2a517",
-            "packed": false
-        },
-        {
-            "name": "install-r8169.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/broadwellnkv2-4.4.180/install-r8169.sh",
-            "sha256": "204148a30c10ee18f3a46d8555779e0781b3a438134b0e4612a9d9eaf2b5d9dc",
+            "sha256": "29027fcae85fd7a2f73b6e98281670347170fae2226e15a63b4e606b8cd0e79b",
             "packed": false
         }
     ],
     "kmods": {
-        "mii.ko": "",
         "r8169.ko": ""
     },
     "scripts": {
-        "on_boot": "check-r8169.sh",
-        "on_os_load": "install-r8169.sh"
+        "on_boot": "check-r8169.sh"
     }
 }

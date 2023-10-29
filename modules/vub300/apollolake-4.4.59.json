@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/apollolake-4.4.59/mmc_core.ko",
-            "sha256": "14e0eac9db5c42004386adc71dea032cd84bb78ea212f752068fbebdbe76a6e2",
+            "sha256": "30cd0509756b48b0b8f831a93c7e104c10154d4e5b33343324ff10501fb3e95d",
             "packed": false
         },
         {
             "name": "vub300.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/apollolake-4.4.59/vub300.ko",
-            "sha256": "e02f18e1694c02481dd8d18b0dd8c1b6e20ea148b3f3a7bd1ff0f8e138f94c73",
+            "sha256": "ca1a03348eb4faaa6f887a52b1c40ee41302acef3dfd59e686066962a5ae6593",
             "packed": false
         },
         {

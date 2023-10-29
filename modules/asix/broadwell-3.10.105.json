@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/broadwell-3.10.105/mii.ko",
-            "sha256": "ff7de90acb0a741f48dd0a5ebe56587942ff9d1f20002ed0023f87d1ef7deaec",
+            "sha256": "3d399802ba9372e395409c51ba147455c61dc0d1e9741257b4c10e8e9c5d40a3",
             "packed": false
         },
         {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/broadwell-3.10.105/asix.ko",
-            "sha256": "76d7c5780d64f18f9efe805e501a6761616b8b72434a302fefd3e2b3fb234a1b",
+            "sha256": "de5c2c210e02df977d4456523b083dac851b07434d4c6c00c129bfd43bb4b6bf",
             "packed": false
         },
         {

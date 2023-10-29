@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "intel_auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/r1000-4.4.302/intel_auxiliary.ko",
-            "sha256": "11b2f5cb7a75925c7d141be3e4dca8463f16bfff7e44b0b7fa9500adc31b17f9",
+            "sha256": "cd149fab813c5d0bf168e6542a49f56847d5c50451bd44b5671b967a8b779a47",
             "packed": false
         },
         {
             "name": "i40e.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/r1000-4.4.302/i40e.ko",
-            "sha256": "a983b93726d352b9ebc70201a5754b2ad2715602bf5ae1a2a880b47f8af521b7",
+            "sha256": "ebd5891a763e0f073623a57dc2004bdd274e7da92e1df1e44b920de18243fef2",
             "packed": false
         },
         {

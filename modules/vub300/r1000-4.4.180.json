@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/r1000-4.4.180/mmc_core.ko",
-            "sha256": "ca8328a5818dfe540f914d3af005c1f51b364d8aadb7251057359c8f9d9e5925",
+            "sha256": "f41aace25a3f7f667a4ba5429c1bf7f35172223617660310d746e9802f73d4c4",
             "packed": false
         },
         {
             "name": "vub300.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/r1000-4.4.180/vub300.ko",
-            "sha256": "bec75802ded312c8771aef9eeea32b1365117dcba631406284b913853b1e9a36",
+            "sha256": "11dde3dc31be1d3de9bef32d454db50bdca5d3ef9f60af69d60c06a22a16daa2",
             "packed": false
         },
         {

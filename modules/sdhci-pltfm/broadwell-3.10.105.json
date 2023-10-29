@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "sdhci.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/broadwell-3.10.105/sdhci.ko",
+            "sha256": "2f1964815ffa308096cb156c7bc8642d9a9a7494d07e57d42ebab4eb666c4cfb",
+            "packed": false
+        },
+        {
+            "name": "sdhci-pltfm.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/broadwell-3.10.105/sdhci-pltfm.ko",
+            "sha256": "edb7cbd8bbaf5130fbd8356f7f44ccb2ac536b65bad4cdc8f687acd138ce7773",
+            "packed": false
+        },
+        {
+            "name": "check-sdhci-pltfm.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/broadwell-3.10.105/check-sdhci-pltfm.sh",
+            "sha256": "b568afa813aefe7eccd85543db656307398909fdee03b53d296d3f4e7c0e46a2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "sdhci.ko": "",
+        "sdhci-pltfm.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-sdhci-pltfm.sh"
+    }
+}

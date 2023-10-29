@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libiscsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/purley-4.4.302/libiscsi.ko",
-            "sha256": "fdf3794690ebfb4e554c8b14e60c799c1e886a04137d8a57c0251327c1ea388a",
+            "sha256": "0419bd3453524c3a1cf8e554388c398240e9d42c5226f344bd1c65cbd32e97a2",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/purley-4.4.302/libiscsi_tcp.ko",
-            "sha256": "3bcf14dcb32920479a0b5e7241fb78fae24b87ff6d978e332e51917231c40e02",
+            "sha256": "7cab0ff54c253bea6bbd787e5ac28efefe1ebdb53394eddc43546e09b55a862c",
             "packed": false
         },
         {
             "name": "iscsi_tcp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/purley-4.4.302/iscsi_tcp.ko",
-            "sha256": "534b03da91c2efa9d9e9585522dab73af4ea6b24377e94bc3e5aa58b30b3c60c",
+            "sha256": "7a94ea861d099c8136f815a9914acc489f33f699d091d55b8e07cbaa2229e897",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.302/usbnet.ko",
-            "sha256": "137e928ade47e69e036ec8fa27a64e39d71cf1333fde5ada60d17bb23501824d",
+            "sha256": "36d6f0dba4892845ae85a4c6065190027cbdd214e656505a0ef8316d7df1a988",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.302/cdc_ncm.ko",
-            "sha256": "d7459429fb31b9e60b23f3ba5d0587690884876369469267a9667de6b1b2eec0",
+            "sha256": "51a2ee66636b00c7ad18c1d1359ce7699c56e1f3dc6895a13220cce01fbe6af8",
             "packed": false
         },
         {

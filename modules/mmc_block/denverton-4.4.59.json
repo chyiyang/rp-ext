@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/denverton-4.4.59/mmc_core.ko",
-            "sha256": "b74e18b8f4b326dafe1dd9e44083d0d9d38a7ed99dc7f827b84040876d1a3cb8",
+            "sha256": "9731292497f7e3a0017c7bd2be80893670e0ee196bf7e960050f8b5cb85b720e",
             "packed": false
         },
         {
             "name": "mmc_block.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/denverton-4.4.59/mmc_block.ko",
-            "sha256": "c2b76a5c41a5b25903a0f9739ee60f2aa18157d698611e8e1502822dc556bae8",
+            "sha256": "7747a998cb3781ae2bca284913a40cd38d549f58815a2ac80e00a3d34e94eb22",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "drm_kms_helper.ko",
@@ -58,7 +58,7 @@
         {
             "name": "i915_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/apollolake-4.4.302/i915_firmware.tag.gz",
-            "sha256": "c6f3096cd36147953ac9e54246ba536d178fbd22295887a84c8261c6dd31e103",
+            "sha256": "7023a2b51c2e3b65c77ba0cd3a794ca1e9059352f049635cbf62942cdc383a71",
             "packed": false
         },
         {

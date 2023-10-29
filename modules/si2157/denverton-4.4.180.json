@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "si2157.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/denverton-4.4.180/si2157.ko",
-            "sha256": "c0d06491667e27316f226731907206479250a331cac3f6d6498a9e6c128af47e",
+            "sha256": "0c2246bad49e349cd0393aa58d069b6857b85518b1b3d92a25f5001ab9df9369",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/denverton-4.4.180/si2157_firmware.tag.gz",
-            "sha256": "97275c4280d906245ff268887e5ba9635114841d535774462d8599c890b8e668",
+            "sha256": "2861fed4b6a677ce40f19441a368c1756866218d3d3dc0b765dc08d720d93140",
             "packed": false
         },
         {

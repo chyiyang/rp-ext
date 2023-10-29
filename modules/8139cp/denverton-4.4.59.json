@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/denverton-4.4.59/mii.ko",
-            "sha256": "9768e3ffe147c3360266a09324d93284dd512f23e44f55818aa098f1d70285bc",
+            "sha256": "72a0f2f685ba20cd7f04e535e19933af8f9f87ed97d22f4884d6d152c08bb03f",
             "packed": false
         },
         {
             "name": "8139cp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/denverton-4.4.59/8139cp.ko",
-            "sha256": "7f3e4700cf73b480ed87630a1071d2f433b2b053a3b327cbe0b7b4085f2905f7",
+            "sha256": "082758188282c86be6f13060d60f5ad2e46520396602e1a3bf448d31a9738229",
             "packed": false
         },
         {

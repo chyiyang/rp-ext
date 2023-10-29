@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cxgb4.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/denverton-4.4.59/cxgb4.ko",
-            "sha256": "8ed11348ce3faea9d5eac981949abc52bbb76dbc1a67877b7038ad5ccb6d8da9",
+            "sha256": "6a78eddf01cbaec05af3ea85af164b8e6c452914e15731fd607e6c0318bd2436",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "cxgb4_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/denverton-4.4.59/cxgb4_firmware.tag.gz",
-            "sha256": "059af707131b4fe08dea04c5ef2b8d4f1d1d1992bd4b569d9c9ffd81497395f3",
+            "sha256": "6d137ed24a2a6f408a75a240819d1c36b572457cbc22b4e0beec453574ec70ab",
             "packed": false
         },
         {

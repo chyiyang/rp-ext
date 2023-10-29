@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "scsi_transport_sas.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/epyc7002-7.2-5.10.55/scsi_transport_sas.ko",
-            "sha256": "a9fd1415b79a916c1dc67a0193da83affe715e79c399686ba652ab86c48eff89",
+            "sha256": "a564842728c457221e71b6e1cc2f4d15d3ca53cb11a3ba2a95548d8018d37476",
             "packed": false
         },
         {
             "name": "hpsa.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/epyc7002-7.2-5.10.55/hpsa.ko",
-            "sha256": "95fbdbbe02c0e2d553d7742d29358f47654582faf98c8539fd4642cad3474e2d",
+            "sha256": "0b85c00a3e2ec1681689681aab9c370094897a2229c805c66dad23768bed0755",
             "packed": false
         },
         {

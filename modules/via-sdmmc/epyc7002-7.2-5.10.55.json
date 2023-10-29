@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/epyc7002-7.2-5.10.55/mmc_core.ko",
+            "sha256": "730e5edb57f9b70c99f817d7ab7d008f70f0eeff8f471cf6977adb59f93a238c",
+            "packed": false
+        },
+        {
+            "name": "via-sdmmc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/epyc7002-7.2-5.10.55/via-sdmmc.ko",
+            "sha256": "ac14c4e89dcbeb0372104636a67249dc966e8910ce974a6e64e6a7a969a81e94",
+            "packed": false
+        },
+        {
+            "name": "check-via-sdmmc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/epyc7002-7.2-5.10.55/check-via-sdmmc.sh",
+            "sha256": "8588fdfbf4a39fc36a3bad16ef150ce85c090f903b3e9bb57b36b8898d45ad4c",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "via-sdmmc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-via-sdmmc.sh"
+    }
+}

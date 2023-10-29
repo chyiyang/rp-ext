@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/broadwellntbap-4.4.59/mii.ko",
-            "sha256": "3e726b3f685364644e4dbb946c62b487e0a6ff50dddc933880b7a170a3868f38",
+            "sha256": "c6006edea72ddabd51f18d650c8cf7809857548973e2a28c094234f5f07c0227",
             "packed": false
         },
         {
             "name": "8139cp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/8139cp/broadwellntbap-4.4.59/8139cp.ko",
-            "sha256": "a9ad522caa03de971e040820747f0a8b6c05018858e2bd4f2f3a6aec4093d858",
+            "sha256": "4526c9a54c749a7980dfa7fb83d21c469a651296b327c69bb19dcf0330472c7e",
             "packed": false
         },
         {

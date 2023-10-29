@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/denverton-4.4.302/libphy.ko",
-            "sha256": "d7b49fdb359b1fa690c8e676c2ac82b778b1b803c241f99748bd04e049736171",
+            "sha256": "088fadfa933e5ab7d5fd542e93fb1df47dcec2eb98e63b0f889bb6c1d8bd67b8",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/denverton-4.4.302/mii.ko",
-            "sha256": "b4a05652ad289cfe160a7cf7d120ba208c4a983d6cd5ceb91daf27bcd717b4fa",
+            "sha256": "6ea49a44b0f87788acaab7d514b82e21c11359a130ac1aa7a3c501ac7c352f43",
             "packed": false
         },
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/denverton-4.4.302/b44.ko",
-            "sha256": "594d88c9476a458374f3032b8a61a3422cba26f2a55b10722062d155c9ce5cbd",
+            "sha256": "3f6392f2edfc6cdde57740de85da2c000e2f730f569b777fe268897de1dac67d",
             "packed": false
         },
         {

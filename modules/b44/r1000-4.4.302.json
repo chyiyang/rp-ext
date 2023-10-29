@@ -1,26 +1,33 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/r1000-4.4.302/libphy.ko",
+            "sha256": "fd461b33dcde1883289fa4867010fe08e1243f7bc5b672784065b6868965483b",
+            "packed": false
+        },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/r1000-4.4.302/mii.ko",
-            "sha256": "f905ede82ad81d8f16ed97860324799f7bd7cb9387c39a8e158d87d7eb6d5cf4",
+            "sha256": "f3f0ccb97240777d74ff771f33595b12e05246489f2de9a1a88258070a9758a6",
             "packed": false
         },
         {
             "name": "b44.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/r1000-4.4.302/b44.ko",
-            "sha256": "25f8fced12cb76273a10bd28566241c2d1723570a7d7850c938e84e64dbbe700",
+            "sha256": "0d9d2b0a508930a2bc76f93514b8c7dc0f0c19c96ecb3d4b97619e042a45d38f",
             "packed": false
         },
         {
             "name": "check-b44.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/r1000-4.4.302/check-b44.sh",
-            "sha256": "75b3af2dcca0a83b678597f3f4c1511cd076056c995223144f7f8204ddfc920b",
+            "sha256": "22c041d3a2421185130dac8a7332ec49091be831fe49df27f374e9e3a9b4dfd3",
             "packed": false
         }
     ],
     "kmods": {
+        "libphy.ko": "",
         "mii.ko": "",
         "b44.ko": ""
     },

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/epyc7002-7.2-5.10.55/libphy.ko",
-            "sha256": "175795600f14397e64ead411c71bc0d767574b1c5ca533ba22fa2269057c0c65",
+            "sha256": "53cb323256892d6402a905e06b55cde10a7602ac420c8e4a3bb1afd3795dd24d",
             "packed": false
         },
         {
             "name": "realtek.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/epyc7002-7.2-5.10.55/realtek.ko",
-            "sha256": "ab564c406360b9193bcd814e05c68c402d25306eeb2772a2e1d096860316c28a",
+            "sha256": "bc7f8bbca43b1ed92190f21a5295dbcd5d11a5c97cb3a75a8ecd8db290a370dd",
             "packed": false
         },
         {

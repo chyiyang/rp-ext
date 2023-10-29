@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/r1000-4.4.302/mmc_core.ko",
-            "sha256": "89cb0a3533c87112fe3e6e966b90a15d0c228aed2314bb2d7c4670b48b736aa1",
+            "sha256": "61d1100901242cd93aff6f171cc33e0294c1cb5ea1520a65f5d9ba7c207f8eb7",
             "packed": false
         },
         {
             "name": "mmc_block.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/r1000-4.4.302/mmc_block.ko",
-            "sha256": "e06784a18be8c81a13c678cd2d9c2bb25bd2391a4165965afff79661c6d56750",
+            "sha256": "8fc1791b2d59996a8d15537f8fa0e6bce42455d4217895dcb30bbd2f2793a7fb",
             "packed": false
         },
         {

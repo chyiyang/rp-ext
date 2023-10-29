@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/geminilake-4.4.180/virtio.ko",
-            "sha256": "1cd453d36067ba6ad3d94c490d01e9361d9a612a9d7bee757874fff20ce4b5d3",
+            "sha256": "0602548f1e742669be305c2c01cf3ea1c95c3d2716c24213a80da34a7368fcd5",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/geminilake-4.4.180/virtio_ring.ko",
-            "sha256": "b5ae1595e24aeb85bf4854584abc59e9d3f2eb4ba622914b665999efa5ba69a1",
+            "sha256": "020ebf491d3361c9ac217f10c3e6c8371eb1d607f8fd76a94217795bb711df93",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/geminilake-4.4.180/virtio_net.ko",
-            "sha256": "518f19304c42232a7d3cb7186dceba12b15640b4efa65d702a8e8ed0384f46a1",
+            "sha256": "fd86df06dde8bfa208a1fc8a3575c07f5196a323b85c4fdc9204f1bd1201f229",
             "packed": false
         },
         {

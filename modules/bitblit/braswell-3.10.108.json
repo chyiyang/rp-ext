@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
@@ -10,13 +10,13 @@
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/braswell-3.10.108/softcursor.ko",
-            "sha256": "2cd2cafc1e7564932dc2c366be08f58c5a2ebb1c46339b479a3d117ac0fea1ad",
+            "sha256": "2191634e798f319380bfdfc7fd8b0a448aa42c459cdd5ac5f88c5bcf5af2c2a7",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/braswell-3.10.108/bitblit.ko",
-            "sha256": "b6d44b225d0f31b0c4431ccf5ec6d9f6d8d08c03131fe0b0e702ab154d4a6da4",
+            "sha256": "63ec670adc2033ba038149c055de6a5c26c437098456fabaa51920b1449889e2",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/denverton-4.4.59/mmc_core.ko",
-            "sha256": "b74e18b8f4b326dafe1dd9e44083d0d9d38a7ed99dc7f827b84040876d1a3cb8",
+            "sha256": "9731292497f7e3a0017c7bd2be80893670e0ee196bf7e960050f8b5cb85b720e",
             "packed": false
         },
         {
             "name": "mtk-sd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/denverton-4.4.59/mtk-sd.ko",
-            "sha256": "8f75e79c706088bc0cad129cc8f9acb541b5330465954bb43252075bc812846f",
+            "sha256": "751b45bcade456398e8f79b70d1e0a8a58cbe6e7b1d856efc8ec62ea1d9ea31c",
             "packed": false
         },
         {

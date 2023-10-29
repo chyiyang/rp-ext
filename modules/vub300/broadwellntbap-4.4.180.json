@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/broadwellntbap-4.4.180/mmc_core.ko",
-            "sha256": "4d76076e71f7c1c92f6a7a68a74ea5b328acd9feb9f4f578bb828be765bd1f05",
+            "sha256": "cf9726ac4c0fe32ed101e71752e70a6baf6bb15c80177df0a6387b931146b220",
             "packed": false
         },
         {
             "name": "vub300.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/broadwellntbap-4.4.180/vub300.ko",
-            "sha256": "de273c5cfab166c229a7cee5cb2b4f30a50222e14aec579f54cf385c5e6b15c9",
+            "sha256": "3d5e0b1111bf6f8b19fb054499661ede3d6d37b6a6ba8048d8584aa00cf96d44",
             "packed": false
         },
         {

@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/geminilake-4.4.302/usbnet.ko",
-            "sha256": "137e928ade47e69e036ec8fa27a64e39d71cf1333fde5ada60d17bb23501824d",
+            "sha256": "36d6f0dba4892845ae85a4c6065190027cbdd214e656505a0ef8316d7df1a988",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/geminilake-4.4.302/mii.ko",
-            "sha256": "cec70676a0f7aed7a764fbbdc6536812b0d36cb2495e735d188dc52439dca27b",
+            "sha256": "a25f96ec3e7126bdf16ff3b1ee4c122a1e901b45870d26d65c75b463642a3da7",
             "packed": false
         },
         {
             "name": "ax88179_178a.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/geminilake-4.4.302/ax88179_178a.ko",
-            "sha256": "fce36f6310b753bbb0aa0ae981f12fc62d1827e9899fe674de7d2eb69288071f",
+            "sha256": "d2faaa9e3fa96796ee8ef93cf30221c9dbba1870fc5094e09258aa6ad07d7f0b",
             "packed": false
         },
         {

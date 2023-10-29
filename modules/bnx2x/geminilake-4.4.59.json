@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/geminilake-4.4.59/mdio.ko",
-            "sha256": "26f36097f67a99fb0cb66beb0fb25e343229730a93a0f48800bc90cc254d9ca2",
+            "sha256": "626fb9fb87f5a431c9e4c08bd69e5a1a4a69e6ab4fcafd28b39294de056622bd",
             "packed": false
         },
         {
             "name": "bnx2x.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/geminilake-4.4.59/bnx2x.ko",
-            "sha256": "86d1c5887320c8efb305352254c2dd2a3ee1be6cf71817c3babe3206c9a50332",
+            "sha256": "b0390ef72d91cdb2c34366a0fde4ae04c06986244131568e507405c1ee7f7b23",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "bnx2x_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/geminilake-4.4.59/bnx2x_firmware.tag.gz",
-            "sha256": "2164e6049cb01fcb4b3351ae1b5716385331f43a328e26eac3c03e80796dd22b",
+            "sha256": "cbc6ad91cf443dbcd3b06742a406d0791d56054d795b95102329ee0ee4deae87",
             "packed": false
         },
         {

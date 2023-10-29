@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "qlcnic.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.180/qlcnic.ko",
-            "sha256": "bdefc8b356750a9e753c2f24874705287d45f08707c4ad8c83cb034873c655df",
+            "sha256": "b6a39d7324cf409a90bda6c52f0c2bfaf226753fcee6eb602a47a25053dd9116",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "qlcnic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.180/qlcnic_firmware.tag.gz",
-            "sha256": "041b8263a416d750caecee8ed3e1163557c90a540826fefc75260902c4025fda",
+            "sha256": "4a22c34689b457f84b42e416af457701203ba151ab98242c24c08a813a96470d",
             "packed": false
         },
         {

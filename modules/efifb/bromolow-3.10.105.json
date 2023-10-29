@@ -1,34 +1,34 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/cfbimgblt.ko",
-            "sha256": "bedeae613ea49a455afd67e248d727da9a56af7ea5ce5c1bda93b8f965d2ff1e",
+            "sha256": "5da3494d1c0bd52668431e4167be79577f028ee8ab1672079563558c24c3bc7c",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/cfbcopyarea.ko",
-            "sha256": "830944f21702cf164e21fb3cfeec74e818df636eb09b50d3998124cb91ba9c6b",
+            "sha256": "ea9f5023fb21921e49476ceddc7bc8b84ac91a465657e36982d3e9f5aa5fe60f",
             "packed": false
         },
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/cfbfillrect.ko",
-            "sha256": "d7aa7e6b17027933f5f39be14849185f2bc7a2651864567c9065ee2493459446",
+            "sha256": "d6d539d3ca65ad19913dfc1b1e4b84e22f1e601c628f844e57d80816eb662b00",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/fb.ko",
-            "sha256": "7c3fa5e00b20a6da1ff9f7ffc4853555617bdf20aaf3fd3d0286b48a7baf43d4",
+            "sha256": "d05a4716e7513662fea47a4db7af6e010f874f1f8e890299acb318ed88aee011",
             "packed": false
         },
         {
             "name": "efifb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/bromolow-3.10.105/efifb.ko",
-            "sha256": "ecb0b369905d9348ca4e792e025f88ab7e5b40a6a22eb27213071cb298f8f7ee",
+            "sha256": "51922ad8879a928e761abc8fdffd5a8e4e985a8f8bf345b89118f52f2a1ad102",
             "packed": false
         },
         {

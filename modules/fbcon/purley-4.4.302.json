@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/purley-4.4.302/fb.ko",
-            "sha256": "36bd56ae74caf49298ceed7b16a5069c6c21909f9ef294174621d7a034d48dfd",
+            "sha256": "78186d6a31c3838590c9ab2cfffc3fd73db47bbc59be9cbfebd650e87edb208d",
             "packed": false
         },
         {
             "name": "font.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/purley-4.4.302/font.ko",
-            "sha256": "542acadc5e8d9b11b6b3dd30eff54a100d0ed00ac40ca025e341b3cd0b62e4ad",
+            "sha256": "f4f024a6ab0c13b91944847d30c4cbdab0c170fe5fb22508e4cae626ff15408a",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/purley-4.4.302/bitblit.ko",
-            "sha256": "27e07b8fecc24b7200c101876cba615c62ed016d54deb2fa6769a9ceefe1db7e",
+            "sha256": "2eebf68a4f36db5943f8e8d95f3611598f335edfc1b9340ed6e86777d46cccfe",
             "packed": false
         },
         {
             "name": "fbcon.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/purley-4.4.302/fbcon.ko",
-            "sha256": "5eaab2b73bdaeec5d6d6742d9c2a9979a543f6e55bb4fb014cd7aea4baaf8cf4",
+            "sha256": "65ad435a66c8c8d784db1706a55554a8d9a11965e7f73e98ae9d0b75218f94be",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/broadwellntbap-4.4.302/mdio.ko",
-            "sha256": "10bb7dfde60e6bd68d8568aefe7e45389645dd6f70451c141b324cd298b4b053",
+            "sha256": "5d470b516ba673b1dcb334eac1e7e70fe90d194d119fcd1c868c7908d1321a62",
             "packed": false
         },
         {
             "name": "cxgb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/broadwellntbap-4.4.302/cxgb.ko",
-            "sha256": "d5c5f647c55d3182a3b4ace6182de0be228ea07fb91d391cef8dfbdf1bf54a8f",
+            "sha256": "d79fa107cfbe70441ffd57cf306f7c3567c3a64b7ffdad743c9e86c993943568",
             "packed": false
         },
         {

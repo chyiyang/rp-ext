@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/purley-4.4.302/libphy.ko",
-            "sha256": "9cfdc20509572b6a91935c82c95b18b7384c32cdc7127ce61d82c7192dff57fb",
+            "sha256": "fdc88c053119a0116d75ce3774fa62a49db3d26ac6dd2b6ecf0ec11a4773a80f",
             "packed": false
         },
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/purley-4.4.302/tg3.ko",
-            "sha256": "6fc9ffffc807c4092471f4e3f7801383ff3d38b3fee8f8b8f736904c54d91784",
+            "sha256": "67906f1b74c1ae47213a569ff0ce8be71d7215f60ed052a24763ae31279d46d5",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/purley-4.4.302/tg3_firmware.tag.gz",
-            "sha256": "4011b06489bf308b8ba2a25d97c96cfdd0ac5776b50ce93295215ba4b358727f",
+            "sha256": "ff5416b70467afde64409e46185867971f9749b276be8a8c7d7afccb8caf7b26",
             "packed": false
         },
         {

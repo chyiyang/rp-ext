@@ -1,34 +1,34 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "dvb_usb_v2.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.59/dvb_usb_v2.ko",
-            "sha256": "6b78b8f34785aa2baa752cd4897865f59daa9f8bf1af79fa1951019479a3c0d9",
+            "sha256": "ee3efc043b34424fc3d94b2faa1dcd5b50728221ebe5cec3549965a4ccd779a4",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.59/dvb-core.ko",
-            "sha256": "7227df59356ad6183f36b928ba94ef3ee75827207e6f689b5eb5f111bfca9e88",
+            "sha256": "fe239bb94598a3e77aba8cf50167fb0b32b2ec693b6a1f17e90447d1437314ac",
             "packed": false
         },
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.59/rc-core.ko",
-            "sha256": "e1da33d1be5cbb7d2ca79f78c6438682c433f948141a29e039f8c6ff05f9afc0",
+            "sha256": "5947e873b79771d7632dcf65cf8df341535ebdc5d623db91c8b02a8dd11115f8",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.59/m88ds3103.ko",
-            "sha256": "cdb37cfcace33c38df4a9be7f29c4293d36e3dfc1c56df5d366dc5d94f984364",
+            "sha256": "4cfa0df86e2c3d97ecb3e85fe943cc84e5ba8d75254f09982749fdd8624979b9",
             "packed": false
         },
         {
             "name": "dvb-usb-dvbsky.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.59/dvb-usb-dvbsky.ko",
-            "sha256": "61f043052d9c8e03bc06826b792675797d505935cb1e4812ceb00cb10c591821",
+            "sha256": "8d85efbc7bd537d33a3d6eb3672e0ae6c84f7ecd96b1682a91d1dd2940872435",
             "packed": false
         },
         {
@@ -40,7 +40,7 @@
         {
             "name": "dvb-usb-dvbsky_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dvbsky/denverton-4.4.59/dvb-usb-dvbsky_firmware.tag.gz",
-            "sha256": "430ca856df6508a2fbbc61379c2ed750974ac5fb7258106fc253b7fd160bfc97",
+            "sha256": "285be638934cf1ceb5c694d3f7ce3c4dadd436eec4afbbe3de7778fe8d0679a1",
             "packed": false
         },
         {

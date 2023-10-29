@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/purley-4.4.302/auxiliary.ko",
-            "sha256": "46ba9919c8b1e72c297acfb4e8045c19576fa3637f68bcf6e5b61545262913a9",
+            "sha256": "c168fbb384db8ad8324ca7ada3a4b78fa944b58ad5dd560b13c96bbee9f7ff72",
             "packed": false
         },
         {
             "name": "ice.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/purley-4.4.302/ice.ko",
-            "sha256": "774d61d3d8d178fa87f98c7c5bb43907e5a3a6fbb6a9ad0833bb5b0085473514",
+            "sha256": "fc13c29b7b00acbe29da538286b5d0c2dabcf6cde663e5159f68ecf2c4463182",
             "packed": false
         },
         {

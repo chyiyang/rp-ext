@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/purley-4.4.59/rc-core.ko",
-            "sha256": "b2f1d7dd8101bb5462dd963f7e7501fa5333d107324cf83931af0acca1a6890d",
+            "sha256": "160ac0d31df9de78b1894de06d040c798496b02d0662f331a9e3ed02ba2f6851",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/purley-4.4.59/dvb-core.ko",
-            "sha256": "730057147f2ffd51b473f4fcec3beb69286689f61c62c61dd1a4df94580a9984",
+            "sha256": "731cbcd9c55ccff07a2728f09c26dd5f781fd519d6c15516425aefa7a7db48bd",
             "packed": false
         },
         {
             "name": "dvb-usb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/purley-4.4.59/dvb-usb.ko",
-            "sha256": "cec6e8fc97a4c440f256857215712fa8f701b514038fe4de74be94fab2b93df2",
+            "sha256": "60b1b41987a4568b20fb2a2068d18f351c8f48d136053d0a8a7a8164e1239528",
             "packed": false
         },
         {

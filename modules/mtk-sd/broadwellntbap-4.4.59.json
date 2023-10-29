@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/broadwellntbap-4.4.59/mmc_core.ko",
-            "sha256": "42c506ccec0f288f0bc67c1b8b86c7dadfe96699050c411bae7779046e9a70be",
+            "sha256": "5e6bb423a88e88cea65e5bde8947f7fffb964c0ed70b954178a9b19e8b40034d",
             "packed": false
         },
         {
             "name": "mtk-sd.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/broadwellntbap-4.4.59/mtk-sd.ko",
-            "sha256": "6c18b3f3eaf541ab45f1b8a5aa4a40d58a2479439f6cda984f973104c30840bf",
+            "sha256": "fbb6c8e1b4b6f3c25eea467617a51edd86c689480b23484adbe33f13324fde10",
             "packed": false
         },
         {

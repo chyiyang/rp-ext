@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/apollolake-4.4.302/mdio.ko",
-            "sha256": "e47f9f049079a5221d4ac1a9a02e1af9cb2d69931d1a959ce92d2f44acf0720c",
+            "sha256": "2c3f86ec260f795007d209901ecdbf3c128b6d0d74fa3598afe29c8c5b6426d2",
             "packed": false
         },
         {
             "name": "cxgb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb/apollolake-4.4.302/cxgb.ko",
-            "sha256": "7edc5be9246b79b52c18d9c5e0b8e0366eed0fed5e38601c8a9d41eb5ebce3c7",
+            "sha256": "1d604a8fa7d3d089f8e5e34ee6329fde0e7edd1ce30a7eb054c05886515fca31",
             "packed": false
         },
         {

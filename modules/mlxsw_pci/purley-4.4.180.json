@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mlxsw_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/purley-4.4.180/mlxsw_core.ko",
-            "sha256": "6ef645eecfb0e8f65141cf5a39cdf133fc19c82f1a235bbdc7f3f3f40d1211d6",
+            "sha256": "e651e7646207787102a8af7893c751ed4b0ffaaba35eab23e50ff68c612ecc1e",
             "packed": false
         },
         {
             "name": "mlxsw_pci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/purley-4.4.180/mlxsw_pci.ko",
-            "sha256": "4f657c0edb0caac40b36334d79c03ebc4d0fad7dd43463e4e6882e047ca0ca86",
+            "sha256": "31a8a5d42fddf78a516ee0db49eb4ae82b1890752d99ca083e19a4e7a45a2a1e",
             "packed": false
         },
         {

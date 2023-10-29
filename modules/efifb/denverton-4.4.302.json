@@ -1,34 +1,34 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cfbimgblt.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.302/cfbimgblt.ko",
-            "sha256": "40fa854c9ebb85146930747013333c970f6e6a8fd55615b6deb8c11f98a4aa52",
+            "sha256": "5ff510103b637990fec7f2ee2f6f49f62865d5f14a9c8f8ae59eb77e59134d14",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.302/cfbcopyarea.ko",
-            "sha256": "17a14e26713ec1e10940aea95881e021acc85b8008d66f12b86a83a57b5b7d40",
+            "sha256": "1d7564fa065623e09ecf99e26a26ecef4bdd2e7d371e2e72b70c2e876846f49c",
             "packed": false
         },
         {
             "name": "cfbfillrect.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.302/cfbfillrect.ko",
-            "sha256": "873772cf9b0e8bc274529285255c1ab38e4f8bef271e2becd2306f8a38890e17",
+            "sha256": "6ed9bb88640a39147cc923e7bb2d7870ce5ef19e8dde927196ef679e683be539",
             "packed": false
         },
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.302/fb.ko",
-            "sha256": "7fe6eb3c5aac981d4064b8eaef21a4aa3737f086954efd231eecde7d98840794",
+            "sha256": "cf7750617a5f36f828060f4165bc780eaa57309c3174880571e7924e3d9b1f47",
             "packed": false
         },
         {
             "name": "efifb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/efifb/denverton-4.4.302/efifb.ko",
-            "sha256": "d863d181c4ec570db30cba9263afb723ac9d25b79c350202f9c5e42727d72f52",
+            "sha256": "763c18f5056bc580edbd2fb5a28b21742c1ffc0f68f6753180f78e961feddf16",
             "packed": false
         },
         {

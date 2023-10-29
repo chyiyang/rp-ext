@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "intel_auxiliary.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/apollolake-4.4.302/intel_auxiliary.ko",
-            "sha256": "06cc6eb28be1432085c6793a618656edcdf04a153b4b23cec374800ed964a417",
+            "sha256": "b5280633aae1b6c440b96c166c2dba04d6391cfe29f92ae210e267f8e0f97fa4",
             "packed": false
         },
         {
             "name": "i40e.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/apollolake-4.4.302/i40e.ko",
-            "sha256": "1fc1f5cb6953d05066d6e709ba3236614caca3ff83ae7c6d7edead387fd1e99d",
+            "sha256": "5de052ee940119893647d82bd85483fd6d1c6ac5a8cc9ea0c07d0047040b14b5",
             "packed": false
         },
         {

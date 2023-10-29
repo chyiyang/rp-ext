@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/denverton-4.4.59/mii.ko",
-            "sha256": "9768e3ffe147c3360266a09324d93284dd512f23e44f55818aa098f1d70285bc",
+            "sha256": "72a0f2f685ba20cd7f04e535e19933af8f9f87ed97d22f4884d6d152c08bb03f",
             "packed": false
         },
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/denverton-4.4.59/libphy.ko",
-            "sha256": "3cf0f913d99829906ca4884603795c8c331f3b7859b93087bd35639be1ae3ca1",
+            "sha256": "b8a4c0d65b7fe7eadcc5febd177bfab44fa6a4284b30a7a1e1dcf48696695bb8",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/denverton-4.4.59/usbnet.ko",
-            "sha256": "f98c4c087e5ea55eba53551d272e7bf1bb0d83138c98ea540696742fd02a7694",
+            "sha256": "79f4512321e8b9a149a5b3fdfa3574defb21a5a5ad26820057c7f45fdf166a9d",
             "packed": false
         },
         {
             "name": "asix.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/asix/denverton-4.4.59/asix.ko",
-            "sha256": "2078561789d96db97e2167656f45235e4386b310b0d79e6c39e17a0f8fae9d46",
+            "sha256": "fd13276ae12643d056f596813306dcb243f6d484217646a767c24e8ae3ab4d72",
             "packed": false
         },
         {

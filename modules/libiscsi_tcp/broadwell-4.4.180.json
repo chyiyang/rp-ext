@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libiscsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/broadwell-4.4.180/libiscsi.ko",
-            "sha256": "50a38b1eb601b7a6f67f90830a5fbc2d2aac1e3022be4d3c335e696e41741e07",
+            "sha256": "cb014db42e07747bfc8113c43f6b65f8dd31106db83f27aaa053a128ca903eaf",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/broadwell-4.4.180/libiscsi_tcp.ko",
-            "sha256": "9fd3c95fb8472273a00fabce4987cfa022d540bb6fd972d73c6af02d2661e792",
+            "sha256": "93cb76c4cc193a2c7ba559ffb1694b2bb97c943d5b66205159c1d7013640cd1f",
             "packed": false
         },
         {

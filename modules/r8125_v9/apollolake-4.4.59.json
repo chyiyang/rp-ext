@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "r8125_v9.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125_v9/apollolake-4.4.59/r8125_v9.ko",
+            "sha256": "792f0bbe06d197da815bdd16ed7b068a3d28d18bc98e9d2ee5ad7d99a0ca726d",
+            "packed": false
+        },
+        {
+            "name": "check-r8125_v9.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8125_v9/apollolake-4.4.59/check-r8125_v9.sh",
+            "sha256": "904ffdd904b6c448b0bb2d0fbd99cb44ff879a84c672654c5c55febd170e42e4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "r8125_v9.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8125_v9.sh"
+    }
+}

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwellnkv2-4.4.302/mmc_core.ko",
-            "sha256": "63b4aca10aef648c2164c464896aa691ee16658a9b47bd380a268dd8071ff3ef",
+            "sha256": "c77c75faefd3198baaca8fc243dfbca18fbc1a838fbdda4115ddaf6585a8a425",
             "packed": false
         },
         {
             "name": "sdhci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwellnkv2-4.4.302/sdhci.ko",
-            "sha256": "562f68e3ad6e09a80f49ddce581bf5dbd12190ac9729920dbed1ae0f765c69c4",
+            "sha256": "0aed2aaf14fe5c1d0fcedc153ce3c50554f5c7afdf2760cf78274475abf794a6",
             "packed": false
         },
         {

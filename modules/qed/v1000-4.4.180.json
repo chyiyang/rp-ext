@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/v1000-4.4.180/qed.ko",
-            "sha256": "d69d231a758129ace6a5feb8973d23b657a0e2a9030f72443e1589eb8b223bab",
+            "sha256": "20bda1c2c651b04e7ecf3a57f0fce8b660bb7d2c0b6810b143e2d283ffd400ce",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "qed_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/v1000-4.4.180/qed_firmware.tag.gz",
-            "sha256": "eff440970babfdbf6e82ba42a1eba36244661c2a76b51e4bcaec533e97f1f85f",
+            "sha256": "8333f4714e12a3211846b3e8b766207af50e5d34467e054992a9380aaef1e641",
             "packed": false
         },
         {

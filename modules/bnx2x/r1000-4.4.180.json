@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/r1000-4.4.180/mdio.ko",
-            "sha256": "462291370c69ecb7787290f02031158d24883ac872323d0dc248b8ec3d17f53a",
+            "sha256": "98bcf9f588e72e3eae1385f1f85f9dbc247ce94f22b26ecb17423d0a06a92151",
             "packed": false
         },
         {
             "name": "bnx2x.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/r1000-4.4.180/bnx2x.ko",
-            "sha256": "013aa90cfe5ff200ffe28b4aaa9a45f7b5c99d6087ff62801de4b488539d9030",
+            "sha256": "a29bae836c428659655237e0df6f0b6122128b68942331de25e9cdffaf69e3d9",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "bnx2x_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/r1000-4.4.180/bnx2x_firmware.tag.gz",
-            "sha256": "4295eed2e1e87e6459e3bfe3783215a6348ec6a3aa6adecdc69cd5275430694d",
+            "sha256": "f16ba9ffd03e58d40be8d6ff531a8bf782f150d6823acaca5a7d4f382c938d72",
             "packed": false
         },
         {

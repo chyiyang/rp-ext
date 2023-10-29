@@ -1,20 +1,27 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/r1000-4.4.302/libphy.ko",
+            "sha256": "fd461b33dcde1883289fa4867010fe08e1243f7bc5b672784065b6868965483b",
+            "packed": false
+        },
         {
             "name": "realtek.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/r1000-4.4.302/realtek.ko",
-            "sha256": "71b4629aa760a2f4ec371c2d793d3e0b35251e916d3f8aa55cdf6344fc599cd9",
+            "sha256": "200a66ca625588c60fbc8e269bfe1fbbc9ac7fc0f3d49db85b774b3c4e1963ca",
             "packed": false
         },
         {
             "name": "check-realtek.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/r1000-4.4.302/check-realtek.sh",
-            "sha256": "8c3e8fb5f3ee83e19823bd5d9049dd3959785fc730779b550ac1992b2af9b371",
+            "sha256": "c207cf47178a61555b5e65aa6bf6a20812b9fb0bed2ed3d3ae067a80e9f55822",
             "packed": false
         }
     ],
     "kmods": {
+        "libphy.ko": "",
         "realtek.ko": ""
     },
     "scripts": {

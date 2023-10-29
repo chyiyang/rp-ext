@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/v1000-4.4.59/hwmon-vid.ko",
-            "sha256": "e9d891917fbe0ebed8e70b76e35b2ade828a279f3e2af0130bae59a11802bf81",
+            "sha256": "763df6dda0d3172bbc19504d597199d674b69257febac8a4fd1c937a9236f00a",
             "packed": false
         },
         {
             "name": "it87.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/v1000-4.4.59/it87.ko",
-            "sha256": "3218664700b2310fa4649f04ae08437444cf9c59733a5810fdb3d219ab4f7f41",
+            "sha256": "56ed641cf787c112fb6ea1d3678b0e706234b35c7064d516941a9f969376aa95",
             "packed": false
         },
         {

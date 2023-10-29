@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "tg3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwell-3.10.105/tg3.ko",
-            "sha256": "7dfe6b2af1b956848040b9d837356dae8715104a1706e1af3aadd6598822c5cf",
+            "sha256": "c820e8af7570b8421d7f07274c353596784b4f03be581642a937f3ba09bf7586",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwell-3.10.105/tg3_firmware.tag.gz",
-            "sha256": "a755d612f3c5ec3a22a1cc88efb70cb9cb39a171b563ce5f366fe81fc34b8001",
+            "sha256": "91166f8f7dd32a53d85c839e890c9d24b0f4b49f6987f2e1ad9b7dd991f29c15",
             "packed": false
         },
         {

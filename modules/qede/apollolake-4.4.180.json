@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/apollolake-4.4.180/qed.ko",
-            "sha256": "f69820e988834843263d03b9c03709313588604d559d1c3531fe43452f359c3e",
+            "sha256": "ba26db5cf7cc68e3fd22546bc7f2f585b44da2e45be66a9018e1f0a7c0c484a5",
             "packed": false
         },
         {
             "name": "qede.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/apollolake-4.4.180/qede.ko",
-            "sha256": "87e5df5dcb5e5217fc2ddefe2a2404ffcc561400b9f16891b2d57a85f97101b5",
+            "sha256": "f1e1856f8f2bd44013c1bb1899c2df71ac92547bdedb175f62fb1e349391fd36",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/apollolake-4.4.180/qede_firmware.tag.gz",
-            "sha256": "931ab32e52037a2e042077484ef315eb5fb062a3ea6b311df809e666ff997f61",
+            "sha256": "610b1441b90174fc3d0c78b4a1c0344b119d2f205ae7a28ead3a8cf7de2387fb",
             "packed": false
         },
         {

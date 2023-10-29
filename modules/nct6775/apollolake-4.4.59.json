@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/apollolake-4.4.59/hwmon-vid.ko",
-            "sha256": "49e4aeadca538318b83708f63a6a2fd0cae756542a2d7a71ac2bfd03e0de494b",
+            "sha256": "c3a72f52d80001dc3a77b0ebc28cd02bd2db207caabc7cc26074a471c9d87398",
             "packed": false
         },
         {
             "name": "nct6775.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/apollolake-4.4.59/nct6775.ko",
-            "sha256": "b04381579420355534e74a73e2dc0d730901d6bc2a7f1b72fb0bd691bb118e1f",
+            "sha256": "fa0aa36fc876b45305e911338fa58572dcd99e986eb9445d582e7d3f3311f2a1",
             "packed": false
         },
         {

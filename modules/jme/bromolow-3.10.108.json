@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/bromolow-3.10.108/mii.ko",
-            "sha256": "49e63a6fcbc390956e7b0719f56f8982536473ffddb999e278b6b17f154e632e",
+            "sha256": "a30163e78e39cea1014d557bc24c261980acec52d5d8c10c752a402665f03144",
             "packed": false
         },
         {
             "name": "jme.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/bromolow-3.10.108/jme.ko",
-            "sha256": "e8c34fc2e05d88772ce9fcf3c6324a862b91964b0c8a2a9f6e56a349575727c4",
+            "sha256": "62578835f4ea7ab53b69fb1d89e7c5104a561aa3591174e3ca5d16348ea25d60",
             "packed": false
         },
         {

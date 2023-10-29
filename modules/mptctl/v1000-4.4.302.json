@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/v1000-4.4.302/mptbase.ko",
-            "sha256": "af497802c20759a7cb4d5e4627591b2f06187578f5e74f18f34b255cdd9e5b81",
+            "sha256": "5154cc2cc5b1d23dc0bc60c31f6ce32a5d9e9c9053cdfc6b9d7cae579cc6a32a",
             "packed": false
         },
         {
             "name": "mptctl.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptctl/v1000-4.4.302/mptctl.ko",
-            "sha256": "e1cd26a8a0c213224b4f0a2c02cca33fd8ee39b35090a54524af7b096ee9e054",
+            "sha256": "7968e357e0f64705dd6a3a7f7ca3fdd8751db05880abfd5871ec4e1250bcc95e",
             "packed": false
         },
         {

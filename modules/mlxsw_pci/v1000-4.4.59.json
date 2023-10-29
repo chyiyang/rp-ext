@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mlxsw_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/v1000-4.4.59/mlxsw_core.ko",
-            "sha256": "6372652e306565c14bbbc04710cc161bed1adc9d4d928cab196de6f61c7f8c45",
+            "sha256": "69cd81048af921d9dc81679f672532bb7cfa128c51a030e083ea9c1a7e299859",
             "packed": false
         },
         {
             "name": "mlxsw_pci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlxsw_pci/v1000-4.4.59/mlxsw_pci.ko",
-            "sha256": "150c88841d0cdc69e2f8c0bce876543fee98fce29d92b4506b9995cebbc7d669",
+            "sha256": "5186107ee8e69f132ea2e0b42d343c0b35694eb9391fd32baf3d4867fcced6b5",
             "packed": false
         },
         {

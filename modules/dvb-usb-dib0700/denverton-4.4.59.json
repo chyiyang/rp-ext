@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "dvb-usb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/denverton-4.4.59/dvb-usb.ko",
-            "sha256": "55e1064515dd455efe735f5e2c726e6e1c16fd6891b275b1fba6e40413a1f6c9",
+            "sha256": "e3d7d607d412b7c213dbed43a7b66cfe7432863930d89a460745e9a56c306cb7",
             "packed": false
         },
         {
             "name": "rc-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/denverton-4.4.59/rc-core.ko",
-            "sha256": "e1da33d1be5cbb7d2ca79f78c6438682c433f948141a29e039f8c6ff05f9afc0",
+            "sha256": "5947e873b79771d7632dcf65cf8df341535ebdc5d623db91c8b02a8dd11115f8",
             "packed": false
         },
         {
             "name": "dvb-usb-dib0700.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/denverton-4.4.59/dvb-usb-dib0700.ko",
-            "sha256": "3d668399ffbfcb4680073b8f8f8dd7958a5c787bcefc160184a0b193dc0e2918",
+            "sha256": "bcc7f7b20ff2368e6b54e09ec6e4200625cc123c7b589484802dd2a1160e5582",
             "packed": false
         },
         {
@@ -28,7 +28,7 @@
         {
             "name": "dvb-usb-dib0700_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb-dib0700/denverton-4.4.59/dvb-usb-dib0700_firmware.tag.gz",
-            "sha256": "4a40a8214f3546c7bd266d9a64f634b24141307f8e3fe78ea85eae8a90ff9321",
+            "sha256": "780d29319ac519c29c390c0bc72567d9b13946e81ae6d17479de82450ae3a95d",
             "packed": false
         },
         {

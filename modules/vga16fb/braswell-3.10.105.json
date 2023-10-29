@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "cfbfillrect.ko",
@@ -28,13 +28,13 @@
         {
             "name": "vgastate.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.105/vgastate.ko",
-            "sha256": "e9eb3b88f28e9e379e7b379d14bcc20153d6d562a49263741b96be9020273194",
+            "sha256": "9b762be8c7ea82343cf52c56facc718f498b57f8907675fb6da5ed4028082c60",
             "packed": false
         },
         {
             "name": "vga16fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vga16fb/braswell-3.10.105/vga16fb.ko",
-            "sha256": "28ce2a03418c48240ee0b1e2fd488effd0ae1ffa17fb43ed5473ca06fcade50c",
+            "sha256": "218e7af087c5093b6f6c615988bbb501d4149a266eb2fc12209cb4d87473f515",
             "packed": false
         },
         {

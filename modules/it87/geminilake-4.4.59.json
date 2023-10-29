@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/geminilake-4.4.59/hwmon-vid.ko",
-            "sha256": "c42840348f08c7d510d3a9dc35aa8683aad63153d187592bbc3162c22792a097",
+            "sha256": "fd9918867f001b0681beb229d37cfe522e3ee8704883e71b8be704106f865e98",
             "packed": false
         },
         {
             "name": "it87.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/it87/geminilake-4.4.59/it87.ko",
-            "sha256": "20b576a2eea8b60bb5b057852ea024d53462f0b0ea450823c8ecbccafd87958e",
+            "sha256": "74ecbf0cd97ff4d5b8fe58d261fa0f816aea49ead3113cd8e33177de9d22b624",
             "packed": false
         },
         {

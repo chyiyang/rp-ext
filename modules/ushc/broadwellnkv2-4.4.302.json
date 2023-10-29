@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/broadwellnkv2-4.4.302/mmc_core.ko",
-            "sha256": "63b4aca10aef648c2164c464896aa691ee16658a9b47bd380a268dd8071ff3ef",
+            "sha256": "c77c75faefd3198baaca8fc243dfbca18fbc1a838fbdda4115ddaf6585a8a425",
             "packed": false
         },
         {
             "name": "ushc.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/broadwellnkv2-4.4.302/ushc.ko",
-            "sha256": "7d2a548d36271643c42f423283b3b47c063782d2ea89882ba7e3a6a01d24f410",
+            "sha256": "b7f13ff70a2aab7494f288b038f1f9c0e6e72424d6483ac6aaf8120939dd788f",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "dvb-core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/r1000-4.4.180/dvb-core.ko",
-            "sha256": "2c771feae1ab8796f4a9340b06ac90077c4023e25d6985b6f7a5a96de43a3890",
+            "sha256": "3733c8db57679a255db34cafa3efbb9471b04892ba39e61d93eda03d236091d8",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/r1000-4.4.180/m88ds3103.ko",
-            "sha256": "7eccdc1497e4898c6449c8380249ace0323941143ac21711259b0970e723037d",
+            "sha256": "869976f31462760339bde2cbd3699dbe4fb81f229cc233869ea2fe190f27686a",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/r1000-4.4.180/m88ds3103_firmware.tag.gz",
-            "sha256": "d2046382177436b14cb6d4008ed579265636f1aa6e2ff18942cdf25cf3ef5c22",
+            "sha256": "2e3b05775880625df088249d8a8dfeec30dd63d67e58ff5bc99ebed62bf8f983",
             "packed": false
         },
         {

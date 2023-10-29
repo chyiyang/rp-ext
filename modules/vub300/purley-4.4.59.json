@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/purley-4.4.59/mmc_core.ko",
-            "sha256": "fe0d2f6ce384b38efd4adee34cbc8bb9dab76daa0edde3907abab8628f364230",
+            "sha256": "da5203b8ffcf2d0e880440cbbe368563351066afa590c0344110a82c1dfa398a",
             "packed": false
         },
         {
             "name": "vub300.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/purley-4.4.59/vub300.ko",
-            "sha256": "3fc8ac3b0bf53a267a6f48d573037ad5c19c0ac430085377625c2c9813b6e84d",
+            "sha256": "7d39c032f4ed47c9c3d8c171fc90fd5e0ffe1178b89b287ed7eb2d76249efe64",
             "packed": false
         },
         {

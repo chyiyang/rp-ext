@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "qed.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/r1000-4.4.302/qed.ko",
-            "sha256": "6f7236ac76912e5adb00677d39db95ff3ae756276cca310bf48039271dc91d2c",
+            "sha256": "cdf120d2fc53916735fb5f1414e76a892a03b3bef5d14f92468ed48022ba496d",
             "packed": false
         },
         {
             "name": "qede.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/r1000-4.4.302/qede.ko",
-            "sha256": "1ef4d86d8ad95d8a4e4b15b588fffebc8d72d342bb87b5df6cd7964bc7f31987",
+            "sha256": "5d994325f156fc419922db594c8853b3765b3a31af001c337f60665e76e467bb",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/r1000-4.4.302/qede_firmware.tag.gz",
-            "sha256": "ccd9c75d145b7c4bc38fc7a93e8c45b59417b3b95bf2cec2e70baf3dd045f820",
+            "sha256": "0e747df54d2f864ad14870d9cbfc504e1a69cead1f84ed17ef82ed3344a2ceda",
             "packed": false
         },
         {

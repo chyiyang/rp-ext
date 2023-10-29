@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellntbap-4.4.302/mdio.ko",
-            "sha256": "10bb7dfde60e6bd68d8568aefe7e45389645dd6f70451c141b324cd298b4b053",
+            "sha256": "5d470b516ba673b1dcb334eac1e7e70fe90d194d119fcd1c868c7908d1321a62",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellntbap-4.4.302/cxgb3.ko",
-            "sha256": "88633a43de9272cad6bd35db14ab2932f9ec59c0c7da4a45633520f3180dc5ff",
+            "sha256": "777760d419c0fe4eefc8e57c002fd54c737741e38f8da5b0135c9bd821bbf435",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellntbap-4.4.302/cxgb3_firmware.tag.gz",
-            "sha256": "ff04b8bc3edf37618c8b7c2a8c375e6e34e8bcf5a8a20ec9a13982d2d12de2cc",
+            "sha256": "8830f8cc3fe1a79e09d6abeac9fb64ce9547df55f6fd7d05eb77e7f6f1f64336",
             "packed": false
         },
         {

@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "si2168.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/purley-4.4.180/si2168.ko",
-            "sha256": "036cfad9cb5485a258be4f1ed09e65a897da83e463e9dd7ee77bba499fe97a5c",
+            "sha256": "e794238841f45a6f19f995fd1dd0c548c6bf768707972341cd00a03342027e4c",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2168_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/purley-4.4.180/si2168_firmware.tag.gz",
-            "sha256": "53993e72d7640d375622183d0c381d6b3e89ff43530db20371595c08075592c7",
+            "sha256": "919cc280614d74b8790d9ce50f8b36bbceec415cb37e30bdfb0e4cc5bc3d0ecc",
             "packed": false
         },
         {

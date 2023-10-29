@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libphy.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/broadwellnk-4.4.180/libphy.ko",
-            "sha256": "73b23571a65b001a3a2fded64a751be0c87878f069d4a294628d1142168bd5f5",
+            "sha256": "dab7fd8c8dcdce34d6368a39f937386c9bd78827ab40a2c8dedca36b98edeba7",
             "packed": false
         },
         {
             "name": "realtek.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/broadwellnk-4.4.180/realtek.ko",
-            "sha256": "33e365dbe87d4558a27074689afa6c8f170b8b27dcb5f2712ff8f7929f5dfc7e",
+            "sha256": "784446e5c346fa980dd07d2158651ac51884a54330786cbbf59bdaded395f344",
             "packed": false
         },
         {

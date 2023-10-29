@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/denverton-4.4.302/virtio.ko",
-            "sha256": "ce8c3654e24440dfb6b75a8ea41ba574be5ac6cbb70daaa6102f57504581ad38",
+            "sha256": "31b8832879f2869e662e755d528c3861fa05fce89347a05653037ef0adadd176",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/denverton-4.4.302/virtio_ring.ko",
-            "sha256": "b3e239d2de2b994a2b86be221fcf759d4da38f98b4c3d34d5695d8ffaa51a2df",
+            "sha256": "b6f6c8113f3210a479e5f30afebe2a538ce32d5a61e11c4105763f9b0674417f",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/denverton-4.4.302/virtio_net.ko",
-            "sha256": "14bfe66f1270284af25f351820802621ae7aca6bf643f341d1a3c792b3b00829",
+            "sha256": "9e99a29e737b8cb44f2cacc23fef1163e707082979d757c284306204909778ca",
             "packed": false
         },
         {

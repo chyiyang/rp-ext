@@ -1,28 +1,28 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwell-3.10.105/fb.ko",
-            "sha256": "d0610ef4736800feb9a952870e8bc378ec7368831099c8c628a4bb9bcfcdf426",
+            "sha256": "28a8ccc0908065057692c88799199f9e94208135f06b7055b0a3c740c739b129",
             "packed": false
         },
         {
             "name": "font.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwell-3.10.105/font.ko",
-            "sha256": "eb01fdbe9f39b18794e873d5b2d50e97f342a98dc2b5c5461dc37e18dabf2885",
+            "sha256": "74d30dc9b5488473679c3c638ed1d071153f57f973bd8b0f2d87645652d82b88",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwell-3.10.105/bitblit.ko",
-            "sha256": "b2aaaec2eb3b54b5db7709e083c175286cedb9826258a85144c396786ee43177",
+            "sha256": "c03e48ffac8a2665e03bb2836856f877f19f25657e8a80e010e37a62b0920054",
             "packed": false
         },
         {
             "name": "fbcon.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwell-3.10.105/fbcon.ko",
-            "sha256": "0c25efb97921ca41876e5b36c4218734acdc0b5ea2a12888e78365295084f751",
+            "sha256": "1208b3342e43fd36f34777ae286868da15311c75f238de119de55883ec418969",
             "packed": false
         },
         {

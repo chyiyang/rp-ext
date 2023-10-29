@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/v1000-4.4.302/hwmon-vid.ko",
-            "sha256": "b23bbb5d21e946622f14ee0a9ae0cae942e7e5b14c6baddcfce0556c9c8d7f0f",
+            "sha256": "2b6b81e49496e59f397e8af91fb65bc31dd5385920b9897403960aa5d82a64ea",
             "packed": false
         },
         {
             "name": "nct6775.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/nct6775/v1000-4.4.302/nct6775.ko",
-            "sha256": "dfa6138dbff07ef8bdbea6af2f4a8f8ccd983ebcda98e08f88ba6cfb82d20fbb",
+            "sha256": "82accab7c1f745789bb6f2ffadd897e02354616eb491cf009e39b57be976498d",
             "packed": false
         },
         {

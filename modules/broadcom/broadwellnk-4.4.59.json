@@ -1,0 +1,37 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "bcm-phy-lib.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/broadwellnk-4.4.59/bcm-phy-lib.ko",
+            "sha256": "716cd44e4abfe47987a2c3d48865803d500f87ef139750c7bc72300cd098fb92",
+            "packed": false
+        },
+        {
+            "name": "libphy.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/broadwellnk-4.4.59/libphy.ko",
+            "sha256": "791f39a12a04e4b3c02978fe3d9c29c3774e0ea0c2ef362f0cc6dbf4422cde91",
+            "packed": false
+        },
+        {
+            "name": "broadcom.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/broadwellnk-4.4.59/broadcom.ko",
+            "sha256": "676749fa3c88db82be4ccbe4edcb2a80d80789172633e97a91129dbbd478d772",
+            "packed": false
+        },
+        {
+            "name": "check-broadcom.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/broadwellnk-4.4.59/check-broadcom.sh",
+            "sha256": "fe69e4932f9fe4e19f96dcc025a18ffb28f8fcd1994fe66605a5cb2a5877e1f9",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "bcm-phy-lib.ko": "",
+        "libphy.ko": "",
+        "broadcom.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-broadcom.sh"
+    }
+}

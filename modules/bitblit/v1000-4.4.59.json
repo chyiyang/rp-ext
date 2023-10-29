@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/v1000-4.4.59/fb.ko",
-            "sha256": "c16dd5b7b1bfad33cc543582f3c7d456840ec7c20789be4681c8112b9481b437",
+            "sha256": "922034c265527564d165d7384212afe1c90e0923e8e64591a577d05f752545e5",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/v1000-4.4.59/softcursor.ko",
-            "sha256": "bea1629658618d333ad58810b5e74525d74de1664183e98c2fb609d5e6b8b8b0",
+            "sha256": "53379d9f3725fce2bacd0250f9957f13985804ee26e0fd3b4705d9171ec97374",
             "packed": false
         },
         {
             "name": "bitblit.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bitblit/v1000-4.4.59/bitblit.ko",
-            "sha256": "e9acaa3c27f7bd0e8dda463ccc9c730784a529108a97c6b7b1c7d7f3e75c731a",
+            "sha256": "756e678488cef34fa0f53c3f7ae65c2f963486eebf453c15077cc7d971b2d8b6",
             "packed": false
         },
         {

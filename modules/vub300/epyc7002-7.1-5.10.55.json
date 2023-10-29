@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/epyc7002-7.1-5.10.55/mmc_core.ko",
+            "sha256": "4a6f268dc2419d0e0f3ed7ecb8e5a7966041a1687146581b01bcbce6fc7c3a92",
+            "packed": false
+        },
+        {
+            "name": "vub300.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/epyc7002-7.1-5.10.55/vub300.ko",
+            "sha256": "ad9041d140e936a304e2d013ccfe6b4ea62215cf082dd5082721748d63d8d4ee",
+            "packed": false
+        },
+        {
+            "name": "check-vub300.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vub300/epyc7002-7.1-5.10.55/check-vub300.sh",
+            "sha256": "e1e98de619ef4e70ec723d5f4ac415010970656ddf6575258837c37377f371a5",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "vub300.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-vub300.sh"
+    }
+}

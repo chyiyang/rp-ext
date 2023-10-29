@@ -1,10 +1,10 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "si2157.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/apollolake-4.4.302/si2157.ko",
-            "sha256": "ccf89b5787070f770d0f88ff1aaa18ec4b6aac08570bec823b2ca90b838687ac",
+            "sha256": "8e289ad6f4f320be90dc15af288e240ea098ef591f91470e06cd64cef189a124",
             "packed": false
         },
         {
@@ -16,7 +16,7 @@
         {
             "name": "si2157_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2157/apollolake-4.4.302/si2157_firmware.tag.gz",
-            "sha256": "265fbbf2d5273735b0d411332c6a6475c036b421263594597e57004153dc780b",
+            "sha256": "4d1f377a9928055e524111c72a2cf15b6a704bda8014923f19a3bd2ef0a896bc",
             "packed": false
         },
         {

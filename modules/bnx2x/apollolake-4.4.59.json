@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/apollolake-4.4.59/mdio.ko",
-            "sha256": "c795a9d897341b75523976a0ae731f65d5ac9f6ad94f5e95af27b42a55c78ff7",
+            "sha256": "c799c88fb2b6467a8a5475dcf81fbaef8fb770282d54fff9123e84d9da5ea99c",
             "packed": false
         },
         {
             "name": "bnx2x.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/apollolake-4.4.59/bnx2x.ko",
-            "sha256": "25f175c7ce49b27ee8767a841a403e04688c8497e79ca7f5e4bb14fe8692ffe3",
+            "sha256": "b5221c48bd95961d355142a72c6b25ba3067053c4e82dd66cbf79e9b87e9a496",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "bnx2x_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x/apollolake-4.4.59/bnx2x_firmware.tag.gz",
-            "sha256": "5e001c78f0450fd3de0d103eb19a524b8511ec6a465655d983528601a4c7d33a",
+            "sha256": "26695d55aebccf0d70f1ddb59198dd77d897bb08faa398abe5ea4a2ee739bce9",
             "packed": false
         },
         {

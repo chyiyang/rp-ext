@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "fb.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/denverton-4.4.302/fb.ko",
-            "sha256": "7fe6eb3c5aac981d4064b8eaef21a4aa3737f086954efd231eecde7d98840794",
+            "sha256": "cf7750617a5f36f828060f4165bc780eaa57309c3174880571e7924e3d9b1f47",
             "packed": false
         },
         {
             "name": "softcursor.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/softcursor/denverton-4.4.302/softcursor.ko",
-            "sha256": "0f3b39c3f96abd5904f4cfe4d5ba57b817cfb00c6f3a4b77f01f68975796ce91",
+            "sha256": "45bcede7e88e7afc5823115c599a943884be492b2f668b35bc9239a0c68eaf7f",
             "packed": false
         },
         {

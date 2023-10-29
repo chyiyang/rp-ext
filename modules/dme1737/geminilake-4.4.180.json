@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "hwmon-vid.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/geminilake-4.4.180/hwmon-vid.ko",
-            "sha256": "95be3b8b76de9746d8b0c64fcc29b47cfa343d636fc42f30dedca5daba6c1b7c",
+            "sha256": "7e26082799ef275ba545e1b803dcf30120a360b71d5fe87e575dc326745e8781",
             "packed": false
         },
         {
             "name": "dme1737.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dme1737/geminilake-4.4.180/dme1737.ko",
-            "sha256": "1b9c3406bf505e19d993054f744593e69a2ca0732026bb9d3557d1ae06a3583b",
+            "sha256": "0b1234ecd494e23ed09d4aa2f6bec7a8ff8c5cf50b71f0f8f943dbd935bc15e1",
             "packed": false
         },
         {

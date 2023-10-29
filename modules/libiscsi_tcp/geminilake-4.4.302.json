@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "libiscsi.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/geminilake-4.4.302/libiscsi.ko",
-            "sha256": "b3f56e79cda670f2bac66d5437167e71fc217b855a19e18e774d685194d1e90f",
+            "sha256": "941a2287e98e14b0aa9ecb36002c3d264031c3109dc642ee6c40b2b26464a732",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/geminilake-4.4.302/libiscsi_tcp.ko",
-            "sha256": "c5186f022bb7de79d27b4f5f05dc2839f06f0d0781dd62e5ff062d420c743440",
+            "sha256": "7067d061af4cb2283b9c6619fdcc7eadbf8a9942ccb47cdd169af9370368f58e",
             "packed": false
         },
         {

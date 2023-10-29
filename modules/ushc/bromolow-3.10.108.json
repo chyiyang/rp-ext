@@ -1,0 +1,30 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/bromolow-3.10.108/mmc_core.ko",
+            "sha256": "d929b5a71a4302b3df58ba26fef705759b934edda1f6de09f20e18fcfd497394",
+            "packed": false
+        },
+        {
+            "name": "ushc.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/bromolow-3.10.108/ushc.ko",
+            "sha256": "b4e9c47ab818451d00f26f8a17a8915f0342496dc4271cdabc2080da09a4a992",
+            "packed": false
+        },
+        {
+            "name": "check-ushc.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ushc/bromolow-3.10.108/check-ushc.sh",
+            "sha256": "df8943c799b85680c9286c825292b9b0ddc8b2552f0732ba30d896f30d9b3fb4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": "",
+        "ushc.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-ushc.sh"
+    }
+}

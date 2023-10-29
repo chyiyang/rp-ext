@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "failover.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/epyc7002-7.1-5.10.55/failover.ko",
-            "sha256": "922e22393b1f85290315e7a34ef00f84346b7bab8b540349d0c85f7c556c2eed",
+            "sha256": "7916467393da0160e90a93c0aaac7c04e0cd47a74801bd7e41790b80dc590c63",
             "packed": false
         },
         {
             "name": "net_failover.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/epyc7002-7.1-5.10.55/net_failover.ko",
-            "sha256": "57dca71d6c37d68568339a364fadfcee6cecd4b9c6b9c02b8cb0dc688a543f4f",
+            "sha256": "6f3bd1370cee5e384dca5e19d2c8009dcd2a231756275318060802bf9a992e53",
             "packed": false
         },
         {

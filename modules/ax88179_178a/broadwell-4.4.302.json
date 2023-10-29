@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/broadwell-4.4.302/usbnet.ko",
-            "sha256": "cae2bdd082861b5cd52f4fb0f8927ca418002f32daf2736371c782f74d95f652",
+            "sha256": "29476a6560d8c7d6e335e6228919b1ad6339c9e87b297d1bb58606966d9a7ba4",
             "packed": false
         },
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/broadwell-4.4.302/mii.ko",
-            "sha256": "18b766025f00611e9d9ae087ce6795458793a0caa631b4f947b9085b974a56b7",
+            "sha256": "dd4c10b5c8a1387c33e1cabdbc7621ae38f7eb7072a30f43bf1decbc8d82cdde",
             "packed": false
         },
         {
             "name": "ax88179_178a.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/broadwell-4.4.302/ax88179_178a.ko",
-            "sha256": "fe88d3d3b02f8ead54230955b809ee6498a911a7bbe669929c4bd89f5f552d75",
+            "sha256": "0f324abf680cf6afee036fddb40ba6fb9e6c348b9b4401ee16268bbca97d5ac9",
             "packed": false
         },
         {

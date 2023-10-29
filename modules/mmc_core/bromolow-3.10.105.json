@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/bromolow-3.10.105/mmc_core.ko",
+            "sha256": "b12b7ed176b5cbd9c1d44f45a03f025495cc33d32386e2acd436983dc6df3efc",
+            "packed": false
+        },
+        {
+            "name": "check-mmc_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/bromolow-3.10.105/check-mmc_core.sh",
+            "sha256": "22153e3d2a280e6855324baeb696ae34b05bda3617a4db6a5bdcd7457c6d53b2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mmc_core.sh"
+    }
+}

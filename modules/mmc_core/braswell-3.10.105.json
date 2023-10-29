@@ -1,0 +1,23 @@
+{
+    "mod_version": "23.10.1",
+    "files": [
+        {
+            "name": "mmc_core.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/braswell-3.10.105/mmc_core.ko",
+            "sha256": "2a52eed1929b490ef33260b5a7aa9ec62170cdd6d740ec040264e22d3aa6aaf0",
+            "packed": false
+        },
+        {
+            "name": "check-mmc_core.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_core/braswell-3.10.105/check-mmc_core.sh",
+            "sha256": "22153e3d2a280e6855324baeb696ae34b05bda3617a4db6a5bdcd7457c6d53b2",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mmc_core.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-mmc_core.sh"
+    }
+}

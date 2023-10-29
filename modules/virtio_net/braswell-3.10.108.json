@@ -1,22 +1,22 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "virtio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/braswell-3.10.108/virtio.ko",
-            "sha256": "31b1a514ab628527664a2659283a8cbf562e61c8f4d5b0303aed4fe6462832e7",
+            "sha256": "811bc2abf1dac87952c540a959332a3792d71ac45c99797cbb624dd9708e1a95",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/braswell-3.10.108/virtio_ring.ko",
-            "sha256": "9a6d0c969b38f505152ff7f0f754da1f1d8484eb2fcfdc9238555b04134bc705",
+            "sha256": "d71811a1cfae71396c6ee12499c4212147fafedd218cd5f7f622ec267e43b3d8",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/braswell-3.10.108/virtio_net.ko",
-            "sha256": "b3338ceebefcedb21b8690fdfedc3c8c8fc25bc6baff3a4fb7cc3ddc6cd53dd1",
+            "sha256": "9f77209204942a198c0bbd03c6a16c37c45348eaa2f665da7073e508b80c635e",
             "packed": false
         },
         {

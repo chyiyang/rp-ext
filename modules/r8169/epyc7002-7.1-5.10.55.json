@@ -1,50 +1,23 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
-        {
-            "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/libphy.ko",
-            "sha256": "ea4f479c0083e4245c89bf524fc9a4e915a0529f959ff605337bc63d42e77270",
-            "packed": false
-        },
-        {
-            "name": "mdio_devres.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/mdio_devres.ko",
-            "sha256": "e9bc7da0e293e5efaeb72c2fb8dc3ad516c03f5124c462a270848f69ed15edd3",
-            "packed": false
-        },
         {
             "name": "r8169.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/r8169.ko",
-            "sha256": "e98d1d399d0d5ef48c9c0789dbc48ae6ffc0aebab92955881199fd0a957df63a",
+            "sha256": "a4ed07ada34c78399a91596ee8785d370c77381ef23f20079f3e0d0ecdbf5e1f",
             "packed": false
         },
         {
             "name": "check-r8169.sh",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/check-r8169.sh",
-            "sha256": "19c16cc1b2f00555d4e20b1ccc8c8302260d7c55492b3b4a1e1758f12ce6d766",
-            "packed": false
-        },
-        {
-            "name": "r8169_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/r8169_firmware.tag.gz",
-            "sha256": "76e01c910c34ec7a7f14043bd2c9a41620de5ff6893403721bb1994c0eda883b",
-            "packed": false
-        },
-        {
-            "name": "install-r8169.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169/epyc7002-7.1-5.10.55/install-r8169.sh",
-            "sha256": "204148a30c10ee18f3a46d8555779e0781b3a438134b0e4612a9d9eaf2b5d9dc",
+            "sha256": "29027fcae85fd7a2f73b6e98281670347170fae2226e15a63b4e606b8cd0e79b",
             "packed": false
         }
     ],
     "kmods": {
-        "libphy.ko": "",
-        "mdio_devres.ko": "",
         "r8169.ko": ""
     },
     "scripts": {
-        "on_boot": "check-r8169.sh",
-        "on_os_load": "install-r8169.sh"
+        "on_boot": "check-r8169.sh"
     }
 }

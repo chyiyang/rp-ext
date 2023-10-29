@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/broadwellntbap-4.4.302/usbnet.ko",
-            "sha256": "152a1ef9808f398c2475d942b183dc6685a5a4f3e5e37eef02d4460ba56bedb0",
+            "sha256": "124e223be9b31d1c08ebc958ce7c0761d4d73fdab10599e487764c12b9fe1e43",
             "packed": false
         },
         {
             "name": "aqc111.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aqc111/broadwellntbap-4.4.302/aqc111.ko",
-            "sha256": "83e8638dbd7af7bb5b5282bc3b9cecc815f3756a0d3f26f88dd8a7d0760de96e",
+            "sha256": "88b858773d4ab00ce08d16cfb8f4a5cac38a72dfa86aeff7b0848b39c44d0af1",
             "packed": false
         },
         {

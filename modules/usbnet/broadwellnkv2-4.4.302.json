@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/broadwellnkv2-4.4.302/mii.ko",
-            "sha256": "18b766025f00611e9d9ae087ce6795458793a0caa631b4f947b9085b974a56b7",
+            "sha256": "dd4c10b5c8a1387c33e1cabdbc7621ae38f7eb7072a30f43bf1decbc8d82cdde",
             "packed": false
         },
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/usbnet/broadwellnkv2-4.4.302/usbnet.ko",
-            "sha256": "cae2bdd082861b5cd52f4fb0f8927ca418002f32daf2736371c782f74d95f652",
+            "sha256": "29476a6560d8c7d6e335e6228919b1ad6339c9e87b297d1bb58606966d9a7ba4",
             "packed": false
         },
         {

@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mptbase.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/braswell-3.10.108/mptbase.ko",
-            "sha256": "2171001507942db1e87d4e9b157367680c2c91ac831f2c4f626e1a943b0d3418",
+            "sha256": "7d3cef020b54dc454e71a79933e714d5ee02dc943ec04260b51b6cee86cda8a0",
             "packed": false
         },
         {
             "name": "mptscsih.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptscsih/braswell-3.10.108/mptscsih.ko",
-            "sha256": "508830d5fe0ec2aa36f96f7a019397ef905240d4583456c76eee0c8d16f20869",
+            "sha256": "0967309c9071cba84304f5bca82efea5b80871f2f3fc52dc29b9efe370a4c7b9",
             "packed": false
         },
         {

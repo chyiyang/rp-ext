@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mdio.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.180/mdio.ko",
-            "sha256": "e8f0291da670555ca368952fa7562f1be1e8808fc811ce24b7c3104937487c08",
+            "sha256": "617a0b957a0b223b9e2336a49668b0ce855c921396afce56bd8134362c1071ef",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.180/cxgb3.ko",
-            "sha256": "9ce45df7eee2e5646dada2379744a05778112ed5a4aff2970880b4ffcd41a8b5",
+            "sha256": "511edc1c1fecaa2329b9748f59a98d783126b9167c3ed1d1f352ebe87a9f5d9f",
             "packed": false
         },
         {
@@ -22,7 +22,7 @@
         {
             "name": "cxgb3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.180/cxgb3_firmware.tag.gz",
-            "sha256": "27c676da5323a005cd7cac4fbaedbd872047900ece71070da9e587ae76f41799",
+            "sha256": "d5619457e6ee4b6702bf9e403346c7f1e00d42a7f5d048b08f768bb48f5b5747",
             "packed": false
         },
         {

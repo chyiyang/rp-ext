@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mmc_core.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/v1000-4.4.180/mmc_core.ko",
-            "sha256": "ca8328a5818dfe540f914d3af005c1f51b364d8aadb7251057359c8f9d9e5925",
+            "sha256": "f41aace25a3f7f667a4ba5429c1bf7f35172223617660310d746e9802f73d4c4",
             "packed": false
         },
         {
             "name": "sdhci.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/v1000-4.4.180/sdhci.ko",
-            "sha256": "73632e01e66b642244258e530b7ca53d577387864a2ad260ea03682dd3787bfc",
+            "sha256": "fc98d74b9c2a63777cf113afd7fecd5e488655873e8ef46196aae47c15aedf6f",
             "packed": false
         },
         {

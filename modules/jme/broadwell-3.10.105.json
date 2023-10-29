@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "mii.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/broadwell-3.10.105/mii.ko",
-            "sha256": "ff7de90acb0a741f48dd0a5ebe56587942ff9d1f20002ed0023f87d1ef7deaec",
+            "sha256": "3d399802ba9372e395409c51ba147455c61dc0d1e9741257b4c10e8e9c5d40a3",
             "packed": false
         },
         {
             "name": "jme.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/jme/broadwell-3.10.105/jme.ko",
-            "sha256": "a970407290ad1d4c9939acfea881f6f0f98383fd57d6eb479753fcba8ddb36cd",
+            "sha256": "1e25fed1cdbd0f73bc83a927e096734b1d01ec36764a5e3477ec1634de54a366",
             "packed": false
         },
         {

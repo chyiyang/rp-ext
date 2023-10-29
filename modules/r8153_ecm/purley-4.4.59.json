@@ -1,16 +1,16 @@
 {
-    "mod_version": "23.9.5",
+    "mod_version": "23.10.1",
     "files": [
         {
             "name": "usbnet.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/purley-4.4.59/usbnet.ko",
-            "sha256": "3c57e166229b044690e5671eb0d2a3d14a55e3f69f36d05741bbf922a2f38765",
+            "sha256": "4d92c1c91de4fbeea02dddf1600dedf981a20b4ae98bbb29a61c4075839e329a",
             "packed": false
         },
         {
             "name": "r8153_ecm.ko",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/purley-4.4.59/r8153_ecm.ko",
-            "sha256": "53e9a63814fe83c7c4acc432c522753638e12c7d856b878629161b362b90f8ab",
+            "sha256": "7f566dc469f983ef3aa28c9d2e0eb89f4982639b6bb28a79f1c2979a93e8741a",
             "packed": false
         },
         {
