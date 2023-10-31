@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.10.2",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/bromolow-3.10.108/mii.ko",
+            "sha256": "a30163e78e39cea1014d557bc24c261980acec52d5d8c10c752a402665f03144",
+            "packed": false
+        },
+        {
+            "name": "r8169_lk.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/bromolow-3.10.108/r8169_lk.ko",
+            "sha256": "666b7460bb1192818e7cb119d024e152dd044ba02a3df905e5040c3b73069cc1",
+            "packed": false
+        },
+        {
+            "name": "check-r8169_lk.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/bromolow-3.10.108/check-r8169_lk.sh",
+            "sha256": "f4bffd3cab4d1b3c316f7d70eb55609e62b1e338f4ae83988ff7a095125e9c47",
+            "packed": false
+        },
+        {
+            "name": "r8169_lk_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/bromolow-3.10.108/r8169_lk_firmware.tag.gz",
+            "sha256": "974c091ade41c17e8af0c8ad9c809f472fa4e7dd76aba9d808e76f10a06d8d15",
+            "packed": false
+        },
+        {
+            "name": "install-r8169_lk.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/bromolow-3.10.108/install-r8169_lk.sh",
+            "sha256": "ad1703d47256f5ed5587b1fd6d11d36f0e1bac8db9cd2382e2d98fb8ed054be4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8169_lk.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169_lk.sh",
+        "on_os_load": "install-r8169_lk.sh"
+    }
+}

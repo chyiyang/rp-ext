@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "si2168.ko",
@@ -16,7 +16,7 @@
         {
             "name": "si2168_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/si2168/v1000-4.4.59/si2168_firmware.tag.gz",
-            "sha256": "05f85211936678f0f561f102997d1ef471ce59c7458c3df6133e6a0f9203c2a3",
+            "sha256": "7abc6617933fb03ea1644182992b996a795912b3592d02a05b03006d535bb512",
             "packed": false
         },
         {

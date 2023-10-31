@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "qed.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qed_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/denverton-4.4.59/qed_firmware.tag.gz",
-            "sha256": "9f839b53624f0b5e6089e4bcba921cb2b0ef85036a9b42701a309b171ef7f5fd",
+            "sha256": "af1fa5589396bff2cd6f89180435ee7e77af544a86e2ef51ca16723ca651e056",
             "packed": false
         },
         {

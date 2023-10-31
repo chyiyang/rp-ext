@@ -1,0 +1,43 @@
+{
+    "mod_version": "23.10.2",
+    "files": [
+        {
+            "name": "mii.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/denverton-4.4.180/mii.ko",
+            "sha256": "faf29b66dee7d7a381e1b815af70b6590d1b0ff0fc593e7ff4407bab3c866419",
+            "packed": false
+        },
+        {
+            "name": "r8169_lk.ko",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/denverton-4.4.180/r8169_lk.ko",
+            "sha256": "c40d1507397d804489d415d2d7b6ee5fa1691bf7613933ac9d7461b861bc2201",
+            "packed": false
+        },
+        {
+            "name": "check-r8169_lk.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/denverton-4.4.180/check-r8169_lk.sh",
+            "sha256": "f4bffd3cab4d1b3c316f7d70eb55609e62b1e338f4ae83988ff7a095125e9c47",
+            "packed": false
+        },
+        {
+            "name": "r8169_lk_firmware.tag.gz",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/denverton-4.4.180/r8169_lk_firmware.tag.gz",
+            "sha256": "d865630566eef54626d330e60929310c832703d30d1a1065b11232c400fae133",
+            "packed": false
+        },
+        {
+            "name": "install-r8169_lk.sh",
+            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/denverton-4.4.180/install-r8169_lk.sh",
+            "sha256": "ad1703d47256f5ed5587b1fd6d11d36f0e1bac8db9cd2382e2d98fb8ed054be4",
+            "packed": false
+        }
+    ],
+    "kmods": {
+        "mii.ko": "",
+        "r8169_lk.ko": ""
+    },
+    "scripts": {
+        "on_boot": "check-r8169_lk.sh",
+        "on_os_load": "install-r8169_lk.sh"
+    }
+}

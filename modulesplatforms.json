@@ -348,6 +348,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "raid_class": {
             "description": "RAID device class"
         },
@@ -830,6 +833,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "raid_class": {
             "description": "RAID device class"
         },
@@ -1300,6 +1306,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "raid_class": {
             "description": "RAID device class"
         },
@@ -1569,6 +1578,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
@@ -1804,6 +1816,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
@@ -2058,6 +2073,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
@@ -2471,6 +2489,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "rc-core": {
             "description": ""
@@ -2927,6 +2948,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "rc-core": {
             "description": ""
         },
@@ -3369,6 +3393,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "rc-core": {
             "description": ""
@@ -3825,6 +3852,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "rc-core": {
             "description": ""
         },
@@ -4265,6 +4295,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "rc-core": {
             "description": ""
         },
@@ -4704,6 +4737,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "rc-core": {
             "description": ""
@@ -5147,6 +5183,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "rc-core": {
             "description": ""
@@ -5597,6 +5636,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "rc-core": {
             "description": ""
         },
@@ -6046,6 +6088,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "rc-core": {
             "description": ""
         },
@@ -6465,6 +6510,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "rc-core": {
             "description": ""
         },
@@ -6737,6 +6785,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
         },
@@ -6972,6 +7023,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "scsi_transport_spi": {
             "description": "SPI Transport Attributes"
@@ -7376,6 +7430,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "raid_class": {
             "description": "RAID device class"
@@ -7823,6 +7880,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "raid_class": {
             "description": "RAID device class"
         },
@@ -8269,6 +8329,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "raid_class": {
             "description": "RAID device class"
         },
@@ -8628,6 +8691,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "realtek": {
             "description": "Realtek PHY driver"
         },
@@ -8947,6 +9013,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "realtek": {
             "description": "Realtek PHY driver"
@@ -9363,6 +9432,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "raid_class": {
             "description": "RAID device class"
@@ -9837,6 +9909,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "raid_class": {
             "description": "RAID device class"
         },
@@ -10298,6 +10373,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "raid_class": {
             "description": "RAID device class"
         },
@@ -10750,6 +10828,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "rc-core": {
             "description": ""
         },
@@ -11196,6 +11277,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "rc-core": {
             "description": ""
         },
@@ -11627,6 +11711,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "rc-core": {
             "description": ""
         },
@@ -12051,6 +12138,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "raid_class": {
             "description": "RAID device class"
@@ -12504,6 +12594,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "raid_class": {
             "description": "RAID device class"
         },
@@ -12943,6 +13036,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "raid_class": {
             "description": "RAID device class"
@@ -13399,6 +13495,9 @@
         "r8169": {
             "description": ""
         },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
+        },
         "raid_class": {
             "description": "RAID device class"
         },
@@ -13850,6 +13949,9 @@
         },
         "r8169": {
             "description": ""
+        },
+        "r8169_lk": {
+            "description": "RealTek RTL-8169 Gigabit Ethernet driver"
         },
         "raid_class": {
             "description": "RAID device class"

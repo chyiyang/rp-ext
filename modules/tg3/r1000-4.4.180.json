@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "libphy.ko",
@@ -22,7 +22,7 @@
         {
             "name": "tg3_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/r1000-4.4.180/tg3_firmware.tag.gz",
-            "sha256": "8b73dae97faeda0473fd33cbded93c6de14fc422351a3be5951ba729c3e48628",
+            "sha256": "f1ba2e65d14446639c3faececaaaec281cb5f40283760ffc9fb6da482bd3caa9",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "qed.ko",
@@ -22,7 +22,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.302/qede_firmware.tag.gz",
-            "sha256": "81809ae77fefc6498afd2d38b550f04a54307e0d153ab654e728c2d585d28b17",
+            "sha256": "e464a83462c995de5e91bfd908a282947bd168839aa3b74fa92206c78b994709",
             "packed": false
         },
         {

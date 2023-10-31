@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "qed.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qed_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/broadwellnk-4.4.180/qed_firmware.tag.gz",
-            "sha256": "95319a4cd755933b160f573112058ff99f4760627e699bce94011ae9d94877b0",
+            "sha256": "05c92adfb838c66c4f90db449b76081af170e18b6909af8b99856c282cec6c99",
             "packed": false
         },
         {

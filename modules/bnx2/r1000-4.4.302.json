@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "bnx2.ko",
@@ -16,7 +16,7 @@
         {
             "name": "bnx2_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2/r1000-4.4.302/bnx2_firmware.tag.gz",
-            "sha256": "d28b050bc82077ccfac88a23a177cf64a4752af46dba36768f8737a882ad0023",
+            "sha256": "9f20e074ab10516e4755aab06b9b01e4b757dd3b42153f64eb439ddd915b504d",
             "packed": false
         },
         {

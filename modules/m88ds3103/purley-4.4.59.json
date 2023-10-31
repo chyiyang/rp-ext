@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "dvb-core.ko",
@@ -22,7 +22,7 @@
         {
             "name": "m88ds3103_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.59/m88ds3103_firmware.tag.gz",
-            "sha256": "62eda433836636204e2b451ffce39b6987d26690d097ca43c90b73c3915b67f2",
+            "sha256": "cc1bb6bbc3a9f918358eef74292fb20f0cf24446401a030235a67e04576c05f7",
             "packed": false
         },
         {

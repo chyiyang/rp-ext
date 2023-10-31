@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "ipv6.ko",
@@ -28,7 +28,7 @@
         {
             "name": "qede_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.1-5.10.55/qede_firmware.tag.gz",
-            "sha256": "4093e4b130ad861b0f237653e9ce282e42b1d3be624ba85968ae6d36b33a63db",
+            "sha256": "5d57bf35ec16bc36c4b5d3e92343da1a162c9b998d221397589f2d27bd202c02",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "netxen_nic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/v1000-4.4.59/netxen_nic_firmware.tag.gz",
-            "sha256": "cbd0f8c27f25cbc300a3c87136a80450b4e7e02a934f0286700b7a9c45aff9b2",
+            "sha256": "fa9898fe23e6844b5f6addb654a41b6d87396ab952b7922d196e86263a56cbfe",
             "packed": false
         },
         {

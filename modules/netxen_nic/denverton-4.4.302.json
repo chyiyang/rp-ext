@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "netxen_nic.ko",
@@ -16,7 +16,7 @@
         {
             "name": "netxen_nic_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/netxen_nic/denverton-4.4.302/netxen_nic_firmware.tag.gz",
-            "sha256": "504434f41838b7ca4c60874e0a98ddb3cb0004ff097f08bc212584a483c5ea71",
+            "sha256": "467ac07efd1498a1cc282ce35db6dcda58ddf7fa62b8a03c7292f0b8b84cd4ff",
             "packed": false
         },
         {

@@ -1,5 +1,5 @@
 {
-    "mod_version": "23.10.1",
+    "mod_version": "23.10.2",
     "files": [
         {
             "name": "qed.ko",
@@ -16,7 +16,7 @@
         {
             "name": "qed_firmware.tag.gz",
             "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qed/epyc7002-7.1-5.10.55/qed_firmware.tag.gz",
-            "sha256": "460b1b883013f4dcf9262396ea772e01c876284f886db1ab3d13d768a6bd2a7b",
+            "sha256": "1bcc8e9ecbaf9ec9f4b48b321d98447b090e226c6c710137af9e518f9b1cd18a",
             "packed": false
         },
         {
