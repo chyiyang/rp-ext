@@ -10,7 +10,6 @@ fi
 
 if [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for hdddb"
-  chmod +x hdddb.sh
   cp -vf hdddb.sh /tmpRoot/usr/bin/hdddb.sh
 
   DEST="/tmpRoot/usr/lib/systemd/system/hdddb.service"
@@ -21,7 +20,7 @@ if [ "$HASBOOTED" = "yes" ]; then
   echo "[Service]"                                >>${DEST}
   echo "Type=oneshot"                             >>${DEST}
   echo "RemainAfterExit=true"                     >>${DEST}
-  echo "ExecStart=/usr/bin/hdddb.sh -nfre"        >>${DEST}
+  echo "ExecStart=bash /usr/bin/hdddb.sh -nfre"   >>${DEST}
   echo                                            >>${DEST}
   echo "[Install]"                                >>${DEST}
   echo "WantedBy=multi-user.target"               >>${DEST}
