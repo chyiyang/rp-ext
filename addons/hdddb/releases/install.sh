@@ -10,6 +10,7 @@ fi
 
 if [ "$HASBOOTED" = "yes" ]; then
   echo "Installing daemon for hdddb"
+  chmod +x hdddb.sh
   cp -vf hdddb.sh /tmpRoot/usr/bin/hdddb.sh
 
   DEST="/tmpRoot/usr/lib/systemd/system/hdddb.service"
