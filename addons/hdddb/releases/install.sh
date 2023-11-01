@@ -20,7 +20,7 @@ if [ "$HASBOOTED" = "yes" ]; then
   echo "[Service]"                                >>${DEST}
   echo "Type=oneshot"                             >>${DEST}
   echo "RemainAfterExit=true"                     >>${DEST}
-  echo "ExecStart=bash /usr/bin/hdddb.sh -nfre"   >>${DEST}
+  echo "ExecStart=/usr/bin/bash /usr/bin/hdddb.sh -nfre" >>${DEST}
   echo                                            >>${DEST}
   echo "[Install]"                                >>${DEST}
   echo "WantedBy=multi-user.target"               >>${DEST}
