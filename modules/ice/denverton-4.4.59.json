@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "auxiliary.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/denverton-4.4.59/auxiliary.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ice/denverton-4.4.59/auxiliary.ko",
             "sha256": "983de2e31dcc079bd1378045b0e1a28c79d5c62188539d57d0a838589a63cdf8",
             "packed": false
         },
         {
             "name": "ice.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/denverton-4.4.59/ice.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ice/denverton-4.4.59/ice.ko",
             "sha256": "1b0e32b603d2a1d349dc651f5a1478df29a1491bdc2d8fb613cfeadf3d40bcd8",
             "packed": false
         },
         {
             "name": "check-ice.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/denverton-4.4.59/check-ice.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ice/denverton-4.4.59/check-ice.sh",
             "sha256": "1f8e01a7316db89bcbb979b8fca887d45586155bed2713d40a504c6e389ede4c",
             "packed": false
         }

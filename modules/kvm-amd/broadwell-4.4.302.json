@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/broadwell-4.4.302/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/broadwell-4.4.302/kvm.ko",
             "sha256": "4bcc325b81a6055572424565f80d4ec91603c6f6d3f3b686c96abdafd96dcdbd",
             "packed": false
         },
         {
             "name": "kvm-amd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/broadwell-4.4.302/kvm-amd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/broadwell-4.4.302/kvm-amd.ko",
             "sha256": "ab568385ebcab4e55d805442d33466f251f359b65739c17cabaf2c3628ecec3b",
             "packed": false
         },
         {
             "name": "check-kvm-amd.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/broadwell-4.4.302/check-kvm-amd.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/broadwell-4.4.302/check-kvm-amd.sh",
             "sha256": "5ea91215f63363b4c8743778eee3dd93ae6318ce6581980be17463d59637e33f",
             "packed": false
         }

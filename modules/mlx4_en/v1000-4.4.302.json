@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "mlx4_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.302/mlx4_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.302/mlx4_core.ko",
             "sha256": "7d31398c1681d06d98c6c84ceeb5e3bf362d62e2c7de68953222bd78b5083612",
             "packed": false
         },
         {
             "name": "mlx_compat.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.302/mlx_compat.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.302/mlx_compat.ko",
             "sha256": "c0d26afdf52ebdc7e6dd6ae5f637e77728b8bdc65659b55a1af47c1795e9a3ae",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.302/mlx4_en.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.302/mlx4_en.ko",
             "sha256": "f8f96fb39c433d6e4cb74f8844388912325f233b6ec44613d9fd141319757d04",
             "packed": false
         },
         {
             "name": "check-mlx4_en.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.302/check-mlx4_en.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/v1000-4.4.302/check-mlx4_en.sh",
             "sha256": "610aa3423798217f8c6d8afe4bbb95a29a44d2d36e6a3d892e0106ba911afb0b",
             "packed": false
         }

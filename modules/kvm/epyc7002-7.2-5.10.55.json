@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "irqbypass.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/epyc7002-7.2-5.10.55/irqbypass.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm/epyc7002-7.2-5.10.55/irqbypass.ko",
             "sha256": "35fef48b5d962804a3252b47029c9b85cb575bbf436539edbad73b8b6904f06c",
             "packed": false
         },
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/epyc7002-7.2-5.10.55/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm/epyc7002-7.2-5.10.55/kvm.ko",
             "sha256": "093525c36c73e865e4aae75144744977507b339f3e600d254632c7319005582b",
             "packed": false
         },
         {
             "name": "check-kvm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/epyc7002-7.2-5.10.55/check-kvm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm/epyc7002-7.2-5.10.55/check-kvm.sh",
             "sha256": "f3783a261feb27b47f4561d1c1e32bde132d1b1a11520186959c00f4ecb2ec88",
             "packed": false
         }

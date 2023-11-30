@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mlx5_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/mlx5_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/mlx5_core.ko",
             "sha256": "cf4ed9016bb5fd82789018040b1681478bc98d03e347fbe23521a53637de391a",
             "packed": false
         },
         {
             "name": "ib_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/ib_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/ib_core.ko",
             "sha256": "5950f61a8a54e6ac3cf49b2322070f9cdf01e5326cab085f20599e1bef61b452",
             "packed": false
         },
         {
             "name": "mlx_compat.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/mlx_compat.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/mlx_compat.ko",
             "sha256": "128c5a37ffe3183f0005ace41e2029a0b7da84e7f71b64ca9a42a4b14b24d14a",
             "packed": false
         },
         {
             "name": "mlx5_ib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/mlx5_ib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/mlx5_ib.ko",
             "sha256": "df3760d7113c570028ecfe4fc83cbd87adbd3313a999791f3f69e58cb85c932f",
             "packed": false
         },
         {
             "name": "check-mlx5_ib.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/check-mlx5_ib.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/broadwell-3.10.105/check-mlx5_ib.sh",
             "sha256": "092ab245e4ec5030c8aceecb072032c5db7ccc87655a5aee2efd818363ea479f",
             "packed": false
         }

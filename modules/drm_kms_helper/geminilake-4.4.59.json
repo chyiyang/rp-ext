@@ -3,67 +3,67 @@
     "files": [
         {
             "name": "drm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/drm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/drm.ko",
             "sha256": "887ec316ff485dff121f892ec3435a147358eb812f2b0e1c8fa0f2470d0ab2b5",
             "packed": false
         },
         {
             "name": "fb.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/fb.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/fb.ko",
             "sha256": "6213af4a628c0b37e627697235a3f7c3a767669edfe05667e203376c8c39566e",
             "packed": false
         },
         {
             "name": "fb_sys_fops.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/fb_sys_fops.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/fb_sys_fops.ko",
             "sha256": "c349cfd7ebd6b3242749292a49eb219f5e8c46bca09e4344b0be8cbc9c45ff8b",
             "packed": false
         },
         {
             "name": "cfbfillrect.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/cfbfillrect.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/cfbfillrect.ko",
             "sha256": "3b7fd5cfe11e134eeb61e99abaea98d0d970118414203494603f98f4eecc1af2",
             "packed": false
         },
         {
             "name": "syscopyarea.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/syscopyarea.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/syscopyarea.ko",
             "sha256": "89cac34751185fc046f35c599a8c72fc81a6f0bdc15a1f2cb49abd6c8265842a",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/cfbimgblt.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/cfbimgblt.ko",
             "sha256": "5fb5d0b6303b8b7343d44dfaba9c0f2e66b3bbb70cb284fe68399d9f7fb570c9",
             "packed": false
         },
         {
             "name": "sysfillrect.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/sysfillrect.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/sysfillrect.ko",
             "sha256": "4ed5f43fe642f4191d5e77b31571a5061af43fbbf6df8ceccf8d748867892c37",
             "packed": false
         },
         {
             "name": "sysimgblt.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/sysimgblt.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/sysimgblt.ko",
             "sha256": "0f47347b7e067ee3a250e3d5475bfce4588727f0f93c366a5587cec5074f0dc8",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/cfbcopyarea.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/cfbcopyarea.ko",
             "sha256": "85df767b96fcb832317b445004f9ead58a98468e0fea4d781b3dbc01c4e14bfc",
             "packed": false
         },
         {
             "name": "drm_kms_helper.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/drm_kms_helper.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/drm_kms_helper.ko",
             "sha256": "6b436d351361ecacb4f602c48a468f990d487f3630da0cfae749c80fa552455f",
             "packed": false
         },
         {
             "name": "check-drm_kms_helper.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/check-drm_kms_helper.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/geminilake-4.4.59/check-drm_kms_helper.sh",
             "sha256": "318a5ad771b1c043a9ea90d3027d8a0b9ef0a09cb650e59ce2fd612a718fa269",
             "packed": false
         }

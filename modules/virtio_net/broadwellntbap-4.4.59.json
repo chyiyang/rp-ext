@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.59/virtio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.59/virtio.ko",
             "sha256": "1131d5e89f8ec1e74f49f639f67cb43c28058c308c3c17fec0b8460aebc3a26b",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.59/virtio_ring.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.59/virtio_ring.ko",
             "sha256": "ff5c5ac001017b7b8788995d086e870527a75698a6d5f0948e79ae5d4bfa016f",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.59/virtio_net.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.59/virtio_net.ko",
             "sha256": "d3796c41c94d57f12c39ecf8bda526719bad06d440374491efa80085a5641c92",
             "packed": false
         },
         {
             "name": "check-virtio_net.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.59/check-virtio_net.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/broadwellntbap-4.4.59/check-virtio_net.sh",
             "sha256": "9ec892e6c3857de6019948cca232e2d23ea640a4e9bdedfd1cbbcfd1e52aedf0",
             "packed": false
         }

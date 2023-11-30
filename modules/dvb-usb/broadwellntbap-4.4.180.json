@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "rc-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwellntbap-4.4.180/rc-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb-usb/broadwellntbap-4.4.180/rc-core.ko",
             "sha256": "8536fcaef5a027f02ba078bd1facc67bc6d1ebbfb0474303797615bc00811db1",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwellntbap-4.4.180/dvb-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb-usb/broadwellntbap-4.4.180/dvb-core.ko",
             "sha256": "8c939f568676b3e0e7db10edb2a393d92d36c8039319e1634fbf9b1b484e45e3",
             "packed": false
         },
         {
             "name": "dvb-usb.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwellntbap-4.4.180/dvb-usb.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb-usb/broadwellntbap-4.4.180/dvb-usb.ko",
             "sha256": "c85afc4878500a49ce1d13e56e5dde78fc73a3f2f42aaaf0eada677c7f4f946e",
             "packed": false
         },
         {
             "name": "check-dvb-usb.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/broadwellntbap-4.4.180/check-dvb-usb.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb-usb/broadwellntbap-4.4.180/check-dvb-usb.sh",
             "sha256": "cebb64c5d5f41e9d294489a06951552bfa038b60baf79d80f6641ff6589bbf85",
             "packed": false
         }

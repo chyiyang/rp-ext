@@ -3,13 +3,13 @@
     "files": [
         {
             "name": "vmxnet3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/v1000-4.4.180/vmxnet3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/vmxnet3/v1000-4.4.180/vmxnet3.ko",
             "sha256": "2608803dee8ca5dc109a44e174094283ef19946a0ad3742ff8d61a36ca5c5c49",
             "packed": false
         },
         {
             "name": "check-vmxnet3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/v1000-4.4.180/check-vmxnet3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/vmxnet3/v1000-4.4.180/check-vmxnet3.sh",
             "sha256": "ffa24196bcbcabcf150fe9decc495448aa88e96b8121a8017eebf6ce0c2ecfd5",
             "packed": false
         }

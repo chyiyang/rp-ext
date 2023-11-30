@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libsas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/epyc7002-7.2-5.10.55/libsas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/epyc7002-7.2-5.10.55/libsas.ko",
             "sha256": "3d2affa5064aed7785a648c9d7371c1fb425d1a45a93b45d6109c2b57a189780",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/epyc7002-7.2-5.10.55/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/epyc7002-7.2-5.10.55/scsi_transport_sas.ko",
             "sha256": "a564842728c457221e71b6e1cc2f4d15d3ca53cb11a3ba2a95548d8018d37476",
             "packed": false
         },
         {
             "name": "aic94xx.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/epyc7002-7.2-5.10.55/aic94xx.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/epyc7002-7.2-5.10.55/aic94xx.ko",
             "sha256": "504b0de960305b6a0d8000c03522af5c3b0c6928840b425d45365f1b2c38448f",
             "packed": false
         },
         {
             "name": "check-aic94xx.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/epyc7002-7.2-5.10.55/check-aic94xx.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/epyc7002-7.2-5.10.55/check-aic94xx.sh",
             "sha256": "6db4adc450e61ed3a6dc061bf1aa1cba257e3d18ceb2ba60719c9b9432d54cb3",
             "packed": false
         }

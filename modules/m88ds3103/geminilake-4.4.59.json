@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "dvb-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/dvb-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/dvb-core.ko",
             "sha256": "2b08b895b8993fafb7d765cb810091a61a201d8696aaca64de3339b4b1fa4323",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/m88ds3103.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/m88ds3103.ko",
             "sha256": "c474441c770eb3e4264ef0733a9a9abae41a0f76b3e09607fc598bd22fd23c45",
             "packed": false
         },
         {
             "name": "check-m88ds3103.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/check-m88ds3103.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/check-m88ds3103.sh",
             "sha256": "ff8a9b8ea9181629bff836fa27c7a1f32e71a920bf5586a0f8723231fb67141a",
             "packed": false
         },
         {
             "name": "m88ds3103_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/m88ds3103_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/m88ds3103_firmware.tag.gz",
             "sha256": "0aea0c11457366e1712261464b8a772fce669748cebd8c065c2bf22554554ae4",
             "packed": false
         },
         {
             "name": "install-m88ds3103.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/install-m88ds3103.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.59/install-m88ds3103.sh",
             "sha256": "114a49d9e59e0382f8b53d74a9ab40e15509db0c57cf1a8ade48d08199a65652",
             "packed": false
         }

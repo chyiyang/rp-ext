@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "libiscsi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/v1000-4.4.59/libiscsi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libiscsi_tcp/v1000-4.4.59/libiscsi.ko",
             "sha256": "996996569c1c4c24bc72dfec2828cfea5ad5931fcc247752481827170ca920f6",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/v1000-4.4.59/libiscsi_tcp.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libiscsi_tcp/v1000-4.4.59/libiscsi_tcp.ko",
             "sha256": "7c0e7145e0de49b9552ca2eef9171a0d618b6059eb2789c9b9b2b56eff5d0d20",
             "packed": false
         },
         {
             "name": "check-libiscsi_tcp.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/v1000-4.4.59/check-libiscsi_tcp.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libiscsi_tcp/v1000-4.4.59/check-libiscsi_tcp.sh",
             "sha256": "1c62586a1d72d183dd6119b9e4fe6ed6b3ff2129f7ab4a92ca5f257e659a2495",
             "packed": false
         }

@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "irqbypass.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/denverton-4.4.302/irqbypass.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm/denverton-4.4.302/irqbypass.ko",
             "sha256": "175a595806049ee8df7977c6bbdd03422315de0f42ae0568294e0de66635d205",
             "packed": false
         },
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/denverton-4.4.302/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm/denverton-4.4.302/kvm.ko",
             "sha256": "e3a01fed713dc05c156d1c501cce0962ab453e9d9c365ff980e81e2e939aef6c",
             "packed": false
         },
         {
             "name": "check-kvm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/denverton-4.4.302/check-kvm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm/denverton-4.4.302/check-kvm.sh",
             "sha256": "f3783a261feb27b47f4561d1c1e32bde132d1b1a11520186959c00f4ecb2ec88",
             "packed": false
         }

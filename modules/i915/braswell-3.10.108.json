@@ -3,73 +3,73 @@
     "files": [
         {
             "name": "drm_kms_helper.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/drm_kms_helper.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/drm_kms_helper.ko",
             "sha256": "010c3b580aa1393633ebe7fc983276d03d798c38aee154e8946757866f99f8cf",
             "packed": false
         },
         {
             "name": "drm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/drm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/drm.ko",
             "sha256": "541a7156cb6a5243bf9385a5f7b62b65dda9d5fdcb3b293edbdfef8427e85ba0",
             "packed": false
         },
         {
             "name": "intel-gtt.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/intel-gtt.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/intel-gtt.ko",
             "sha256": "c548fb7f840475d7ece6bf34d740521b187390375e522eb2464c0be17ce5eb51",
             "packed": false
         },
         {
             "name": "fb.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/fb.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/fb.ko",
             "sha256": "228cb08cbbc8d5d713a6cbe100252844c7d3e7e1abcd244dc820d36e0bfaa42c",
             "packed": false
         },
         {
             "name": "backlight.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/backlight.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/backlight.ko",
             "sha256": "495374c285de15625ea75b5fec96f18cd40b61f4e4b38fc9a5b2db3c16b9fe98",
             "packed": false
         },
         {
             "name": "cfbfillrect.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/cfbfillrect.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/cfbfillrect.ko",
             "sha256": "e9c06d097b54951245917be8575e38c30e4f8a8329c3bc0c2e9e09dce3746fa6",
             "packed": false
         },
         {
             "name": "video.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/video.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/video.ko",
             "sha256": "584de2acb00b4b5d29ba76dec36f1bc53cd2879218f26422dce72d2a6c99fe39",
             "packed": false
         },
         {
             "name": "button.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/button.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/button.ko",
             "sha256": "3fb2d3be77aa4e1b37f295275854ca3c1b6ba28aa3c9e86384785cf4d66985d8",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/cfbimgblt.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/cfbimgblt.ko",
             "sha256": "16db5cf2aba507d58d3045a447ff3814d215bf2e18415b5a8463e30290948939",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/cfbcopyarea.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/cfbcopyarea.ko",
             "sha256": "21b65b7be6747930989b7d5ae1607b0120ec6de7e21479d91f7f0b3657a8647d",
             "packed": false
         },
         {
             "name": "i915.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/i915.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/i915.ko",
             "sha256": "0b556c8b1e91c4b3fcebd7bb506ff2f03b5d552aa7acee64bf3846f985064a75",
             "packed": false
         },
         {
             "name": "check-i915.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/braswell-3.10.108/check-i915.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/braswell-3.10.108/check-i915.sh",
             "sha256": "23e7d78bd7e65e53dabb18ac3cb7b8eb62349fef201bdad0f354b0bc7e0af28a",
             "packed": false
         }

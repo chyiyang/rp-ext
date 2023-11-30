@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/braswell-3.10.105/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/braswell-3.10.105/mmc_core.ko",
             "sha256": "2a52eed1929b490ef33260b5a7aa9ec62170cdd6d740ec040264e22d3aa6aaf0",
             "packed": false
         },
         {
             "name": "sdhci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/braswell-3.10.105/sdhci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/braswell-3.10.105/sdhci.ko",
             "sha256": "bf6189c5c01efd333a6e449e6bd9fd3a4aadbb872f304b52f8b5f93f2a02b5ea",
             "packed": false
         },
         {
             "name": "check-sdhci.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/braswell-3.10.105/check-sdhci.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/braswell-3.10.105/check-sdhci.sh",
             "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
             "packed": false
         }

@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "usbnet.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.180/usbnet.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.180/usbnet.ko",
             "sha256": "85e1c3731104b1cf516ec98a11c31aef59ad7b001ebd1c5eeb7ffe4582a61300",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.180/cdc_ncm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.180/cdc_ncm.ko",
             "sha256": "9dc87847b5886b4c7d6a3c151957499e23ee71b1d70cc9c9b2f89841b12eea11",
             "packed": false
         },
         {
             "name": "check-cdc_ncm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.180/check-cdc_ncm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/purley-4.4.180/check-cdc_ncm.sh",
             "sha256": "840a124f5d42d6be6152b099032e88fbd1d43cfbbd91928df4ca8dccdcbbb34c",
             "packed": false
         }

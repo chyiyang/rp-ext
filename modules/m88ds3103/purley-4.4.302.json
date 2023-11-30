@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "dvb-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/dvb-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/dvb-core.ko",
             "sha256": "8b16f7574a9f17072522da19516e2cce39bd3c035c20984602718eb433d2c687",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/m88ds3103.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/m88ds3103.ko",
             "sha256": "8c0728178688a4ddf7b8b3a876f4eadc73df4f11798cf981b886f1ada76e6c1f",
             "packed": false
         },
         {
             "name": "check-m88ds3103.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/check-m88ds3103.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/check-m88ds3103.sh",
             "sha256": "ff8a9b8ea9181629bff836fa27c7a1f32e71a920bf5586a0f8723231fb67141a",
             "packed": false
         },
         {
             "name": "m88ds3103_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/m88ds3103_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/m88ds3103_firmware.tag.gz",
             "sha256": "727b897c34e77b38b726ef9f9a1acff2addeac361cd87078c5b58191a6ec9935",
             "packed": false
         },
         {
             "name": "install-m88ds3103.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/install-m88ds3103.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/purley-4.4.302/install-m88ds3103.sh",
             "sha256": "114a49d9e59e0382f8b53d74a9ab40e15509db0c57cf1a8ade48d08199a65652",
             "packed": false
         }

@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libiscsi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.302/libiscsi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.302/libiscsi.ko",
             "sha256": "941a2287e98e14b0aa9ecb36002c3d264031c3109dc642ee6c40b2b26464a732",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.302/libiscsi_tcp.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.302/libiscsi_tcp.ko",
             "sha256": "7067d061af4cb2283b9c6619fdcc7eadbf8a9942ccb47cdd169af9370368f58e",
             "packed": false
         },
         {
             "name": "iscsi_tcp.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.302/iscsi_tcp.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.302/iscsi_tcp.ko",
             "sha256": "76c5c064e3fec22f008d3b82c71cd8ee6f3eda880063d65a5ead0642492b966a",
             "packed": false
         },
         {
             "name": "check-iscsi_tcp.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.302/check-iscsi_tcp.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/geminilake-4.4.302/check-iscsi_tcp.sh",
             "sha256": "406de6b4891ee599907e99c84c3126d4649fd5147fba504e90d604250e726eb4",
             "packed": false
         }

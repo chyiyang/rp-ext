@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libsas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/libsas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/libsas.ko",
             "sha256": "6e90c933ca31a914210726a0b05ec1f9f407f5155b0984adb019def69feaab60",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/scsi_transport_sas.ko",
             "sha256": "1c20f96ef40c4336369ce1adfc870ed73b46f94b196dbe174781572cfe9a73d8",
             "packed": false
         },
         {
             "name": "aic94xx.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/aic94xx.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/aic94xx.ko",
             "sha256": "36fd2179972000ec45ec4d21455be1afc762c387091ece5e94797b511b9819ec",
             "packed": false
         },
         {
             "name": "check-aic94xx.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/check-aic94xx.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/geminilake-4.4.302/check-aic94xx.sh",
             "sha256": "6db4adc450e61ed3a6dc061bf1aa1cba257e3d18ceb2ba60719c9b9432d54cb3",
             "packed": false
         }

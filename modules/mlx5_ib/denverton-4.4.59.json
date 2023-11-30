@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mlx5_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/mlx5_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/mlx5_core.ko",
             "sha256": "cc9b1ed3792f55b8f7cb14f3696067aa2eda1a3de954067057490b68e04fb597",
             "packed": false
         },
         {
             "name": "ib_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/ib_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/ib_core.ko",
             "sha256": "2683a1f739bec0ce6723b2624ae0976811d466f74faee6d695ac6738ae367a7c",
             "packed": false
         },
         {
             "name": "mlx_compat.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/mlx_compat.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/mlx_compat.ko",
             "sha256": "3c7a5e7e3c4f9ee8f2c7553816a051c655ff8bff497444069b008a16f5fed033",
             "packed": false
         },
         {
             "name": "mlx5_ib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/mlx5_ib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/mlx5_ib.ko",
             "sha256": "6dc60930c75cab20a0c9ae4c737730670ef71bec30baa6570fc0eb84233914c8",
             "packed": false
         },
         {
             "name": "check-mlx5_ib.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/check-mlx5_ib.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/denverton-4.4.59/check-mlx5_ib.sh",
             "sha256": "092ab245e4ec5030c8aceecb072032c5db7ccc87655a5aee2efd818363ea479f",
             "packed": false
         }

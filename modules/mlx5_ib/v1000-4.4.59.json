@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mlx5_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/mlx5_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/mlx5_core.ko",
             "sha256": "52856859958cad5f939d7aadb006af131ec51addb92e832fc2830bbd2ebe7a66",
             "packed": false
         },
         {
             "name": "ib_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/ib_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/ib_core.ko",
             "sha256": "884d8e7cc77d3d29dd9e7f08e241e86a30d8bb7d8097ce2ed9fabf4dfe414c52",
             "packed": false
         },
         {
             "name": "mlx_compat.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/mlx_compat.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/mlx_compat.ko",
             "sha256": "8800309c873e70978574ac1682e11eac4b4f34bb65b5bbaf118943cf7e146e63",
             "packed": false
         },
         {
             "name": "mlx5_ib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/mlx5_ib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/mlx5_ib.ko",
             "sha256": "c6f8efebe460a8202116a0d669d6ca982a59fd862ec3229f9f13c8a9768dc5aa",
             "packed": false
         },
         {
             "name": "check-mlx5_ib.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/check-mlx5_ib.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/v1000-4.4.59/check-mlx5_ib.sh",
             "sha256": "092ab245e4ec5030c8aceecb072032c5db7ccc87655a5aee2efd818363ea479f",
             "packed": false
         }

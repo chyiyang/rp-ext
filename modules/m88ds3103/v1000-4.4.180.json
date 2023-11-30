@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "dvb-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/dvb-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/dvb-core.ko",
             "sha256": "3733c8db57679a255db34cafa3efbb9471b04892ba39e61d93eda03d236091d8",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/m88ds3103.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/m88ds3103.ko",
             "sha256": "869976f31462760339bde2cbd3699dbe4fb81f229cc233869ea2fe190f27686a",
             "packed": false
         },
         {
             "name": "check-m88ds3103.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/check-m88ds3103.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/check-m88ds3103.sh",
             "sha256": "ff8a9b8ea9181629bff836fa27c7a1f32e71a920bf5586a0f8723231fb67141a",
             "packed": false
         },
         {
             "name": "m88ds3103_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/m88ds3103_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/m88ds3103_firmware.tag.gz",
             "sha256": "162d87450c520bdded266dba860e83b09feefa5163db7fd75f39ef432b505945",
             "packed": false
         },
         {
             "name": "install-m88ds3103.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/install-m88ds3103.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/v1000-4.4.180/install-m88ds3103.sh",
             "sha256": "114a49d9e59e0382f8b53d74a9ab40e15509db0c57cf1a8ade48d08199a65652",
             "packed": false
         }

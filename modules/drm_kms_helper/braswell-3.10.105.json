@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "drm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.105/drm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.105/drm.ko",
             "sha256": "98e2c09de8ab6d00db415135dbc20e63895de0acd58b6d930f74e049e125ba8c",
             "packed": false
         },
         {
             "name": "fb.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.105/fb.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.105/fb.ko",
             "sha256": "962b77984ef7c83a5f495bd7d142674ddabca56eee6cdfe7eba436252077d2e2",
             "packed": false
         },
         {
             "name": "drm_kms_helper.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.105/drm_kms_helper.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.105/drm_kms_helper.ko",
             "sha256": "61bbb98d0dac82580226c25909cc5bc0e7bed0ea6c0511de1d8ea3012f037ed1",
             "packed": false
         },
         {
             "name": "check-drm_kms_helper.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.105/check-drm_kms_helper.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/braswell-3.10.105/check-drm_kms_helper.sh",
             "sha256": "54b0221af6d22110ef129d0aa454b7bb76a04820bce6760351ba6bdac29367e7",
             "packed": false
         }

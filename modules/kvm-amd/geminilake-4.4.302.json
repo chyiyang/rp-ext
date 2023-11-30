@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/geminilake-4.4.302/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/geminilake-4.4.302/kvm.ko",
             "sha256": "b9f76fe4fe725fd05a2c18427e33e80aba7552809ebfb47f7f64d140923842b1",
             "packed": false
         },
         {
             "name": "kvm-amd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/geminilake-4.4.302/kvm-amd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/geminilake-4.4.302/kvm-amd.ko",
             "sha256": "9c860b63956a2a092dbbde8a2d93e422ff3c6670fbd5b83c991dfaca4cdf3fcf",
             "packed": false
         },
         {
             "name": "check-kvm-amd.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/geminilake-4.4.302/check-kvm-amd.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/geminilake-4.4.302/check-kvm-amd.sh",
             "sha256": "5ea91215f63363b4c8743778eee3dd93ae6318ce6581980be17463d59637e33f",
             "packed": false
         }

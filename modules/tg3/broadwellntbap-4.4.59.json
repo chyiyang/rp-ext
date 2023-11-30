@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/libphy.ko",
             "sha256": "0c41e6239fdb578b4e6e0957eb852b405529a32344fc8bc321136e9c28134d4c",
             "packed": false
         },
         {
             "name": "tg3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/tg3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/tg3.ko",
             "sha256": "959e4fc1c4dedf7728dd4276f52603ad0939f5f555958315e673a5156aa06bca",
             "packed": false
         },
         {
             "name": "check-tg3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/check-tg3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/check-tg3.sh",
             "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
             "packed": false
         },
         {
             "name": "tg3_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/tg3_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/tg3_firmware.tag.gz",
             "sha256": "c3c33f7a01e3e2014da4e92d4aa95e876b60f5c54c05b495f5163f84ea0c23e1",
             "packed": false
         },
         {
             "name": "install-tg3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/install-tg3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.59/install-tg3.sh",
             "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
             "packed": false
         }

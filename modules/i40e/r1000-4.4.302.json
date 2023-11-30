@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "intel_auxiliary.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/r1000-4.4.302/intel_auxiliary.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i40e/r1000-4.4.302/intel_auxiliary.ko",
             "sha256": "cd149fab813c5d0bf168e6542a49f56847d5c50451bd44b5671b967a8b779a47",
             "packed": false
         },
         {
             "name": "i40e.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/r1000-4.4.302/i40e.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i40e/r1000-4.4.302/i40e.ko",
             "sha256": "ebd5891a763e0f073623a57dc2004bdd274e7da92e1df1e44b920de18243fef2",
             "packed": false
         },
         {
             "name": "check-i40e.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/r1000-4.4.302/check-i40e.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i40e/r1000-4.4.302/check-i40e.sh",
             "sha256": "95b60e623484ba6d9671bc6de51787bd0784d5b82c0f465f41323cd1f8b7301c",
             "packed": false
         }

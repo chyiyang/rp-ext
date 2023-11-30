@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "usbnet.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/apollolake-4.4.302/usbnet.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8153_ecm/apollolake-4.4.302/usbnet.ko",
             "sha256": "1b4e1ee63320cc03b031a22aefa4d3bc44245bb2ed0b9946bcdd1aa66a5b7a45",
             "packed": false
         },
         {
             "name": "r8153_ecm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/apollolake-4.4.302/r8153_ecm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8153_ecm/apollolake-4.4.302/r8153_ecm.ko",
             "sha256": "2905a8339919236c2037d64314643b168449d043731d56ff32d110e2fc334093",
             "packed": false
         },
         {
             "name": "check-r8153_ecm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/apollolake-4.4.302/check-r8153_ecm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8153_ecm/apollolake-4.4.302/check-r8153_ecm.sh",
             "sha256": "c59a97b9f07aba38b02111603c585a20fd7641f7dce383daaea26bf5df3da22f",
             "packed": false
         }

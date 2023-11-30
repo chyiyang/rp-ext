@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "backlight.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/apollolake-4.4.302/backlight.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/video/apollolake-4.4.302/backlight.ko",
             "sha256": "f1ff089cf4b6fdec99806fdd5806fd3a4bc6aec0a273b5d75f8f32ea0923ce90",
             "packed": false
         },
         {
             "name": "video.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/apollolake-4.4.302/video.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/video/apollolake-4.4.302/video.ko",
             "sha256": "482563e9dc5b8bdb6a32645e1e72d5937f9e0e1467dc8532f0ef3fd0f9377b85",
             "packed": false
         },
         {
             "name": "check-video.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/video/apollolake-4.4.302/check-video.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/video/apollolake-4.4.302/check-video.sh",
             "sha256": "37c91308be4bda70139eb2437980aab22928168b79bd6ad01f63507587250175",
             "packed": false
         }

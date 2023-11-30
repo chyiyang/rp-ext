@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mdio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/mdio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/mdio.ko",
             "sha256": "28b8c13ae56c50b44bf1f4dbd99c7923451ec39e26572fb8a1992116250fe574",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/cxgb3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/cxgb3.ko",
             "sha256": "011a77d5bc3fde770205c9479163b5a9e5047d683a518ece93902ff56750fa17",
             "packed": false
         },
         {
             "name": "check-cxgb3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/check-cxgb3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/check-cxgb3.sh",
             "sha256": "027e543cf8b835b88abe7c6904ab386046c9a559aa977d6382009ce8e25fd260",
             "packed": false
         },
         {
             "name": "cxgb3_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/cxgb3_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/cxgb3_firmware.tag.gz",
             "sha256": "a8f0740f61d6a94ab570408daf05957b59e315b842e13f44c734695546efae86",
             "packed": false
         },
         {
             "name": "install-cxgb3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/install-cxgb3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/purley-4.4.302/install-cxgb3.sh",
             "sha256": "b8f7d4ca1a16e30f28298ab84f755b834c68dac29674a2b8a9b49ade6fc18893",
             "packed": false
         }

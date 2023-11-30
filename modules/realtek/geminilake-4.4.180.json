@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/geminilake-4.4.180/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/realtek/geminilake-4.4.180/libphy.ko",
             "sha256": "18d695abb9edf63d67e490de9a3e5bb6b98f92336ef3a7c94c67b9a68419b97c",
             "packed": false
         },
         {
             "name": "realtek.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/geminilake-4.4.180/realtek.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/realtek/geminilake-4.4.180/realtek.ko",
             "sha256": "666d5b6b2c4ac75c01923297f0488ad94637548f98a903b14ce91d9edf41647a",
             "packed": false
         },
         {
             "name": "check-realtek.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/geminilake-4.4.180/check-realtek.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/realtek/geminilake-4.4.180/check-realtek.sh",
             "sha256": "c207cf47178a61555b5e65aa6bf6a20812b9fb0bed2ed3d3ae067a80e9f55822",
             "packed": false
         }

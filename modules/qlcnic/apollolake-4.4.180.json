@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "qlcnic.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/qlcnic.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/qlcnic.ko",
             "sha256": "24f7ef2ffbbf9798951fa68fc29c38e10220e26ff3c02de05c106670b291c411",
             "packed": false
         },
         {
             "name": "check-qlcnic.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/check-qlcnic.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/check-qlcnic.sh",
             "sha256": "2120fef1be9764915ea5ac76a79c4eef8b5389e075ad9f1a7d087eb69147aff7",
             "packed": false
         },
         {
             "name": "qlcnic_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/qlcnic_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/qlcnic_firmware.tag.gz",
             "sha256": "c7b27a416373162903e7ebebb99e62135bf74567372a1a6b65469c4e1eccc813",
             "packed": false
         },
         {
             "name": "install-qlcnic.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/install-qlcnic.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/apollolake-4.4.180/install-qlcnic.sh",
             "sha256": "ffae6a534b601a07e7f68b1a39ceedf6ea902d4ad0b9098953ea954a71ee2107",
             "packed": false
         }

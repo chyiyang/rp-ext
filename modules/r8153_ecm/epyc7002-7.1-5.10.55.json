@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "usbnet.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-7.1-5.10.55/usbnet.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8153_ecm/epyc7002-7.1-5.10.55/usbnet.ko",
             "sha256": "7deeda1a6c47bdd8898f2463084c3154fa682244f1e04e21e4cd0949084bd47c",
             "packed": false
         },
         {
             "name": "r8153_ecm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-7.1-5.10.55/r8153_ecm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8153_ecm/epyc7002-7.1-5.10.55/r8153_ecm.ko",
             "sha256": "f5e1dcf0d5cf623d02da6e4468d86e471a2676ab9592508e7d6a96488c07a767",
             "packed": false
         },
         {
             "name": "check-r8153_ecm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8153_ecm/epyc7002-7.1-5.10.55/check-r8153_ecm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8153_ecm/epyc7002-7.1-5.10.55/check-r8153_ecm.sh",
             "sha256": "c59a97b9f07aba38b02111603c585a20fd7641f7dce383daaea26bf5df3da22f",
             "packed": false
         }

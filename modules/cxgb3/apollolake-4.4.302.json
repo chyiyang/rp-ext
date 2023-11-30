@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mdio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/mdio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/mdio.ko",
             "sha256": "2c3f86ec260f795007d209901ecdbf3c128b6d0d74fa3598afe29c8c5b6426d2",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/cxgb3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/cxgb3.ko",
             "sha256": "653c8705414fcc3e7114c5e58ca51b2e30eb09e5d9734bfc9bccc9d1c760114e",
             "packed": false
         },
         {
             "name": "check-cxgb3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/check-cxgb3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/check-cxgb3.sh",
             "sha256": "027e543cf8b835b88abe7c6904ab386046c9a559aa977d6382009ce8e25fd260",
             "packed": false
         },
         {
             "name": "cxgb3_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/cxgb3_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/cxgb3_firmware.tag.gz",
             "sha256": "b357f5f7f1ad1a7c71e7a70d8214f15035a2e0a3eeb25b8d21a67a8513d7902b",
             "packed": false
         },
         {
             "name": "install-cxgb3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/install-cxgb3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/apollolake-4.4.302/install-cxgb3.sh",
             "sha256": "b8f7d4ca1a16e30f28298ab84f755b834c68dac29674a2b8a9b49ade6fc18893",
             "packed": false
         }

@@ -1,23 +1,23 @@
 {
     "id": "ing.kvm-intel",
-    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/rpext-index.json",
+    "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/rpext-index.json",
     "info": {
         "name": "kvm-intel",
         "description": "",
-        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
-        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "author_url": "https://github.com/chenxudong2020/rp-ext/raw/main",
+        "packer_url": "https://github.com/chenxudong2020/rp-ext/raw/main",
         "help_url": "<todo>"
     },
     "releases": {
-        "apollolake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/apollolake-4.4.302.json",
-        "broadwell-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/broadwell-4.4.302.json",
-        "broadwellnk-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/broadwellnk-4.4.302.json",
-        "denverton-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/denverton-4.4.302.json",
-        "epyc7002-7.1-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.1-5.10.55.json",
-        "epyc7002-7.2-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.2-5.10.55.json",
-        "geminilake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/geminilake-4.4.302.json",
-        "purley-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/purley-4.4.302.json",
-        "r1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/r1000-4.4.302.json",
-        "v1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/v1000-4.4.302.json"
+        "apollolake-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/apollolake-4.4.302.json",
+        "broadwell-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/broadwell-4.4.302.json",
+        "broadwellnk-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/broadwellnk-4.4.302.json",
+        "denverton-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/denverton-4.4.302.json",
+        "epyc7002-7.1-5.10.55": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.1-5.10.55.json",
+        "epyc7002-7.2-5.10.55": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.2-5.10.55.json",
+        "geminilake-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/geminilake-4.4.302.json",
+        "purley-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/purley-4.4.302.json",
+        "r1000-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/r1000-4.4.302.json",
+        "v1000-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/v1000-4.4.302.json"
     }
 }

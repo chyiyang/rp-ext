@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/libphy.ko",
             "sha256": "53cb323256892d6402a905e06b55cde10a7602ac420c8e4a3bb1afd3795dd24d",
             "packed": false
         },
         {
             "name": "mii.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/mii.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/mii.ko",
             "sha256": "3ec9e02fe40414c32e46384f29c92b0cdc4b99b3dfb29cbd023ace0ce7bbced0",
             "packed": false
         },
         {
             "name": "b44.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/b44.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/b44.ko",
             "sha256": "55b7a95c385d741a8e179db11a6030119703cbda393ba58b60619e5dbd215bac",
             "packed": false
         },
         {
             "name": "check-b44.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/check-b44.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/b44/epyc7002-7.2-5.10.55/check-b44.sh",
             "sha256": "22c041d3a2421185130dac8a7332ec49091be831fe49df27f374e9e3a9b4dfd3",
             "packed": false
         }

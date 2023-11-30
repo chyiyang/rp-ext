@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mii.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/mii.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/mii.ko",
             "sha256": "2a7137f55b1ed4375ee53996eab13d148d8d65bc8ebd23c3294a8d1b3ac48b02",
             "packed": false
         },
         {
             "name": "r8169_lk.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/r8169_lk.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/r8169_lk.ko",
             "sha256": "0342ed929b739b367aabe48336d007518fb67be062a9a92967e8125931e2f8cd",
             "packed": false
         },
         {
             "name": "check-r8169_lk.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/check-r8169_lk.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/check-r8169_lk.sh",
             "sha256": "f4bffd3cab4d1b3c316f7d70eb55609e62b1e338f4ae83988ff7a095125e9c47",
             "packed": false
         },
         {
             "name": "r8169_lk_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/r8169_lk_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/r8169_lk_firmware.tag.gz",
             "sha256": "c5f03f1c90439871d669d8a851ace5563de4f373d02c868780d16c5c00e04283",
             "packed": false
         },
         {
             "name": "install-r8169_lk.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/install-r8169_lk.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/broadwell-4.4.180/install-r8169_lk.sh",
             "sha256": "ad1703d47256f5ed5587b1fd6d11d36f0e1bac8db9cd2382e2d98fb8ed054be4",
             "packed": false
         }

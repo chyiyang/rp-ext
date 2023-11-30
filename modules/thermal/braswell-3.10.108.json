@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "thermal_sys.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/braswell-3.10.108/thermal_sys.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/thermal/braswell-3.10.108/thermal_sys.ko",
             "sha256": "a8b23d577e333fb7690ca1f2ff67097882866bb35687a5b8bc8958b60a8b5fe1",
             "packed": false
         },
         {
             "name": "thermal.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/braswell-3.10.108/thermal.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/thermal/braswell-3.10.108/thermal.ko",
             "sha256": "b5f25d6093a3ca61bdbf2725b850376f321ab7d82a2572e1df5cae1cc042ba58",
             "packed": false
         },
         {
             "name": "check-thermal.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/thermal/braswell-3.10.108/check-thermal.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/thermal/braswell-3.10.108/check-thermal.sh",
             "sha256": "bee9b2f4effd191893048f47dd7047f79673930e81b165034417e365e1437b64",
             "packed": false
         }

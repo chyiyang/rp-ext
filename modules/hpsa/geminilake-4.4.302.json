@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/geminilake-4.4.302/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/geminilake-4.4.302/scsi_transport_sas.ko",
             "sha256": "1c20f96ef40c4336369ce1adfc870ed73b46f94b196dbe174781572cfe9a73d8",
             "packed": false
         },
         {
             "name": "hpsa.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/geminilake-4.4.302/hpsa.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/geminilake-4.4.302/hpsa.ko",
             "sha256": "d4fce4fb75281193ab4feea92319fb3d63be6948e3ef34ac81ca820ade058fc0",
             "packed": false
         },
         {
             "name": "check-hpsa.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/geminilake-4.4.302/check-hpsa.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/geminilake-4.4.302/check-hpsa.sh",
             "sha256": "e6ed314fa0d63959abd972bf9bc4b7249976f29e18df30fae64ec6b918c65a73",
             "packed": false
         }

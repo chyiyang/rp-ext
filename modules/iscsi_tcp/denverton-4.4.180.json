@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libiscsi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/libiscsi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/libiscsi.ko",
             "sha256": "c8f1e1355858af8228129ecd4f3906cc2a212732ad940a1818ce0a28918b062e",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/libiscsi_tcp.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/libiscsi_tcp.ko",
             "sha256": "8ad18de9c9858acc2c0352b41a406c9dc948b6bda48ebe6a5236f6028be71719",
             "packed": false
         },
         {
             "name": "iscsi_tcp.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/iscsi_tcp.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/iscsi_tcp.ko",
             "sha256": "54534f04d0e6768ddb91a681d7dce9988ad816c72854618644550d488e871901",
             "packed": false
         },
         {
             "name": "check-iscsi_tcp.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/check-iscsi_tcp.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/denverton-4.4.180/check-iscsi_tcp.sh",
             "sha256": "406de6b4891ee599907e99c84c3126d4649fd5147fba504e90d604250e726eb4",
             "packed": false
         }

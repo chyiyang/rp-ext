@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/apollolake-4.4.180/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/via-sdmmc/apollolake-4.4.180/mmc_core.ko",
             "sha256": "a51dd8622d200fb1c90f27fced23b14b6a69f9a9af746fb0f1454c2627d4d755",
             "packed": false
         },
         {
             "name": "via-sdmmc.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/apollolake-4.4.180/via-sdmmc.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/via-sdmmc/apollolake-4.4.180/via-sdmmc.ko",
             "sha256": "1a4f406a56bfc32818db97c6b225f8c1a491b872d720d454202a020087ef3fa5",
             "packed": false
         },
         {
             "name": "check-via-sdmmc.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/via-sdmmc/apollolake-4.4.180/check-via-sdmmc.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/via-sdmmc/apollolake-4.4.180/check-via-sdmmc.sh",
             "sha256": "8588fdfbf4a39fc36a3bad16ef150ce85c090f903b3e9bb57b36b8898d45ad4c",
             "packed": false
         }

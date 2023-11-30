@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/libphy.ko",
             "sha256": "ecb449753160879e55f04992ac64785fa96c3d17e656cd73d827b7612e75b322",
             "packed": false
         },
         {
             "name": "tg3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/tg3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/tg3.ko",
             "sha256": "b9a3a38efb25557f33b16276ec9b95026b16e41477d952a93796b8f2a1bccf64",
             "packed": false
         },
         {
             "name": "check-tg3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/check-tg3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/check-tg3.sh",
             "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
             "packed": false
         },
         {
             "name": "tg3_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/tg3_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/tg3_firmware.tag.gz",
             "sha256": "4b6f728d0c64f20aada3cb7a98612a0d8f32ccf29d23e5c09cf7ce434c3c2509",
             "packed": false
         },
         {
             "name": "install-tg3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/install-tg3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/geminilake-4.4.59/install-tg3.sh",
             "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
             "packed": false
         }

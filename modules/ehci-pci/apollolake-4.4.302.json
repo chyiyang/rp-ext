@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "ehci-hcd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.302/ehci-hcd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.302/ehci-hcd.ko",
             "sha256": "1b47b46fec364e6f9373c4216522f2c6074b6972c5b7c2c2156dc134e1959ea7",
             "packed": false
         },
         {
             "name": "ehci-pci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.302/ehci-pci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.302/ehci-pci.ko",
             "sha256": "3b857e88abeb5ffc067bfbb8b184ff2fa99a41b742b20fdef8104a9f110ea745",
             "packed": false
         },
         {
             "name": "check-ehci-pci.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.302/check-ehci-pci.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ehci-pci/apollolake-4.4.302/check-ehci-pci.sh",
             "sha256": "3b6c212f8b0ea7bee398f97ed6d1cb73d5f4e08f8c986dae9064146d9b1ee907",
             "packed": false
         }

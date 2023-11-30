@@ -1,14 +1,14 @@
 {
-  "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmecache/rpext-index.json",
+  "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/nvmecache/rpext-index.json",
   "id": "nvmecache",
   "info": {
     "name": "nvmecache",
     "description": "Enable M2 cache of DS918+,DS1019+,DS1621xs+ (need reboot once)",
-    "packer_url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmecache",
-    "help_url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmecache"
+    "packer_url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/nvmecache",
+    "help_url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/nvmecache"
   },
   "releases": {
-    "_": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmecache/recipes/universal.json",
+    "_": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/nvmecache/recipes/universal.json",
     "zendofmodel": "endofurls"
   }
 }

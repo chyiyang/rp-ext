@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mptscsih.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/mptscsih.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/mptscsih.ko",
             "sha256": "49edab95944edabb990606c47229511c396e8ae997b1a98acb708e8ebe613f9f",
             "packed": false
         },
         {
             "name": "mptbase.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/mptbase.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/mptbase.ko",
             "sha256": "e6b6311658c989c9261a735ec1416741d6c419667ac831bd41aded9d80126aa2",
             "packed": false
         },
         {
             "name": "scsi_transport_spi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/scsi_transport_spi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/scsi_transport_spi.ko",
             "sha256": "155d2d79ad9247e19b1268fa56d347b4e6bbaa132a6537f112efa038937e6d25",
             "packed": false
         },
         {
             "name": "mptspi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/mptspi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/mptspi.ko",
             "sha256": "2147a8504de3009bbc59675b2557ac2e817aa98d8e43f02b1cde2b7f57978e9c",
             "packed": false
         },
         {
             "name": "check-mptspi.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/check-mptspi.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/bromolow-3.10.105/check-mptspi.sh",
             "sha256": "54872bbf44876aaf8f8672226c6852d9371c9c9d8f0b098214e3e09e0a6dd653",
             "packed": false
         }

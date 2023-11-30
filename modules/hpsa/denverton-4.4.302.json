@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/denverton-4.4.302/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/denverton-4.4.302/scsi_transport_sas.ko",
             "sha256": "494870ec9a2c557d2f9f124ea12d5e75a299f4723d27d56a53b90dcf5100fefa",
             "packed": false
         },
         {
             "name": "hpsa.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/denverton-4.4.302/hpsa.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/denverton-4.4.302/hpsa.ko",
             "sha256": "72a621de37bdfc119fac94ec48d94038b5c8b0f17d467a8e4e500e7b484ea69a",
             "packed": false
         },
         {
             "name": "check-hpsa.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/denverton-4.4.302/check-hpsa.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/denverton-4.4.302/check-hpsa.sh",
             "sha256": "e6ed314fa0d63959abd972bf9bc4b7249976f29e18df30fae64ec6b918c65a73",
             "packed": false
         }

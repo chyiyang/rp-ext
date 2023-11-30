@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "fb.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/fb.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/fb.ko",
             "sha256": "eb1eb6aa231aeb4a081464055a4206f380da1f9e0d8c558effafb2425812ee14",
             "packed": false
         },
         {
             "name": "font.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/font.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/font.ko",
             "sha256": "6e92e2e0fcbfb20cfe031d56677a64c38d10e586d2d3de15670e8f334a5a0329",
             "packed": false
         },
         {
             "name": "bitblit.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/bitblit.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/bitblit.ko",
             "sha256": "3317217bf89e2c9a6bd8c618d71adbe6e7bb6daf779fd6b069794ce5dafcdd3b",
             "packed": false
         },
         {
             "name": "fbcon.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/fbcon.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/fbcon.ko",
             "sha256": "0799ee0730f635689d02db30c5917aab313dc6af8f38a915c92fa865fd49b92e",
             "packed": false
         },
         {
             "name": "check-fbcon.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/check-fbcon.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/fbcon/broadwellnkv2-4.4.302/check-fbcon.sh",
             "sha256": "6defb205e12ccc8f1cc937241f6e21d378d3cc387003a2b34a0c3b2153d573da",
             "packed": false
         }

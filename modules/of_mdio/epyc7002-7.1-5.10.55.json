@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/of_mdio/epyc7002-7.1-5.10.55/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/of_mdio/epyc7002-7.1-5.10.55/libphy.ko",
             "sha256": "8d7fc0dda3e2ae10b25ef4025a6202b5ed2ced90221a5b8633d6b95560942161",
             "packed": false
         },
         {
             "name": "fixed_phy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/of_mdio/epyc7002-7.1-5.10.55/fixed_phy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/of_mdio/epyc7002-7.1-5.10.55/fixed_phy.ko",
             "sha256": "d8ee345fb929c0c8cfba465e412d1bea5eafcbf3e2827e5419022950e577008b",
             "packed": false
         },
         {
             "name": "of_mdio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/of_mdio/epyc7002-7.1-5.10.55/of_mdio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/of_mdio/epyc7002-7.1-5.10.55/of_mdio.ko",
             "sha256": "4b307f852f6396f2e74f2ec108a386456b970cce1f888d020a08eae18f03fadb",
             "packed": false
         },
         {
             "name": "check-of_mdio.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/of_mdio/epyc7002-7.1-5.10.55/check-of_mdio.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/of_mdio/epyc7002-7.1-5.10.55/check-of_mdio.sh",
             "sha256": "96165b261725deeffcce258f358c5f0ea6927d674ef06b31d88327ebd66de440",
             "packed": false
         }

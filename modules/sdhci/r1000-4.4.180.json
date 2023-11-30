@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/r1000-4.4.180/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/r1000-4.4.180/mmc_core.ko",
             "sha256": "f41aace25a3f7f667a4ba5429c1bf7f35172223617660310d746e9802f73d4c4",
             "packed": false
         },
         {
             "name": "sdhci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/r1000-4.4.180/sdhci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/r1000-4.4.180/sdhci.ko",
             "sha256": "fc98d74b9c2a63777cf113afd7fecd5e488655873e8ef46196aae47c15aedf6f",
             "packed": false
         },
         {
             "name": "check-sdhci.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/r1000-4.4.180/check-sdhci.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/r1000-4.4.180/check-sdhci.sh",
             "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
             "packed": false
         }

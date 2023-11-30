@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/apollolake-4.4.180/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/apollolake-4.4.180/libphy.ko",
             "sha256": "0274fad9c89677f550b4d6f68c033b8c0b6a231b64eeb2eca8784fbad827079f",
             "packed": false
         },
         {
             "name": "bcm-phy-lib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/apollolake-4.4.180/bcm-phy-lib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/apollolake-4.4.180/bcm-phy-lib.ko",
             "sha256": "cb1acdb572a90ae73e383a119ec9efa2a6b11603af957403b668ed37b6578a3b",
             "packed": false
         },
         {
             "name": "check-bcm-phy-lib.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/apollolake-4.4.180/check-bcm-phy-lib.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/apollolake-4.4.180/check-bcm-phy-lib.sh",
             "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
             "packed": false
         }

@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "dvb-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/dvb-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/dvb-core.ko",
             "sha256": "bc3c33a609c7fce0777ac044607a0c215a1aeea805514a486619f541d60d9740",
             "packed": false
         },
         {
             "name": "m88ds3103.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/m88ds3103.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/m88ds3103.ko",
             "sha256": "396ba7d2b1bd4791d8c86c0b691385d461d82a9464c5821cac0be76b37b2d06f",
             "packed": false
         },
         {
             "name": "check-m88ds3103.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/check-m88ds3103.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/check-m88ds3103.sh",
             "sha256": "ff8a9b8ea9181629bff836fa27c7a1f32e71a920bf5586a0f8723231fb67141a",
             "packed": false
         },
         {
             "name": "m88ds3103_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/m88ds3103_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/m88ds3103_firmware.tag.gz",
             "sha256": "97ae23883b74c515cc8e376a32a907b6616a1f36faf7f2a81d1e5983d1af70d0",
             "packed": false
         },
         {
             "name": "install-m88ds3103.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/install-m88ds3103.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/m88ds3103/geminilake-4.4.302/install-m88ds3103.sh",
             "sha256": "114a49d9e59e0382f8b53d74a9ab40e15509db0c57cf1a8ade48d08199a65652",
             "packed": false
         }

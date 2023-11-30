@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "libiscsi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/apollolake-4.4.302/libiscsi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libiscsi_tcp/apollolake-4.4.302/libiscsi.ko",
             "sha256": "c5bcdb82711cf893fad54cf7a4eadf18cf9c57caff68653f0a49898a43cab080",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/apollolake-4.4.302/libiscsi_tcp.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libiscsi_tcp/apollolake-4.4.302/libiscsi_tcp.ko",
             "sha256": "c01be0f819ba25e6cb3074de46a9476a60aa493c0a88d40e708935cb0453598c",
             "packed": false
         },
         {
             "name": "check-libiscsi_tcp.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libiscsi_tcp/apollolake-4.4.302/check-libiscsi_tcp.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libiscsi_tcp/apollolake-4.4.302/check-libiscsi_tcp.sh",
             "sha256": "1c62586a1d72d183dd6119b9e4fe6ed6b3ff2129f7ab4a92ca5f257e659a2495",
             "packed": false
         }

@@ -3,13 +3,13 @@
     "files": [
         {
             "name": "failover.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/failover/epyc7002-7.2-5.10.55/failover.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/failover/epyc7002-7.2-5.10.55/failover.ko",
             "sha256": "130a1a4c3673bf8a2c0af028d709e802c9ff12fe87a8199489eaa2c30d3c8e77",
             "packed": false
         },
         {
             "name": "check-failover.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/failover/epyc7002-7.2-5.10.55/check-failover.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/failover/epyc7002-7.2-5.10.55/check-failover.sh",
             "sha256": "a461dd2146aa7d5860ca6a121d4569befab88981b189a48a970e1e833ef948b2",
             "packed": false
         }

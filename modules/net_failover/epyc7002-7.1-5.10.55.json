@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "failover.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/epyc7002-7.1-5.10.55/failover.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/net_failover/epyc7002-7.1-5.10.55/failover.ko",
             "sha256": "7916467393da0160e90a93c0aaac7c04e0cd47a74801bd7e41790b80dc590c63",
             "packed": false
         },
         {
             "name": "net_failover.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/epyc7002-7.1-5.10.55/net_failover.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/net_failover/epyc7002-7.1-5.10.55/net_failover.ko",
             "sha256": "6f3bd1370cee5e384dca5e19d2c8009dcd2a231756275318060802bf9a992e53",
             "packed": false
         },
         {
             "name": "check-net_failover.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/net_failover/epyc7002-7.1-5.10.55/check-net_failover.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/net_failover/epyc7002-7.1-5.10.55/check-net_failover.sh",
             "sha256": "88f8d4f49a179d9b2253417a72c59c6172e7b9e16bb8bf1f6ed1d2073d5f7059",
             "packed": false
         }

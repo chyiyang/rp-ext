@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/v1000-4.4.59/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/v1000-4.4.59/scsi_transport_sas.ko",
             "sha256": "38acd2f2dfb5e83c43950c4a4f7dcdbed53c329ceb51b0b1ed2466cec020137f",
             "packed": false
         },
         {
             "name": "hpsa.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/v1000-4.4.59/hpsa.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/v1000-4.4.59/hpsa.ko",
             "sha256": "52c0515677d38034d9061802aa12da2fdf7c0d174e1c003b05565321e476804f",
             "packed": false
         },
         {
             "name": "check-hpsa.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/v1000-4.4.59/check-hpsa.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/v1000-4.4.59/check-hpsa.sh",
             "sha256": "e6ed314fa0d63959abd972bf9bc4b7249976f29e18df30fae64ec6b918c65a73",
             "packed": false
         }

@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/purley-4.4.302/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/purley-4.4.302/kvm.ko",
             "sha256": "21abfcc4bafb15b4530e71b9add3c55c90bdd6b0367cc1a6b5b19a6e29801a55",
             "packed": false
         },
         {
             "name": "kvm-amd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/purley-4.4.302/kvm-amd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/purley-4.4.302/kvm-amd.ko",
             "sha256": "02eba7395da47b102da05831837ac4a4f68ccc760919b506bb264bb2040b1ade",
             "packed": false
         },
         {
             "name": "check-kvm-amd.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/purley-4.4.302/check-kvm-amd.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/purley-4.4.302/check-kvm-amd.sh",
             "sha256": "5ea91215f63363b4c8743778eee3dd93ae6318ce6581980be17463d59637e33f",
             "packed": false
         }

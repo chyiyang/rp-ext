@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 Ing <https://github.com/wjz304>
+# Copyright (C) 2022 Ing <https://github.com/chenxudong2020>
 # 
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
@@ -40,10 +40,10 @@ jobs:
         if: inputs.arpl == true
         run: |
 
-          TAG=`curl -skL "https://api.github.com/repos/wjz304/arpl-modules/releases" | jq -r ".[0].tag_name" 2>/dev/null`
+          TAG=`curl -skL "https://api.github.com/repos/chenxudong2020/arpl-modules/releases" | jq -r ".[0].tag_name" 2>/dev/null`
           [ -z "${TAG}" ] && echo "get tag error" || echo "TAG: ${TAG}"
 
-          curl -#kL "https://github.com/wjz304/arpl-modules/releases/download/${TAG}/modules.zip" -o "/tmp/modules.zip"
+          curl -#kL "https://github.com/chenxudong2020/arpl-modules/releases/download/${TAG}/modules.zip" -o "/tmp/modules.zip"
           if [ ! -f "/tmp/modules.zip" ]; then
             echo "get zip error"
             exit 1

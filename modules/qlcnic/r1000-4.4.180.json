@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "qlcnic.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/r1000-4.4.180/qlcnic.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/r1000-4.4.180/qlcnic.ko",
             "sha256": "b6684d87f4df536efeb03cf40e4ca6333bbbc640b605f4b052af77b32981e6d8",
             "packed": false
         },
         {
             "name": "check-qlcnic.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/r1000-4.4.180/check-qlcnic.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/r1000-4.4.180/check-qlcnic.sh",
             "sha256": "2120fef1be9764915ea5ac76a79c4eef8b5389e075ad9f1a7d087eb69147aff7",
             "packed": false
         },
         {
             "name": "qlcnic_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/r1000-4.4.180/qlcnic_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/r1000-4.4.180/qlcnic_firmware.tag.gz",
             "sha256": "f9550b0e5e04de41138b575392c8614d0c29a07bd2a6c308bd30e6a5e500f7ce",
             "packed": false
         },
         {
             "name": "install-qlcnic.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/r1000-4.4.180/install-qlcnic.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/r1000-4.4.180/install-qlcnic.sh",
             "sha256": "ffae6a534b601a07e7f68b1a39ceedf6ea902d4ad0b9098953ea954a71ee2107",
             "packed": false
         }

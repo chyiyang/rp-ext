@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "usbnet.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/broadwellntbap-4.4.302/usbnet.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ax88179_178a/broadwellntbap-4.4.302/usbnet.ko",
             "sha256": "124e223be9b31d1c08ebc958ce7c0761d4d73fdab10599e487764c12b9fe1e43",
             "packed": false
         },
         {
             "name": "mii.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/broadwellntbap-4.4.302/mii.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ax88179_178a/broadwellntbap-4.4.302/mii.ko",
             "sha256": "3dd75beb0f7cb85e8a66bc93702980fb5749414567beb35e71b8fd57f6f29441",
             "packed": false
         },
         {
             "name": "ax88179_178a.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/broadwellntbap-4.4.302/ax88179_178a.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ax88179_178a/broadwellntbap-4.4.302/ax88179_178a.ko",
             "sha256": "af5cc775ea5c6ac3ff86cf544816dc890e658a3502ea20127145de9fa71cea49",
             "packed": false
         },
         {
             "name": "check-ax88179_178a.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ax88179_178a/broadwellntbap-4.4.302/check-ax88179_178a.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ax88179_178a/broadwellntbap-4.4.302/check-ax88179_178a.sh",
             "sha256": "d794fac463662468f0ec88c1864541f22e0e44c02fc89b0861b4bc86793df3d2",
             "packed": false
         }

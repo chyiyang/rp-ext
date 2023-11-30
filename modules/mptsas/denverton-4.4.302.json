@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mptscsih.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/mptscsih.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/mptscsih.ko",
             "sha256": "6c43cc16e2831c4b7f4487bee8181f0b30c49b0eae505f92a85c2ed8bb94eed6",
             "packed": false
         },
         {
             "name": "mptbase.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/mptbase.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/mptbase.ko",
             "sha256": "29b7367be49d78f24471f9dddc246b5534813bd69ec7b732ea664c64b4730dee",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/scsi_transport_sas.ko",
             "sha256": "494870ec9a2c557d2f9f124ea12d5e75a299f4723d27d56a53b90dcf5100fefa",
             "packed": false
         },
         {
             "name": "mptsas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/mptsas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/mptsas.ko",
             "sha256": "3fa04ce12fceecf2bbca1a5404c9bad4010501a91e702f7fc85bcd4492aafe3a",
             "packed": false
         },
         {
             "name": "check-mptsas.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/check-mptsas.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/denverton-4.4.302/check-mptsas.sh",
             "sha256": "adf9571262e64da53b8d83ffe40a58e6df0368a3cb62eb5f6465a668d60dfff9",
             "packed": false
         }

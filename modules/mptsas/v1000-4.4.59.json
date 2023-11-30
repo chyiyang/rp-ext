@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mptscsih.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/mptscsih.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/mptscsih.ko",
             "sha256": "ab35819de2a2a62918df185dee3c17f86af5100e0aa6adbe96f45f490826e253",
             "packed": false
         },
         {
             "name": "mptbase.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/mptbase.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/mptbase.ko",
             "sha256": "436728f00cb97a1b29df76480f4247adadf94c525798e68264decacc5d1120ba",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/scsi_transport_sas.ko",
             "sha256": "38acd2f2dfb5e83c43950c4a4f7dcdbed53c329ceb51b0b1ed2466cec020137f",
             "packed": false
         },
         {
             "name": "mptsas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/mptsas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/mptsas.ko",
             "sha256": "4ad5b6831615b11ad4c4ee3ffebb88fe91dcbf9ea0d5bc0a50f57c02b741aa93",
             "packed": false
         },
         {
             "name": "check-mptsas.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/check-mptsas.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptsas/v1000-4.4.59/check-mptsas.sh",
             "sha256": "adf9571262e64da53b8d83ffe40a58e6df0368a3cb62eb5f6465a668d60dfff9",
             "packed": false
         }

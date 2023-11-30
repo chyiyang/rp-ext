@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/virtio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/virtio.ko",
             "sha256": "6713e7263713a48841ff8b0c928d1d6fac4d96a41ffbb788b4b992b56f26e38c",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/virtio_ring.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/virtio_ring.ko",
             "sha256": "c718e8c8fbadb2b462b8cdb3cd544acad2859fb2816e67abee57604d8f1a9aa2",
             "packed": false
         },
         {
             "name": "virtio_input.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/virtio_input.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/virtio_input.ko",
             "sha256": "7fc1763c743c91884b217bc8f3ce1803920760064c8db37504df2095b56b9d4c",
             "packed": false
         },
         {
             "name": "check-virtio_input.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/check-virtio_input.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/purley-4.4.59/check-virtio_input.sh",
             "sha256": "f83496c28dfba446107625ddd7b4868d5cbbfe4bdb620641bc87c8c37bb015d7",
             "packed": false
         }

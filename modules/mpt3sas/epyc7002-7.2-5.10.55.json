@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.2-5.10.55/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.2-5.10.55/scsi_transport_sas.ko",
             "sha256": "a564842728c457221e71b6e1cc2f4d15d3ca53cb11a3ba2a95548d8018d37476",
             "packed": false
         },
         {
             "name": "mpt3sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.2-5.10.55/mpt3sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.2-5.10.55/mpt3sas.ko",
             "sha256": "ef2991e59aacf2664398c68044f95d6b8ec6d7245da568026039bceacfdf2415",
             "packed": false
         },
         {
             "name": "check-mpt3sas.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.2-5.10.55/check-mpt3sas.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/epyc7002-7.2-5.10.55/check-mpt3sas.sh",
             "sha256": "d23e676b04090c6cf95f8d330a5f59ed7f389f2139fcfe75a0c13830939421d0",
             "packed": false
         }

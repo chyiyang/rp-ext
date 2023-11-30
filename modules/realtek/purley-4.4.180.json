@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/purley-4.4.180/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/realtek/purley-4.4.180/libphy.ko",
             "sha256": "94a3856ff006a897111084320b57367f034da5e4ac5fba7e19041bd086cddf11",
             "packed": false
         },
         {
             "name": "realtek.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/purley-4.4.180/realtek.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/realtek/purley-4.4.180/realtek.ko",
             "sha256": "52dd1fcb1a241a4780bafc58ffbc861786f3fe40df6bd3c856fab0b44dfcbc35",
             "packed": false
         },
         {
             "name": "check-realtek.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/realtek/purley-4.4.180/check-realtek.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/realtek/purley-4.4.180/check-realtek.sh",
             "sha256": "c207cf47178a61555b5e65aa6bf6a20812b9fb0bed2ed3d3ae067a80e9f55822",
             "packed": false
         }

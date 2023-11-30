@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mii.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/mii.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/mii.ko",
             "sha256": "6483527e54bb2a6fe1d419df6841184add5f40c45d618c197c3d41c77c053b74",
             "packed": false
         },
         {
             "name": "r8169_lk.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/r8169_lk.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/r8169_lk.ko",
             "sha256": "8712133ac6ece1351804fab1fbba08dc3ea71cca938ce00c1b178b1c42f46bf0",
             "packed": false
         },
         {
             "name": "check-r8169_lk.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/check-r8169_lk.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/check-r8169_lk.sh",
             "sha256": "f4bffd3cab4d1b3c316f7d70eb55609e62b1e338f4ae83988ff7a095125e9c47",
             "packed": false
         },
         {
             "name": "r8169_lk_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/r8169_lk_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/r8169_lk_firmware.tag.gz",
             "sha256": "d732206b3c789b2a3bfdc7e54880fc9871824e99ee8e7ee9501b558c8984d406",
             "packed": false
         },
         {
             "name": "install-r8169_lk.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/install-r8169_lk.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/geminilake-4.4.180/install-r8169_lk.sh",
             "sha256": "ad1703d47256f5ed5587b1fd6d11d36f0e1bac8db9cd2382e2d98fb8ed054be4",
             "packed": false
         }

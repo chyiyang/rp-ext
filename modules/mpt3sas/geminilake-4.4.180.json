@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/scsi_transport_sas.ko",
             "sha256": "d476670991ed87c9c4536180235e145cac6683780f6daa671a3bacef18c189c9",
             "packed": false
         },
         {
             "name": "raid_class.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/raid_class.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/raid_class.ko",
             "sha256": "e12c9f4a825f59a99f261d730385935cd304bb1334900a8e56dab385104f7f6e",
             "packed": false
         },
         {
             "name": "mpt3sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/mpt3sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/mpt3sas.ko",
             "sha256": "6a3f7e6bc48d2922e7aafa19a9bf8a1a9ca61e200407ac3cdbdb90d0385e4f54",
             "packed": false
         },
         {
             "name": "check-mpt3sas.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/check-mpt3sas.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/geminilake-4.4.180/check-mpt3sas.sh",
             "sha256": "e3f268587711d6166c9fadd283eb7ae7e1359fed3d183688be1827ac66cc429b",
             "packed": false
         }

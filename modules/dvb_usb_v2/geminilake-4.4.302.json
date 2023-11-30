@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "rc-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/geminilake-4.4.302/rc-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/geminilake-4.4.302/rc-core.ko",
             "sha256": "f672efb6a476de4d2306bad7641616740fdd6ac482540602e92b2a7089c6187a",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/geminilake-4.4.302/dvb-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/geminilake-4.4.302/dvb-core.ko",
             "sha256": "bc3c33a609c7fce0777ac044607a0c215a1aeea805514a486619f541d60d9740",
             "packed": false
         },
         {
             "name": "dvb_usb_v2.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/geminilake-4.4.302/dvb_usb_v2.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/geminilake-4.4.302/dvb_usb_v2.ko",
             "sha256": "46d9f2af0dec461a1cb118c84c4b82d648579a5a8762cd2e94615d3a42e72c86",
             "packed": false
         },
         {
             "name": "check-dvb_usb_v2.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/geminilake-4.4.302/check-dvb_usb_v2.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/geminilake-4.4.302/check-dvb_usb_v2.sh",
             "sha256": "dd0ebae867d6f1f6f3df2f72606f8ba93c20c8f8549dcc4ab729c08342688b1e",
             "packed": false
         }

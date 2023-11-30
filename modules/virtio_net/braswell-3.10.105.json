@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/braswell-3.10.105/virtio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/braswell-3.10.105/virtio.ko",
             "sha256": "69bba5115ecfdf16b45ad569611a3d55c35a8c328ea25f250d0b81620648ca49",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/braswell-3.10.105/virtio_ring.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/braswell-3.10.105/virtio_ring.ko",
             "sha256": "371b1c37e17fb7538ea44f80c86448abcc7ce91b443cc5ddbf17cc42644cf94c",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/braswell-3.10.105/virtio_net.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/braswell-3.10.105/virtio_net.ko",
             "sha256": "3452d3aa2cc6482e7066ae9c1a3da23ad9244d8ea12023d7fda95d2c62abe5f2",
             "packed": false
         },
         {
             "name": "check-virtio_net.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/braswell-3.10.105/check-virtio_net.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/braswell-3.10.105/check-virtio_net.sh",
             "sha256": "9ec892e6c3857de6019948cca232e2d23ea640a4e9bdedfd1cbbcfd1e52aedf0",
             "packed": false
         }

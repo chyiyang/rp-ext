@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mii.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/mii.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/mii.ko",
             "sha256": "3ec9e02fe40414c32e46384f29c92b0cdc4b99b3dfb29cbd023ace0ce7bbced0",
             "packed": false
         },
         {
             "name": "r8152.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/r8152.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/r8152.ko",
             "sha256": "40bd91b7ac8d8f58bd27b0498bded5a080bd42a2f406b51aaa308392227c8063",
             "packed": false
         },
         {
             "name": "check-r8152.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/check-r8152.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/check-r8152.sh",
             "sha256": "d82a02c667a4f6c360b34efe596c03b3780ff1548fb10e372dd2798c57c497b1",
             "packed": false
         },
         {
             "name": "r8152_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/r8152_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/r8152_firmware.tag.gz",
             "sha256": "e4807a03ce0686739f16e9275dddbb7d2298202adbac98a7d19e3285fbf021ac",
             "packed": false
         },
         {
             "name": "install-r8152.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/install-r8152.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8152/epyc7002-7.2-5.10.55/install-r8152.sh",
             "sha256": "69045790581da144e844b8a4bb909c6f9a94809daff93484547020e21910a89c",
             "packed": false
         }

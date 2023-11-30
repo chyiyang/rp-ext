@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "scsi_transport_fc.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/v1000-4.4.180/scsi_transport_fc.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libfc/v1000-4.4.180/scsi_transport_fc.ko",
             "sha256": "50f915fb148d06e6bd384b7de73d363aced56807b1d85eb5cfab663b72952dd2",
             "packed": false
         },
         {
             "name": "libfc.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/v1000-4.4.180/libfc.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libfc/v1000-4.4.180/libfc.ko",
             "sha256": "0cedd21d4255b418ed79443759426b9ea5b1e7d1e65c15c755eb19d6735b5706",
             "packed": false
         },
         {
             "name": "check-libfc.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/v1000-4.4.180/check-libfc.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libfc/v1000-4.4.180/check-libfc.sh",
             "sha256": "f302864a561a5146e74e7eaae48c566bb28a2846797c64854082d9a12c6a8fb6",
             "packed": false
         }

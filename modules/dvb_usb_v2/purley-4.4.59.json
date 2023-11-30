@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "rc-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/purley-4.4.59/rc-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/purley-4.4.59/rc-core.ko",
             "sha256": "160ac0d31df9de78b1894de06d040c798496b02d0662f331a9e3ed02ba2f6851",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/purley-4.4.59/dvb-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/purley-4.4.59/dvb-core.ko",
             "sha256": "731cbcd9c55ccff07a2728f09c26dd5f781fd519d6c15516425aefa7a7db48bd",
             "packed": false
         },
         {
             "name": "dvb_usb_v2.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/purley-4.4.59/dvb_usb_v2.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/purley-4.4.59/dvb_usb_v2.ko",
             "sha256": "38a8ab2557031650532e88d366c44e3bdd35e2fcae20a2da719883636de175ae",
             "packed": false
         },
         {
             "name": "check-dvb_usb_v2.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/purley-4.4.59/check-dvb_usb_v2.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/purley-4.4.59/check-dvb_usb_v2.sh",
             "sha256": "dd0ebae867d6f1f6f3df2f72606f8ba93c20c8f8549dcc4ab729c08342688b1e",
             "packed": false
         }

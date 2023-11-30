@@ -15,133 +15,133 @@
     },
     "acpid2": {
         "description": "ACPI Daemon v2 that handles power button events",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/acpid2/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/acpid2/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "addincards": {
         "description": "Remove the model restrictions on official Add-in cards and update usb.map.",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/addincards/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/addincards/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "boot-wait": {
         "description": "This script-only extension ensures boot process waits until boot device (`/dev/synoboot`) is available before other processes start launching",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/boot-wait/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/boot-wait/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "codecpatch": {
         "description": "This patch enables transcoding on Synologys DiskStation Manager 6+ without a valid serial number, by wirgen",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/codecpatch/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/codecpatch/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "console": {
         "description": "Give a screen console via framebuffer",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/console/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/console/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "cpuinfo": {
         "description": "Adds correct CPU Info, from FOXBI",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/cpuinfo/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/cpuinfo/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "disks": {
         "description": "Customized processing Device tree binary with *cfgport parameter",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/disks/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/disks/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "early-telnet": {
         "description": "Simple extension which starts telnet early at boot",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/early-telnet/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/early-telnet/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "eudev": {
         "description": "eudev + kmod will assist with auto module loading",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/eudev/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/eudev/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "hdddb": {
         "description": "Add HDDs/SSDs drives to your dsm's databases, from 007revad",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/hdddb/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/hdddb/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "i915le10th": {
         "description": "Automatically replace the device ID of i915.ko, only supporting less 10th. (apollolake, geminilake)",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/i915le10th/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/i915le10th/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "lsiutil": {
         "description": "A tool for working with some LSI RAID controller",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/lsiutil/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/lsiutil/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "misc": {
         "description": "Miscellaneous functions",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/misc/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/misc/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "nvmecache": {
         "description": "Enable M2 cache of DS918+,DS1019+,DS1621xs+ (need reboot once)",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmecache/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/nvmecache/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "nvmevolume": {
         "description": "Enable M2 volume, from 007revad",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/nvmevolume/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/nvmevolume/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "powersched": {
         "description": "Utility to configure RTC according to DSM power schedule",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/powersched/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/powersched/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "setrootpw": {
         "description": "Enable root permissions for ssh/sftp. Please modify PW=\"\" to the required password in the DSM scheduled task and execute it.",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/setrootpw/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/setrootpw/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "storagepanel": {
         "description": "Modify storage panel (default: RACK_24_Bay 1X8).",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/storagepanel/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/storagepanel/rpext-index.json",
         "platforms": [
             "_"
         ]
     },
     "wol": {
         "description": "Force enable the Wake-on-lan on first ethernet device",
-        "url": "https://github.com/wjz304/rp-ext/raw/main/addons/wol/rpext-index.json",
+        "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/wol/rpext-index.json",
         "platforms": [
             "_"
         ]

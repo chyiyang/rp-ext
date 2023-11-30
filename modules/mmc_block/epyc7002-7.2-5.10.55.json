@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/epyc7002-7.2-5.10.55/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mmc_block/epyc7002-7.2-5.10.55/mmc_core.ko",
             "sha256": "730e5edb57f9b70c99f817d7ab7d008f70f0eeff8f471cf6977adb59f93a238c",
             "packed": false
         },
         {
             "name": "mmc_block.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/epyc7002-7.2-5.10.55/mmc_block.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mmc_block/epyc7002-7.2-5.10.55/mmc_block.ko",
             "sha256": "376ef4fa8ccf11e76a3ad870c2b12114ac35e1944d85aa8ddbcf9876df4943ac",
             "packed": false
         },
         {
             "name": "check-mmc_block.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/epyc7002-7.2-5.10.55/check-mmc_block.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mmc_block/epyc7002-7.2-5.10.55/check-mmc_block.sh",
             "sha256": "79c52aec381ac1892ffa5167722e7bdccc1ea18688f263528a4c1353bc20a9d6",
             "packed": false
         }

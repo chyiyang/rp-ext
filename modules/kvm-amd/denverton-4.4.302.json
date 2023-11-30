@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/denverton-4.4.302/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/denverton-4.4.302/kvm.ko",
             "sha256": "e3a01fed713dc05c156d1c501cce0962ab453e9d9c365ff980e81e2e939aef6c",
             "packed": false
         },
         {
             "name": "kvm-amd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/denverton-4.4.302/kvm-amd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/denverton-4.4.302/kvm-amd.ko",
             "sha256": "fd9efcb18ff139f42c87be1821cff50a048c4ea212dfdfb446c77684b524ec1e",
             "packed": false
         },
         {
             "name": "check-kvm-amd.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/denverton-4.4.302/check-kvm-amd.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/denverton-4.4.302/check-kvm-amd.sh",
             "sha256": "5ea91215f63363b4c8743778eee3dd93ae6318ce6581980be17463d59637e33f",
             "packed": false
         }

@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/denverton-4.4.302/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/denverton-4.4.302/kvm.ko",
             "sha256": "e3a01fed713dc05c156d1c501cce0962ab453e9d9c365ff980e81e2e939aef6c",
             "packed": false
         },
         {
             "name": "kvm-intel.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/denverton-4.4.302/kvm-intel.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/denverton-4.4.302/kvm-intel.ko",
             "sha256": "231b877ae177623680c92704bf23e2a38aa2eca6092893299950cd57683f62f6",
             "packed": false
         },
         {
             "name": "check-kvm-intel.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/denverton-4.4.302/check-kvm-intel.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/denverton-4.4.302/check-kvm-intel.sh",
             "sha256": "41b7ad1a1844dd00e5ef0d36d7b821900b75215289953691c47b923f17eaea6e",
             "packed": false
         }

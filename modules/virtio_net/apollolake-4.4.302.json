@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.302/virtio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.302/virtio.ko",
             "sha256": "eea2a4aaf3ef5c152fc5f457133b764f0ccdda14c7118a1c4110bbdc371f6a0b",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.302/virtio_ring.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.302/virtio_ring.ko",
             "sha256": "a8f417cedd912332d36d0a45a21a68f1e518cc5ae1c2b4b2bcf35ddfc8a8fb69",
             "packed": false
         },
         {
             "name": "virtio_net.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.302/virtio_net.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.302/virtio_net.ko",
             "sha256": "0def2d2f61f37ce39b452f20c30bea877e676f711578f15e320312caad1f512b",
             "packed": false
         },
         {
             "name": "check-virtio_net.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.302/check-virtio_net.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_net/apollolake-4.4.302/check-virtio_net.sh",
             "sha256": "9ec892e6c3857de6019948cca232e2d23ea640a4e9bdedfd1cbbcfd1e52aedf0",
             "packed": false
         }

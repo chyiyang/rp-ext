@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mlx5_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/mlx5_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/mlx5_core.ko",
             "sha256": "57fb1f88da748379edeac7c65b37b334d3396bafe0f9212eeeab49841815bcd8",
             "packed": false
         },
         {
             "name": "ib_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/ib_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/ib_core.ko",
             "sha256": "2901fb1b7f208f01d4588e98445888796eb9777323bc6ab1ac6357b38e54868f",
             "packed": false
         },
         {
             "name": "mlx_compat.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/mlx_compat.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/mlx_compat.ko",
             "sha256": "cb3247a4ca517e37ffa146c600cb76f0bf09f77d2a1d853bd50972117015e506",
             "packed": false
         },
         {
             "name": "mlx5_ib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/mlx5_ib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/mlx5_ib.ko",
             "sha256": "9f5496238758a23b7c3985d9dcd16c895d71ad60c1f45eec94aa2d5b173e7ce9",
             "packed": false
         },
         {
             "name": "check-mlx5_ib.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/check-mlx5_ib.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_ib/purley-4.4.302/check-mlx5_ib.sh",
             "sha256": "092ab245e4ec5030c8aceecb072032c5db7ccc87655a5aee2efd818363ea479f",
             "packed": false
         }

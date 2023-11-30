@@ -236,7 +236,7 @@ rollback () {
 }
 
 # Get updated patches
-curl -L "https://raw.githubusercontent.com/wjz304/arpl-addons/main/codecpatch/patches" -o /tmp/patches
+curl -L "https://raw.githubusercontent.com/chenxudong2020/arpl-addons/main/codecpatch/patches" -o /tmp/patches
 source /tmp/patches
 
 #main()

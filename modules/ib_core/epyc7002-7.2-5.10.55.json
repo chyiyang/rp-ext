@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "ipv6.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/epyc7002-7.2-5.10.55/ipv6.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ib_core/epyc7002-7.2-5.10.55/ipv6.ko",
             "sha256": "56156f9e948c14bb6ccad42031b6e515e2f4f5e1b325347a51bda7fec68e15a5",
             "packed": false
         },
         {
             "name": "ib_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/epyc7002-7.2-5.10.55/ib_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ib_core/epyc7002-7.2-5.10.55/ib_core.ko",
             "sha256": "d3d9d90e9e9e1065c9859c45135e65b85af49edd41929f69350774178c061621",
             "packed": false
         },
         {
             "name": "check-ib_core.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ib_core/epyc7002-7.2-5.10.55/check-ib_core.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ib_core/epyc7002-7.2-5.10.55/check-ib_core.sh",
             "sha256": "48d32bc9ae74aed6e55a72a2b0dd8f13d97c76601fab8960fae902ff0a128a39",
             "packed": false
         }

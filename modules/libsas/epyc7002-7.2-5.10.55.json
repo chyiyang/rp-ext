@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/epyc7002-7.2-5.10.55/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libsas/epyc7002-7.2-5.10.55/scsi_transport_sas.ko",
             "sha256": "a564842728c457221e71b6e1cc2f4d15d3ca53cb11a3ba2a95548d8018d37476",
             "packed": false
         },
         {
             "name": "libsas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/epyc7002-7.2-5.10.55/libsas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libsas/epyc7002-7.2-5.10.55/libsas.ko",
             "sha256": "3d2affa5064aed7785a648c9d7371c1fb425d1a45a93b45d6109c2b57a189780",
             "packed": false
         },
         {
             "name": "check-libsas.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libsas/epyc7002-7.2-5.10.55/check-libsas.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libsas/epyc7002-7.2-5.10.55/check-libsas.sh",
             "sha256": "951e495246d59d8cd295ab94474a45907cedfc730cedc0152164b0195ed1a5f2",
             "packed": false
         }

@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.2-5.10.55/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.2-5.10.55/kvm.ko",
             "sha256": "093525c36c73e865e4aae75144744977507b339f3e600d254632c7319005582b",
             "packed": false
         },
         {
             "name": "kvm-intel.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.2-5.10.55/kvm-intel.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.2-5.10.55/kvm-intel.ko",
             "sha256": "979094a0d7374bc2bdb2fcbe1b978ea86bf7cc67fe552423cd41bb4cf9b5db21",
             "packed": false
         },
         {
             "name": "check-kvm-intel.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.2-5.10.55/check-kvm-intel.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-intel/epyc7002-7.2-5.10.55/check-kvm-intel.sh",
             "sha256": "41b7ad1a1844dd00e5ef0d36d7b821900b75215289953691c47b923f17eaea6e",
             "packed": false
         }

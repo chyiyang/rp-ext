@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libiscsi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/libiscsi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/libiscsi.ko",
             "sha256": "78583a79a67b3889c30977c14339ad70f8799b26600b52ba7a767fcc0981c343",
             "packed": false
         },
         {
             "name": "libiscsi_tcp.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/libiscsi_tcp.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/libiscsi_tcp.ko",
             "sha256": "4247cffbc4813fad95bcd71f750d798e2b7ba423b66d6121e818db8b294f2704",
             "packed": false
         },
         {
             "name": "iscsi_tcp.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/iscsi_tcp.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/iscsi_tcp.ko",
             "sha256": "1d49d8f5ca29da3a8809b52210dcdb585a139642de8b6da08f10aaff40287805",
             "packed": false
         },
         {
             "name": "check-iscsi_tcp.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/check-iscsi_tcp.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/iscsi_tcp/broadwellntbap-4.4.302/check-iscsi_tcp.sh",
             "sha256": "406de6b4891ee599907e99c84c3126d4649fd5147fba504e90d604250e726eb4",
             "packed": false
         }

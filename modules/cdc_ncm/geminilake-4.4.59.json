@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "usbnet.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.59/usbnet.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.59/usbnet.ko",
             "sha256": "f486d416973bb6dba22426b67a0711791f6614b7da1332f3c953595685d47e97",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.59/cdc_ncm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.59/cdc_ncm.ko",
             "sha256": "7ccd2b11b8679759aeb1d8118c92ed9d4ac0e3b06b4c9b6d536f2174b94c377e",
             "packed": false
         },
         {
             "name": "check-cdc_ncm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.59/check-cdc_ncm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/geminilake-4.4.59/check-cdc_ncm.sh",
             "sha256": "840a124f5d42d6be6152b099032e88fbd1d43cfbbd91928df4ca8dccdcbbb34c",
             "packed": false
         }

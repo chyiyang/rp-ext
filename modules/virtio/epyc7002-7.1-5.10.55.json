@@ -3,13 +3,13 @@
     "files": [
         {
             "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/epyc7002-7.1-5.10.55/virtio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio/epyc7002-7.1-5.10.55/virtio.ko",
             "sha256": "cbc807e81f1f84d5f5efd7323d5d7c156a73e7f91a0637381e2a678b67917deb",
             "packed": false
         },
         {
             "name": "check-virtio.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio/epyc7002-7.1-5.10.55/check-virtio.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio/epyc7002-7.1-5.10.55/check-virtio.sh",
             "sha256": "ce75807c104d55cea61ddfb1b25fd5af8bf9a511f77ecb8cc9a81b25da9de23f",
             "packed": false
         }

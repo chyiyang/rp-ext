@@ -3,13 +3,13 @@
     "files": [
         {
             "name": "vmxnet3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/bromolow-3.10.105/vmxnet3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/vmxnet3/bromolow-3.10.105/vmxnet3.ko",
             "sha256": "11844b7af0d8d7f24ece2b554d37c321a059dd1e2eb03fec14a4076d303fcbbe",
             "packed": false
         },
         {
             "name": "check-vmxnet3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/vmxnet3/bromolow-3.10.105/check-vmxnet3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/vmxnet3/bromolow-3.10.105/check-vmxnet3.sh",
             "sha256": "ffa24196bcbcabcf150fe9decc495448aa88e96b8121a8017eebf6ce0c2ecfd5",
             "packed": false
         }

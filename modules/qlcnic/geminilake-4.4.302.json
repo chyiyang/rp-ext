@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "qlcnic.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.302/qlcnic.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.302/qlcnic.ko",
             "sha256": "5c1d640a13d7183ace59f74114b5ad18e93d125339d98fc423ae2e08091b751a",
             "packed": false
         },
         {
             "name": "check-qlcnic.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.302/check-qlcnic.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.302/check-qlcnic.sh",
             "sha256": "2120fef1be9764915ea5ac76a79c4eef8b5389e075ad9f1a7d087eb69147aff7",
             "packed": false
         },
         {
             "name": "qlcnic_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.302/qlcnic_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.302/qlcnic_firmware.tag.gz",
             "sha256": "19dffe9b410da918b6d6d4cfa86c5e104a0fb4319b15dcb2d846198133d9163b",
             "packed": false
         },
         {
             "name": "install-qlcnic.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.302/install-qlcnic.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/geminilake-4.4.302/install-qlcnic.sh",
             "sha256": "ffae6a534b601a07e7f68b1a39ceedf6ea902d4ad0b9098953ea954a71ee2107",
             "packed": false
         }

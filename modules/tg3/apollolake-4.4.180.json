@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/libphy.ko",
             "sha256": "0274fad9c89677f550b4d6f68c033b8c0b6a231b64eeb2eca8784fbad827079f",
             "packed": false
         },
         {
             "name": "tg3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/tg3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/tg3.ko",
             "sha256": "19782f362f7946bfeb9924f906242d482e3212ac9213cf53022872ea9f5f4f52",
             "packed": false
         },
         {
             "name": "check-tg3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/check-tg3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/check-tg3.sh",
             "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
             "packed": false
         },
         {
             "name": "tg3_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/tg3_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/tg3_firmware.tag.gz",
             "sha256": "00b339ee5f0c6fd28703c97036386be0802b7799ebdf1a46b4a7b81735002c8c",
             "packed": false
         },
         {
             "name": "install-tg3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/install-tg3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/apollolake-4.4.180/install-tg3.sh",
             "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
             "packed": false
         }

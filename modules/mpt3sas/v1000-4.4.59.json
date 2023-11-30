@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/scsi_transport_sas.ko",
             "sha256": "38acd2f2dfb5e83c43950c4a4f7dcdbed53c329ceb51b0b1ed2466cec020137f",
             "packed": false
         },
         {
             "name": "raid_class.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/raid_class.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/raid_class.ko",
             "sha256": "26e4048f62eed9ba61c4e7ecd0f023b5835ff60398fbae1cd2582287ce1d37e7",
             "packed": false
         },
         {
             "name": "mpt3sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/mpt3sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/mpt3sas.ko",
             "sha256": "ab13936dc32ed9b03fec5a42946ced8e00b045df2f7b96142e8f00cb4500150e",
             "packed": false
         },
         {
             "name": "check-mpt3sas.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/check-mpt3sas.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/v1000-4.4.59/check-mpt3sas.sh",
             "sha256": "e3f268587711d6166c9fadd283eb7ae7e1359fed3d183688be1827ac66cc429b",
             "packed": false
         }

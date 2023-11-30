@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwell-4.4.302/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/broadwell-4.4.302/mmc_core.ko",
             "sha256": "ca873b30b01f1c0d9eccb04c60b187ed0849adf11a8e5cc541d758e8a924b53d",
             "packed": false
         },
         {
             "name": "sdhci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwell-4.4.302/sdhci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/broadwell-4.4.302/sdhci.ko",
             "sha256": "0aed2aaf14fe5c1d0fcedc153ce3c50554f5c7afdf2760cf78274475abf794a6",
             "packed": false
         },
         {
             "name": "check-sdhci.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/broadwell-4.4.302/check-sdhci.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/broadwell-4.4.302/check-sdhci.sh",
             "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
             "packed": false
         }

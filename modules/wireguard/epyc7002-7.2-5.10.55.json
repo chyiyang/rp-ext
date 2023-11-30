@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "ipv6.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/wireguard/epyc7002-7.2-5.10.55/ipv6.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/wireguard/epyc7002-7.2-5.10.55/ipv6.ko",
             "sha256": "56156f9e948c14bb6ccad42031b6e515e2f4f5e1b325347a51bda7fec68e15a5",
             "packed": false
         },
         {
             "name": "wireguard.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/wireguard/epyc7002-7.2-5.10.55/wireguard.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/wireguard/epyc7002-7.2-5.10.55/wireguard.ko",
             "sha256": "1901bd3650480ffc514a4ac71080e08847f6f9a2cc6a82989b87510ea591e915",
             "packed": false
         },
         {
             "name": "check-wireguard.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/wireguard/epyc7002-7.2-5.10.55/check-wireguard.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/wireguard/epyc7002-7.2-5.10.55/check-wireguard.sh",
             "sha256": "8957bc9040ce1513f0bd5c73ba73189373fe5516eea7e7175bf7946c27ccf170",
             "packed": false
         }

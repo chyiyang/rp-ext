@@ -3,37 +3,37 @@
     "files": [
         {
             "name": "ipv6.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/ipv6.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/ipv6.ko",
             "sha256": "56156f9e948c14bb6ccad42031b6e515e2f4f5e1b325347a51bda7fec68e15a5",
             "packed": false
         },
         {
             "name": "qed.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/qed.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/qed.ko",
             "sha256": "8e09d37f9c9ecef6e3809f692ef2cf8a0b50473d7359f2fbc7dc5acb791f0f69",
             "packed": false
         },
         {
             "name": "qede.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/qede.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/qede.ko",
             "sha256": "662f841589337ce45126d41da6c82d80969ca19532b3c7af1131a8ee534496c9",
             "packed": false
         },
         {
             "name": "check-qede.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/check-qede.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/check-qede.sh",
             "sha256": "994edf1e5f4dfea4f2fea2e0243d029e8b191ac43f4c236f6c02842d625177d8",
             "packed": false
         },
         {
             "name": "qede_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/qede_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/qede_firmware.tag.gz",
             "sha256": "49ad9e56e89cdf085ce94277c3c5f28695231e42d540b8af4d35af8d3b21a608",
             "packed": false
         },
         {
             "name": "install-qede.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/install-qede.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/epyc7002-7.2-5.10.55/install-qede.sh",
             "sha256": "2b969742163e5c7f77518080191d5de799dd4ca1534d71b7312d47fc5408c015",
             "packed": false
         }

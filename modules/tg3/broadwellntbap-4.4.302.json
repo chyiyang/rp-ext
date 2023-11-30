@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/libphy.ko",
             "sha256": "e19d18d9fa13ea9dde5974f7fee5d170f8147c8e0430d238bdde55bf50dcf6ed",
             "packed": false
         },
         {
             "name": "tg3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/tg3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/tg3.ko",
             "sha256": "740d717e043692ba32c306c4c299448d32b3fe31a4364ef7783105e9fd9876cc",
             "packed": false
         },
         {
             "name": "check-tg3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/check-tg3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/check-tg3.sh",
             "sha256": "01b9184418cac5c2a009b47fd416f162d410d43dce8bc7b719ce1c30b7c188e7",
             "packed": false
         },
         {
             "name": "tg3_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/tg3_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/tg3_firmware.tag.gz",
             "sha256": "0e6fe3a8bbedbb271ca01f2e5f476ec245f4ef56bd5ca47bde0c6e85f35ff1d8",
             "packed": false
         },
         {
             "name": "install-tg3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/install-tg3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/tg3/broadwellntbap-4.4.302/install-tg3.sh",
             "sha256": "a4fbb2eb645027170feb39165ad97fa086dbb7d10e80c7547d0d0a580345d01d",
             "packed": false
         }

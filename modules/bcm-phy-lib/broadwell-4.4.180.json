@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/broadwell-4.4.180/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/broadwell-4.4.180/libphy.ko",
             "sha256": "dab7fd8c8dcdce34d6368a39f937386c9bd78827ab40a2c8dedca36b98edeba7",
             "packed": false
         },
         {
             "name": "bcm-phy-lib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/broadwell-4.4.180/bcm-phy-lib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/broadwell-4.4.180/bcm-phy-lib.ko",
             "sha256": "070ab729504f8fafc1adeb2974a239f9978947f2254f50987f9b5291c825de06",
             "packed": false
         },
         {
             "name": "check-bcm-phy-lib.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/broadwell-4.4.180/check-bcm-phy-lib.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/broadwell-4.4.180/check-bcm-phy-lib.sh",
             "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
             "packed": false
         }

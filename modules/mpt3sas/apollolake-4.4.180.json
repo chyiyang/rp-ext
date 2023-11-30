@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.180/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.180/scsi_transport_sas.ko",
             "sha256": "2595e23a9777429578bca0e9c6fc8619e2fe7e275616918d04900fdba8442070",
             "packed": false
         },
         {
             "name": "raid_class.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.180/raid_class.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.180/raid_class.ko",
             "sha256": "3c34e39d50d88252d4c4b88f98183c0f6a14f9c1fd9674ffad6710bfe021b12b",
             "packed": false
         },
         {
             "name": "mpt3sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.180/mpt3sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.180/mpt3sas.ko",
             "sha256": "06c51d5ae1e09c78f40a0fe110b42e09ae1d86518eeafd572a417eca64ada435",
             "packed": false
         },
         {
             "name": "check-mpt3sas.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.180/check-mpt3sas.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mpt3sas/apollolake-4.4.180/check-mpt3sas.sh",
             "sha256": "e3f268587711d6166c9fadd283eb7ae7e1359fed3d183688be1827ac66cc429b",
             "packed": false
         }

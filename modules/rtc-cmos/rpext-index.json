@@ -1,29 +1,29 @@
 {
     "id": "ing.rtc-cmos",
-    "url": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/rpext-index.json",
+    "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/rpext-index.json",
     "info": {
         "name": "rtc-cmos",
         "description": "Driver for PC-style 'CMOS' RTCs",
-        "author_url": "https://github.com/wjz304/rp-ext/raw/main",
-        "packer_url": "https://github.com/wjz304/rp-ext/raw/main",
+        "author_url": "https://github.com/chenxudong2020/rp-ext/raw/main",
+        "packer_url": "https://github.com/chenxudong2020/rp-ext/raw/main",
         "help_url": "<todo>"
     },
     "releases": {
-        "apollolake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/apollolake-4.4.180.json",
-        "apollolake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/apollolake-4.4.302.json",
-        "apollolake-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/apollolake-4.4.59.json",
-        "epyc7002-7.1-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/epyc7002-7.1-5.10.55.json",
-        "epyc7002-7.2-5.10.55": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/epyc7002-7.2-5.10.55.json",
-        "geminilake-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/geminilake-4.4.180.json",
-        "geminilake-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/geminilake-4.4.302.json",
-        "geminilake-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/geminilake-4.4.59.json",
-        "purley-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/purley-4.4.180.json",
-        "purley-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/purley-4.4.302.json",
-        "purley-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/purley-4.4.59.json",
-        "r1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/r1000-4.4.180.json",
-        "r1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/r1000-4.4.302.json",
-        "v1000-4.4.180": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/v1000-4.4.180.json",
-        "v1000-4.4.302": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/v1000-4.4.302.json",
-        "v1000-4.4.59": "https://github.com/wjz304/rp-ext/raw/main/modules/rtc-cmos/v1000-4.4.59.json"
+        "apollolake-4.4.180": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/apollolake-4.4.180.json",
+        "apollolake-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/apollolake-4.4.302.json",
+        "apollolake-4.4.59": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/apollolake-4.4.59.json",
+        "epyc7002-7.1-5.10.55": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/epyc7002-7.1-5.10.55.json",
+        "epyc7002-7.2-5.10.55": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/epyc7002-7.2-5.10.55.json",
+        "geminilake-4.4.180": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/geminilake-4.4.180.json",
+        "geminilake-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/geminilake-4.4.302.json",
+        "geminilake-4.4.59": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/geminilake-4.4.59.json",
+        "purley-4.4.180": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/purley-4.4.180.json",
+        "purley-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/purley-4.4.302.json",
+        "purley-4.4.59": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/purley-4.4.59.json",
+        "r1000-4.4.180": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/r1000-4.4.180.json",
+        "r1000-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/r1000-4.4.302.json",
+        "v1000-4.4.180": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/v1000-4.4.180.json",
+        "v1000-4.4.302": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/v1000-4.4.302.json",
+        "v1000-4.4.59": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/rtc-cmos/v1000-4.4.59.json"
     }
 }

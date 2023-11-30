@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "scsi_transport_fc.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwell-4.4.302/scsi_transport_fc.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libfc/broadwell-4.4.302/scsi_transport_fc.ko",
             "sha256": "0c1025d626c402928cb5fa40d98cf173b98cbe1944c016c2812ea72e1ba7aa3b",
             "packed": false
         },
         {
             "name": "libfc.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwell-4.4.302/libfc.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libfc/broadwell-4.4.302/libfc.ko",
             "sha256": "7556f28c3eb0a9bff5dd5435b748d0898e8d700afce46657b07dda6281f14af2",
             "packed": false
         },
         {
             "name": "check-libfc.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/libfc/broadwell-4.4.302/check-libfc.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/libfc/broadwell-4.4.302/check-libfc.sh",
             "sha256": "f302864a561a5146e74e7eaae48c566bb28a2846797c64854082d9a12c6a8fb6",
             "packed": false
         }

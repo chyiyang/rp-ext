@@ -3,37 +3,37 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/libphy.ko",
             "sha256": "53cb323256892d6402a905e06b55cde10a7602ac420c8e4a3bb1afd3795dd24d",
             "packed": false
         },
         {
             "name": "mdio_devres.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/mdio_devres.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/mdio_devres.ko",
             "sha256": "9c7a9da56f3213429a75a8bfce9d1ae1b425d43950bf33a791230663a9f3c3e1",
             "packed": false
         },
         {
             "name": "r8169_lk.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/r8169_lk.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/r8169_lk.ko",
             "sha256": "1752cc14e8af543eab0cab487ece09ab9c753a8173bcdad22e7e0f9e99f816b4",
             "packed": false
         },
         {
             "name": "check-r8169_lk.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/check-r8169_lk.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/check-r8169_lk.sh",
             "sha256": "aba8973b7e57cf1d2c8edfecd44ad1c857ff7d8492eb72aa1d186fd2cf10af13",
             "packed": false
         },
         {
             "name": "r8169_lk_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/r8169_lk_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/r8169_lk_firmware.tag.gz",
             "sha256": "4c963508aea92e136bdfd4a48908305ff2884b6612566406d14d28f47d2af9bc",
             "packed": false
         },
         {
             "name": "install-r8169_lk.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/install-r8169_lk.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/epyc7002-7.2-5.10.55/install-r8169_lk.sh",
             "sha256": "ad1703d47256f5ed5587b1fd6d11d36f0e1bac8db9cd2382e2d98fb8ed054be4",
             "packed": false
         }

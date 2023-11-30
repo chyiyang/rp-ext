@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/epyc7002-7.1-5.10.55/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/epyc7002-7.1-5.10.55/scsi_transport_sas.ko",
             "sha256": "e538212083466a07f7096687f730daf25388e86702fa9a98c280e112822ecfdc",
             "packed": false
         },
         {
             "name": "hpsa.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/epyc7002-7.1-5.10.55/hpsa.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/epyc7002-7.1-5.10.55/hpsa.ko",
             "sha256": "fbb2e71e683d1835cab478b51164368c81cd40ebf70f6d721bcbe4e1ff52639e",
             "packed": false
         },
         {
             "name": "check-hpsa.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/epyc7002-7.1-5.10.55/check-hpsa.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/epyc7002-7.1-5.10.55/check-hpsa.sh",
             "sha256": "e6ed314fa0d63959abd972bf9bc4b7249976f29e18df30fae64ec6b918c65a73",
             "packed": false
         }

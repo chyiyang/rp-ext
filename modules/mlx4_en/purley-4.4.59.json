@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "mlx4_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.59/mlx4_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/purley-4.4.59/mlx4_core.ko",
             "sha256": "a6b3762e1edcf055425719698a02eb5ee3b1e4ae86d03118be952fc9bac9b812",
             "packed": false
         },
         {
             "name": "mlx_compat.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.59/mlx_compat.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/purley-4.4.59/mlx_compat.ko",
             "sha256": "49ee0148ec6451755e827d8abd51e8a078b4bb08ac6fe82410b0c5af477f52b6",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.59/mlx4_en.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/purley-4.4.59/mlx4_en.ko",
             "sha256": "5ae1a7184e3d9e353d8dd6ad61569e9e0f22be200debbc09b3733ae67ebeb06c",
             "packed": false
         },
         {
             "name": "check-mlx4_en.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/purley-4.4.59/check-mlx4_en.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/purley-4.4.59/check-mlx4_en.sh",
             "sha256": "610aa3423798217f8c6d8afe4bbb95a29a44d2d36e6a3d892e0106ba911afb0b",
             "packed": false
         }

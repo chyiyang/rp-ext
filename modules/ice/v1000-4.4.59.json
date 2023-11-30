@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "auxiliary.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/v1000-4.4.59/auxiliary.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ice/v1000-4.4.59/auxiliary.ko",
             "sha256": "db1ba5115021e3363d96cca0aa7b5626e7b2717792c412feaf99857d0337e3ea",
             "packed": false
         },
         {
             "name": "ice.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/v1000-4.4.59/ice.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ice/v1000-4.4.59/ice.ko",
             "sha256": "56b8bfeae1626b0b21e2468f3825f4f57451e17a4742f0ddd0c8ceda04f150d9",
             "packed": false
         },
         {
             "name": "check-ice.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/v1000-4.4.59/check-ice.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ice/v1000-4.4.59/check-ice.sh",
             "sha256": "1f8e01a7316db89bcbb979b8fca887d45586155bed2713d40a504c6e389ede4c",
             "packed": false
         }

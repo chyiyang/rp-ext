@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "rc-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/denverton-4.4.59/rc-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/denverton-4.4.59/rc-core.ko",
             "sha256": "5947e873b79771d7632dcf65cf8df341535ebdc5d623db91c8b02a8dd11115f8",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/denverton-4.4.59/dvb-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/denverton-4.4.59/dvb-core.ko",
             "sha256": "fe239bb94598a3e77aba8cf50167fb0b32b2ec693b6a1f17e90447d1437314ac",
             "packed": false
         },
         {
             "name": "dvb_usb_v2.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/denverton-4.4.59/dvb_usb_v2.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/denverton-4.4.59/dvb_usb_v2.ko",
             "sha256": "ee3efc043b34424fc3d94b2faa1dcd5b50728221ebe5cec3549965a4ccd779a4",
             "packed": false
         },
         {
             "name": "check-dvb_usb_v2.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb_usb_v2/denverton-4.4.59/check-dvb_usb_v2.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb_usb_v2/denverton-4.4.59/check-dvb_usb_v2.sh",
             "sha256": "dd0ebae867d6f1f6f3df2f72606f8ba93c20c8f8549dcc4ab729c08342688b1e",
             "packed": false
         }

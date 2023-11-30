@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libsas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/r1000-4.4.180/libsas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/r1000-4.4.180/libsas.ko",
             "sha256": "4b803ab75f773e6e5d93b000cf4cdcf5c2114fc1620f1b7a4e7a7ef60abab611",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/r1000-4.4.180/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/r1000-4.4.180/scsi_transport_sas.ko",
             "sha256": "1fa6849f340fa65b7a168ac073351d73a7f8bd0189aae39dff71408dfd3f056f",
             "packed": false
         },
         {
             "name": "aic94xx.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/r1000-4.4.180/aic94xx.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/r1000-4.4.180/aic94xx.ko",
             "sha256": "f854586d51d89e928a7b43cdc202ff7c246925ed0b599c7c8636a05c0e97ce82",
             "packed": false
         },
         {
             "name": "check-aic94xx.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/r1000-4.4.180/check-aic94xx.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/r1000-4.4.180/check-aic94xx.sh",
             "sha256": "6db4adc450e61ed3a6dc061bf1aa1cba257e3d18ceb2ba60719c9b9432d54cb3",
             "packed": false
         }

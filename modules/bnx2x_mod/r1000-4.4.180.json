@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mdio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/mdio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/mdio.ko",
             "sha256": "98bcf9f588e72e3eae1385f1f85f9dbc247ce94f22b26ecb17423d0a06a92151",
             "packed": false
         },
         {
             "name": "bnx2x_mod.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/bnx2x_mod.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/bnx2x_mod.ko",
             "sha256": "631c148563cefa6818837ca65e9c61f2fa2463e395f46b6d5dce71f1d793f940",
             "packed": false
         },
         {
             "name": "check-bnx2x_mod.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/check-bnx2x_mod.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/check-bnx2x_mod.sh",
             "sha256": "ff095564c13422a10c333d35890759ef015da047294337371ee7c0a7c6250e0b",
             "packed": false
         },
         {
             "name": "bnx2x_mod_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/bnx2x_mod_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/bnx2x_mod_firmware.tag.gz",
             "sha256": "7bc2315e911cf228e23ad945d40410c14c740fcd93a858d20d211299baa641ee",
             "packed": false
         },
         {
             "name": "install-bnx2x_mod.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/install-bnx2x_mod.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bnx2x_mod/r1000-4.4.180/install-bnx2x_mod.sh",
             "sha256": "75ad1cf901d242d62e48574bbfaf0177a9b5d9a0b4db7179453af46829f580bf",
             "packed": false
         }

@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/denverton-4.4.180/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/denverton-4.4.180/libphy.ko",
             "sha256": "5ebaa0a63f01bf065ce37d62ff960c200c93bcf7dcef614586ba0e25be00562a",
             "packed": false
         },
         {
             "name": "bcm-phy-lib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/denverton-4.4.180/bcm-phy-lib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/denverton-4.4.180/bcm-phy-lib.ko",
             "sha256": "65df8c3d972c1024e57aac160085302aa916b44443f5ac1333b115cc51e67707",
             "packed": false
         },
         {
             "name": "check-bcm-phy-lib.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/denverton-4.4.180/check-bcm-phy-lib.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/denverton-4.4.180/check-bcm-phy-lib.sh",
             "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
             "packed": false
         }

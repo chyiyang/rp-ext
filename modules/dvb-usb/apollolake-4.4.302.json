@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "rc-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.302/rc-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.302/rc-core.ko",
             "sha256": "7b32acd083f1212201166bea684b3a4565bd343408e06781213ac7cebc1691c7",
             "packed": false
         },
         {
             "name": "dvb-core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.302/dvb-core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.302/dvb-core.ko",
             "sha256": "702d5791bdc8462161dbee0cd7017dc8d75bba73c5d86aba04645698a7a141bd",
             "packed": false
         },
         {
             "name": "dvb-usb.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.302/dvb-usb.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.302/dvb-usb.ko",
             "sha256": "f9c839fe402f53c626317d3906d5fa09f3cde2a617cd038241d7262487655b65",
             "packed": false
         },
         {
             "name": "check-dvb-usb.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.302/check-dvb-usb.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/dvb-usb/apollolake-4.4.302/check-dvb-usb.sh",
             "sha256": "cebb64c5d5f41e9d294489a06951552bfa038b60baf79d80f6641ff6589bbf85",
             "packed": false
         }

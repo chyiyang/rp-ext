@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libsas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/libsas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/libsas.ko",
             "sha256": "4e92b2d5a1792bc3030e0dae4322652152727c603a170e4714c12a23fdcb6813",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/scsi_transport_sas.ko",
             "sha256": "2595e23a9777429578bca0e9c6fc8619e2fe7e275616918d04900fdba8442070",
             "packed": false
         },
         {
             "name": "aic94xx.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/aic94xx.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/aic94xx.ko",
             "sha256": "6a660d137b3eddc74964b1ac98ed23c258421316a825b38d7cac0d33e8960055",
             "packed": false
         },
         {
             "name": "check-aic94xx.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/check-aic94xx.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/apollolake-4.4.180/check-aic94xx.sh",
             "sha256": "6db4adc450e61ed3a6dc061bf1aa1cba257e3d18ceb2ba60719c9b9432d54cb3",
             "packed": false
         }

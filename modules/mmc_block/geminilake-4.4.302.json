@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/geminilake-4.4.302/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mmc_block/geminilake-4.4.302/mmc_core.ko",
             "sha256": "66b29c10a851ddb34ecbf21c08464ac655f0efdbd09ef75191c2bf9d2b776095",
             "packed": false
         },
         {
             "name": "mmc_block.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/geminilake-4.4.302/mmc_block.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mmc_block/geminilake-4.4.302/mmc_block.ko",
             "sha256": "6d0edebe12e3f64d76d62cf7e1272d7b8a02ab11080523a6e9c9f79eac3b85d3",
             "packed": false
         },
         {
             "name": "check-mmc_block.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mmc_block/geminilake-4.4.302/check-mmc_block.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mmc_block/geminilake-4.4.302/check-mmc_block.sh",
             "sha256": "79c52aec381ac1892ffa5167722e7bdccc1ea18688f263528a4c1353bc20a9d6",
             "packed": false
         }

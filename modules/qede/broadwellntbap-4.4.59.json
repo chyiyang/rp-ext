@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "qed.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/qed.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/qed.ko",
             "sha256": "61625e9d29bc5f85756ea0263fc3a2aeb702680b3ba000fa224a9e4238f98677",
             "packed": false
         },
         {
             "name": "qede.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/qede.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/qede.ko",
             "sha256": "b31e8ac2b10de5d3f80b2fab8f3203e54241c2314b4df28323c5b7e325901a22",
             "packed": false
         },
         {
             "name": "check-qede.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/check-qede.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/check-qede.sh",
             "sha256": "0d0fa66fc132abf4d03663e766210563ad5ca5788a58c441147005913abefa6e",
             "packed": false
         },
         {
             "name": "qede_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/qede_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/qede_firmware.tag.gz",
             "sha256": "74a38d487a104db5748de351760cf20697c9dbcaa3d4e6bd3e9f8cf2792be839",
             "packed": false
         },
         {
             "name": "install-qede.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/install-qede.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qede/broadwellntbap-4.4.59/install-qede.sh",
             "sha256": "2b969742163e5c7f77518080191d5de799dd4ca1534d71b7312d47fc5408c015",
             "packed": false
         }

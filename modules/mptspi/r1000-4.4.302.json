@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mptscsih.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/mptscsih.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/mptscsih.ko",
             "sha256": "96e21a7a70a973f01ee1927745b09b55af29756888d1399bd4ec567dadc02995",
             "packed": false
         },
         {
             "name": "mptbase.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/mptbase.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/mptbase.ko",
             "sha256": "cde768977151250c64eef3dbf280183c0684f3c2af19e57a9be7ad7bd6c5b565",
             "packed": false
         },
         {
             "name": "scsi_transport_spi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/scsi_transport_spi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/scsi_transport_spi.ko",
             "sha256": "ac11c8d3eee2f02cdbca2a60b228152362e4df85fdecdfbff725e2ceb367f332",
             "packed": false
         },
         {
             "name": "mptspi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/mptspi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/mptspi.ko",
             "sha256": "5dd47b62959b89ae87317ead575402c9d662c1cb0fbc69d5d6e170e9bbaa228b",
             "packed": false
         },
         {
             "name": "check-mptspi.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/check-mptspi.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/r1000-4.4.302/check-mptspi.sh",
             "sha256": "54872bbf44876aaf8f8672226c6852d9371c9c9d8f0b098214e3e09e0a6dd653",
             "packed": false
         }

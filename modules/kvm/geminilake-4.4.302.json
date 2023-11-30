@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "irqbypass.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/geminilake-4.4.302/irqbypass.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm/geminilake-4.4.302/irqbypass.ko",
             "sha256": "7274da65a778ac503e95e716550b37adcc404082b6de56e0d19d9b970afce588",
             "packed": false
         },
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/geminilake-4.4.302/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm/geminilake-4.4.302/kvm.ko",
             "sha256": "b9f76fe4fe725fd05a2c18427e33e80aba7552809ebfb47f7f64d140923842b1",
             "packed": false
         },
         {
             "name": "check-kvm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm/geminilake-4.4.302/check-kvm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm/geminilake-4.4.302/check-kvm.sh",
             "sha256": "f3783a261feb27b47f4561d1c1e32bde132d1b1a11520186959c00f4ecb2ec88",
             "packed": false
         }

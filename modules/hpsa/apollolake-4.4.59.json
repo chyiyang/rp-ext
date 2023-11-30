@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/apollolake-4.4.59/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/apollolake-4.4.59/scsi_transport_sas.ko",
             "sha256": "2c022409d2f3b356e27e9541de9edf440e02bb29953558fa60793d738658f52a",
             "packed": false
         },
         {
             "name": "hpsa.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/apollolake-4.4.59/hpsa.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/apollolake-4.4.59/hpsa.ko",
             "sha256": "6ce9c83587993f3285a63d49b141e1757313942c872f64d075fc35ccd535b135",
             "packed": false
         },
         {
             "name": "check-hpsa.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/hpsa/apollolake-4.4.59/check-hpsa.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/hpsa/apollolake-4.4.59/check-hpsa.sh",
             "sha256": "e6ed314fa0d63959abd972bf9bc4b7249976f29e18df30fae64ec6b918c65a73",
             "packed": false
         }

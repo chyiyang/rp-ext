@@ -1,14 +1,14 @@
 {
-  "url": "https://github.com/wjz304/rp-ext/raw/main/addons/storagepanel/rpext-index.json",
+  "url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/storagepanel/rpext-index.json",
   "id": "storagepanel",
   "info": {
     "name": "storagepanel",
     "description": "Modify storage panel (default: RACK_24_Bay 1X8).",
-    "packer_url": "https://github.com/wjz304/rp-ext/raw/main/addons/storagepanel",
-    "help_url": "https://github.com/wjz304/rp-ext/raw/main/addons/storagepanel"
+    "packer_url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/storagepanel",
+    "help_url": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/storagepanel"
   },
   "releases": {
-    "_": "https://github.com/wjz304/rp-ext/raw/main/addons/storagepanel/recipes/universal.json",
+    "_": "https://github.com/chenxudong2020/rp-ext/raw/main/addons/storagepanel/recipes/universal.json",
     "zendofmodel": "endofurls"
   }
 }

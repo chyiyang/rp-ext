@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/apollolake-4.4.302/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/apollolake-4.4.302/kvm.ko",
             "sha256": "8f6dad4d7a1c8f61c014919e9ba869a327216fe05a03745a85004e53e8122efc",
             "packed": false
         },
         {
             "name": "kvm-amd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/apollolake-4.4.302/kvm-amd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/apollolake-4.4.302/kvm-amd.ko",
             "sha256": "db939c3d0b170668de65496df5f5d57f0fb7f561bcc33d08376bb9d26614a6d9",
             "packed": false
         },
         {
             "name": "check-kvm-amd.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/apollolake-4.4.302/check-kvm-amd.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/apollolake-4.4.302/check-kvm-amd.sh",
             "sha256": "5ea91215f63363b4c8743778eee3dd93ae6318ce6581980be17463d59637e33f",
             "packed": false
         }

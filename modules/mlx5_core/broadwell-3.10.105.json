@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mlx_compat.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwell-3.10.105/mlx_compat.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_core/broadwell-3.10.105/mlx_compat.ko",
             "sha256": "128c5a37ffe3183f0005ace41e2029a0b7da84e7f71b64ca9a42a4b14b24d14a",
             "packed": false
         },
         {
             "name": "mlx5_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwell-3.10.105/mlx5_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_core/broadwell-3.10.105/mlx5_core.ko",
             "sha256": "cf4ed9016bb5fd82789018040b1681478bc98d03e347fbe23521a53637de391a",
             "packed": false
         },
         {
             "name": "check-mlx5_core.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/broadwell-3.10.105/check-mlx5_core.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_core/broadwell-3.10.105/check-mlx5_core.sh",
             "sha256": "fd1a09be97c3added2e9478c232a5845eb275256db15ccb3db7e07c7220d651e",
             "packed": false
         }

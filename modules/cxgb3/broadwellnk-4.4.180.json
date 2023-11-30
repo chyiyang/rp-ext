@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mdio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/mdio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/mdio.ko",
             "sha256": "8df15f1a2ea6d0e013330e5aad304d7079ce53223cc1d08e4f20f1f0bace947f",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/cxgb3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/cxgb3.ko",
             "sha256": "7cad0326298593e25b1498da05d940c336065f6a937fa9de56b9f313ea0795c6",
             "packed": false
         },
         {
             "name": "check-cxgb3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/check-cxgb3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/check-cxgb3.sh",
             "sha256": "027e543cf8b835b88abe7c6904ab386046c9a559aa977d6382009ce8e25fd260",
             "packed": false
         },
         {
             "name": "cxgb3_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/cxgb3_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/cxgb3_firmware.tag.gz",
             "sha256": "8b4a9ff5f3862f40417e3d1df173497fc23f6736c7c2d6c34298938ba3eb90ce",
             "packed": false
         },
         {
             "name": "install-cxgb3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/install-cxgb3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/broadwellnk-4.4.180/install-cxgb3.sh",
             "sha256": "b8f7d4ca1a16e30f28298ab84f755b834c68dac29674a2b8a9b49ade6fc18893",
             "packed": false
         }

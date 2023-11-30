@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mptscsih.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/mptscsih.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/mptscsih.ko",
             "sha256": "e5c529127392cdbad7d182c4870a2e62987c9d66fc3de2b5713f6c886ce54787",
             "packed": false
         },
         {
             "name": "mptbase.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/mptbase.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/mptbase.ko",
             "sha256": "41247caf3c292f91c0289402a9b110fee2653ef7c2621c72e76585b25f46af35",
             "packed": false
         },
         {
             "name": "scsi_transport_spi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/scsi_transport_spi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/scsi_transport_spi.ko",
             "sha256": "2e1dff59b1e693bd3d05376d91141683fb02efa06d7eb51bd19c3cc078c876a1",
             "packed": false
         },
         {
             "name": "mptspi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/mptspi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/mptspi.ko",
             "sha256": "88890c834402c096e3b1820a60b16ab278dce7af3b8e1bf7461e476fdb5c9ac5",
             "packed": false
         },
         {
             "name": "check-mptspi.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/check-mptspi.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/geminilake-4.4.180/check-mptspi.sh",
             "sha256": "54872bbf44876aaf8f8672226c6852d9371c9c9d8f0b098214e3e09e0a6dd653",
             "packed": false
         }

@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "bcm-phy-lib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/epyc7002-7.2-5.10.55/bcm-phy-lib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/broadcom/epyc7002-7.2-5.10.55/bcm-phy-lib.ko",
             "sha256": "6dada48ad9e057505916b275aa99f3e1778114b816b22597b81005d7fe53e715",
             "packed": false
         },
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/epyc7002-7.2-5.10.55/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/broadcom/epyc7002-7.2-5.10.55/libphy.ko",
             "sha256": "53cb323256892d6402a905e06b55cde10a7602ac420c8e4a3bb1afd3795dd24d",
             "packed": false
         },
         {
             "name": "broadcom.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/epyc7002-7.2-5.10.55/broadcom.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/broadcom/epyc7002-7.2-5.10.55/broadcom.ko",
             "sha256": "f38fe7e31fc23962ae3806b6d0b09984fa4df25131b47ce7aadf6179f952eafe",
             "packed": false
         },
         {
             "name": "check-broadcom.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/broadcom/epyc7002-7.2-5.10.55/check-broadcom.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/broadcom/epyc7002-7.2-5.10.55/check-broadcom.sh",
             "sha256": "fe69e4932f9fe4e19f96dcc025a18ffb28f8fcd1994fe66605a5cb2a5877e1f9",
             "packed": false
         }

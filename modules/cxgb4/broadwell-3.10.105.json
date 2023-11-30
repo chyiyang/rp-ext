@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "cxgb4.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/broadwell-3.10.105/cxgb4.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb4/broadwell-3.10.105/cxgb4.ko",
             "sha256": "c5a6e12d99dc859b3f7e78ef17d24552d8f9512a0ccfb7ebe886bc6f50382472",
             "packed": false
         },
         {
             "name": "check-cxgb4.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/broadwell-3.10.105/check-cxgb4.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb4/broadwell-3.10.105/check-cxgb4.sh",
             "sha256": "7131e1c44a73ea6454de1db1571e116619bc0b040822d750e33197899ecd3afe",
             "packed": false
         },
         {
             "name": "cxgb4_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/broadwell-3.10.105/cxgb4_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb4/broadwell-3.10.105/cxgb4_firmware.tag.gz",
             "sha256": "ef4230ae8dcb6e54d7adb7c04d4479c1907aab7c1482b364c0ce7a4da66d45ae",
             "packed": false
         },
         {
             "name": "install-cxgb4.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/broadwell-3.10.105/install-cxgb4.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb4/broadwell-3.10.105/install-cxgb4.sh",
             "sha256": "1ecca0440aee8408d1bdc03605075a93198ac94f281f17a9fa33c0051d9e04fc",
             "packed": false
         }

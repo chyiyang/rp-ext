@@ -3,13 +3,13 @@
     "files": [
         {
             "name": "ehci-hcd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/braswell-3.10.108/ehci-hcd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ehci-hcd/braswell-3.10.108/ehci-hcd.ko",
             "sha256": "a70612dadc0d6d15d3a0b60bf80077e606a386487e3cb19a22b0c89b44723bf7",
             "packed": false
         },
         {
             "name": "check-ehci-hcd.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-hcd/braswell-3.10.108/check-ehci-hcd.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ehci-hcd/braswell-3.10.108/check-ehci-hcd.sh",
             "sha256": "62ffda1072a2ac674289233daa37592fb9d3f225443f9c3d2970030562aa13cf",
             "packed": false
         }

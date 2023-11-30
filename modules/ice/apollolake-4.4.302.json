@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "auxiliary.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/apollolake-4.4.302/auxiliary.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ice/apollolake-4.4.302/auxiliary.ko",
             "sha256": "58ac27bca9dcf84e1dd5b7c3c9dca156c49972b20a68c12d70a2237b165bb9be",
             "packed": false
         },
         {
             "name": "ice.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/apollolake-4.4.302/ice.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ice/apollolake-4.4.302/ice.ko",
             "sha256": "b721346433721fe4fc91361fe1c7a9d1da5432d5f8aeef5b0acf581f137d064e",
             "packed": false
         },
         {
             "name": "check-ice.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ice/apollolake-4.4.302/check-ice.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ice/apollolake-4.4.302/check-ice.sh",
             "sha256": "1f8e01a7316db89bcbb979b8fca887d45586155bed2713d40a504c6e389ede4c",
             "packed": false
         }

@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "usbnet.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/broadwellnk-4.4.180/usbnet.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/broadwellnk-4.4.180/usbnet.ko",
             "sha256": "0851300ef231a481f815d24aec51c84ff178ca3f5b2baffd2b7c45a090059218",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/broadwellnk-4.4.180/cdc_ncm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/broadwellnk-4.4.180/cdc_ncm.ko",
             "sha256": "ef407558182336fc757d9ba0d846a92fef9be65e7f690fdb0dde138ec1c29284",
             "packed": false
         },
         {
             "name": "check-cdc_ncm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/broadwellnk-4.4.180/check-cdc_ncm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/broadwellnk-4.4.180/check-cdc_ncm.sh",
             "sha256": "840a124f5d42d6be6152b099032e88fbd1d43cfbbd91928df4ca8dccdcbbb34c",
             "packed": false
         }

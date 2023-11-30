@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cqhci/epyc7002-7.1-5.10.55/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cqhci/epyc7002-7.1-5.10.55/mmc_core.ko",
             "sha256": "4a6f268dc2419d0e0f3ed7ecb8e5a7966041a1687146581b01bcbce6fc7c3a92",
             "packed": false
         },
         {
             "name": "cqhci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cqhci/epyc7002-7.1-5.10.55/cqhci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cqhci/epyc7002-7.1-5.10.55/cqhci.ko",
             "sha256": "53d5a19c054dca5fa6eb0dfd73b7d1720143205b09eae8ffc92d082fcf82bff6",
             "packed": false
         },
         {
             "name": "check-cqhci.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cqhci/epyc7002-7.1-5.10.55/check-cqhci.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cqhci/epyc7002-7.1-5.10.55/check-cqhci.sh",
             "sha256": "75579c8b008c84f170d86cc6718e6feb1ae39eda8b506d8959057fb209cf039c",
             "packed": false
         }

@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mii.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/mii.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/mii.ko",
             "sha256": "f3f0ccb97240777d74ff771f33595b12e05246489f2de9a1a88258070a9758a6",
             "packed": false
         },
         {
             "name": "r8169_lk.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/r8169_lk.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/r8169_lk.ko",
             "sha256": "0f6dedcb1f1a5bb439cf7433ec72e6ca5c93449a4ecf2aac03cdb7069f432667",
             "packed": false
         },
         {
             "name": "check-r8169_lk.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/check-r8169_lk.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/check-r8169_lk.sh",
             "sha256": "f4bffd3cab4d1b3c316f7d70eb55609e62b1e338f4ae83988ff7a095125e9c47",
             "packed": false
         },
         {
             "name": "r8169_lk_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/r8169_lk_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/r8169_lk_firmware.tag.gz",
             "sha256": "cce85ec52729ed66039608d1ca29b318da8c3cc957d0c98caac32d8a9cd1e4f7",
             "packed": false
         },
         {
             "name": "install-r8169_lk.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/install-r8169_lk.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/r8169_lk/v1000-4.4.302/install-r8169_lk.sh",
             "sha256": "ad1703d47256f5ed5587b1fd6d11d36f0e1bac8db9cd2382e2d98fb8ed054be4",
             "packed": false
         }

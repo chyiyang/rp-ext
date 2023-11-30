@@ -3,13 +3,13 @@
     "files": [
         {
             "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/r1000-4.4.302/virtio_ring.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_ring/r1000-4.4.302/virtio_ring.ko",
             "sha256": "45d719ab422daa2f4854ac17eacede8815f7651939c14766920dc579e4c252e5",
             "packed": false
         },
         {
             "name": "check-virtio_ring.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/r1000-4.4.302/check-virtio_ring.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_ring/r1000-4.4.302/check-virtio_ring.sh",
             "sha256": "f908b532cc1cec2216ca39369fec8bf7aab959478284995650bae26c53e9e113",
             "packed": false
         }

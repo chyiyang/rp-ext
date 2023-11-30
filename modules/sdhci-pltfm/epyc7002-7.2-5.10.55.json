@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "sdhci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/epyc7002-7.2-5.10.55/sdhci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci-pltfm/epyc7002-7.2-5.10.55/sdhci.ko",
             "sha256": "ac381e873d55e50237c39bf72cbde5ad0e610d07f95ffe9108d1dc3f5d596b98",
             "packed": false
         },
         {
             "name": "sdhci-pltfm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/epyc7002-7.2-5.10.55/sdhci-pltfm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci-pltfm/epyc7002-7.2-5.10.55/sdhci-pltfm.ko",
             "sha256": "a6221abe0b9cfd7c475721f11cda3721adf301bb49afe43bb1305a78abea7d35",
             "packed": false
         },
         {
             "name": "check-sdhci-pltfm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci-pltfm/epyc7002-7.2-5.10.55/check-sdhci-pltfm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci-pltfm/epyc7002-7.2-5.10.55/check-sdhci-pltfm.sh",
             "sha256": "b568afa813aefe7eccd85543db656307398909fdee03b53d296d3f4e7c0e46a2",
             "packed": false
         }

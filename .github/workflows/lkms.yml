@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 Ing <https://github.com/wjz304>
+# Copyright (C) 2022 Ing <https://github.com/chenxudong2020>
 # 
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
@@ -27,10 +27,10 @@ jobs:
 
       - name: Checkout lkms
         run: |
-          TAG=`curl -skL "https://api.github.com/repos/wjz304/redpill-lkm/releases" | jq -r ".[0].tag_name" 2>/dev/null`
+          TAG=`curl -skL "https://api.github.com/repos/chenxudong2020/redpill-lkm/releases" | jq -r ".[0].tag_name" 2>/dev/null`
           [ -z "${TAG}" ] && echo "get tag error" || echo "TAG: ${TAG}"
 
-          curl -#kL "https://github.com/wjz304/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o "/tmp/rp-lkms.zip"
+          curl -#kL "https://github.com/chenxudong2020/redpill-lkm/releases/download/${TAG}/rp-lkms.zip" -o "/tmp/rp-lkms.zip"
           if [ ! -f "/tmp/rp-lkms.zip" ]; then
             echo "get zip error"
             exit 1

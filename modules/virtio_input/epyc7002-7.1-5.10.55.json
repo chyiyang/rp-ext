@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/virtio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/virtio.ko",
             "sha256": "cbc807e81f1f84d5f5efd7323d5d7c156a73e7f91a0637381e2a678b67917deb",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/virtio_ring.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/virtio_ring.ko",
             "sha256": "758e6dd2848082eabe49d6a0843b4fa675cf54df6238d5d882aa4ff05a23ff2a",
             "packed": false
         },
         {
             "name": "virtio_input.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/virtio_input.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/virtio_input.ko",
             "sha256": "59b253caf446397281383a9623afcbf20230bea9c01ff1455ec1cdff66fec7fe",
             "packed": false
         },
         {
             "name": "check-virtio_input.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/check-virtio_input.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/epyc7002-7.1-5.10.55/check-virtio_input.sh",
             "sha256": "f83496c28dfba446107625ddd7b4868d5cbbfe4bdb620641bc87c8c37bb015d7",
             "packed": false
         }

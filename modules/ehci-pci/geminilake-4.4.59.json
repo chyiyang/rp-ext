@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "ehci-hcd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/geminilake-4.4.59/ehci-hcd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ehci-pci/geminilake-4.4.59/ehci-hcd.ko",
             "sha256": "108c711a6de49d6d6178c45ec4f4ee300571b90448f4680f3ad9693f3602b9a1",
             "packed": false
         },
         {
             "name": "ehci-pci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/geminilake-4.4.59/ehci-pci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ehci-pci/geminilake-4.4.59/ehci-pci.ko",
             "sha256": "75484ada0c5d9133f917258a9c4227244e1b67ad9811df62c1f36d41b1c94978",
             "packed": false
         },
         {
             "name": "check-ehci-pci.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/ehci-pci/geminilake-4.4.59/check-ehci-pci.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/ehci-pci/geminilake-4.4.59/check-ehci-pci.sh",
             "sha256": "3b6c212f8b0ea7bee398f97ed6d1cb73d5f4e08f8c986dae9064146d9b1ee907",
             "packed": false
         }

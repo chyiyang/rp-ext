@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.302/virtio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.302/virtio.ko",
             "sha256": "cf41326877387457cb7d171c5747b2b170bcd62eb9b51a2bfb4e6da4c266991b",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.302/virtio_ring.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.302/virtio_ring.ko",
             "sha256": "f37d70474625b7bf3f8ae31557f18945edcbf2a711f6a362b6c4849cc3230e26",
             "packed": false
         },
         {
             "name": "virtio_input.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.302/virtio_input.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.302/virtio_input.ko",
             "sha256": "71183d7b7cb91eb6cc65420e0ebe23daa29e5047959ebad6d52beb7a2acd51e8",
             "packed": false
         },
         {
             "name": "check-virtio_input.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.302/check-virtio_input.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/geminilake-4.4.302/check-virtio_input.sh",
             "sha256": "f83496c28dfba446107625ddd7b4868d5cbbfe4bdb620641bc87c8c37bb015d7",
             "packed": false
         }

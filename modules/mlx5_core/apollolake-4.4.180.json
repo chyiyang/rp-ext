@@ -3,13 +3,13 @@
     "files": [
         {
             "name": "mlx5_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/apollolake-4.4.180/mlx5_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_core/apollolake-4.4.180/mlx5_core.ko",
             "sha256": "b2166b4fd39fcdd6203425b360b35bb28aa2855291db989a4fb5f6dab89659eb",
             "packed": false
         },
         {
             "name": "check-mlx5_core.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx5_core/apollolake-4.4.180/check-mlx5_core.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx5_core/apollolake-4.4.180/check-mlx5_core.sh",
             "sha256": "52b5812885e0973eb0854f7a47154d62a5d75a086c99c0843db04c2417620861",
             "packed": false
         }

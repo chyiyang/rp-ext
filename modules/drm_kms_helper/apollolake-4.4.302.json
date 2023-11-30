@@ -3,67 +3,67 @@
     "files": [
         {
             "name": "drm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/drm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/drm.ko",
             "sha256": "e70c971cb93e07c5e94930918eb20b2600b85c9a476c472eae1201247ef9aaaa",
             "packed": false
         },
         {
             "name": "fb.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/fb.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/fb.ko",
             "sha256": "08aae9b3728023af476d5817d804f1355f5a87474033d5e8f75774fa3f5fbc95",
             "packed": false
         },
         {
             "name": "fb_sys_fops.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/fb_sys_fops.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/fb_sys_fops.ko",
             "sha256": "e98961550b6fc1c76a7e9c8d0dd9b62471d5d0b26a3f11fd120f13156f350889",
             "packed": false
         },
         {
             "name": "cfbfillrect.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/cfbfillrect.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/cfbfillrect.ko",
             "sha256": "a37291cfc17b91afa59c6a8b28a72f4ec625897f9e680df0a59f97e8de92f274",
             "packed": false
         },
         {
             "name": "syscopyarea.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/syscopyarea.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/syscopyarea.ko",
             "sha256": "cd0f8c38e2bb8bf0c5e5936da44b5ca2846ae0d0c5c6ee147dbf34f5128a476e",
             "packed": false
         },
         {
             "name": "cfbimgblt.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/cfbimgblt.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/cfbimgblt.ko",
             "sha256": "4598c25f6c74ca9786555a22ec034752f2b6c46df8728430b6f74741842fd353",
             "packed": false
         },
         {
             "name": "sysfillrect.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/sysfillrect.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/sysfillrect.ko",
             "sha256": "862dc930f3b58bf53a93eefe8ddb7d5552b4025198ba85078f105a127902788e",
             "packed": false
         },
         {
             "name": "sysimgblt.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/sysimgblt.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/sysimgblt.ko",
             "sha256": "f7801227c2ec65c6a2feb564b5c0fa4240140ce820c08f1e10f23d49e6f75e55",
             "packed": false
         },
         {
             "name": "cfbcopyarea.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/cfbcopyarea.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/cfbcopyarea.ko",
             "sha256": "c3d80838c3c262b0f4578c3ffd780a4f47492ffae84979b9205d39b1babf17ee",
             "packed": false
         },
         {
             "name": "drm_kms_helper.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/drm_kms_helper.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/drm_kms_helper.ko",
             "sha256": "1e6130940197a9b1a882d14ade1f9fc60c625743a43c789dddb1dba0507ccdb1",
             "packed": false
         },
         {
             "name": "check-drm_kms_helper.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/check-drm_kms_helper.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/drm_kms_helper/apollolake-4.4.302/check-drm_kms_helper.sh",
             "sha256": "318a5ad771b1c043a9ea90d3027d8a0b9ef0a09cb650e59ce2fd612a718fa269",
             "packed": false
         }

@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "cxgb4.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/cxgb4.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/cxgb4.ko",
             "sha256": "19ab1fa31ba04f70655fcdf3f922a154e6a3b6b6585a1c76fdb19787ed591b2a",
             "packed": false
         },
         {
             "name": "check-cxgb4.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/check-cxgb4.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/check-cxgb4.sh",
             "sha256": "7131e1c44a73ea6454de1db1571e116619bc0b040822d750e33197899ecd3afe",
             "packed": false
         },
         {
             "name": "cxgb4_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/cxgb4_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/cxgb4_firmware.tag.gz",
             "sha256": "61c90633e4e884b81eb59db25ce007e00073c41e39b51dee6a01e81dd596a497",
             "packed": false
         },
         {
             "name": "install-cxgb4.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/install-cxgb4.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb4/r1000-4.4.180/install-cxgb4.sh",
             "sha256": "1ecca0440aee8408d1bdc03605075a93198ac94f281f17a9fa33c0051d9e04fc",
             "packed": false
         }

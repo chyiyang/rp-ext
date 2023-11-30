@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "virtio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio.ko",
             "sha256": "31b8832879f2869e662e755d528c3861fa05fce89347a05653037ef0adadd176",
             "packed": false
         },
         {
             "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio_ring.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio_ring.ko",
             "sha256": "b6f6c8113f3210a479e5f30afebe2a538ce32d5a61e11c4105763f9b0674417f",
             "packed": false
         },
         {
             "name": "virtio_input.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio_input.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/virtio_input.ko",
             "sha256": "42eb2981bbb1ddcbd44824c6662e2c85b337f41b21129002d1ddeefbd22d7057",
             "packed": false
         },
         {
             "name": "check-virtio_input.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/check-virtio_input.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_input/denverton-4.4.302/check-virtio_input.sh",
             "sha256": "f83496c28dfba446107625ddd7b4868d5cbbfe4bdb620641bc87c8c37bb015d7",
             "packed": false
         }

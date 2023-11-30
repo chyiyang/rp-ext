@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mdio.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/mdio.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/mdio.ko",
             "sha256": "98bcf9f588e72e3eae1385f1f85f9dbc247ce94f22b26ecb17423d0a06a92151",
             "packed": false
         },
         {
             "name": "cxgb3.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/cxgb3.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/cxgb3.ko",
             "sha256": "9fa7f5bb3b701c1c49a29f181aa253402e4a006fb8c32b0076791cd9630ee451",
             "packed": false
         },
         {
             "name": "check-cxgb3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/check-cxgb3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/check-cxgb3.sh",
             "sha256": "027e543cf8b835b88abe7c6904ab386046c9a559aa977d6382009ce8e25fd260",
             "packed": false
         },
         {
             "name": "cxgb3_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/cxgb3_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/cxgb3_firmware.tag.gz",
             "sha256": "6258ed9de8ce414e50f263eebb30651f4d6162d675a6446e3cef73160de6bc21",
             "packed": false
         },
         {
             "name": "install-cxgb3.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/install-cxgb3.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cxgb3/v1000-4.4.180/install-cxgb3.sh",
             "sha256": "b8f7d4ca1a16e30f28298ab84f755b834c68dac29674a2b8a9b49ade6fc18893",
             "packed": false
         }

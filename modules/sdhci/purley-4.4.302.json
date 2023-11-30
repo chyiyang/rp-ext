@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/purley-4.4.302/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/purley-4.4.302/mmc_core.ko",
             "sha256": "56f1788f736aadbdd7e43d0ed891c7c6924338cc2ed64392d450f844eebbe5d5",
             "packed": false
         },
         {
             "name": "sdhci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/purley-4.4.302/sdhci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/purley-4.4.302/sdhci.ko",
             "sha256": "e29d1554b0d89863ed209a81e8b81f3587de758a3376ae26343655fd0da1c9e5",
             "packed": false
         },
         {
             "name": "check-sdhci.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/purley-4.4.302/check-sdhci.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/purley-4.4.302/check-sdhci.sh",
             "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
             "packed": false
         }

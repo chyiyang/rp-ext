@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "kvm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/epyc7002-7.2-5.10.55/kvm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/epyc7002-7.2-5.10.55/kvm.ko",
             "sha256": "093525c36c73e865e4aae75144744977507b339f3e600d254632c7319005582b",
             "packed": false
         },
         {
             "name": "kvm-amd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/epyc7002-7.2-5.10.55/kvm-amd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/epyc7002-7.2-5.10.55/kvm-amd.ko",
             "sha256": "38df22a9e425e84a46a64f2a17a21e3d854e0a0a659fc3e3b8db05a6cc36269d",
             "packed": false
         },
         {
             "name": "check-kvm-amd.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/kvm-amd/epyc7002-7.2-5.10.55/check-kvm-amd.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/kvm-amd/epyc7002-7.2-5.10.55/check-kvm-amd.sh",
             "sha256": "5ea91215f63363b4c8743778eee3dd93ae6318ce6581980be17463d59637e33f",
             "packed": false
         }

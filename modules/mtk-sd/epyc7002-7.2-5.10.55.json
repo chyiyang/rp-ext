@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.2-5.10.55/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.2-5.10.55/mmc_core.ko",
             "sha256": "730e5edb57f9b70c99f817d7ab7d008f70f0eeff8f471cf6977adb59f93a238c",
             "packed": false
         },
         {
             "name": "cqhci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.2-5.10.55/cqhci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.2-5.10.55/cqhci.ko",
             "sha256": "4d7132e3dd4bd74c2a3cc95924fd4320964e8b56ee5c5fa2ef158db4ad70cefc",
             "packed": false
         },
         {
             "name": "mtk-sd.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.2-5.10.55/mtk-sd.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.2-5.10.55/mtk-sd.ko",
             "sha256": "20acbedcfb1915b82c218ac8e9cb222fdac4c57547fbce386ee40a456f66c9c6",
             "packed": false
         },
         {
             "name": "check-mtk-sd.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.2-5.10.55/check-mtk-sd.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mtk-sd/epyc7002-7.2-5.10.55/check-mtk-sd.sh",
             "sha256": "00e6f4f9ecbc387b539676258c4c48c57a01e418a4b06aec5332d2a22cc175b4",
             "packed": false
         }

@@ -3,13 +3,13 @@
     "files": [
         {
             "name": "virtio_ring.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/denverton-4.4.302/virtio_ring.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_ring/denverton-4.4.302/virtio_ring.ko",
             "sha256": "b6f6c8113f3210a479e5f30afebe2a538ce32d5a61e11c4105763f9b0674417f",
             "packed": false
         },
         {
             "name": "check-virtio_ring.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_ring/denverton-4.4.302/check-virtio_ring.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_ring/denverton-4.4.302/check-virtio_ring.sh",
             "sha256": "f908b532cc1cec2216ca39369fec8bf7aab959478284995650bae26c53e9e113",
             "packed": false
         }

@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/purley-4.4.180/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/purley-4.4.180/libphy.ko",
             "sha256": "94a3856ff006a897111084320b57367f034da5e4ac5fba7e19041bd086cddf11",
             "packed": false
         },
         {
             "name": "bcm-phy-lib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/purley-4.4.180/bcm-phy-lib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/purley-4.4.180/bcm-phy-lib.ko",
             "sha256": "00be1aa3765e0e0ad49352f2bdfc21d731cd1fa350ddb73fb7664f69d191fbd0",
             "packed": false
         },
         {
             "name": "check-bcm-phy-lib.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/purley-4.4.180/check-bcm-phy-lib.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/purley-4.4.180/check-bcm-phy-lib.sh",
             "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
             "packed": false
         }

@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "qlcnic.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.302/qlcnic.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.302/qlcnic.ko",
             "sha256": "3f9c3f2c92c7a9cabd9e908aba2a50211808108b1d8065da6f894f336475ed2b",
             "packed": false
         },
         {
             "name": "check-qlcnic.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.302/check-qlcnic.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.302/check-qlcnic.sh",
             "sha256": "2120fef1be9764915ea5ac76a79c4eef8b5389e075ad9f1a7d087eb69147aff7",
             "packed": false
         },
         {
             "name": "qlcnic_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.302/qlcnic_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.302/qlcnic_firmware.tag.gz",
             "sha256": "65fb84547a2a8ef275be2b4180f425d9f9d75f532d45eff3c25d1452473a65da",
             "packed": false
         },
         {
             "name": "install-qlcnic.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.302/install-qlcnic.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/qlcnic/broadwellnk-4.4.302/install-qlcnic.sh",
             "sha256": "ffae6a534b601a07e7f68b1a39ceedf6ea902d4ad0b9098953ea954a71ee2107",
             "packed": false
         }

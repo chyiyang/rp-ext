@@ -3,67 +3,67 @@
     "files": [
         {
             "name": "drm_kms_helper.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/drm_kms_helper.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/drm_kms_helper.ko",
             "sha256": "580ada909d195a881b9136e9774f4007f8b59965b4b46c5d0cd2b219bd174a9e",
             "packed": false
         },
         {
             "name": "drm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/drm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/drm.ko",
             "sha256": "7877250b1e6c6697f7bacff839137f3ed116cd9ca5557dd370ea4c0ed61dd7fa",
             "packed": false
         },
         {
             "name": "iosf_mbi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/iosf_mbi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/iosf_mbi.ko",
             "sha256": "e7cf0890d5476bd8ba9bf5681de201ba9b14b57c72e2456024ed28be00913358",
             "packed": false
         },
         {
             "name": "backlight.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/backlight.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/backlight.ko",
             "sha256": "0803a4a09edcb26e825f35a4b23e2bb0b6dfa2ee6c076f99a8bc0fc88acf2249",
             "packed": false
         },
         {
             "name": "video.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/video.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/video.ko",
             "sha256": "e7b0ca000cfd21b87964cb1e4ddaec35271f589302169027c7a3416b7d6c1203",
             "packed": false
         },
         {
             "name": "fb.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/fb.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/fb.ko",
             "sha256": "c063a5887130f52018d3e4b2bbeebe12b6e49b9d852ccb32bbf1c7ebf5aa60d8",
             "packed": false
         },
         {
             "name": "button.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/button.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/button.ko",
             "sha256": "40f6a6c40827784ac8736a82dbdfd7bd667ae1ef5d8048f47f2c7286931ba5b8",
             "packed": false
         },
         {
             "name": "i915.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/i915.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/i915.ko",
             "sha256": "93a80a7461005a79386591ff772b151c7f14c95b954bea2d0aea0406a72650a9",
             "packed": false
         },
         {
             "name": "check-i915.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/check-i915.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/check-i915.sh",
             "sha256": "5c587e62156e8617f519ffd024017bad545008b649faad2d12fe1915a5248880",
             "packed": false
         },
         {
             "name": "i915_firmware.tag.gz",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/i915_firmware.tag.gz",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/i915_firmware.tag.gz",
             "sha256": "15f3b2da787781113dde3599e3a41921e7e633f1b6ee844245896c1483d8e849",
             "packed": false
         },
         {
             "name": "install-i915.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i915/geminilake-4.4.180/install-i915.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i915/geminilake-4.4.180/install-i915.sh",
             "sha256": "c7826a82b7d10c86026dbbf3c2542d555d1238dfb6a291d49433b8dacf128fa8",
             "packed": false
         }

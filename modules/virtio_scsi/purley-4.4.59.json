@@ -3,13 +3,13 @@
     "files": [
         {
             "name": "virtio_scsi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/purley-4.4.59/virtio_scsi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_scsi/purley-4.4.59/virtio_scsi.ko",
             "sha256": "34e7e634a82274f968ab6c8615fdd5ca723bb1ef29206c6ef8bebf92ea176c81",
             "packed": false
         },
         {
             "name": "check-virtio_scsi.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/virtio_scsi/purley-4.4.59/check-virtio_scsi.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/virtio_scsi/purley-4.4.59/check-virtio_scsi.sh",
             "sha256": "e3c03970c21307bd5f9f9b7c9d95d89054d0b482026bf05c25b0733cf676d898",
             "packed": false
         }

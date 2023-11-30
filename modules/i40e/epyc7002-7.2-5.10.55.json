@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "intel_auxiliary.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/epyc7002-7.2-5.10.55/intel_auxiliary.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i40e/epyc7002-7.2-5.10.55/intel_auxiliary.ko",
             "sha256": "4a0b199ccdce2ea702a6491c90b9adbda316f921f196471629942cda34189180",
             "packed": false
         },
         {
             "name": "i40e.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/epyc7002-7.2-5.10.55/i40e.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i40e/epyc7002-7.2-5.10.55/i40e.ko",
             "sha256": "117d91368b875c1cafef02cb8d36da28500348d2cfe74b6096db2a2306b36dc6",
             "packed": false
         },
         {
             "name": "check-i40e.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/i40e/epyc7002-7.2-5.10.55/check-i40e.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/i40e/epyc7002-7.2-5.10.55/check-i40e.sh",
             "sha256": "95b60e623484ba6d9671bc6de51787bd0784d5b82c0f465f41323cd1f8b7301c",
             "packed": false
         }

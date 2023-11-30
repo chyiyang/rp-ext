@@ -3,31 +3,31 @@
     "files": [
         {
             "name": "mptscsih.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.302/mptscsih.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/purley-4.4.302/mptscsih.ko",
             "sha256": "4c76a112b9cca46b58df6278215142786cc82ba2ca20bbc0f9fd7375b74c36b3",
             "packed": false
         },
         {
             "name": "mptbase.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.302/mptbase.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/purley-4.4.302/mptbase.ko",
             "sha256": "bc1bb162c2c768ef4f3cebfdda64a1c0dbc17e777a71a3be860041ccd46d0fdc",
             "packed": false
         },
         {
             "name": "scsi_transport_spi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.302/scsi_transport_spi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/purley-4.4.302/scsi_transport_spi.ko",
             "sha256": "22d935d7c111698e82011a5712a91e6773f5d6b945ffe874e1ce68bad8aab0bc",
             "packed": false
         },
         {
             "name": "mptspi.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.302/mptspi.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/purley-4.4.302/mptspi.ko",
             "sha256": "a9d8e9b09b68bceb28c4c1987fefe0dcd4b701f5c6e8b47a15f7631ea66f1f6c",
             "packed": false
         },
         {
             "name": "check-mptspi.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mptspi/purley-4.4.302/check-mptspi.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mptspi/purley-4.4.302/check-mptspi.sh",
             "sha256": "54872bbf44876aaf8f8672226c6852d9371c9c9d8f0b098214e3e09e0a6dd653",
             "packed": false
         }

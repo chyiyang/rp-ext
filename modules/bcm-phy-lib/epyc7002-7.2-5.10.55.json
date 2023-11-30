@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "libphy.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/epyc7002-7.2-5.10.55/libphy.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/epyc7002-7.2-5.10.55/libphy.ko",
             "sha256": "53cb323256892d6402a905e06b55cde10a7602ac420c8e4a3bb1afd3795dd24d",
             "packed": false
         },
         {
             "name": "bcm-phy-lib.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/epyc7002-7.2-5.10.55/bcm-phy-lib.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/epyc7002-7.2-5.10.55/bcm-phy-lib.ko",
             "sha256": "6dada48ad9e057505916b275aa99f3e1778114b816b22597b81005d7fe53e715",
             "packed": false
         },
         {
             "name": "check-bcm-phy-lib.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/bcm-phy-lib/epyc7002-7.2-5.10.55/check-bcm-phy-lib.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/bcm-phy-lib/epyc7002-7.2-5.10.55/check-bcm-phy-lib.sh",
             "sha256": "b5f0d6bc61d236ea07c1f1bd712bcfcfb2c6af1ed4d428754c48fdbc2481fb97",
             "packed": false
         }

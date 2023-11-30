@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "usbnet.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-7.1-5.10.55/usbnet.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/epyc7002-7.1-5.10.55/usbnet.ko",
             "sha256": "7deeda1a6c47bdd8898f2463084c3154fa682244f1e04e21e4cd0949084bd47c",
             "packed": false
         },
         {
             "name": "cdc_ncm.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-7.1-5.10.55/cdc_ncm.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/epyc7002-7.1-5.10.55/cdc_ncm.ko",
             "sha256": "91b12ea28a3920b7039adaa1dd0e3d25b4beaa417968ac3c6a3036117c23a9cf",
             "packed": false
         },
         {
             "name": "check-cdc_ncm.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/cdc_ncm/epyc7002-7.1-5.10.55/check-cdc_ncm.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/cdc_ncm/epyc7002-7.1-5.10.55/check-cdc_ncm.sh",
             "sha256": "840a124f5d42d6be6152b099032e88fbd1d43cfbbd91928df4ca8dccdcbbb34c",
             "packed": false
         }

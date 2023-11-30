@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mmc_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/epyc7002-7.2-5.10.55/mmc_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/epyc7002-7.2-5.10.55/mmc_core.ko",
             "sha256": "730e5edb57f9b70c99f817d7ab7d008f70f0eeff8f471cf6977adb59f93a238c",
             "packed": false
         },
         {
             "name": "sdhci.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/epyc7002-7.2-5.10.55/sdhci.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/epyc7002-7.2-5.10.55/sdhci.ko",
             "sha256": "ac381e873d55e50237c39bf72cbde5ad0e610d07f95ffe9108d1dc3f5d596b98",
             "packed": false
         },
         {
             "name": "check-sdhci.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/sdhci/epyc7002-7.2-5.10.55/check-sdhci.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/sdhci/epyc7002-7.2-5.10.55/check-sdhci.sh",
             "sha256": "d40c9e4e9af3c913ff30a72fc2ea441eb9066ffb138f579c2ebd0bd81dcfd267",
             "packed": false
         }

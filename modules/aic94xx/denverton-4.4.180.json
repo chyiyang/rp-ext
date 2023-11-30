@@ -3,25 +3,25 @@
     "files": [
         {
             "name": "libsas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/denverton-4.4.180/libsas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/denverton-4.4.180/libsas.ko",
             "sha256": "2c80695d1b14705363c8a88bd9aa640fe8ea5be10fbf4d6b430bafc30413a523",
             "packed": false
         },
         {
             "name": "scsi_transport_sas.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/denverton-4.4.180/scsi_transport_sas.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/denverton-4.4.180/scsi_transport_sas.ko",
             "sha256": "0b05a5fd0d58d561ed8d64d37ee396b48f0d5906f68e6743649b00c1c908f58a",
             "packed": false
         },
         {
             "name": "aic94xx.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/denverton-4.4.180/aic94xx.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/denverton-4.4.180/aic94xx.ko",
             "sha256": "fdd8a9f35ac57009cd65c6439e59b758f8c5a5d041fb5c687134d4ae7a139b40",
             "packed": false
         },
         {
             "name": "check-aic94xx.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/aic94xx/denverton-4.4.180/check-aic94xx.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/aic94xx/denverton-4.4.180/check-aic94xx.sh",
             "sha256": "6db4adc450e61ed3a6dc061bf1aa1cba257e3d18ceb2ba60719c9b9432d54cb3",
             "packed": false
         }

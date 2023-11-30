@@ -3,19 +3,19 @@
     "files": [
         {
             "name": "mlx4_core.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-7.2-5.10.55/mlx4_core.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/epyc7002-7.2-5.10.55/mlx4_core.ko",
             "sha256": "fb213e23906a64dbfaf64c501488b97c0927d69a8d43ead55674adb6d7cb8935",
             "packed": false
         },
         {
             "name": "mlx4_en.ko",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-7.2-5.10.55/mlx4_en.ko",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/epyc7002-7.2-5.10.55/mlx4_en.ko",
             "sha256": "3215243abf5a45a7cbc003874a145dc512de0a48a185010afe1f24d4a0c81982",
             "packed": false
         },
         {
             "name": "check-mlx4_en.sh",
-            "url": "https://github.com/wjz304/rp-ext/raw/main/modules/mlx4_en/epyc7002-7.2-5.10.55/check-mlx4_en.sh",
+            "url": "https://github.com/chenxudong2020/rp-ext/raw/main/modules/mlx4_en/epyc7002-7.2-5.10.55/check-mlx4_en.sh",
             "sha256": "6361d25afad0ea2e6fa3fe703113aafac3f3964689bdca30416147005e804925",
             "packed": false
         }
